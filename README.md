@@ -8,7 +8,7 @@
 
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
-Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 33 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
+Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 35 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
 ## Contents
 
@@ -41,6 +41,7 @@ Complete projects and self-contained scenes with editable source.
 - [Paper-Cut Five-Layer Motion](https://github.com/HeiGeAi/Paper-Cut/tree/main/examples/five-layer-motion) - Editorial paper collage, torn edges, print texture, and layered parallax for history, people, and concept explainers. A 20-second silent HyperFrames / GSAP scene with assembly, separation, collision, and recomposition. Replace the artwork and derived layers; extraction masks are tied to the original image and must be adjusted for new compositions.
 - [Butterfly Life](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/butterfly-life) - Procedural natural-science animation for lifecycle and process explainers. A 32-second, 17-shot vertical film with source, planning documents, music, and rendering tools. Reuse the production structure; changing the subject requires adapting drawing and scene code.
 - [Claude Quest](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/claude-quest-v2) - NES-style pixel art, a simulated CRT, and chip music for game narratives, progress metaphors, and playful technical stories. A worked film driven by a game engine and recorded controller input. Reuse the engine and presentation; adapt characters, levels, and the input sequence for a new story.
+- [Isometric Ripple Tank](https://github.com/wheresryan22/anatomy/tree/main/examples/ripple-tank) - An isometric laboratory scene combining SVG apparatus and WebGL water patterns for wave-interference explainers. Reuse the Node build script, light or dark page, and frequency/spacing controls. Adapt the model, labels, and interaction sequence; add browser recording or a controlled video timeline and audio. The example outputs HTML, not an MP4.
 
 See the [practical reuse guide](docs/reuse-guide.md) for what to replace and where the adaptation work sits.
 
@@ -74,6 +75,10 @@ The following Webreel examples record scripted browser interactions. Each includ
 - [Kanban Drag and Drop](https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop) - A scripted kanban-board demo showing cards moving between columns for task managers and workflow tutorials. Reuse the example page and drag steps; adapt card content, selectors, destinations, and pauses to your interface.
 - [Mobile Menu and Scroll](https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport) - A portrait browser walkthrough at a 390 by 844 viewport with menu opening, dismissal, and scrolling for mobile web demos and onboarding clips. Reuse the local interface and action sequence; replace the page, selectors, viewport, and timing.
 
+This browser animation component needs recording or timeline adaptation for video use.
+
+- [Staggered Line Reveal](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx) - Lines slide upward through clipped masks with a staggered reveal for titles, feature statements, and chapter cards. Reuse the React component and its duration and stagger controls. It uses Framer Motion and viewport-triggered playback; add browser recording or replace the trigger with frame-based timing for video rendering.
+
 ## Visual Style Templates
 
 These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide concrete `STYLE.md` files and demonstration films in the [style gallery](https://lemomo-ai.github.io/lemo-opuscar/). They are reusable art-direction and production instructions for a coding agent. A new subject still needs a script, assets, scene construction, and rendering; model-dependent reproduction can vary.
@@ -93,7 +98,7 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 
 ## Frameworks and Renderers
 
-These are foundations for composing or rendering your own work. They are not included in the 33 reusable examples above.
+These are foundations for composing or rendering your own work. They are not included in the 35 reusable examples above.
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).
@@ -108,6 +113,7 @@ Useful when you want a method or reusable motion primitives rather than a fixed 
 - [OneTake](https://github.com/feitangyuan/onetake) - Continuous-shot motion library, composition starter, and case breakdowns for connected product demonstrations. The free repository excludes the showcased films' source code and uses a noncommercial license; commercial access is offered separately.
 - [llm-explain](https://github.com/Gohanwu42/llm-explain) - Explainer workflow with an optional Python and FFmpeg assembler that combines local still images, narration, and captions into an MP4 with a synchronized SRT file. Useful for narrated concept slides; supply the images and audio yourself and adapt the storyboard.
 - [Remotion Agent Skills](https://github.com/remotion-dev/skills) - Official agent guidance for creating, previewing, and rendering Remotion videos, with topic-specific references for captions, maps, and multimedia. Useful for building custom React video workflows; choose your own visual direction and consult Remotion licensing terms.
+- [Six-Layer Film Production Prompt](https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ) - A Chinese article with a complete reusable production prompt covering deliverables, creative choices, technical constraints, visual rules, a central idea, and review iterations. Useful for briefing agent-made explainers or product films; replace the topic, format, and creative direction. It supplies instructions rather than a fixed visual style or executable template.
 
 ## Related Lists
 

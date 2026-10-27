@@ -226,5 +226,39 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "anatomy",
+    "name": "Anatomy",
+    "url": "https://github.com/wheresryan22/anatomy",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-27",
+    "github": {
+      "id": 1410124849,
+      "full_name": "wheresryan22/anatomy",
+      "default_branch": "main"
+    }
+  },
+  {
+    "id": "amicro",
+    "name": "Amicro",
+    "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-27",
+    "github": {
+      "id": 1297269051,
+      "full_name": "Subhan-code/Amicro--Micro-transitions-",
+      "default_branch": "main"
+    }
+  },
+  {
+    "id": "six-layer-film-prompt",
+    "name": "Six-Layer Film Prompt Article",
+    "url": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-27"
   }
 ]

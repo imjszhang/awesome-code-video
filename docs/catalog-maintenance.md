@@ -105,3 +105,5 @@ The traceability adapter creates a temporary Markdown source index and a CSV ref
 Use `--json` on catalog commands and the traceability check when another tool needs structured output. Test fixtures use `--root` to work in isolated temporary directories, so tests never alter the real candidate queue.
 
 The [2026-10-27 reconciliation](../research/reconciliation-2026-10-27.md) demonstrates the first real batch: original leads, selected resources, evidence and recorded candidate decisions.
+
+[Review batch 2](../research/review-batch-2-2026-10-27.md) records source and article reviews, including explicit browser-to-video adaptation requirements.

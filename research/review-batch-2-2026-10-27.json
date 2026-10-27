@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-27",
+  "scope": "ThreeUI, Amicro, Anatomy and seven article/post leads",
+  "counts": {
+    "reviewed": 10,
+    "accepted": 3,
+    "deferred": 7
+  },
+  "items": [
+    {
+      "candidate_id": "C-16c450a7eaa2",
+      "name": "Anatomy",
+      "status": "accepted",
+      "resource_ids": [
+        "anatomy-ripple-tank"
+      ],
+      "reviewed_urls": [
+        "https://github.com/wheresryan22/anatomy/blob/main/examples/ripple-tank/build.mjs",
+        "https://github.com/wheresryan22/anatomy/blob/main/examples/ripple-tank/live.js",
+        "https://github.com/wheresryan22/anatomy/blob/main/LICENSE"
+      ],
+      "finding": "An isometric laboratory scene combining SVG apparatus and WebGL water patterns for wave-interference explainers. Reuse the Node build script, light or dark page, and frequency/spacing controls. Adapt the model, labels, and interaction sequence; add browser recording or a controlled video timeline and audio. The example outputs HTML, not an MP4."
+    },
+    {
+      "candidate_id": "C-419aba3b2c11",
+      "name": "Amicro",
+      "status": "accepted",
+      "resource_ids": [
+        "amicro-line-reveal"
+      ],
+      "reviewed_urls": [
+        "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx",
+        "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/LICENSE"
+      ],
+      "finding": "Lines slide upward through clipped masks with a staggered reveal for titles, feature statements, and chapter cards. Reuse the React component and its duration and stagger controls. It uses Framer Motion and viewport-triggered playback; add browser recording or replace the trigger with frame-based timing for video rendering."
+    },
+    {
+      "candidate_id": "C-6b5f61be499b",
+      "name": "代码视频六层母版提示词",
+      "status": "accepted",
+      "resource_ids": [
+        "six-layer-film-prompt"
+      ],
+      "reviewed_urls": [
+        "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ"
+      ],
+      "finding": "A Chinese article with a complete reusable production prompt covering deliverables, creative choices, technical constraints, visual rules, a central idea, and review iterations. Useful for briefing agent-made explainers or product films; replace the topic, format, and creative direction. It supplies instructions rather than a fixed visual style or executable template."
+    },
+    {
+      "candidate_id": "C-45241546473d",
+      "name": "ThreeUI",
+      "status": "deferred",
+      "reviewed_urls": [
+        "https://github.com/mengto/threeui",
+        "https://github.com/MengTo/threeui/blob/main/README.md",
+        "https://github.com/MengTo/threeui/blob/main/ASSET-LICENSES.md",
+        "https://github.com/MengTo/threeui/blob/main/src/shaders/article-headings/TextAnimationCollection.tsx"
+      ],
+      "follow_up_urls": [],
+      "review_method": "Live upstream source inspection",
+      "finding": "Reviewed Community README, asset terms and TextAnimationCollection source. Free React typography variants exist; Pro/Beta source is excluded and remote previews are outside the repository license. Select and review one full renderer and its video timing/capture mechanism before admission."
+    },
+    {
+      "candidate_id": "C-48a64925d12e",
+      "name": "SVG 分层与描边动画",
+      "status": "deferred",
+      "reviewed_urls": [
+        "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag"
+      ],
+      "follow_up_urls": [],
+      "review_method": "Saved article body reviewed; live retrieval unavailable or empty",
+      "finding": "Saved article describes staggered SVG layers and stroke-dashoffset technique, and points to existing Paper-Cut and map-motion projects. No complete standalone SVG animation template was identified in the saved body. Keep as a technique lead, not a duplicate of those projects."
+    },
+    {
+      "candidate_id": "C-57500ce8a6f4",
+      "name": "SVG 科普图形提示词模板",
+      "status": "deferred",
+      "reviewed_urls": [
+        "https://mp.weixin.qq.com/s/8UaMBgWbYm-vPBrA9bj7bw"
+      ],
+      "follow_up_urls": [],
+      "review_method": "Saved article body reviewed; live retrieval unavailable or empty",
+      "finding": "Saved article contains complete graphic prompts and a static SVG card example. Static illustrations are useful inputs but require a timeline and rendering workflow before admission as video templates."
+    },
+    {
+      "candidate_id": "C-8755ad2d3ab9",
+      "name": "三维地图纹理工作流",
+      "status": "deferred",
+      "reviewed_urls": [
+        "https://mp.weixin.qq.com/s/MRMo2zzpl-M4_Oaog2Jxxg"
+      ],
+      "follow_up_urls": [],
+      "review_method": "Saved article body reviewed; live retrieval unavailable or empty",
+      "finding": "Saved article documents DataV SVG to Blender extrusion, generated textures and Three.js assembly. It explicitly leaves animation and other integration work for later; no complete reusable video project established."
+    },
+    {
+      "candidate_id": "C-d1eff8a522e8",
+      "name": "4K 宣传片代码剪辑案例",
+      "status": "deferred",
+      "reviewed_urls": [
+        "https://mp.weixin.qq.com/s/vZoP23bBLgpfrT8cka9frw"
+      ],
+      "follow_up_urls": [
+        "https://thariqs.github.io/cc-video-editing-deck/",
+        "https://x.com/trq212/status/2064826394589442448"
+      ],
+      "review_method": "Saved article body reviewed; live retrieval unavailable or empty",
+      "finding": "Saved article describes a production case, not a downloadable complete film template. Found original presentation and author-post links; presentation retrieval exceeded the web tool size limit. Verify primary artifacts and their availability before admission."
+    },
+    {
+      "candidate_id": "C-b148e365550c",
+      "name": "HTML 动态交互组件提示词模板",
+      "status": "deferred",
+      "reviewed_urls": [
+        "https://mp.weixin.qq.com/s/4ZtcRa3O8bEgw-JQhQtUPw"
+      ],
+      "follow_up_urls": [],
+      "review_method": "Saved article body reviewed; live retrieval unavailable or empty",
+      "finding": "Saved article contains a complete prompt for interactive HTML components, including a thunder example. It specifies UI states and feedback but no fixed video timeline or export contract; retain as a supporting technique lead."
+    },
+    {
+      "candidate_id": "C-217f9b1da004",
+      "name": "Remotion 孟菲斯风格终端演示",
+      "status": "deferred",
+      "reviewed_urls": [
+        "https://x.com/LufzzLiz/status/2015380566703779890"
+      ],
+      "follow_up_urls": [],
+      "review_method": "Saved article body reviewed; live retrieval unavailable or empty",
+      "finding": "Saved post contains prompts for Memphis-colored terminal typing, an expanding page transition and inserted video. Its links point to Remotion and official skills, already listed; no complete scene source was identified. User-supplied command logs and footage are still required."
+    }
+  ]
+}

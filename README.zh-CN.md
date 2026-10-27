@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 33 个可复用单元：4 个成片或场景工程、6 个地图镜头、11 个镜头配方、12 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 35 个可复用单元：5 个成片或场景工程、6 个地图镜头、12 个镜头配方、12 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -39,6 +39,7 @@
 - [Paper-Cut：五层纸片场景](https://github.com/HeiGeAi/Paper-Cut/tree/main/examples/five-layer-motion) - 纸张纹理、撕边、半调印刷与分层视差，适合历史、人物和概念说明。提供 20 秒无声 HyperFrames / GSAP 场景，包含纸片组装、炸开、碰撞与重新落版；更换图片时必须重新调整分层蒙版，不能直接沿用原图坐标。
 - [Butterfly Life](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/butterfly-life) - 用程序绘图表现生命阶段变化，适合自然科学与过程演化科普。提供 32 秒、17 镜头的竖屏影片源码、配乐、规划文档与渲染工具；更换主题通常需要改写主体绘制和镜头内容。
 - [Claude Quest](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/claude-quest-v2) - NES 像素平台游戏、CRT 显示效果与芯片音乐，适合游戏风故事、升级闯关隐喻和技术趣味短片。可复用游戏运行式影片、记录的操作轨迹和复古引擎；角色、关卡与剧情的调整需要编码。
+- [等距水波槽图解](https://github.com/wheresryan22/anatomy/tree/main/examples/ripple-tank) - 等距实验装置配 SVG 结构与 WebGL 水波，适合波的干涉与实验原理讲解。复用 Node 构建脚本、明暗主题页面和频率/间距控制，调整模型、标注与操作序列；还需浏览器录制或可控视频时间轴，并自行配音。示例输出 HTML，不直接输出 MP4。
 
 ## 参数化地图镜头
 
@@ -71,6 +72,10 @@
 - [自定义光标与按键提示](https://github.com/vercel-labs/webreel/tree/main/examples/custom-theme) - 代码编辑器界面配自定义 SVG 光标、暗色等宽按键提示，适合开发工具演示。复用本地页面和点击脚本，更换光标、提示样式、界面、选择器与节奏。
 - [看板拖拽演示](https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop) - 以看板卡片跨列拖拽展示工作流，适合任务管理工具与操作教程。复用示例页面和拖动步骤，调整卡片、选择器、目标位置和停顿。
 - [竖屏菜单与滚动](https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport) - 390 × 844 视口的竖屏浏览器演示，包含打开菜单、关闭菜单与滚动，适合移动网页介绍和上手教程。复用本地界面与操作序列，调整页面、选择器、尺寸和节奏。
+
+以下网页动效组件用于视频时需要录制或时间轴适配。
+
+- [错时逐行揭示](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx) - 多行文字从裁切遮罩下方依次滑入，适合标题、功能卖点和章节字卡。复用 React 组件及持续时间、行间延迟参数。原实现使用 Framer Motion 并由进入视口触发；用于视频需补浏览器录制，或将触发机制改成逐帧时间控制。
 
 ## 视觉风格文件
 
@@ -106,6 +111,7 @@
 - [OneTake](https://github.com/feitangyuan/onetake) - 连续运镜库、基础合成模板与案例拆解，适合有连贯变化的产品演示。免费仓库不含展示影片源码，采用非商业许可；商业授权另行提供。
 - [llm-explain](https://github.com/Gohanwu42/llm-explain) - 讲解工作流，附 Python 与 FFmpeg 合成脚本，将本地静态图片、旁白和字幕合成 MP4 与同步 SRT，适合旁白驱动的概念图解。图片与音频需自行准备，再调整分镜清单。
 - [Remotion Agent Skills](https://github.com/remotion-dev/skills) - 官方编程助手指南，覆盖 Remotion 视频创建、预览与渲染，并提供字幕、地图和多媒体专项参考。适合自建 React 视频制作流程；视觉方向需自行设计，许可按 Remotion 条款核对。
+- [六层视频制作母提示词](https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ) - 中文文章提供完整制作提示词，覆盖交付物、创作权限、制作参数、视觉规则、核心创意和审片迭代。适合用编程助手制作科普或产品影片时拟定任务；替换主题、规格与创意方向。它是制作指令，不是固定画风或可执行成片工程。
 
 ## 相关清单
 

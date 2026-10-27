@@ -85,11 +85,11 @@
     "url": "https://github.com/mengto/threeui",
     "name": "ThreeUI",
     "status": "deferred",
-    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "reason": "Reviewed Community README, asset terms and TextAnimationCollection source. Free React typography variants exist; Pro/Beta source is excluded and remote previews are outside the repository license. Select and review one full renderer and its video timing/capture mechanism before admission.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-27T06:24:12.455Z",
-    "updated_at": "2026-10-27T06:24:12.459Z",
+    "updated_at": "2026-10-27T06:39:17.580Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.455Z",
@@ -102,6 +102,18 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:39:17.571Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch source review."
+      },
+      {
+        "at": "2026-10-27T06:39:17.580Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Reviewed Community README, asset terms and TextAnimationCollection source. Free React typography variants exist; Pro/Beta source is excluded and remote previews are outside the repository license. Select and review one full renderer and its video timing/capture mechanism before admission."
       }
     ]
   },
@@ -109,12 +121,15 @@
     "id": "C-419aba3b2c11",
     "url": "https://github.com/subhan-code/amicro--micro-transitions-",
     "name": "Amicro",
-    "status": "deferred",
-    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Concrete source or complete prompt reviewed; admitted with explicit adaptation and output limitations.",
+    "resource_id": "amicro-line-reveal",
+    "evidence_ids": [
+      "S-CV-051",
+      "S-CV-052"
+    ],
     "created_at": "2026-10-27T06:24:12.463Z",
-    "updated_at": "2026-10-27T06:24:12.466Z",
+    "updated_at": "2026-10-27T06:39:17.551Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.463Z",
@@ -127,8 +142,25 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:39:17.520Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch: reviewing concrete source, adaptation boundary and attribution."
+      },
+      {
+        "at": "2026-10-27T06:39:17.551Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Concrete source or complete prompt reviewed; admitted with explicit adaptation and output limitations.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/subhan-code/amicro--micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx"
+        }
       }
-    ]
+    ],
+    "resolved_url": "https://github.com/subhan-code/amicro--micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx"
   },
   {
     "id": "C-07bf40742874",
@@ -210,11 +242,11 @@
     "url": "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag",
     "name": "SVG 分层与描边动画",
     "status": "deferred",
-    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "reason": "Saved article describes staggered SVG layers and stroke-dashoffset technique, and points to existing Paper-Cut and map-motion projects. No complete standalone SVG animation template was identified in the saved body. Keep as a technique lead, not a duplicate of those projects.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-27T06:24:12.492Z",
-    "updated_at": "2026-10-27T06:24:12.495Z",
+    "updated_at": "2026-10-27T06:39:17.599Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.492Z",
@@ -227,6 +259,18 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      },
+      {
+        "at": "2026-10-27T06:39:17.589Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch source review."
+      },
+      {
+        "at": "2026-10-27T06:39:17.599Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Saved article describes staggered SVG layers and stroke-dashoffset technique, and points to existing Paper-Cut and map-motion projects. No complete standalone SVG animation template was identified in the saved body. Keep as a technique lead, not a duplicate of those projects."
       }
     ]
   },
@@ -522,12 +566,16 @@
     "id": "C-16c450a7eaa2",
     "url": "https://github.com/wheresryan22/anatomy",
     "name": "Anatomy",
-    "status": "deferred",
-    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Concrete source or complete prompt reviewed; admitted with explicit adaptation and output limitations.",
+    "resource_id": "anatomy-ripple-tank",
+    "evidence_ids": [
+      "S-CV-048",
+      "S-CV-049",
+      "S-CV-050"
+    ],
     "created_at": "2026-10-27T06:24:12.593Z",
-    "updated_at": "2026-10-27T06:24:12.597Z",
+    "updated_at": "2026-10-27T06:39:17.541Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.593Z",
@@ -540,8 +588,25 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:39:17.509Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch: reviewing concrete source, adaptation boundary and attribution."
+      },
+      {
+        "at": "2026-10-27T06:39:17.541Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Concrete source or complete prompt reviewed; admitted with explicit adaptation and output limitations.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/wheresryan22/anatomy/tree/main/examples/ripple-tank"
+        }
       }
-    ]
+    ],
+    "resolved_url": "https://github.com/wheresryan22/anatomy/tree/main/examples/ripple-tank"
   },
   {
     "id": "C-a73da66c0ea8",
@@ -1038,11 +1103,11 @@
     "url": "https://x.com/LufzzLiz/status/2015380566703779890",
     "name": "Remotion 孟菲斯风格终端演示",
     "status": "deferred",
-    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "reason": "Saved post contains prompts for Memphis-colored terminal typing, an expanding page transition and inserted video. Its links point to Remotion and official skills, already listed; no complete scene source was identified. User-supplied command logs and footage are still required.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-27T06:24:12.806Z",
-    "updated_at": "2026-10-27T06:24:12.812Z",
+    "updated_at": "2026-10-27T06:39:17.694Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.806Z",
@@ -1055,6 +1120,18 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      },
+      {
+        "at": "2026-10-27T06:39:17.684Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch source review."
+      },
+      {
+        "at": "2026-10-27T06:39:17.694Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Saved post contains prompts for Memphis-colored terminal typing, an expanding page transition and inserted video. Its links point to Remotion and official skills, already listed; no complete scene source was identified. User-supplied command logs and footage are still required."
       }
     ]
   },
@@ -1062,12 +1139,14 @@
     "id": "C-6b5f61be499b",
     "url": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ",
     "name": "代码视频六层母版提示词",
-    "status": "deferred",
-    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Concrete source or complete prompt reviewed; admitted with explicit adaptation and output limitations.",
+    "resource_id": "six-layer-film-prompt",
+    "evidence_ids": [
+      "S-CV-053"
+    ],
     "created_at": "2026-10-27T06:24:12.819Z",
-    "updated_at": "2026-10-27T06:24:12.825Z",
+    "updated_at": "2026-10-27T06:39:17.561Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.819Z",
@@ -1080,19 +1159,36 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      },
+      {
+        "at": "2026-10-27T06:39:17.531Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch: reviewing concrete source, adaptation boundary and attribution."
+      },
+      {
+        "at": "2026-10-27T06:39:17.561Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Concrete source or complete prompt reviewed; admitted with explicit adaptation and output limitations.",
+        "resolution": {
+          "from": null,
+          "to": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ"
+        }
       }
-    ]
+    ],
+    "resolved_url": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ"
   },
   {
     "id": "C-57500ce8a6f4",
     "url": "https://mp.weixin.qq.com/s/8UaMBgWbYm-vPBrA9bj7bw",
     "name": "SVG 科普图形提示词模板",
     "status": "deferred",
-    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "reason": "Saved article contains complete graphic prompts and a static SVG card example. Static illustrations are useful inputs but require a timeline and rendering workflow before admission as video templates.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-27T06:24:12.832Z",
-    "updated_at": "2026-10-27T06:24:12.838Z",
+    "updated_at": "2026-10-27T06:39:17.618Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.832Z",
@@ -1105,6 +1201,18 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      },
+      {
+        "at": "2026-10-27T06:39:17.608Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch source review."
+      },
+      {
+        "at": "2026-10-27T06:39:17.618Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Saved article contains complete graphic prompts and a static SVG card example. Static illustrations are useful inputs but require a timeline and rendering workflow before admission as video templates."
       }
     ]
   },
@@ -1113,11 +1221,11 @@
     "url": "https://mp.weixin.qq.com/s/MRMo2zzpl-M4_Oaog2Jxxg",
     "name": "三维地图纹理工作流",
     "status": "deferred",
-    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "reason": "Saved article documents DataV SVG to Blender extrusion, generated textures and Three.js assembly. It explicitly leaves animation and other integration work for later; no complete reusable video project established.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-27T06:24:12.846Z",
-    "updated_at": "2026-10-27T06:24:12.853Z",
+    "updated_at": "2026-10-27T06:39:17.636Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.846Z",
@@ -1130,6 +1238,18 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      },
+      {
+        "at": "2026-10-27T06:39:17.627Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch source review."
+      },
+      {
+        "at": "2026-10-27T06:39:17.636Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Saved article documents DataV SVG to Blender extrusion, generated textures and Three.js assembly. It explicitly leaves animation and other integration work for later; no complete reusable video project established."
       }
     ]
   },
@@ -1138,11 +1258,11 @@
     "url": "https://mp.weixin.qq.com/s/vZoP23bBLgpfrT8cka9frw",
     "name": "4K 宣传片代码剪辑案例",
     "status": "deferred",
-    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "reason": "Saved article describes a production case, not a downloadable complete film template. Found original presentation and author-post links; presentation retrieval exceeded the web tool size limit. Verify primary artifacts and their availability before admission.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-27T06:24:12.861Z",
-    "updated_at": "2026-10-27T06:24:12.867Z",
+    "updated_at": "2026-10-27T06:39:17.656Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.861Z",
@@ -1155,6 +1275,18 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      },
+      {
+        "at": "2026-10-27T06:39:17.646Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch source review."
+      },
+      {
+        "at": "2026-10-27T06:39:17.656Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Saved article describes a production case, not a downloadable complete film template. Found original presentation and author-post links; presentation retrieval exceeded the web tool size limit. Verify primary artifacts and their availability before admission."
       }
     ]
   },
@@ -1163,11 +1295,11 @@
     "url": "https://mp.weixin.qq.com/s/4ZtcRa3O8bEgw-JQhQtUPw",
     "name": "HTML 动态交互组件提示词模板",
     "status": "deferred",
-    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "reason": "Saved article contains a complete prompt for interactive HTML components, including a thunder example. It specifies UI states and feedback but no fixed video timeline or export contract; retain as a supporting technique lead.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-27T06:24:12.875Z",
-    "updated_at": "2026-10-27T06:24:12.881Z",
+    "updated_at": "2026-10-27T06:39:17.675Z",
     "history": [
       {
         "at": "2026-10-27T06:24:12.875Z",
@@ -1180,6 +1312,18 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      },
+      {
+        "at": "2026-10-27T06:39:17.665Z",
+        "from": "deferred",
+        "to": "researching",
+        "reason": "Second batch source review."
+      },
+      {
+        "at": "2026-10-27T06:39:17.675Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Saved article contains a complete prompt for interactive HTML components, including a thunder example. It specifies UI states and feedback but no fixed video timeline or export contract; retain as a supporting technique lead."
       }
     ]
   },

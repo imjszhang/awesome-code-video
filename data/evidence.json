@@ -515,5 +515,71 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "Inspected MIT repository license. Third-party dependencies and supplied media require their own terms."
+  },
+  {
+    "id": "S-CV-048",
+    "project_id": "anatomy",
+    "title": "Isometric Ripple Tank — examples/ripple-tank/build.mjs",
+    "url": "https://github.com/wheresryan22/anatomy/blob/main/examples/ripple-tank/build.mjs",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected scene construction, theme selection and standalone HTML output."
+  },
+  {
+    "id": "S-CV-049",
+    "project_id": "anatomy",
+    "title": "Isometric Ripple Tank — examples/ripple-tank/live.js",
+    "url": "https://github.com/wheresryan22/anatomy/blob/main/examples/ripple-tank/live.js",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected SVG/WebGL layers and interactive runtime; also reviewed model.mjs. This is a browser scene, not a validated video renderer."
+  },
+  {
+    "id": "S-CV-050",
+    "project_id": "anatomy",
+    "title": "Isometric Ripple Tank — LICENSE",
+    "url": "https://github.com/wheresryan22/anatomy/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected MIT license; retain required notices."
+  },
+  {
+    "id": "S-CV-051",
+    "project_id": "amicro",
+    "title": "Staggered Line Reveal — registry/ui/text/text-reveal.tsx",
+    "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected per-line clipping, y translation, staggerChildren and whileInView trigger; not a frame-seekable video component as supplied."
+  },
+  {
+    "id": "S-CV-052",
+    "project_id": "amicro",
+    "title": "Staggered Line Reveal — LICENSE",
+    "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected MIT license; retain required notices."
+  },
+  {
+    "id": "S-CV-053",
+    "project_id": "six-layer-film-prompt",
+    "title": "Six-Layer Film Production Prompt — article prompt",
+    "url": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ",
+    "type": "article",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "Reviewed the complete prompt in section 03 and its six-part explanation in section 02 through the saved article body. Live WeChat retrieval failed. Public link is retained; private collection IDs and article text are not redistributed. Article and prompt retain author terms; no open-source license is inferred."
   }
 ]

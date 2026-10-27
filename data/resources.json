@@ -778,5 +778,62 @@
       "render_tested": false
     },
     "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+  },
+  {
+    "id": "anatomy-ripple-tank",
+    "project_id": "anatomy",
+    "name": "Isometric Ripple Tank",
+    "kind": "scene",
+    "url": "https://github.com/wheresryan22/anatomy/tree/main/examples/ripple-tank",
+    "section": "Film and Scene Templates",
+    "description": "An isometric laboratory scene combining SVG apparatus and WebGL water patterns for wave-interference explainers. Reuse the Node build script, light or dark page, and frequency/spacing controls. Adapt the model, labels, and interaction sequence; add browser recording or a controlled video timeline and audio. The example outputs HTML, not an MP4.",
+    "evidence_ids": [
+      "S-CV-048",
+      "S-CV-049",
+      "S-CV-050"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Video use cases are curator suggestions. No installation, visual quality test or render test performed."
+  },
+  {
+    "id": "amicro-line-reveal",
+    "project_id": "amicro",
+    "name": "Staggered Line Reveal",
+    "kind": "shot",
+    "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx",
+    "section": "Shot Recipes",
+    "description": "Lines slide upward through clipped masks with a staggered reveal for titles, feature statements, and chapter cards. Reuse the React component and its duration and stagger controls. It uses Framer Motion and viewport-triggered playback; add browser recording or replace the trigger with frame-based timing for video rendering.",
+    "evidence_ids": [
+      "S-CV-051",
+      "S-CV-052"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Video use cases are curator suggestions. No installation, visual quality test or render test performed."
+  },
+  {
+    "id": "six-layer-film-prompt",
+    "project_id": "six-layer-film-prompt",
+    "name": "Six-Layer Film Production Prompt",
+    "kind": "workflow",
+    "url": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ",
+    "section": "Production Workflows",
+    "description": "A Chinese article with a complete reusable production prompt covering deliverables, creative choices, technical constraints, visual rules, a central idea, and review iterations. Useful for briefing agent-made explainers or product films; replace the topic, format, and creative direction. It supplies instructions rather than a fixed visual style or executable template.",
+    "evidence_ids": [
+      "S-CV-053"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Video use cases are curator suggestions. No installation, visual quality test or render test performed."
   }
 ]
