@@ -26,14 +26,24 @@
     "section": "Film and Scene Templates",
     "description": "Editorial paper collage, torn edges, print texture, and layered parallax for history, people, and concept explainers. A 20-second silent HyperFrames / GSAP scene with assembly, separation, collision, and recomposition. Replace the artwork and derived layers; extraction masks are tied to the original image and must be adjusted for new compositions.",
     "evidence_ids": [
-      "S-CV-002"
+      "S-CV-002",
+      "S-CV-067"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/HeiGeAi/Paper-Cut/main/examples/five-layer-motion/renders/paper-cut-layer-demo-20s-motion-v2.mp4",
+      "license": "MIT",
+      "attribution": "Blake Xu (HeiGeAi) (https://github.com/HeiGeAi/Paper-Cut)",
+      "redistributable": false,
+      "source": "S-CV-067 https://raw.githubusercontent.com/HeiGeAi/Paper-Cut/main/examples/five-layer-motion/renders/paper-cut-layer-demo-20s-motion-v2.mp4. The example directory has no NOTICE file. Root LICENSE is MIT for the software. Whether the demo film has separate asset terms is 待确认, so redistributable is false. GitHub contents API reports size 8362529 and a byte-range request returned an MP4 ftyp header, not a Git LFS pointer. The file lives under renders/, not the example root. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "butterfly-life",
@@ -44,14 +54,24 @@
     "section": "Film and Scene Templates",
     "description": "Procedural natural-science animation for lifecycle and process explainers. A 32-second, 17-shot vertical film with source, planning documents, music, and rendering tools. Reuse the production structure; changing the subject requires adapting drawing and scene code.",
     "evidence_ids": [
-      "S-CV-003"
+      "S-CV-003",
+      "S-CV-068"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/kuhnhomeuk-cell/procedural-film/main/examples/butterfly-life/exports/butterfly-life-phone.mp4",
+      "license": "MIT",
+      "attribution": "Dean Kuhn (https://github.com/kuhnhomeuk-cell/procedural-film)",
+      "redistributable": false,
+      "source": "S-CV-068 https://raw.githubusercontent.com/kuhnhomeuk-cell/procedural-film/main/examples/butterfly-life/exports/butterfly-life-phone.mp4. Root LICENSE is MIT for the software. Whether this exported demo has separate asset terms is 待确认, so redistributable is false. GitHub contents API reports size 12620230 and a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "claude-quest",
@@ -62,14 +82,24 @@
     "section": "Film and Scene Templates",
     "description": "NES-style pixel art, a simulated CRT, and chip music for game narratives, progress metaphors, and playful technical stories. A worked film driven by a game engine and recorded controller input. Reuse the engine and presentation; adapt characters, levels, and the input sequence for a new story.",
     "evidence_ids": [
-      "S-CV-004"
+      "S-CV-004",
+      "S-CV-069"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/kuhnhomeuk-cell/procedural-film/main/examples/claude-quest-v2/exports/claude-quest-v2-720.mp4",
+      "license": "MIT",
+      "attribution": "Dean Kuhn (https://github.com/kuhnhomeuk-cell/procedural-film)",
+      "redistributable": false,
+      "source": "S-CV-069 https://raw.githubusercontent.com/kuhnhomeuk-cell/procedural-film/main/examples/claude-quest-v2/exports/claude-quest-v2-720.mp4. Root LICENSE is MIT for the software. Whether this exported demo has separate asset terms is 待确认, so redistributable is false. GitHub contents API reports size 8931871 and a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "map-motion-globe-to-location",
@@ -80,14 +110,24 @@
     "section": "Map Animation Presets",
     "description": "A globe-to-place camera move with location labeling for travel openings, city introductions, and event context.",
     "evidence_ids": [
-      "S-CV-005"
+      "S-CV-005",
+      "S-CV-071"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/vlog_locate_bund.webp",
+      "license": "待确认",
+      "attribution": "SpaceZephyr (https://github.com/SpaceZephyr/map-motion)",
+      "redistributable": false,
+      "source": "S-CV-071 https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/vlog_locate_bund.webp. Other files in docs/media include vlog_locate_dali.webp, park_locate.webp, and the still gallery_globe.jpg. README says the code is MIT and map data follows its own source terms; commercial use of Amap tiles needs Amap authorization. Preset JSON names are not media filenames, so this pairing is an editorial mapping. A byte-range request returned a WEBP header. Animation frames were not reviewed. Media was not copied into this repository. This is not a local render test. Preview redistribution is 待确认, so redistributable is false.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "map-motion-night-location",
@@ -98,14 +138,24 @@
     "section": "Map Animation Presets",
     "description": "A dark map treatment for night travel, urban stories, and technology-oriented location sequences.",
     "evidence_ids": [
-      "S-CV-006"
+      "S-CV-006",
+      "S-CV-071"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/radiate_dark.webp",
+      "license": "待确认",
+      "attribution": "SpaceZephyr (https://github.com/SpaceZephyr/map-motion)",
+      "redistributable": false,
+      "source": "S-CV-071 https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/radiate_dark.webp. docs/media has no vlog_locate_night file. radiate_dark.webp is a dark radiate example, not a confirmed night-locate export, and the same file is the primary preview for map-motion-radial-coverage. Exact pairing is 待确认. README says the code is MIT and map data follows its own source terms; commercial use of Amap tiles needs Amap authorization. Preset JSON names are not media filenames, so this pairing is an editorial mapping. A byte-range request returned a WEBP header. Animation frames were not reviewed. Media was not copied into this repository. This is not a local render test. Preview redistribution is 待确认, so redistributable is false.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "map-motion-hiking-elevation",
@@ -116,14 +166,24 @@
     "section": "Map Animation Presets",
     "description": "Route progression and elevation information for hiking recaps, mountain itineraries, and outdoor explainers.",
     "evidence_ids": [
-      "S-CV-007"
+      "S-CV-007",
+      "S-CV-071"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/hike_wutong.webp",
+      "license": "待确认",
+      "attribution": "SpaceZephyr (https://github.com/SpaceZephyr/map-motion)",
+      "redistributable": false,
+      "source": "S-CV-071 https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/hike_wutong.webp. README says the code is MIT and map data follows its own source terms; commercial use of Amap tiles needs Amap authorization. Preset JSON names are not media filenames, so this pairing is an editorial mapping. A byte-range request returned a WEBP header. Animation frames were not reviewed. Media was not copied into this repository. This is not a local render test. Preview redistribution is 待确认, so redistributable is false.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "map-motion-road-trip",
@@ -134,14 +194,24 @@
     "section": "Map Animation Presets",
     "description": "A multi-stop journey for road-trip recaps, regional guides, and travel itineraries.",
     "evidence_ids": [
-      "S-CV-008"
+      "S-CV-008",
+      "S-CV-071"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/road_trip_journal.webp",
+      "license": "待确认",
+      "attribution": "SpaceZephyr (https://github.com/SpaceZephyr/map-motion)",
+      "redistributable": false,
+      "source": "S-CV-071 https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/road_trip_journal.webp. Another related file is https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/m3d_drive.webp. README says the code is MIT and map data follows its own source terms; commercial use of Amap tiles needs Amap authorization. Preset JSON names are not media filenames, so this pairing is an editorial mapping. A byte-range request returned a WEBP header. Animation frames were not reviewed. Media was not copied into this repository. This is not a local render test. Preview redistribution is 待确认, so redistributable is false.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "map-motion-flight-routes",
@@ -152,14 +222,24 @@
     "section": "Map Animation Presets",
     "description": "Flight connections for aviation stories, international journeys, and geographic business introductions.",
     "evidence_ids": [
-      "S-CV-009"
+      "S-CV-009",
+      "S-CV-071"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/showcase_flight_region.webp",
+      "license": "待确认",
+      "attribution": "SpaceZephyr (https://github.com/SpaceZephyr/map-motion)",
+      "redistributable": false,
+      "source": "S-CV-071 https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/showcase_flight_region.webp. README says the code is MIT and map data follows its own source terms; commercial use of Amap tiles needs Amap authorization. Preset JSON names are not media filenames, so this pairing is an editorial mapping. A byte-range request returned a WEBP header. Animation frames were not reviewed. Media was not copied into this repository. This is not a local render test. Preview redistribution is 待确认, so redistributable is false.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "map-motion-radial-coverage",
@@ -170,14 +250,24 @@
     "section": "Map Animation Presets",
     "description": "Connections radiating from a center for service coverage, distribution networks, and regional reach.",
     "evidence_ids": [
-      "S-CV-010"
+      "S-CV-010",
+      "S-CV-071"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/radiate_dark.webp",
+      "license": "待确认",
+      "attribution": "SpaceZephyr (https://github.com/SpaceZephyr/map-motion)",
+      "redistributable": false,
+      "source": "S-CV-071 https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/radiate_dark.webp. A still, gallery_radiate.jpg, is also in docs/media. The same webp is used, with an explicit unconfirmed mapping, for map-motion-night-location. README says the code is MIT and map data follows its own source terms; commercial use of Amap tiles needs Amap authorization. Preset JSON names are not media filenames, so this pairing is an editorial mapping. A byte-range request returned a WEBP header. Animation frames were not reviewed. Media was not copied into this repository. This is not a local render test. Preview redistribution is 待确认, so redistributable is false.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-text-as-mask",
@@ -188,14 +278,24 @@
     "section": "Shot Recipes",
     "description": "Product imagery revealed through oversized letterforms for brand openings and feature reveals. Replace the title and background imagery.",
     "evidence_ids": [
-      "S-CV-011"
+      "S-CV-011",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/text-as-mask.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/text-as-mask.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-space-camera-moves",
@@ -206,14 +306,24 @@
     "section": "Shot Recipes",
     "description": "Spatial camera treatments for interfaces and layered layouts. Useful for product structure and screen tours; adapt the scene layers and camera framing.",
     "evidence_ids": [
-      "S-CV-012"
+      "S-CV-012",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/exploded-view.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/exploded-view.mp4. Primary style preview. Another style in this shot is https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/drone-dive-landing.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-deck-deal-fly-in",
@@ -224,14 +334,24 @@
     "section": "Shot Recipes",
     "description": "Cards dealt into a layout for libraries, research collections, dashboards, and feature groups. Replace card contents and destination positions.",
     "evidence_ids": [
-      "S-CV-013"
+      "S-CV-013",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/deck-deal-flyin.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/deck-deal-flyin.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-type-and-filter",
@@ -242,14 +362,24 @@
     "section": "Shot Recipes",
     "description": "An input-and-results sequence for search tools, knowledge management, and AI assistants. Replace the query, results, and interface styling.",
     "evidence_ids": [
-      "S-CV-014"
+      "S-CV-014",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/type-and-filter.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/type-and-filter.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-paper-title-card",
@@ -260,14 +390,24 @@
     "section": "Shot Recipes",
     "description": "Paper-toned typography for value propositions, chapter breaks, and explanatory pauses. Replace the copy, fonts, and accent palette.",
     "evidence_ids": [
-      "S-CV-015"
+      "S-CV-015",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/paper-title-card.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/paper-title-card.mp4. Release asset size is about 60KB; playback quality was not reviewed. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-document-typewriter-reveal",
@@ -278,14 +418,24 @@
     "section": "Shot Recipes",
     "description": "Document content appearing as if written for AI writing, reports, and note-taking demonstrations. Replace the document and its reveal sequence.",
     "evidence_ids": [
-      "S-CV-016"
+      "S-CV-016",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/document-typewriter-reveal.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/document-typewriter-reveal.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-chart-live-moves",
@@ -296,14 +446,24 @@
     "section": "Shot Recipes",
     "description": "Animated chart treatments for research findings, metric changes, and data explanations. Replace the underlying data, labels, and visual scale.",
     "evidence_ids": [
-      "S-CV-017"
+      "S-CV-017",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/oscilloscope-stream.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/oscilloscope-stream.mp4. Primary style preview. Other styles in this shot: https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/unit-dot-swarm-regroup.mp4 and https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/axis-rescale-shock.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "video-shotcraft-ui-to-brand-morph",
@@ -314,14 +474,24 @@
     "section": "Shot Recipes",
     "description": "Interface elements resolving into a brand ending for product promos and feature demos. Adapt the source geometry, wordmark, and final hold.",
     "evidence_ids": [
-      "S-CV-018"
+      "S-CV-018",
+      "S-CV-070"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/icon-flip-bloom.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-070 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/icon-flip-bloom.mp4. Primary style key icon-flip-bloom. There is no ui-to-brand-morph.mp4. Another style is https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/input-morph-assemble.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset names were read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-swiss-motion-graphics",
@@ -332,14 +502,24 @@
     "section": "Visual Style Templates",
     "description": "Grid-based composition, large type, geometry, and restrained color for brand statements, design lessons, and concept explainers.",
     "evidence_ids": [
-      "S-CV-019"
+      "S-CV-019",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/swiss-motion.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/swiss-motion.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-dark-tech-keynote",
@@ -350,14 +530,24 @@
     "section": "Visual Style Templates",
     "description": "Dark presentation surfaces and focused product staging for software launches, AI tools, and technical announcements.",
     "evidence_ids": [
-      "S-CV-020"
+      "S-CV-020",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dark-keynote.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dark-keynote.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-whiteboard-explainer",
@@ -368,14 +558,24 @@
     "section": "Visual Style Templates",
     "description": "Progressively drawn diagrams for teaching, mental models, and step-by-step explanations.",
     "evidence_ids": [
-      "S-CV-021"
+      "S-CV-021",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/whiteboard.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/whiteboard.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-data-storytelling",
@@ -386,14 +586,24 @@
     "section": "Visual Style Templates",
     "description": "Numbers and charts structured around a narrative for trends, research findings, and annual recaps.",
     "evidence_ids": [
-      "S-CV-022"
+      "S-CV-022",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dataviz.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dataviz.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-isometric-infographic",
@@ -404,14 +614,24 @@
     "section": "Visual Style Templates",
     "description": "Isometric spatial diagrams for systems, workflows, and supply-chain explanations.",
     "evidence_ids": [
-      "S-CV-023"
+      "S-CV-023",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/iso-infographic.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/iso-infographic.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-caption-news",
@@ -422,14 +642,24 @@
     "section": "Visual Style Templates",
     "description": "Caption-led information design for news briefs, AI updates, and silent-friendly social videos.",
     "evidence_ids": [
-      "S-CV-024"
+      "S-CV-024",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/caption-news.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/caption-news.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-halftone-dossier",
@@ -440,14 +670,24 @@
     "section": "Visual Style Templates",
     "description": "Print grain and archival dossier styling for history, investigations, and profile explainers.",
     "evidence_ids": [
-      "S-CV-025"
+      "S-CV-025",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/halftone-dossier.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/halftone-dossier.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-chinese-ink-wash",
@@ -458,14 +698,24 @@
     "section": "Visual Style Templates",
     "description": "Ink diffusion and negative space for cultural stories, poetry, and heritage-oriented films.",
     "evidence_ids": [
-      "S-CV-026"
+      "S-CV-026",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ink-wash.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ink-wash.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-paper-pop-up-book",
@@ -476,14 +726,24 @@
     "section": "Visual Style Templates",
     "description": "Layered paper structures for children's explanations, illustrated narratives, and warm product stories.",
     "evidence_ids": [
-      "S-CV-027"
+      "S-CV-027",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/paper-popup.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/paper-popup.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-ascii-crt-terminal",
@@ -494,14 +754,24 @@
     "section": "Visual Style Templates",
     "description": "Character-based imagery and retro terminal aesthetics for programming, developer tools, and computing history.",
     "evidence_ids": [
-      "S-CV-028"
+      "S-CV-028",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ascii-crt.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ascii-crt.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-blueprint",
@@ -512,14 +782,24 @@
     "section": "Visual Style Templates",
     "description": "Technical drawing and measurement cues for engineering, structural explanations, and invention stories.",
     "evidence_ids": [
-      "S-CV-029"
+      "S-CV-029",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/blueprint.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/blueprint.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-opuscar-16-bit-pixel-rpg",
@@ -530,14 +810,24 @@
     "section": "Visual Style Templates",
     "description": "Pixel characters and game-world storytelling for learning journeys, progress narratives, and retro shorts.",
     "evidence_ids": [
-      "S-CV-030"
+      "S-CV-030",
+      "S-CV-066"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/pixel-rpg.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/pixel-rpg.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "hyperframes",
@@ -603,14 +893,24 @@
     "section": "Frameworks and Renderers",
     "description": "Python animation for mathematical diagrams, scientific explanations, and technical teaching.",
     "evidence_ids": [
-      "S-CV-034"
+      "S-CV-034",
+      "S-CV-073"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://www.manim.community/",
+      "license": "待确认",
+      "attribution": "Manim Community (https://www.manim.community/)",
+      "redistributable": false,
+      "source": "S-CV-073 https://www.manim.community/. Upstream asks to link to the site video rather than treat a demo as a curated film. Site demo ownership is 待确认, so redistributable is false. The page returned HTML on 2026-10-27; no demo mp4 was copied. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "guizang-product-video-skill",
@@ -640,14 +940,24 @@
     "description": "Continuous-shot motion library, composition starter, and case breakdowns for connected product demonstrations. The free repository excludes the showcased films' source code and uses a noncommercial license; commercial access is offered separately.",
     "evidence_ids": [
       "S-CV-036",
-      "S-CV-040"
+      "S-CV-040",
+      "S-CV-072"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://onetakemotion.com",
+      "license": "PolyForm-NC",
+      "attribution": "Patrick / feitangyuan (https://github.com/feitangyuan/onetake)",
+      "redistributable": false,
+      "source": "S-CV-072 https://onetakemotion.com. Repository cases page: https://github.com/feitangyuan/onetake/tree/main/cases. LICENSE is PolyForm Noncommercial 1.0.0 (S-CV-040). Do not mirror cases mp4 or gif files. The site returned HTML on 2026-10-27; iframe behavior was not tested. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "awesome-video-as-code",
@@ -845,7 +1155,8 @@
     "description": "Translucent brush marks on warm paper for nature, travel, and science stories. Reuse the style specification, seeded brush construction, and paint-on approach; create new artwork and timing. This is production guidance, not a complete film.",
     "evidence_ids": [
       "S-CV-057",
-      "S-CV-054"
+      "S-CV-054",
+      "S-CV-066"
     ],
     "section": "Visual Style Templates",
     "review": {
@@ -853,7 +1164,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/watercolor.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/watercolor.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-teardown",
@@ -864,7 +1184,8 @@
     "description": "Studio-lit engineering parts, exploded layers, and macro camera moves for hardware launches and construction explainers. Reuse the style specification and assembly choreography; supply accurate CAD or PCB geometry, materials, labels, and appropriately licensed assets.",
     "evidence_ids": [
       "S-CV-058",
-      "S-CV-054"
+      "S-CV-054",
+      "S-CV-066"
     ],
     "section": "Visual Style Templates",
     "review": {
@@ -872,7 +1193,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/teardown.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/teardown.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "lemo-briefing-board",
@@ -883,7 +1213,8 @@
     "description": "A physical markerboard with photo cutouts, magnetic labels, and line-following camera moves for engineering comparisons and decision briefings. Reuse the board composition rules and drawing kit; replace photographs, annotations, and evidence, then build a new timeline.",
     "evidence_ids": [
       "S-CV-059",
-      "S-CV-054"
+      "S-CV-054",
+      "S-CV-066"
     ],
     "section": "Visual Style Templates",
     "review": {
@@ -891,7 +1222,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/briefing-board.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/briefing-board.mp4. README Licence (https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md#licence): demo films and stills in styles, the gallery, and Releases are CC BY 4.0; credit LemoLab and link the repository. Voice tracks excluded from CC BY 4.0 are game-show, paper-lantern, and news-package, which are other films, not this file. Third-party demo assets keep their own licences (each demo CREDITS). The web release asset list was read on 2026-10-27; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "remotion-audiogram",

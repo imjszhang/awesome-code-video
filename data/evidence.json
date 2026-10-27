@@ -713,5 +713,93 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "Reviewed upstream README and API examples at commit 0d102a5cd933611e86a7e60bda7b4baa5995c6b0: @chenglou/pretext, prepare/layout, measureNaturalWidth, measureLineStats and layoutWithLines; DOM, Canvas and SVG output. Video title/caption use is an editorial integration recommendation, not a shipped video renderer. No installation or render test performed. Auto-fit and balanced CLI flags are not asserted as upstream APIs."
+  },
+  {
+    "id": "S-CV-066",
+    "project_id": "lemo-opuscar",
+    "title": "lemo-opuscar web release demo films",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/tag/web",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Read the web release asset list and the README Licence section. Demo films and stills are CC BY 4.0 with LemoLab attribution and a link to the repository. Code remains MIT (S-CV-054). Three voice tracks on other films are excluded from CC BY 4.0. Byte-range checks of the listed mp4 URLs returned ftyp headers. Files were not copied here and were not rendered locally."
+  },
+  {
+    "id": "S-CV-067",
+    "project_id": "paper-cut",
+    "title": "Paper-Cut five-layer demo mp4",
+    "url": "https://github.com/HeiGeAi/Paper-Cut/blob/main/examples/five-layer-motion/renders/paper-cut-layer-demo-20s-motion-v2.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "GitHub lists renders/paper-cut-layer-demo-20s-motion-v2.mp4 at 8362529 bytes. A byte-range request returned an MP4 ftyp header, not a Git LFS pointer. The example directory has no NOTICE. Root LICENSE is MIT for the software; demo-asset redistribution is unconfirmed. File was not copied and was not rendered locally."
+  },
+  {
+    "id": "S-CV-068",
+    "project_id": "procedural-film",
+    "title": "Butterfly Life exported phone mp4",
+    "url": "https://github.com/kuhnhomeuk-cell/procedural-film/blob/main/examples/butterfly-life/exports/butterfly-life-phone.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "GitHub lists exports/butterfly-life-phone.mp4 at 12620230 bytes. A byte-range request returned an MP4 ftyp header. Root LICENSE is MIT for the software; separate demo-asset terms were not found and redistribution stays unconfirmed. File was not copied and was not rendered locally."
+  },
+  {
+    "id": "S-CV-069",
+    "project_id": "procedural-film",
+    "title": "Claude Quest exported 720p mp4",
+    "url": "https://github.com/kuhnhomeuk-cell/procedural-film/blob/main/examples/claude-quest-v2/exports/claude-quest-v2-720.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "GitHub lists exports/claude-quest-v2-720.mp4 at 8931871 bytes. A byte-range request returned an MP4 ftyp header. Root LICENSE is MIT for the software; separate demo-asset terms were not found and redistribution stays unconfirmed. File was not copied and was not rendered locally."
+  },
+  {
+    "id": "S-CV-070",
+    "project_id": "video-shotcraft",
+    "title": "video-shotcraft gallery-media release",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/tag/gallery-media",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Read gallery-media release asset names. There is no ink-press.mp4 and no ui-to-brand-morph.mp4. Chosen primary files returned MP4 ftyp headers. Repository LICENSE is Apache-2.0. paper-title-card.mp4 is about 60KB and its playback quality was not reviewed. Files were not copied and were not rendered locally."
+  },
+  {
+    "id": "S-CV-071",
+    "project_id": "map-motion",
+    "title": "map-motion docs/media animated previews",
+    "url": "https://github.com/SpaceZephyr/map-motion/tree/main/docs/media",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "Listed docs/media. README says code is MIT and map data keeps its own terms, including Amap commercial authorization. Preset filenames do not match media filenames; pairings are editorial. No vlog_locate_night file exists. Byte-range checks returned WEBP headers. Frames were not reviewed. Files were not copied and were not rendered locally."
+  },
+  {
+    "id": "S-CV-072",
+    "project_id": "onetake",
+    "title": "OneTake upstream site",
+    "url": "https://onetakemotion.com",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "The upstream site returned HTML. Repository cases include mp4 and gif files under PolyForm Noncommercial 1.0.0 (S-CV-040). Those media files are not used as preview URLs and were not copied. Iframe embedding was not tested. This is not a local render test."
+  },
+  {
+    "id": "S-CV-073",
+    "project_id": "manim-community",
+    "title": "Manim Community site demos",
+    "url": "https://www.manim.community/",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "The community site returned HTML and hosts example videos. Those files were not extracted or copied. Demo ownership for redistribution is unconfirmed, and the page is a framework gallery rather than one curated film. This is not a local render test."
   }
 ]
