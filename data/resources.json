@@ -896,14 +896,25 @@
     "section": "Frameworks and Renderers",
     "description": "TypeScript animation with a visual preview workflow for explanatory videos and synchronized motion.",
     "evidence_ids": [
-      "S-CV-033"
+      "S-CV-033",
+      "S-CV-109",
+      "S-CV-110"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/H5GETOP7ivs",
+      "license": "待确认",
+      "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/motion-canvas)",
+      "redistributable": false,
+      "source": "S-CV-110 https://www.youtube.com/embed/H5GETOP7ivs — official OSS announcement linked from motion-canvas/examples README",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "manim-community",
@@ -4052,6 +4063,486 @@
       "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
       "redistributable": true,
       "source": "S-CV-108 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/radial-wave.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "motion-canvas-asset-code",
+    "project_id": "motion-canvas",
+    "name": "Could This Asset Be Code",
+    "kind": "film",
+    "url": "https://github.com/motion-canvas/examples/tree/master/examples/asset-code",
+    "section": "Film and Scene Templates",
+    "description": "Official Motion Canvas example (Could This Asset Be Code). Source under motion-canvas/examples (MIT). Preview is YouTube embed from README; redistributable false.",
+    "evidence_ids": [
+      "S-CV-033",
+      "S-CV-109",
+      "S-CV-110"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/s1ZQnS_tOg0",
+      "license": "待确认",
+      "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)",
+      "redistributable": false,
+      "source": "S-CV-110 https://www.youtube.com/embed/s1ZQnS_tOg0",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "motion-canvas-anniversary",
+    "project_id": "motion-canvas",
+    "name": "One Year of Motion Canvas",
+    "kind": "film",
+    "url": "https://github.com/motion-canvas/examples/tree/master/examples/anniversary",
+    "section": "Film and Scene Templates",
+    "description": "Official Motion Canvas anniversary example film. Source under motion-canvas/examples (MIT). Preview is YouTube embed; redistributable false.",
+    "evidence_ids": [
+      "S-CV-033",
+      "S-CV-109",
+      "S-CV-110"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/4kjEwvrDKlg",
+      "license": "待确认",
+      "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)",
+      "redistributable": false,
+      "source": "S-CV-110 https://www.youtube.com/embed/4kjEwvrDKlg",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "motion-canvas-smooth-parallax",
+    "project_id": "motion-canvas",
+    "name": "Smooth Parallax",
+    "kind": "film",
+    "url": "https://github.com/motion-canvas/examples/tree/master/examples/smooth-parallax",
+    "section": "Film and Scene Templates",
+    "description": "Official Motion Canvas Smooth Parallax example. Source under motion-canvas/examples (MIT). Preview is YouTube embed; redistributable false.",
+    "evidence_ids": [
+      "S-CV-033",
+      "S-CV-109",
+      "S-CV-110"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/c_3TLN2gHow",
+      "license": "待确认",
+      "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)",
+      "redistributable": false,
+      "source": "S-CV-110 https://www.youtube.com/embed/c_3TLN2gHow",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "motion-canvas-deferred-lights",
+    "project_id": "motion-canvas",
+    "name": "Deferred Lights",
+    "kind": "film",
+    "url": "https://github.com/motion-canvas/examples/tree/master/examples/deferred-lighting",
+    "section": "Film and Scene Templates",
+    "description": "Official Motion Canvas Deferred Lights example. Source under motion-canvas/examples (MIT). Preview is YouTube embed; redistributable false.",
+    "evidence_ids": [
+      "S-CV-033",
+      "S-CV-109",
+      "S-CV-110"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://www.youtube.com/embed/R6vQ9VmMz2w",
+      "license": "待确认",
+      "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)",
+      "redistributable": false,
+      "source": "S-CV-110 https://www.youtube.com/embed/R6vQ9VmMz2w",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "theatre-bouncing-box",
+    "project_id": "theatre-js",
+    "name": "Theatre.js Bouncing Box Demo",
+    "kind": "scene",
+    "url": "https://github.com/AriaMinaei/theatre-example-bouncing-box",
+    "section": "Film and Scene Templates",
+    "description": "Community tutorial demo GIF for Theatre.js (bouncing box). Core Theatre.js is Apache-2.0; example repo has no SPDX — hotlink only, redistributable false. GIF≠MP4.",
+    "evidence_ids": [
+      "S-CV-112",
+      "S-CV-111"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/AriaMinaei/theatre-example-bouncing-box/main/demo.gif",
+      "license": "待确认",
+      "attribution": "AriaMinaei / Theatre.js (https://github.com/AriaMinaei/theatre-example-bouncing-box)",
+      "redistributable": false,
+      "source": "S-CV-111 https://raw.githubusercontent.com/AriaMinaei/theatre-example-bouncing-box/main/demo.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "open-motion-feature-showcase",
+    "project_id": "open-motion",
+    "name": "OpenMotion Feature Showcase",
+    "kind": "film",
+    "url": "https://github.com/jsongo/open-motion/blob/main/assets/feature-showcase.gif",
+    "section": "Film and Scene Templates",
+    "description": "In-repo README showcase GIF (brand/dashboard/easing). MIT; redistributable true. GIF≠MP4.",
+    "evidence_ids": [
+      "S-CV-114",
+      "S-CV-113"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/jsongo/open-motion/main/assets/feature-showcase.gif",
+      "license": "MIT",
+      "attribution": "jsongo / OpenMotion (https://github.com/jsongo/open-motion)",
+      "redistributable": true,
+      "source": "S-CV-113 https://raw.githubusercontent.com/jsongo/open-motion/main/assets/feature-showcase.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "open-motion-media-showcase",
+    "project_id": "open-motion",
+    "name": "OpenMotion Media Showcase",
+    "kind": "film",
+    "url": "https://github.com/jsongo/open-motion/blob/main/assets/media-showcase.gif",
+    "section": "Film and Scene Templates",
+    "description": "In-repo README showcase GIF (video/audio). MIT; redistributable true. GIF≠MP4.",
+    "evidence_ids": [
+      "S-CV-114",
+      "S-CV-113"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/jsongo/open-motion/main/assets/media-showcase.gif",
+      "license": "MIT",
+      "attribution": "jsongo / OpenMotion (https://github.com/jsongo/open-motion)",
+      "redistributable": true,
+      "source": "S-CV-113 https://raw.githubusercontent.com/jsongo/open-motion/main/assets/media-showcase.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-cow",
+    "project_id": "hyperframes",
+    "name": "Cow",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "Homepage showcase card film (cow). HeyGen CDN card/ MP4. redistributable false; hotlink only.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-115"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/cow-v1.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-115 https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/cow-v1.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-real-ui-newspaper-1969",
+    "project_id": "hyperframes",
+    "name": "Real UI Newspaper 1969",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L28",
+    "section": "Film and Scene Templates",
+    "description": "Homepage showcase card film (real-ui newspaper 1969). HeyGen CDN card/ MP4. redistributable false; hotlink only.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-115"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/real-ui-newspaper-1969-v1.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-115 https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/real-ui-newspaper-1969-v1.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-vfx-background-removal",
+    "project_id": "hyperframes",
+    "name": "VFX Background Removal Launch",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L33",
+    "section": "Film and Scene Templates",
+    "description": "Homepage showcase card film (VFX background-removal launch). HeyGen CDN card/ MP4. redistributable false; hotlink only.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-115"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/vfx-background-removal-launch-v1.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-115 https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/vfx-background-removal-launch-v1.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "lemo-opuscar-hologram-hud",
+    "project_id": "lemo-opuscar",
+    "name": "Hologram HUD",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hologram-hud/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Lemo-Opuscar visual style (hologram HUD). Demo film CC BY 4.0 via web release; credit LemoLab.",
+    "evidence_ids": [
+      "S-CV-066"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/hologram-hud.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/hologram-hud.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "lemo-opuscar-ukiyoe",
+    "project_id": "lemo-opuscar",
+    "name": "Ukiyo-e",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ukiyoe/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Lemo-Opuscar visual style (ukiyo-e). Demo film CC BY 4.0 via web release; credit LemoLab.",
+    "evidence_ids": [
+      "S-CV-066"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ukiyoe.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ukiyoe.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "lemo-opuscar-art-deco",
+    "project_id": "lemo-opuscar",
+    "name": "Art Deco",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/art-deco/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Lemo-Opuscar visual style (art deco). Demo film CC BY 4.0 via web release; credit LemoLab.",
+    "evidence_ids": [
+      "S-CV-066"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/art-deco.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/art-deco.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-templates-dataviz-bar-race",
+    "project_id": "remotion-templates",
+    "name": "Dataviz Bar Race",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/dataviz-bar-race.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted Remotion template preview (dataviz bar race) from ali-abassi/remotion-templates site/previews. License 待确认; redistributable false; hotlink only. Small muted loop ≠ full film.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-116"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/dataviz-bar-race.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-116 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/dataviz-bar-race.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-templates-code-product-api",
+    "project_id": "remotion-templates",
+    "name": "Code Product API Response",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/code-product-demos-api-response.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted Remotion template preview (code-product API response). License 待确认; redistributable false; hotlink only.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-116"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/code-product-demos-api-response.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-116 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/code-product-demos-api-response.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-templates-browser-chrome",
+    "project_id": "remotion-templates",
+    "name": "Browser Chrome Address Bar Zoom",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/browser-chrome-address-bar-zoom.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted Remotion template preview (browser chrome address-bar zoom). License 待确认; redistributable false; hotlink only.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-116"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/browser-chrome-address-bar-zoom.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-116 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/browser-chrome-address-bar-zoom.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-templates-cursor-click",
+    "project_id": "remotion-templates",
+    "name": "Cursor Click Ripple",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cursor-demos-click-ripple.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted Remotion template preview (cursor click ripple). License 待确认; redistributable false; hotlink only.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-116"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cursor-demos-click-ripple.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-116 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cursor-demos-click-ripple.mp4",
       "checked_at": "2026-10-27"
     }
   }

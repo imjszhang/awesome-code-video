@@ -1186,5 +1186,104 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "HEAD 200 application/octet-stream on 2026-10-27 for carousel-3d.mp4 (2693076), terminal-3d.mp4 (688624), radial-wave.mp4 (765324) from gallery-media release; Range returned MP4 ftyp isom. Matching gallery/source/*.md present for each stem. Apache-2.0 / redistributable:true (same S-CV-070口径). Selected for scene diversity vs already-catalogued 8 gallery shots; not a whole-batch dump of remaining ~82 unused gallery/source pairs. Hotlink only; not a local render test."
+  },
+  {
+    "id": "S-CV-109",
+    "project_id": "motion-canvas",
+    "title": "Motion Canvas — official examples repository (YouTube demos)",
+    "url": "https://github.com/motion-canvas/examples",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 reviewed motion-canvas/examples README: examples asset-code / anniversary / smooth-parallax / motion-canvas (OSS) / deferred-lighting link official YouTube videos (s1ZQnS_tOg0, 4kjEwvrDKlg, c_3TLN2gHow, H5GETOP7ivs, R6vQ9VmMz2w). Repo MIT (matches motion-canvas/motion-canvas). packages/examples/assets/example.mp4 in monorepo is a tiny ~36KB stub — not used as gallery hero. Did not install or render. Catalog gap: framework entry motion-canvas had no preview."
+  },
+  {
+    "id": "S-CV-110",
+    "project_id": "motion-canvas",
+    "title": "Motion Canvas — official example YouTube embeds (gallery previews)",
+    "url": "https://www.youtube.com/embed/H5GETOP7ivs",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 text/html on 2026-10-27 for youtube.com/embed/{H5GETOP7ivs,s1ZQnS_tOg0,4kjEwvrDKlg,c_3TLN2gHow,R6vQ9VmMz2w}. kind=embed; redistributable=false (YouTube ToS — hotlink/embed only, do not mirror). img.youtube.com maxresdefault thumbs also 200 jpeg if UI needs posters later (not written into preview schema this batch). Not a local render test."
+  },
+  {
+    "id": "S-CV-111",
+    "project_id": "theatre-js",
+    "title": "Theatre.js — bouncing-box community demo.gif preview",
+    "url": "https://raw.githubusercontent.com/AriaMinaei/theatre-example-bouncing-box/main/demo.gif",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 image/gif Content-Length 2075149 on 2026-10-27; Range returned GIF89a. Example tutorial repo by Theatre.js author (AriaMinaei); GitHub API reports no SPDX license on that repo → license 待确认, redistributable:false, hotlink only. Core Theatre.js is Apache-2.0 (theatre-js/theatre). GIF≠MP4. Not a local render test."
+  },
+  {
+    "id": "S-CV-112",
+    "project_id": "theatre-js",
+    "title": "Theatre.js — upstream repository / license",
+    "url": "https://github.com/theatre-js/theatre",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "GitHub API 2026-10-27: theatre-js/theatre SPDX Apache-2.0; homepage https://www.theatrejs.com. Official site hosts tutorial videos via Mux (not raw MP4 in public git). Batch G uses community bouncing-box GIF as the only hotlinkable Theatre-adjacent preview; do not treat Mux streams as redistributable without separate clearance."
+  },
+  {
+    "id": "S-CV-113",
+    "project_id": "open-motion",
+    "title": "OpenMotion — README showcase GIFs (feature / media)",
+    "url": "https://raw.githubusercontent.com/jsongo/open-motion/main/assets/feature-showcase.gif",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 image/gif on 2026-10-27 for assets/feature-showcase.gif (501663) and assets/media-showcase.gif (979274); Range returned GIF89a. Files live in-repo under MIT LICENSE (Copyright 2026 OpenMotion) → redistributable:true for these GIFs as part of the Software. GIF≠MP4 master. Remotion-like React video engine (jsongo/open-motion). Hotlink only; not a local render test. Catalog links use the two in-repo GIF blobs (assets/feature-showcase.gif and assets/media-showcase.gif) so the entries stay distinct."
+  },
+  {
+    "id": "S-CV-114",
+    "project_id": "open-motion",
+    "title": "OpenMotion — upstream repository / license",
+    "url": "https://github.com/jsongo/open-motion",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "GitHub API + LICENSE file 2026-10-27: MIT (jsongo/open-motion). Small/new project (~9★ at check); still eligible as diversity upstream for video-as-code gallery. No RenderComp / webreel relation."
+  },
+  {
+    "id": "S-CV-115",
+    "project_id": "hyperframes",
+    "title": "HyperFrames — leftover homepage showcase card MP4s (cow / newspaper / vfx)",
+    "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/cow-v1.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 video/mp4 on 2026-10-27 for cow-v1.mp4 (7548398), real-ui-newspaper-1969-v1.mp4 (2546259), vfx-background-removal-launch-v1.mp4 (6643711) under static.heygen.ai/hyperframes-oss/homepage/showcase/card/. Range returned MP4 ftyp. Batch F noted these as next leftovers; docs/images/homepage/... paths 403 — use homepage/showcase/card/. Framework Apache-2.0 (S-CV-056) but CDN binary redistribution 待确认 → redistributable:false. Cap this batch at 3 HF cards (no hq/). Not a local render test. Catalog resource URLs point at distinct lines in docs/snippets/film-rows.jsx (real-ui-newspaper-1969 L28, vfx-background-removal-launch L33, cow L49 on main, read 2026-10-27) because the homepage URL is shared. Preview URLs remain the HeyGen CDN homepage/showcase/card/ MP4s."
+  },
+  {
+    "id": "S-CV-116",
+    "project_id": "remotion-templates",
+    "title": "ali-abassi/remotion-templates — site/previews muted MP4 samples",
+    "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/dataviz-bar-race.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 application/octet-stream on 2026-10-27 for site/previews/{dataviz-bar-race,code-product-demos-api-response,browser-chrome-address-bar-zoom,cursor-demos-click-ripple}.mp4 (~20–30KB each); Range returned MP4 ftyp isom. Repo ships ~1000 muted preview MP4s under site/previews/; Batch G takes 4 from distinct families only (no dump). MIME octet-stream risk same class as webreel/raw — ftyp OK. Hotlink only; not a local render test."
+  },
+  {
+    "id": "S-CV-117",
+    "project_id": "remotion-templates",
+    "title": "ali-abassi/remotion-templates — provenance / license 待确认",
+    "url": "https://github.com/ali-abassi/remotion-templates",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27: no root LICENSE file; package.json license field null; README warns third-party code/media retain own requirements. Therefore preview.license=待确认 and redistributable=false despite public raw hotlinks. Remotion runtime license is separate (do not conflate). New project stub remotion-templates for catalog."
   }
 ]

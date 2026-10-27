@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 133 个可复用单元：88 个成片或场景工程、6 个地图镜头、24 个镜头配方、15 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 150 个可复用单元：98 个成片或场景工程、6 个地图镜头、28 个镜头配方、18 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -127,6 +127,17 @@
 - [最后的饭团](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L31) - HyperFrames 首页展示片（漫画）。使用 HeyGen CDN 的 card/ MP4。不可再分发，只热链。不是本地渲染测试。
 - [ReVideo 字符扰乱模板预览](https://github.com/midrender/revideo/tree/main/packages/template) - 来自 ReVideo（midrender）模板包的 GIF 动画预览。MIT。GIF 不是 MP4 成片；packages/examples/assets/example.mp4 只是很小的占位文件，未收录。
 
+- [这段素材能否写成代码](https://github.com/motion-canvas/examples/tree/master/examples/asset-code) - Motion Canvas 官方示例（Could This Asset Be Code）。源码在 motion-canvas/examples（MIT）。预览是 README 中的 YouTube 嵌入，不可再分发。
+- [Motion Canvas 一周年](https://github.com/motion-canvas/examples/tree/master/examples/anniversary) - Motion Canvas 官方周年示例。源码在 motion-canvas/examples（MIT）。预览是 YouTube 嵌入，不可再分发。
+- [平滑视差](https://github.com/motion-canvas/examples/tree/master/examples/smooth-parallax) - Motion Canvas 官方 Smooth Parallax 示例。源码在 motion-canvas/examples（MIT）。预览是 YouTube 嵌入，不可再分发。
+- [延迟光照](https://github.com/motion-canvas/examples/tree/master/examples/deferred-lighting) - Motion Canvas 官方 Deferred Lights 示例。源码在 motion-canvas/examples（MIT）。预览是 YouTube 嵌入，不可再分发。
+- [Theatre.js 弹跳方块演示](https://github.com/AriaMinaei/theatre-example-bouncing-box) - Theatre.js 社区教程演示 GIF（弹跳方块）。核心仓库为 Apache-2.0；示例仓库没有 SPDX，只热链，不可再分发。GIF 不是 MP4。
+- [OpenMotion 功能展示](https://github.com/jsongo/open-motion/blob/main/assets/feature-showcase.gif) - 仓库 README 中的功能展示 GIF（品牌、仪表盘、缓动）。MIT，可再分发。GIF 不是 MP4。
+- [OpenMotion 媒体展示](https://github.com/jsongo/open-motion/blob/main/assets/media-showcase.gif) - 仓库 README 中的媒体展示 GIF（视频、音频）。MIT，可再分发。GIF 不是 MP4。
+- [Cow](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L49) - HyperFrames 首页展示卡片片（cow）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
+- [1969 年报纸界面](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L28) - HyperFrames 首页展示卡片片（1969 年报纸界面）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
+- [背景移除发布](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L33) - HyperFrames 首页展示卡片片（VFX 背景移除发布）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
+
 ## 参数化地图镜头
 
 以下示例来自 [map-motion](https://github.com/SpaceZephyr/map-motion)。复制 JSON 示例后修改坐标、路线、标签和时间配置，再按项目说明渲染。所选地图模式可能需要 API Key 或对应数据。
@@ -178,6 +189,13 @@
 - [编辑出版风数据图表](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart) - 暖纸底、衬线标题、柱形生长与折线描绘，适合经营指标和数据科普。复用 15 秒 HTML/SVG 时间轴，替换数组、量程、标签及数据出处。
 - [频道订阅提示条](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third) - 滑入频道卡片与弹性订阅按钮，适合创作者介绍和订阅提示。复用 4.5 秒 HTML 叠加层与 GSAP 时间轴，替换头像、频道文字、数字及样式。
 
+以下静音短环来自 [ali-abassi/remotion-templates](https://github.com/ali-abassi/remotion-templates) 的 `site/previews`。该仓库没有 SPDX / LICENSE，再分发未确认，只热链。这些是很短的静音循环，不是完整成片。
+
+- [数据条形竞赛](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/dataviz-bar-race.mp4) - ali-abassi/remotion-templates 的静音预览（数据条形竞赛），来自 site/previews。许可待确认，不可再分发，只热链。短静音循环不是完整成片。
+- [代码产品 API 响应](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/code-product-demos-api-response.mp4) - Remotion 模板静音预览（代码产品 API 响应）。许可待确认，不可再分发，只热链。
+- [浏览器地址栏缩放](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/browser-chrome-address-bar-zoom.mp4) - Remotion 模板静音预览（浏览器地址栏缩放）。许可待确认，不可再分发，只热链。
+- [光标点击涟漪](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cursor-demos-click-ripple.mp4) - Remotion 模板静音预览（光标点击涟漪）。许可待确认，不可再分发，只热链。
+
 ## 视觉风格文件
 
 以下选自 [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar)，每项链接到具体 `STYLE.md`；[样片画廊](https://lemomo-ai.github.io/lemo-opuscar/)用于比较视觉效果。可复用的是配色、材质、构图和动作等风格约束，需要围绕新主题生成工程，不能作为换字即出的成片模板。
@@ -199,6 +217,9 @@
 | [水彩笔触](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md) | 暖纸底、半透明笔触与逐笔显现 | 自然、旅行、科学故事 |
 | [工程爆炸拆解](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md) | 摄影棚质感、零件分层爆炸与微距运镜；需自备 CAD/PCB 素材 | 硬件发布、结构讲解 |
 | [工程简报板](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md) | 实体白板、照片剪贴、磁吸标签与跟线运镜 | 工程比较、方案决策 |
+| [全息 HUD](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hologram-hud/STYLE.md) | 全息 HUD 风格说明与样片；演示片 CC BY 4.0，署名 LemoLab | 界面与数据演示 |
+| [浮世绘](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ukiyoe/STYLE.md) | 浮世绘风格说明与样片；演示片 CC BY 4.0，署名 LemoLab | 文化风格短片 |
+| [装饰艺术](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/art-deco/STYLE.md) | 装饰艺术风格说明与样片；演示片 CC BY 4.0，署名 LemoLab | 品牌与风格短片 |
 
 ## 视频制作框架
 
