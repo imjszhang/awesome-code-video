@@ -8,14 +8,24 @@
     "section": "Film and Scene Templates",
     "description": "Warm paper, ink typography, and amber accents for SaaS, research tools, and knowledge-product launches. A 36.2-second, ten-shot Remotion project with title cards, page-camera moves, captions, and timed sound effects. Replace screenshots, element crops, copy, branding, and page coordinates; adapt camera framing to the new interface. The documented version is 1080p at 30 fps with sound effects and no background music.",
     "evidence_ids": [
-      "S-CV-001"
+      "S-CV-001",
+      "S-CV-104"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/showcase-media/showcase-ink-press-template.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-104 https://github.com/Vincentwei1021/video-shotcraft/releases/download/showcase-media/showcase-ink-press-template.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "paper-cut-five-layer-motion",
@@ -1380,7 +1390,8 @@
     "description": "Warm paper, serif headings, animated bars, and a traced line for business metrics and data explainers. Reuse a 15-second HTML/SVG composition with a paused GSAP timeline; replace data arrays, scales, labels, and source attribution, then integrate it into a HyperFrames film.",
     "evidence_ids": [
       "S-CV-063",
-      "S-CV-056"
+      "S-CV-056",
+      "S-CV-105"
     ],
     "section": "Shot Recipes",
     "review": {
@@ -1388,7 +1399,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/data-chart.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-105 https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/data-chart.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "hyperframes-yt-lower-third",
@@ -1399,7 +1419,8 @@
     "description": "A sliding channel card and springy subscribe-button animation for creator introductions and calls to action. Reuse the 4.5-second HTML overlay and paused GSAP timeline; replace the avatar, channel text, counts, and styling, then compose it over your footage.",
     "evidence_ids": [
       "S-CV-064",
-      "S-CV-056"
+      "S-CV-056",
+      "S-CV-105"
     ],
     "section": "Shot Recipes",
     "review": {
@@ -1407,7 +1428,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/yt-lower-third.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-105 https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/yt-lower-third.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "pretext",
@@ -3648,6 +3678,380 @@
       "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)",
       "redistributable": true,
       "source": "S-CV-100 https://raw.githubusercontent.com/midrender/revideo/main/packages/template/scramble.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "webreel-modifier-clicks",
+    "project_id": "webreel",
+    "name": "Modifier Click Capture",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/modifier-clicks",
+    "section": "Shot Recipes",
+    "description": "Webreel docs-public example video for modifier-clicks. Apache-2.0. Hotlink apps/docs/public copy (not examples/*/videos LFS pointer). MIME often application/octet-stream but ftyp OK.",
+    "evidence_ids": [
+      "S-CV-046",
+      "S-CV-102",
+      "S-CV-103"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/modifier-clicks.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-103 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/modifier-clicks.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "webreel-screenshots",
+    "project_id": "webreel",
+    "name": "Screenshot Capture Demo",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/screenshots",
+    "section": "Shot Recipes",
+    "description": "Webreel docs-public example video for screenshots. Apache-2.0. Hotlink apps/docs/public copy (not examples/*/videos LFS pointer). MIME often application/octet-stream but ftyp OK.",
+    "evidence_ids": [
+      "S-CV-046",
+      "S-CV-102",
+      "S-CV-103"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/screenshots.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-103 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/screenshots.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "webreel-shared-steps",
+    "project_id": "webreel",
+    "name": "Shared Steps Demo",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/shared-steps",
+    "section": "Shot Recipes",
+    "description": "Webreel docs-public example video for shared-steps. Apache-2.0. Hotlink apps/docs/public copy (not examples/*/videos LFS pointer). MIME often application/octet-stream but ftyp OK.",
+    "evidence_ids": [
+      "S-CV-046",
+      "S-CV-102",
+      "S-CV-103"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/shared-steps.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-103 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/shared-steps.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-opening-night",
+    "project_id": "hyperframes",
+    "name": "Opening Night",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L24",
+    "section": "Film and Scene Templates",
+    "description": "HyperFrames homepage showcase film (Opening night / awards trailer). Hosted on HeyGen static CDN card/ MP4. Framework Apache-2.0; hosted binary redistribution 待确认 — hotlink only, redistributable false. Prefer card/ over hq/ for size.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-106"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/frameys-opening-night-v1.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-106 https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/frameys-opening-night-v1.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-remotion-to-hyperframes",
+    "project_id": "hyperframes",
+    "name": "Remotion to HyperFrames",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L58",
+    "section": "Film and Scene Templates",
+    "description": "HyperFrames homepage showcase film (Remotion to HyperFrames / 3D voxel). HeyGen CDN card/ MP4. redistributable false; hotlink only. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-106"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/remotion-to-hyperframes-v1.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-106 https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/remotion-to-hyperframes-v1.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-manga-last-onigiri",
+    "project_id": "hyperframes",
+    "name": "The Last Onigiri",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L31",
+    "section": "Film and Scene Templates",
+    "description": "HyperFrames homepage showcase film (manga). HeyGen CDN card/ MP4. redistributable false; hotlink only. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-106"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/manga-last-onigiri-v1.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-106 https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/manga-last-onigiri-v1.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-hello-world",
+    "project_id": "remotion",
+    "name": "Hello World Template",
+    "kind": "scene",
+    "url": "https://www.remotion.dev/templates/hello-world",
+    "section": "Film and Scene Templates",
+    "description": "Official Remotion template page for hello-world. Preview is the official OG PNG thumbnail only (no hotlinkable MP4). Template terms 待确认; Remotion runtime license separate. Do not copy the OG image into the catalog.",
+    "evidence_ids": [
+      "S-CV-055",
+      "S-CV-039",
+      "S-CV-107"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-hello-world.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/hello-world)",
+      "redistributable": false,
+      "source": "S-CV-107 https://www.remotion.dev/generated/template-hello-world.png",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-recorder",
+    "project_id": "remotion",
+    "name": "Recorder Template",
+    "kind": "scene",
+    "url": "https://www.remotion.dev/templates/recorder",
+    "section": "Film and Scene Templates",
+    "description": "Official Remotion template page for recorder. Preview is the official OG PNG thumbnail only (no hotlinkable MP4). Template terms 待确认; Remotion runtime license separate. Do not copy the OG image into the catalog.",
+    "evidence_ids": [
+      "S-CV-055",
+      "S-CV-039",
+      "S-CV-107"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-recorder.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/recorder)",
+      "redistributable": false,
+      "source": "S-CV-107 https://www.remotion.dev/generated/template-recorder.png",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-skia",
+    "project_id": "remotion",
+    "name": "Skia Template",
+    "kind": "scene",
+    "url": "https://www.remotion.dev/templates/skia",
+    "section": "Film and Scene Templates",
+    "description": "Official Remotion template page for skia. Preview is the official OG PNG thumbnail only (no hotlinkable MP4). Template terms 待确认; Remotion runtime license separate. Do not copy the OG image into the catalog.",
+    "evidence_ids": [
+      "S-CV-055",
+      "S-CV-039",
+      "S-CV-107"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-skia.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/skia)",
+      "redistributable": false,
+      "source": "S-CV-107 https://www.remotion.dev/generated/template-skia.png",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-electron",
+    "project_id": "remotion",
+    "name": "Electron Template",
+    "kind": "scene",
+    "url": "https://www.remotion.dev/templates/electron",
+    "section": "Film and Scene Templates",
+    "description": "Official Remotion template page for electron. Preview is the official OG PNG thumbnail only (no hotlinkable MP4). Template terms 待确认; Remotion runtime license separate. Do not copy the OG image into the catalog.",
+    "evidence_ids": [
+      "S-CV-055",
+      "S-CV-039",
+      "S-CV-107"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-electron.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/electron)",
+      "redistributable": false,
+      "source": "S-CV-107 https://www.remotion.dev/generated/template-electron.png",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "video-shotcraft-carousel-3d",
+    "project_id": "video-shotcraft",
+    "name": "Carousel 3D",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/carousel-3d.md",
+    "section": "Shot Recipes",
+    "description": "Video-shotcraft gallery recipe carousel-3d with gallery-media release MP4. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-070",
+      "S-CV-108"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/carousel-3d.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-108 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/carousel-3d.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "video-shotcraft-terminal-3d",
+    "project_id": "video-shotcraft",
+    "name": "Terminal 3D",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/gallery/source/terminal-3d.md",
+    "section": "Shot Recipes",
+    "description": "Video-shotcraft gallery recipe terminal-3d with gallery-media release MP4. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-070",
+      "S-CV-108"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/terminal-3d.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-108 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/terminal-3d.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "video-shotcraft-radial-wave",
+    "project_id": "video-shotcraft",
+    "name": "Radial Wave",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/gallery/source/radial-wave.md",
+    "section": "Shot Recipes",
+    "description": "Video-shotcraft gallery recipe radial-wave with gallery-media release MP4. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-070",
+      "S-CV-108"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/radial-wave.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-108 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/radial-wave.mp4",
       "checked_at": "2026-10-27"
     }
   }

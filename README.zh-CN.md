@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 120 个可复用单元：81 个成片或场景工程、6 个地图镜头、18 个镜头配方、15 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 133 个可复用单元：88 个成片或场景工程、6 个地图镜头、24 个镜头配方、15 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -48,6 +48,10 @@
 - [叠加层模板](https://www.remotion.dev/templates/overlay) - Remotion 官方 overlay 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
 - [Three.js 模板](https://www.remotion.dev/templates/three) - Remotion 官方 three 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
 - [音乐可视化模板](https://www.remotion.dev/templates/music-visualization) - Remotion 官方 music-visualization 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
+- [Hello World 模板](https://www.remotion.dev/templates/hello-world) - Remotion 官方 hello-world 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
+- [录制器模板](https://www.remotion.dev/templates/recorder) - Remotion 官方 recorder 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
+- [Skia 模板](https://www.remotion.dev/templates/skia) - Remotion 官方 skia 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
+- [Electron 模板](https://www.remotion.dev/templates/electron) - Remotion 官方 electron 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
 
 - [客户证言：霓虹分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx) - 可主题切换的 Remotion 客户证言成片，含居中、分屏和编辑排版，站点主预览变体是 Neon Split。复用 Testimonial.tsx，替换引言、客户和行动号召。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [提案：深色高管风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/Proposal.tsx) - 用于范围、时间线和报价演示的 Remotion 提案成片，列出的主预览变体是 Dark Executive。复用 Proposal.tsx，替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
@@ -118,6 +122,9 @@
 - [提示词生成视频](https://www.remotion.dev/templates/prompt-to-video) - Remotion 官方模板，用提示词生成竖屏故事、配图、旁白和时间线。复用模板仓库，并自行提供 OpenAI 与 ElevenLabs 凭证。该模板仓库没有 LICENSE 文件，条款待确认；预览只链到官方缩略图，不得复制。使用前核对 Remotion 许可。
 - [Firecrawl 病毒式复刻](https://github.com/heygen-com/hyperframes/blob/main/docs/examples.mdx#L75) - HyperFrames 展示片，托管在 HeyGen 静态 CDN（viral-clone 复刻）。清单链接指向 docs/examples.mdx 里该片的记录；MP4 仍在 CDN 上。框架为 Apache-2.0；托管 MP4 是否可再分发待确认，只热链，不标记为可再分发。不作为本地渲染测试。
 - [Linear Loops 病毒式复刻](https://github.com/heygen-com/hyperframes/blob/main/docs/examples.mdx#L120) - HyperFrames 展示片，托管在 HeyGen 静态 CDN（viral-clone 复刻）。清单链接指向 docs/examples.mdx 里该片的记录；MP4 仍在 CDN 上。框架为 Apache-2.0；托管 MP4 是否可再分发待确认，只热链，不标记为可再分发。不作为本地渲染测试。
+- [开幕之夜](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L24) - HyperFrames 首页展示片（开幕之夜 / 颁奖预告）。托管在 HeyGen 静态 CDN 的 card/ MP4。框架为 Apache-2.0；托管成片是否可再分发待确认，只热链，不标记为可再分发。优先用 card/，不用体积更大的 hq/。
+- [从 Remotion 到 HyperFrames](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L58) - HyperFrames 首页展示片（从 Remotion 到 HyperFrames / 3D 体素）。使用 HeyGen CDN 的 card/ MP4。不可再分发，只热链。不是本地渲染测试。
+- [最后的饭团](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L31) - HyperFrames 首页展示片（漫画）。使用 HeyGen CDN 的 card/ MP4。不可再分发，只热链。不是本地渲染测试。
 - [ReVideo 字符扰乱模板预览](https://github.com/midrender/revideo/tree/main/packages/template) - 来自 ReVideo（midrender）模板包的 GIF 动画预览。MIT。GIF 不是 MP4 成片；packages/examples/assets/example.mp4 只是很小的占位文件，未收录。
 
 ## 参数化地图镜头
@@ -145,6 +152,9 @@
 - [文档逐字显现](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/typography/document-typewriter-reveal.md) - 文档内容逐步书写展开，适合 AI 写作、周报和笔记整理演示。
 - [图表实时变化](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/data/chart-live-moves.md) - 图表随叙事变化，适合数据解读、增长展示和研究结论。
 - [界面变成品牌收尾](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/outro/ui-to-brand-morph.md) - 界面元素向品牌图形收束，适合产品宣传片尾。
+- [三维旋转木马](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/carousel-3d.md) - Video-shotcraft 画廊配方 carousel-3d，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [三维终端](https://github.com/Vincentwei1021/video-shotcraft/blob/main/gallery/source/terminal-3d.md) - Video-shotcraft 画廊配方 terminal-3d，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [径向波纹](https://github.com/Vincentwei1021/video-shotcraft/blob/main/gallery/source/radial-wave.md) - Video-shotcraft 画廊配方 radial-wave，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
 
 以下 Webreel 示例通过脚本录制浏览器操作，均附本地演示页面和可编辑配置；用于新产品时需要同时适配页面与操作脚本。
 
@@ -155,6 +165,9 @@
 - [表单填写演示](https://github.com/vercel-labs/webreel/tree/main/examples/form-filling) - Webreel 示例，把脚本化的浏览器流程（form-filling）录成 MP4。复用该示例工程，许可为 Apache-2.0。预览使用文档站公开的 MP4（examples/*/videos 里的文件是 Git LFS 指针）。
 - [键盘快捷键演示](https://github.com/vercel-labs/webreel/tree/main/examples/keyboard-shortcuts) - Webreel 示例，把脚本化的浏览器流程（keyboard-shortcuts）录成 MP4。复用该示例工程，许可为 Apache-2.0。预览使用文档站公开的 MP4（examples/*/videos 里的文件是 Git LFS 指针）。
 - [页面滚动演示](https://github.com/vercel-labs/webreel/tree/main/examples/page-scrolling) - Webreel 示例，把脚本化的浏览器流程（page-scrolling）录成 MP4。复用该示例工程，许可为 Apache-2.0。预览使用文档站公开的 MP4（examples/*/videos 里的文件是 Git LFS 指针）。
+- [修饰键点击捕捉](https://github.com/vercel-labs/webreel/tree/main/examples/modifier-clicks) - Webreel 文档站公开示例视频（modifier-clicks）。许可 Apache-2.0。热链 apps/docs/public 副本（不要用 examples/*/videos 里的 Git LFS 指针）。MIME 常为 application/octet-stream，但文件头是合法的 ftyp。
+- [截图捕捉演示](https://github.com/vercel-labs/webreel/tree/main/examples/screenshots) - Webreel 文档站公开示例视频（screenshots）。许可 Apache-2.0。热链 apps/docs/public 副本（不要用 examples/*/videos 里的 Git LFS 指针）。MIME 常为 application/octet-stream，但文件头是合法的 ftyp。
+- [共享步骤演示](https://github.com/vercel-labs/webreel/tree/main/examples/shared-steps) - Webreel 文档站公开示例视频（shared-steps）。许可 Apache-2.0。热链 apps/docs/public 副本（不要用 examples/*/videos 里的 Git LFS 指针）。MIME 常为 application/octet-stream，但文件头是合法的 ftyp。
 
 以下网页动效组件用于视频时需要录制或时间轴适配。
 
