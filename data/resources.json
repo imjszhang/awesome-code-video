@@ -987,5 +987,23 @@
       "render_tested": false
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "pretext",
+    "project_id": "pretext",
+    "name": "Pretext",
+    "kind": "tool",
+    "url": "https://github.com/chenglou/pretext",
+    "section": "Motion Design Tools",
+    "description": "JavaScript/TypeScript text measurement and multiline layout for animated titles, captions, and text cards. Reuse cached measurements, line widths, and wrapping with DOM, Canvas, or SVG; load the intended fonts and add your own animation timeline and video renderer.",
+    "evidence_ids": [
+      "S-CV-065"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Video use cases are curator assessments. This is a text layout library; animation, fitting policies and rendering must be integrated by the caller."
   }
 ]

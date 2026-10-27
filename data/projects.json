@@ -268,5 +268,22 @@
     "aliases": [],
     "urls": [],
     "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "pretext",
+    "name": "Pretext",
+    "url": "https://github.com/chenglou/pretext",
+    "aliases": [
+      "@chenglou/pretext"
+    ],
+    "urls": [
+      "https://chenglou.me/pretext/"
+    ],
+    "github": {
+      "id": 1175538883,
+      "full_name": "chenglou/pretext",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
   }
 ]

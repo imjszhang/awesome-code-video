@@ -16,6 +16,7 @@
 - [可复用镜头配方](#可复用镜头配方)
 - [视觉风格文件](#视觉风格文件)
 - [视频制作框架](#视频制作框架)
+- [视频动效辅助工具](#视频动效辅助工具)
 - [制作工作流](#制作工作流)
 - [相关清单](#相关清单)
 - [复用边界](#复用边界)
@@ -116,6 +117,12 @@
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - 将 HTML、CSS 和 JavaScript 动画制作成视频，适合网页技术栈与编程助手协作。
 - [Motion Canvas](https://motioncanvas.io/) - 用 TypeScript 编排动画，适合图解和讲解型视频。
 - [Manim Community](https://www.manim.community/) - 用 Python 制作数学与技术动画，适合公式、几何和概念推导；这里链接的是社区维护版。
+
+## 视频动效辅助工具
+
+用于构建视频画面的辅助工具，独立于可直接复用的成片模板。
+
+- [Pretext](https://github.com/chenglou/pretext) - JavaScript/TypeScript 文字测量与多行排版库，可辅助制作动态标题、字幕和文字卡片。复用缓存测量、行宽和折行能力，搭配 DOM、Canvas 或 SVG；需加载目标字体，并自行接入动画时间线与视频渲染器。
 
 ## 制作工作流
 

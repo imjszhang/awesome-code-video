@@ -18,6 +18,7 @@ Find **video templates, motion graphics, product demos, explainers, data stories
 - [Shot Recipes](#shot-recipes)
 - [Visual Style Templates](#visual-style-templates)
 - [Frameworks and Renderers](#frameworks-and-renderers)
+- [Motion Design Tools](#motion-design-tools)
 - [Production Workflows](#production-workflows)
 
 ## Start Here
@@ -117,6 +118,12 @@ These are foundations for composing or rendering your own work. They are not inc
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).
 - [Motion Canvas](https://motioncanvas.io/) - TypeScript animation with a visual preview workflow for explanatory videos and synchronized motion.
 - [Manim Community](https://www.manim.community/) - Python animation for mathematical diagrams, scientific explanations, and technical teaching.
+
+## Motion Design Tools
+
+Supporting tools for building video graphics; these are separate from ready-made templates.
+
+- [Pretext](https://github.com/chenglou/pretext) - JavaScript/TypeScript text measurement and multiline layout for animated titles, captions, and text cards. Reuse cached measurements, line widths, and wrapping with DOM, Canvas, or SVG; load the intended fonts and add your own animation timeline and video renderer.
 
 ## Production Workflows
 

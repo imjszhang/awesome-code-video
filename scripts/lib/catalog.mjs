@@ -2,7 +2,7 @@ import { createHash, randomUUID } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-export const RESOURCE_KINDS = Object.freeze(['film', 'scene', 'preset', 'shot', 'style', 'framework', 'workflow', 'collection']);
+export const RESOURCE_KINDS = Object.freeze(['film', 'scene', 'preset', 'shot', 'style', 'framework', 'tool', 'workflow', 'collection']);
 export const CANDIDATE_STATUSES = Object.freeze(['pending', 'researching', 'accepted', 'rejected', 'duplicate', 'deferred']);
 const SECTIONS = new Map([
   ['film-and-scene-templates', ['film', 'scene']],
@@ -10,6 +10,7 @@ const SECTIONS = new Map([
   ['shot-recipes', ['shot']],
   ['visual-style-templates', ['style']],
   ['frameworks-and-renderers', ['framework']],
+  ['motion-design-tools', ['tool']],
   ['production-workflows', ['workflow']],
   ['related-lists', ['collection']],
 ]);

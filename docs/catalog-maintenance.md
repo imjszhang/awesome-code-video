@@ -9,7 +9,7 @@ The public READMEs remain manually curated. A small local catalog makes prior re
 | File | Identity | What it stores |
 | --- | --- | --- |
 | `data/projects.json` | Stable project ID; GitHub numeric repository ID where available | Official repository, known alternate URLs, names, and default branch. |
-| `data/resources.json` | Stable resource ID | A specific film, scene, preset, shot, style, framework, workflow, or related list; its project, English description, and evidence references. |
+| `data/resources.json` | Stable resource ID | A specific film, scene, preset, shot, style, framework, tool, workflow, or related list; its project, English description, and evidence references. |
 | `data/evidence.json` | `S-CV-NNN` | A source URL, what was inspected, review date, source status, and limitations. |
 | `research/candidates.json` | Generated candidate ID | Discovery URLs, optional resolved resource URLs, and prior decisions, including rejected and deferred candidates. |
 

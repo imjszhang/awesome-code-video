@@ -9,6 +9,7 @@ export const SECTION_TRANSLATIONS = Object.freeze({
   'Shot Recipes': '可复用镜头配方',
   'Visual Style Templates': '视觉风格文件',
   'Frameworks and Renderers': '视频制作框架',
+  'Motion Design Tools': '视频动效辅助工具',
   'Production Workflows': '制作工作流',
   'Related Lists': '相关清单',
 });

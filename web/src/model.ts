@@ -8,7 +8,7 @@ export const resources = resourceData;
 export const evidence = evidenceData;
 export type Resource = typeof resources[number];
 export const repo = 'https://github.com/imjszhang/awesome-code-video';
-export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',workflow:'Workflow',collection:'Related list'};
+export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',tool:'Motion design tool',workflow:'Workflow',collection:'Related list'};
 export const kindGuides: Record<string, string> = {
  film:'An editable film project. Adapt its story, assets, scene code, and timing to your subject.',
  scene:'A self-contained scene or composition. Replace its content and integrate it into your film.',
@@ -16,6 +16,7 @@ export const kindGuides: Record<string, string> = {
  shot:'An individual shot or motion implementation. Adapt it to your scene and timeline.',
  style:'Art direction and production instructions. You still need to create the script, assets, scene code, and render.',
  framework:'A foundation for building and rendering videos. It is not a ready-made film template.',
+ tool:'A supporting library for video graphics. Integrate its output with your own animation timeline and renderer; it is not a finished-film template.',
  workflow:'A production method or agent workflow. Follow its prerequisites and provide your own content.',
  collection:'A related discovery list. Review individual resources before reusing them.'
 };
@@ -24,7 +25,7 @@ export const collections = [
  {id:'explainers',name:'Explainers',caption:'Give a complex idea a clear shape.',description:'Paper collage, diagrams, science scenes, and narrated workflows for turning an idea into an explanation.',ids:['paper-cut-five-layer-motion','butterfly-life','anatomy-ripple-tank','lemo-opuscar-whiteboard-explainer','lemo-opuscar-isometric-infographic','llm-explain','lemo-watercolor','lemo-teardown'],symbol:'✳'},
  {id:'maps-and-travel',name:'Maps & travel',caption:'Put your story on the map.',description:'Reusable location, flight, road-trip, and elevation configurations. Check each mode’s data and provider requirements.',ids:['map-motion-globe-to-location','map-motion-night-location','map-motion-hiking-elevation','map-motion-road-trip','map-motion-flight-routes','map-motion-radial-coverage'],symbol:'◎'},
  {id:'data-stories',name:'Data stories',caption:'Turn numbers into a narrative.',description:'Chart motion, visual systems, and information-design specifications for metrics, research, and technical stories.',ids:['hyperframes-data-chart','video-shotcraft-chart-live-moves','lemo-opuscar-data-storytelling','lemo-opuscar-blueprint','lemo-briefing-board'],symbol:'▥'},
- {id:'type-and-captions',name:'Type & captions',caption:'Make every word count.',description:'Text reveals, title cards, captions, and audio-driven compositions for creator videos and editorial sequences.',ids:['video-shotcraft-text-as-mask','video-shotcraft-paper-title-card','video-shotcraft-document-typewriter-reveal','amicro-line-reveal','remotion-tiktok','remotion-audiogram','hyperframes-yt-lower-third','lemo-opuscar-caption-news'],symbol:'Aa'},
+ {id:'type-and-captions',name:'Type & captions',caption:'Make every word count.',description:'Text reveals, title cards, captions, and audio-driven compositions for creator videos and editorial sequences.',ids:['pretext','video-shotcraft-text-as-mask','video-shotcraft-paper-title-card','video-shotcraft-document-typewriter-reveal','amicro-line-reveal','remotion-tiktok','remotion-audiogram','hyperframes-yt-lower-third','lemo-opuscar-caption-news'],symbol:'Aa'},
  {id:'retro-and-playful',name:'Retro & playful',caption:'A little nostalgia. A lot of character.',description:'Pixel-world storytelling and terminal-inspired art direction for game narratives and playful technical films.',ids:['claude-quest','lemo-opuscar-16-bit-pixel-rpg','lemo-opuscar-ascii-crt-terminal','remotion-code-hike'],symbol:'⌘'}
 ];
 export const featuredIds = ['ink-press','paper-cut-five-layer-motion','map-motion-globe-to-location','lemo-opuscar-swiss-motion-graphics','claude-quest','hyperframes-data-chart'];

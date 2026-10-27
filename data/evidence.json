@@ -702,5 +702,16 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "Inspected source/specification after discovery at https://hyperframes.heygen.com/catalog/blocks/yt-lower-third. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-065",
+    "project_id": "pretext",
+    "title": "Pretext — text measurement and line layout API",
+    "url": "https://github.com/chenglou/pretext/blob/main/README.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Reviewed upstream README and API examples at commit 0d102a5cd933611e86a7e60bda7b4baa5995c6b0: @chenglou/pretext, prepare/layout, measureNaturalWidth, measureLineStats and layoutWithLines; DOM, Canvas and SVG output. Video title/caption use is an editorial integration recommendation, not a shipped video renderer. No installation or render test performed. Auto-fit and balanced CLI flags are not asserted as upstream APIs."
   }
 ]
