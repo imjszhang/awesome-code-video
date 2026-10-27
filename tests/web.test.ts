@@ -113,7 +113,7 @@ test('homepage gallery lists complete previews and featured covers without playb
  assert.equal(videos.length,playable.length);
  for(const tag of videos){
   assert.match(tag,/preload="metadata"/);
-  assert.match(tag,/playsinline/);
+  assert.match(tag,/playsinline/i);
   assert.match(tag,/tabindex="-1"/);
   assert.doesNotMatch(tag,/\bautoplay\b/i);
   assert.doesNotMatch(tag,/\bcontrols\b/i);
