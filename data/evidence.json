@@ -1109,5 +1109,82 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "GitHub API license.spdx_id=MIT on 2026-10-27 for midrender/revideo. New catalog project stub recommended as revideo."
+  },
+  {
+    "id": "S-CV-102",
+    "project_id": "webreel",
+    "title": "Webreel — leftover example sources (modifier-clicks / screenshots / shared-steps)",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 reviewed examples/{modifier-clicks,screenshots,shared-steps} and matching docs-public videos under apps/docs/public/examples/videos/. Repository SPDX Apache-2.0 (S-CV-046). examples/*/videos/*.mp4 remain Git LFS pointers; hotlink docs public copies. Did not install or render. Batch E already covered 7 other webreel docs videos; this batch adds at most a few leftovers per PM diversity cap."
+  },
+  {
+    "id": "S-CV-103",
+    "project_id": "webreel",
+    "title": "Webreel — leftover docs-public MP4 gallery previews",
+    "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/modifier-clicks.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 on 2026-10-27 for modifier-clicks.mp4 (587074), screenshots.mp4 (861842), shared-steps.mp4 (329593). Content-Type application/octet-stream from raw.githubusercontent.com; Range samples returned MP4 ftyp isom. Hotlink only. Not a local render test. Remaining docs leftovers (multi-demo / gif-output / webm-output) deferred to keep webreel share modest."
+  },
+  {
+    "id": "S-CV-104",
+    "project_id": "video-shotcraft",
+    "title": "video-shotcraft — Ink Press showcase-media MP4 preview",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/showcase-media/showcase-ink-press-template.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 application/octet-stream Content-Length 15544200 on 2026-10-27 for showcase-ink-press-template.mp4 from showcase-media release; Range returned MP4 ftyp isom. Companion JPG poster also 200 (14487) but omitted from preview schema (no poster field this batch). Repository LICENSE Apache-2.0 (Copyright 2026 Wei Yihao); same redistributable:true口径 as S-CV-070 gallery-media. Enriches existing catalog id ink-press (previously without preview). Hotlink only; not a local render test."
+  },
+  {
+    "id": "S-CV-105",
+    "project_id": "hyperframes",
+    "title": "HyperFrames — catalog block CDN MP4s (data-chart / yt-lower-third)",
+    "url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/data-chart.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 video/mp4 on 2026-10-27 for data-chart.mp4 (130617) and yt-lower-third.mp4 (100972) under static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/. Range returned MP4 ftyp. These enrich existing catalog shot entries hyperframes-data-chart / hyperframes-yt-lower-third (S-CV-063/S-CV-064). Framework Apache-2.0 (S-CV-056) but CDN binaries redistribution 待确认 → redistributable:false, hotlink only. Files are short/small loops vs homepage HQ films. Not a local render test."
+  },
+  {
+    "id": "S-CV-106",
+    "project_id": "hyperframes",
+    "title": "HyperFrames — homepage showcase card MP4s (opening-night / remotion-to-hyperframes / manga)",
+    "url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/frameys-opening-night-v1.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 video/mp4 on 2026-10-27 for homepage showcase card/ stems: frameys-opening-night-v1.mp4 (6799382), remotion-to-hyperframes-v1.mp4 (2001894), manga-last-onigiri-v1.mp4 (8293554). HQ variants also 200 but much larger (6–62MB); prefer card/ for gallery hotlink. URLs discovered from hyperframes.mintlify.app ShowcaseWall. Redistribution of HeyGen-hosted films 待确认 → redistributable:false. Batch E viral-clone remix desktop paths intermittently 403 this pass — prefer homepage/showcase/card paths here. Not a local render test. Catalog resource URLs point at distinct lines in docs/snippets/film-rows.jsx (frameys-opening-night L24, manga-last-onigiri L31, remotion-to-hyperframes L58 on main, read 2026-10-27) because the homepage URL is shared. Preview URLs remain the HeyGen CDN card/ MP4s."
+  },
+  {
+    "id": "S-CV-107",
+    "project_id": "remotion",
+    "title": "Remotion official templates — additional OG PNG thumbnails (hello-world / recorder / skia / electron)",
+    "url": "https://www.remotion.dev/generated/template-hello-world.png",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 image/png on 2026-10-27 for template-{hello-world,recorder,skia,electron}.png. Template pages at remotion.dev/templates/{hello-world,recorder,skia,electron} returned 200 HTML. kind=thumb_link; redistributable=false; do not copy OG art into catalog. Continues S-CV-097 pattern. Remotion runtime license separate (S-CV-039/S-CV-055)."
+  },
+  {
+    "id": "S-CV-108",
+    "project_id": "video-shotcraft",
+    "title": "video-shotcraft — three additional gallery-media MP4s (carousel-3d / terminal-3d / radial-wave)",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/carousel-3d.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 application/octet-stream on 2026-10-27 for carousel-3d.mp4 (2693076), terminal-3d.mp4 (688624), radial-wave.mp4 (765324) from gallery-media release; Range returned MP4 ftyp isom. Matching gallery/source/*.md present for each stem. Apache-2.0 / redistributable:true (same S-CV-070口径). Selected for scene diversity vs already-catalogued 8 gallery shots; not a whole-batch dump of remaining ~82 unused gallery/source pairs. Hotlink only; not a local render test."
   }
 ]
