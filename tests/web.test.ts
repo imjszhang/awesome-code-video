@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 import {App} from '../web/src/App';
+import resourceData from '../data/resources.json';
 import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview} from '../web/src/model';
+import {isCompletePreview} from '../web/src/preview';
 
 test('every public resource and project has exactly one stable route',()=>{
  const paths=allPaths();assert.equal(new Set(paths).size,paths.length);
@@ -31,11 +33,17 @@ test('all detail pages contain the source, reuse notes and review status in init
  }
 });
 test('shipped previews resolve from Batch A fields and missing ones stay editorial covers',()=>{
+ const catalog=resourceData;
+ const byId=new Map(catalog.map(r=>[r.id,r]));
  const withPreview=resources.filter(r=>r.preview);
  const without=resources.filter(r=>!r.preview);
- assert.equal(withPreview.length,54);
- assert.equal(without.length,21);
+ const complete=catalog.filter(r=>isCompletePreview(r.preview));
+ assert.equal(resources.length,catalog.length);
+ assert.equal(withPreview.length,complete.length);
+ assert.equal(without.length,resources.length-withPreview.length);
  for(const resource of without){
+  const raw=byId.get(resource.id)?.preview;
+  if(isCompletePreview(raw))assert.fail(`${resource.id} dropped a complete preview`);
   const resolved=resolvePreview(resource);
   assert.equal(resolved.degraded,true,resource.id);
   assert.equal(resolved.mode,'thumb_link');
@@ -46,11 +54,15 @@ test('shipped previews resolve from Batch A fields and missing ones stay editori
   assert.match(resolved.detail,/not an upstream render/);
  }
  for(const resource of withPreview){
+  const raw=byId.get(resource.id)?.preview;
+  if(!isCompletePreview(raw))assert.fail(`${resource.id} kept an incomplete preview`);
   const preview=resource.preview!;
   const resolved=resolvePreview(resource);
   assert.equal(resolved.degraded,false,resource.id);
   assert.equal(resolved.mode,preview.kind);
+  assert.equal(resolved.mode,raw.kind);
   assert.equal(resolved.url,preview.url);
+  assert.equal(resolved.url,raw.url);
   assert.equal(previewPoster(resource),null);
   assert.equal('poster' in preview,false);
   assert.equal(resolved.license,preview.license);
