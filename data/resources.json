@@ -1,0 +1,688 @@
+[
+  {
+    "id": "ink-press",
+    "project_id": "video-shotcraft",
+    "name": "Ink Press",
+    "kind": "film",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/tree/main/template",
+    "section": "Film and Scene Templates",
+    "description": "Warm paper, ink typography, and amber accents for SaaS, research tools, and knowledge-product launches. A 36.2-second, ten-shot Remotion project with title cards, page-camera moves, captions, and timed sound effects. Replace screenshots, element crops, copy, branding, and page coordinates; adapt camera framing to the new interface. The documented version is 1080p at 30 fps with sound effects and no background music.",
+    "evidence_ids": [
+      "S-CV-001"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "paper-cut-five-layer-motion",
+    "project_id": "paper-cut",
+    "name": "Paper-Cut Five-Layer Motion",
+    "kind": "scene",
+    "url": "https://github.com/HeiGeAi/Paper-Cut/tree/main/examples/five-layer-motion",
+    "section": "Film and Scene Templates",
+    "description": "Editorial paper collage, torn edges, print texture, and layered parallax for history, people, and concept explainers. A 20-second silent HyperFrames / GSAP scene with assembly, separation, collision, and recomposition. Replace the artwork and derived layers; extraction masks are tied to the original image and must be adjusted for new compositions.",
+    "evidence_ids": [
+      "S-CV-002"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "butterfly-life",
+    "project_id": "procedural-film",
+    "name": "Butterfly Life",
+    "kind": "film",
+    "url": "https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/butterfly-life",
+    "section": "Film and Scene Templates",
+    "description": "Procedural natural-science animation for lifecycle and process explainers. A 32-second, 17-shot vertical film with source, planning documents, music, and rendering tools. Reuse the production structure; changing the subject requires adapting drawing and scene code.",
+    "evidence_ids": [
+      "S-CV-003"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "claude-quest",
+    "project_id": "procedural-film",
+    "name": "Claude Quest",
+    "kind": "film",
+    "url": "https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/claude-quest-v2",
+    "section": "Film and Scene Templates",
+    "description": "NES-style pixel art, a simulated CRT, and chip music for game narratives, progress metaphors, and playful technical stories. A worked film driven by a game engine and recorded controller input. Reuse the engine and presentation; adapt characters, levels, and the input sequence for a new story.",
+    "evidence_ids": [
+      "S-CV-004"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "map-motion-globe-to-location",
+    "project_id": "map-motion",
+    "name": "Globe-to-Location",
+    "kind": "preset",
+    "url": "https://github.com/SpaceZephyr/map-motion/blob/main/assets/examples/vlog_locate.json",
+    "section": "Map Animation Presets",
+    "description": "A globe-to-place camera move with location labeling for travel openings, city introductions, and event context.",
+    "evidence_ids": [
+      "S-CV-005"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "map-motion-night-location",
+    "project_id": "map-motion",
+    "name": "Night Location",
+    "kind": "preset",
+    "url": "https://github.com/SpaceZephyr/map-motion/blob/main/assets/examples/vlog_locate_night.json",
+    "section": "Map Animation Presets",
+    "description": "A dark map treatment for night travel, urban stories, and technology-oriented location sequences.",
+    "evidence_ids": [
+      "S-CV-006"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "map-motion-hiking-elevation",
+    "project_id": "map-motion",
+    "name": "Hiking Elevation",
+    "kind": "preset",
+    "url": "https://github.com/SpaceZephyr/map-motion/blob/main/assets/examples/hike_elevation.json",
+    "section": "Map Animation Presets",
+    "description": "Route progression and elevation information for hiking recaps, mountain itineraries, and outdoor explainers.",
+    "evidence_ids": [
+      "S-CV-007"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "map-motion-road-trip",
+    "project_id": "map-motion",
+    "name": "Road Trip",
+    "kind": "preset",
+    "url": "https://github.com/SpaceZephyr/map-motion/blob/main/assets/examples/road_trip.json",
+    "section": "Map Animation Presets",
+    "description": "A multi-stop journey for road-trip recaps, regional guides, and travel itineraries.",
+    "evidence_ids": [
+      "S-CV-008"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "map-motion-flight-routes",
+    "project_id": "map-motion",
+    "name": "Flight Routes",
+    "kind": "preset",
+    "url": "https://github.com/SpaceZephyr/map-motion/blob/main/assets/examples/flight.json",
+    "section": "Map Animation Presets",
+    "description": "Flight connections for aviation stories, international journeys, and geographic business introductions.",
+    "evidence_ids": [
+      "S-CV-009"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "map-motion-radial-coverage",
+    "project_id": "map-motion",
+    "name": "Radial Coverage",
+    "kind": "preset",
+    "url": "https://github.com/SpaceZephyr/map-motion/blob/main/assets/examples/radiate.json",
+    "section": "Map Animation Presets",
+    "description": "Connections radiating from a center for service coverage, distribution networks, and regional reach.",
+    "evidence_ids": [
+      "S-CV-010"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-text-as-mask",
+    "project_id": "video-shotcraft",
+    "name": "Text as Mask",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/opening/text-as-mask.md",
+    "section": "Shot Recipes",
+    "description": "Product imagery revealed through oversized letterforms for brand openings and feature reveals. Replace the title and background imagery.",
+    "evidence_ids": [
+      "S-CV-011"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-space-camera-moves",
+    "project_id": "video-shotcraft",
+    "name": "Space Camera Moves",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/camera/space-camera-moves.md",
+    "section": "Shot Recipes",
+    "description": "Spatial camera treatments for interfaces and layered layouts. Useful for product structure and screen tours; adapt the scene layers and camera framing.",
+    "evidence_ids": [
+      "S-CV-012"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-deck-deal-fly-in",
+    "project_id": "video-shotcraft",
+    "name": "Deck Deal Fly-In",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/deck-deal-flyin.md",
+    "section": "Shot Recipes",
+    "description": "Cards dealt into a layout for libraries, research collections, dashboards, and feature groups. Replace card contents and destination positions.",
+    "evidence_ids": [
+      "S-CV-013"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-type-and-filter",
+    "project_id": "video-shotcraft",
+    "name": "Type and Filter",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/interaction/type-and-filter.md",
+    "section": "Shot Recipes",
+    "description": "An input-and-results sequence for search tools, knowledge management, and AI assistants. Replace the query, results, and interface styling.",
+    "evidence_ids": [
+      "S-CV-014"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-paper-title-card",
+    "project_id": "video-shotcraft",
+    "name": "Paper Title Card",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/typography/paper-title-card.md",
+    "section": "Shot Recipes",
+    "description": "Paper-toned typography for value propositions, chapter breaks, and explanatory pauses. Replace the copy, fonts, and accent palette.",
+    "evidence_ids": [
+      "S-CV-015"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-document-typewriter-reveal",
+    "project_id": "video-shotcraft",
+    "name": "Document Typewriter Reveal",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/typography/document-typewriter-reveal.md",
+    "section": "Shot Recipes",
+    "description": "Document content appearing as if written for AI writing, reports, and note-taking demonstrations. Replace the document and its reveal sequence.",
+    "evidence_ids": [
+      "S-CV-016"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-chart-live-moves",
+    "project_id": "video-shotcraft",
+    "name": "Chart Live Moves",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/data/chart-live-moves.md",
+    "section": "Shot Recipes",
+    "description": "Animated chart treatments for research findings, metric changes, and data explanations. Replace the underlying data, labels, and visual scale.",
+    "evidence_ids": [
+      "S-CV-017"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "video-shotcraft-ui-to-brand-morph",
+    "project_id": "video-shotcraft",
+    "name": "UI to Brand Morph",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/outro/ui-to-brand-morph.md",
+    "section": "Shot Recipes",
+    "description": "Interface elements resolving into a brand ending for product promos and feature demos. Adapt the source geometry, wordmark, and final hold.",
+    "evidence_ids": [
+      "S-CV-018"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-swiss-motion-graphics",
+    "project_id": "lemo-opuscar",
+    "name": "Swiss Motion Graphics",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Grid-based composition, large type, geometry, and restrained color for brand statements, design lessons, and concept explainers.",
+    "evidence_ids": [
+      "S-CV-019"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-dark-tech-keynote",
+    "project_id": "lemo-opuscar",
+    "name": "Dark Tech Keynote",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/dark-keynote/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Dark presentation surfaces and focused product staging for software launches, AI tools, and technical announcements.",
+    "evidence_ids": [
+      "S-CV-020"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-whiteboard-explainer",
+    "project_id": "lemo-opuscar",
+    "name": "Whiteboard Explainer",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/whiteboard/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Progressively drawn diagrams for teaching, mental models, and step-by-step explanations.",
+    "evidence_ids": [
+      "S-CV-021"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-data-storytelling",
+    "project_id": "lemo-opuscar",
+    "name": "Data Storytelling",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/dataviz/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Numbers and charts structured around a narrative for trends, research findings, and annual recaps.",
+    "evidence_ids": [
+      "S-CV-022"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-isometric-infographic",
+    "project_id": "lemo-opuscar",
+    "name": "Isometric Infographic",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/iso-infographic/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Isometric spatial diagrams for systems, workflows, and supply-chain explanations.",
+    "evidence_ids": [
+      "S-CV-023"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-caption-news",
+    "project_id": "lemo-opuscar",
+    "name": "Caption News",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/caption-news/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Caption-led information design for news briefs, AI updates, and silent-friendly social videos.",
+    "evidence_ids": [
+      "S-CV-024"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-halftone-dossier",
+    "project_id": "lemo-opuscar",
+    "name": "Halftone Dossier",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/halftone-dossier/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Print grain and archival dossier styling for history, investigations, and profile explainers.",
+    "evidence_ids": [
+      "S-CV-025"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-chinese-ink-wash",
+    "project_id": "lemo-opuscar",
+    "name": "Chinese Ink Wash",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ink-wash/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Ink diffusion and negative space for cultural stories, poetry, and heritage-oriented films.",
+    "evidence_ids": [
+      "S-CV-026"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-paper-pop-up-book",
+    "project_id": "lemo-opuscar",
+    "name": "Paper Pop-Up Book",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/paper-popup/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Layered paper structures for children's explanations, illustrated narratives, and warm product stories.",
+    "evidence_ids": [
+      "S-CV-027"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-ascii-crt-terminal",
+    "project_id": "lemo-opuscar",
+    "name": "ASCII / CRT Terminal",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ascii-crt/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Character-based imagery and retro terminal aesthetics for programming, developer tools, and computing history.",
+    "evidence_ids": [
+      "S-CV-028"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-blueprint",
+    "project_id": "lemo-opuscar",
+    "name": "Blueprint",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/blueprint/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Technical drawing and measurement cues for engineering, structural explanations, and invention stories.",
+    "evidence_ids": [
+      "S-CV-029"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-opuscar-16-bit-pixel-rpg",
+    "project_id": "lemo-opuscar",
+    "name": "16-bit Pixel RPG",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pixel-rpg/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Pixel characters and game-world storytelling for learning journeys, progress narratives, and retro shorts.",
+    "evidence_ids": [
+      "S-CV-030"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "hyperframes",
+    "project_id": "hyperframes",
+    "name": "HyperFrames",
+    "kind": "framework",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "section": "Frameworks and Renderers",
+    "description": "HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.",
+    "evidence_ids": [
+      "S-CV-031"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "remotion",
+    "project_id": "remotion",
+    "name": "Remotion",
+    "kind": "framework",
+    "url": "https://github.com/remotion-dev/remotion",
+    "section": "Frameworks and Renderers",
+    "description": "React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).",
+    "evidence_ids": [
+      "S-CV-032",
+      "S-CV-039"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "motion-canvas",
+    "project_id": "motion-canvas",
+    "name": "Motion Canvas",
+    "kind": "framework",
+    "url": "https://motioncanvas.io/",
+    "section": "Frameworks and Renderers",
+    "description": "TypeScript animation with a visual preview workflow for explanatory videos and synchronized motion.",
+    "evidence_ids": [
+      "S-CV-033"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "manim-community",
+    "project_id": "manim-community",
+    "name": "Manim Community",
+    "kind": "framework",
+    "url": "https://www.manim.community/",
+    "section": "Frameworks and Renderers",
+    "description": "Python animation for mathematical diagrams, scientific explanations, and technical teaching.",
+    "evidence_ids": [
+      "S-CV-034"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "guizang-product-video-skill",
+    "project_id": "guizang-product-video-skill",
+    "name": "guizang-product-video-skill",
+    "kind": "workflow",
+    "url": "https://github.com/op7418/guizang-product-video-skill",
+    "section": "Production Workflows",
+    "description": "Product-specific promotional video workflow that builds on real interface components, branding, typography, and a composed timeline. Suitable when the visual direction should come from the product rather than a fixed template.",
+    "evidence_ids": [
+      "S-CV-035"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "onetake",
+    "project_id": "onetake",
+    "name": "OneTake",
+    "kind": "workflow",
+    "url": "https://github.com/feitangyuan/onetake",
+    "section": "Production Workflows",
+    "description": "Continuous-shot motion library, composition starter, and case breakdowns for connected product demonstrations. The free repository excludes the showcased films' source code and uses a noncommercial license; commercial access is offered separately.",
+    "evidence_ids": [
+      "S-CV-036",
+      "S-CV-040"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "awesome-video-as-code",
+    "project_id": "awesome-video-as-code",
+    "name": "Awesome Video as Code",
+    "kind": "collection",
+    "url": "https://github.com/voidforall/awesome-video-as-code",
+    "section": "Related Lists",
+    "description": "Broader coverage of agent-directed tools, production workflows, showcases, and research.",
+    "evidence_ids": [
+      "S-CV-037"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "awesome-video-skills",
+    "project_id": "awesome-video-skills",
+    "name": "Awesome Video Skills",
+    "kind": "collection",
+    "url": "https://github.com/AaronAust1n/awesome-video-skills",
+    "section": "Related Lists",
+    "description": "Broader coverage of video-making tools, frameworks, skills, and automation workflows.",
+    "evidence_ids": [
+      "S-CV-038"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  }
+]

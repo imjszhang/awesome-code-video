@@ -1,4 +1,4 @@
-name: Lint list
+name: Check list
 
 on:
   push:
@@ -22,6 +22,6 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci --ignore-scripts
-      - run: npm run lint
+      - run: npm run check
         env:
           github_token: ${{ github.token }}

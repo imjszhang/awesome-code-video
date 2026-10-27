@@ -112,6 +112,8 @@
 
 ## Contributing
 
+[目录维护指南](docs/catalog-maintenance.md)说明项目、资源、证据三层数据，以及查重、候选管理和引用检查命令。
+
 欢迎补充有明确源码、参数文件或风格文档的资源，也欢迎修正链接与复用说明。请先阅读[贡献指南](contributing.md)，并优先同步英文主版。
 
 ## Footnotes

@@ -37,11 +37,11 @@ Update any linked detail pages or resource data when an entry's scope, URL, or r
 Use Node.js 24 or newer and run:
 
 ```sh
-npm ci
-npm run lint
+npm ci --ignore-scripts
+npm run check
 ```
 
-The check runs the unmodified `awesome-lint` 2.3.0 rules. Fix reported formatting and metadata issues before submitting.
+The checks validate catalog identities, evidence references, candidate decisions, README consistency, regression tests, and the unmodified `awesome-lint` 2.3.0 rules. See the [catalog maintenance guide](docs/catalog-maintenance.md) for commands and the project/resource/evidence model. Update `data/resources.json` together with the README; record upstream evidence in `data/evidence.json` and reuse an existing project record when adding another template from the same repository.
 
 Passing lint does not imply acceptance into the main Awesome index. That index has its own submission requirements and review process.
 

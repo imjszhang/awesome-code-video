@@ -108,7 +108,7 @@ Useful when you want a method or reusable motion primitives rather than a fixed 
 
 ## Contributing
 
-Suggest a useful resource or improve an existing entry through a pull request. Read the [contribution guidelines](contributing.md) for the evidence, reuse notes, and formatting to include.
+Suggest a useful resource or improve an existing entry through a pull request. The [catalog maintenance guide](docs/catalog-maintenance.md) covers local duplicate lookup, candidate decisions, and evidence checks. Read the [contribution guidelines](contributing.md) for the evidence, reuse notes, and formatting to include.
 
 ## Footnotes
 

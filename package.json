@@ -4,10 +4,17 @@
   "description": "Curated reusable styles, shots, templates, and frameworks for making videos with code.",
   "type": "module",
   "scripts": {
-    "lint": "awesome-lint README.md"
+    "lint": "awesome-lint README.md",
+    "catalog": "node scripts/catalog.mjs",
+    "catalog:check": "node scripts/catalog.mjs check",
+    "readme:check": "node scripts/check-readme.mjs",
+    "traceability:check": "node scripts/traceability.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run catalog:check && npm run readme:check && npm run traceability:check && npm test && npm run lint"
   },
   "devDependencies": {
-    "awesome-lint": "2.3.0"
+    "awesome-lint": "2.3.0",
+    "js-traceability": "0.1.0"
   },
   "engines": {
     "node": ">=24"

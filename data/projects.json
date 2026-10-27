@@ -1,0 +1,192 @@
+[
+  {
+    "id": "video-shotcraft",
+    "name": "video-shotcraft",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "aliases": [
+      "Shotcraft"
+    ],
+    "urls": [
+      "https://vincentwei1021.github.io/video-shotcraft/"
+    ],
+    "github": {
+      "id": 1305663861,
+      "full_name": "Vincentwei1021/video-shotcraft",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "paper-cut",
+    "name": "Paper-Cut",
+    "url": "https://github.com/HeiGeAi/Paper-Cut",
+    "aliases": [
+      "Paper Cut"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1350827320,
+      "full_name": "HeiGeAi/Paper-Cut",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "procedural-film",
+    "name": "procedural-film",
+    "url": "https://github.com/kuhnhomeuk-cell/procedural-film",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1374789451,
+      "full_name": "kuhnhomeuk-cell/procedural-film",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "map-motion",
+    "name": "map-motion",
+    "url": "https://github.com/SpaceZephyr/map-motion",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1408991370,
+      "full_name": "SpaceZephyr/map-motion",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "lemo-opuscar",
+    "name": "Lemo-Opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "aliases": [
+      "Lemo"
+    ],
+    "urls": [
+      "https://lemomo-ai.github.io/lemo-opuscar/"
+    ],
+    "github": {
+      "id": 1389011744,
+      "full_name": "lemomo-ai/lemo-opuscar",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "hyperframes",
+    "name": "HyperFrames",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1177402105,
+      "full_name": "heygen-com/hyperframes",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "remotion",
+    "name": "Remotion",
+    "url": "https://github.com/remotion-dev/remotion",
+    "aliases": [],
+    "urls": [
+      "https://www.remotion.dev/"
+    ],
+    "github": {
+      "id": 274495425,
+      "full_name": "remotion-dev/remotion",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "motion-canvas",
+    "name": "Motion Canvas",
+    "url": "https://github.com/motion-canvas/motion-canvas",
+    "aliases": [],
+    "urls": [
+      "https://motioncanvas.io/"
+    ],
+    "github": {
+      "id": 520955562,
+      "full_name": "motion-canvas/motion-canvas",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "manim-community",
+    "name": "Manim Community",
+    "url": "https://github.com/ManimCommunity/manim",
+    "aliases": [
+      "ManimCE"
+    ],
+    "urls": [
+      "https://www.manim.community/"
+    ],
+    "github": {
+      "id": 265122478,
+      "full_name": "ManimCommunity/manim",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "guizang-product-video-skill",
+    "name": "guizang-product-video-skill",
+    "url": "https://github.com/op7418/guizang-product-video-skill",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1375362154,
+      "full_name": "op7418/guizang-product-video-skill",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "onetake",
+    "name": "OneTake",
+    "url": "https://github.com/feitangyuan/onetake",
+    "aliases": [],
+    "urls": [
+      "https://onetakemotion.com/"
+    ],
+    "github": {
+      "id": 1388594776,
+      "full_name": "feitangyuan/onetake",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "awesome-video-as-code",
+    "name": "Awesome Video as Code",
+    "url": "https://github.com/voidforall/awesome-video-as-code",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1402510591,
+      "full_name": "voidforall/awesome-video-as-code",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "awesome-video-skills",
+    "name": "Awesome Video Skills",
+    "url": "https://github.com/AaronAust1n/awesome-video-skills",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1401229484,
+      "full_name": "AaronAust1n/awesome-video-skills",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  }
+]
+
