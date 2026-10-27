@@ -349,5 +349,18 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "revideo",
+    "name": "ReVideo",
+    "url": "https://github.com/midrender/revideo",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 770297271,
+      "full_name": "midrender/revideo",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
   }
 ]

@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 109 个可复用单元：74 个成片或场景工程、6 个地图镜头、14 个镜头配方、15 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 120 个可复用单元：81 个成片或场景工程、6 个地图镜头、18 个镜头配方、15 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -45,6 +45,9 @@
 - [播客音频可视化](https://github.com/remotion-dev/remotion/tree/main/packages/template-audiogram) - 波形与同步字幕，适合播客片段、访谈摘录。替换音频、字幕数据和可视化参数；时长随音频计算，使用前核对 Remotion 授权。
 - [代码变换讲解](https://github.com/remotion-dev/remotion/tree/main/packages/template-code-hike) - 语法高亮、代码 token 衔接与标注，适合编程教学和重构演示。替换代码、主题、注释和节奏；使用前核对 Remotion 授权。
 - [逐词高亮字幕](https://github.com/remotion-dev/remotion/tree/main/packages/template-tiktok) - 粗体描边、当前词高亮与弹入字幕，适合口播和社交科普。替换视频、字幕、字体和位置，按语言调整转写设置并核对 Remotion 授权。
+- [叠加层模板](https://www.remotion.dev/templates/overlay) - Remotion 官方 overlay 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
+- [Three.js 模板](https://www.remotion.dev/templates/three) - Remotion 官方 three 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
+- [音乐可视化模板](https://www.remotion.dev/templates/music-visualization) - Remotion 官方 music-visualization 模板页。预览仅为官方 OG PNG 缩略图，没有可热链的 MP4。模板条款待确认；Remotion 运行时许可另行适用。不要把 OG 图复制进目录。
 
 - [客户证言：霓虹分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx) - 可主题切换的 Remotion 客户证言成片，含居中、分屏和编辑排版，站点主预览变体是 Neon Split。复用 Testimonial.tsx，替换引言、客户和行动号召。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [提案：深色高管风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/Proposal.tsx) - 用于范围、时间线和报价演示的 Remotion 提案成片，列出的主预览变体是 Dark Executive。复用 Proposal.tsx，替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
@@ -110,8 +113,12 @@
 - [Claude 演示](https://www.explainroo.com/videos/claude-demo) - explainroo 已发布的 Claude 风格产品演示页，配有站点托管 MP4。公开 examples 目录没有该 slug 的 script.md 或 scenes.js，应改编 explainroo 工作流，不要把成片当成已包含的源码。仓库为 MIT；托管 MP4 不标记为可再分发。
 - [Gmail 演示](https://www.explainroo.com/videos/gmail-demo) - explainroo 已发布的 Gmail 风格产品演示页，配有站点托管 MP4。公开 examples 目录没有该 slug 的 script.md 或 scenes.js，应改编 explainroo 工作流，不要把成片当成已包含的源码。仓库为 MIT；托管 MP4 不标记为可再分发。
 - [Vroni 产品演示](https://www.explainroo.com/videos/vroni-product-demo) - explainroo 已发布的 Vroni 产品演示页，配有站点托管 MP4。公开 examples 目录没有该 slug 的 script.md 或 scenes.js，应改编 explainroo 工作流，不要把成片当成已包含的源码。仓库为 MIT；托管 MP4 不标记为可再分发。
+- [explainroo 如何制作一条视频](https://www.explainroo.com/videos/how-explainroo-makes-a-video) - 站点托管的 explainroo 元演示，展示从编程助手到脚本再到渲染的流程。仓库为 MIT；托管 MP4 按不可再分发处理（只热链）。
 - [从零到产品片头](https://github.com/specstoryai/zero-to-product-video-hero/tree/main/example) - Remotion 产品片头示例，场景组件在 example/src，并提交了 example/out/video.mp4。example/src/Root.tsx 注册为 1920×1080、30 fps；README 还描述了另一条更长的片头，此处未测量其时长。复用该示例并保留 MIT 声明。Remotion 运行时许可另行适用。
 - [提示词生成视频](https://www.remotion.dev/templates/prompt-to-video) - Remotion 官方模板，用提示词生成竖屏故事、配图、旁白和时间线。复用模板仓库，并自行提供 OpenAI 与 ElevenLabs 凭证。该模板仓库没有 LICENSE 文件，条款待确认；预览只链到官方缩略图，不得复制。使用前核对 Remotion 许可。
+- [Firecrawl 病毒式复刻](https://github.com/heygen-com/hyperframes/blob/main/docs/examples.mdx#L75) - HyperFrames 展示片，托管在 HeyGen 静态 CDN（viral-clone 复刻）。清单链接指向 docs/examples.mdx 里该片的记录；MP4 仍在 CDN 上。框架为 Apache-2.0；托管 MP4 是否可再分发待确认，只热链，不标记为可再分发。不作为本地渲染测试。
+- [Linear Loops 病毒式复刻](https://github.com/heygen-com/hyperframes/blob/main/docs/examples.mdx#L120) - HyperFrames 展示片，托管在 HeyGen 静态 CDN（viral-clone 复刻）。清单链接指向 docs/examples.mdx 里该片的记录；MP4 仍在 CDN 上。框架为 Apache-2.0；托管 MP4 是否可再分发待确认，只热链，不标记为可再分发。不作为本地渲染测试。
+- [ReVideo 字符扰乱模板预览](https://github.com/midrender/revideo/tree/main/packages/template) - 来自 ReVideo（midrender）模板包的 GIF 动画预览。MIT。GIF 不是 MP4 成片；packages/examples/assets/example.mp4 只是很小的占位文件，未收录。
 
 ## 参数化地图镜头
 
@@ -144,6 +151,10 @@
 - [自定义光标与按键提示](https://github.com/vercel-labs/webreel/tree/main/examples/custom-theme) - 代码编辑器界面配自定义 SVG 光标、暗色等宽按键提示，适合开发工具演示。复用本地页面和点击脚本，更换光标、提示样式、界面、选择器与节奏。
 - [看板拖拽演示](https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop) - 以看板卡片跨列拖拽展示工作流，适合任务管理工具与操作教程。复用示例页面和拖动步骤，调整卡片、选择器、目标位置和停顿。
 - [竖屏菜单与滚动](https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport) - 390 × 844 视口的竖屏浏览器演示，包含打开菜单、关闭菜单与滚动，适合移动网页介绍和上手教程。复用本地界面与操作序列，调整页面、选择器、尺寸和节奏。
+- [Hello World 浏览器演示](https://github.com/vercel-labs/webreel/tree/main/examples/hello-world) - Webreel 示例，把脚本化的浏览器流程（hello-world）录成 MP4。复用该示例工程，许可为 Apache-2.0。预览使用文档站公开的 MP4（examples/*/videos 里的文件是 Git LFS 指针）。
+- [表单填写演示](https://github.com/vercel-labs/webreel/tree/main/examples/form-filling) - Webreel 示例，把脚本化的浏览器流程（form-filling）录成 MP4。复用该示例工程，许可为 Apache-2.0。预览使用文档站公开的 MP4（examples/*/videos 里的文件是 Git LFS 指针）。
+- [键盘快捷键演示](https://github.com/vercel-labs/webreel/tree/main/examples/keyboard-shortcuts) - Webreel 示例，把脚本化的浏览器流程（keyboard-shortcuts）录成 MP4。复用该示例工程，许可为 Apache-2.0。预览使用文档站公开的 MP4（examples/*/videos 里的文件是 Git LFS 指针）。
+- [页面滚动演示](https://github.com/vercel-labs/webreel/tree/main/examples/page-scrolling) - Webreel 示例，把脚本化的浏览器流程（page-scrolling）录成 MP4。复用该示例工程，许可为 Apache-2.0。预览使用文档站公开的 MP4（examples/*/videos 里的文件是 Git LFS 指针）。
 
 以下网页动效组件用于视频时需要录制或时间轴适配。
 

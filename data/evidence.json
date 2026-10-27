@@ -1021,5 +1021,93 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "HEAD on 2026-10-27 returned 200 image/gif for all 24 docs/thumbs/*.gif in this batch; byte-range samples returned 206 with GIF89a header for bokeh-circles, shatter-reveal, chapter-title, pixel-waterfall-cycle, end-card, text-mask-reveal. Animated GIF previews, not MP4 masters. Hotlink only; do not copy into the catalog repo."
+  },
+  {
+    "id": "S-CV-094",
+    "project_id": "webreel",
+    "title": "Webreel — additional example sources (hello-world / form-filling / keyboard-shortcuts / page-scrolling)",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 reviewed example directories under examples/{hello-world,form-filling,keyboard-shortcuts,page-scrolling} and matching docs public videos under apps/docs/public/examples/videos/. Repository SPDX Apache-2.0 (S-CV-046). examples/*/videos/*.mp4 are Git LFS pointers (131-byte text); hotlink the docs public copies instead. Did not install or render."
+  },
+  {
+    "id": "S-CV-095",
+    "project_id": "webreel",
+    "title": "Webreel — docs-public MP4/GIF gallery previews (enrich + new)",
+    "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/hello-world.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 on 2026-10-27 for custom-theme.mp4 (602066), drag-and-drop.mp4 (901223), mobile-viewport.mp4 (178891), hello-world.mp4 (869374), form-filling.mp4 (1161156), keyboard-shortcuts.mp4 (3221641), page-scrolling.mp4 (5646100). Content-Type application/octet-stream from raw.githubusercontent.com; Range samples returned MP4 ftyp. Hotlink only; do not copy into catalog. Not a local render test."
+  },
+  {
+    "id": "S-CV-096",
+    "project_id": "awesome-video-as-code",
+    "title": "Awesome Video as Code — repository trailer.mp4 preview",
+    "url": "https://raw.githubusercontent.com/voidforall/awesome-video-as-code/main/assets/trailer.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 application/octet-stream Content-Length 13183295 on 2026-10-27; Range returned MP4 ftyp isom. Repo LICENSE is CC0 1.0. Hotlink only. Not a local render test. trailer-teaser.gif also 200 but trailer.mp4 preferred for gallery."
+  },
+  {
+    "id": "S-CV-097",
+    "project_id": "remotion",
+    "title": "Remotion official templates — OG PNG thumbnails (audiogram/code-hike/tiktok + overlay/three/music-visualization)",
+    "url": "https://www.remotion.dev/generated/template-audiogram.png",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 image/png on 2026-10-27 for template-{audiogram,code-hike,tiktok,overlay,three,music-visualization}.png. Template pages at remotion.dev/templates/* returned 200 HTML. No hotlinkable official MP4 masters found. kind=thumb_link; redistributable=false; do not copy official OG art into catalog. Remotion runtime license separate (S-CV-039/S-CV-055)."
+  },
+  {
+    "id": "S-CV-098",
+    "project_id": "hyperframes",
+    "title": "HyperFrames — HeyGen CDN showcase MP4s (journey + viral-clone remixes)",
+    "url": "https://static.heygen.ai/hyperframes-oss/docs/images/showcase/journey-introduction-v5-v2.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 video/mp4 on 2026-10-27 for journey-introduction-v5-v2.mp4 (2735539), remix-firecrawl-result.mp4 (1795449), remix-linear-loops-result.mp4 (2643818). URLs scraped from hyperframes.mintlify.app examples/home. Framework repo is Apache-2.0 (S-CV-056) but these CDN showcase films are hosted by HeyGen; redistribution of the binary is 待确认 → redistributable=false, hotlink only. Template docs/images/templates/*.mp4 are gitignored and not stably hotlinkable from known CDN paths. Not a local render test. The shared examples index (https://hyperframes.heygen.com/examples) lists many films on one URL, so the two new resources link to their records in docs/examples.mdx (remix-firecrawl at line 75, remix-linear-loops at line 120 on 2026-10-27). Preview URLs remain the HeyGen CDN MP4s."
+  },
+  {
+    "id": "S-CV-099",
+    "project_id": "explainroo",
+    "title": "explainroo — how-explainroo-makes-a-video site MP4",
+    "url": "https://www.explainroo.com/videos/how-explainroo-makes-a-video.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 video/mp4 Content-Length 9249644 on 2026-10-27; Range with browser UA returned MP4 ftyp. Repo MIT (S-CV-079); site-hosted film treated as redistributable=false (same Batch B/C/D explainroo口径). Hotlink only. Not a local render test."
+  },
+  {
+    "id": "S-CV-100",
+    "project_id": "revideo",
+    "title": "ReVideo — template scramble.gif preview",
+    "url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/template/scramble.gif",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD 200 image/gif Content-Length 2972344 on 2026-10-27; Range returned GIF89a. midrender/revideo SPDX MIT. packages/examples/assets/example.mp4 is only ~36KB stub — excluded. Animated GIF preview, not an MP4 master. Hotlink only. Not a local render test."
+  },
+  {
+    "id": "S-CV-101",
+    "project_id": "revideo",
+    "title": "ReVideo — upstream repository / license",
+    "url": "https://github.com/midrender/revideo",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "GitHub API license.spdx_id=MIT on 2026-10-27 for midrender/revideo. New catalog project stub recommended as revideo."
   }
 ]
