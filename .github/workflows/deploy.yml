@@ -43,19 +43,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Wait for certificate and enforce HTTPS
-        timeout-minutes: 50
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Verify public HTTPS
+        timeout-minutes: 6
         shell: bash
         run: |
-          for attempt in {1..90}; do
-            if gh api --method PUT repos/${{ github.repository }}/pages -F https_enforced=true; then
-              curl --fail --silent --show-error --retry 5 --retry-delay 10 https://awesomecodevideo.com/ -o /dev/null
-              exit 0
-            fi
-            echo "Certificate not ready yet (attempt ${attempt}/90). Retrying in 30 seconds."
-            sleep 30
-          done
-          echo "GitHub Pages certificate is still pending. Re-run the deployment after certificate issuance."
-          exit 1
+          curl --fail --silent --show-error --retry 10 --retry-all-errors --retry-delay 15 --max-time 15 https://awesomecodevideo.com/ -o /dev/null

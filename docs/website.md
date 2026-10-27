@@ -46,4 +46,4 @@ Builds default to `noindex` and disallow crawling. Production builds add canonic
 
 Space Grotesk Variable and JetBrains Mono Variable are bundled locally through Fontsource; no Google Fonts requests are made. Both use the SIL Open Font License. Copies of their licenses are distributed in `public/licenses/` in the built site. Upstream resources retain their own licenses; inclusion in this catalog does not grant reuse rights.
 
-The deployment waits up to 45 minutes for GitHub’s custom-domain certificate, enables HTTPS enforcement and checks HTTPS access. If certificate issuance exceeds that window, re-run the deployment from Actions.
+Deployment verifies public HTTPS with bounded retries. Configure the custom domain and HTTPS enforcement once using an authorized repository administrator; the Actions GITHUB_TOKEN cannot update these repository settings. Do not treat permission errors as certificate provisioning delays.
