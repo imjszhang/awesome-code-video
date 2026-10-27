@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 import {App} from '../web/src/App';
+import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
 import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview} from '../web/src/model';
 
 test('every public resource and project has exactly one stable route',()=>{
@@ -83,7 +84,7 @@ test('incomplete or unsafe previews degrade without exposing a url',()=>{
  assert.equal(resolvePreview(thumb).playable,false);
  assert.equal(previewPoster({preview:{...thumb.preview,poster:thumb.preview!.url}}),thumb.preview!.url);
 });
-test('homepage gallery lists complete previews and featured covers without playback controls',()=>{
+test('homepage gallery lists complete previews and featured covers without autoplay',()=>{
  const items=homeGalleryItems();
  const ids=items.map(r=>r.id);
  assert.equal(new Set(ids).size,ids.length);
@@ -151,6 +152,127 @@ test('homepage gallery lists complete previews and featured covers without playb
  assert.match(detail,/EDITORIAL COVER — NOT AN UPSTREAM RENDER/);
  const about=renderToString(React.createElement(App,{path:'/about/'}));
  assert.match(about,/A preview is not a local render test/);
+ assert.match(about,/Playback starts muted/);
+ assert.match(about,/Nothing autoplays/);
+});
+test('homepage playable cards can start muted and other preview kinds stay unchanged',async()=>{
+ const items=homeGalleryItems();
+ const playable=items.filter(r=>previewPlayable(r));
+ const thumbs=items.filter(r=>{const preview=resolvePreview(r);return !preview.degraded&&preview.mode==='thumb_link';});
+ const embeds=items.filter(r=>{const preview=resolvePreview(r);return !preview.degraded&&preview.mode==='embed';});
+ const covers=items.filter(r=>resolvePreview(r).degraded);
+ assert(playable.length>0);
+ assert(thumbs.length>0);
+ assert(embeds.length>0);
+ assert.equal(playable.length+thumbs.length+embeds.length+covers.length,items.length);
+ const html=renderToString(React.createElement(App,{path:'/'}));
+ const cards=[...html.matchAll(/<article class="resource-card gallery-card">([\s\S]*?)<\/article>/g)].map(match=>match[1]);
+ assert.equal(cards.length,items.length);
+ const esc=(value:string)=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+ const buttons=[...html.matchAll(/<button\b[^>]*>/g)].map(match=>match[0]).filter(tag=>tag.includes('class="preview-play"'));
+ assert.equal(buttons.length,playable.length);
+ for(const button of buttons){
+  assert.match(button,/type="button"/);
+  assert.match(button,/aria-pressed="false"/);
+  assert.doesNotMatch(button,/tabindex/i);
+  assert.doesNotMatch(button,/is-armed/);
+ }
+ for(const resource of items){
+  const card=cards.find(chunk=>chunk.includes(`href="/resources/${resource.id}/"`));
+  assert.ok(card,resource.id);
+  const preview=resolvePreview(resource);
+  if(preview.playable){
+   assert.match(card,new RegExp(`aria-label="Play upstream demo: ${esc(resource.name)}"`));
+   assert.match(card,new RegExp(`aria-controls="preview-${resource.id.replaceAll('-','_')}"`));
+   assert.match(card,/<button\b[^>]*class="preview-play"/);
+   assert.match(card,/<div class="art-link">/);
+   assert.doesNotMatch(card,/<a\b[^>]*class="art-link"/);
+   const video=card.match(/<video\b[^>]*>/)?.[0]??'';
+   assert.match(video,/preload="metadata"/);
+   assert.match(video,/tabindex="-1"/);
+   const attrs=video.replace(/\s(?:src|poster)="[^"]*"/gi,'');
+   assert.doesNotMatch(attrs,/\bautoplay\b/i);
+   assert.doesNotMatch(attrs,/\bcontrols\b/i);
+   assert.doesNotMatch(attrs,/\bmuted\b/i);
+   assert.doesNotMatch(attrs,/\bloop\b/i);
+  }else{
+   assert.doesNotMatch(card,/preview-play/);
+   assert.doesNotMatch(card,/<video\b/);
+   assert.match(card,/<a\b[^>]*class="art-link"/);
+   if(preview.degraded)assert.match(card,/class="visual /);
+   if(!preview.degraded&&preview.mode==='thumb_link')assert.match(card,/<img\b/);
+   if(!preview.degraded&&preview.mode==='embed'){
+    assert.match(card,/class="preview-embed"/);
+    assert.doesNotMatch(card,/<img\b/);
+   }
+  }
+ }
+ assert.equal(html.includes('<iframe'),false);
+ assert.match(html,/Playback starts muted/);
+ const library=renderToString(React.createElement(App,{path:'/library/'}));
+ assert.equal(library.includes('preview-play'),false);
+ const detail=renderToString(React.createElement(App,{path:'/resources/lemo-watercolor/'}));
+ assert.equal(detail.includes('preview-play'),false);
+ function media(at=0):PreviewMedia & {calls:string[]}{
+  const calls:string[]=[];
+  return {muted:false,controls:false,currentTime:at,calls,play(){calls.push('play');return Promise.resolve();},pause(){calls.push('pause');}};
+ }
+ const firstMedia=media(0);
+ const secondMedia=media(0);
+ const videos=new Map<string,PreviewMedia>([['first',firstMedia],['second',secondMedia]]);
+ let state={activeId:null as string|null,playing:false};
+ let step=toggleGalleryPlayback(state,'first',videos);
+ state=step.state;
+ assert.equal(state.activeId,'first');
+ assert.equal(state.playing,true);
+ assert.equal(firstMedia.muted,true);
+ assert.equal(firstMedia.controls,true);
+ assert.deepEqual(firstMedia.calls,['play']);
+ assert.equal(step.play instanceof Promise,true);
+ firstMedia.muted=false;
+ firstMedia.currentTime=6;
+ step=toggleGalleryPlayback(state,'first',videos);
+ state=step.state;
+ assert.deepEqual(state,{activeId:'first',playing:false});
+ assert.equal(firstMedia.currentTime,6);
+ assert.equal(firstMedia.controls,true);
+ assert.equal(firstMedia.muted,false);
+ assert.deepEqual(firstMedia.calls,['play','pause']);
+ assert.equal(step.play,null);
+ step=toggleGalleryPlayback(state,'first',videos);
+ state=step.state;
+ assert.equal(state.playing,true);
+ assert.equal(firstMedia.muted,false);
+ assert.equal(firstMedia.currentTime,6);
+ firstMedia.currentTime=4;
+ step=toggleGalleryPlayback(state,'second',videos);
+ state=step.state;
+ assert.deepEqual(state,{activeId:'second',playing:true});
+ assert.equal(firstMedia.currentTime,0);
+ assert.equal(firstMedia.controls,false);
+ assert.equal(firstMedia.calls.includes('pause'),true);
+ assert.equal(secondMedia.muted,true);
+ assert.equal(secondMedia.controls,true);
+ assert.deepEqual(secondMedia.calls,['play']);
+ const unchanged=toggleGalleryPlayback(state,'missing-preview',videos);
+ assert.equal(unchanged.state,state);
+ const blocked=media();
+ blocked.play=()=>Promise.reject(new Error('blocked'));
+ const failed=toggleGalleryPlayback({activeId:null,playing:false},'blocked',new Map([['blocked',blocked]]));
+ assert.ok(failed.play);
+ await assert.rejects(failed.play);
+ assert.deepEqual(abandonGalleryPlayback(failed.state,'blocked'),{activeId:null,playing:false});
+ assert.deepEqual(abandonGalleryPlayback(failed.state,'other'),failed.state);
+ const stuck=media(3);
+ Object.defineProperty(stuck,'currentTime',{configurable:true,get(){return 3;},set(){throw new Error('no metadata');}});
+ resetPreview(stuck);
+ assert.equal(stuck.controls,false);
+ assert.deepEqual(stuck.calls,['pause']);
+ const thrown=media();
+ thrown.play=()=>{throw new Error('no player');};
+ const rejected=toggleGalleryPlayback({activeId:null,playing:false},'thrown',new Map([['thrown',thrown]]));
+ assert.ok(rejected.play);
+ await assert.rejects(rejected.play);
 });
 test('all pages render server-side without browser APIs and internal links resolve',()=>{
  const paths=allPaths();const valid=new Set(paths.map(p=>'/preview/'+p));

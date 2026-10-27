@@ -34,12 +34,12 @@ The catalog field list is in [Catalog maintenance](catalog-maintenance.md#previe
 
 | Record | Homepage gallery | Honest label |
 | --- | --- | --- |
-| Complete `video` | Show the upstream file in a `video` element. No autoplay, mute-autoplay, or click-to-play. | Upstream demo |
+| Complete `video` | Show the upstream file in a `video` element. Play starts only after a click or Enter/Space, muted, with native controls so it can be unmuted. No autoplay. Only one demo plays at a time. | Upstream demo |
 | Complete `embed` | Link the upstream page. Do not iframe it. | Preview |
 | Complete `thumb_link` | Show and link the upstream image. | Preview |
 | Missing or invalid `preview` | Keep the editorial cover (mode C). Featured homepage resources still appear this way. | Editorial cover |
 
-`resolvePreview`, `previewMode`, `previewPlayable`, `previewCaption`, `previewUrl`, and `previewPoster` choose that treatment. `homeGalleryItems` lists every complete preview, then featured resources that have none, with playable files first. Only a complete `video` is playable. `redistributable: true` is accepted only for that kind. Playback controls and muted autoplay are a later change.
+`resolvePreview`, `previewMode`, `previewPlayable`, `previewCaption`, `previewUrl`, and `previewPoster` choose that treatment. `homeGalleryItems` lists every complete preview, then featured resources that have none, with playable files first. Only a complete `video` is playable. `redistributable: true` is accepted only for that kind. On the homepage, that file’s Play button calls `toggleGalleryPlayback`: playback starts muted, native controls appear so the viewer can unmute, and starting another preview pauses and resets the previous one. Enter and Space activate the same button; Tab leaves it. Images, upstream pages, and editorial covers stay links or illustrations, not players. Nothing autoplays, and a playing preview is not a local render test.
 
 ## Production build
 
