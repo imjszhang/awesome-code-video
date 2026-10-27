@@ -15,24 +15,29 @@ function Visual({resource,hero=false}:{resource:Resource,hero?:boolean}){
  </div>;
 }
 function External({href,children,className=''}:{href:string,children:React.ReactNode,className?:string}){return <a href={href} className={className} target="_blank" rel="noopener noreferrer">{children}<Arrow/></a>}
-function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPlayback,onVideo}:{resource:Resource,href:(path?:string)=>string,saved:boolean,onSave:(id:string)=>void,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null)=>void}){
+function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPlayback,onVideo}:{resource:Resource,href:(path?:string)=>string,saved:boolean,onSave:(id:string)=>void,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void}){
  const preview=resolvePreview(resource);
  const still=preview.poster||preview.url;
  const canPlay=Boolean(preview.playable&&preview.url);
  const previewDomId=`preview-${resource.id.replaceAll('-','_')}`;
  const armed=canPlay&&activeId===resource.id;
  const showPause=armed&&playing;
- const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(resource.id,node);},[onVideo,resource.id]);
- const media=canPlay?<><button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} upstream demo: ${resource.name}`} onClick={()=>onToggle(resource.id)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button><video id={previewDomId} ref={bind} className={`preview-media${armed?' is-armed':''}`} src={preview.url!} poster={preview.poster??undefined} preload="metadata" playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} onPlay={()=>onPlayback(resource.id,true)} onPause={()=>onPlayback(resource.id,false)}/></>:!preview.degraded&&preview.mode==='thumb_link'&&still?<img className="preview-media" src={still} alt=""/>:!preview.degraded&&preview.mode==='embed'?<div className="preview-embed"><span>UPSTREAM PAGE</span><b>Open the source page.</b></div>:<Visual resource={resource}/>;
+ const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(resource.id,node,preview.url);},[onVideo,resource.id,preview.url]);
+ const media=canPlay?<>
+  <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} upstream demo: ${resource.name}`} onClick={()=>onToggle(resource.id)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
+  {preview.poster?<img className="preview-media" src={preview.poster} alt="" loading="lazy" decoding="async"/>:<Visual resource={resource}/>}
+  <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(resource.id,true)} onPause={()=>onPlayback(resource.id,false)}/>
+ </>:!preview.degraded&&preview.mode==='thumb_link'&&still?<img className="preview-media" src={still} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'?<div className="preview-embed"><span>UPSTREAM PAGE</span><b>Open the source page.</b></div>:<Visual resource={resource}/>;
  const upstreamLabel=canPlay?'Upstream file':preview.mode==='thumb_link'?'Upstream image':'Upstream page';
  const frame=canPlay?<div className="art-link">{media}</div>:<a className="art-link" href={href(`resources/${resource.id}/`)} tabIndex={-1} aria-hidden="true">{media}</a>;
  return <article className="resource-card gallery-card"><div className="art-frame">{frame}<span className="art-caption">{preview.caption}</span></div><div className="card-body"><div className="card-kicker"><span>{kindNames[resource.kind]}</span><button className={`save-button ${saved?'is-saved':''}`} aria-label={`${saved?'Unsave':'Save'} ${resource.name}`} aria-pressed={saved} onClick={()=>onSave(resource.id)}>{saved?'★':'☆'}</button></div><h3><a href={href(`resources/${resource.id}/`)}>{resource.name}<Arrow/></a></h3><p>{resource.description}</p><p className="preview-note">{preview.detail}{preview.degraded?null:<> {preview.license}. {preview.attribution}</>}</p>{!preview.degraded&&preview.url?<External href={preview.url} className="preview-source">{upstreamLabel}</External>:null}<div className="card-foot"><span>{projectFor(resource).name}</span><span>Source reviewed</span></div></div></article>;
 }
 function HomeGallery({href,saved,onSave}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void}){
  const videos=useRef(new Map<string,HTMLVideoElement>());
+ const sources=useRef(new Map<string,string>());
  const [playback,setPlayback]=useState<GalleryPlaybackState>({activeId:null,playing:false});
  const playbackRef=useRef(playback);
- const onVideo=useCallback((id:string,node:HTMLVideoElement|null)=>{if(node)videos.current.set(id,node);else videos.current.delete(id);},[]);
+ const onVideo=useCallback((id:string,node:HTMLVideoElement|null,url?:string|null)=>{if(node){videos.current.set(id,node);if(url)sources.current.set(id,url);}else{videos.current.delete(id);sources.current.delete(id);}},[]);
  const onPlayback=useCallback((id:string,isPlaying:boolean)=>{
   if(playbackRef.current.activeId!==id)return;
   const next={activeId:id,playing:isPlaying};
@@ -40,7 +45,7 @@ function HomeGallery({href,saved,onSave}:{href:(path?:string)=>string,saved:stri
   setPlayback(next);
  },[]);
  function toggle(id:string){
-  const result=toggleGalleryPlayback(playbackRef.current,id,videos.current);
+  const result=toggleGalleryPlayback(playbackRef.current,id,videos.current,sources.current);
   playbackRef.current=result.state;
   setPlayback(result.state);
   void result.play?.catch(()=>{
