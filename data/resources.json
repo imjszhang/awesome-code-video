@@ -835,5 +835,157 @@
       "render_tested": false
     },
     "editorial_note": "Video use cases are curator suggestions. No installation, visual quality test or render test performed."
+  },
+  {
+    "id": "lemo-watercolor",
+    "project_id": "lemo-opuscar",
+    "name": "Watercolor Brush",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md",
+    "description": "Translucent brush marks on warm paper for nature, travel, and science stories. Reuse the style specification, seeded brush construction, and paint-on approach; create new artwork and timing. This is production guidance, not a complete film.",
+    "evidence_ids": [
+      "S-CV-057",
+      "S-CV-054"
+    ],
+    "section": "Visual Style Templates",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-teardown",
+    "project_id": "lemo-opuscar",
+    "name": "Exploded Teardown",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md",
+    "description": "Studio-lit engineering parts, exploded layers, and macro camera moves for hardware launches and construction explainers. Reuse the style specification and assembly choreography; supply accurate CAD or PCB geometry, materials, labels, and appropriately licensed assets.",
+    "evidence_ids": [
+      "S-CV-058",
+      "S-CV-054"
+    ],
+    "section": "Visual Style Templates",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "lemo-briefing-board",
+    "project_id": "lemo-opuscar",
+    "name": "Engineering Briefing Board",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md",
+    "description": "A physical markerboard with photo cutouts, magnetic labels, and line-following camera moves for engineering comparisons and decision briefings. Reuse the board composition rules and drawing kit; replace photographs, annotations, and evidence, then build a new timeline.",
+    "evidence_ids": [
+      "S-CV-059",
+      "S-CV-054"
+    ],
+    "section": "Visual Style Templates",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "remotion-audiogram",
+    "project_id": "remotion",
+    "name": "Podcast Audiogram",
+    "kind": "scene",
+    "url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-audiogram",
+    "description": "Audio waveforms and synchronized captions for podcast excerpts and interview highlights. Reuse the Remotion composition and audio-driven duration; replace audio, caption data, and visualizer settings. Review the Remotion license for your organization before production.",
+    "evidence_ids": [
+      "S-CV-060",
+      "S-CV-055"
+    ],
+    "section": "Film and Scene Templates",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "remotion-code-hike",
+    "project_id": "remotion",
+    "name": "Code Hike Transitions",
+    "kind": "scene",
+    "url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-code-hike",
+    "description": "Animated syntax-highlighted code with token transitions and annotations for programming tutorials and refactoring walkthroughs. Reuse the frame-driven Remotion scene; replace code snippets, themes, annotations, and pacing. Review the Remotion license for your organization before production.",
+    "evidence_ids": [
+      "S-CV-061",
+      "S-CV-055"
+    ],
+    "section": "Film and Scene Templates",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "remotion-tiktok",
+    "project_id": "remotion",
+    "name": "Word-Highlighted Captions",
+    "kind": "scene",
+    "url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-tiktok",
+    "description": "Bold outlined captions with active-word highlighting and animated entrances for talking-head clips and social explainers. Reuse the captioned-video composition; replace footage, captions, fonts, and placement. Adapt transcription settings for your language and review the Remotion license before production.",
+    "evidence_ids": [
+      "S-CV-062",
+      "S-CV-055"
+    ],
+    "section": "Film and Scene Templates",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "hyperframes-data-chart",
+    "project_id": "hyperframes",
+    "name": "Editorial Data Chart",
+    "kind": "shot",
+    "url": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart",
+    "description": "Warm paper, serif headings, animated bars, and a traced line for business metrics and data explainers. Reuse a 15-second HTML/SVG composition with a paused GSAP timeline; replace data arrays, scales, labels, and source attribution, then integrate it into a HyperFrames film.",
+    "evidence_ids": [
+      "S-CV-063",
+      "S-CV-056"
+    ],
+    "section": "Shot Recipes",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "hyperframes-yt-lower-third",
+    "project_id": "hyperframes",
+    "name": "YouTube Subscribe Lower Third",
+    "kind": "shot",
+    "url": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third",
+    "description": "A sliding channel card and springy subscribe-button animation for creator introductions and calls to action. Reuse the 4.5-second HTML overlay and paused GSAP timeline; replace the avatar, channel text, counts, and styling, then compose it over your footage.",
+    "evidence_ids": [
+      "S-CV-064",
+      "S-CV-056"
+    ],
+    "section": "Shot Recipes",
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
   }
 ]

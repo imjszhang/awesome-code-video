@@ -8,7 +8,7 @@
 
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
-Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 35 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
+Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 43 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
 ## Contents
 
@@ -42,6 +42,10 @@ Complete projects and self-contained scenes with editable source.
 - [Butterfly Life](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/butterfly-life) - Procedural natural-science animation for lifecycle and process explainers. A 32-second, 17-shot vertical film with source, planning documents, music, and rendering tools. Reuse the production structure; changing the subject requires adapting drawing and scene code.
 - [Claude Quest](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/claude-quest-v2) - NES-style pixel art, a simulated CRT, and chip music for game narratives, progress metaphors, and playful technical stories. A worked film driven by a game engine and recorded controller input. Reuse the engine and presentation; adapt characters, levels, and the input sequence for a new story.
 - [Isometric Ripple Tank](https://github.com/wheresryan22/anatomy/tree/main/examples/ripple-tank) - An isometric laboratory scene combining SVG apparatus and WebGL water patterns for wave-interference explainers. Reuse the Node build script, light or dark page, and frequency/spacing controls. Adapt the model, labels, and interaction sequence; add browser recording or a controlled video timeline and audio. The example outputs HTML, not an MP4.
+
+- [Podcast Audiogram](https://github.com/remotion-dev/remotion/tree/main/packages/template-audiogram) - Audio waveforms and synchronized captions for podcast excerpts and interview highlights. Reuse the Remotion composition and audio-driven duration; replace audio, caption data, and visualizer settings. Review the Remotion license for your organization before production.
+- [Code Hike Transitions](https://github.com/remotion-dev/remotion/tree/main/packages/template-code-hike) - Animated syntax-highlighted code with token transitions and annotations for programming tutorials and refactoring walkthroughs. Reuse the frame-driven Remotion scene; replace code snippets, themes, annotations, and pacing. Review the Remotion license for your organization before production.
+- [Word-Highlighted Captions](https://github.com/remotion-dev/remotion/tree/main/packages/template-tiktok) - Bold outlined captions with active-word highlighting and animated entrances for talking-head clips and social explainers. Reuse the captioned-video composition; replace footage, captions, fonts, and placement. Adapt transcription settings for your language and review the Remotion license before production.
 
 See the [practical reuse guide](docs/reuse-guide.md) for what to replace and where the adaptation work sits.
 
@@ -79,6 +83,11 @@ This browser animation component needs recording or timeline adaptation for vide
 
 - [Staggered Line Reveal](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx) - Lines slide upward through clipped masks with a staggered reveal for titles, feature statements, and chapter cards. Reuse the React component and its duration and stagger controls. It uses Framer Motion and viewport-triggered playback; add browser recording or replace the trigger with frame-based timing for video rendering.
 
+These HyperFrames blocks expose editable HTML and paused animation timelines.
+
+- [Editorial Data Chart](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart) - Warm paper, serif headings, animated bars, and a traced line for business metrics and data explainers. Reuse a 15-second HTML/SVG composition with a paused GSAP timeline; replace data arrays, scales, labels, and source attribution, then integrate it into a HyperFrames film.
+- [YouTube Subscribe Lower Third](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third) - A sliding channel card and springy subscribe-button animation for creator introductions and calls to action. Reuse the 4.5-second HTML overlay and paused GSAP timeline; replace the avatar, channel text, counts, and styling, then compose it over your footage.
+
 ## Visual Style Templates
 
 These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide concrete `STYLE.md` files and demonstration films in the [style gallery](https://lemomo-ai.github.io/lemo-opuscar/). They are reusable art-direction and production instructions for a coding agent. A new subject still needs a script, assets, scene construction, and rendering; model-dependent reproduction can vary.
@@ -96,9 +105,13 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 - [Blueprint](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/blueprint/STYLE.md) - Technical drawing and measurement cues for engineering, structural explanations, and invention stories.
 - [16-bit Pixel RPG](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pixel-rpg/STYLE.md) - Pixel characters and game-world storytelling for learning journeys, progress narratives, and retro shorts.
 
+- [Watercolor Brush](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md) - Translucent brush marks on warm paper for nature, travel, and science stories. Reuse the style specification, seeded brush construction, and paint-on approach; create new artwork and timing. This is production guidance, not a complete film.
+- [Exploded Teardown](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md) - Studio-lit engineering parts, exploded layers, and macro camera moves for hardware launches and construction explainers. Reuse the style specification and assembly choreography; supply accurate CAD or PCB geometry, materials, labels, and appropriately licensed assets.
+- [Engineering Briefing Board](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md) - A physical markerboard with photo cutouts, magnetic labels, and line-following camera moves for engineering comparisons and decision briefings. Reuse the board composition rules and drawing kit; replace photographs, annotations, and evidence, then build a new timeline.
+
 ## Frameworks and Renderers
 
-These are foundations for composing or rendering your own work. They are not included in the 35 reusable examples above.
+These are foundations for composing or rendering your own work. They are not included in the 43 reusable examples above.
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).

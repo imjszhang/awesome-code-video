@@ -1441,5 +1441,492 @@
       }
     ],
     "resolved_url": "https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport"
+  },
+  {
+    "id": "C-5ee3da171165",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md",
+    "name": "Watercolor Brush",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "lemo-watercolor",
+    "evidence_ids": [
+      "S-CV-057",
+      "S-CV-054"
+    ],
+    "created_at": "2026-10-27T06:58:08.241Z",
+    "updated_at": "2026-10-27T06:58:08.422Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.241Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.255Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.422Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md"
+  },
+  {
+    "id": "C-26dfbc191bc9",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md",
+    "name": "Exploded Teardown",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "lemo-teardown",
+    "evidence_ids": [
+      "S-CV-058",
+      "S-CV-054"
+    ],
+    "created_at": "2026-10-27T06:58:08.268Z",
+    "updated_at": "2026-10-27T06:58:08.432Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.268Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.278Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.432Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md"
+  },
+  {
+    "id": "C-0e117674deb1",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md",
+    "name": "Engineering Briefing Board",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "lemo-briefing-board",
+    "evidence_ids": [
+      "S-CV-059",
+      "S-CV-054"
+    ],
+    "created_at": "2026-10-27T06:58:08.290Z",
+    "updated_at": "2026-10-27T06:58:08.443Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.290Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.300Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.443Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md"
+  },
+  {
+    "id": "C-d983d6c304a1",
+    "url": "https://www.remotion.dev/templates/audiogram",
+    "name": "Podcast Audiogram",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "remotion-audiogram",
+    "evidence_ids": [
+      "S-CV-060",
+      "S-CV-055"
+    ],
+    "created_at": "2026-10-27T06:58:08.312Z",
+    "updated_at": "2026-10-27T06:58:08.455Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.312Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.322Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.455Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/remotion-dev/remotion/tree/main/packages/template-audiogram"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-audiogram"
+  },
+  {
+    "id": "C-7aa7d901f849",
+    "url": "https://www.remotion.dev/templates/code-hike",
+    "name": "Code Hike Transitions",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "remotion-code-hike",
+    "evidence_ids": [
+      "S-CV-061",
+      "S-CV-055"
+    ],
+    "created_at": "2026-10-27T06:58:08.334Z",
+    "updated_at": "2026-10-27T06:58:08.465Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.334Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.344Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.465Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/remotion-dev/remotion/tree/main/packages/template-code-hike"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-code-hike"
+  },
+  {
+    "id": "C-0107b989883d",
+    "url": "https://www.remotion.dev/templates/tiktok",
+    "name": "Word-Highlighted Captions",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "remotion-tiktok",
+    "evidence_ids": [
+      "S-CV-062",
+      "S-CV-055"
+    ],
+    "created_at": "2026-10-27T06:58:08.355Z",
+    "updated_at": "2026-10-27T06:58:08.477Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.355Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.365Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.477Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/remotion-dev/remotion/tree/main/packages/template-tiktok"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-tiktok"
+  },
+  {
+    "id": "C-5802fbb94ac7",
+    "url": "https://hyperframes.heygen.com/catalog/blocks/data-chart",
+    "name": "Editorial Data Chart",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "hyperframes-data-chart",
+    "evidence_ids": [
+      "S-CV-063",
+      "S-CV-056"
+    ],
+    "created_at": "2026-10-27T06:58:08.377Z",
+    "updated_at": "2026-10-27T06:58:08.487Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.377Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.387Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.487Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart"
+  },
+  {
+    "id": "C-59ad90cf5e5e",
+    "url": "https://hyperframes.heygen.com/catalog/blocks/yt-lower-third",
+    "name": "YouTube Subscribe Lower Third",
+    "status": "accepted",
+    "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+    "resource_id": "hyperframes-yt-lower-third",
+    "evidence_ids": [
+      "S-CV-064",
+      "S-CV-056"
+    ],
+    "created_at": "2026-10-27T06:58:08.400Z",
+    "updated_at": "2026-10-27T06:58:08.498Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.400Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.410Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Website discovery followed by review of the specific upstream source."
+      },
+      {
+        "at": "2026-10-27T06:58:08.498Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Website lead resolved to reviewed upstream source; reusable unit added to both language lists.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third"
+  },
+  {
+    "id": "C-4df151ea832f",
+    "url": "https://getdesign.md/video-template",
+    "name": "Launch Video Template Pack",
+    "status": "deferred",
+    "reason": "Paid template pack found on the project website. Preview reviewed; purchased files, per-template source, and exact reuse terms were not inspected. Do not classify the pack as open source.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:58:08.512Z",
+    "updated_at": "2026-10-27T06:58:08.523Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.512Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.523Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Paid template pack found on the project website. Preview reviewed; purchased files, per-template source, and exact reuse terms were not inspected. Do not classify the pack as open source."
+      }
+    ]
+  },
+  {
+    "id": "C-d0c02152ae8c",
+    "url": "https://open-design.ai/plugins/templates",
+    "name": "OpenDesign Template Catalog",
+    "status": "deferred",
+    "reason": "Mixed catalog includes video styles, prompt-only entries, and apparent HyperFrames counterparts. Select an individual downloadable artifact and resolve its original author/source before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:58:08.537Z",
+    "updated_at": "2026-10-27T06:58:08.548Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.537Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.548Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Mixed catalog includes video styles, prompt-only entries, and apparent HyperFrames counterparts. Select an individual downloadable artifact and resolve its original author/source before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-7d83b35c60b1",
+    "url": "https://skills.wheresryan.sh/anatomy/collection/message-queue",
+    "name": "Anatomy Message Queue",
+    "status": "deferred",
+    "reason": "Promising marble-run system explainer. Website and import guidance reviewed; verify the figure package source, license, and deterministic video integration before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:58:08.561Z",
+    "updated_at": "2026-10-27T06:58:08.572Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.561Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.572Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Promising marble-run system explainer. Website and import guidance reviewed; verify the figure package source, license, and deterministic video integration before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-eba9126c123b",
+    "url": "https://threeui.com/text-animation/article-headings/particle-wordmark",
+    "name": "ThreeUI Particle Wordmark",
+    "status": "deferred",
+    "reason": "Particle typography useful for title sequences. Website/source context found, but item-specific access terms and a controlled video timeline still need verification.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:58:08.586Z",
+    "updated_at": "2026-10-27T06:58:08.597Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.586Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.597Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Particle typography useful for title sequences. Website/source context found, but item-specific access terms and a controlled video timeline still need verification."
+      }
+    ]
+  },
+  {
+    "id": "C-8bc0a783a32d",
+    "url": "https://skillry.dev/ai-videos/opus-5-5/heyiamnick-119558",
+    "name": "Skillry Pencil-to-Light Loop",
+    "status": "deferred",
+    "reason": "Detailed looping-video prompt and original-post attribution found. No executable scene inspected; keep as a prompt lead rather than a ready-made video template.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:58:08.611Z",
+    "updated_at": "2026-10-27T06:58:08.622Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.611Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.622Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Detailed looping-video prompt and original-post attribution found. No executable scene inspected; keep as a prompt lead rather than a ready-made video template."
+      }
+    ]
+  },
+  {
+    "id": "C-045fd33e570d",
+    "url": "https://skills.wheresryan.sh/anatomy/community",
+    "name": "Anatomy Community Figures",
+    "status": "deferred",
+    "reason": "Community examples are promising; review each author's source and asset permissions independently before importing a specific figure.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:58:08.637Z",
+    "updated_at": "2026-10-27T06:58:08.649Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.637Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.649Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Community examples are promising; review each author's source and asset permissions independently before importing a specific figure."
+      }
+    ]
+  },
+  {
+    "id": "C-b6666d0a686e",
+    "url": "https://docs.manim.community/en/stable/examples.html",
+    "name": "Manim Example Gallery",
+    "status": "deferred",
+    "reason": "Official examples expose Python implementations. Select specific scenes and document adaptation requirements before adding entries; the framework is already listed.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:58:08.663Z",
+    "updated_at": "2026-10-27T06:58:08.675Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:58:08.663Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:58:08.675Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official examples expose Python implementations. Select specific scenes and document adaptation requirements before adding entries; the framework is already listed."
+      }
+    ]
   }
 ]

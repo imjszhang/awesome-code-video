@@ -107,3 +107,5 @@ Use `--json` on catalog commands and the traceability check when another tool ne
 The [2026-10-27 reconciliation](../research/reconciliation-2026-10-27.md) demonstrates the first real batch: original leads, selected resources, evidence and recorded candidate decisions.
 
 [Review batch 2](../research/review-batch-2-2026-10-27.md) records source and article reviews, including explicit browser-to-video adaptation requirements.
+
+The [website audit](../research/website-audit-2026-10-27.md) records website coverage, eight source-reviewed additions, and seven deferred leads.

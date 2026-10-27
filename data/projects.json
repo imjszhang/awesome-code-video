@@ -79,7 +79,9 @@
     "name": "HyperFrames",
     "url": "https://github.com/heygen-com/hyperframes",
     "aliases": [],
-    "urls": [],
+    "urls": [
+      "https://hyperframes.heygen.com/"
+    ],
     "github": {
       "id": 1177402105,
       "full_name": "heygen-com/hyperframes",
@@ -193,7 +195,9 @@
     "name": "Webreel",
     "url": "https://github.com/vercel-labs/webreel",
     "aliases": [],
-    "urls": [],
+    "urls": [
+      "https://webreel.dev/"
+    ],
     "github": {
       "id": 1168561191,
       "full_name": "vercel-labs/webreel",
@@ -232,7 +236,9 @@
     "name": "Anatomy",
     "url": "https://github.com/wheresryan22/anatomy",
     "aliases": [],
-    "urls": [],
+    "urls": [
+      "https://skills.wheresryan.sh/anatomy"
+    ],
     "identity_checked_at": "2026-10-27",
     "github": {
       "id": 1410124849,
@@ -245,7 +251,9 @@
     "name": "Amicro",
     "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
     "aliases": [],
-    "urls": [],
+    "urls": [
+      "https://amicro.vercel.app/"
+    ],
     "identity_checked_at": "2026-10-27",
     "github": {
       "id": 1297269051,

@@ -581,5 +581,126 @@
     "reliability": "medium",
     "checked_at": "2026-10-27",
     "notes": "Reviewed the complete prompt in section 03 and its six-part explanation in section 02 through the saved article body. Live WeChat retrieval failed. Public link is retained; private collection IDs and article text are not redistributed. Article and prompt retain author terms; no open-source license is inferred."
+  },
+  {
+    "id": "S-CV-054",
+    "project_id": "lemo-opuscar",
+    "title": "lemo-opuscar — repository license",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/LICENSE",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Repository MIT license inspected. External photographs, fonts, engineering models, and dependencies need separate consideration."
+  },
+  {
+    "id": "S-CV-055",
+    "project_id": "remotion",
+    "title": "remotion — repository license",
+    "url": "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Remotion has a Free License and Company License with entity-dependent eligibility; source availability is not an unconditional commercial-use grant."
+  },
+  {
+    "id": "S-CV-056",
+    "project_id": "hyperframes",
+    "title": "hyperframes — repository license",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Repository Apache-2.0 license inspected. Replace sample branding/avatar; external dependencies retain their terms."
+  },
+  {
+    "id": "S-CV-057",
+    "project_id": "lemo-opuscar",
+    "title": "Watercolor Brush — source review",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://lemomo-ai.github.io/lemo-opuscar/. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-058",
+    "project_id": "lemo-opuscar",
+    "title": "Exploded Teardown — source review",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://lemomo-ai.github.io/lemo-opuscar/. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-059",
+    "project_id": "lemo-opuscar",
+    "title": "Engineering Briefing Board — source review",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://lemomo-ai.github.io/lemo-opuscar/. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-060",
+    "project_id": "remotion",
+    "title": "Podcast Audiogram — source review",
+    "url": "https://github.com/remotion-dev/remotion/blob/main/packages/template-audiogram/src/Root.tsx",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://www.remotion.dev/templates/audiogram. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-061",
+    "project_id": "remotion",
+    "title": "Code Hike Transitions — source review",
+    "url": "https://github.com/remotion-dev/remotion/blob/main/packages/template-code-hike/src/CodeTransition.tsx",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://www.remotion.dev/templates/code-hike. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-062",
+    "project_id": "remotion",
+    "title": "Word-Highlighted Captions — source review",
+    "url": "https://github.com/remotion-dev/remotion/blob/main/packages/template-tiktok/src/CaptionedVideo/Page.tsx",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://www.remotion.dev/templates/tiktok. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-063",
+    "project_id": "hyperframes",
+    "title": "Editorial Data Chart — source review",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/registry/blocks/data-chart/data-chart.html",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://hyperframes.heygen.com/catalog/blocks/data-chart. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
+  },
+  {
+    "id": "S-CV-064",
+    "project_id": "hyperframes",
+    "title": "YouTube Subscribe Lower Third — source review",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/registry/blocks/yt-lower-third/yt-lower-third.html",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected source/specification after discovery at https://hyperframes.heygen.com/catalog/blocks/yt-lower-third. Supports editable implementation, presentation, and adaptation notes. Video suitability is editorial; no install or render test performed."
   }
 ]

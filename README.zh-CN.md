@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 35 个可复用单元：5 个成片或场景工程、6 个地图镜头、12 个镜头配方、12 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 43 个可复用单元：8 个成片或场景工程、6 个地图镜头、14 个镜头配方、15 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -40,6 +40,10 @@
 - [Butterfly Life](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/butterfly-life) - 用程序绘图表现生命阶段变化，适合自然科学与过程演化科普。提供 32 秒、17 镜头的竖屏影片源码、配乐、规划文档与渲染工具；更换主题通常需要改写主体绘制和镜头内容。
 - [Claude Quest](https://github.com/kuhnhomeuk-cell/procedural-film/tree/main/examples/claude-quest-v2) - NES 像素平台游戏、CRT 显示效果与芯片音乐，适合游戏风故事、升级闯关隐喻和技术趣味短片。可复用游戏运行式影片、记录的操作轨迹和复古引擎；角色、关卡与剧情的调整需要编码。
 - [等距水波槽图解](https://github.com/wheresryan22/anatomy/tree/main/examples/ripple-tank) - 等距实验装置配 SVG 结构与 WebGL 水波，适合波的干涉与实验原理讲解。复用 Node 构建脚本、明暗主题页面和频率/间距控制，调整模型、标注与操作序列；还需浏览器录制或可控视频时间轴，并自行配音。示例输出 HTML，不直接输出 MP4。
+
+- [播客音频可视化](https://github.com/remotion-dev/remotion/tree/main/packages/template-audiogram) - 波形与同步字幕，适合播客片段、访谈摘录。替换音频、字幕数据和可视化参数；时长随音频计算，使用前核对 Remotion 授权。
+- [代码变换讲解](https://github.com/remotion-dev/remotion/tree/main/packages/template-code-hike) - 语法高亮、代码 token 衔接与标注，适合编程教学和重构演示。替换代码、主题、注释和节奏；使用前核对 Remotion 授权。
+- [逐词高亮字幕](https://github.com/remotion-dev/remotion/tree/main/packages/template-tiktok) - 粗体描边、当前词高亮与弹入字幕，适合口播和社交科普。替换视频、字幕、字体和位置，按语言调整转写设置并核对 Remotion 授权。
 
 ## 参数化地图镜头
 
@@ -77,6 +81,11 @@
 
 - [错时逐行揭示](https://github.com/Subhan-code/Amicro--Micro-transitions-/blob/main/registry/ui/text/text-reveal.tsx) - 多行文字从裁切遮罩下方依次滑入，适合标题、功能卖点和章节字卡。复用 React 组件及持续时间、行间延迟参数。原实现使用 Framer Motion 并由进入视口触发；用于视频需补浏览器录制，或将触发机制改成逐帧时间控制。
 
+以下 HyperFrames 组件提供可编辑 HTML 与暂停状态的动画时间轴。
+
+- [编辑出版风数据图表](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart) - 暖纸底、衬线标题、柱形生长与折线描绘，适合经营指标和数据科普。复用 15 秒 HTML/SVG 时间轴，替换数组、量程、标签及数据出处。
+- [频道订阅提示条](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third) - 滑入频道卡片与弹性订阅按钮，适合创作者介绍和订阅提示。复用 4.5 秒 HTML 叠加层与 GSAP 时间轴，替换头像、频道文字、数字及样式。
+
 ## 视觉风格文件
 
 以下选自 [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar)，每项链接到具体 `STYLE.md`；[样片画廊](https://lemomo-ai.github.io/lemo-opuscar/)用于比较视觉效果。可复用的是配色、材质、构图和动作等风格约束，需要围绕新主题生成工程，不能作为换字即出的成片模板。
@@ -95,6 +104,9 @@
 | [ASCII / CRT 终端](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ascii-crt/STYLE.md) | 字符图形与老式显示器 | 编程、开发者工具、计算机故事 |
 | [蓝图工程制图](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/blueprint/STYLE.md) | 线稿、尺寸标记与技术图纸 | 工程原理、结构拆解、技术方案 |
 | [16-bit 像素 RPG](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pixel-rpg/STYLE.md) | 像素角色、地图与冒险叙事 | 游戏化科普、成长故事、复古短片 |
+| [水彩笔触](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md) | 暖纸底、半透明笔触与逐笔显现 | 自然、旅行、科学故事 |
+| [工程爆炸拆解](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md) | 摄影棚质感、零件分层爆炸与微距运镜；需自备 CAD/PCB 素材 | 硬件发布、结构讲解 |
+| [工程简报板](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md) | 实体白板、照片剪贴、磁吸标签与跟线运镜 | 工程比较、方案决策 |
 
 ## 视频制作框架
 

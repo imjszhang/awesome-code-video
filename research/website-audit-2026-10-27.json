@@ -1,0 +1,666 @@
+{
+  "date": "2026-10-27",
+  "method": "Website and source review; no installation, render test, purchase, or exhaustive review of every gallery item.",
+  "metadata_scan": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "3b1b/manim",
+        "homepage": null,
+        "id": 32689863,
+        "default_branch": "master"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "DavidHDev/canvas-ui",
+        "homepage": "https://canvasui.dev/",
+        "id": 1302826522,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "Gohanwu42/llm-explain",
+        "homepage": null,
+        "id": 1404409833,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+        "homepage": "https://leoaido.com/crv-pro/",
+        "id": 1284959612,
+        "default_branch": "master"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "HeiGeAi/Paper-Cut",
+        "homepage": null,
+        "id": 1350827320,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "Hommy-master/capcut-mate",
+        "homepage": "https://jcaigc.cn",
+        "id": 1047822585,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "MengTo/threeui",
+        "homepage": "https://threeui.com",
+        "id": 1341759590,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "rejected",
+      "reason": {}
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "OpenVGLab/OmniLottie",
+        "homepage": "https://openvglab.github.io/OmniLottie/",
+        "id": 1134743153,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "PavelDoGreat/WebGL-Fluid-Simulation",
+        "homepage": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+        "id": 101109137,
+        "default_branch": "master"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "SpaceZephyr/map-motion",
+        "homepage": null,
+        "id": 1408991370,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "Subhan-code/Amicro--Micro-transitions-",
+        "homepage": "https://amicro.vercel.app",
+        "id": 1297269051,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "Vincentwei1021/video-shotcraft",
+        "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
+        "id": 1305663861,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "VoltAgent/awesome-design-md",
+        "homepage": "https://getdesign.md/",
+        "id": 1197515131,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "WinterArc21/Battle-of-Austerlitz-Film",
+        "homepage": null,
+        "id": 1385510826,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "WyattBlue/auto-editor",
+        "homepage": "https://auto-editor.com",
+        "id": 260117248,
+        "default_branch": "master"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "acamposuribe/p5.brush",
+        "homepage": "https://p5-brush.cargo.site/",
+        "id": 711694041,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "ahujasid/blender-mcp"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "bradautomates/claude-video",
+        "homepage": null,
+        "id": 1219644159,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "browser-use/video-use",
+        "homepage": "https://video-use.com",
+        "id": 1208221543,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "erduo1998-cell/erduo-broll-loop-engineering",
+        "homepage": null,
+        "id": 1306804150,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "feitangyuan/onetake",
+        "homepage": "https://onetakemotion.com",
+        "id": 1388594776,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "harry0703/MoneyPrinterTurbo",
+        "homepage": "",
+        "id": 770153867,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "heygen-com/hyperframes",
+        "homepage": "https://hyperframes.heygen.com",
+        "id": 1177402105,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "hypit-ai/hypit",
+        "homepage": "https://hypit.ai",
+        "id": 1316470719,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "joeseesun/opus-video-prompts",
+        "homepage": null,
+        "id": 1389900426,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "kuhnhomeuk-cell/procedural-film",
+        "homepage": null,
+        "id": 1374789451,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
+        "id": 1389011744,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "majidmanzarpour/threejs-game-skills",
+        "homepage": null,
+        "id": 1268895491,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "nexu-io/open-design",
+        "homepage": "https://open-design.ai",
+        "id": 1223170290,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "op7418/guizang-product-video-skill",
+        "homepage": null,
+        "id": 1375362154,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "op7418/guizang-social-card-skill",
+        "homepage": "https://github.com/op7418/guizang-social-card-skill",
+        "id": 1251263546,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "oso95/scroll-world",
+        "homepage": "",
+        "id": 1291501023,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "remotion-dev/remotion",
+        "homepage": "https://remotion.dev",
+        "id": 274495425,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "remotion-dev/skills",
+        "homepage": null,
+        "id": 1137388347,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "scottstts/Threejs-Awesome-Graphics-Agent-Skills",
+        "homepage": "",
+        "id": 1274708755,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "vercel-labs/webreel",
+        "homepage": "https://webreel.dev",
+        "id": 1168561191,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "wheresryan22/anatomy",
+        "homepage": "https://skills.wheresryan.sh/anatomy",
+        "id": 1410124849,
+        "default_branch": "main"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "repo": "yihui-dev/awesome-opus5-5-videos",
+        "homepage": "https://skillry.dev/ai-videos/opus-5-5",
+        "id": 1390273274,
+        "default_branch": "main"
+      }
+    }
+  ],
+  "metadata_gaps": [
+    "Norsico/Video-Materials-AutoGEN-Workstation",
+    "ahujasid/blender-mcp"
+  ],
+  "accepted": [
+    {
+      "id": "lemo-watercolor",
+      "name": "Watercolor Brush",
+      "discovery": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md",
+      "evidence_ids": [
+        "S-CV-057",
+        "S-CV-054"
+      ]
+    },
+    {
+      "id": "lemo-teardown",
+      "name": "Exploded Teardown",
+      "discovery": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md",
+      "evidence_ids": [
+        "S-CV-058",
+        "S-CV-054"
+      ]
+    },
+    {
+      "id": "lemo-briefing-board",
+      "name": "Engineering Briefing Board",
+      "discovery": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md",
+      "evidence_ids": [
+        "S-CV-059",
+        "S-CV-054"
+      ]
+    },
+    {
+      "id": "remotion-audiogram",
+      "name": "Podcast Audiogram",
+      "discovery": "https://www.remotion.dev/templates/audiogram",
+      "url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-audiogram",
+      "evidence_ids": [
+        "S-CV-060",
+        "S-CV-055"
+      ]
+    },
+    {
+      "id": "remotion-code-hike",
+      "name": "Code Hike Transitions",
+      "discovery": "https://www.remotion.dev/templates/code-hike",
+      "url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-code-hike",
+      "evidence_ids": [
+        "S-CV-061",
+        "S-CV-055"
+      ]
+    },
+    {
+      "id": "remotion-tiktok",
+      "name": "Word-Highlighted Captions",
+      "discovery": "https://www.remotion.dev/templates/tiktok",
+      "url": "https://github.com/remotion-dev/remotion/tree/main/packages/template-tiktok",
+      "evidence_ids": [
+        "S-CV-062",
+        "S-CV-055"
+      ]
+    },
+    {
+      "id": "hyperframes-data-chart",
+      "name": "Editorial Data Chart",
+      "discovery": "https://hyperframes.heygen.com/catalog/blocks/data-chart",
+      "url": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart",
+      "evidence_ids": [
+        "S-CV-063",
+        "S-CV-056"
+      ]
+    },
+    {
+      "id": "hyperframes-yt-lower-third",
+      "name": "YouTube Subscribe Lower Third",
+      "discovery": "https://hyperframes.heygen.com/catalog/blocks/yt-lower-third",
+      "url": "https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third",
+      "evidence_ids": [
+        "S-CV-064",
+        "S-CV-056"
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "name": "Launch Video Template Pack",
+      "url": "https://getdesign.md/video-template",
+      "reason": "Paid template pack found on the project website. Preview reviewed; purchased files, per-template source, and exact reuse terms were not inspected. Do not classify the pack as open source."
+    },
+    {
+      "name": "OpenDesign Template Catalog",
+      "url": "https://open-design.ai/plugins/templates/",
+      "reason": "Mixed catalog includes video styles, prompt-only entries, and apparent HyperFrames counterparts. Select an individual downloadable artifact and resolve its original author/source before admission."
+    },
+    {
+      "name": "Anatomy Message Queue",
+      "url": "https://skills.wheresryan.sh/anatomy/collection/message-queue",
+      "reason": "Promising marble-run system explainer. Website and import guidance reviewed; verify the figure package source, license, and deterministic video integration before admission."
+    },
+    {
+      "name": "ThreeUI Particle Wordmark",
+      "url": "https://threeui.com/text-animation/article-headings/particle-wordmark",
+      "reason": "Particle typography useful for title sequences. Website/source context found, but item-specific access terms and a controlled video timeline still need verification."
+    },
+    {
+      "name": "Skillry Pencil-to-Light Loop",
+      "url": "https://skillry.dev/ai-videos/opus-5-5/heyiamnick-119558",
+      "reason": "Detailed looping-video prompt and original-post attribution found. No executable scene inspected; keep as a prompt lead rather than a ready-made video template."
+    },
+    {
+      "name": "Anatomy Community Figures",
+      "url": "https://skills.wheresryan.sh/anatomy/community",
+      "reason": "Community examples are promising; review each author's source and asset permissions independently before importing a specific figure."
+    },
+    {
+      "name": "Manim Example Gallery",
+      "url": "https://docs.manim.community/en/stable/examples.html",
+      "reason": "Official examples expose Python implementations. Select specific scenes and document adaptation requirements before adding entries; the framework is already listed."
+    }
+  ],
+  "website_reviews": [
+    {
+      "name": "Lemo",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "depth": "Specific source reviewed",
+      "decision": "Added Watercolor, Teardown, and Briefing Board; keep specifications distinct from finished films."
+    },
+    {
+      "name": "Remotion",
+      "url": "https://www.remotion.dev/templates/",
+      "depth": "Specific source reviewed",
+      "decision": "Added three official templates using canonical monorepo paths rather than duplicating mirror repositories."
+    },
+    {
+      "name": "HyperFrames",
+      "url": "https://hyperframes.heygen.com/catalog/blocks/data-chart",
+      "depth": "Specific source reviewed",
+      "decision": "Added Data Chart and YouTube Lower Third; inspected HTML timelines and registry metadata."
+    },
+    {
+      "name": "video-shotcraft",
+      "url": "https://vincentwei1021.github.io/video-shotcraft/",
+      "depth": "Gallery reviewed",
+      "decision": "Existing film and shot entries cover the selected reusable material; no duplicate gallery entry."
+    },
+    {
+      "name": "Webreel",
+      "url": "https://webreel.dev/examples",
+      "depth": "Example index reviewed",
+      "decision": "Additional form, scrolling, and shortcut demos merit future source review; existing entries retained."
+    },
+    {
+      "name": "Anatomy",
+      "url": "https://skills.wheresryan.sh/anatomy/collection",
+      "depth": "Collection and detail reviewed",
+      "decision": "Message Queue and community figures retained as candidates; package identity and per-author rights need checking."
+    },
+    {
+      "name": "ThreeUI",
+      "url": "https://threeui.com/text-animation/article-headings/particle-wordmark",
+      "depth": "Detail page reviewed",
+      "decision": "Particle Wordmark retained as a candidate; distinguish free/pro access and verify video integration."
+    },
+    {
+      "name": "GetDesign",
+      "url": "https://getdesign.md/video-template",
+      "depth": "Sales page reviewed",
+      "decision": "Paid launch-video pack is relevant, but no purchase or delivered-file inspection was performed."
+    },
+    {
+      "name": "OpenDesign",
+      "url": "https://open-design.ai/plugins/templates/",
+      "depth": "Catalog reviewed",
+      "decision": "Mixed prompts and templates, including apparent upstream copies; resolve specific original artifacts before admission."
+    },
+    {
+      "name": "Skillry",
+      "url": "https://skillry.dev/ai-videos/opus-5-5",
+      "depth": "Gallery and one prompt reviewed",
+      "decision": "Useful discovery source; a detailed prompt is not executable scene source."
+    },
+    {
+      "name": "OneTake",
+      "url": "https://onetakemotion.com",
+      "depth": "Website reviewed",
+      "decision": "Paid starters need file and license review. Existing workflow entry remains appropriate."
+    },
+    {
+      "name": "CanvasUI",
+      "url": "https://canvasui.dev/components",
+      "depth": "Component index reviewed",
+      "decision": "Browser components require a capture or controlled video timeline; no additional core entry."
+    },
+    {
+      "name": "Amicro",
+      "url": "https://amicro.vercel.app",
+      "depth": "Access blocked",
+      "decision": "Website returned 403; existing GitHub source review remains separate."
+    },
+    {
+      "name": "OmniLottie",
+      "url": "https://openvglab.github.io/OmniLottie/",
+      "depth": "Research landing page reviewed",
+      "decision": "Generation research and galleries do not establish reuse rights for each animation."
+    },
+    {
+      "name": "p5.brush",
+      "url": "https://p5-brush.cargo.site/",
+      "depth": "Website reviewed",
+      "decision": "Drawing library and creative references; select an actual timed scene before adding a video template."
+    },
+    {
+      "name": "WebGL Fluid",
+      "url": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+      "depth": "Limited text extraction",
+      "decision": "Dynamic demo was not visually or render tested; controlled inputs and capture remain unresolved."
+    },
+    {
+      "name": "Auto-Editor",
+      "url": "https://auto-editor.com",
+      "depth": "Website reviewed",
+      "decision": "Editing tool, not a specific reusable visual template."
+    },
+    {
+      "name": "video-use",
+      "url": "https://video-use.com",
+      "depth": "Website reviewed",
+      "decision": "Editing workflow; no new concrete template selected."
+    },
+    {
+      "name": "Claude Real Video",
+      "url": "https://leoaido.com/crv-pro/",
+      "depth": "Website reviewed",
+      "decision": "Workflow/service offering; no new source-backed template selected."
+    },
+    {
+      "name": "Hypit",
+      "url": "https://hypit.ai",
+      "depth": "Website reviewed",
+      "decision": "Product offering; no new source-backed template selected."
+    },
+    {
+      "name": "CapCut Mate",
+      "url": "https://jcaigc.cn",
+      "depth": "Access failed",
+      "decision": "Website timed out; no claim about its unseen contents."
+    },
+    {
+      "name": "Manim Community",
+      "url": "https://docs.manim.community/en/stable/examples.html",
+      "depth": "Example gallery reviewed",
+      "decision": "Python examples are promising; individual scene selection deferred."
+    },
+    {
+      "name": "Motion Canvas",
+      "url": "https://motioncanvas.io",
+      "depth": "Homepage/docs reviewed",
+      "decision": "Framework already listed; no new individual scene selected."
+    },
+    {
+      "name": "GSAP",
+      "url": "https://gsap.com",
+      "depth": "Website reviewed",
+      "decision": "Animation foundation; review specific examples and integration rather than bulk importing."
+    },
+    {
+      "name": "Motion",
+      "url": "https://motion.dev",
+      "depth": "Website reviewed",
+      "decision": "Animation foundation; no specific additional video artifact selected."
+    },
+    {
+      "name": "Anime.js",
+      "url": "https://animejs.com",
+      "depth": "Website reviewed",
+      "decision": "General animation examples need video integration and individual review."
+    },
+    {
+      "name": "p5.js",
+      "url": "https://p5js.org",
+      "depth": "Website reviewed",
+      "decision": "Creative coding foundation; no additional scene selected."
+    },
+    {
+      "name": "Rough.js",
+      "url": "https://roughjs.com",
+      "depth": "Website reviewed",
+      "decision": "Sketch drawing foundation, not a timed video template."
+    },
+    {
+      "name": "Mesh3D",
+      "url": "https://mesh3d.gallery",
+      "depth": "Gallery reviewed",
+      "decision": "Visual inspiration does not establish editable source or reuse rights."
+    },
+    {
+      "name": "Three.js Editor",
+      "url": "https://threejs.org/editor",
+      "depth": "Limited text extraction",
+      "decision": "Generic editor; no specific reusable video resource verified."
+    },
+    {
+      "name": "Off-axis Demo",
+      "url": "https://cnb.cool/MindDockAI/off-axis-demo",
+      "depth": "Project documentation reviewed",
+      "decision": "Head-tracking demo needs controlled input, assets, and a video integration path."
+    },
+    {
+      "name": "OhMyOpus",
+      "url": "https://ohmyopus.com/en/s/motion",
+      "depth": "Gallery reviewed",
+      "decision": "Original-post discovery; verify source for each selected work."
+    }
+  ]
+}
