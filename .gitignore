@@ -4,3 +4,6 @@ npm-debug.log*
 .cache/
 research/.candidates.lock
 research/.candidates-*.tmp
+
+dist/
+work_dir/

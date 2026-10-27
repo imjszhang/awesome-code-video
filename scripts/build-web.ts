@@ -1,0 +1,31 @@
+import {build} from 'vite';
+import React from 'react';
+import {renderToString} from 'react-dom/server';
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {join} from 'node:path';
+import {App} from '../web/src/App';
+import {allPaths,routeForPath,pageMeta,resources,projects,collections} from '../web/src/model';
+const base=process.env.SITE_BASE||'/';
+if(!/^\/(?:[a-zA-Z0-9_-]+\/)*$/.test(base))throw new Error('SITE_BASE must be / or a slash-terminated path, e.g. /awesome-code-video/.');
+const site=process.env.SITE_URL?new URL(process.env.SITE_URL):null;
+if(site && (!['http:','https:'].includes(site.protocol)||site.pathname!=='/'||site.search||site.hash||site.username||site.password))throw new Error('SITE_URL must be an http(s) origin without a path or credentials.');
+const indexable=process.env.SITE_INDEXING==='true';
+if(indexable && (!site || site.protocol!=='https:' || ['localhost','127.0.0.1'].includes(site.hostname)))throw new Error('Indexing requires a public HTTPS SITE_URL.');
+const esc=(s:string)=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
+await build();
+const manifest=JSON.parse(await readFile('dist/.vite/manifest.json','utf8'));
+const entry=manifest['index.html'];
+const paths=allPaths();
+for(const path of [...paths,'404.html']){
+ const route=routeForPath(base+path,base);const meta=pageMeta(route);const noindex=!indexable || ['saved','notfound'].includes(route.type);
+ const canonical=site?new URL(base+path,site).href:null;
+ const structured=route.type==='home'&&site?{'@context':'https://schema.org','@type':'WebSite',name:'Awesome Code Video',url:new URL(base,site).href,description:meta.description}:null;
+ const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(meta.title)}</title><meta name="description" content="${esc(meta.description)}"><meta name="robots" content="${noindex?'noindex,nofollow':'index,follow'}">${canonical && route.type!=='notfound'?`<link rel="canonical" href="${esc(canonical)}"><meta property="og:url" content="${esc(canonical)}">`:''}<meta property="og:type" content="website"><meta property="og:site_name" content="Awesome Code Video"><meta property="og:title" content="${esc(meta.title)}"><meta property="og:description" content="${esc(meta.description)}"><meta name="theme-color" content="#fcd228"><link rel="icon" type="image/svg+xml" href="${base}favicon.svg">${entry.css.map((f:string)=>`<link rel="stylesheet" href="${base}${f}">`).join('')}${structured?`<script type="application/ld+json">${JSON.stringify(structured).replace(/</g,'\\u003c')}</script>`:''}</head><body><div id="root">${renderToString(React.createElement(App,{path:base+path,base}))}</div><script type="module" src="${base}${entry.file}"></script></body></html>`;
+ const file=path==='404.html'?'dist/404.html':join('dist',path,'index.html');
+ await mkdir(join(file,'..'),{recursive:true});await writeFile(file,html);
+}
+const sitemapPaths=paths.filter(p=>p!=='saved/');
+if(site) await writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${sitemapPaths.map(p=>`<url><loc>${esc(new URL(base+p,site).href)}</loc></url>`).join('')}</urlset>`);
+await writeFile('dist/robots.txt',indexable?`User-agent: *\nAllow: /\nDisallow: ${base}saved/\nSitemap: ${new URL(base+'sitemap.xml',site!).href}\n`:'User-agent: *\nDisallow: /\n');
+await mkdir('dist/data',{recursive:true});await writeFile('dist/data/catalog.json',JSON.stringify({version:1,resources,projects,collections}));
+console.log(`Built ${paths.length} pages + 404. ${resources.length} resources. Indexing: ${indexable?'enabled':'disabled (preview)'}. Base: ${base}`);
