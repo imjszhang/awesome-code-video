@@ -1918,5 +1918,643 @@
       "source": "S-CV-085 https://www.remotion.dev/generated/template-prompt-to-video.png. Official template still returned a PNG header. remotion-dev/template-prompt-to-video has no LICENSE file, so terms are 待确认 and redistributable is false. Do not copy the thumbnail into this repository. This is not a local render test. Remotion framework terms: S-CV-055.",
       "checked_at": "2026-10-27"
     }
+  },
+  {
+    "id": "rendercomp-starfield",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Starfield",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/starfield/Starfield.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that streams stars past like a slow warp-speed flight. The README documents it as 1920 by 1080 and 5 seconds, and Starfield.tsx sets 150 frames at 30 fps. Reuse Starfield.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/starfield.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/starfield.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-social-reel",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Social Reel Frame",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/social-reel/SocialReel.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that frames a handle, caption, and progress bar in a reel-style layout. The README documents it as 1920 by 1080 and 5 seconds, and SocialReel.tsx sets 150 frames at 30 fps. Reuse SocialReel.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/social-reel.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/social-reel.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-logo-stroke-draw",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Logo Stroke Draw",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-stroke-draw/LogoStrokeDraw.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that traces a logo outline and then fills it. The README documents it as 1920 by 1080 and 3.67 seconds, and LogoStrokeDraw.tsx sets 110 frames at 30 fps. Reuse LogoStrokeDraw.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-stroke-draw.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-stroke-draw.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-kinetic-word-stack",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Kinetic Word Stack",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kinetic-word-stack/KineticWordStack.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that punches words in and stacks them into a block. The README documents it as 1920 by 1080 and 4 seconds, and KineticWordStack.tsx sets 120 frames at 30 fps. Reuse KineticWordStack.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kinetic-word-stack.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kinetic-word-stack.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-neon-sign",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Neon Sign Flicker",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/neon-sign/NeonSign.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained square Remotion composition that flickers text on like a neon tube. The README documents it as 1080 by 1080 and about 3.33 seconds, and NeonSign.tsx sets 100 frames at 30 fps. Reuse NeonSign.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/neon-sign.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/neon-sign.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-fireworks-burst",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Fireworks Burst",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/fireworks-burst/FireworksBurst.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained square Remotion composition that blooms fireworks on cue. The README documents it as 1080 by 1080 and 3.67 seconds, and FireworksBurst.tsx sets 110 frames at 30 fps. Reuse FireworksBurst.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/fireworks-burst.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/fireworks-burst.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-line-chart-anim",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Animated Line Chart",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/line-chart-anim/LineChartAnim.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that draws a line across chart axes to a data series. The README documents it as 1920 by 1080 and 5 seconds, and LineChartAnim.tsx sets 150 frames at 30 fps. Reuse LineChartAnim.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/line-chart-anim.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/line-chart-anim.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-scramble-text",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Scramble Text",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/scramble-text/ScrambleText.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion title composition that cycles characters and then locks a headline. The README documents it as 1920 by 1080 and 5 seconds, and ScrambleText.tsx sets 150 frames at 30 fps. Reuse ScrambleText.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-086",
+      "S-CV-087"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/scramble-text.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/scramble-text.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-what-happens-to-a-support-ticket",
+    "project_id": "explainroo",
+    "name": "What Happens to a Support Ticket",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/what-happens-to-a-support-ticket",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo example page about what happens to a support ticket, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/what-happens-to-a-support-ticket.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/what-happens-to-a-support-ticket.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-what-single-sign-on-does",
+    "project_id": "explainroo",
+    "name": "What Single Sign-On Does",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/what-single-sign-on-does",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo example page about what single sign-on does, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/what-single-sign-on-does.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/what-single-sign-on-does.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-how-a-fridge-keeps-food-cold",
+    "project_id": "explainroo",
+    "name": "How a Fridge Keeps Food Cold",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/how-a-fridge-keeps-food-cold",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo example page about how a fridge keeps food cold, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/how-a-fridge-keeps-food-cold.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/how-a-fridge-keeps-food-cold.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-why-phone-batteries-wear-out",
+    "project_id": "explainroo",
+    "name": "Why Phone Batteries Wear Out",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/why-phone-batteries-wear-out",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo example page about why phone batteries wear out, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/why-phone-batteries-wear-out.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/why-phone-batteries-wear-out.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-why-we-have-leap-years",
+    "project_id": "explainroo",
+    "name": "Why We Have Leap Years",
+    "kind": "film",
+    "url": "https://github.com/vincentsch/explainroo/tree/main/examples/leap-years",
+    "section": "Film and Scene Templates",
+    "description": "An explainroo explainer example with script.md, scenes.js, and video.json for an editorial YouTube-size film titled Why we have leap years. Reuse that example structure and replace the topic and script. The repository is MIT, but the site-hosted MP4 is not in the repository and is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/why-we-have-leap-years.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/why-we-have-leap-years.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-how-to-jump-start-a-car",
+    "project_id": "explainroo",
+    "name": "How to Jump-Start a Car",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/how-to-jump-start-a-car",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo example page about how to jump-start a car, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/how-to-jump-start-a-car.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/how-to-jump-start-a-car.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-how-to-make-pour-over-coffee",
+    "project_id": "explainroo",
+    "name": "How to Make Pour-Over Coffee",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/how-to-make-pour-over-coffee",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo example page about how to make pour-over coffee, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/how-to-make-pour-over-coffee.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/how-to-make-pour-over-coffee.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-claude-demo",
+    "project_id": "explainroo",
+    "name": "Claude Demo",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/claude-demo",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo product-demo page for a Claude-style walkthrough, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/claude-demo.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/claude-demo.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-gmail-demo",
+    "project_id": "explainroo",
+    "name": "Gmail Demo",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/gmail-demo",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo product-demo page for a Gmail-style walkthrough, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/gmail-demo.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/gmail-demo.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-vroni-product-demo",
+    "project_id": "explainroo",
+    "name": "Vroni Product Demo",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/vroni-product-demo",
+    "section": "Film and Scene Templates",
+    "description": "A published explainroo product-demo page for a Vroni product walkthrough, with a site-hosted MP4. The public examples directory has no script.md or scenes.js for this slug, so adapt the explainroo workflow instead of treating the film as included source. The repository is MIT; the hosted MP4 is not marked redistributable.",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-088",
+      "S-CV-089"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/vroni-product-demo.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-089 https://www.explainroo.com/videos/vroni-product-demo.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "freelancer-affiliate-review-dark-scorecard",
+    "project_id": "freelancer-templates",
+    "name": "Affiliate Review Dark Scorecard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion affiliate-review composition for product comparisons, score cards, and verdicts. Reuse AffiliateReview.tsx and its theme props; the listed hero variant is Dark Scorecard. Replace the products, scores, and call to action. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-090",
+      "S-CV-091"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AffiliateReview-DarkScorecard.mp4",
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "redistributable": false,
+      "source": "S-CV-091 https://freelancer-templates.org/previews/hero/AffiliateReview-DarkScorecard.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "freelancer-behind-the-scenes-dark-scene-cards",
+    "project_id": "freelancer-templates",
+    "name": "Behind the Scenes Dark Scene Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion behind-the-scenes composition for process walkthroughs and scene cards. Reuse BehindTheScenes.tsx and its theme props; the listed hero variant is Dark Scene Cards. Replace the scenes and closing message. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-090",
+      "S-CV-091"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-DarkSceneCards.mp4",
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "redistributable": false,
+      "source": "S-CV-091 https://freelancer-templates.org/previews/hero/BehindTheScenes-DarkSceneCards.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "freelancer-proposal-bold-pitch",
+    "project_id": "freelancer-templates",
+    "name": "Proposal Bold Pitch",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L113",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion proposal composition for scope, timeline, and pricing pitches. Reuse Proposal.tsx through the Bold Pitch showcase export, which sets a bold theme and pitch layout. Replace the pitch copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-090",
+      "S-CV-091"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Proposal-BoldPitch.mp4",
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "redistributable": false,
+      "source": "S-CV-091 https://freelancer-templates.org/previews/hero/Proposal-BoldPitch.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "freelancer-proposal-neon-pitch",
+    "project_id": "freelancer-templates",
+    "name": "Proposal Neon Pitch",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L128",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion proposal composition for scope, timeline, and pricing pitches. Reuse Proposal.tsx through the Neon Pitch showcase export, which sets a neon theme and pitch layout. Replace the pitch copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-090",
+      "S-CV-091"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Proposal-NeonPitch.mp4",
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "redistributable": false,
+      "source": "S-CV-091 https://freelancer-templates.org/previews/hero/Proposal-NeonPitch.mp4",
+      "checked_at": "2026-10-27"
+    }
   }
 ]

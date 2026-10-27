@@ -933,5 +933,71 @@
     "reliability": "medium",
     "checked_at": "2026-10-27",
     "notes": "A byte-range request on 2026-10-27 returned a PNG header and content-type image/png. The image was not copied into this repository. It is a thumbnail for the template page, not a finished-film master. Template media terms are unconfirmed, so redistributable is false."
+  },
+  {
+    "id": "S-CV-086",
+    "project_id": "rendercomp-free-remotion-templates",
+    "title": "RenderComp — eight additional composition sources",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 the README table and component headers were read for starfield, social-reel, logo-stroke-draw, kinetic-word-stack, neon-sign, fireworks-burst, line-chart-anim, and scramble-text. Each file begins with SPDX MIT, copyright 2026 Trimora Inc. Frame constants at 30 fps: Starfield.tsx 150, SocialReel.tsx 150, LogoStrokeDraw.tsx 110, KineticWordStack.tsx 120, NeonSign.tsx 100, FireworksBurst.tsx 110, LineChartAnim.tsx 150, and ScrambleText.tsx 150. README sizes and durations: starfield 1920 by 1080 and 5 seconds, social-reel 1920 by 1080 and 5 seconds, logo-stroke-draw 1920 by 1080 and 3.67 seconds, kinetic-word-stack 1920 by 1080 and 4 seconds, neon-sign 1080 by 1080 and 3.33 seconds, fireworks-burst 1080 by 1080 and 3.67 seconds, line-chart-anim 1920 by 1080 and 5 seconds, and scramble-text 1920 by 1080 and 5 seconds. Social Reel Frame is documented as 1920 by 1080, not a vertical master. Repository license remains S-CV-077. Did not install or render. Remotion's runtime license is separate."
+  },
+  {
+    "id": "S-CV-087",
+    "project_id": "rendercomp-free-remotion-templates",
+    "title": "RenderComp — eight additional GitHub GIF previews",
+    "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/starfield.gif",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Byte-range requests on 2026-10-27 returned 206 image/gif and a GIF89a header for docs/thumbs/starfield.gif, social-reel.gif, logo-stroke-draw.gif, kinetic-word-stack.gif, neon-sign.gif, fireworks-burst.gif, line-chart-anim.gif, and scramble-text.gif. These files are in the MIT repository. They were not copied here and were not rendered locally. They are animated GIF previews, not MP4 masters."
+  },
+  {
+    "id": "S-CV-088",
+    "project_id": "explainroo",
+    "title": "explainroo — leap-years example and nine site films without repo scenes",
+    "url": "https://github.com/vincentsch/explainroo/tree/main/examples",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 examples/leap-years contained script.md, scenes.js, and video.json (title Why we have leap years, theme editorial, size youtube). The examples directory had no folders for what-happens-to-a-support-ticket, what-single-sign-on-does, how-a-fridge-keeps-food-cold, why-phone-batteries-wear-out, how-to-jump-start-a-car, how-to-make-pour-over-coffee, claude-demo, gmail-demo, or vroni-product-demo. Those nine pages returned 200 text/html at https://www.explainroo.com/videos/<slug>. Do not describe those nine films as included source. The leap-years example is editable source; its site MP4 was not found in the repository. No install or render test."
+  },
+  {
+    "id": "S-CV-089",
+    "project_id": "explainroo",
+    "title": "explainroo — ten site-hosted MP4s",
+    "url": "https://www.explainroo.com/videos/what-happens-to-a-support-ticket.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "Byte-range requests on 2026-10-27 returned 206 video/mp4 and an ftypisom header for what-happens-to-a-support-ticket.mp4, what-single-sign-on-does.mp4, how-a-fridge-keeps-food-cold.mp4, why-phone-batteries-wear-out.mp4, why-we-have-leap-years.mp4, how-to-jump-start-a-car.mp4, how-to-make-pour-over-coffee.mp4, claude-demo.mp4, gmail-demo.mp4, and vroni-product-demo.mp4 on www.explainroo.com. A HEAD request reported Content-Length 5128712 for claude-demo.mp4. Files were not copied and were not rendered locally. They are site-hosted and not in the MIT repository, so redistributable is false."
+  },
+  {
+    "id": "S-CV-090",
+    "project_id": "freelancer-templates",
+    "title": "Freelancer Templates — four additional composition sources",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 confirmed AffiliateReview.tsx, BehindTheScenes.tsx, and ProposalShowcase.tsx. AffiliateReviewDarkScorecard uses the dark theme and scorecard layout. BehindTheScenesDarkSceneCards uses the dark theme and scene-cards layout. ProposalBoldPitch at ProposalShowcase.tsx line 113 uses the bold theme and pitch layout. ProposalNeonPitch at line 128 uses the neon theme and pitch layout. Root.tsx registers AffiliateReview-DarkScorecard, BehindTheScenes-DarkSceneCards, Proposal-BoldPitch, and Proposal-NeonPitch at 1280 by 720, 30 fps, and 300 frames. data/templates.json describes Affiliate Review as product comparisons, score cards, and review verdicts, and Behind The Scenes as process walkthroughs, timeline reveals, and scene documentation. The GitHub license field for linda-mhmd/freelancer-templates.org was null. Did not install or render. Site terms remain S-CV-074."
+  },
+  {
+    "id": "S-CV-091",
+    "project_id": "freelancer-templates",
+    "title": "Freelancer Templates — four additional hero MP4 previews",
+    "url": "https://freelancer-templates.org/previews/hero/AffiliateReview-DarkScorecard.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD and byte-range requests on 2026-10-27 returned video/mp4 and an ftypisom header for AffiliateReview-DarkScorecard (Content-Length 147376), BehindTheScenes-DarkSceneCards (216113), Proposal-BoldPitch (201368), and Proposal-NeonPitch (208609) under https://freelancer-templates.org/previews/hero/. Files were not copied into this repository and were not rendered locally. Site terms are CC-BY-NC-SA 4.0 (S-CV-074), so redistributable is false. These are compressed hero previews."
   }
 ]
