@@ -999,5 +999,27 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "HEAD and byte-range requests on 2026-10-27 returned video/mp4 and an ftypisom header for AffiliateReview-DarkScorecard (Content-Length 147376), BehindTheScenes-DarkSceneCards (216113), Proposal-BoldPitch (201368), and Proposal-NeonPitch (208609) under https://freelancer-templates.org/previews/hero/. Files were not copied into this repository and were not rendered locally. Site terms are CC-BY-NC-SA 4.0 (S-CV-074), so redistributable is false. These are compressed hero previews."
+  },
+  {
+    "id": "S-CV-092",
+    "project_id": "rendercomp-free-remotion-templates",
+    "title": "RenderComp — twenty-four additional composition sources",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 the README table and component headers were read for: bokeh-circles, loop-grid-wave, pixel-candlestick-ohlc, pixel-mosaic-transition, pourover-drip-fill-gauge, pixel-typewriter-quote, flip-page-transition, shatter-reveal, camera-shake, parallax-pan, wave-hello, pixel-waterfall-cycle, logo-split-reveal, logo-mask-wipe, end-card, card-flip-transition, particle-snow, four-tone-mono-titler, logo-bounce-drop, slide-wipe, transition-circle-wipe, ink-spread-transition, chapter-title, text-mask-reveal. Each file begins with SPDX MIT, copyright 2026 Trimora Inc. Frame constants at 30 fps recorded in research pack. Repository license remains S-CV-077. Did not install or render. Remotion's runtime license is separate."
+  },
+  {
+    "id": "S-CV-093",
+    "project_id": "rendercomp-free-remotion-templates",
+    "title": "RenderComp — twenty-four additional GitHub GIF previews",
+    "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bokeh-circles.gif",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD on 2026-10-27 returned 200 image/gif for all 24 docs/thumbs/*.gif in this batch; byte-range samples returned 206 with GIF89a header for bokeh-circles, shatter-reveal, chapter-title, pixel-waterfall-cycle, end-card, text-mask-reveal. Animated GIF previews, not MP4 masters. Hotlink only; do not copy into the catalog repo."
   }
 ]

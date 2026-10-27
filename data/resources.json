@@ -2556,5 +2556,701 @@
       "source": "S-CV-091 https://freelancer-templates.org/previews/hero/Proposal-NeonPitch.mp4",
       "checked_at": "2026-10-27"
     }
+  },
+  {
+    "id": "rendercomp-bokeh-circles",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Bokeh Loop",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bokeh-circles/BokehCircles.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that drifts soft out-of-focus lights in a loop. The README documents it as 1920 by 1080 and 5 seconds, and BokehCircles.tsx sets 150 frames at 30 fps. Reuse BokehCircles.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bokeh-circles.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bokeh-circles.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-loop-grid-wave",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Grid Wave Loop",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/loop-grid-wave/LoopGridWave.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that undulates a dot grid in a repeating wave. The README documents it as 1920 by 1080 and 3 seconds, and LoopGridWave.tsx sets 90 frames at 30 fps. Reuse LoopGridWave.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/loop-grid-wave.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/loop-grid-wave.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-pixel-candlestick-ohlc",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Pixel Candlestick",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-candlestick-ohlc/PixelCandlestickOhlc.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that plays a retro pixel OHLC chart through price data. The README documents it as 1920 by 1080 and 6 seconds, and PixelCandlestickOhlc.tsx sets 180 frames at 30 fps. Reuse PixelCandlestickOhlc.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-candlestick-ohlc.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-candlestick-ohlc.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-pixel-mosaic-transition",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Pixel Mosaic Transition",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-mosaic-transition/PixelMosaicTransition.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that dissolves the frame into pixel blocks and reassembles it. The README documents it as 1920 by 1080 and 3 seconds, and PixelMosaicTransition.tsx sets 90 frames at 30 fps. Reuse PixelMosaicTransition.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-mosaic-transition.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-mosaic-transition.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-pourover-drip-fill-gauge",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Drip Fill Gauge",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pourover-drip-fill-gauge/PouroverDripFillGauge.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that fills a gauge drop by drop toward a target percentage. The README documents it as 1920 by 1080 and 6 seconds, and PouroverDripFillGauge.tsx sets 180 frames at 30 fps. Reuse PouroverDripFillGauge.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pourover-drip-fill-gauge.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pourover-drip-fill-gauge.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-pixel-typewriter-quote",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Pixel Typewriter Quote",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-typewriter-quote/PixelTypewriterQuote.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that types a retro pixel-font quote onto the screen. The README documents it as 1920 by 1080 and 6 seconds, and PixelTypewriterQuote.tsx sets 180 frames at 30 fps. Reuse PixelTypewriterQuote.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-typewriter-quote.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-typewriter-quote.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-flip-page-transition",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Page Flip",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/flip-page-transition/FlipPageTransition.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that turns a page from one scene to the next. The README documents it as 1920 by 1080 and 4 seconds, and FlipPageTransition.tsx sets 120 frames at 30 fps. Reuse FlipPageTransition.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/flip-page-transition.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/flip-page-transition.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-shatter-reveal",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Shatter Reveal",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/shatter-reveal/ShatterReveal.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that shatters a cover into shards and reveals the layer behind. The README documents it as 1920 by 1080 and 4 seconds, and ShatterReveal.tsx sets 120 frames at 30 fps. Reuse ShatterReveal.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/shatter-reveal.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/shatter-reveal.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-camera-shake",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Camera Shake",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/camera-shake/CameraShake.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that applies a handheld camera shake. The README documents it as 1920 by 1080 and 4 seconds, and CameraShake.tsx sets 120 frames at 30 fps. Reuse CameraShake.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/camera-shake.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/camera-shake.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-parallax-pan",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Parallax Pan",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/parallax-pan/ParallaxPan.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that pans layered planes at different speeds. The README documents it as 1920 by 1080 and 4 seconds, and ParallaxPan.tsx sets 120 frames at 30 fps. Reuse ParallaxPan.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/parallax-pan.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/parallax-pan.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-wave-hello",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Waving Hello",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/wave-hello/WaveHello.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained square Remotion composition that shows a hand waving hello. The README documents it as 1080 by 1080 and 3 seconds, and WaveHello.tsx sets 90 frames at 30 fps. Reuse WaveHello.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/wave-hello.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/wave-hello.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-pixel-waterfall-cycle",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Pixel Waterfall",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-waterfall-cycle/PixelWaterfallCycle.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained vertical Remotion composition that loops a pixel-art waterfall. The README documents it as 1080 by 1920 and 6 seconds, and PixelWaterfallCycle.tsx sets 180 frames at 30 fps. Reuse PixelWaterfallCycle.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-waterfall-cycle.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-waterfall-cycle.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-logo-split-reveal",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Logo Split Reveal",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-split-reveal/LogoSplitReveal.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that splits two panels apart to reveal a logo. The README documents it as 1920 by 1080 and 4 seconds, and LogoSplitReveal.tsx sets 120 frames at 30 fps. Reuse LogoSplitReveal.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-split-reveal.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-split-reveal.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-logo-mask-wipe",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Logo Mask Wipe",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-mask-wipe/LogoMaskWipe.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that wipes a diagonal mask across to expose a logo. The README documents it as 1920 by 1080 and about 3.33 seconds, and LogoMaskWipe.tsx sets 100 frames at 30 fps. Reuse LogoMaskWipe.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-mask-wipe.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-mask-wipe.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-end-card",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "End Card / Outro",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/end-card/EndCard.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that shows a closing card with slots for a call to action and links. The README documents it as 1920 by 1080 and 5 seconds, and EndCard.tsx sets 150 frames at 30 fps. Reuse EndCard.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/end-card.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/end-card.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-card-flip-transition",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Card Flip",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/card-flip-transition/CardFlipTransition.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that flips the frame like a card into the next scene. The README documents it as 1920 by 1080 and 4 seconds, and CardFlipTransition.tsx sets 120 frames at 30 fps. Reuse CardFlipTransition.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/card-flip-transition.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/card-flip-transition.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-particle-snow",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Snow Particles",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/particle-snow/ParticleSnow.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained square Remotion composition that drifts layered snow. The README documents it as 1080 by 1080 and 5 seconds, and ParticleSnow.tsx sets 150 frames at 30 fps. Reuse ParticleSnow.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/particle-snow.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/particle-snow.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-four-tone-mono-titler",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Four-Tone Titler",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/four-tone-mono-titler/FourToneMonoTitler.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that steps a title block through four tones. The README documents it as 1920 by 1080 and 4 seconds, and FourToneMonoTitler.tsx sets 120 frames at 30 fps. Reuse FourToneMonoTitler.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/four-tone-mono-titler.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/four-tone-mono-titler.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-logo-bounce-drop",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Logo Bounce Drop",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-bounce-drop/LogoBounceDrop.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that drops a logo in and settles it with a bounce. The README documents it as 1920 by 1080 and 3 seconds, and LogoBounceDrop.tsx sets 90 frames at 30 fps. Reuse LogoBounceDrop.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-bounce-drop.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-bounce-drop.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-slide-wipe",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Slide Wipe",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/slide-wipe/SlideWipe.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that slides one frame aside to reveal the next. The README documents it as 1920 by 1080 and 4 seconds, and SlideWipe.tsx sets 120 frames at 30 fps. Reuse SlideWipe.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/slide-wipe.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/slide-wipe.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-transition-circle-wipe",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Circle Wipe",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/transition-circle-wipe/TransitionCircleWipe.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that expands a circle from the center to replace the scene. The README documents it as 1920 by 1080 and 3 seconds, and TransitionCircleWipe.tsx sets 90 frames at 30 fps. Reuse TransitionCircleWipe.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/transition-circle-wipe.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/transition-circle-wipe.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-ink-spread-transition",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Ink Spread",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/ink-spread-transition/InkSpreadTransition.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that spreads ink across the frame into the next scene. The README documents it as 1920 by 1080 and 4 seconds, and InkSpreadTransition.tsx sets 120 frames at 30 fps. Reuse InkSpreadTransition.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/ink-spread-transition.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/ink-spread-transition.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-chapter-title",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Chapter Title Card",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/chapter-title/ChapterTitle.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that shows a numbered chapter card for a section break. The README documents it as 1920 by 1080 and 5 seconds, and ChapterTitle.tsx sets 150 frames at 30 fps. Reuse ChapterTitle.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/chapter-title.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/chapter-title.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "rendercomp-text-mask-reveal",
+    "project_id": "rendercomp-free-remotion-templates",
+    "name": "Text Mask Reveal",
+    "kind": "scene",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/text-mask-reveal/TextMaskReveal.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A self-contained Remotion composition that slides text up out of a mask. The README documents it as 1920 by 1080 and 3.67 seconds, and TextMaskReveal.tsx sets 110 frames at 30 fps. Reuse TextMaskReveal.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-077",
+      "S-CV-092",
+      "S-CV-093"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/text-mask-reveal.gif",
+      "license": "MIT",
+      "attribution": "RenderComp",
+      "redistributable": true,
+      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/text-mask-reveal.gif",
+      "checked_at": "2026-10-27"
+    }
   }
 ]

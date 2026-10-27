@@ -115,10 +115,11 @@ test('homepage gallery lists complete previews and featured covers without playb
   assert.match(tag,/preload="metadata"/);
   assert.match(tag,/playsinline/i);
   assert.match(tag,/tabindex="-1"/);
-  assert.doesNotMatch(tag,/\bautoplay\b/i);
-  assert.doesNotMatch(tag,/\bcontrols\b/i);
-  assert.doesNotMatch(tag,/\bmuted\b/i);
-  assert.doesNotMatch(tag,/\bloop\b/i);
+  const attrs=tag.replace(/\s(?:src|poster)="[^"]*"/gi,'');
+  assert.doesNotMatch(attrs,/\bautoplay\b/i);
+  assert.doesNotMatch(attrs,/\bcontrols\b/i);
+  assert.doesNotMatch(attrs,/\bmuted\b/i);
+  assert.doesNotMatch(attrs,/\bloop\b/i);
  }
  const images=[...html.matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
  const thumbs=items.filter(r=>{const preview=resolvePreview(r);return !preview.degraded&&preview.mode==='thumb_link';});
