@@ -30,10 +30,12 @@ Card illustrations are original editorial covers, explicitly labeled on detail p
 
 ## Production build
 
-Domain and deployment are intentionally not configured yet. Once the production origin is chosen, build with:
+Production: https://awesomecodevideo.com, hosted on GitHub Pages. Every push to `main` runs `.github/workflows/deploy.yml`, validates the catalog and website, builds indexable HTML, and deploys `dist/`. DNS is managed in Cloudflare (DNS-only records pointing at GitHub Pages).
+
+Reproduce the production build locally:
 
 ```sh
-SITE_URL=https://your-domain.example SITE_INDEXING=true npm run build
+SITE_URL=https://awesomecodevideo.com SITE_INDEXING=true npm run build
 ```
 
 Set `SITE_BASE=/your-subdirectory/` at build time when deploying beneath a path; also set it when running the preview server. `SITE_URL` must be the origin only. Deploy `dist/` to a static host with directory-index support and configure `404.html` as its error page. Do not configure an SPA fallback to the homepage.
