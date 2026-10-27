@@ -110,7 +110,8 @@
     "url": "https://github.com/motion-canvas/motion-canvas",
     "aliases": [],
     "urls": [
-      "https://motioncanvas.io/"
+      "https://motioncanvas.io/",
+      "https://github.com/motion-canvas/examples"
     ],
     "github": {
       "id": 520955562,
@@ -359,6 +360,48 @@
     "github": {
       "id": 770297271,
       "full_name": "midrender/revideo",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "theatre-js",
+    "name": "Theatre.js",
+    "url": "https://github.com/theatre-js/theatre",
+    "aliases": [],
+    "urls": [
+      "https://www.theatrejs.com/",
+      "https://github.com/AriaMinaei/theatre-example-bouncing-box"
+    ],
+    "github": {
+      "id": 15393566,
+      "full_name": "theatre-js/theatre",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "open-motion",
+    "name": "OpenMotion",
+    "url": "https://github.com/jsongo/open-motion",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1145611125,
+      "full_name": "jsongo/open-motion",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "remotion-templates",
+    "name": "Remotion Template Library (ali-abassi)",
+    "url": "https://github.com/ali-abassi/remotion-templates",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1138651870,
+      "full_name": "ali-abassi/remotion-templates",
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-27"

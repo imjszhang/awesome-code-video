@@ -8,7 +8,7 @@
 
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
-Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 133 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
+Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 150 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
 ## Contents
 
@@ -129,6 +129,17 @@ Complete projects and self-contained scenes with editable source.
 - [The Last Onigiri](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L31) - HyperFrames homepage showcase film (manga). HeyGen CDN card/ MP4. redistributable false; hotlink only. Not a local render test.
 - [ReVideo Scramble Template Preview](https://github.com/midrender/revideo/tree/main/packages/template) - Animated GIF preview from the ReVideo (midrender) template package. MIT. GIF ≠ MP4 master; packages/examples/assets/example.mp4 is a tiny stub and was excluded.
 
+- [Could This Asset Be Code](https://github.com/motion-canvas/examples/tree/master/examples/asset-code) - Official Motion Canvas example (Could This Asset Be Code). Source under motion-canvas/examples (MIT). Preview is YouTube embed from README; redistributable false.
+- [One Year of Motion Canvas](https://github.com/motion-canvas/examples/tree/master/examples/anniversary) - Official Motion Canvas anniversary example film. Source under motion-canvas/examples (MIT). Preview is YouTube embed; redistributable false.
+- [Smooth Parallax](https://github.com/motion-canvas/examples/tree/master/examples/smooth-parallax) - Official Motion Canvas Smooth Parallax example. Source under motion-canvas/examples (MIT). Preview is YouTube embed; redistributable false.
+- [Deferred Lights](https://github.com/motion-canvas/examples/tree/master/examples/deferred-lighting) - Official Motion Canvas Deferred Lights example. Source under motion-canvas/examples (MIT). Preview is YouTube embed; redistributable false.
+- [Theatre.js Bouncing Box Demo](https://github.com/AriaMinaei/theatre-example-bouncing-box) - Community tutorial demo GIF for Theatre.js (bouncing box). Core Theatre.js is Apache-2.0; example repo has no SPDX — hotlink only, redistributable false. GIF≠MP4.
+- [OpenMotion Feature Showcase](https://github.com/jsongo/open-motion/blob/main/assets/feature-showcase.gif) - In-repo README showcase GIF (brand/dashboard/easing). MIT; redistributable true. GIF≠MP4.
+- [OpenMotion Media Showcase](https://github.com/jsongo/open-motion/blob/main/assets/media-showcase.gif) - In-repo README showcase GIF (video/audio). MIT; redistributable true. GIF≠MP4.
+- [Cow](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L49) - Homepage showcase card film (cow). HeyGen CDN card/ MP4. redistributable false; hotlink only.
+- [Real UI Newspaper 1969](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L28) - Homepage showcase card film (real-ui newspaper 1969). HeyGen CDN card/ MP4. redistributable false; hotlink only.
+- [VFX Background Removal Launch](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L33) - Homepage showcase card film (VFX background-removal launch). HeyGen CDN card/ MP4. redistributable false; hotlink only.
+
 See the [practical reuse guide](docs/reuse-guide.md) for what to replace and where the adaptation work sits.
 
 ## Map Animation Presets
@@ -180,6 +191,13 @@ These HyperFrames blocks expose editable HTML and paused animation timelines.
 - [Editorial Data Chart](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/data-chart) - Warm paper, serif headings, animated bars, and a traced line for business metrics and data explainers. Reuse a 15-second HTML/SVG composition with a paused GSAP timeline; replace data arrays, scales, labels, and source attribution, then integrate it into a HyperFrames film.
 - [YouTube Subscribe Lower Third](https://github.com/heygen-com/hyperframes/tree/main/registry/blocks/yt-lower-third) - A sliding channel card and springy subscribe-button animation for creator introductions and calls to action. Reuse the 4.5-second HTML overlay and paused GSAP timeline; replace the avatar, channel text, counts, and styling, then compose it over your footage.
 
+These muted preview loops come from [ali-abassi/remotion-templates](https://github.com/ali-abassi/remotion-templates) `site/previews`. The repository has no SPDX license file, so redistribution is unconfirmed and the files are hotlinked only. Each file is a short muted loop, not a full film.
+
+- [Dataviz Bar Race](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/dataviz-bar-race.mp4) - Muted Remotion template preview (dataviz bar race) from ali-abassi/remotion-templates site/previews. License 待确认; redistributable false; hotlink only. Small muted loop ≠ full film.
+- [Code Product API Response](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/code-product-demos-api-response.mp4) - Muted Remotion template preview (code-product API response). License 待确认; redistributable false; hotlink only.
+- [Browser Chrome Address Bar Zoom](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/browser-chrome-address-bar-zoom.mp4) - Muted Remotion template preview (browser chrome address-bar zoom). License 待确认; redistributable false; hotlink only.
+- [Cursor Click Ripple](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cursor-demos-click-ripple.mp4) - Muted Remotion template preview (cursor click ripple). License 待确认; redistributable false; hotlink only.
+
 ## Visual Style Templates
 
 These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide concrete `STYLE.md` files and demonstration films in the [style gallery](https://lemomo-ai.github.io/lemo-opuscar/). They are reusable art-direction and production instructions for a coding agent. A new subject still needs a script, assets, scene construction, and rendering; model-dependent reproduction can vary.
@@ -201,9 +219,13 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 - [Exploded Teardown](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md) - Studio-lit engineering parts, exploded layers, and macro camera moves for hardware launches and construction explainers. Reuse the style specification and assembly choreography; supply accurate CAD or PCB geometry, materials, labels, and appropriately licensed assets.
 - [Engineering Briefing Board](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md) - A physical markerboard with photo cutouts, magnetic labels, and line-following camera moves for engineering comparisons and decision briefings. Reuse the board composition rules and drawing kit; replace photographs, annotations, and evidence, then build a new timeline.
 
+- [Hologram HUD](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hologram-hud/STYLE.md) - Lemo-Opuscar visual style (hologram HUD). Demo film CC BY 4.0 via web release; credit LemoLab.
+- [Ukiyo-e](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ukiyoe/STYLE.md) - Lemo-Opuscar visual style (ukiyo-e). Demo film CC BY 4.0 via web release; credit LemoLab.
+- [Art Deco](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/art-deco/STYLE.md) - Lemo-Opuscar visual style (art deco). Demo film CC BY 4.0 via web release; credit LemoLab.
+
 ## Frameworks and Renderers
 
-These are foundations for composing or rendering your own work. They are not included in the 120 reusable examples above.
+These are foundations for composing or rendering your own work. They are not included in the 150 reusable examples above.
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).
