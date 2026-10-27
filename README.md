@@ -19,18 +19,17 @@ Find **video templates, motion graphics, product demos, explainers, data stories
 - [Visual Style Templates](#visual-style-templates)
 - [Frameworks and Renderers](#frameworks-and-renderers)
 - [Production Workflows](#production-workflows)
-- [Related Lists](#related-lists)
 
 ## Start Here
 
-| Make this | Start with | What you reuse |
-| --- | --- | --- |
-| A SaaS or knowledge-product launch | [Ink Press](#film-and-scene-templates) | A complete film project with an established sequence and timing. |
-| A paper-collage explainer | [Paper-Cut](#film-and-scene-templates) | A layered scene and its animation timeline. |
-| A travel or location story | [Map presets](#map-animation-presets) | Configurable location, route, and flight examples. |
-| A product feature demonstration | [Shot recipes](#shot-recipes) | Individual shots with implementation references. |
-| A whiteboard or data explainer | [Visual styles](#visual-style-templates) | Art direction and production instructions for a new film. |
-| A pixel-art narrative | [Claude Quest](#film-and-scene-templates) | A worked film project and a retro game engine. |
+| Make this                          | Start with    | What you reuse                                                   |
+| ---------------------------------- | ------------- | ---------------------------------------------------------------- |
+| A SaaS or knowledge-product launch | Ink Press     | A complete film project with an established sequence and timing. |
+| A paper-collage explainer          | Paper-Cut     | A layered scene and its animation timeline.                      |
+| A travel or location story         | Map presets   | Configurable location, route, and flight examples.               |
+| A product feature demonstration    | Shot recipes  | Individual shots with implementation references.                 |
+| A whiteboard or data explainer     | Visual styles | Art direction and production instructions for a new film.        |
+| A pixel-art narrative              | Claude Quest  | A worked film project and a retro game engine.                   |
 
 **Project** means editable source, often with substantial adaptation. **Preset** means a parameterized example. **Recipe** means a shot and implementation you integrate into your own timeline. **Style** means instructions for creating a new film, rather than a ready-made render project. None of these labels promises one-click output.
 
@@ -81,7 +80,7 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 - [Caption News](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/caption-news/STYLE.md) - Caption-led information design for news briefs, AI updates, and silent-friendly social videos.
 - [Halftone Dossier](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/halftone-dossier/STYLE.md) - Print grain and archival dossier styling for history, investigations, and profile explainers.
 - [Chinese Ink Wash](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ink-wash/STYLE.md) - Ink diffusion and negative space for cultural stories, poetry, and heritage-oriented films.
-- [Paper Pop-Up Book](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/paper-popup/STYLE.md) - Layered paper structures for children's explanations, storybook narratives, and warm product stories.
+- [Paper Pop-Up Book](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/paper-popup/STYLE.md) - Layered paper structures for children's explanations, illustrated narratives, and warm product stories.
 - [ASCII / CRT Terminal](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ascii-crt/STYLE.md) - Character-based imagery and retro terminal aesthetics for programming, developer tools, and computing history.
 - [Blueprint](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/blueprint/STYLE.md) - Technical drawing and measurement cues for engineering, structural explanations, and invention stories.
 - [16-bit Pixel RPG](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pixel-rpg/STYLE.md) - Pixel characters and game-world storytelling for learning journeys, progress narratives, and retro shorts.
@@ -113,5 +112,6 @@ Suggest a useful resource or improve an existing entry through a pull request. R
 
 ## Footnotes
 
-- [Selection and review notes](docs/selection.md) explain the scope, evidence level, and first-edition provenance. The English README is the canonical version; translations follow it.
-- Project code, example footage, audio, fonts, map data, and generated outputs retain their own terms. A listing is not a blanket permission to redistribute assets or use every dependency commercially.
+[Selection and review notes](docs/selection.md) explain the scope, evidence level, and first-edition provenance. The English README is the canonical version; translations follow it.
+
+Project code, example footage, audio, fonts, map data, and generated outputs retain their own terms. A listing is not a blanket permission to redistribute assets or use every dependency commercially.

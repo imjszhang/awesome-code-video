@@ -41,13 +41,7 @@ npm ci
 npm run lint
 ```
 
-The check uses `awesome-lint` 2.3.0. The only nonblocking finding is the upstream requirement for a repository to be at least 30 days old; it is printed explicitly while this list is new. Invalid Git history and all other lint findings still fail. This exception disappears naturally once the repository is old enough.
-
-For the unmodified upstream check, run:
-
-```sh
-npm run lint:strict
-```
+The check runs the unmodified `awesome-lint` 2.3.0 rules. Fix reported formatting and metadata issues before submitting.
 
 Passing lint does not imply acceptance into the main Awesome index. That index has its own submission requirements and review process.
 
