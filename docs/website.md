@@ -45,3 +45,5 @@ Builds default to `noindex` and disallow crawling. Production builds add canonic
 ## Typography and licensing
 
 Space Grotesk Variable and JetBrains Mono Variable are bundled locally through Fontsource; no Google Fonts requests are made. Both use the SIL Open Font License. Copies of their licenses are distributed in `public/licenses/` in the built site. Upstream resources retain their own licenses; inclusion in this catalog does not grant reuse rights.
+
+The deployment waits up to 45 minutes for GitHub’s custom-domain certificate, enables HTTPS enforcement and checks HTTPS access. If certificate issuance exceeds that window, re-run the deployment from Actions.
