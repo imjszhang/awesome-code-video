@@ -26,7 +26,20 @@ Preview runs at http://127.0.0.1:4173. The build writes `dist/`; do not commit g
 
 Every public route has rendered HTML, a unique title and description. Client-side hydration adds search, filters and local bookmarks. The preview server returns a real 404 for unknown routes. There is no backend or tracking script.
 
-Card illustrations are original editorial covers, explicitly labeled on detail pages; they are not screenshots or proof of successful rendering. Known upstream galleries are linked separately. A future real-preview pipeline should retain attribution and check upstream media licenses before importing footage.
+Card illustrations are original editorial covers, explicitly labeled on detail pages; they are not screenshots or proof of successful rendering. Known upstream galleries are linked separately. Optional preview metadata links to upstream files and pages; those files are not copied into this repository, and a preview link is not a local render test.
+
+## Preview media
+
+The catalog field list is in [Catalog maintenance](catalog-maintenance.md#preview-media). `web/src/preview.ts` reads that same object. `poster` is optional and stays omitted when unknown. `source` is the evidence id plus the upstream URL and notes. No other keys are accepted.
+
+| Record | What a later gallery may do | Honest label |
+| --- | --- | --- |
+| Complete `video` | Play the upstream file | Upstream demo |
+| Complete `embed` | Link the upstream page | Preview |
+| Complete `thumb_link` | Link the upstream image | Preview |
+| Missing or invalid `preview` | Keep the editorial cover (mode C) | Editorial cover |
+
+`resolvePreview`, `previewMode`, `previewPlayable`, `previewCaption`, `previewUrl`, and `previewPoster` apply that degradation. Only a complete `video` is playable. `redistributable: true` is accepted only for that kind. The homepage still draws editorial covers; a follow-up will use these helpers for the mode C gallery.
 
 ## Production build
 

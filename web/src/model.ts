@@ -2,11 +2,20 @@ import projectData from '../../data/projects.json';
 import resourceData from '../../data/resources.json';
 import evidenceData from '../../data/evidence.json';
 import MiniSearch from 'minisearch';
+import { isCompletePreview, type ResourcePreview } from './preview';
+
+export type { PreviewCaption, PreviewKind, ResolvedPreview, ResourcePreview } from './preview';
+export { previewCaption, previewMode, previewPlayable, previewPoster, previewUrl, resolvePreview } from './preview';
 
 export const projects = projectData;
-export const resources = resourceData;
+type CatalogResource = Omit<(typeof resourceData)[number], 'preview'>;
+export type Resource = CatalogResource & { preview?: ResourcePreview };
+function readResource(record: (typeof resourceData)[number]): Resource {
+ const { preview, ...rest } = record;
+ return isCompletePreview(preview) ? { ...rest, preview } : rest;
+}
+export const resources: Resource[] = resourceData.map(readResource);
 export const evidence = evidenceData;
-export type Resource = typeof resources[number];
 export const repo = 'https://github.com/imjszhang/awesome-code-video';
 export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',tool:'Motion design tool',workflow:'Workflow',collection:'Related list'};
 export const kindGuides: Record<string, string> = {

@@ -92,7 +92,7 @@ A resource may include an optional `preview` object when an upstream file or pag
 }
 ```
 
-`kind` is `video` for a direct media file, `embed` for an upstream page, or `thumb_link` for an image such as an animated WebP. `poster` is optional and must be omitted when unknown. `redistributable` is a boolean. `true` is only for a direct `video` whose upstream terms allow redistribution; uncertain or noncommercial media stays `false`. `source` records the evidence id and upstream URL, including open questions. `checked_at` is the review date. A `preview` does not change `review.render_tested`: linking a file is not a local render test. When a new media URL is the evidence, add a reviewed `preview-media` record instead of marking an unverified link as reviewed.
+`kind` is `video` for a direct media file, `embed` for an upstream page, or `thumb_link` for an image such as an animated WebP. `poster` is optional and must be omitted when unknown. `redistributable` is a boolean. `true` is only for a direct `video` whose upstream terms allow redistribution; uncertain or noncommercial media stays `false`. `source` records the evidence id and upstream URL, including open questions. `checked_at` is the review date. A `preview` does not change `review.render_tested`: linking a file is not a local render test. When a new media URL is the evidence, add a reviewed `preview-media` record instead of marking an unverified link as reviewed. The website reads the same object through `web/src/preview.ts`. A missing or invalid preview stays an editorial cover and is not described as a render.
 
 ## Checks
 
@@ -102,7 +102,7 @@ npm run check
 
 This runs the following:
 
-- `catalog:check`: Required fields, project/resource/evidence relationships, duplicate identities, and candidate consistency.
+- `catalog:check`: Required fields, project/resource/evidence relationships, duplicate identities, candidate consistency, and optional `preview` media when a resource includes it. A missing `preview` is valid. The check does not download media.
 - `readme:check`: English names, descriptions, links, categories, and counts against the catalog; Chinese resource coverage, categories, and counts. It does not verify translation meaning.
 - `traceability:check`: Actual `js-traceability@0.1.0` reference checks, plus the catalog's stricter review-status and project-boundary rules.
 - `test`: Regression tests for matching, candidate decisions, reference validation, and README drift.
