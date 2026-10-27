@@ -112,8 +112,11 @@ test('homepage gallery lists complete previews and featured covers without autop
  const videos=[...html.matchAll(/<video\b[^>]*>/g)].map(m=>m[0]);
  const playable=items.filter(r=>previewPlayable(r));
  assert.equal(videos.length,playable.length);
+ assert.equal(videos.filter(tag=>/\bsrc="/i.test(tag)).length,0);
  for(const tag of videos){
-  assert.match(tag,/preload="metadata"/);
+  assert.match(tag,/preload="none"/);
+  assert.doesNotMatch(tag,/\bsrc="/i);
+  assert.doesNotMatch(tag,/\bposter="/i);
   assert.match(tag,/playsinline/i);
   assert.match(tag,/tabindex="-1"/);
   const attrs=tag.replace(/\s(?:src|poster)="[^"]*"/gi,'');
@@ -124,7 +127,12 @@ test('homepage gallery lists complete previews and featured covers without autop
  }
  const images=[...html.matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
  const thumbs=items.filter(r=>{const preview=resolvePreview(r);return !preview.degraded&&preview.mode==='thumb_link';});
- assert.equal(images.length,thumbs.length);
+ const posterStills=items.filter(r=>{const preview=resolvePreview(r);return preview.playable&&Boolean(preview.poster);});
+ assert.equal(images.length,thumbs.length+posterStills.length);
+ for(const tag of images){
+  assert.match(tag,/loading="lazy"/);
+  assert.match(tag,/decoding="async"/);
+ }
  for(const resource of items){
   const preview=resolvePreview(resource);
   assert.match(html,new RegExp(`href="/resources/${resource.id}/"`));
@@ -134,7 +142,11 @@ test('homepage gallery lists complete previews and featured covers without autop
    continue;
   }
   assert.match(html,new RegExp(`href="${esc(preview.url!)}" class="preview-source"`));
-  if(preview.playable)assert.match(html,new RegExp(`<video\\b[^>]*src="${esc(preview.url!)}"`));
+  if(preview.playable){
+   assert.match(html,new RegExp(`<video\\b[^>]*id="preview-${resource.id.replaceAll('-','_')}"`));
+   assert.doesNotMatch(html,new RegExp(`<(?:video|img|source)\\b[^>]*src="${esc(preview.url!)}"`));
+   if(preview.poster)assert.match(html,new RegExp(`<img\\b[^>]*src="${esc(preview.poster)}"`));
+  }
   if(preview.mode==='thumb_link')assert.match(html,new RegExp(`<img\\b[^>]*src="${esc(preview.poster||preview.url!)}"`));
   if(preview.mode==='embed'){
    assert.match(html,/class="preview-embed"/);
@@ -188,19 +200,32 @@ test('homepage playable cards can start muted and other preview kinds stay uncha
    assert.match(card,/<div class="art-link">/);
    assert.doesNotMatch(card,/<a\b[^>]*class="art-link"/);
    const video=card.match(/<video\b[^>]*>/)?.[0]??'';
-   assert.match(video,/preload="metadata"/);
+   assert.match(video,/preload="none"/);
+   assert.doesNotMatch(video,/\bsrc="/i);
+   assert.doesNotMatch(video,/\bposter="/i);
    assert.match(video,/tabindex="-1"/);
    const attrs=video.replace(/\s(?:src|poster)="[^"]*"/gi,'');
    assert.doesNotMatch(attrs,/\bautoplay\b/i);
    assert.doesNotMatch(attrs,/\bcontrols\b/i);
    assert.doesNotMatch(attrs,/\bmuted\b/i);
    assert.doesNotMatch(attrs,/\bloop\b/i);
+   assert.doesNotMatch(card,new RegExp(`<img\\b[^>]*src="${esc(preview.url!)}"`));
+   if(preview.poster){
+    assert.match(card,new RegExp(`<img\\b[^>]*src="${esc(preview.poster)}"[^>]*loading="lazy"`));
+    assert.match(card,/decoding="async"/);
+   }else{
+    assert.match(card,/class="visual /);
+    assert.doesNotMatch(card,/<img\b/);
+   }
   }else{
    assert.doesNotMatch(card,/preview-play/);
    assert.doesNotMatch(card,/<video\b/);
    assert.match(card,/<a\b[^>]*class="art-link"/);
    if(preview.degraded)assert.match(card,/class="visual /);
-   if(!preview.degraded&&preview.mode==='thumb_link')assert.match(card,/<img\b/);
+   if(!preview.degraded&&preview.mode==='thumb_link'){
+    assert.match(card,/<img\b[^>]*loading="lazy"/);
+    assert.match(card,/<img\b[^>]*decoding="async"/);
+   }
    if(!preview.degraded&&preview.mode==='embed'){
     assert.match(card,/class="preview-embed"/);
     assert.doesNotMatch(card,/<img\b/);
@@ -215,7 +240,18 @@ test('homepage playable cards can start muted and other preview kinds stay uncha
  assert.equal(detail.includes('preview-play'),false);
  function media(at=0):PreviewMedia & {calls:string[]}{
   const calls:string[]=[];
-  return {muted:false,controls:false,currentTime:at,calls,play(){calls.push('play');return Promise.resolve();},pause(){calls.push('pause');}};
+  let src='';
+  const video:PreviewMedia & {calls:string[]}={
+   muted:false,controls:false,currentTime:at,calls,
+   get src(){return src;},
+   set src(value:string){src=value;},
+   play(){calls.push('play');return Promise.resolve();},
+   pause(){calls.push('pause');},
+   getAttribute(name:string){return name==='src'&&src?src:null;},
+   removeAttribute(name:string){calls.push('remove:'+name);if(name==='src')src='';},
+   load(){calls.push('load');},
+  };
+  return video;
  }
  const firstMedia=media(0);
  const secondMedia=media(0);
@@ -273,6 +309,43 @@ test('homepage playable cards can start muted and other preview kinds stay uncha
  const rejected=toggleGalleryPlayback({activeId:null,playing:false},'thrown',new Map([['thrown',thrown]]));
  assert.ok(rejected.play);
  await assert.rejects(rejected.play);
+ const clip='https://cdn.example/demo.mp4';
+ const otherClip='https://cdn.example/other.mp4';
+ const firstClip=media(0);
+ const secondClip=media(0);
+ const deferredVideos=new Map<string,PreviewMedia>([['first',firstClip],['second',secondClip]]);
+ const deferredSources=new Map([['first',clip],['second',otherClip]]);
+ let deferred=toggleGalleryPlayback({activeId:null,playing:false},'first',deferredVideos,deferredSources);
+ assert.equal(deferred.state.activeId,'first');
+ assert.equal(deferred.state.playing,true);
+ assert.equal(firstClip.getAttribute('src'),clip);
+ assert.equal(firstClip.muted,true);
+ assert.deepEqual(firstClip.calls,['play']);
+ firstClip.muted=false;
+ firstClip.currentTime=5;
+ deferred=toggleGalleryPlayback(deferred.state,'first',deferredVideos,deferredSources);
+ assert.deepEqual(deferred.state,{activeId:'first',playing:false});
+ assert.equal(firstClip.getAttribute('src'),clip);
+ assert.equal(firstClip.currentTime,5);
+ assert.equal(firstClip.muted,false);
+ assert.equal(firstClip.calls.includes('load'),false);
+ assert.equal(firstClip.calls.includes('remove:src'),false);
+ deferred=toggleGalleryPlayback(deferred.state,'first',deferredVideos,deferredSources);
+ assert.equal(deferred.state.playing,true);
+ assert.equal(firstClip.muted,false);
+ assert.equal(firstClip.currentTime,5);
+ assert.equal(firstClip.getAttribute('src'),clip);
+ deferred=toggleGalleryPlayback(deferred.state,'second',deferredVideos,deferredSources);
+ assert.deepEqual(deferred.state,{activeId:'second',playing:true});
+ assert.equal(firstClip.getAttribute('src'),null);
+ assert.equal(firstClip.controls,false);
+ assert.equal(firstClip.currentTime,0);
+ assert.equal(firstClip.calls.includes('pause'),true);
+ assert.equal(firstClip.calls.includes('remove:src'),true);
+ assert.equal(firstClip.calls.includes('load'),true);
+ assert.equal(secondClip.getAttribute('src'),otherClip);
+ assert.equal(secondClip.muted,true);
+ assert.deepEqual(secondClip.calls,['play']);
 });
 test('all pages render server-side without browser APIs and internal links resolve',()=>{
  const paths=allPaths();const valid=new Set(paths.map(p=>'/preview/'+p));
