@@ -2,7 +2,7 @@ import projectData from '../../data/projects.json';
 import resourceData from '../../data/resources.json';
 import evidenceData from '../../data/evidence.json';
 import MiniSearch from 'minisearch';
-import { isCompletePreview, type ResourcePreview } from './preview';
+import { isCompletePreview, resolvePreview, type ResourcePreview } from './preview';
 
 export type { PreviewCaption, PreviewKind, ResolvedPreview, ResourcePreview } from './preview';
 export { previewCaption, previewMode, previewPlayable, previewPoster, previewUrl, resolvePreview } from './preview';
@@ -38,6 +38,18 @@ export const collections = [
  {id:'retro-and-playful',name:'Retro & playful',caption:'A little nostalgia. A lot of character.',description:'Pixel-world storytelling and terminal-inspired art direction for game narratives and playful technical films.',ids:['claude-quest','lemo-opuscar-16-bit-pixel-rpg','lemo-opuscar-ascii-crt-terminal','remotion-code-hike'],symbol:'⌘'}
 ];
 export const featuredIds = ['ink-press','paper-cut-five-layer-motion','map-motion-globe-to-location','lemo-opuscar-swiss-motion-graphics','claude-quest','hyperframes-data-chart'];
+/** Homepage grid: every complete preview, plus featured resources that have none. Playable files come first. */
+export function homeGalleryItems(list: readonly Resource[] = resources): Resource[] {
+ const featured = new Set(featuredIds);
+ const rank = (resource: Resource) => {
+  const preview = resolvePreview(resource);
+  if (preview.degraded) return 3;
+  if (preview.playable) return 0;
+  if (preview.mode === 'thumb_link') return 1;
+  return 2;
+ };
+ return list.filter(resource => featured.has(resource.id) || !resolvePreview(resource).degraded).sort((a, b) => rank(a) - rank(b) || list.indexOf(a) - list.indexOf(b));
+}
 export const isCore = (r:Resource) => ['film','scene','preset','shot','style'].includes(r.kind);
 export const coreCount = resources.filter(isCore).length;
 export const projectFor = (r:Resource) => projects.find(p=>p.id===r.project_id)!;
