@@ -15,6 +15,8 @@ const SECTIONS = new Map([
   ['related-lists', ['collection']],
 ]);
 const TRACKING = /^(utm_.+|gclid|fbclid|dclid|msclkid|mc_cid|mc_eid|ref_src)$/i;
+const PREVIEW_KINDS = Object.freeze(['video', 'embed', 'thumb_link']);
+const PREVIEW_FIELDS = Object.freeze(['kind', 'url', 'poster', 'license', 'attribution', 'redistributable', 'source', 'checked_at']);
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const SOURCE_ID = /^S-CV-\d{3}$/;
 const TEXT = value => typeof value === 'string' && value.trim().length > 0;
@@ -133,6 +135,30 @@ function requireValid(catalog) {
   if (!result.ok) throw new Error(`Catalog validation failed:\n${result.errors.join('\n')}`);
 }
 
+/** Gallery preview metadata only. Never accept a vendored media file as this object. */
+function validatePreview(preview, label, url, errors) {
+  if (!preview || typeof preview !== 'object' || Array.isArray(preview)) {
+    errors.push(`${label}: preview must be an object.`);
+    return;
+  }
+  for (const key of Object.keys(preview)) {
+    if (!PREVIEW_FIELDS.includes(key)) errors.push(`${label}: preview.${key} is not a preview field.`);
+  }
+  if (!PREVIEW_KINDS.includes(preview.kind)) errors.push(`${label}: preview.kind must be video, embed, or thumb_link.`);
+  if (typeof preview.url !== 'string' || !preview.url.startsWith('https://')) errors.push(`${label}: preview.url must be an https URL.`);
+  else url(preview.url, `${label} preview`);
+  if (Object.hasOwn(preview, 'poster')) {
+    if (typeof preview.poster !== 'string' || !preview.poster.startsWith('https://')) errors.push(`${label}: preview.poster must be an https URL or be omitted.`);
+    else url(preview.poster, `${label} preview poster`);
+  }
+  for (const field of ['license', 'attribution', 'source']) {
+    if (!TEXT(preview[field])) errors.push(`${label}: preview.${field} is required.`);
+  }
+  if (typeof preview.redistributable !== 'boolean') errors.push(`${label}: preview.redistributable must be true or false.`);
+  else if (preview.redistributable === true && preview.kind !== 'video') errors.push(`${label}: a redistributable preview must use kind video.`);
+  if (!DAY(preview.checked_at)) errors.push(`${label}: preview.checked_at must be YYYY-MM-DD.`);
+}
+
 export function validateCatalog(catalog) {
   const errors = [];
   const warnings = [];
@@ -219,6 +245,7 @@ export function validateCatalog(catalog) {
         }
       }
     }
+    if (Object.hasOwn(resource, 'preview')) validatePreview(resource.preview, label, url, errors);
   }
   const candidateUrls = new Map();
   for (const candidate of maps.candidates.values()) {

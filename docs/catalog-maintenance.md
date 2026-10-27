@@ -76,6 +76,24 @@ Use `unverified` for evidence that has only been discovered. Unverified evidence
 
 The first-edition references preserve the source/documentation review dated 2026-10-27. This migration did not add new render-test results or immutable upstream snapshots. The catalog stores public metadata and concise review notes, not article copies, credentials, private collections, or raw research transcripts.
 
+## Preview Media
+
+A resource may include an optional `preview` object when an upstream file or page can be linked without copying it into this repository. Omit `preview` when there is no reliable preview. Do not store the media itself.
+
+```json
+{
+  "kind": "video",
+  "url": "https://example.com/demo.mp4",
+  "license": "CC BY 4.0",
+  "attribution": "Example Author (https://example.com)",
+  "redistributable": false,
+  "source": "S-CV-001 https://example.com/demo.mp4",
+  "checked_at": "2026-10-27"
+}
+```
+
+`kind` is `video` for a direct media file, `embed` for an upstream page, or `thumb_link` for an image such as an animated WebP. `poster` is optional and must be omitted when unknown. `redistributable` is a boolean. `true` is only for a direct `video` whose upstream terms allow redistribution; uncertain or noncommercial media stays `false`. `source` records the evidence id and upstream URL, including open questions. `checked_at` is the review date. A `preview` does not change `review.render_tested`: linking a file is not a local render test. When a new media URL is the evidence, add a reviewed `preview-media` record instead of marking an unverified link as reviewed.
+
 ## Checks
 
 ```sh

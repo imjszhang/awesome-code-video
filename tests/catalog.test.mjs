@@ -274,6 +274,31 @@ test('manual resolution changes require matching resolution history', async t =>
   assert.equal(added.candidate.status, 'pending');
 });
 
+test('optional preview objects keep the gallery field contract', () => {
+  const catalog = fixture();
+  assert.equal(validateCatalog(catalog).ok, true);
+  catalog.resources[0].preview = {
+    kind: 'video',
+    url: 'https://github.com/Owner/Film-Lab/releases/download/demo/intro.mp4',
+    license: 'MIT',
+    attribution: 'Film Lab (https://github.com/Owner/Film-Lab)',
+    redistributable: true,
+    source: 'S-CV-001 https://github.com/Owner/Film-Lab/releases/download/demo/intro.mp4',
+    checked_at: '2026-10-27',
+  };
+  assert.equal(validateCatalog(catalog).ok, true);
+  catalog.resources[0].preview.poster = 'https://film.example/poster.jpg';
+  assert.equal(validateCatalog(catalog).ok, true);
+  catalog.resources[0].preview.kind = 'embed';
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('redistributable')));
+  catalog.resources[0].preview.redistributable = false;
+  catalog.resources[0].preview.notes = 'not a field';
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('preview.notes')));
+  delete catalog.resources[0].preview;
+  catalog.resources[0].preview = null;
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('preview must be an object')));
+});
+
 test('GitHub README and default-branch root links do not create duplicate projects', () => {
   const { projects } = fixture();
   const root = urlIdentity('https://github.com/Owner/Film-Lab', projects);
