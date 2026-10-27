@@ -285,5 +285,69 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "freelancer-templates",
+    "name": "Freelancer Templates",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org",
+    "aliases": [
+      "freelancer-templates.org"
+    ],
+    "urls": [
+      "https://freelancer-templates.org/"
+    ],
+    "github": {
+      "id": 1190396994,
+      "full_name": "linda-mhmd/freelancer-templates.org",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "rendercomp-free-remotion-templates",
+    "name": "RenderComp Free Remotion Templates",
+    "url": "https://github.com/RenderComp/free-remotion-templates",
+    "aliases": [
+      "RenderComp"
+    ],
+    "urls": [
+      "https://rendercomp.com/free"
+    ],
+    "github": {
+      "id": 1350515896,
+      "full_name": "RenderComp/free-remotion-templates",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "explainroo",
+    "name": "explainroo",
+    "url": "https://github.com/vincentsch/explainroo",
+    "aliases": [],
+    "urls": [
+      "https://www.explainroo.com/"
+    ],
+    "github": {
+      "id": 1387743071,
+      "full_name": "vincentsch/explainroo",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "zero-to-product-video-hero",
+    "name": "Zero to Product Video Hero",
+    "url": "https://github.com/specstoryai/zero-to-product-video-hero",
+    "aliases": [],
+    "urls": [
+      "https://specstoryai.github.io/zero-to-product-video-hero/"
+    ],
+    "github": {
+      "id": 1031946952,
+      "full_name": "specstoryai/zero-to-product-video-hero",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
   }
 ]
