@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Code becomes motion</title><desc id="desc">Code brackets surround a play symbol inside a film frame.</desc>
+  <rect x="12" y="12" width="232" height="232" rx="48" fill="#162e28"/>
+  <rect x="42" y="52" width="172" height="152" rx="16" fill="none" stroke="#527365" stroke-width="4"/>
+  <path d="M83 102 64 128l19 26M173 102l19 26-19 26" fill="none" stroke="#e8e7d9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m113 101 38 27-38 27z" fill="#eab86b"/>
+  <path d="M58 71h16m10 0h16m10 0h16m10 0h16m10 0h16m10 0h10M58 185h16m10 0h16m10 0h16m10 0h16m10 0h16m10 0h10" stroke="#527365" stroke-width="4"/>
+</svg>

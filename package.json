@@ -1,0 +1,18 @@
+{
+  "name": "awesome-code-video",
+  "private": true,
+  "description": "Curated reusable styles, shots, templates, and frameworks for making videos with code.",
+  "type": "module",
+  "scripts": {
+    "lint": "node scripts/lint.mjs",
+    "lint:strict": "awesome-lint README.md"
+  },
+  "devDependencies": {
+    "awesome-lint": "2.3.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "CC0-1.0",
+  "repository": "github:imjszhang/awesome-code-video"
+}

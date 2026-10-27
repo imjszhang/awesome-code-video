@@ -1,0 +1,66 @@
+name: Suggest a resource
+description: Recommend an editable video project, shot, style recipe, or relevant framework.
+title: "Add: "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Original project URL
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Reusable artifact or example URL
+      description: Link the specific source, template, shot, or style file if available.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Reuse type
+      options:
+        - Editable film or scene project
+        - Parameterized shot or scene
+        - Shot implementation or component
+        - Style recipe requiring a new implementation
+        - Video framework or production tool
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Style and best use
+      description: Describe the visual style, suitable videos, and what makes this resource worth including.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification and limitations
+      description: What did you inspect or run? What must users replace, install, or pay for? Note license or asset restrictions.
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Your relationship to the project
+      description: State your affiliation, or write None.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked the list and open issues for duplicates.
+          required: true
+        - label: I read the contribution guidelines.
+          required: true
