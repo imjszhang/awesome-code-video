@@ -1719,7 +1719,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
@@ -1747,7 +1747,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bar-chart-anim.gif",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
@@ -1775,7 +1775,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/glitch-text.gif",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
@@ -1803,7 +1803,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-blur-reveal.gif",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
@@ -1831,7 +1831,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/typewriter.gif",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
@@ -1859,7 +1859,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/racing-chart.gif",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
@@ -2061,7 +2061,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/starfield.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2090,7 +2090,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/social-reel.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2119,7 +2119,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-stroke-draw.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2148,7 +2148,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kinetic-word-stack.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2177,7 +2177,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/neon-sign.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2206,7 +2206,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/fireworks-burst.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2235,7 +2235,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/line-chart-anim.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2264,7 +2264,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/scramble-text.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2699,7 +2699,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bokeh-circles.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2728,7 +2728,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/loop-grid-wave.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2757,7 +2757,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-candlestick-ohlc.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2786,7 +2786,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-mosaic-transition.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2815,7 +2815,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pourover-drip-fill-gauge.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2844,7 +2844,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-typewriter-quote.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2873,7 +2873,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/flip-page-transition.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2902,7 +2902,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/shatter-reveal.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2931,7 +2931,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/camera-shake.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2960,7 +2960,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/parallax-pan.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -2989,7 +2989,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/wave-hello.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3018,7 +3018,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-waterfall-cycle.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3047,7 +3047,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-split-reveal.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3076,7 +3076,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-mask-wipe.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3105,7 +3105,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/end-card.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3134,7 +3134,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/card-flip-transition.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3163,7 +3163,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/particle-snow.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3192,7 +3192,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/four-tone-mono-titler.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3221,7 +3221,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-bounce-drop.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3250,7 +3250,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/slide-wipe.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3279,7 +3279,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/transition-circle-wipe.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3308,7 +3308,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/ink-spread-transition.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3337,7 +3337,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/chapter-title.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3366,7 +3366,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/text-mask-reveal.gif",
       "license": "MIT",
       "attribution": "RenderComp",
@@ -3683,7 +3683,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/template/scramble.gif",
       "license": "MIT",
       "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)",
@@ -4201,7 +4201,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/AriaMinaei/theatre-example-bouncing-box/main/demo.gif",
       "license": "待确认",
       "attribution": "AriaMinaei / Theatre.js (https://github.com/AriaMinaei/theatre-example-bouncing-box)",
@@ -4229,7 +4229,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/jsongo/open-motion/main/assets/feature-showcase.gif",
       "license": "MIT",
       "attribution": "jsongo / OpenMotion (https://github.com/jsongo/open-motion)",
@@ -4257,7 +4257,7 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "video",
+      "kind": "thumb_link",
       "url": "https://raw.githubusercontent.com/jsongo/open-motion/main/assets/media-showcase.gif",
       "license": "MIT",
       "attribution": "jsongo / OpenMotion (https://github.com/jsongo/open-motion)",

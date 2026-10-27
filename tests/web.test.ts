@@ -61,7 +61,7 @@ test('shipped previews resolve from catalog fields and missing ones stay editori
   assert.match(preview.source,/^S-CV-\d{3} https:\/\//);
   assert.equal(previewPlayable(resource),preview.kind==='video');
   assert.equal(previewCaption(resource),preview.kind==='video'?'Upstream demo':'Preview');
-  if(preview.redistributable)assert.equal(preview.kind,'video');
+  if(preview.redistributable)assert.notEqual(preview.kind,'embed');
   assert.match(resolved.detail,/not a local render test/);
  }
 });
@@ -165,7 +165,7 @@ test('homepage gallery lists complete previews and featured covers without autop
  const about=renderToString(React.createElement(App,{path:'/about/'}));
  assert.match(about,/A preview is not a local render test/);
  assert.match(about,/Playback starts muted/);
- assert.match(about,/Nothing autoplays/);
+ assert.match(about,/Videos never autoplay/);
 });
 test('homepage playable cards can start muted and other preview kinds stay unchanged',async()=>{
  const items=homeGalleryItems();
@@ -354,4 +354,26 @@ test('all pages render server-side without browser APIs and internal links resol
  for(const match of html.matchAll(/href="(\/preview\/[^"?#]*)/g))assert(valid.has(match[1]),`Broken link ${match[1]} on ${path}`);
  }
  assert.equal(projects.length,new Set(projects.map(p=>p.id)).size);
+});
+
+test('GIF previews render as lazy images without video players or Play buttons',()=>{
+ const gifs=resources.filter(r=>r.preview&&/\.gif$/i.test(new URL(r.preview.url).pathname));
+ assert.equal(gifs.length,42);
+ const html=renderToString(React.createElement(App,{path:'/'}));
+ for(const resource of gifs){
+  const preview=resolvePreview(resource);
+  assert.equal(preview.degraded,false,resource.id);
+  assert.equal(preview.mode,'thumb_link',resource.id);
+  assert.equal(preview.playable,false,resource.id);
+  assert(html.includes(`src="${resource.preview!.url}"`),resource.id);
+  assert(!html.includes(`id="preview-${resource.id.replaceAll('-','_')}"`),resource.id);
+ }
+ const gifImages=[...html.matchAll(/<img\b[^>]*src="[^"]*\.gif"[^>]*>/g)];
+ assert.equal(gifImages.length,gifs.length);
+ for(const [tag] of gifImages)assert.match(tag,/loading="lazy"/);
+ const video=resources.find(r=>r.preview?.kind==='video')!;
+ for(const url of ['https://example.com/demo.gif','https://example.com/DEMO.GIF?raw=1#preview']){
+  assert.equal(resolvePreview({preview:{...video.preview,url}}).degraded,true);
+  assert.equal(previewPlayable({preview:{...video.preview,url}}),false);
+ }
 });

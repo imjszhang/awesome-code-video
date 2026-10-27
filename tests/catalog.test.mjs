@@ -312,3 +312,17 @@ test('GitHub README and default-branch root links do not create duplicate projec
   assert.notEqual(urlIdentity('https://github.com/Owner/Film-Lab/blob/main/README.md#readme', projects), root);
   assert.notEqual(urlIdentity('https://github.com/Owner/Film-Lab/tree/dev', projects), root);
 });
+
+test('GIF media must be image previews and retain redistribution metadata', () => {
+  const catalog = fixture();
+  for (const url of ['https://film.example/demo.gif', 'https://film.example/DEMO.GIF?raw=1#preview']) {
+    catalog.resources[0].preview = {
+      kind: 'video', url, license: 'MIT', attribution: 'Film Lab',
+      redistributable: true, source: 'S-CV-001 https://film.example/demo.gif', checked_at: '2026-10-27',
+    };
+    assert.ok(validateCatalog(catalog).errors.some(error => error.includes('GIF previews must use kind thumb_link')));
+    catalog.resources[0].preview.kind = 'thumb_link';
+    assert.equal(validateCatalog(catalog).ok, true);
+    assert.equal(catalog.resources[0].preview.redistributable, true);
+  }
+});

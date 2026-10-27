@@ -147,6 +147,11 @@ function validatePreview(preview, label, url, errors) {
   if (!PREVIEW_KINDS.includes(preview.kind)) errors.push(`${label}: preview.kind must be video, embed, or thumb_link.`);
   if (typeof preview.url !== 'string' || !preview.url.startsWith('https://')) errors.push(`${label}: preview.url must be an https URL.`);
   else url(preview.url, `${label} preview`);
+  if (preview.kind === 'video' && typeof preview.url === 'string') {
+    try {
+      if (/\.gif$/i.test(new URL(preview.url).pathname)) errors.push(`${label}: GIF previews must use kind thumb_link, not video.`);
+    } catch { /* Invalid URLs are reported above. */ }
+  }
   if (Object.hasOwn(preview, 'poster')) {
     if (typeof preview.poster !== 'string' || !preview.poster.startsWith('https://')) errors.push(`${label}: preview.poster must be an https URL or be omitted.`);
     else url(preview.poster, `${label} preview poster`);
@@ -155,7 +160,7 @@ function validatePreview(preview, label, url, errors) {
     if (!TEXT(preview[field])) errors.push(`${label}: preview.${field} is required.`);
   }
   if (typeof preview.redistributable !== 'boolean') errors.push(`${label}: preview.redistributable must be true or false.`);
-  else if (preview.redistributable === true && preview.kind !== 'video') errors.push(`${label}: a redistributable preview must use kind video.`);
+  else if (preview.redistributable === true && preview.kind === 'embed') errors.push(`${label}: a redistributable preview must use kind video or thumb_link.`);
   if (!DAY(preview.checked_at)) errors.push(`${label}: preview.checked_at must be YYYY-MM-DD.`);
 }
 
