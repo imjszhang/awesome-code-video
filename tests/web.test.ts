@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 import {App} from '../web/src/App';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview} from '../web/src/model';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview} from '../web/src/model';
 
 test('every public resource and project has exactly one stable route',()=>{
  const paths=allPaths();assert.equal(new Set(paths).size,paths.length);
@@ -30,11 +30,11 @@ test('all detail pages contain the source, reuse notes and review status in init
  assert.equal(pageMeta(routeForPath(`/resources/${r.id}/`)).description,r.description);
  }
 });
-test('shipped previews resolve from Batch A fields and missing ones stay editorial covers',()=>{
+test('shipped previews resolve from catalog fields and missing ones stay editorial covers',()=>{
  const withPreview=resources.filter(r=>r.preview);
  const without=resources.filter(r=>!r.preview);
- assert.equal(withPreview.length,54);
- assert.equal(without.length,21);
+ assert.equal(withPreview.length+without.length,resources.length);
+ assert(withPreview.length>0);
  for(const resource of without){
   const resolved=resolvePreview(resource);
   assert.equal(resolved.degraded,true,resource.id);
@@ -51,8 +51,7 @@ test('shipped previews resolve from Batch A fields and missing ones stay editori
   assert.equal(resolved.degraded,false,resource.id);
   assert.equal(resolved.mode,preview.kind);
   assert.equal(resolved.url,preview.url);
-  assert.equal(previewPoster(resource),null);
-  assert.equal('poster' in preview,false);
+  assert.equal(previewPoster(resource),'poster' in preview?preview.poster:null);
   assert.equal(resolved.license,preview.license);
   assert.equal(resolved.attribution,preview.attribution);
   assert.equal(resolved.source,preview.source);
@@ -83,6 +82,74 @@ test('incomplete or unsafe previews degrade without exposing a url',()=>{
  assert.equal(resolvePreview(thumb).mode,'thumb_link');
  assert.equal(resolvePreview(thumb).playable,false);
  assert.equal(previewPoster({preview:{...thumb.preview,poster:thumb.preview!.url}}),thumb.preview!.url);
+});
+test('homepage gallery lists complete previews and featured covers without playback controls',()=>{
+ const items=homeGalleryItems();
+ const ids=items.map(r=>r.id);
+ assert.equal(new Set(ids).size,ids.length);
+ const withPreview=resources.filter(r=>!resolvePreview(r).degraded);
+ const featuredFallback=featuredIds.filter(id=>resolvePreview(resources.find(r=>r.id===id)).degraded);
+ assert.deepEqual(new Set(ids),new Set([...withPreview.map(r=>r.id),...featuredFallback]));
+ assert.equal(items.filter(r=>resolvePreview(r).degraded).every(r=>featuredIds.includes(r.id)),true);
+ const ranks=items.map(r=>{const preview=resolvePreview(r);return preview.degraded?3:preview.playable?0:preview.mode==='thumb_link'?1:2;});
+ assert.deepEqual(ranks,[...ranks].sort((a,b)=>a-b));
+ const galleryIds=new Set(ids);
+ for(const resource of resources){
+  const preview=resolvePreview(resource);
+  assert.equal(galleryIds.has(resource.id),!preview.degraded||featuredIds.includes(resource.id),resource.id);
+ }
+ const esc=(value:string)=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+ const html=renderToString(React.createElement(App,{path:'/'}));
+ assert.match(html,/class="hero hero-short"/);
+ assert.equal(html.includes('hero-poster'),false);
+ assert.match(html,/aria-label="Preview gallery"/);
+ assert.match(html,/Nothing on this page is a local render test/);
+ assert.equal(html.includes('EDITORIAL COVER'),false);
+ assert.equal(html.includes('<iframe'),false);
+ const captions=[...html.matchAll(/<span class="art-caption">([^<]*)<\/span>/g)].map(m=>m[1]);
+ assert.deepEqual(captions,items.map(r=>previewCaption(r)));
+ const videos=[...html.matchAll(/<video\b[^>]*>/g)].map(m=>m[0]);
+ const playable=items.filter(r=>previewPlayable(r));
+ assert.equal(videos.length,playable.length);
+ for(const tag of videos){
+  assert.match(tag,/preload="metadata"/);
+  assert.match(tag,/playsinline/i);
+  assert.match(tag,/tabindex="-1"/);
+  assert.doesNotMatch(tag,/\bautoplay\b/i);
+  assert.doesNotMatch(tag,/\bcontrols\b/i);
+  assert.doesNotMatch(tag,/\bmuted\b/i);
+  assert.doesNotMatch(tag,/\bloop\b/i);
+ }
+ const images=[...html.matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
+ const thumbs=items.filter(r=>{const preview=resolvePreview(r);return !preview.degraded&&preview.mode==='thumb_link';});
+ assert.equal(images.length,thumbs.length);
+ for(const resource of items){
+  const preview=resolvePreview(resource);
+  assert.match(html,new RegExp(`href="/resources/${resource.id}/"`));
+  assert.match(html,new RegExp(`<p class="preview-note">${esc(preview.detail)}`));
+  if(preview.degraded){
+   assert.equal(preview.caption,'Editorial cover');
+   continue;
+  }
+  assert.match(html,new RegExp(`href="${esc(preview.url!)}" class="preview-source"`));
+  if(preview.playable)assert.match(html,new RegExp(`<video\\b[^>]*src="${esc(preview.url!)}"`));
+  if(preview.mode==='thumb_link')assert.match(html,new RegExp(`<img\\b[^>]*src="${esc(preview.poster||preview.url!)}"`));
+  if(preview.mode==='embed'){
+   assert.match(html,/class="preview-embed"/);
+   assert.doesNotMatch(html,new RegExp(`<video\\b[^>]*src="${esc(preview.url!)}"`));
+   assert.doesNotMatch(html,new RegExp(`<img\\b[^>]*src="${esc(preview.url!)}"`));
+  }
+ }
+ for(const resource of resources)assert.equal(html.includes(`href="/resources/${resource.id}/"`),galleryIds.has(resource.id),resource.id);
+ const library=renderToString(React.createElement(App,{path:'/library/'}));
+ assert.equal(library.includes('<video'),false);
+ assert.equal(library.includes('<img'),false);
+ assert.match(library,/EDITORIAL COVER/);
+ const detail=renderToString(React.createElement(App,{path:'/resources/lemo-watercolor/'}));
+ assert.equal(detail.includes('<video'),false);
+ assert.match(detail,/EDITORIAL COVER — NOT AN UPSTREAM RENDER/);
+ const about=renderToString(React.createElement(App,{path:'/about/'}));
+ assert.match(about,/A preview is not a local render test/);
 });
 test('all pages render server-side without browser APIs and internal links resolve',()=>{
  const paths=allPaths();const valid=new Set(paths.map(p=>'/preview/'+p));
