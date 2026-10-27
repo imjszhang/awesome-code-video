@@ -1,1 +1,1301 @@
-[]
+[
+  {
+    "id": "C-e89f63110f10",
+    "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+    "name": "awesome-opus5-5-videos",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.430Z",
+    "updated_at": "2026-10-27T06:24:12.434Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.430Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.434Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-8095f50a8bc7",
+    "url": "https://github.com/joeseesun/opus-video-prompts",
+    "name": "opus-video-prompts",
+    "status": "deferred",
+    "reason": "Reviewed README and prompt anthology: entries mix attributed prompts, translated or secondary material, and brief examples. Verify original authors, complete prompts and applicable reuse terms before admitting individual styles.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.439Z",
+    "updated_at": "2026-10-27T06:25:53.775Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.439Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.443Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:25:53.775Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Reviewed README and prompt anthology: entries mix attributed prompts, translated or secondary material, and brief examples. Verify original authors, complete prompts and applicable reuse terms before admitting individual styles."
+      }
+    ]
+  },
+  {
+    "id": "C-3163233a66ce",
+    "url": "https://ohmyopus.com/en",
+    "name": "ohmyopus",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.448Z",
+    "updated_at": "2026-10-27T06:24:12.451Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.448Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.451Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-45241546473d",
+    "url": "https://github.com/mengto/threeui",
+    "name": "ThreeUI",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.455Z",
+    "updated_at": "2026-10-27T06:24:12.459Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.455Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.459Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-419aba3b2c11",
+    "url": "https://github.com/subhan-code/amicro--micro-transitions-",
+    "name": "Amicro",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.463Z",
+    "updated_at": "2026-10-27T06:24:12.466Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.463Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.466Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-07bf40742874",
+    "url": "https://github.com/scottstts/threejs-awesome-graphics-agent-skills",
+    "name": "Threejs-Awesome-Graphics-Agent-Skills",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.470Z",
+    "updated_at": "2026-10-27T06:24:12.473Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.470Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.473Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-960acc246e15",
+    "url": "https://roughjs.com",
+    "name": "rough.js",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.477Z",
+    "updated_at": "2026-10-27T06:24:12.480Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.477Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.480Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-748d18570cfb",
+    "url": "https://github.com/acamposuribe/p5.brush",
+    "name": "p5.brush",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.484Z",
+    "updated_at": "2026-10-27T06:24:12.487Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.484Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.487Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-48a64925d12e",
+    "url": "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag",
+    "name": "SVG 分层与描边动画",
+    "status": "deferred",
+    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.492Z",
+    "updated_at": "2026-10-27T06:24:12.495Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.492Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.495Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      }
+    ]
+  },
+  {
+    "id": "C-9042d48e084f",
+    "url": "https://gsap.com",
+    "name": "GSAP",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.499Z",
+    "updated_at": "2026-10-27T06:24:12.503Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.499Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.503Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-7146dcc86a3e",
+    "url": "https://github.com/paveldogreat/webgl-fluid-simulation",
+    "name": "WebGL Fluid Simulation",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.507Z",
+    "updated_at": "2026-10-27T06:24:12.510Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.507Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.510Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-0b821c6b938f",
+    "url": "https://cnb.cool/MindDockAI/off-axis-demo",
+    "name": "off-axis-demo",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.515Z",
+    "updated_at": "2026-10-27T06:24:12.518Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.515Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.518Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-374543d4f72b",
+    "url": "https://motion.dev",
+    "name": "Motion 与 Framer Motion",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.522Z",
+    "updated_at": "2026-10-27T06:24:12.526Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.522Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.526Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-23cc7dc75f79",
+    "url": "https://animejs.com",
+    "name": "Anime.js",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.530Z",
+    "updated_at": "2026-10-27T06:24:12.534Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.530Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.534Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-e3968c0ccc25",
+    "url": "https://p5js.org",
+    "name": "p5.js",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.538Z",
+    "updated_at": "2026-10-27T06:24:12.542Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.538Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.542Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-cb8291feff81",
+    "url": "https://github.com/davidhdev/canvas-ui",
+    "name": "Canvas UI",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.547Z",
+    "updated_at": "2026-10-27T06:24:12.550Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.547Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.550Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-f61adc33c989",
+    "url": "https://github.com/remotion-dev/skills",
+    "name": "Remotion Agent Skills",
+    "status": "accepted",
+    "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+    "resource_id": "remotion-agent-skills",
+    "evidence_ids": [
+      "S-CV-045"
+    ],
+    "created_at": "2026-10-27T06:24:12.556Z",
+    "updated_at": "2026-10-27T06:25:53.757Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.556Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.560Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:25:53.757Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/remotion-dev/skills"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/remotion-dev/skills"
+  },
+  {
+    "id": "C-4a9b424e47e3",
+    "url": "https://github.com/3b1b/manim",
+    "name": "Manim",
+    "status": "deferred",
+    "reason": "Distinct implementation from Manim Community, not a duplicate. Defer until a concrete reusable example is selected and reviewed.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.565Z",
+    "updated_at": "2026-10-27T06:24:12.569Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.565Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.569Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Distinct implementation from Manim Community, not a duplicate. Defer until a concrete reusable example is selected and reviewed."
+      }
+    ]
+  },
+  {
+    "id": "C-5f1cdd652c4b",
+    "url": "https://threejs.org/editor",
+    "name": "Three.js",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.574Z",
+    "updated_at": "2026-10-27T06:24:12.578Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.574Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.578Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-3c7c8aeff728",
+    "url": "https://github.com/ahujasid/blender-mcp",
+    "name": "Blender 与 Blender MCP",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.583Z",
+    "updated_at": "2026-10-27T06:24:12.587Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.583Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.587Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-16c450a7eaa2",
+    "url": "https://github.com/wheresryan22/anatomy",
+    "name": "Anatomy",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.593Z",
+    "updated_at": "2026-10-27T06:24:12.597Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.593Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.597Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-a73da66c0ea8",
+    "url": "https://github.com/gohanwu42/llm-explain",
+    "name": "llm-explain",
+    "status": "accepted",
+    "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+    "resource_id": "llm-explain",
+    "evidence_ids": [
+      "S-CV-044",
+      "S-CV-047"
+    ],
+    "created_at": "2026-10-27T06:24:12.602Z",
+    "updated_at": "2026-10-27T06:25:53.749Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.602Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.606Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:25:53.749Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/gohanwu42/llm-explain"
+        }
+      }
+    ],
+    "resolved_url": "https://github.com/gohanwu42/llm-explain"
+  },
+  {
+    "id": "C-431ffb483ddb",
+    "url": "https://github.com/hypit-ai/hypit",
+    "name": "Hypit",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.613Z",
+    "updated_at": "2026-10-27T06:24:12.618Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.613Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.618Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-7b5ed8760709",
+    "url": "https://github.com/browser-use/video-use",
+    "name": "video-use",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.624Z",
+    "updated_at": "2026-10-27T06:24:12.628Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.624Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.628Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-973a5b7f3413",
+    "url": "https://github.com/erduo1998-cell/erduo-broll-loop-engineering",
+    "name": "erduo-broll-loop-engineering",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.634Z",
+    "updated_at": "2026-10-27T06:24:12.638Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.634Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.638Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-677dd1737d2c",
+    "url": "https://github.com/wyattblue/auto-editor",
+    "name": "Auto-Editor",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.644Z",
+    "updated_at": "2026-10-27T06:24:12.649Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.644Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.649Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-d1d5b8c3d456",
+    "url": "https://github.com/vercel-labs/webreel",
+    "name": "Webreel",
+    "status": "accepted",
+    "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+    "resource_id": "webreel-custom-theme",
+    "evidence_ids": [
+      "S-CV-041",
+      "S-CV-046"
+    ],
+    "created_at": "2026-10-27T06:24:12.655Z",
+    "updated_at": "2026-10-27T06:25:53.719Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.655Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.660Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:25:34.651Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/vercel-labs/webreel/tree/main/examples/custom-theme"
+        }
+      },
+      {
+        "at": "2026-10-27T06:25:53.719Z",
+        "from": "accepted",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested."
+      }
+    ],
+    "resolved_url": "https://github.com/vercel-labs/webreel/tree/main/examples/custom-theme"
+  },
+  {
+    "id": "C-ddbeae27d33f",
+    "url": "https://github.com/hommy-master/capcut-mate",
+    "name": "CapCut Mate",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.665Z",
+    "updated_at": "2026-10-27T06:24:12.670Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.665Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.670Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-08b467edbaa9",
+    "url": "https://github.com/norsico/video-materials-autogen-workstation",
+    "name": "Video-Materials-AutoGEN-Workstation",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.676Z",
+    "updated_at": "2026-10-27T06:24:12.682Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.676Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.682Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-03388f3de34c",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
+    "name": "MoneyPrinterTurbo",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.688Z",
+    "updated_at": "2026-10-27T06:24:12.693Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.688Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.693Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-ffd970b32142",
+    "url": "https://github.com/voltagent/awesome-design-md",
+    "name": "awesome-design-md",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.699Z",
+    "updated_at": "2026-10-27T06:24:12.704Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.699Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.704Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-24f17ca1f145",
+    "url": "https://mesh3d.gallery",
+    "name": "Mesh3D Gallery",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.710Z",
+    "updated_at": "2026-10-27T06:24:12.715Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.710Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.715Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-db934277a1b0",
+    "url": "https://github.com/nexu-io/open-design",
+    "name": "Open Design",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.722Z",
+    "updated_at": "2026-10-27T06:24:12.727Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.722Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.727Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-ea40f8d9a48f",
+    "url": "https://github.com/op7418/guizang-social-card-skill",
+    "name": "guizang-social-card-skill",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.733Z",
+    "updated_at": "2026-10-27T06:24:12.738Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.733Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.738Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-54f72229dc08",
+    "url": "https://github.com/oso95/scroll-world",
+    "name": "Scroll World",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.745Z",
+    "updated_at": "2026-10-27T06:24:12.750Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.745Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.750Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-83d49660f29e",
+    "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+    "name": "threejs-game-skills",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.757Z",
+    "updated_at": "2026-10-27T06:24:12.762Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.757Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.762Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-c2655852f692",
+    "url": "https://github.com/bradautomates/claude-video",
+    "name": "claude-video",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.769Z",
+    "updated_at": "2026-10-27T06:24:12.775Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.769Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.775Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-75ec329892da",
+    "url": "https://github.com/huangchihhungleo/claude-real-video",
+    "name": "claude-real-video",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.781Z",
+    "updated_at": "2026-10-27T06:24:12.787Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.781Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.787Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-6a199d326780",
+    "url": "https://github.com/winterarc21/battle-of-austerlitz-film",
+    "name": "Battle-of-Austerlitz-Film",
+    "status": "deferred",
+    "reason": "Source-reviewed README, root directory and package.json: a complete procedural historical film is present, but no explicit reuse license was found in these inspected locations. Clarify permission before promoting as a reusable film template.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.794Z",
+    "updated_at": "2026-10-27T06:25:53.766Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.794Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.799Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      },
+      {
+        "at": "2026-10-27T06:25:53.766Z",
+        "from": "researching",
+        "to": "deferred",
+        "reason": "Source-reviewed README, root directory and package.json: a complete procedural historical film is present, but no explicit reuse license was found in these inspected locations. Clarify permission before promoting as a reusable film template."
+      }
+    ]
+  },
+  {
+    "id": "C-217f9b1da004",
+    "url": "https://x.com/LufzzLiz/status/2015380566703779890",
+    "name": "Remotion 孟菲斯风格终端演示",
+    "status": "deferred",
+    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.806Z",
+    "updated_at": "2026-10-27T06:24:12.812Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.806Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.812Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      }
+    ]
+  },
+  {
+    "id": "C-6b5f61be499b",
+    "url": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ",
+    "name": "代码视频六层母版提示词",
+    "status": "deferred",
+    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.819Z",
+    "updated_at": "2026-10-27T06:24:12.825Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.819Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.825Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      }
+    ]
+  },
+  {
+    "id": "C-57500ce8a6f4",
+    "url": "https://mp.weixin.qq.com/s/8UaMBgWbYm-vPBrA9bj7bw",
+    "name": "SVG 科普图形提示词模板",
+    "status": "deferred",
+    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.832Z",
+    "updated_at": "2026-10-27T06:24:12.838Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.832Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.838Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      }
+    ]
+  },
+  {
+    "id": "C-8755ad2d3ab9",
+    "url": "https://mp.weixin.qq.com/s/MRMo2zzpl-M4_Oaog2Jxxg",
+    "name": "三维地图纹理工作流",
+    "status": "deferred",
+    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.846Z",
+    "updated_at": "2026-10-27T06:24:12.853Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.846Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.853Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      }
+    ]
+  },
+  {
+    "id": "C-d1eff8a522e8",
+    "url": "https://mp.weixin.qq.com/s/vZoP23bBLgpfrT8cka9frw",
+    "name": "4K 宣传片代码剪辑案例",
+    "status": "deferred",
+    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.861Z",
+    "updated_at": "2026-10-27T06:24:12.867Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.861Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.867Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      }
+    ]
+  },
+  {
+    "id": "C-b148e365550c",
+    "url": "https://mp.weixin.qq.com/s/4ZtcRa3O8bEgw-JQhQtUPw",
+    "name": "HTML 动态交互组件提示词模板",
+    "status": "deferred",
+    "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.875Z",
+    "updated_at": "2026-10-27T06:24:12.881Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.875Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.881Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+      }
+    ]
+  },
+  {
+    "id": "C-3f8ee375c0c5",
+    "url": "https://github.com/openvglab/omnilottie",
+    "name": "OmniLottie",
+    "status": "deferred",
+    "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-27T06:24:12.889Z",
+    "updated_at": "2026-10-27T06:24:12.895Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:24:12.889Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:24:12.895Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+      }
+    ]
+  },
+  {
+    "id": "C-0b167954c0e1",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop",
+    "name": "Kanban Drag and Drop",
+    "status": "accepted",
+    "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+    "resource_id": "webreel-drag-and-drop",
+    "evidence_ids": [
+      "S-CV-042",
+      "S-CV-046"
+    ],
+    "created_at": "2026-10-27T06:25:34.614Z",
+    "updated_at": "2026-10-27T06:25:53.730Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:25:34.614Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:25:34.624Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Inspect example configuration and documented reuse mechanism."
+      },
+      {
+        "at": "2026-10-27T06:25:34.659Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop"
+        }
+      },
+      {
+        "at": "2026-10-27T06:25:53.730Z",
+        "from": "accepted",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested."
+      }
+    ],
+    "resolved_url": "https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop"
+  },
+  {
+    "id": "C-7c176466f431",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport",
+    "name": "Mobile Menu and Scroll",
+    "status": "accepted",
+    "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+    "resource_id": "webreel-mobile-viewport",
+    "evidence_ids": [
+      "S-CV-043",
+      "S-CV-046"
+    ],
+    "created_at": "2026-10-27T06:25:34.634Z",
+    "updated_at": "2026-10-27T06:25:53.740Z",
+    "history": [
+      {
+        "at": "2026-10-27T06:25:34.634Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-27T06:25:34.642Z",
+        "from": "pending",
+        "to": "researching",
+        "reason": "Inspect example configuration and documented reuse mechanism."
+      },
+      {
+        "at": "2026-10-27T06:25:34.667Z",
+        "from": "researching",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested.",
+        "resolution": {
+          "from": null,
+          "to": "https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport"
+        }
+      },
+      {
+        "at": "2026-10-27T06:25:53.740Z",
+        "from": "accepted",
+        "to": "accepted",
+        "reason": "Reviewed concrete upstream source and documentation; admitted with adaptation notes. Not render-tested."
+      }
+    ],
+    "resolved_url": "https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport"
+  }
+]

@@ -684,5 +684,99 @@
       "render_tested": false
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+  },
+  {
+    "id": "webreel-custom-theme",
+    "project_id": "webreel",
+    "name": "Custom Cursor and Keystroke HUD",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/custom-theme",
+    "section": "Shot Recipes",
+    "description": "A code-editor browser demo with a custom SVG cursor and a dark monospace keystroke overlay for developer-tool walkthroughs. Reuse the local page and scripted clicks; replace the cursor, HUD theme, interface, selectors, and timing.",
+    "evidence_ids": [
+      "S-CV-041",
+      "S-CV-046"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+  },
+  {
+    "id": "webreel-drag-and-drop",
+    "project_id": "webreel",
+    "name": "Kanban Drag and Drop",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop",
+    "section": "Shot Recipes",
+    "description": "A scripted kanban-board demo showing cards moving between columns for task managers and workflow tutorials. Reuse the example page and drag steps; adapt card content, selectors, destinations, and pauses to your interface.",
+    "evidence_ids": [
+      "S-CV-042",
+      "S-CV-046"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+  },
+  {
+    "id": "webreel-mobile-viewport",
+    "project_id": "webreel",
+    "name": "Mobile Menu and Scroll",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport",
+    "section": "Shot Recipes",
+    "description": "A portrait browser walkthrough at a 390 by 844 viewport with menu opening, dismissal, and scrolling for mobile web demos and onboarding clips. Reuse the local interface and action sequence; replace the page, selectors, viewport, and timing.",
+    "evidence_ids": [
+      "S-CV-043",
+      "S-CV-046"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+  },
+  {
+    "id": "llm-explain",
+    "project_id": "llm-explain",
+    "name": "llm-explain",
+    "kind": "workflow",
+    "url": "https://github.com/Gohanwu42/llm-explain",
+    "section": "Production Workflows",
+    "description": "Explainer workflow with an optional Python and FFmpeg assembler that combines local still images, narration, and captions into an MP4 with a synchronized SRT file. Useful for narrated concept slides; supply the images and audio yourself and adapt the storyboard.",
+    "evidence_ids": [
+      "S-CV-044",
+      "S-CV-047"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+  },
+  {
+    "id": "remotion-agent-skills",
+    "project_id": "remotion-skills",
+    "name": "Remotion Agent Skills",
+    "kind": "workflow",
+    "url": "https://github.com/remotion-dev/skills",
+    "section": "Production Workflows",
+    "description": "Official agent guidance for creating, previewing, and rendering Remotion videos, with topic-specific references for captions, maps, and multimedia. Useful for building custom React video workflows; choose your own visual direction and consult Remotion licensing terms.",
+    "evidence_ids": [
+      "S-CV-045"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
   }
 ]

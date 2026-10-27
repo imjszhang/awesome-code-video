@@ -438,5 +438,82 @@
     "reliability": "high",
     "checked_at": "2026-10-27",
     "notes": "Read together with the upstream project documentation. Terms may change; this record is source review, not a blanket commercial-use approval."
+  },
+  {
+    "id": "S-CV-041",
+    "project_id": "webreel",
+    "title": "Custom Cursor and Keystroke HUD — inspected source",
+    "url": "https://github.com/vercel-labs/webreel/blob/main/examples/custom-theme/webreel.config.json",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected local page reference, viewport, selectors and scripted action sequence in the example configuration. No render test performed."
+  },
+  {
+    "id": "S-CV-042",
+    "project_id": "webreel",
+    "title": "Kanban Drag and Drop — inspected source",
+    "url": "https://github.com/vercel-labs/webreel/blob/main/examples/drag-and-drop/webreel.config.json",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected local page reference, viewport, selectors and scripted action sequence in the example configuration. No render test performed."
+  },
+  {
+    "id": "S-CV-043",
+    "project_id": "webreel",
+    "title": "Mobile Menu and Scroll — inspected source",
+    "url": "https://github.com/vercel-labs/webreel/blob/main/examples/mobile-viewport/webreel.config.json",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected local page reference, viewport, selectors and scripted action sequence in the example configuration. No render test performed."
+  },
+  {
+    "id": "S-CV-044",
+    "project_id": "llm-explain",
+    "title": "llm-explain — inspected source",
+    "url": "https://github.com/Gohanwu42/llm-explain/blob/main/scripts/assemble_video.py",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected upstream README and implementation or rendering guidance. No installation or render test performed."
+  },
+  {
+    "id": "S-CV-045",
+    "project_id": "remotion-skills",
+    "title": "Remotion Agent Skills — inspected source",
+    "url": "https://github.com/remotion-dev/skills/blob/main/skills/remotion-render/SKILL.md",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected upstream README and implementation or rendering guidance. No installation or render test performed."
+  },
+  {
+    "id": "S-CV-046",
+    "project_id": "webreel",
+    "title": "Webreel — repository license",
+    "url": "https://github.com/vercel-labs/webreel/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected Apache-2.0 repository license. Third-party dependencies and supplied media require their own terms."
+  },
+  {
+    "id": "S-CV-047",
+    "project_id": "llm-explain",
+    "title": "llm-explain — repository license",
+    "url": "https://github.com/Gohanwu42/llm-explain/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Inspected MIT repository license. Third-party dependencies and supplied media require their own terms."
   }
 ]

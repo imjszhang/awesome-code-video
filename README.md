@@ -8,7 +8,7 @@
 
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
-Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The first edition contains 30 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
+Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 33 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
 ## Contents
 
@@ -68,6 +68,12 @@ These [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) cards
 - [Chart Live Moves](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/data/chart-live-moves.md) - Animated chart treatments for research findings, metric changes, and data explanations. Replace the underlying data, labels, and visual scale.
 - [UI to Brand Morph](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/outro/ui-to-brand-morph.md) - Interface elements resolving into a brand ending for product promos and feature demos. Adapt the source geometry, wordmark, and final hold.
 
+The following Webreel examples record scripted browser interactions. Each includes a local demo page and editable recording configuration; replace both for a different product.
+
+- [Custom Cursor and Keystroke HUD](https://github.com/vercel-labs/webreel/tree/main/examples/custom-theme) - A code-editor browser demo with a custom SVG cursor and a dark monospace keystroke overlay for developer-tool walkthroughs. Reuse the local page and scripted clicks; replace the cursor, HUD theme, interface, selectors, and timing.
+- [Kanban Drag and Drop](https://github.com/vercel-labs/webreel/tree/main/examples/drag-and-drop) - A scripted kanban-board demo showing cards moving between columns for task managers and workflow tutorials. Reuse the example page and drag steps; adapt card content, selectors, destinations, and pauses to your interface.
+- [Mobile Menu and Scroll](https://github.com/vercel-labs/webreel/tree/main/examples/mobile-viewport) - A portrait browser walkthrough at a 390 by 844 viewport with menu opening, dismissal, and scrolling for mobile web demos and onboarding clips. Reuse the local interface and action sequence; replace the page, selectors, viewport, and timing.
+
 ## Visual Style Templates
 
 These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide concrete `STYLE.md` files and demonstration films in the [style gallery](https://lemomo-ai.github.io/lemo-opuscar/). They are reusable art-direction and production instructions for a coding agent. A new subject still needs a script, assets, scene construction, and rendering; model-dependent reproduction can vary.
@@ -87,7 +93,7 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 
 ## Frameworks and Renderers
 
-These are foundations for composing or rendering your own work. They are not included in the 30 reusable examples above.
+These are foundations for composing or rendering your own work. They are not included in the 33 reusable examples above.
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).
@@ -100,6 +106,8 @@ Useful when you want a method or reusable motion primitives rather than a fixed 
 
 - [guizang-product-video-skill](https://github.com/op7418/guizang-product-video-skill) - Product-specific promotional video workflow that builds on real interface components, branding, typography, and a composed timeline. Suitable when the visual direction should come from the product rather than a fixed template.
 - [OneTake](https://github.com/feitangyuan/onetake) - Continuous-shot motion library, composition starter, and case breakdowns for connected product demonstrations. The free repository excludes the showcased films' source code and uses a noncommercial license; commercial access is offered separately.
+- [llm-explain](https://github.com/Gohanwu42/llm-explain) - Explainer workflow with an optional Python and FFmpeg assembler that combines local still images, narration, and captions into an MP4 with a synchronized SRT file. Useful for narrated concept slides; supply the images and audio yourself and adapt the storyboard.
+- [Remotion Agent Skills](https://github.com/remotion-dev/skills) - Official agent guidance for creating, previewing, and rendering Remotion videos, with topic-specific references for captions, maps, and multimedia. Useful for building custom React video workflows; choose your own visual direction and consult Remotion licensing terms.
 
 ## Related Lists
 

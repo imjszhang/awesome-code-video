@@ -187,6 +187,44 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "webreel",
+    "name": "Webreel",
+    "url": "https://github.com/vercel-labs/webreel",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1168561191,
+      "full_name": "vercel-labs/webreel",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "llm-explain",
+    "name": "llm-explain",
+    "url": "https://github.com/Gohanwu42/llm-explain",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1404409833,
+      "full_name": "Gohanwu42/llm-explain",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "remotion-skills",
+    "name": "Remotion Agent Skills",
+    "url": "https://github.com/remotion-dev/skills",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1137388347,
+      "full_name": "remotion-dev/skills",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-27"
   }
 ]
-

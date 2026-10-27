@@ -1,0 +1,476 @@
+{
+  "date": "2026-10-27",
+  "scope": "57 public leads from the original collection inventory; private collection IDs and article contents omitted.",
+  "method": "Existing coverage is matched against the pre-batch catalog. Project coverage means selected units, not all upstream content. Deferred entries without reviewed_urls received scope triage only; acceptance requires reviewed catalog evidence.",
+  "counts": {
+    "covered": 11,
+    "accepted": 3,
+    "deferred": 43
+  },
+  "items": [
+    {
+      "name": "Lemo-Opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "outcome": "covered",
+      "resource_ids": [
+        "lemo-opuscar-swiss-motion-graphics",
+        "lemo-opuscar-dark-tech-keynote",
+        "lemo-opuscar-whiteboard-explainer",
+        "lemo-opuscar-data-storytelling",
+        "lemo-opuscar-isometric-infographic",
+        "lemo-opuscar-caption-news",
+        "lemo-opuscar-halftone-dossier",
+        "lemo-opuscar-chinese-ink-wash",
+        "lemo-opuscar-paper-pop-up-book",
+        "lemo-opuscar-ascii-crt-terminal",
+        "lemo-opuscar-blueprint",
+        "lemo-opuscar-16-bit-pixel-rpg"
+      ],
+      "reason": "Selected resources from this project are represented; this is not an audit of every upstream file."
+    },
+    {
+      "name": "video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "outcome": "covered",
+      "resource_ids": [
+        "ink-press",
+        "video-shotcraft-text-as-mask",
+        "video-shotcraft-space-camera-moves",
+        "video-shotcraft-deck-deal-fly-in",
+        "video-shotcraft-type-and-filter",
+        "video-shotcraft-paper-title-card",
+        "video-shotcraft-document-typewriter-reveal",
+        "video-shotcraft-chart-live-moves",
+        "video-shotcraft-ui-to-brand-morph"
+      ],
+      "reason": "Selected resources from this project are represented; this is not an audit of every upstream file."
+    },
+    {
+      "name": "Ink Press",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "outcome": "covered",
+      "resource_ids": [
+        "ink-press"
+      ],
+      "reason": "Selected resources from this project are represented; this is not an audit of every upstream file."
+    },
+    {
+      "name": "OneTake",
+      "url": "https://github.com/feitangyuan/onetake",
+      "outcome": "covered",
+      "resource_ids": [
+        "onetake"
+      ],
+      "reason": "Exact resource already listed."
+    },
+    {
+      "name": "awesome-opus5-5-videos",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "candidate_id": "C-e89f63110f10",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "opus-video-prompts",
+      "url": "https://github.com/joeseesun/opus-video-prompts",
+      "candidate_id": "C-8095f50a8bc7",
+      "outcome": "deferred",
+      "reason": "Reviewed README and prompt anthology: entries mix attributed prompts, translated or secondary material, and brief examples. Verify original authors, complete prompts and applicable reuse terms before admitting individual styles.",
+      "reviewed_urls": [
+        "https://github.com/joeseesun/opus-video-prompts/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "procedural-film",
+      "url": "https://github.com/kuhnhomeuk-cell/procedural-film",
+      "outcome": "covered",
+      "resource_ids": [
+        "butterfly-life",
+        "claude-quest"
+      ],
+      "reason": "Selected resources from this project are represented; this is not an audit of every upstream file."
+    },
+    {
+      "name": "ohmyopus",
+      "url": "https://ohmyopus.com/en",
+      "candidate_id": "C-3163233a66ce",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "ThreeUI",
+      "url": "https://github.com/MengTo/threeui",
+      "candidate_id": "C-45241546473d",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Amicro",
+      "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+      "candidate_id": "C-419aba3b2c11",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Threejs-Awesome-Graphics-Agent-Skills",
+      "url": "https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills",
+      "candidate_id": "C-07bf40742874",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "rough.js",
+      "url": "https://roughjs.com/",
+      "candidate_id": "C-960acc246e15",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "p5.brush",
+      "url": "https://github.com/acamposuribe/p5.brush",
+      "candidate_id": "C-748d18570cfb",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Paper-Cut",
+      "url": "https://github.com/HeiGeAi/Paper-Cut",
+      "outcome": "covered",
+      "resource_ids": [
+        "paper-cut-five-layer-motion"
+      ],
+      "reason": "Selected resources from this project are represented; this is not an audit of every upstream file."
+    },
+    {
+      "name": "SVG 分层与描边动画",
+      "url": "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag",
+      "candidate_id": "C-48a64925d12e",
+      "outcome": "deferred",
+      "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+    },
+    {
+      "name": "GSAP",
+      "url": "https://gsap.com/",
+      "candidate_id": "C-9042d48e084f",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "WebGL Fluid Simulation",
+      "url": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation",
+      "candidate_id": "C-7146dcc86a3e",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "off-axis-demo",
+      "url": "https://cnb.cool/MindDockAI/off-axis-demo",
+      "candidate_id": "C-0b821c6b938f",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Motion 与 Framer Motion",
+      "url": "https://motion.dev/",
+      "candidate_id": "C-374543d4f72b",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Anime.js",
+      "url": "https://animejs.com/",
+      "candidate_id": "C-23cc7dc75f79",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "p5.js",
+      "url": "https://p5js.org/",
+      "candidate_id": "C-e3968c0ccc25",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Canvas UI",
+      "url": "https://github.com/DavidHDev/canvas-ui",
+      "candidate_id": "C-cb8291feff81",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "HyperFrames",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "outcome": "covered",
+      "resource_ids": [
+        "hyperframes"
+      ],
+      "reason": "Exact resource already listed."
+    },
+    {
+      "name": "Remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "outcome": "covered",
+      "resource_ids": [
+        "remotion"
+      ],
+      "reason": "Exact resource already listed."
+    },
+    {
+      "name": "Remotion Agent Skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "candidate_id": "C-f61adc33c989",
+      "outcome": "accepted",
+      "reason": "Source-reviewed and admitted. See catalog evidence.",
+      "resource_ids": [
+        "remotion-agent-skills"
+      ]
+    },
+    {
+      "name": "Motion Canvas",
+      "url": "https://motioncanvas.io/",
+      "outcome": "covered",
+      "resource_ids": [
+        "motion-canvas"
+      ],
+      "reason": "Exact resource already listed."
+    },
+    {
+      "name": "Manim",
+      "url": "https://github.com/3b1b/manim",
+      "candidate_id": "C-4a9b424e47e3",
+      "outcome": "deferred",
+      "reason": "Distinct implementation from Manim Community, not a duplicate. Defer until a concrete reusable example is selected and reviewed."
+    },
+    {
+      "name": "Three.js",
+      "url": "https://threejs.org/editor/",
+      "candidate_id": "C-5f1cdd652c4b",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Blender 与 Blender MCP",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "candidate_id": "C-3c7c8aeff728",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "map-motion",
+      "url": "https://github.com/SpaceZephyr/map-motion",
+      "outcome": "covered",
+      "resource_ids": [
+        "map-motion-globe-to-location",
+        "map-motion-night-location",
+        "map-motion-hiking-elevation",
+        "map-motion-road-trip",
+        "map-motion-flight-routes",
+        "map-motion-radial-coverage"
+      ],
+      "reason": "Selected resources from this project are represented; this is not an audit of every upstream file."
+    },
+    {
+      "name": "Anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "candidate_id": "C-16c450a7eaa2",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "llm-explain",
+      "url": "https://github.com/Gohanwu42/llm-explain",
+      "candidate_id": "C-a73da66c0ea8",
+      "outcome": "accepted",
+      "reason": "Source-reviewed and admitted. See catalog evidence.",
+      "resource_ids": [
+        "llm-explain"
+      ]
+    },
+    {
+      "name": "guizang-product-video-skill",
+      "url": "https://github.com/op7418/guizang-product-video-skill",
+      "outcome": "covered",
+      "resource_ids": [
+        "guizang-product-video-skill"
+      ],
+      "reason": "Exact resource already listed."
+    },
+    {
+      "name": "Hypit",
+      "url": "https://github.com/hypit-ai/hypit",
+      "candidate_id": "C-431ffb483ddb",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "candidate_id": "C-7b5ed8760709",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "erduo-broll-loop-engineering",
+      "url": "https://github.com/erduo1998-cell/erduo-broll-loop-engineering",
+      "candidate_id": "C-973a5b7f3413",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Auto-Editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "candidate_id": "C-677dd1737d2c",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Webreel",
+      "url": "https://github.com/vercel-labs/webreel",
+      "candidate_id": "C-d1d5b8c3d456",
+      "outcome": "accepted",
+      "reason": "Source-reviewed and admitted. See catalog evidence.",
+      "resource_ids": [
+        "webreel-custom-theme",
+        "webreel-drag-and-drop",
+        "webreel-mobile-viewport"
+      ]
+    },
+    {
+      "name": "CapCut Mate",
+      "url": "https://github.com/Hommy-master/capcut-mate",
+      "candidate_id": "C-ddbeae27d33f",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Video-Materials-AutoGEN-Workstation",
+      "url": "https://github.com/Norsico/Video-Materials-AutoGEN-Workstation",
+      "candidate_id": "C-08b467edbaa9",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "candidate_id": "C-03388f3de34c",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "candidate_id": "C-ffd970b32142",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Mesh3D Gallery",
+      "url": "https://mesh3d.gallery",
+      "candidate_id": "C-24f17ca1f145",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Open Design",
+      "url": "https://github.com/nexu-io/open-design",
+      "candidate_id": "C-db934277a1b0",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "guizang-social-card-skill",
+      "url": "https://github.com/op7418/guizang-social-card-skill",
+      "candidate_id": "C-ea40f8d9a48f",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Scroll World",
+      "url": "https://github.com/oso95/scroll-world",
+      "candidate_id": "C-54f72229dc08",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "threejs-game-skills",
+      "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+      "candidate_id": "C-83d49660f29e",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "candidate_id": "C-c2655852f692",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "claude-real-video",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "candidate_id": "C-75ec329892da",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    },
+    {
+      "name": "Battle-of-Austerlitz-Film",
+      "url": "https://github.com/WinterArc21/Battle-of-Austerlitz-Film",
+      "candidate_id": "C-6a199d326780",
+      "outcome": "deferred",
+      "reason": "Source-reviewed README, root directory and package.json: a complete procedural historical film is present, but no explicit reuse license was found in these inspected locations. Clarify permission before promoting as a reusable film template.",
+      "reviewed_urls": [
+        "https://github.com/WinterArc21/Battle-of-Austerlitz-Film/blob/main/README.md",
+        "https://github.com/WinterArc21/Battle-of-Austerlitz-Film/blob/main/package.json"
+      ]
+    },
+    {
+      "name": "Remotion 孟菲斯风格终端演示",
+      "url": "https://x.com/LufzzLiz/status/2015380566703779890",
+      "candidate_id": "C-217f9b1da004",
+      "outcome": "deferred",
+      "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+    },
+    {
+      "name": "代码视频六层母版提示词",
+      "url": "https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ",
+      "candidate_id": "C-6b5f61be499b",
+      "outcome": "deferred",
+      "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+    },
+    {
+      "name": "SVG 科普图形提示词模板",
+      "url": "https://mp.weixin.qq.com/s/8UaMBgWbYm-vPBrA9bj7bw",
+      "candidate_id": "C-57500ce8a6f4",
+      "outcome": "deferred",
+      "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+    },
+    {
+      "name": "三维地图纹理工作流",
+      "url": "https://mp.weixin.qq.com/s/MRMo2zzpl-M4_Oaog2Jxxg",
+      "candidate_id": "C-8755ad2d3ab9",
+      "outcome": "deferred",
+      "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+    },
+    {
+      "name": "4K 宣传片代码剪辑案例",
+      "url": "https://mp.weixin.qq.com/s/vZoP23bBLgpfrT8cka9frw",
+      "candidate_id": "C-d1eff8a522e8",
+      "outcome": "deferred",
+      "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+    },
+    {
+      "name": "HTML 动态交互组件提示词模板",
+      "url": "https://mp.weixin.qq.com/s/4ZtcRa3O8bEgw-JQhQtUPw",
+      "candidate_id": "C-b148e365550c",
+      "outcome": "deferred",
+      "reason": "Article or social-post lead; locate the original editable source or complete prompt and check attribution and reuse terms before admission. Not freshly source-reviewed in this batch."
+    },
+    {
+      "name": "OmniLottie",
+      "url": "https://github.com/OpenVGLab/OmniLottie",
+      "candidate_id": "C-3f8ee375c0c5",
+      "outcome": "deferred",
+      "reason": "Scope triage only; inspect a concrete editable video artifact, its dependencies and reuse terms before admission."
+    }
+  ]
+}
