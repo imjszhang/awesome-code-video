@@ -838,14 +838,25 @@
     "section": "Frameworks and Renderers",
     "description": "HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.",
     "evidence_ids": [
-      "S-CV-031"
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-098"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/docs/images/showcase/journey-introduction-v5-v2.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-098 https://static.heygen.ai/hyperframes-oss/docs/images/showcase/journey-introduction-v5-v2.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "remotion",
@@ -968,14 +979,24 @@
     "section": "Related Lists",
     "description": "Broader coverage of agent-directed tools, production workflows, showcases, and research.",
     "evidence_ids": [
-      "S-CV-037"
+      "S-CV-037",
+      "S-CV-096"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/voidforall/awesome-video-as-code/main/assets/trailer.mp4",
+      "license": "CC0-1.0",
+      "attribution": "voidforall / Awesome Video as Code (https://github.com/voidforall/awesome-video-as-code)",
+      "redistributable": true,
+      "source": "S-CV-096 https://raw.githubusercontent.com/voidforall/awesome-video-as-code/main/assets/trailer.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "awesome-video-skills",
@@ -1005,14 +1026,24 @@
     "description": "A code-editor browser demo with a custom SVG cursor and a dark monospace keystroke overlay for developer-tool walkthroughs. Reuse the local page and scripted clicks; replace the cursor, HUD theme, interface, selectors, and timing.",
     "evidence_ids": [
       "S-CV-041",
-      "S-CV-046"
+      "S-CV-046",
+      "S-CV-095"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/custom-theme.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-095 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/custom-theme.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "webreel-drag-and-drop",
@@ -1024,14 +1055,24 @@
     "description": "A scripted kanban-board demo showing cards moving between columns for task managers and workflow tutorials. Reuse the example page and drag steps; adapt card content, selectors, destinations, and pauses to your interface.",
     "evidence_ids": [
       "S-CV-042",
-      "S-CV-046"
+      "S-CV-046",
+      "S-CV-095"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/drag-and-drop.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-095 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/drag-and-drop.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "webreel-mobile-viewport",
@@ -1043,14 +1084,24 @@
     "description": "A portrait browser walkthrough at a 390 by 844 viewport with menu opening, dismissal, and scrolling for mobile web demos and onboarding clips. Reuse the local interface and action sequence; replace the page, selectors, viewport, and timing.",
     "evidence_ids": [
       "S-CV-043",
-      "S-CV-046"
+      "S-CV-046",
+      "S-CV-095"
     ],
     "review": {
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
+    "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/mobile-viewport.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-095 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/mobile-viewport.mp4",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "llm-explain",
@@ -1242,7 +1293,8 @@
     "description": "Audio waveforms and synchronized captions for podcast excerpts and interview highlights. Reuse the Remotion composition and audio-driven duration; replace audio, caption data, and visualizer settings. Review the Remotion license for your organization before production.",
     "evidence_ids": [
       "S-CV-060",
-      "S-CV-055"
+      "S-CV-055",
+      "S-CV-097"
     ],
     "section": "Film and Scene Templates",
     "review": {
@@ -1250,7 +1302,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-audiogram.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/audiogram)",
+      "redistributable": false,
+      "source": "S-CV-097 https://www.remotion.dev/generated/template-audiogram.png",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "remotion-code-hike",
@@ -1261,7 +1322,8 @@
     "description": "Animated syntax-highlighted code with token transitions and annotations for programming tutorials and refactoring walkthroughs. Reuse the frame-driven Remotion scene; replace code snippets, themes, annotations, and pacing. Review the Remotion license for your organization before production.",
     "evidence_ids": [
       "S-CV-061",
-      "S-CV-055"
+      "S-CV-055",
+      "S-CV-097"
     ],
     "section": "Film and Scene Templates",
     "review": {
@@ -1269,7 +1331,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-code-hike.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/code-hike)",
+      "redistributable": false,
+      "source": "S-CV-097 https://www.remotion.dev/generated/template-code-hike.png",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "remotion-tiktok",
@@ -1280,7 +1351,8 @@
     "description": "Bold outlined captions with active-word highlighting and animated entrances for talking-head clips and social explainers. Reuse the captioned-video composition; replace footage, captions, fonts, and placement. Adapt transcription settings for your language and review the Remotion license before production.",
     "evidence_ids": [
       "S-CV-062",
-      "S-CV-055"
+      "S-CV-055",
+      "S-CV-097"
     ],
     "section": "Film and Scene Templates",
     "review": {
@@ -1288,7 +1360,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-tiktok.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/tiktok)",
+      "redistributable": false,
+      "source": "S-CV-097 https://www.remotion.dev/generated/template-tiktok.png",
+      "checked_at": "2026-10-27"
+    }
   },
   {
     "id": "hyperframes-data-chart",
@@ -3250,6 +3331,323 @@
       "attribution": "RenderComp",
       "redistributable": true,
       "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/text-mask-reveal.gif",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "webreel-hello-world",
+    "project_id": "webreel",
+    "name": "Hello World Browser Demo",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/hello-world",
+    "section": "Shot Recipes",
+    "description": "A Webreel example that records a scripted browser flow (hello-world) to MP4. Reuse the example project; Apache-2.0. Preview is the docs-public MP4 (examples/*/videos are Git LFS pointers).",
+    "evidence_ids": [
+      "S-CV-046",
+      "S-CV-094",
+      "S-CV-095"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/hello-world.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-095 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/hello-world.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "webreel-form-filling",
+    "project_id": "webreel",
+    "name": "Form Filling Demo",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/form-filling",
+    "section": "Shot Recipes",
+    "description": "A Webreel example that records a scripted browser flow (form-filling) to MP4. Reuse the example project; Apache-2.0. Preview is the docs-public MP4 (examples/*/videos are Git LFS pointers).",
+    "evidence_ids": [
+      "S-CV-046",
+      "S-CV-094",
+      "S-CV-095"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/form-filling.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-095 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/form-filling.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "webreel-keyboard-shortcuts",
+    "project_id": "webreel",
+    "name": "Keyboard Shortcuts Demo",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/keyboard-shortcuts",
+    "section": "Shot Recipes",
+    "description": "A Webreel example that records a scripted browser flow (keyboard-shortcuts) to MP4. Reuse the example project; Apache-2.0. Preview is the docs-public MP4 (examples/*/videos are Git LFS pointers).",
+    "evidence_ids": [
+      "S-CV-046",
+      "S-CV-094",
+      "S-CV-095"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/keyboard-shortcuts.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-095 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/keyboard-shortcuts.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "webreel-page-scrolling",
+    "project_id": "webreel",
+    "name": "Page Scrolling Demo",
+    "kind": "shot",
+    "url": "https://github.com/vercel-labs/webreel/tree/main/examples/page-scrolling",
+    "section": "Shot Recipes",
+    "description": "A Webreel example that records a scripted browser flow (page-scrolling) to MP4. Reuse the example project; Apache-2.0. Preview is the docs-public MP4 (examples/*/videos are Git LFS pointers).",
+    "evidence_ids": [
+      "S-CV-046",
+      "S-CV-094",
+      "S-CV-095"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/page-scrolling.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)",
+      "redistributable": true,
+      "source": "S-CV-095 https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/page-scrolling.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-overlay",
+    "project_id": "remotion",
+    "name": "Overlay Template",
+    "kind": "scene",
+    "url": "https://www.remotion.dev/templates/overlay",
+    "section": "Film and Scene Templates",
+    "description": "Official Remotion template page for overlay. Preview is the official OG PNG thumbnail only (no hotlinkable MP4). Template terms 待确认; Remotion runtime license separate. Do not copy the OG image into the catalog.",
+    "evidence_ids": [
+      "S-CV-055",
+      "S-CV-039",
+      "S-CV-097"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-overlay.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/overlay)",
+      "redistributable": false,
+      "source": "S-CV-097 https://www.remotion.dev/generated/template-overlay.png",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-three",
+    "project_id": "remotion",
+    "name": "Three.js Template",
+    "kind": "scene",
+    "url": "https://www.remotion.dev/templates/three",
+    "section": "Film and Scene Templates",
+    "description": "Official Remotion template page for three. Preview is the official OG PNG thumbnail only (no hotlinkable MP4). Template terms 待确认; Remotion runtime license separate. Do not copy the OG image into the catalog.",
+    "evidence_ids": [
+      "S-CV-055",
+      "S-CV-039",
+      "S-CV-097"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-three.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/three)",
+      "redistributable": false,
+      "source": "S-CV-097 https://www.remotion.dev/generated/template-three.png",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "remotion-music-visualization",
+    "project_id": "remotion",
+    "name": "Music Visualization Template",
+    "kind": "scene",
+    "url": "https://www.remotion.dev/templates/music-visualization",
+    "section": "Film and Scene Templates",
+    "description": "Official Remotion template page for music-visualization. Preview is the official OG PNG thumbnail only (no hotlinkable MP4). Template terms 待确认; Remotion runtime license separate. Do not copy the OG image into the catalog.",
+    "evidence_ids": [
+      "S-CV-055",
+      "S-CV-039",
+      "S-CV-097"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://www.remotion.dev/generated/template-music-visualization.png",
+      "license": "待确认",
+      "attribution": "Remotion (https://www.remotion.dev/templates/music-visualization)",
+      "redistributable": false,
+      "source": "S-CV-097 https://www.remotion.dev/generated/template-music-visualization.png",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-remix-firecrawl",
+    "project_id": "hyperframes",
+    "name": "Firecrawl Viral-Clone Remix",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/examples.mdx#L75",
+    "section": "Film and Scene Templates",
+    "description": "A HyperFrames showcase film hosted on HeyGen static CDN (viral-clone remix). The list link is this film's record in docs/examples.mdx; the MP4 stays on the CDN. Framework is Apache-2.0; the hosted MP4 redistribution is 待确认 — hotlink only, redistributable false. Not claimed as a local render test.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-098"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/desktop/viral-clone/remix-firecrawl-result.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-098 https://static.heygen.ai/hyperframes-oss/desktop/viral-clone/remix-firecrawl-result.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "hyperframes-remix-linear-loops",
+    "project_id": "hyperframes",
+    "name": "Linear Loops Viral-Clone Remix",
+    "kind": "film",
+    "url": "https://github.com/heygen-com/hyperframes/blob/main/docs/examples.mdx#L120",
+    "section": "Film and Scene Templates",
+    "description": "A HyperFrames showcase film hosted on HeyGen static CDN (viral-clone remix). The list link is this film's record in docs/examples.mdx; the MP4 stays on the CDN. Framework is Apache-2.0; the hosted MP4 redistribution is 待确认 — hotlink only, redistributable false. Not claimed as a local render test.",
+    "evidence_ids": [
+      "S-CV-031",
+      "S-CV-056",
+      "S-CV-098"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://static.heygen.ai/hyperframes-oss/desktop/viral-clone/remix-linear-loops-result.mp4",
+      "license": "待确认",
+      "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)",
+      "redistributable": false,
+      "source": "S-CV-098 https://static.heygen.ai/hyperframes-oss/desktop/viral-clone/remix-linear-loops-result.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "explainroo-how-explainroo-makes-a-video",
+    "project_id": "explainroo",
+    "name": "How explainroo Makes a Video",
+    "kind": "film",
+    "url": "https://www.explainroo.com/videos/how-explainroo-makes-a-video",
+    "section": "Film and Scene Templates",
+    "description": "Site-hosted explainroo meta-demo of the agent→script→render workflow. Repository is MIT; hosted MP4 treated as redistributable false (hotlink only).",
+    "evidence_ids": [
+      "S-CV-079",
+      "S-CV-099"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://www.explainroo.com/videos/how-explainroo-makes-a-video.mp4",
+      "license": "MIT",
+      "attribution": "explainroo",
+      "redistributable": false,
+      "source": "S-CV-099 https://www.explainroo.com/videos/how-explainroo-makes-a-video.mp4",
+      "checked_at": "2026-10-27"
+    }
+  },
+  {
+    "id": "revideo-scramble",
+    "project_id": "revideo",
+    "name": "ReVideo Scramble Template Preview",
+    "kind": "scene",
+    "url": "https://github.com/midrender/revideo/tree/main/packages/template",
+    "section": "Film and Scene Templates",
+    "description": "Animated GIF preview from the ReVideo (midrender) template package. MIT. GIF ≠ MP4 master; packages/examples/assets/example.mp4 is a tiny stub and was excluded.",
+    "evidence_ids": [
+      "S-CV-101",
+      "S-CV-100"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-27",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/template/scramble.gif",
+      "license": "MIT",
+      "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)",
+      "redistributable": true,
+      "source": "S-CV-100 https://raw.githubusercontent.com/midrender/revideo/main/packages/template/scramble.gif",
       "checked_at": "2026-10-27"
     }
   }
