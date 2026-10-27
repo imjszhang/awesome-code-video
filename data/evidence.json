@@ -801,5 +801,137 @@
     "reliability": "medium",
     "checked_at": "2026-10-27",
     "notes": "The community site returned HTML and hosts example videos. Those files were not extracted or copied. Demo ownership for redistribution is unconfirmed, and the page is a framework gallery rather than one curated film. This is not a local render test."
+  },
+  {
+    "id": "S-CV-074",
+    "project_id": "freelancer-templates",
+    "title": "Freelancer Templates — site CC-BY-NC-SA 4.0 terms",
+    "url": "https://freelancer-templates.org/#license",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "On 2026-10-27 the homepage license section stated that templates are CC-BY-NC-SA 4.0, for personal projects and noncommercial community use, with share-alike for remixes, and linked https://creativecommons.org/licenses/by-nc-sa/4.0/. A separate commercial license is offered at freelancer-automation.com. GitHub API license for linda-mhmd/freelancer-templates.org (repository id 1190396994) was null, and the repository file list had no root LICENSE. Do not treat the compositions or hero MP4s as free to mirror. Remotion runtime terms are separate. No render test."
+  },
+  {
+    "id": "S-CV-075",
+    "project_id": "freelancer-templates",
+    "title": "Freelancer Templates — eight composition sources",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/tree/main/src/remotion/templates",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Listed src/remotion/templates and read the Testimonial.tsx header, which documents theme and layout props including split. Confirmed composition files testimonial/Testimonial.tsx, proposal/Proposal.tsx, event/Event.tsx, explainer/Explainer.tsx, casestudy/CaseStudy.tsx, coursepromo/CoursePromo.tsx, recap/Recap.tsx, and tutorial/Tutorial.tsx. Library front matter names hero variants Testimonial-NeonSplit, Proposal-DarkExecutive, Event-NeonCountdown, Explainer-DarkCinematic, CaseStudy-NeonSpotlight, CoursePromo-DarkOverview, Recap-NeonTimeline, and Tutorial-DarkNumberedSteps. Did not install or render."
+  },
+  {
+    "id": "S-CV-076",
+    "project_id": "freelancer-templates",
+    "title": "Freelancer Templates — eight hero MP4 previews",
+    "url": "https://freelancer-templates.org/previews/hero/Testimonial-NeonSplit.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "HEAD and byte-range requests on 2026-10-27 returned 200 video/mp4 and an ftypisom header for Testimonial-NeonSplit, Proposal-DarkExecutive, Event-NeonCountdown, Explainer-DarkCinematic, CaseStudy-NeonSpotlight, CoursePromo-DarkOverview, Recap-NeonTimeline, and Tutorial-DarkNumberedSteps under https://freelancer-templates.org/previews/hero/. Files were not copied into this repository and were not rendered locally. Site terms are CC-BY-NC-SA 4.0 (S-CV-074), so redistributable is false."
+  },
+  {
+    "id": "S-CV-077",
+    "project_id": "rendercomp-free-remotion-templates",
+    "title": "RenderComp free Remotion templates — MIT license and six compositions",
+    "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "LICENSE is MIT, copyright 2026 Trimora Inc. README says the templates are MIT, ASSETS.md records no bundled fonts, images, audio, or video, and Remotion is licensed separately. Read the KpiCounter.tsx SPDX MIT header: FPS 30 and DURATION_FRAMES 120. Confirmed BarChartAnim.tsx, GlitchText.tsx, LogoBlurReveal.tsx, Typewriter.tsx, and RacingChart.tsx. README table documents their durations and frame sizes. Did not install or render."
+  },
+  {
+    "id": "S-CV-078",
+    "project_id": "rendercomp-free-remotion-templates",
+    "title": "RenderComp — six GitHub GIF previews",
+    "url": "https://github.com/RenderComp/free-remotion-templates/tree/main/docs/thumbs",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "Byte-range requests on 2026-10-27 returned GIF89a for docs/thumbs/kpi-counter.gif, bar-chart-anim.gif, glitch-text.gif, logo-blur-reveal.gif, typewriter.gif, and racing-chart.gif. These files are in the MIT repository. They were not copied here and were not rendered locally. They are animated GIF previews, not MP4 masters."
+  },
+  {
+    "id": "S-CV-079",
+    "project_id": "explainroo",
+    "title": "explainroo — MIT license",
+    "url": "https://github.com/vincentsch/explainroo/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "LICENSE is MIT, copyright 2026 Vincent Schmalbach. This covers the software in the repository. It does not by itself grant redistribution of MP4s hosted on explainroo.com."
+  },
+  {
+    "id": "S-CV-080",
+    "project_id": "explainroo",
+    "title": "explainroo — Unspar example and three site films without repo scenes",
+    "url": "https://github.com/vincentsch/explainroo/tree/main/examples",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "examples/unspar-demo contains script.md, scenes.js, and video.json (title Unspar, theme clean, size youtube). The examples directory has no folders for what-an-api-does, how-compound-interest-works, or chatgpt-demo. Those three URLs returned 200 text/html at https://www.explainroo.com/videos/<slug>/ on 2026-10-27, but no matching editable scene files were found in the repository tree. Do not describe those three films as included source. No install or render test."
+  },
+  {
+    "id": "S-CV-081",
+    "project_id": "explainroo",
+    "title": "explainroo — four site-hosted MP4s",
+    "url": "https://www.explainroo.com/videos/unspar-product-demo.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "Byte-range requests on 2026-10-27 returned ftypisom for unspar-product-demo.mp4, what-an-api-does.mp4, how-compound-interest-works.mp4, and chatgpt-demo.mp4 on www.explainroo.com. Files were not copied and were not rendered locally. They are site-hosted and not in the MIT repository, so redistributable is false."
+  },
+  {
+    "id": "S-CV-082",
+    "project_id": "zero-to-product-video-hero",
+    "title": "Zero to Product Video Hero — MIT example source",
+    "url": "https://github.com/specstoryai/zero-to-product-video-hero/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "LICENSE is MIT, copyright 2025 SpecStory, Inc. example/src/Root.tsx registers composition TnyDevMCP at 1920 by 1080, 30 fps, with a source comment of 30 seconds. The README also describes a longer hero narrative and a YouTube cut; that duration was not measured here. Remotion runtime license is separate. No install or render test."
+  },
+  {
+    "id": "S-CV-083",
+    "project_id": "zero-to-product-video-hero",
+    "title": "Zero to Product Video Hero — example/out/video.mp4",
+    "url": "https://github.com/specstoryai/zero-to-product-video-hero/blob/main/example/out/video.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-27",
+    "notes": "GitHub contents API reports size 2943907 for example/out/video.mp4. A byte-range request returned an ftypisom header; raw.githubusercontent.com labeled the body application/octet-stream. The file was not copied and was not rendered locally. Repository LICENSE is MIT; retain the notice. This is the committed example output, not a new local render."
+  },
+  {
+    "id": "S-CV-084",
+    "project_id": "remotion",
+    "title": "Remotion Prompt to Video — template page and repository",
+    "url": "https://www.remotion.dev/templates/prompt-to-video",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "The template page returned HTML and links to https://github.com/remotion-dev/template-prompt-to-video (repository id 1088278213, default branch main). That repository's GitHub license field was null on 2026-10-27, and the root listing had no LICENSE file. README describes a vertical story template that generates script, images, and voiceover with OpenAI and ElevenLabs. src/Root.tsx registers compositions from timeline.json files at 1080 by 1920. Template terms are 待确认. Remotion framework terms remain S-CV-055. No install or render test."
+  },
+  {
+    "id": "S-CV-085",
+    "project_id": "remotion",
+    "title": "Remotion Prompt to Video — official template thumbnail",
+    "url": "https://www.remotion.dev/generated/template-prompt-to-video.png",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-27",
+    "notes": "A byte-range request on 2026-10-27 returned a PNG header and content-type image/png. The image was not copied into this repository. It is a thumbnail for the template page, not a finished-film master. Template media terms are unconfirmed, so redistributable is false."
   }
 ]

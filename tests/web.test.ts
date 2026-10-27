@@ -33,7 +33,7 @@ test('all detail pages contain the source, reuse notes and review status in init
 test('shipped previews resolve from Batch A fields and missing ones stay editorial covers',()=>{
  const withPreview=resources.filter(r=>r.preview);
  const without=resources.filter(r=>!r.preview);
- assert.equal(withPreview.length,34);
+ assert.equal(withPreview.length,54);
  assert.equal(without.length,21);
  for(const resource of without){
   const resolved=resolvePreview(resource);
