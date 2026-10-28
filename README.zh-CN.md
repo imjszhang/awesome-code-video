@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 161 个可复用单元：99 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 169 个可复用单元：107 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -139,6 +139,21 @@
 - [1969 年报纸界面](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L28) - HyperFrames 首页展示卡片片（1969 年报纸界面）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
 - [背景移除发布](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L33) - HyperFrames 首页展示卡片片（VFX 背景移除发布）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
 
+
+下面 6 条是 nexu-io html-video 的原创模板，Apache-2.0。同一仓库里 heygen-com/hyperframes 示例的直接分叉没有收录。可播放预览热链自 Open Design 镜像，没有在本地渲染。
+
+- [故障标题帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-glitch-title) - HyperFrames 标题卡，带 RGB 错位、扫描线和色差。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0，与本清单里其他故障文字片段不是同一上游。复用 templates/frame-glitch-title，替换标题和副标题。规格默认 1920×1080、60 fps，时长可变，约 3 到 8 秒。可播放预览是 Open Design 镜像里的 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [报刊风数据图帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-data-chart-nyt) - 带衬线标题和描线的编辑风动态图表，是 html-video 的原创 Apache-2.0 模板。画面受报刊数据图启发，不是本清单已收 HyperFrames data-chart 块的分叉。复用 templates/frame-data-chart-nyt，替换标题和数据。规格默认 1920×1080、60 fps，时长可变，约 5 到 20 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [漏光电影帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-light-leak-cinema) - 带胶片颗粒和漏光叠层的电影感画面。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/frame-light-leak-cinema，替换标题。规格默认 1920×1080、60 fps，时长可变，约 4 到 10 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [液态背景主视觉](https://github.com/nexu-io/html-video/tree/main/templates/frame-liquid-bg-hero) - 流动液态渐变上的主视觉卡片，居中标题，可选行动号召。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/frame-liquid-bg-hero，替换文案。规格默认 1920×1080、60 fps，时长可变，约 4 到 12 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [Logo 结尾帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-logo-outro) - 结尾卡片：拼合 Logo、加辉光并露出品牌语。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/frame-logo-outro，替换品牌名和标语。规格默认 1920×1080、60 fps，时长可变，约 3 到 10 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [光标打字特效](https://github.com/nexu-io/html-video/tree/main/templates/vfx-text-cursor) - 带发光光标和光条的打字机画面。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/vfx-text-cursor，替换打出的文字。规格默认 1920×1080、60 fps，时长可变，约 3 到 10 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+
+下面两条是 Open Design 技能，交付的是 HTML 成片工程。目录预览是 example.html 页面，不是视频文件。
+
+- [8-bit 轨道 HyperFrames 视频模板](https://github.com/nexu-io/open-design/tree/main/skills/8-bit-orbit-video-template) - 复古像素、多场景的 HyperFrames HTML 技能。文档中的流程保持三个短场景，每段停留不超过 3 秒，源在 assets/template.html。仓库为 Apache-2.0。目录预览只有仓库内的 example.html 页面（嵌入），该目录没有提交 MP4。example.html 指向一份托管样片，做过 HEAD，但没有当作可播放的目录预览，也没有本地渲染测试。技能目录没有自带字体文件。
+- [阅读年报视频模板](https://github.com/nexu-io/open-design/tree/main/skills/weread-year-in-review-video-template) - 竖屏 9:16 的 HyperFrames 技能，做年度阅读报告（模板视口 1080×1920；技能说明写的是 12 个场景）。视觉受阅读应用年报界面启发。它不是微信读书或 WeRead 的官方模板，也不表示存在合作关系。复用 skills/weread-year-in-review-video-template。仓库 LICENSE 为 Apache-2.0；技能没有打包字体文件（只点名 Songti SC、PingFang SC 等系统中文字体），也没有单独的素材许可，因此这些条款仍未知。目录预览只有 example.html（嵌入）。技能目录没有提交 MP4。2026-10-28 仅做源码审阅，没有本地渲染测试。
+
 ## 参数化地图镜头
 
 以下示例来自 [map-motion](https://github.com/SpaceZephyr/map-motion)。复制 JSON 示例后修改坐标、路线、标签和时间配置，再按项目说明渲染。所选地图模式可能需要 API Key 或对应数据。
@@ -240,6 +255,7 @@
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - 将 HTML、CSS 和 JavaScript 动画制作成视频，适合网页技术栈与编程助手协作。
 - [Motion Canvas](https://motioncanvas.io/) - 用 TypeScript 编排动画，适合图解和讲解型视频。
 - [Manim Community](https://www.manim.community/) - 用 Python 制作数学与技术动画，适合公式、几何和概念推导；这里链接的是社区维护版。
+- [html-video](https://github.com/nexu-io/html-video) - 面向编程助手的 HTML 到本地 MP4 层，带模板库和统一渲染适配接口。目前真正接好的引擎是 HyperFrames（无头 Chromium 加 FFmpeg）；Remotion、Motion Canvas、Revideo、Manim 在文档里仍是路线图，这里不能当成已经可渲染。仓库为 Apache-2.0，文档写有 21 个模板；本清单只收这个框架和 NOTICE 标明的 6 个原创模板，不收 heygen-com/hyperframes 示例的直接分叉。预览是仓库 hero PNG（缩略图链接），按 Apache-2.0 热链。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
 ## 视频动效辅助工具
 

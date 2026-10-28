@@ -405,5 +405,33 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-27"
+  },
+  {
+    "id": "html-video",
+    "name": "html-video",
+    "url": "https://github.com/nexu-io/html-video",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1250822765,
+      "full_name": "nexu-io/html-video",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-28"
+  },
+  {
+    "id": "open-design",
+    "name": "Open Design",
+    "url": "https://github.com/nexu-io/open-design",
+    "aliases": [
+      "OpenDesign"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1223170290,
+      "full_name": "nexu-io/open-design",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-28"
   }
 ]

@@ -970,6 +970,161 @@
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
   },
   {
+    "resource_id": "html-video-frame-data-chart-nyt",
+    "source_url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-data-chart-nyt/preview.mp4",
+    "poster": "/previews/html-video-frame-data-chart-nyt.webp",
+    "timestamp_seconds": 2.088,
+    "duration_seconds": 5.966667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "4df9899dfdfc1e360ad606f7e0a99d896493729010a9552c4761836e9bd52325"
+      },
+      {
+        "start": 3028,
+        "end": 93915,
+        "sha256": "d8493272e3678c3e618458929e87dbc9f6f7edcbb523b35573bf9f82d8f18c97"
+      }
+    ],
+    "poster_sha256": "fc428c63710bdbc773b30f9cb3c5f6ce699b396f07d2c58e586551d3a6c1570b",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
+    "resource_id": "html-video-frame-glitch-title",
+    "source_url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-glitch-title/preview.mp4",
+    "poster": "/previews/html-video-frame-glitch-title.webp",
+    "timestamp_seconds": 2.31,
+    "duration_seconds": 6.6,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b32e9d1c4c0d42dfaca14a2714d98fcc651e77cd92267557f6ac0104c0a73929"
+      },
+      {
+        "start": 3256,
+        "end": 108630,
+        "sha256": "1801959cbe92566b0067e457dceb08963ca9470c042c81b8119627d309c8b2ba"
+      }
+    ],
+    "poster_sha256": "1f3c7851d9cfd44b6e5712d04b776a38f24b37d530eb4055f8854e2610ed2bb9",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
+    "resource_id": "html-video-frame-light-leak-cinema",
+    "source_url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-light-leak-cinema/preview.mp4",
+    "poster": "/previews/html-video-frame-light-leak-cinema.webp",
+    "timestamp_seconds": 1.738,
+    "duration_seconds": 4.966667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "58557ebdce30170604f088b16876a8d65c363fa42454a16bf69ab72bbe2a076f"
+      },
+      {
+        "start": 2668,
+        "end": 89348,
+        "sha256": "85399cc5cc379e91f0ce2c2e450c3d8dd4223930e8a4eccdb31c53f2d79cb0e9"
+      }
+    ],
+    "poster_sha256": "4b4c8e1ee38fc0f20103d09d95adc926072e4ae53c20ec7d59a2c4f956b8a2db",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
+    "resource_id": "html-video-frame-liquid-bg-hero",
+    "source_url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-liquid-bg-hero/preview.mp4",
+    "poster": "/previews/html-video-frame-liquid-bg-hero.webp",
+    "timestamp_seconds": 2.1,
+    "duration_seconds": 6.0,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "4283ad4e6a7d5489ff59453d7fe47dfc0097295e5b2860f62ac2dd2b92fa51d8"
+      },
+      {
+        "start": 3032,
+        "end": 265175,
+        "sha256": "df160f6c0d8c6f1f78877a194579e7b871be04ea8f074625dbb036b206307508"
+      },
+      {
+        "start": 265176,
+        "end": 371923,
+        "sha256": "ffc8928ab6776d4ff4963b3e1bb1598d9e25c2fa127d10fa41974ab5ab1cf5f9"
+      }
+    ],
+    "poster_sha256": "b199c59d9a7976aff09671a7691b961519f5b4cee3d6ed9fd46eed790a154a1d",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
+    "resource_id": "html-video-frame-logo-outro",
+    "source_url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-logo-outro/preview.mp4",
+    "poster": "/previews/html-video-frame-logo-outro.webp",
+    "timestamp_seconds": 1.038,
+    "duration_seconds": 2.966667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ac0fd8fb011915687e1ebb09412ab5548a65cbbfbe66f02381feb49da2b46423"
+      },
+      {
+        "start": 1932,
+        "end": 53921,
+        "sha256": "2afc68314680655341d112dfcb2207939f42ef2f3e099bae9f1e2bd583ee07d5"
+      }
+    ],
+    "poster_sha256": "b9a3bb177157a6d798f560206dc723729b8e9e1b422924da32611124ea494f48",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
+    "resource_id": "html-video-vfx-text-cursor",
+    "source_url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/vfx-text-cursor/preview.mp4",
+    "poster": "/previews/html-video-vfx-text-cursor.webp",
+    "timestamp_seconds": 2.088,
+    "duration_seconds": 5.966667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "138a6307fdd9302bf9b18dcdf326f8ac00b57978e55c5b19a9fc557c24fc5c02"
+      },
+      {
+        "start": 3028,
+        "end": 113801,
+        "sha256": "a6144c6b04a2826ff613b76cdb64a924b599cea543bf38b2b551cc8d36739ca3"
+      }
+    ],
+    "poster_sha256": "41e3f8e9eb852a598e4a53d6b7f28b6a8ca8137ac543e703e0bdb6c6b4f7b01c",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
     "resource_id": "hyperframes",
     "source_url": "https://static.heygen.ai/hyperframes-oss/docs/images/showcase/journey-introduction-v5-v2.mp4",
     "poster": "/previews/hyperframes.webp",
