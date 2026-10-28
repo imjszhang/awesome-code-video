@@ -326,3 +326,17 @@ test('GIF media must be image previews and retain redistribution metadata', () =
     assert.equal(catalog.resources[0].preview.redistributable, true);
   }
 });
+
+test('bundled poster paths are limited to the preview image directory', () => {
+  const catalog = fixture();
+  catalog.resources[0].preview = {
+    kind: 'video', url: 'https://film.example/demo.mp4', license: 'MIT', attribution: 'Film Lab',
+    redistributable: true, source: 'S-CV-001 https://film.example/demo.mp4', checked_at: '2026-10-27',
+    poster: '/previews/intro.webp',
+  };
+  assert.equal(validateCatalog(catalog).ok, true);
+  for (const poster of ['/previews/../secret.webp', '//example.com/frame.webp', '/previews/a.svg']) {
+    catalog.resources[0].preview.poster = poster;
+    assert.ok(validateCatalog(catalog).errors.some(error => error.includes('preview.poster')));
+  }
+});

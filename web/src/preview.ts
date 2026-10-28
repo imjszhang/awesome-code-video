@@ -23,7 +23,7 @@ export type PreviewCaption = (typeof PREVIEW_CAPTIONS)[number];
 export type ResourcePreview = {
   kind: PreviewKind;
   url: string;
-  /** Optional https image. Omitted when unknown; do not send null. */
+  /** Optional HTTPS image or bundled /previews/<resource-id>.webp. Omitted when unknown; do not send null. */
   poster?: string;
   license: string;
   attribution: string;
@@ -106,6 +106,12 @@ export function safePreviewUrl(value: unknown): string | null {
   return trimmed;
 }
 
+/** Bundled frame captures use a narrow path namespace; remote media still requires HTTPS. */
+export function safePreviewPoster(value: unknown): string | null {
+  if (typeof value === 'string' && /^\/previews\/[a-z0-9]+(?:-[a-z0-9]+)*\.webp$/.test(value)) return value;
+  return safePreviewUrl(value);
+}
+
 export function isCompletePreview(value: unknown): value is ResourcePreview {
   if (!value || typeof value !== 'object' || Array.isArray(value)) return false;
   const preview = value as Record<string, unknown>;
@@ -115,7 +121,7 @@ export function isCompletePreview(value: unknown): value is ResourcePreview {
   if (!isListed(PREVIEW_KINDS, preview.kind)) return false;
   if (!safePreviewUrl(preview.url)) return false;
   if (preview.kind === 'video' && /\.gif$/i.test(new URL(preview.url as string).pathname)) return false;
-  if (Object.hasOwn(preview, 'poster') && !safePreviewUrl(preview.poster)) return false;
+  if (Object.hasOwn(preview, 'poster') && !safePreviewPoster(preview.poster)) return false;
   if (!isNonEmpty(preview.license) || !isNonEmpty(preview.attribution) || !isNonEmpty(preview.source)) return false;
   if (typeof preview.redistributable !== 'boolean') return false;
   if (preview.redistributable === true && preview.kind === 'embed') return false;
@@ -140,7 +146,7 @@ export function resolvePreview(resource: { preview?: unknown } | null | undefine
     caption: label.caption,
     detail: label.detail,
     url: safePreviewUrl(preview.url),
-    poster: Object.hasOwn(preview, 'poster') ? safePreviewUrl(preview.poster) : null,
+    poster: Object.hasOwn(preview, 'poster') ? safePreviewPoster(preview.poster) : null,
     license: preview.license.trim(),
     attribution: preview.attribution.trim(),
     source: preview.source.trim(),

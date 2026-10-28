@@ -153,8 +153,11 @@ function validatePreview(preview, label, url, errors) {
     } catch { /* Invalid URLs are reported above. */ }
   }
   if (Object.hasOwn(preview, 'poster')) {
-    if (typeof preview.poster !== 'string' || !preview.poster.startsWith('https://')) errors.push(`${label}: preview.poster must be an https URL or be omitted.`);
-    else url(preview.poster, `${label} preview poster`);
+    const localPoster = typeof preview.poster === 'string' && /^\/previews\/[a-z0-9]+(?:-[a-z0-9]+)*\.webp$/.test(preview.poster);
+    if (!localPoster) {
+      if (typeof preview.poster !== 'string' || !preview.poster.startsWith('https://')) errors.push(`${label}: preview.poster must be an https URL, a bundled /previews/<id>.webp path, or be omitted.`);
+      else url(preview.poster, `${label} preview poster`);
+    }
   }
   for (const field of ['license', 'attribution', 'source']) {
     if (!TEXT(preview[field])) errors.push(`${label}: preview.${field} is required.`);
