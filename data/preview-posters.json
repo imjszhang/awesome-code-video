@@ -970,6 +970,111 @@
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
   },
   {
+    "resource_id": "gvp-desk-hologram-ar",
+    "source_url": "https://repo-assets.open-design.ai/resources/videos/prompt-templates/video-seedance-desk-hologram-ar-realdesk.mp4",
+    "poster": "/previews/gvp-desk-hologram-ar.webp",
+    "timestamp_seconds": 5.283,
+    "duration_seconds": 15.092971,
+    "source_width": 720,
+    "source_height": 1280,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d0bff703603ab57ef9dd6f947ddaa7516ddb0aa5f68a70ff68d2dcd5ff8d3860"
+      },
+      {
+        "start": 21722,
+        "end": 283865,
+        "sha256": "8c9fc9bd96faade9baa3bbae8bb8d9060cc351014e7b29e4babd206cb4bb50c1"
+      },
+      {
+        "start": 283866,
+        "end": 546009,
+        "sha256": "c293e9eb4d475e4813296a48a0b965b30628078bb9f5f293ca405dd4ded343ee"
+      },
+      {
+        "start": 546010,
+        "end": 808153,
+        "sha256": "096d0b2df8bccee0a474d1768c9cd7e1cdfe4088a5d83059f124dddf66bf6ef0"
+      },
+      {
+        "start": 808154,
+        "end": 1070297,
+        "sha256": "e92ec2428263bddff948627bc57dcdc49f9b28afd8c8ade7fdf98e4909dd15a0"
+      },
+      {
+        "start": 1070298,
+        "end": 1332441,
+        "sha256": "8c1444eac17a7bb3a7d768b225035add72164d8a2059596350669da95357d7a2"
+      },
+      {
+        "start": 1332442,
+        "end": 1594585,
+        "sha256": "7e97980fb7252a449c708f835f7b8cc3bc8205e25d66167af7677904fd4c6b6f"
+      },
+      {
+        "start": 1594586,
+        "end": 1856729,
+        "sha256": "1d901cd3805a1cc292bd9bde087b99b836a6c46ed0e20847f51f887091d1bacf"
+      },
+      {
+        "start": 1856730,
+        "end": 2118873,
+        "sha256": "4c2b46c47c5c395f63bc1dac3c9ee9aded319c257174a50293f1f6244b1ebbde"
+      },
+      {
+        "start": 2118874,
+        "end": 2381017,
+        "sha256": "c55324bd340338e6da9f9a6ae51bad24685951469d891fd677de5044882e39cb"
+      },
+      {
+        "start": 2381018,
+        "end": 2643161,
+        "sha256": "928cd053ace1c7a5f8a1bc9faf7978fda7e1c19d139a114ac855c776630af021"
+      },
+      {
+        "start": 2643162,
+        "end": 2905305,
+        "sha256": "acf1255c87543e8a9b305bb1af998c0818dd86e6e42f88656896f1b14c8be5d9"
+      },
+      {
+        "start": 2905306,
+        "end": 3167449,
+        "sha256": "458fffb6f692de6290e3de7991e979f2369f1ee8800be6d9a31601c7f2a177fc"
+      },
+      {
+        "start": 3167450,
+        "end": 3429593,
+        "sha256": "8217afee8ddce91426349a0c7c64e12a728d74ec0182625b7cf4c24b9ec67867"
+      },
+      {
+        "start": 3429594,
+        "end": 3691737,
+        "sha256": "04bed2a64992f834539cc26902749ea2f384a943a32e522e1075c885492dec45"
+      },
+      {
+        "start": 3691738,
+        "end": 3774151,
+        "sha256": "3880f93b928d6e65f57fd447ea18e7ed1443490d44d297d5bfb06a49ceb40aee"
+      },
+      {
+        "start": 8970866,
+        "end": 8970881,
+        "sha256": "87b6d2396891f23c0e9aa05b826eb7885d86c06ff6f1e1e6bb3e4b27c3a6acab"
+      },
+      {
+        "start": 8970866,
+        "end": 8983604,
+        "sha256": "bef3d3eb9c42d61d444afbff8473bfe3f580f9238383d8ed722a40c0ebe78525"
+      }
+    ],
+    "poster_sha256": "b21a64b605c9c61dc48261ffc61048032e1b580727a3dfb8a573f3ff66b00b0c",
+    "license": "Apache-2.0",
+    "attribution": "Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
     "resource_id": "html-video-frame-data-chart-nyt",
     "source_url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-data-chart-nyt/preview.mp4",
     "poster": "/previews/html-video-frame-data-chart-nyt.webp",

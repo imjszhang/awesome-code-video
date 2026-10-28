@@ -18,6 +18,7 @@
 - [视频制作框架](#视频制作框架)
 - [视频动效辅助工具](#视频动效辅助工具)
 - [制作工作流](#制作工作流)
+- [生成式视频提示词](#生成式视频提示词)
 - [相关清单](#相关清单)
 - [复用边界](#复用边界)
 
@@ -270,6 +271,21 @@
 - [llm-explain](https://github.com/Gohanwu42/llm-explain) - 讲解工作流，附 Python 与 FFmpeg 合成脚本，将本地静态图片、旁白和字幕合成 MP4 与同步 SRT，适合旁白驱动的概念图解。图片与音频需自行准备，再调整分镜清单。
 - [Remotion Agent Skills](https://github.com/remotion-dev/skills) - 官方编程助手指南，覆盖 Remotion 视频创建、预览与渲染，并提供字幕、地图和多媒体专项参考。适合自建 React 视频制作流程；视觉方向需自行设计，许可按 Remotion 条款核对。
 - [六层视频制作母提示词](https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ) - 中文文章提供完整制作提示词，覆盖交付物、创作权限、制作参数、视觉规则、核心创意和审片迭代。适合用编程助手制作科普或产品影片时拟定任务；替换主题、规格与创意方向。它是制作指令，不是固定画风或可执行成片工程。
+
+## 生成式视频提示词
+
+可直接复制的文生视频和图生视频提示词，附带来源文件里的模型标签。它们不计入上面的 169 个可复用单元。这不是可以克隆后渲染的 Remotion、HyperFrames 或 Shotcraft 工程。模型名只是上游标注，不代表换一个生成器会得到同样结果。2026-10-28 仅做源码审阅，没有本地渲染测试。
+
+- [A Decade of Refinement Glow-Up](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json) - 可复制的 Seedance 2.0 提示词，做 15 秒身份锁定的形象转变：同一个人从普通街景走到迪拜屋顶的黑西装镜头。适合作为参考图转变简报。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Maverick | AI（https://x.com/RizwanAly07/status/2048948726623056366）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Animation transfer and camera tracking prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json) - 很短的 Seedance 2.0 提示词：把参考行走套到角色上，同时镜头保持锁定。适合做不换机位的动作迁移。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Olivio Sarikas（https://x.com/OlivioSarikas/status/2049093762077630628）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Beat-Synced Outfit Transformation Dance](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/beat-synced-outfit-transformation-dance.json) - Seedance 2.0 提示词：参考舞蹈进行到一半时按节拍换装，再由第二个角色把剩余步伐跳完。适合带参考图的舞蹈剪辑。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Kashberg（https://x.com/Kashberg_0/status/2049074008730247669）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Character Intro Motion Graphics Sequence](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/character-intro-motion-graphics-sequence.json) - 带时间轴的 Seedance 2.0 提示词：三个参考角色依次入场，带界面标注，最后合成队伍标题。适合风格化的角色亮相。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 KANA（https://x.com/KanaWorks_AI/status/2049281443956974029）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Cinematic Route Navigation Guide](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-route-navigation-guide.json) - Seedance 2.0 提示词：5 秒步行路线引导，同一位向导，起始帧用街景图。场景序号和下一步方向是占位符。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Michael Guo（https://x.com/Michaelzsguo/status/2048966649982669053）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Cinematic Street Racing Sequence for Seedance 2](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-street-racing-sequence-for-seedance-2.json) - 多镜头 Seedance 2.0 提示词：夜间街头赛车，包括驾驶员特写、氮气按钮和湿沥青上的低机位加速。适合作为电影感追逐简报。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Pierrick Chevallier | IA（https://x.com/CharaspowerAI/status/2039651574297792688）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Modern Rural Aesthetics Healing Short Film Video Prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/modern-rural-aesthetics-healing-short-film-video-prompt.json) - 三镜头 Seedance 2.0 提示词：明亮农舍里的烹饪短片，包括清晨采摘、刀工和安静用餐。适合平静的食物与生活方式片段。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 John（https://x.com/johnAGI168/status/2021818021354848258）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Nightclub Flyer Atmospheric Animation](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/nightclub-flyer-atmospheric-animation.json) - Seedance 2.0 提示词：夜店海报上的人物和文字保持锁定，只让烟雾、轮廓光和闪光移动。JSON 的 aspect 是 16:9，提示词正文另写了 4:5。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Nash Deen（https://x.com/DeenNash_Fu/status/2048912067361452121）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Toaster Rocket Jumpscare](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/toaster-rocket-jumpscare.json) - Seedance 2.0 提示词：手持家庭录像风格，烤面包机把面包弹到天花板，老人被吓到。上游 prompt 字段把同一段话重复了两遍，本条按原文保留。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Marin（https://x.com/MarinMethod/status/2049140113343394003）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Desk Hologram AR on Real Workspace](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/video-seedance-desk-hologram-ar-realdesk.json) - Apache-2.0 的 Seedance 2.0 提示词：竖屏桌面全息，一个全息角色站在真实的开发者键盘上，先锁定静帧再做成约 15 秒的单镜头。源提示词 3877 个字符，本条只收开头段落和文中标明的负面提示。Open Design / nexu-io（https://github.com/nexu-io/open-design）。模型名只是上游标注。预览是 Open Design 托管的 MP4。没有本地渲染测试。
 
 ## 相关清单
 

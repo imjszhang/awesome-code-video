@@ -1928,5 +1928,295 @@
         "reason": "Official examples expose Python implementations. Select specific scenes and document adaptation requirements before adding entries; the framework is already listed."
       }
     ]
+  },
+  {
+    "id": "C-0b3721b32b82",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json",
+    "name": "A Decade of Refinement Glow-Up",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-decade-glow-up",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-002",
+      "S-GVP-012"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-c03e3ac8a8c8",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json",
+    "name": "Animation transfer and camera tracking prompt",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-anim-transfer-cam-track",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-003",
+      "S-GVP-013"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-b082e4176252",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/beat-synced-outfit-transformation-dance.json",
+    "name": "Beat-Synced Outfit Transformation Dance",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-beat-synced-outfit-dance",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-004",
+      "S-GVP-014"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-6006fef03e2f",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/character-intro-motion-graphics-sequence.json",
+    "name": "Character Intro Motion Graphics Sequence",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-character-intro-mogra",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-005",
+      "S-GVP-015"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-2b8b1ba0adcc",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-route-navigation-guide.json",
+    "name": "Cinematic Route Navigation Guide",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-route-navigation-guide",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-006",
+      "S-GVP-016"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-7172e9c58f9f",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-street-racing-sequence-for-seedance-2.json",
+    "name": "Cinematic Street Racing Sequence for Seedance 2",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-street-racing-cinematic",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-007",
+      "S-GVP-017"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-f7dbf494dced",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/modern-rural-aesthetics-healing-short-film-video-prompt.json",
+    "name": "Modern Rural Aesthetics Healing Short Film Video Prompt",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-modern-rural-healing",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-008",
+      "S-GVP-018"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-3289bbfc96d5",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/nightclub-flyer-atmospheric-animation.json",
+    "name": "Nightclub Flyer Atmospheric Animation",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-nightclub-flyer-atmos",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-009",
+      "S-GVP-019"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-56ab2dad1f7c",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/toaster-rocket-jumpscare.json",
+    "name": "Toaster Rocket Jumpscare",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-toaster-rocket-jumpscare",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-010",
+      "S-GVP-020"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-099049e2e5bc",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/video-seedance-desk-hologram-ar-realdesk.json",
+    "name": "Desk Hologram AR on Real Workspace",
+    "status": "accepted",
+    "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested.",
+    "resource_id": "gvp-desk-hologram-ar",
+    "evidence_ids": [
+      "S-CV-127",
+      "S-GVP-011",
+      "S-GVP-021"
+    ],
+    "created_at": "2026-10-28T07:55:00.000Z",
+    "updated_at": "2026-10-28T08:05:00.000Z",
+    "history": [
+      {
+        "at": "2026-10-28T07:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-28T08:05:00.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
+      }
+    ]
   }
 ]
