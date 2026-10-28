@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 150 个可复用单元：98 个成片或场景工程、6 个地图镜头、28 个镜头配方、18 个风格文件。2026-10-27 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 156 个可复用单元：99 个成片或场景工程、6 个地图镜头、31 个镜头配方、20 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -65,21 +65,21 @@
 - [幕后：深色场景卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx) - 用于过程走查和场景卡片的 Remotion 幕后成片，列出的主预览变体是 Dark Scene Cards。复用 BehindTheScenes.tsx，替换场景和收尾文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [提案：大胆路演](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L113) - 用于范围、时间线和报价演示的 Remotion 提案成片。通过 Bold Pitch 展示导出复用 Proposal.tsx，该导出使用 bold 主题和 pitch 版式。替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [提案：霓虹路演](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L128) - 用于范围、时间线和报价演示的 Remotion 提案成片。通过 Neon Pitch 展示导出复用 Proposal.tsx，该导出使用 neon 主题和 pitch 版式。替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
-- [KPI 计数器](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx) - 独立的 Remotion 场景，在错开的卡片上滚动 KPI 数字。README 写明 1920×1080、4 秒，KpiCounter.tsx 为 30 fps、120 帧。复用组件和类型化参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [KPI 计数器](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx) - 独立的 Remotion 场景，在错开的卡片上滚动 KPI 数字。README 写明 1920×1080、4 秒，KpiCounter.tsx 为 30 fps、120 帧。复用组件和类型化参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [生长柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx) - 独立的 Remotion 场景，柱形按数据序列生长。README 写明 1920×1080、5 秒。复用 BarChartAnim.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [故障文字](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/glitch-text/GlitchText.tsx) - 独立的 Remotion 标题场景，故障文字先错位再稳定。README 写明 1920×1080、4 秒。复用 GlitchText.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [故障文字](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/glitch-text/GlitchText.tsx) - 独立的 Remotion 标题场景，故障文字先错位再稳定。README 写明 1920×1080、4 秒。复用 GlitchText.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [Logo 虚化揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-blur-reveal/LogoBlurReveal.tsx) - 独立的 Remotion 场景，Logo 从虚化中变清晰。README 写明 1920×1080、4 秒。复用 LogoBlurReveal.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [打字机](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/typewriter/Typewriter.tsx) - 独立的方形 Remotion 场景，带光标逐字打出文案。README 写明 1080×1080、约 3.3 秒。复用 Typewriter.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [竞速柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/racing-chart/RacingChart.tsx) - 独立的 Remotion 场景，柱形随数值变化重新排序。README 写明 1920×1080、7 秒。复用 RacingChart.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [竞速柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/racing-chart/RacingChart.tsx) - 独立的 Remotion 场景，柱形随数值变化重新排序。README 写明 1920×1080、7 秒。复用 RacingChart.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [星空](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/starfield/Starfield.tsx) - 独立的 Remotion 场景，星星如慢速曲速飞行般掠过。README 写明 1920×1080、5 秒，Starfield.tsx 为 30 fps、150 帧。复用 Starfield.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [社交短片画框](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/social-reel/SocialReel.tsx) - 独立的 Remotion 场景，用账号、说明和进度条组成短片式画框。README 写明 1920×1080、5 秒，SocialReel.tsx 为 30 fps、150 帧。复用 SocialReel.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [Logo 描边绘制](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-stroke-draw/LogoStrokeDraw.tsx) - 独立的 Remotion 场景，先描出 Logo 轮廓再填充。README 写明 1920×1080、3.67 秒，LogoStrokeDraw.tsx 为 30 fps、110 帧。复用 LogoStrokeDraw.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [社交短片画框](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/social-reel/SocialReel.tsx) - 独立的 Remotion 场景，用账号、说明和进度条组成短片式画框。README 写明 1920×1080、5 秒，SocialReel.tsx 为 30 fps、150 帧。复用 SocialReel.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
+- [Logo 描边绘制](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-stroke-draw/LogoStrokeDraw.tsx) - 独立的 Remotion 场景，先描出 Logo 轮廓再填充。README 写明 1920×1080、3.67 秒，LogoStrokeDraw.tsx 为 30 fps、110 帧。复用 LogoStrokeDraw.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [动态文字堆叠](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kinetic-word-stack/KineticWordStack.tsx) - 独立的 Remotion 场景，词语冲入并堆成一块。README 写明 1920×1080、4 秒，KineticWordStack.tsx 为 30 fps、120 帧。复用 KineticWordStack.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [霓虹招牌闪烁](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/neon-sign/NeonSign.tsx) - 独立的方形 Remotion 场景，文字像霓虹灯管一样闪烁点亮。README 写明 1080×1080、约 3.33 秒，NeonSign.tsx 为 30 fps、100 帧。复用 NeonSign.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [霓虹招牌闪烁](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/neon-sign/NeonSign.tsx) - 独立的方形 Remotion 场景，文字像霓虹灯管一样闪烁点亮。README 写明 1080×1080、约 3.33 秒，NeonSign.tsx 为 30 fps、100 帧。复用 NeonSign.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [烟花爆发](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/fireworks-burst/FireworksBurst.tsx) - 独立的方形 Remotion 场景，烟花按节奏绽开。README 写明 1080×1080、3.67 秒，FireworksBurst.tsx 为 30 fps、110 帧。复用 FireworksBurst.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [生长折线图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/line-chart-anim/LineChartAnim.tsx) - 独立的 Remotion 场景，折线沿坐标轴画向数据序列。README 写明 1920×1080、5 秒，LineChartAnim.tsx 为 30 fps、150 帧。复用 LineChartAnim.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [乱码揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/scramble-text/ScrambleText.tsx) - 独立的 Remotion 标题场景，字符先随机跳动再锁定成标题。README 写明 1920×1080、5 秒，ScrambleText.tsx 为 30 fps、150 帧。复用 ScrambleText.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [散景循环](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bokeh-circles/BokehCircles.tsx) - 独立的 Remotion 场景，失焦光斑循环漂动。README 写明 1920×1080、5 秒，BokehCircles.tsx 为 30 fps、150 帧。复用 BokehCircles.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [散景循环](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bokeh-circles/BokehCircles.tsx) - 独立的 Remotion 场景，失焦光斑循环漂动。README 写明 1920×1080、5 秒，BokehCircles.tsx 为 30 fps、150 帧。复用 BokehCircles.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [网格波浪循环](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/loop-grid-wave/LoopGridWave.tsx) - 独立的 Remotion 场景，点阵按波浪起伏循环。README 写明 1920×1080、3 秒，LoopGridWave.tsx 为 30 fps、90 帧。复用 LoopGridWave.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [像素 K 线](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-candlestick-ohlc/PixelCandlestickOhlc.tsx) - 独立的 Remotion 场景，用复古像素 K 线播放价格数据。README 写明 1920×1080、6 秒，PixelCandlestickOhlc.tsx 为 30 fps、180 帧。复用 PixelCandlestickOhlc.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [像素马赛克转场](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-mosaic-transition/PixelMosaicTransition.tsx) - 独立的 Remotion 场景，画面先碎成像素块再重新拼合。README 写明 1920×1080、3 秒，PixelMosaicTransition.tsx 为 30 fps、90 帧。复用 PixelMosaicTransition.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
@@ -95,13 +95,13 @@
 - [Logo 遮罩擦除](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-mask-wipe/LogoMaskWipe.tsx) - 独立的 Remotion 场景，斜向遮罩擦过，露出 Logo。README 写明 1920×1080、约 3.33 秒，LogoMaskWipe.tsx 为 30 fps、100 帧。复用 LogoMaskWipe.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [片尾卡](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/end-card/EndCard.tsx) - 独立的 Remotion 场景，片尾卡留有行动号召和链接位置。README 写明 1920×1080、5 秒，EndCard.tsx 为 30 fps、150 帧。复用 EndCard.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [卡片翻转](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/card-flip-transition/CardFlipTransition.tsx) - 独立的 Remotion 场景，整帧像卡片一样翻到下一场。README 写明 1920×1080、4 秒，CardFlipTransition.tsx 为 30 fps、120 帧。复用 CardFlipTransition.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [雪花粒子](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/particle-snow/ParticleSnow.tsx) - 独立的方形 Remotion 场景，分层雪花缓缓落下。README 写明 1080×1080、5 秒，ParticleSnow.tsx 为 30 fps、150 帧。复用 ParticleSnow.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [雪花粒子](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/particle-snow/ParticleSnow.tsx) - 独立的方形 Remotion 场景，分层雪花缓缓落下。README 写明 1080×1080、5 秒，ParticleSnow.tsx 为 30 fps、150 帧。复用 ParticleSnow.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [四色标题](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/four-tone-mono-titler/FourToneMonoTitler.tsx) - 独立的 Remotion 场景，标题块在四种色调间切换。README 写明 1920×1080、4 秒，FourToneMonoTitler.tsx 为 30 fps、120 帧。复用 FourToneMonoTitler.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [Logo 弹落](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-bounce-drop/LogoBounceDrop.tsx) - 独立的 Remotion 场景，Logo 落下后以弹跳稳住。README 写明 1920×1080、3 秒，LogoBounceDrop.tsx 为 30 fps、90 帧。复用 LogoBounceDrop.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [滑动擦除](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/slide-wipe/SlideWipe.tsx) - 独立的 Remotion 场景，定向滑动把旧画面推出。README 写明 1920×1080、4 秒，SlideWipe.tsx 为 30 fps、120 帧。复用 SlideWipe.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [滑动擦除](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/slide-wipe/SlideWipe.tsx) - 独立的 Remotion 场景，定向滑动把旧画面推出。README 写明 1920×1080、4 秒，SlideWipe.tsx 为 30 fps、120 帧。复用 SlideWipe.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [圆形擦除](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/transition-circle-wipe/TransitionCircleWipe.tsx) - 独立的 Remotion 场景，圆形从中心扩大并替换画面。README 写明 1920×1080、3 秒，TransitionCircleWipe.tsx 为 30 fps、90 帧。复用 TransitionCircleWipe.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [墨水扩散](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/ink-spread-transition/InkSpreadTransition.tsx) - 独立的 Remotion 场景，墨渍扩散铺满画面并进入下一场。README 写明 1920×1080、4 秒，InkSpreadTransition.tsx 为 30 fps、120 帧。复用 InkSpreadTransition.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [章节标题卡](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/chapter-title/ChapterTitle.tsx) - 独立的 Remotion 场景，用于段落切换的编号章节卡。README 写明 1920×1080、5 秒，ChapterTitle.tsx 为 30 fps、150 帧。复用 ChapterTitle.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [章节标题卡](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/chapter-title/ChapterTitle.tsx) - 独立的 Remotion 场景，用于段落切换的编号章节卡。README 写明 1920×1080、5 秒，ChapterTitle.tsx 为 30 fps、150 帧。复用 ChapterTitle.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [文字遮罩揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/text-mask-reveal/TextMaskReveal.tsx) - 独立的 Remotion 场景，文字从遮罩线后向上滑出。README 写明 1920×1080、3.67 秒，TextMaskReveal.tsx 为 30 fps、110 帧。复用 TextMaskReveal.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [Unspar 产品演示](https://github.com/vincentsch/explainroo/tree/main/examples/unspar-demo) - explainroo 产品演示示例，含 script.md、scenes.js 和 video.json，为干净的 YouTube 尺寸 Unspar 走查。复用该示例结构，替换产品、品牌和脚本。仓库为 MIT，但站点托管的 MP4 不在仓库内，不标记为可再分发。
 - [API 做什么](https://www.explainroo.com/videos/what-an-api-does) - explainroo 已发布的 API 讲解示例页，配有站点托管 MP4。公开 examples 目录没有该 slug 的 script.md 或 scenes.js，应改编 explainroo 工作流，不要把成片当成已包含的源码。仓库为 MIT；托管 MP4 不标记为可再分发。
@@ -126,6 +126,7 @@
 - [从 Remotion 到 HyperFrames](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L58) - HyperFrames 首页展示片（从 Remotion 到 HyperFrames / 3D 体素）。使用 HeyGen CDN 的 card/ MP4。不可再分发，只热链。不是本地渲染测试。
 - [最后的饭团](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L31) - HyperFrames 首页展示片（漫画）。使用 HeyGen CDN 的 card/ MP4。不可再分发，只热链。不是本地渲染测试。
 - [ReVideo 字符扰乱模板预览](https://github.com/midrender/revideo/tree/main/packages/template) - 来自 ReVideo（midrender）模板包的 GIF 动画预览。MIT。GIF 不是 MP4 成片；packages/examples/assets/example.mp4 只是很小的占位文件，未收录。
+- [ReVideo 示例包预览](https://github.com/midrender/revideo/tree/main/packages/examples) - MIT 许可的 ReVideo 示例包，packages/examples/assets 下有一条可热链的小 MP4。与已收录的 scramble.gif 模板预览不是同一素材。
 
 - [这段素材能否写成代码](https://github.com/motion-canvas/examples/tree/master/examples/asset-code) - Motion Canvas 官方示例（Could This Asset Be Code）。源码在 motion-canvas/examples（MIT）。预览是 README 中的 YouTube 嵌入，不可再分发。
 - [Motion Canvas 一周年](https://github.com/motion-canvas/examples/tree/master/examples/anniversary) - Motion Canvas 官方周年示例。源码在 motion-canvas/examples（MIT）。预览是 YouTube 嵌入，不可再分发。
@@ -195,6 +196,9 @@
 - [代码产品 API 响应](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/code-product-demos-api-response.mp4) - Remotion 模板静音预览（代码产品 API 响应）。许可待确认，不可再分发，只热链。
 - [浏览器地址栏缩放](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/browser-chrome-address-bar-zoom.mp4) - Remotion 模板静音预览（浏览器地址栏缩放）。许可待确认，不可再分发，只热链。
 - [光标点击涟漪](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cursor-demos-click-ripple.mp4) - Remotion 模板静音预览（光标点击涟漪）。许可待确认，不可再分发，只热链。
+- [Logo 片头 — 极光绽放](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/logo-sting-aurora-bloom.mp4) - ali-abassi/remotion-templates 中 logo-sting 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [下三分之一 — 横条](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/lower-third-bar-rule.mp4) - ali-abassi/remotion-templates 的静音下三分之一短环预览。相对已收录的数据可视化、代码、浏览器和光标家族，这是新的家族。
+- [等距场景 — 应用生态](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/isometric-scenes-app-ecosystem.mp4) - ali-abassi/remotion-templates 的静音等距场景短环预览。本批只增加这一家族，不灌入其余约 990 条预览。
 
 ## 视觉风格文件
 
@@ -220,6 +224,8 @@
 | [全息 HUD](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hologram-hud/STYLE.md) | 全息 HUD 风格说明与样片；演示片 CC BY 4.0，署名 LemoLab | 界面与数据演示 |
 | [浮世绘](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ukiyoe/STYLE.md) | 浮世绘风格说明与样片；演示片 CC BY 4.0，署名 LemoLab | 文化风格短片 |
 | [装饰艺术](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/art-deco/STYLE.md) | 装饰艺术风格说明与样片；演示片 CC BY 4.0，署名 LemoLab | 品牌与风格短片 |
+| [积木玩具](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/brick-toy) | 乐高积木玩具视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 玩具、产品与趣味短片 |
+| [孔版印刷](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/risograph) | Risograph 孔版印刷视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 印刷、海报与独立出版风格短片 |
 
 ## 视频制作框架
 

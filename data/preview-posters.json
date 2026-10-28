@@ -1415,6 +1415,36 @@
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
   {
+    "resource_id": "lemo-opuscar-brick-toy",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/brick-toy.mp4",
+    "poster": "/previews/lemo-opuscar-brick-toy.webp",
+    "timestamp_seconds": 18.906,
+    "duration_seconds": 54.016,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "0d2b16f4edc52f46225b2ae847712f4ca434e85db0a44517b59951a55d137891"
+      },
+      {
+        "start": 1636880,
+        "end": 1899023,
+        "sha256": "f0d8edd43bfd7aea00a4198f4d2d098eac8b07dbca70024f67ba3f326dddd6b4"
+      },
+      {
+        "start": 1899024,
+        "end": 1992811,
+        "sha256": "a746d160943b2e17ee37eb763edd0f2324ab22c58e064054416374fd109f5383"
+      }
+    ],
+    "poster_sha256": "776767ace3bcacf780d3208816c3fe06af05221605ce2f42ca7604635ef78045",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
     "resource_id": "lemo-opuscar-caption-news",
     "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/caption-news.mp4",
     "poster": "/previews/lemo-opuscar-caption-news.webp",
@@ -1676,6 +1706,66 @@
       }
     ],
     "poster_sha256": "a8fbe159eda579be832fdaa29602ee278cb6e14c26c5721b6b0f38980ffc9bcd",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-risograph",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/risograph.mp4",
+    "poster": "/previews/lemo-opuscar-risograph.webp",
+    "timestamp_seconds": 14.0,
+    "duration_seconds": 40.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d18892fa0559897b8c09484ae6a0889f06bb16de50b14e0f7a2626d85204394c"
+      },
+      {
+        "start": 2002226,
+        "end": 2264369,
+        "sha256": "8b284c18d901a06b6cc708095afe64c6cf2622820c0cdaefd94786fcd5519c1b"
+      },
+      {
+        "start": 2264370,
+        "end": 2526513,
+        "sha256": "3b8ac591e5500f578cba0c493072ea49d3fcdf122f613e9f198b468ab089bbe7"
+      },
+      {
+        "start": 2526514,
+        "end": 2788657,
+        "sha256": "193ff5ea8308836b331e7eb7d3f2d4591e70cb2225272f9b4c980e46a83f0000"
+      },
+      {
+        "start": 2788658,
+        "end": 3050801,
+        "sha256": "290a2cfe2dcabc08519ab422f407aefbb1bf83dbcbf9d73e7ac27e0fb7f06558"
+      },
+      {
+        "start": 3050802,
+        "end": 3312945,
+        "sha256": "0d0cae1d4b915dd3d97a419dfa9bdbe5fe0c8d06aad1022c6992eff0431f4ef5"
+      },
+      {
+        "start": 3312946,
+        "end": 3575089,
+        "sha256": "05f5bf0a7a2fa4720f8a41d96792e1dba198db8eecf521b3d2d009f983ea95b6"
+      },
+      {
+        "start": 3575090,
+        "end": 3837233,
+        "sha256": "badeb3388b049be14e99c4e246224bf68f9e2e6a817f32f1f0c192f5eec3eeec"
+      },
+      {
+        "start": 3837234,
+        "end": 3852666,
+        "sha256": "4da051c5f81cc3c6c38b26f3cef1ccfde7ff99988601a07bba8743ae036bc97e"
+      }
+    ],
+    "poster_sha256": "da40f0f90ec4dd73a1e6f86a0c0e0f724aca812648df8684b44cc28b8c29664c",
     "license": "CC BY 4.0",
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
@@ -2063,6 +2153,396 @@
     "poster_sha256": "518c5b5dd56a7a1a1197cb16713d35071a9565cdea05fc6113479c54e86329b1",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-isometric-app",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/isometric-scenes-app-ecosystem.mp4",
+    "poster": "/previews/remotion-templates-isometric-app.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 37112,
+        "sha256": "94cd02e8cf2b9e5511f417b450405c3b7c4897c4fce226472dc8d5f9513c8071"
+      },
+      {
+        "start": 2411,
+        "end": 29362,
+        "sha256": "5a36fae56c9d780f9d9de135d728b3253da171baf188aa8b099449a875e975ad"
+      }
+    ],
+    "poster_sha256": "c0ef384abaa63503f1fe939b14bd7fdf6103509ffc3483eab32d4243f287ee4a",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-logo-sting-aurora",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/logo-sting-aurora-bloom.mp4",
+    "poster": "/previews/remotion-templates-logo-sting-aurora.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 29984,
+        "sha256": "f031a475606aca9a7292d8cd7d100a51a766c78692f0d2330fa412db269f5c31"
+      },
+      {
+        "start": 2467,
+        "end": 23360,
+        "sha256": "354fa0089f9c7fc352445adb424ea9fe7e827ce6ffeedb1a3ae76ba9c72e090e"
+      }
+    ],
+    "poster_sha256": "c22ccad3f7178c4a8d5f944908eace100588b38ec9d40144fce059e6b78382e4",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-lower-third-bar",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/lower-third-bar-rule.mp4",
+    "poster": "/previews/remotion-templates-lower-third-bar.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 11897,
+        "sha256": "0b19cbd89db576dd5c9e3f27156250b2d847b229c25bb51c90fc414e820f538e"
+      },
+      {
+        "start": 2467,
+        "end": 9710,
+        "sha256": "5828810ce2014e46b11fd67e528c034f4fc326b3085d176609dd06e69bad180f"
+      }
+    ],
+    "poster_sha256": "9da347864481726116632062a7cdf17a6c6bd47e06ff99e8022428bc2106a6aa",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-bokeh-circles",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/bokeh-circles.mp4",
+    "poster": "/previews/rendercomp-bokeh-circles.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f81702eff1c78174661f77342054c045818cbf917eef032bd727de7a2de562ac"
+      },
+      {
+        "start": 7427,
+        "end": 269570,
+        "sha256": "c6d0d72a303ee14c69752f136d6a570a6e26a5479f58d7b151aa9fd343a66885"
+      },
+      {
+        "start": 269571,
+        "end": 531714,
+        "sha256": "a994007d3770190ca03efb7861cad9ff5e28a99b0628c482d260550017008e70"
+      },
+      {
+        "start": 531715,
+        "end": 744463,
+        "sha256": "9da5d4c3ca65b181e9561db02ddb2f253975a0a7bf77074ee07ec65b3fe3aed3"
+      }
+    ],
+    "poster_sha256": "f98c91006a92891f47b9b8c79518c4829fb8fe4efb2858aac4a1adc9b6c8e83e",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-chapter-title",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/chapter-title.mp4",
+    "poster": "/previews/rendercomp-chapter-title.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "793803dd5f36bea1938679315969c645c275c12c82ce67089589fc85cb2f0ca1"
+      },
+      {
+        "start": 7283,
+        "end": 269426,
+        "sha256": "de20ae85d0e83561bff3d63520346719dfc68dcdc8f41d7aa3e871c06d034066"
+      },
+      {
+        "start": 269427,
+        "end": 277735,
+        "sha256": "84b3b437eee48ddbad56a94eebed85ae188dff41aecc905f6c82fc2665634ed3"
+      }
+    ],
+    "poster_sha256": "abfbf604a5ad6149e19ffcd7676928aaf0e9187339ec937c0db6c8b07f856aac",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-glitch-text",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/glitch-text.mp4",
+    "poster": "/previews/rendercomp-glitch-text.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "616f65a7f243e0be060aa62b1ab8a3daa50b3046974dd9631c3f2817e1a3044a"
+      },
+      {
+        "start": 6279,
+        "end": 268422,
+        "sha256": "5ab45cac0c55be9adaadacfb77e2b527737ba63938ab1813d1018da39a894ad5"
+      },
+      {
+        "start": 268423,
+        "end": 530566,
+        "sha256": "eac18290e89cc586416d2cb2c5425e5a1a8b51cc244d84d940c70a1ecca8fcb5"
+      },
+      {
+        "start": 530567,
+        "end": 760923,
+        "sha256": "c91261c33d8f8beec925fc5f7f552c4de57e1b5e9b6391595bb0c9025215869e"
+      }
+    ],
+    "poster_sha256": "1abb4fb8fc54d043d6d28bf94d7536d831e80d981b4e8340ec114c46dbe6a525",
+    "license": "MIT",
+    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-kpi-counter",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/kpi-counter.mp4",
+    "poster": "/previews/rendercomp-kpi-counter.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8b624256019ca69580111613bf2323c1cd0e700aedd64121401ade10f90e9651"
+      },
+      {
+        "start": 6271,
+        "end": 268414,
+        "sha256": "d647310fc1c74667afb7306b532ac30ee9f09d21f9d8fd07b1ec08e97362ff69"
+      },
+      {
+        "start": 268415,
+        "end": 340315,
+        "sha256": "b81363c0be369aa3a434110c7b8cc83d24b02d85fd11e84051df0c9707ceb9b0"
+      }
+    ],
+    "poster_sha256": "1f850879728123cc64d6921470b3bc8dc3121d5f997f0bacfebe618e93a66d21",
+    "license": "MIT",
+    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-logo-stroke-draw",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-stroke-draw.mp4",
+    "poster": "/previews/rendercomp-logo-stroke-draw.webp",
+    "timestamp_seconds": 1.299,
+    "duration_seconds": 3.712,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fe03de331563b57e07a14e2423e534b3e879d5425044ca5d1029f2a23f992832"
+      },
+      {
+        "start": 5883,
+        "end": 257322,
+        "sha256": "7f1bdc7497f4623e89293fc49292181ee680c3d356518c5773611076999ae433"
+      }
+    ],
+    "poster_sha256": "9f2e828673f7593ea0c51f2f365e711cfa5d925cb568a0be1e6a9f5f867625e3",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-neon-sign",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/neon-sign.mp4",
+    "poster": "/previews/rendercomp-neon-sign.webp",
+    "timestamp_seconds": 1.187,
+    "duration_seconds": 3.392,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b134ad9cb914879f4d725d2c8d94928ea78d891eb62913f40f55445920e8fb70"
+      },
+      {
+        "start": 5569,
+        "end": 145194,
+        "sha256": "19299c99a6eb823aeb8309e4e999400dcce1eaf8bb24d316cb1ef92bf80c09aa"
+      }
+    ],
+    "poster_sha256": "fafd6a767b30c19257a7693d59e6df52a6726742ca197a06df2151ace694603c",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-particle-snow",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/particle-snow.mp4",
+    "poster": "/previews/rendercomp-particle-snow.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "94e801dd5dc8851b3ebb21e7a1ce86f84d7106b2e9fe945d962a4fd3e4d93358"
+      },
+      {
+        "start": 7421,
+        "end": 269564,
+        "sha256": "1144de3c9b143346b60739ff8a0c87011becbbb7416c2ef68027e0a05a5886b8"
+      },
+      {
+        "start": 269565,
+        "end": 419405,
+        "sha256": "6ba3fdba6f198f3c6d437e050f588b96625e08704f3d6058303f8e71e7a2a60d"
+      }
+    ],
+    "poster_sha256": "dc62e0494aaba7737240020a23567c4180e41f9dcbe9f9b66b480297ecc040db",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-racing-chart",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/racing-chart.mp4",
+    "poster": "/previews/rendercomp-racing-chart.webp",
+    "timestamp_seconds": 2.471,
+    "duration_seconds": 7.061333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "5ea27c29dfaf090050a1ff8ed86556ed6dc2e32d98a489c943e4ff37c1099af7"
+      },
+      {
+        "start": 9623,
+        "end": 271766,
+        "sha256": "43749174a604add66c3b7f7ef4a297e363ae5210b3db29ccff48c5f2c43cf720"
+      },
+      {
+        "start": 271767,
+        "end": 278649,
+        "sha256": "ea7f6ca64c2343d07723f6ef8ca5257479f7bfda0eed1dac52a5a941de1f6653"
+      }
+    ],
+    "poster_sha256": "ca8df7c9dc8e09186b430ef15651ceacd7db6217c47517e63756ab129538e207",
+    "license": "MIT",
+    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-slide-wipe",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/slide-wipe.mp4",
+    "poster": "/previews/rendercomp-slide-wipe.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fe584328d96d0a9101629e3e4584544a9db34930176bb019e1f97cf010cf9909"
+      },
+      {
+        "start": 6303,
+        "end": 237581,
+        "sha256": "65dcd5cc4278afe40a94fdefb9974ed967611e2ea3e24efc19f8ebae925a2cb4"
+      }
+    ],
+    "poster_sha256": "3aa97eddda976d8a9ad4c69584d64f3772b887c1bbea97363a1536721608b85a",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-social-reel",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/social-reel.mp4",
+    "poster": "/previews/rendercomp-social-reel.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "80a239df1ac5c0a9730ac9789549a02f10cdab018f0691dd4fd8a632e31bf00e"
+      },
+      {
+        "start": 7395,
+        "end": 267372,
+        "sha256": "5872083a0ec5cd8a70bd7dc659eb9dfd39164eee1ae83a232671b1fc37b16c80"
+      }
+    ],
+    "poster_sha256": "9823928c880290206d836689d7c3085a08b9ecc7fbe09985277f52d911b71c1e",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "revideo-example",
+    "source_url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/examples/assets/example.mp4",
+    "poster": "/previews/revideo-example.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 36506,
+        "sha256": "0a0a4e3f785b6c525e1618e181e0feb69648a7756d5ff99aa554d433563d6afc"
+      },
+      {
+        "start": 48,
+        "end": 30771,
+        "sha256": "3ab716e6d08804d5a95ced5aff39be4c24507cfeda56fd71b7a270985606fa33"
+      }
+    ],
+    "poster_sha256": "e38b7799102ff30ed9c9d6447ad91d0b62581dc72884f4cfc5537ca84c3dbf54",
+    "license": "MIT",
+    "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)"
   },
   {
     "resource_id": "video-shotcraft-carousel-3d",
