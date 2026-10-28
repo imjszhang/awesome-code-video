@@ -213,7 +213,7 @@ test('playable gallery cards can start muted and other preview kinds stay unchan
  assert(embeds.length>0);
  assert.equal(playable.length+thumbs.length+embeds.length+covers.length,items.length);
  const html=renderPreviewCards(items);
- const cards=[...html.matchAll(/<article class="resource-card gallery-card">([\s\S]*?)<\/article>/g)].map(match=>match[1]);
+ const cards=[...html.matchAll(/<article class="resource-card gallery-card"[^>]*>([\s\S]*?)<\/article>/g)].map(match=>match[1]);
  assert.equal(cards.length,items.length);
  const esc=(value:string)=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
  const buttons=[...html.matchAll(/<button\b[^>]*>/g)].map(match=>match[0]).filter(tag=>tag.includes('class="preview-play"'));

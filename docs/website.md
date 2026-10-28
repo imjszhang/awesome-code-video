@@ -24,7 +24,7 @@ Preview runs at http://127.0.0.1:4173. The build writes `dist/`; do not commit g
 
 `data/projects.json`, `data/resources.json` and `data/evidence.json` remain authoritative. Curated collections, use-case groupings and search live in `web/src/model.ts`. Routes cover the homepage, searchable library, projects, collections, resource details, saved resources and selection policy. Resource details expose upstream links, reuse guidance and review evidence. Bookmarks and theme preferences stay in this browser’s local storage.
 
-Every public route has rendered HTML, a unique title and description. Client-side hydration adds search, filters and local bookmarks. The preview server returns a real 404 for unknown routes. There is no backend or tracking script.
+Every public route has rendered HTML, a unique title and description. Client-side hydration adds search, filters and local bookmarks. The preview server returns a real 404 for unknown routes. There is no application backend. Optional consent-controlled GA4 analytics is configured separately; see [Search and resource measurement](analytics.md). With analytics disabled, no analytics tag is loaded.
 
 Library cards and resource details use original editorial covers, explicitly labeled; they are not screenshots or proof of successful rendering. A `generative_prompt` resource uses the same `video` or `thumb_link` preview. The site does not yet render `prompt`, `suggestedModels`, or `prompt_policy`; those fields stay in the catalog. Known upstream galleries are linked separately. Optional preview metadata hotlinks upstream files and pages; full video files are not copied into this repository; small frame captures are bundled as posters, and a preview link is not a local render test. The homepage opens with a black-and-gold code-generated animation, then video, animated-example, and other-resource tabs. Each category starts with 12 cards and adds up to 12 on “Load more”; switching categories preserves their expanded counts for this visit. Only the active category's visible cards are mounted. The card's “Source & license” disclosure retains its full preview explanation, attribution, upstream link, and source-review date.
 
@@ -59,7 +59,7 @@ SITE_URL=https://awesomecodevideo.com SITE_INDEXING=true npm run build
 
 Set `SITE_BASE=/your-subdirectory/` at build time when deploying beneath a path; also set it when running the preview server. `SITE_URL` must be the origin only. Deploy `dist/` to a static host with directory-index support and configure `404.html` as its error page. Do not configure an SPA fallback to the homepage.
 
-Builds default to `noindex` and disallow crawling. Production builds add canonical URLs, a sitemap, robots rules and homepage WebSite structured data. Saved resources remain noindex and are omitted from the sitemap. Review production URLs and indexability before publishing.
+Builds default to `noindex` and disallow crawling. Production builds add canonical URLs, a sitemap, robots rules, social sharing metadata, homepage WebSite structured data, detail breadcrumbs and collection ItemList data. Saved resources remain noindex and are omitted from the sitemap; crawling is allowed so search engines can read that directive. Review production URLs and indexability before publishing.
 
 ## Typography and licensing
 
