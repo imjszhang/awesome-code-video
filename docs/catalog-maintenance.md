@@ -9,8 +9,8 @@ The public READMEs remain manually curated. A small local catalog makes prior re
 | File | Identity | What it stores |
 | --- | --- | --- |
 | `data/projects.json` | Stable project ID; GitHub numeric repository ID where available | Official repository, known alternate URLs, names, and default branch. |
-| `data/resources.json` | Stable resource ID | A specific film, scene, preset, shot, style, framework, tool, workflow, or related list; its project, English description, and evidence references. |
-| `data/evidence.json` | `S-CV-NNN` | A source URL, what was inspected, review date, source status, and limitations. |
+| `data/resources.json` | Stable resource ID | A specific film, scene, preset, shot, style, framework, tool, workflow, generative prompt, or related list; its project, English description, and evidence references. |
+| `data/evidence.json` | `S-CV-NNN` or `S-GVP-NNN` | A source URL, what was inspected, review date, source status, and limitations. Generative video prompts use `S-GVP-NNN`. |
 | `research/candidates.json` | Generated candidate ID | Discovery URLs, optional resolved resource URLs, and prior decisions, including rejected and deferred candidates. |
 
 The initial migration contains 13 projects, 38 listed resources, and 40 evidence records. Thirty resources are the main reusable examples; four frameworks, two workflows, and two related lists are supporting entries. The candidate queue starts empty rather than inventing a research history for existing entries.
@@ -93,6 +93,10 @@ A resource may include an optional `preview` object when an upstream file or pag
 ```
 
 `kind` is `video` for a direct video file, `embed` for an upstream page, or `thumb_link` for an image such as an animated GIF or WebP. `poster` is an optional HTTPS image URL or bundled `/previews/<resource-id>.webp` frame capture, and must be omitted when unknown. Bundled captures have provenance in `data/preview-posters.json`. `redistributable` is a boolean. `true` is only for a direct `video` or `thumb_link` image whose upstream terms allow redistribution; uncertain or noncommercial media stays `false`. `source` records the evidence id and upstream URL, including open questions. `checked_at` is the review date. A `preview` does not change `review.render_tested`: linking a file is not a local render test. When a new media URL is the evidence, add a reviewed `preview-media` record instead of marking an unverified link as reviewed. The website reads the same object through `web/src/preview.ts`. A missing or invalid preview stays an editorial cover and is not described as a render.
+
+## Generative Video Prompts
+
+`kind` `generative_prompt` belongs in the README section Generative Video Prompts (生成式视频提示词), after Production Workflows and before Related Lists. Required fields are `prompt` and `suggestedModels`. `prompt` is the full text when `prompt_policy` is `full`, and a verbatim excerpt when it is `summary_link` or `collection_link`. `suggestedModels` is a nonempty string array of models named by the source file. Do not add models the source does not name. Optional fields are `negativePrompt`, `aspectRatio`, and `durationHint`. `prompt_policy` is `full`, `summary_link`, or `collection_link`. `license` and `attribution` are required. `review.render_tested` stays false until a later review records a real local render. An upstream sample is not that test. Evidence IDs for this section use `S-GVP-NNN` and stay stable. YouMind OpenLab mirrors need attribution and a link to the LICENSE file. Check that file at write time. A GitHub SPDX value of `NOASSERTION` does not replace the LICENSE text.
 
 ## Checks
 

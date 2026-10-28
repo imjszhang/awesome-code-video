@@ -7,7 +7,7 @@ import { parseArgs } from 'node:util';
 import { runTraceabilityCheck } from 'js-traceability/validation';
 
 const defaultRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const sourceId = /^S-CV-\d{3}$/;
+const sourceId = /^S-(?:CV|GVP)-\d{3}$/;
 
 /** Check references without changing the catalog or keeping a generated index. */
 export async function checkTraceability({ root = defaultRoot, temporaryParent = os.tmpdir() } = {}) {
@@ -27,7 +27,7 @@ export async function checkTraceability({ root = defaultRoot, temporaryParent = 
   const addError = (file, index, message) => errors.push({ engine: 'catalog', file, index, message });
 
   for (const [index, item] of evidence.entries()) {
-    if (!sourceId.test(item.id ?? '')) addError('data/evidence.json', index, `Invalid evidence ID: ${String(item.id)}; expected S-CV-NNN.`);
+    if (!sourceId.test(item.id ?? '')) addError('data/evidence.json', index, `Invalid evidence ID: ${String(item.id)}; expected S-CV-NNN or S-GVP-NNN.`);
     if (!projectIds.has(item.project_id)) addError('data/evidence.json', index, `${item.id} refers to an unknown project: ${item.project_id}.`);
   }
   for (const [index, resource] of resources.entries()) {
@@ -73,8 +73,8 @@ export async function checkTraceability({ root = defaultRoot, temporaryParent = 
       config: {
         sourceIndexFiles: ['source-index.md'],
         policy: {
-          sourceIdPattern: /\bS-CV-\d{3}\b/g,
-          sourceRangePattern: /\b(S-CV)-(\d{3})\s+to\s+\1-(\d{3})\b/g,
+          sourceIdPattern: /\bS-(?:CV|GVP)-\d{3}\b/g,
+          sourceRangePattern: /\b(S-(?:CV|GVP))-(\d{3})\s+to\s+\1-(\d{3})\b/g,
           lowReliabilityPattern: /^low$/i,
           unverifiedStatusPattern: /^(?!reviewed$).*/i,
           sourceColumnAliases: ['Source IDs'],

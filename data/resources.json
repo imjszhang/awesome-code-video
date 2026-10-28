@@ -5296,5 +5296,393 @@
       "checked_at": "2026-10-28",
       "poster": "/previews/od-weread-year-in-review-video-template.webp"
     }
+  },
+  {
+    "id": "gvp-decade-glow-up",
+    "project_id": "open-design",
+    "name": "A Decade of Refinement Glow-Up",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json",
+    "section": "Generative Video Prompts",
+    "description": "Copy-paste Seedance 2.0 prompt for a 15-second identity-locked glow-up, from a plain 2016 street look to a Dubai rooftop in a black suit. Useful as a reference-image transformation brief. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Maverick | AI (https://x.com/RizwanAly07/status/2048948726623056366). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "Create a 15-second ultra-realistic cinematic transformation video using the exact same man from the uploaded reference image. Maintain perfect face consistency, same hairstyle, facial features, identity, and body proportions throughout. No face change. Concept: “2026 is the new 2016” nostalgia-to-luxury glow-up. Scene 1: 2016 version — simple casual clothes, basic hairstyle, walking alone on a normal street, warm nostalgic colors, old Instagram aesthetic, simple life, no luxury. Scene 2: Flashback cuts — old bike ride, cheap café alone, late-night dreams, city lights, silent ambition in his eyes. Scene 3: Strong transition — speed-ramp effect, screen crack cinematic transition, time shifts from 2016 to 2026, luxury watch appears, black suit transformation begins. Scene 4: 2026 version — walking confidently in Dubai downtown, luxury black suit, sunglasses, expensive watch, black luxury car behind him, people turn and stare. Scene 5: Hero shot — rooftop skyline at sunset, slow motion, wind moving, camera rotating around him, strong eye contact, main character energy. Final scene: cinematic ending with the feeling “Same Man. Different Era.” Style: hyper-realistic, Netflix-level production, luxury transformation, dramatic lighting, viral Instagram reel style, strong masculine aura, editorial fashion visuals, 4K ultra realism, emotional and powerful storytelling.",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "durationHint": "15s",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-002",
+      "S-GVP-012"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 15s is the prompt body's \"15-second\" length. The JSON has no duration field.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d2d6d15cbc6ef4d4d4c8c9a7de7007d7/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-012 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d2d6d15cbc6ef4d4d4c8c9a7de7007d7/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 33140 bytes, sha256 ddb0c1106b5f03e5564638f1acba992cdcc956153db8bac0200e819c08e38c77. previewVideoUrl https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d2d6d15cbc6ef4d4d4c8c9a7de7007d7/downloads/default.mp4 returned HTTP 404 text/plain on 2026-10-28 and is not the catalog preview. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-decade-glow-up.webp"
+    }
+  },
+  {
+    "id": "gvp-anim-transfer-cam-track",
+    "project_id": "open-design",
+    "name": "Animation transfer and camera tracking prompt",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json",
+    "section": "Generative Video Prompts",
+    "description": "Short Seedance 2.0 prompt that copies a referenced walk onto a character while the camera stays locked. Useful for motion transfer without a new angle. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Olivio Sarikas (https://x.com/OlivioSarikas/status/2049093762077630628). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "apply the walking animation of @anim exactly as it is to @char7. the camera tracks the character exactly in place, camera angle does not change",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-003",
+      "S-GVP-013"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/089e7cd70d20131d6d1b44741520eaee/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-013 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/089e7cd70d20131d6d1b44741520eaee/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 51155 bytes, sha256 81910255e3ae8641f21ff6b6fa5db6180095414ab05993f733600972c38307cc. previewVideoUrl https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/089e7cd70d20131d6d1b44741520eaee/downloads/default.mp4 returned HTTP 404 text/plain on 2026-10-28 and is not the catalog preview. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-anim-transfer-cam-track.webp"
+    }
+  },
+  {
+    "id": "gvp-beat-synced-outfit-dance",
+    "project_id": "open-design",
+    "name": "Beat-Synced Outfit Transformation Dance",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/beat-synced-outfit-transformation-dance.json",
+    "section": "Generative Video Prompts",
+    "description": "Seedance 2.0 prompt for a beat-synced outfit change in the middle of a reference dance, then the second character finishes the steps. Useful for image-referenced dance edits. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Kashberg (https://x.com/Kashberg_0/status/2049074008730247669). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "Have the character from Image 1 perform the dance based on the breakdown in Image 3. During the performance, include a beat-synced transformation into the character from Image 2. After the transformation, the character from Image 2 continues and completes the remaining dance steps from Image 3. Emphasize precise beat matching with the music",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-004",
+      "S-GVP-014"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://pbs.twimg.com/media/HG_FqHJboAA5vAe.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-014 https://pbs.twimg.com/media/HG_FqHJboAA5vAe.jpg. Byte-range and full download on 2026-10-28: JPEG, 190877 bytes, sha256 0d91d115685c650acd1ac3a20b48a88a29fec1a7e3a67fe8f93d923766d04a3b. The JSON has no previewVideoUrl. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-beat-synced-outfit-dance.webp"
+    }
+  },
+  {
+    "id": "gvp-character-intro-mogra",
+    "project_id": "open-design",
+    "name": "Character Intro Motion Graphics Sequence",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/character-intro-motion-graphics-sequence.json",
+    "section": "Generative Video Prompts",
+    "description": "Timed Seedance 2.0 prompt that brings in three reference characters with UI callouts and a final team title. Useful for stylized character-lineup opens. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author KANA (https://x.com/KanaWorks_AI/status/2049281443956974029). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "Based on the three characters in the reference images. High definition, Unreal Engine rendering, cinematic quality, candy-colored palette, Japanese-style aesthetics, artistic, with strong sense of rhythm.\n\n0–2s: Empty scene, a small dot at the center, thin-line UI frame, subtle particles. Text: “STATUS: STANDBY” “SYSTEM: INIT”.\n\n2–4s: The fox on the left from image2 appears, riding a hovering skateboard, waves toward the camera. Curved motion trails behind. Text: “ID: 01” “CODENAME: RED” “ROLE: TACTICIAN”.\n\n4–6s: The rabbit on the right from image1 appears, swings a carrot weapon and takes a combat stance. Circular motion trails. Text: “ID: 02” “CODENAME: KANA” “ROLE: EXECUTIONER” “WEAPON: CARROT”.\n\n6–8s: The corgi from image3 appears, looks left and right, showing a simple, friendly smile. Concentric circle UI under its feet. Text: “ID: 03” “CODENAME: Arthur” “ROLE: COMMANDER”.\n\n8–15s: The three characters align horizontally, from left to right: FIREBIRD, SAGE, MAD RABBIT. Snap alignment, unified circular platform beneath. Text: “SYSTEM SYNC COMPLETE” “UNIT READY”. Add UI overlay to each character: tracking frames, data bars, simplified charts. Text: “TRACKING” “ANALYSIS” “LOCKED”.\n\nLarge title “CHAOS UNIT” appears, breaking into geometric fragments that expand outward. Text: “SYSTEM ERROR” “DATA BREAK”. The fragments then reassemble into “CHAOS UNIT”, centered layout with subtle circular guide lines. Text: “REBUILD COMPLETE” “SYSTEM ONLINE” “KANAWORKS_AI”.\n\nFinal frame: “CHAOS UNIT” at the top, the three characters standing side by side below, with a clean circular platform at the bottom. Text: “STATUS: LOCKED” “UNIT: ACTIVE”.",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "durationHint": "15s",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-005",
+      "S-GVP-015"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 15s follows the prompt timeline, which ends in an 8–15s team shot. The JSON has no duration field.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d7697b00e2a3cb0ecb91273a772eda39/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-015 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d7697b00e2a3cb0ecb91273a772eda39/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 4640 bytes, sha256 b8114ed6b1752217b813d3712efb337ac91edb8d3f50763b1bfdd522763ef8fd. previewVideoUrl https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d7697b00e2a3cb0ecb91273a772eda39/downloads/default.mp4 returned HTTP 404 text/plain on 2026-10-28 and is not the catalog preview. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-character-intro-mogra.webp"
+    }
+  },
+  {
+    "id": "gvp-route-navigation-guide",
+    "project_id": "open-design",
+    "name": "Cinematic Route Navigation Guide",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-route-navigation-guide.json",
+    "section": "Generative Video Prompts",
+    "description": "Seedance 2.0 prompt for a 5-second walking route guide with one recurring guide and a Street View start frame. Scene number and next direction are placeholders. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Michael Guo (https://x.com/Michaelzsguo/status/2048966649982669053). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "Create a 5-second cinematic route-guide clip for a walking navigation video.\n\nContinuity:\nThis is scene {N} of 5 in a route from North Avenue MARTA Station to Coda Tech Square in Atlanta.\nThe guide is the same stylish female tour guide in every scene: black sunglasses, sleeveless cream belted dress, brown leather belt, tour lanyard, small shoulder bag, brown hair tied back, confident warm expression.\nShe appears on the sidewalk or plaza only, never in traffic lanes.\n\nScene role:\n{route_step}\n\nStarting frame:\nUse the supplied Street View image as the real-world location reference. Preserve the recognizable street layout, building massing, sidewalk direction, signage, and lighting.\n\nAction:\nThe guide is already in frame, slightly ahead of the viewer. She turns toward the camera, gestures toward the next walking direction, then begins to lead the viewer forward.\n\nCamera:\nSmooth handheld walking pace, slight forward push-in, no jumpy zooms, no orbit. Keep horizon stable. The final second should frame the direction of the next scene so the edit can cut naturally.\n\nEnd frame:\nEnd with the camera facing {next_direction_or_landmark}, with the guide near the edge of frame pointing forward.\n\nRestrictions:\nDo not invent a different city, indoor location, parking lot, or tourist group. Do not place the guide in the road. Do not block crosswalks, street signs, building entrances, or the Coda facade.",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "durationHint": "5s",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-006",
+      "S-GVP-016"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 5s is the prompt body's \"5-second\" clip length. The JSON has no duration field.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/49a08d9ecf7257120711ce6d7b158073/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-016 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/49a08d9ecf7257120711ce6d7b158073/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 47088 bytes, sha256 42dd675b61bd344aa2c25efb035f59a51134427dc55b56b19165b19b2a597ca9. previewVideoUrl https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/49a08d9ecf7257120711ce6d7b158073/downloads/default.mp4 returned HTTP 404 text/plain on 2026-10-28 and is not the catalog preview. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-route-navigation-guide.webp"
+    }
+  },
+  {
+    "id": "gvp-street-racing-cinematic",
+    "project_id": "open-design",
+    "name": "Cinematic Street Racing Sequence for Seedance 2",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-street-racing-sequence-for-seedance-2.json",
+    "section": "Generative Video Prompts",
+    "description": "Multi-shot Seedance 2.0 prompt for a night street race: driver close-ups, a nitrous hit, and low exterior speed shots on wet neon streets. Useful as a cinematic chase brief. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Pierrick Chevallier | IA (https://x.com/CharaspowerAI/status/2039651574297792688). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "cinematic street racing sequence at night, a focused driver inside a high-performance car grips the steering wheel, intense eye focus, city lights reflecting on windshield, tension building before sudden acceleration\n\ncamera: rapid multi-angle system with seamless transitions, interior close-up → over-the-shoulder → exterior tracking → low ground shots, ultra dynamic camera movement, whip pans + speed ramp transitions + motion blur masking cuts, continuous flow illusion\n\n(0-2s) interior close-up on driver, hand tightens on gear shift, subtle breathing, dashboard lights glowing\n(2-4s) over-the-shoulder shot, road ahead stretching into neon-lit city, engine vibration building\n(4-6s) extreme close-up on finger pressing NOS button, instant ignition reaction\n(6-8s) explosive acceleration, camera snaps to exterior side tracking shot, car launches forward with violent speed surge\n(8-10s) ultra low ground shot near asphalt, wheels spinning at extreme velocity, environment streaking past\n(10-12s) high-speed chase through tight streets, sharp turns, camera whip pans between angles, reflections and light trails enhancing speed\n\nDense urban night environment, wet asphalt reflecting neon lights, tunnel passages, street lights streaking, high-speed city atmosphere\nUltra realistic, fast and furious inspired energy, photorealistic lighting, intense motion blur, high contrast neon reflections, cinematic depth of field, extreme sense of speed, fluid transitions, no distortion, no stretching",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "durationHint": "12s",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-007",
+      "S-GVP-017"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 12s follows the prompt's last beat, labeled (10-12s). The JSON has no duration field.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/3a7fb0a6d706b9f568479bb720ce1ad4/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-017 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/3a7fb0a6d706b9f568479bb720ce1ad4/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 24799 bytes, sha256 1dd83ffebc5cd2785b3bd0b2479f91cdc18f537b345875ca5b6880f02594e3b1. previewVideoUrl https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/3a7fb0a6d706b9f568479bb720ce1ad4/downloads/default.mp4 returned HTTP 404 text/plain on 2026-10-28 and is not the catalog preview. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-street-racing-cinematic.webp"
+    }
+  },
+  {
+    "id": "gvp-modern-rural-healing",
+    "project_id": "open-design",
+    "name": "Modern Rural Aesthetics Healing Short Film Video Prompt",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/modern-rural-aesthetics-healing-short-film-video-prompt.json",
+    "section": "Generative Video Prompts",
+    "description": "Three-shot Seedance 2.0 prompt for a bright farmhouse cooking short: a morning harvest, knife work, and a quiet meal. Useful for calm food and lifestyle clips. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author John (https://x.com/johnAGI168/status/2021818021354848258). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "[Style]\nModern Rural Aesthetics, Cinematic Commercial quality, shot with Sony A7S3/cinema camera, 4K/8K ultra-clear, Extreme Macro, natural transparent lighting, healing ASMR, no historical costume drama feel.\n\n[Scene]\nA well-maintained modern farmhouse open kitchen, background is a lush vegetable garden, bright sunshine.\n\n[Character]\nModern Rural Creator, black long hair casually tied up with a wooden hairpin, wearing a dark blue comfortable linen outfit, clear makeup, focused and peaceful eyes.\n\n[Shot Details]\n[00:00-00:05] Shot 1: Morning Harvest (The Freshness)\nVisuals: High-definition close-up. Morning sunlight hits the plants with side backlighting.\nAction: The Creator's bare hands (long, clean fingers) pick a bright red tomato with glistening dew drops from the vine.\nDetails: Extremely sharp focus, clearly showing the fuzz on the tomato surface and the trajectory of sliding water droplets. Background is blurred high-quality green.\n\n[00:05-00:10] Shot 2: Extreme Craftsmanship (The Craft)\nVisuals: Indoor stove area, full of life but spotless.\nAction: The Creator is cutting vegetables, movements are skilled and precise (non-performance nature).\nDetails: Macro lens captures the moment the knife blade slices through the ingredients, juice splattering. Then switches to the orange flame flickering in the earthen stove, light and shadow are warm and real.\n\n[00:10-00:15] Shot 3: Tranquil Time (The Moment)\nVisuals: Full shot/Medium shot.\nAction: A delicate home-cooked dish is placed on the wooden long table in the yard. The Creator sits down quietly, gently tidies a stray hair, and picks up a bite of food.\nAtmosphere: Steam slowly rises against the backlight, the scene is so quiet you can almost hear the wind, showcasing the ultimate sense of relaxation modern people yearn for.",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "durationHint": "15s",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-008",
+      "S-GVP-018"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 15s follows the prompt's shot list, which runs from 00:00 to 00:15. The JSON has no duration field.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ce508b28e505ffce07247e2ab036d6f1/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-018 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ce508b28e505ffce07247e2ab036d6f1/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 30936 bytes, sha256 0213159c749b2399c408e475a576471f9bc57137b893dbb9c09f808d347bfe47. previewVideoUrl https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/releases/download/videos/288.mp4 returned HTTP 206 with an MP4 ftyp header, but it is not an Open Design host, so the catalog preview stays the thumbnail. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-modern-rural-healing.webp"
+    }
+  },
+  {
+    "id": "gvp-nightclub-flyer-atmos",
+    "project_id": "open-design",
+    "name": "Nightclub Flyer Atmospheric Animation",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/nightclub-flyer-atmospheric-animation.json",
+    "section": "Generative Video Prompts",
+    "description": "Seedance 2.0 prompt that keeps a nightclub-flyer subject and type locked while smoke, rim light, and sparkles move. The JSON aspect field is 16:9; the prompt body also says 4:5. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Nash Deen (https://x.com/DeenNash_Fu/status/2048912067361452121). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "Hyper-detailed nightclub event flyer, a Black woman with sleek long braids and bold red lipstick photographed in a confident chin-up power pose looking directly at camera, wearing a fitted black blazer with gold chain, dramatic red rim light from behind creating glowing edge, harder key light from front-left. Subject cut out over deep oxblood-red textured background with heavy film grain and subtle smoke haze. Behind her the massive display word \"FRIDAY\" in tall condensed slab serif, cream-white with grungy distressed edges, partially occluded by her shoulders and hair. Secondary script tagline \"the night belongs to you\" in elegant gold cursive. Bottom info block: \"NOV 14 · 10PM · DOORS AT 9 · UPTOWN CLT\". Scattered accents: small gold sparkle stars, one circled date stamp, thin gold scribble line. Palette strictly oxblood red, cream-white, gold, deep black. Warm cinematic grade. 4:5 vertical, 2048x2560, club poster quality. Negative: smooth AI skin, generic stock, watermarks. Animate only the background and atmospheric elements — subject, typography, and outfit remain completely locked. Slow rolling smoke haze drifts horizontally across the lower third of the frame behind her, low-opacity, dreamy. Red rim light behind her subtly pulses brighter then dimmer once over 5 seconds, like a slow heartbeat. Tiny gold sparkle particles float upward slowly from bottom edge. Film grain flickers naturally. Cream \"FRIDAY\" letters behind her have an almost imperceptible texture shimmer. Camera fully locked off, no pan, no zoom. 24fps, 5 seconds, cinematic nightclub mood. Negative: subject moving, face changing, lips moving, hands deforming, text warping.",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "durationHint": "5s",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-009",
+      "S-GVP-019"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. aspectRatio uses the JSON aspect field 16:9. The prompt body also says 4:5. durationHint 5s is the prompt body's \"5 seconds\" atmospheric move. The JSON has no duration field. aspectRatio stays 16:9 from the JSON aspect field; the prompt body also says 4:5.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ac4aa8dd242046f292eab0e1333692ef/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-019 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ac4aa8dd242046f292eab0e1333692ef/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 55608 bytes, sha256 f190f05b8f7984469b68614f8af9481c738bba5b2dec02ba0616d6c9ee545895. previewVideoUrl https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ac4aa8dd242046f292eab0e1333692ef/downloads/default.mp4 returned HTTP 404 text/plain on 2026-10-28 and is not the catalog preview. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-nightclub-flyer-atmos.webp"
+    }
+  },
+  {
+    "id": "gvp-toaster-rocket-jumpscare",
+    "project_id": "open-design",
+    "name": "Toaster Rocket Jumpscare",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/toaster-rocket-jumpscare.json",
+    "section": "Generative Video Prompts",
+    "description": "Seedance 2.0 prompt for a handheld kitchen jumpscare when a toaster launches bread at the ceiling. The upstream prompt field repeats that paragraph twice, and this entry keeps both copies. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Marin (https://x.com/MarinMethod/status/2049140113343394003). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.",
+    "prompt": "A realistic shot of an old man in a cozy kitchen being jumpscared when his toaster launches the bread five feet into the air like a rocket. Handheld \"home video\" style capturing his genuine look of shock and the bread hitting the ceiling.A realistic shot of an old man in a cozy kitchen being jumpscared when his toaster launches the bread five feet into the air like a rocket. Handheld \"home video\" style capturing his genuine look of shock and the bread hitting the ceiling.",
+    "prompt_policy": "full",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "aspectRatio": "16:9",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-GVP-001",
+      "S-GVP-010",
+      "S-GVP-020"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. The upstream prompt field repeats one paragraph twice; the catalog keeps that text.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/fbf9f399fd8f4905a62661966d937ba8/thumbnails/thumbnail.jpg",
+      "license": "CC-BY-4.0",
+      "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-020 https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/fbf9f399fd8f4905a62661966d937ba8/thumbnails/thumbnail.jpg. Byte-range and full download on 2026-10-28: JPEG, 43044 bytes, sha256 e5d24c975b54b065c48c06dcc5a4353bdcb48e3d61615b3e59b3c1ced6a50bef. previewVideoUrl https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/fbf9f399fd8f4905a62661966d937ba8/downloads/default.mp4 returned HTTP 404 text/plain on 2026-10-28 and is not the catalog preview. A local WebP still is bundled for the gallery. The upstream image was not redistributed as a catalog file. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-toaster-rocket-jumpscare.webp"
+    }
+  },
+  {
+    "id": "gvp-desk-hologram-ar",
+    "project_id": "open-design",
+    "name": "Desk Hologram AR on Real Workspace",
+    "kind": "generative_prompt",
+    "url": "https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/video-seedance-desk-hologram-ar-realdesk.json",
+    "section": "Generative Video Prompts",
+    "description": "Apache-2.0 Seedance 2.0 prompt for a vertical desk-hologram clip: a holographic figure on a real developer keyboard, locked as a still and then animated in one take of about 15 seconds. The source prompt is 3877 characters, so this entry stores the opening paragraph and the labeled negative list. Open Design / nexu-io (https://github.com/nexu-io/open-design). The model label is upstream only. Preview is the Open Design hosted MP4. Not render-tested.",
+    "prompt": "Two-phase production workflow for a ~15 second vertical desk-hologram AR clip (9:16, Seedance 2.0). Phase A locks the still; Phase B animates it. Use the same hero design in both phases.",
+    "prompt_policy": "summary_link",
+    "suggestedModels": [
+      "seedance-2.0"
+    ],
+    "negativePrompt": "no copyrighted character names, no branded movie references, no anime cel-shading, no thick white sticker outline, no studio-sweep clean desk, no duplicated hero, no warped monitor UI text, no garbled glyphs on screen, no watermark, no on-screen captions, no jump cuts, no explosion, no blood, no extra limbs, no broken keyboard geometry, no weightless bow, no plastic toy look",
+    "aspectRatio": "9:16",
+    "durationHint": "15s",
+    "license": "Apache-2.0",
+    "attribution": "Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+    "evidence_ids": [
+      "S-CV-127",
+      "S-GVP-011",
+      "S-GVP-021"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. prompt_policy is summary_link because the source prompt is 3877 characters. The stored prompt is the opening paragraph. negativePrompt is the labeled negative list in that file. suggestedModels lists only the JSON model field seedance-2.0; the prompt also names an image-edit step that is not added here. durationHint 15s follows the prompt's \"~15 second\" clip. The JSON has no duration field.",
+    "preview": {
+      "kind": "video",
+      "url": "https://repo-assets.open-design.ai/resources/videos/prompt-templates/video-seedance-desk-hologram-ar-realdesk.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Open Design / nexu-io (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-GVP-021 https://repo-assets.open-design.ai/resources/videos/prompt-templates/video-seedance-desk-hologram-ar-realdesk.mp4. Range request on 2026-10-28: HTTP 206 video/mp4, Content-Range total 8983605 bytes, ftyp isom. Host is repo-assets.open-design.ai. previewImageUrl https://repo-assets.open-design.ai/resources/images/prompt-templates/video-seedance-desk-hologram-ar-realdesk-poster.jpg also returned a JPEG and is not the catalog preview. A local WebP frame is bundled. The MP4 was not copied into this repository. redistributable is false. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/gvp-desk-hologram-ar.webp"
+    }
   }
 ]

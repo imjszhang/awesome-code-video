@@ -58,7 +58,7 @@ test('shipped previews resolve from catalog fields and missing ones stay editori
   assert.equal(resolved.source,preview.source);
   assert.equal(resolved.redistributable,preview.redistributable);
   assert.equal(resolved.checkedAt,preview.checked_at);
-  assert.match(preview.source,/^S-CV-\d{3} https:\/\//);
+  assert.match(preview.source,/^S-(?:CV|GVP)-\d{3} https:\/\//);
   assert.equal(previewPlayable(resource),preview.kind==='video');
   assert.equal(previewCaption(resource),preview.kind==='video'?'Upstream demo':'Preview');
   if(preview.redistributable)assert.notEqual(preview.kind,'embed');

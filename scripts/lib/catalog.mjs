@@ -2,7 +2,7 @@ import { createHash, randomUUID } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-export const RESOURCE_KINDS = Object.freeze(['film', 'scene', 'preset', 'shot', 'style', 'framework', 'tool', 'workflow', 'collection']);
+export const RESOURCE_KINDS = Object.freeze(['film', 'scene', 'preset', 'shot', 'style', 'framework', 'tool', 'workflow', 'collection', 'generative_prompt']);
 export const CANDIDATE_STATUSES = Object.freeze(['pending', 'researching', 'accepted', 'rejected', 'duplicate', 'deferred']);
 const SECTIONS = new Map([
   ['film-and-scene-templates', ['film', 'scene']],
@@ -12,13 +12,16 @@ const SECTIONS = new Map([
   ['frameworks-and-renderers', ['framework']],
   ['motion-design-tools', ['tool']],
   ['production-workflows', ['workflow']],
+  ['generative-video-prompts', ['generative_prompt']],
   ['related-lists', ['collection']],
 ]);
 const TRACKING = /^(utm_.+|gclid|fbclid|dclid|msclkid|mc_cid|mc_eid|ref_src)$/i;
 const PREVIEW_KINDS = Object.freeze(['video', 'embed', 'thumb_link']);
 const PREVIEW_FIELDS = Object.freeze(['kind', 'url', 'poster', 'license', 'attribution', 'redistributable', 'source', 'checked_at']);
 const ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const SOURCE_ID = /^S-CV-\d{3}$/;
+const SOURCE_ID = /^S-(?:CV|GVP)-\d{3}$/;
+const PROMPT_POLICIES = Object.freeze(['full', 'summary_link', 'collection_link']);
+const GENERATIVE_FIELDS = Object.freeze(['prompt', 'suggestedModels', 'negativePrompt', 'aspectRatio', 'durationHint', 'prompt_policy']);
 const TEXT = value => typeof value === 'string' && value.trim().length > 0;
 const DAY = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
 const TIMESTAMP = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}T/.test(value) && !Number.isNaN(Date.parse(value));
@@ -241,6 +244,22 @@ export function validateCatalog(catalog) {
     }
     if (!resource.review || !['source-reviewed', 'render-tested'].includes(resource.review.level) || !DAY(resource.review.reviewed_at) || typeof resource.review.render_tested !== 'boolean') errors.push(`${label}: review must record level, reviewed_at, and render_tested.`);
     else if ((resource.review.level === 'render-tested') !== resource.review.render_tested) errors.push(`${label}: review level and render_tested disagree.`);
+    if (resource.kind === 'generative_prompt') {
+      if (!TEXT(resource.prompt)) errors.push(`${label}: prompt is required.`);
+      if (!Array.isArray(resource.suggestedModels) || !resource.suggestedModels.length || resource.suggestedModels.some(model => !TEXT(model))) errors.push(`${label}: suggestedModels must be a nonempty array of strings.`);
+      if (!PROMPT_POLICIES.includes(resource.prompt_policy)) errors.push(`${label}: prompt_policy must be full, summary_link, or collection_link.`);
+      else if (resource.prompt_policy === 'full' && typeof resource.prompt === 'string' && resource.prompt.length > 2000) warnings.push(`${label}: full prompt is longer than 2000 characters; summary_link is the default for long text.`);
+      for (const field of ['negativePrompt', 'aspectRatio', 'durationHint']) {
+        if (Object.hasOwn(resource, field) && !TEXT(resource[field])) errors.push(`${label}: ${field} must be a nonempty string when present.`);
+      }
+      if (!TEXT(resource.license)) errors.push(`${label}: license is required.`);
+      if (!TEXT(resource.attribution)) errors.push(`${label}: attribution is required.`);
+      if (resource.review && (resource.review.level !== 'source-reviewed' || resource.review.render_tested !== false)) errors.push(`${label}: generative_prompt must stay source-reviewed with render_tested false.`);
+    } else {
+      for (const field of GENERATIVE_FIELDS) {
+        if (Object.hasOwn(resource, field)) errors.push(`${label}: ${field} is only valid for kind generative_prompt.`);
+      }
+    }
     if (!Array.isArray(resource.evidence_ids) || !resource.evidence_ids.length) errors.push(`${label}: at least one evidence_id is required.`);
     else {
       if (new Set(resource.evidence_ids).size !== resource.evidence_ids.length) errors.push(`${label}: repeated evidence_ids.`);

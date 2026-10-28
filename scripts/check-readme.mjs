@@ -11,6 +11,7 @@ export const SECTION_TRANSLATIONS = Object.freeze({
   'Frameworks and Renderers': '视频制作框架',
   'Motion Design Tools': '视频动效辅助工具',
   'Production Workflows': '制作工作流',
+  'Generative Video Prompts': '生成式视频提示词',
   'Related Lists': '相关清单',
 });
 

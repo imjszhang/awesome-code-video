@@ -18,7 +18,7 @@ function readResource(record: (typeof resourceData)[number]): Resource {
 export const resources: Resource[] = resourceData.map(readResource);
 export const evidence = evidenceData;
 export const repo = 'https://github.com/imjszhang/awesome-code-video';
-export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',tool:'Motion design tool',workflow:'Workflow',collection:'Related list'};
+export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',tool:'Motion design tool',workflow:'Workflow',collection:'Related list',generative_prompt:'Generative prompt'};
 export const kindGuides: Record<string, string> = {
  film:'An editable film project. Adapt its story, assets, scene code, and timing to your subject.',
  scene:'A self-contained scene or composition. Replace its content and integrate it into your film.',
@@ -28,7 +28,8 @@ export const kindGuides: Record<string, string> = {
  framework:'A foundation for building and rendering videos. It is not a ready-made film template.',
  tool:'A supporting library for video graphics. Integrate its output with your own animation timeline and renderer; it is not a finished-film template.',
  workflow:'A production method or agent workflow. Follow its prerequisites and provide your own content.',
- collection:'A related discovery list. Review individual resources before reusing them.'
+ collection:'A related discovery list. Review individual resources before reusing them.',
+ generative_prompt:'A copy-paste text-to-video or image-to-video prompt with an upstream model label. It is not an editable render project, and the model name is not a compatibility guarantee.'
 };
 export const collections = [
  {id:'product-demos',name:'Product demos',caption:'Make your next launch move.',description:'Editable product films, interface demonstrations, and focused shots for explaining what your software does.',ids:['ink-press','video-shotcraft-type-and-filter','video-shotcraft-space-camera-moves','webreel-custom-theme','webreel-drag-and-drop','webreel-mobile-viewport','onetake','guizang-product-video-skill'],symbol:'↗'},

@@ -327,6 +327,37 @@ test('GIF media must be image previews and retain redistribution metadata', () =
   }
 });
 
+test('generative prompts require copyable text, model labels, and source review', () => {
+  const catalog = fixture();
+  catalog.evidence.push({
+    id: 'S-GVP-001', project_id: 'film-lab', title: 'Prompt file', type: 'official-source',
+    url: 'https://github.com/Owner/Film-Lab/blob/main/prompts/sample.json', status: 'reviewed', reliability: 'high',
+    checked_at: '2026-10-28', notes: 'Prompt text and license inspected; no render performed.',
+  });
+  catalog.resources.push({
+    id: 'gvp-sample', project_id: 'film-lab', name: 'Sample prompt', kind: 'generative_prompt',
+    section: 'Generative Video Prompts', url: 'https://github.com/Owner/Film-Lab/blob/main/prompts/sample.json',
+    description: 'Copy-paste prompt.', prompt: 'A short prompt.', prompt_policy: 'full', suggestedModels: ['seedance-2.0'],
+    license: 'CC-BY-4.0', attribution: 'Example (https://example.com/LICENSE)',
+    evidence_ids: ['S-GVP-001'], review: { level: 'source-reviewed', reviewed_at: '2026-10-28', render_tested: false },
+  });
+  assert.equal(validateCatalog(catalog).ok, true);
+  delete catalog.resources[1].prompt;
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('prompt is required')));
+  catalog.resources[1].prompt = 'A short prompt.';
+  catalog.resources[1].suggestedModels = [];
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('suggestedModels')));
+  catalog.resources[1].suggestedModels = ['seedance-2.0'];
+  catalog.resources[1].prompt_policy = 'collection';
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('prompt_policy')));
+  catalog.resources[1].prompt_policy = 'full';
+  catalog.resources[1].review = { level: 'render-tested', reviewed_at: '2026-10-28', render_tested: true };
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('render_tested false')));
+  catalog.resources[1].review = { level: 'source-reviewed', reviewed_at: '2026-10-28', render_tested: false };
+  catalog.resources[0].prompt = 'not a prompt card';
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('only valid for kind generative_prompt')));
+});
+
 test('bundled poster paths are limited to the preview image directory', () => {
   const catalog = fixture();
   catalog.resources[0].preview = {

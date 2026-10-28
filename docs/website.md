@@ -26,7 +26,7 @@ Preview runs at http://127.0.0.1:4173. The build writes `dist/`; do not commit g
 
 Every public route has rendered HTML, a unique title and description. Client-side hydration adds search, filters and local bookmarks. The preview server returns a real 404 for unknown routes. There is no backend or tracking script.
 
-Library cards and resource details use original editorial covers, explicitly labeled; they are not screenshots or proof of successful rendering. Known upstream galleries are linked separately. Optional preview metadata hotlinks upstream files and pages; full video files are not copied into this repository; small frame captures are bundled as posters, and a preview link is not a local render test. The homepage has a short hero followed by separate video, animated-example, and other-resource sections, with count-labelled jump links.
+Library cards and resource details use original editorial covers, explicitly labeled; they are not screenshots or proof of successful rendering. A `generative_prompt` resource uses the same `video` or `thumb_link` preview. The site does not yet render `prompt`, `suggestedModels`, or `prompt_policy`; those fields stay in the catalog. Known upstream galleries are linked separately. Optional preview metadata hotlinks upstream files and pages; full video files are not copied into this repository; small frame captures are bundled as posters, and a preview link is not a local render test. The homepage has a short hero followed by separate video, animated-example, and other-resource sections, with count-labelled jump links.
 
 ## Preview media
 
