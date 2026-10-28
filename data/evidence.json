@@ -1318,5 +1318,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-28",
     "notes": "logo-sting-aurora-bloom.mp4 (29985), lower-third-bar-rule.mp4 (11898), isometric-scenes-app-ecosystem.mp4 (37113): all 200 + ftyp isom. License still 待确认 / redistributable false (S-CV-117). Controlled families only — do not ingest remaining ~990."
+  },
+  {
+    "id": "S-CV-121",
+    "project_id": "remotion-templates",
+    "title": "remotion-templates — Batch I muted site/previews (3 families)",
+    "url": "https://github.com/ali-abassi/remotion-templates/tree/main/site/previews",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-28",
+    "notes": "Batch I adds three unused families: chart-animations-box-plot.mp4 (CL=24985), editorial-headlines-breaking-strip.mp4 (CL=45768), explainer-diagrams-before-after-system.mp4 (CL=25773). All Range-verified ftyp isom on 2026-10-28 via raw.githubusercontent.com. No root LICENSE (S-CV-117) — redistributable false. Muted short loops ≠ finished films. Hotlink only."
   }
 ]
