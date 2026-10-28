@@ -124,5 +124,14 @@ export function pageMeta(route:Route){
  if(route.type==='project'){const p=projects.find(p=>p.id===route.id)!;return {title:`${p.name} Resources | Awesome Code Video`,description:`Explore selected ${p.name} resources, reuse notes, and reviewed source links for making videos with code.`};}
  if(route.type==='collection'){const c=collections.find(c=>c.id===route.id)!;return {title:`${c.name} for Videos Made with Code | Awesome Code Video`,description:c.description};}
  const names:Record<string,string>={home:'Awesome Code Video — Styles, Shots & Templates',library:'Explore the Library | Awesome Code Video',projects:'Source Projects | Awesome Code Video',collections:'Video Use Cases | Awesome Code Video',about:'How We Curate | Awesome Code Video',saved:'Your Saved Resources | Awesome Code Video',notfound:'Page Not Found | Awesome Code Video'};
- return {title:names[route.type],description:'Discover curated video templates, visual styles, shot recipes, and workflows for making videos with code. Find the source and understand what to reuse.'};
+ const descriptions:Record<string,string>={
+  home:'Discover curated video templates, visual styles, shot recipes, and workflows for making videos with code. Find the source and understand what to reuse.',
+  library:'Search video templates, visual styles, shot recipes, and tools. Filter by resource type, source project, or use case to find your next starting point.',
+  projects:'Explore the creators and projects behind the catalog, from video frameworks to reusable scenes, with reviewed links to each original source.',
+  collections:'Browse curated resources for product demos, explainers, maps, data stories, captions, and playful films. Start with the kind of video you want to make.',
+  about:'Learn how Awesome Code Video selects resources, checks sources, and explains reuse, previews, licensing, and review limits.',
+  saved:'Revisit the video resources you saved in this browser. Your shortlist stays on this device and does not require an account.',
+  notfound:'This page could not be found. Browse the Awesome Code Video library to discover templates, styles, shots, and original sources.'
+ };
+ return {title:names[route.type],description:descriptions[route.type]};
 }

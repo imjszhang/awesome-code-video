@@ -141,3 +141,18 @@ html[data-theme=dark] .preview-embed { background: #0c0c0c; color: var(--ink); }
   .gallery-navigation button { font-size: 9px; gap: 4px; padding-inline: 5px; }
   .gallery-navigation span { font-size: 8px; }
 }
+
+/* Analytics choices remain usable on narrow screens and with either theme. */
+.privacy-choices{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:18px 0 0;font-size:12px}
+.privacy-choices>a,.privacy-settings{text-decoration:underline;text-underline-offset:4px}
+.privacy-settings{border:0;background:none;padding:8px 0;color:inherit}
+.analytics-choice{position:fixed;z-index:100;inset:auto 20px 20px;max-width:1040px;margin:0 auto;padding:24px;background:#151515;color:#faf8ef;border:1px solid #777;box-shadow:0 8px 40px #0007;display:flex;align-items:center;gap:28px;max-height:calc(100dvh - 40px);overflow:auto}
+.analytics-choice h2{font-size:22px;line-height:1.2;margin:0 0 12px;letter-spacing:0}
+.analytics-choice p{font-size:14px;line-height:1.6;margin:8px 0;max-width:680px}
+.analytics-choice p a{text-decoration:underline;text-underline-offset:3px}
+.analytics-choice-actions{display:flex;flex-direction:column;gap:12px;min-width:180px}
+.analytics-choice-actions button{border:1px solid #fcd228;background:#151515;color:#fcd228;min-height:44px;padding:10px 16px;font-size:14px;font-weight:600}
+.analytics-choice-actions button:hover{background:#fcd228;color:#151515}
+.analytics-choice-actions .analytics-choice-close{border-color:#888;color:#faf8ef}
+.analytics-choice-status{color:#ddd}
+@media(max-width:600px){.analytics-choice{inset:auto 12px 12px;padding:18px;display:block;max-height:calc(100dvh - 24px)}.analytics-choice-actions{flex-direction:row;flex-wrap:wrap;margin-top:16px}.analytics-choice-actions button{flex:1}.analytics-choice h2{font-size:20px}}

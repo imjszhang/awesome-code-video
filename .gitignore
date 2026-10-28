@@ -7,3 +7,9 @@ research/.candidates-*.tmp
 
 dist/
 work_dir/
+
+# Local analytics configuration; committed examples contain no credentials.
+.env.local
+.env.*.local
+web/.env.local
+web/.env.*.local

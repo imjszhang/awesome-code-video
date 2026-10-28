@@ -26,6 +26,8 @@ jobs:
           SITE_URL: https://awesomecodevideo.com
           SITE_INDEXING: 'true'
           SITE_BASE: /
+          VITE_ANALYTICS_ENABLED: ${{ vars.ANALYTICS_ENABLED }}
+          VITE_GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -34,12 +36,17 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
@@ -48,3 +55,6 @@ jobs:
         shell: bash
         run: |
           curl --fail --silent --show-error --retry 10 --retry-all-errors --retry-delay 15 --max-time 15 https://awesomecodevideo.com/ -o /dev/null
+      - name: Verify public SEO release
+        timeout-minutes: 6
+        run: node scripts/check-web-live.mjs
