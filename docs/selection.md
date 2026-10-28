@@ -22,6 +22,7 @@ Initial review: 2026-10-27. Upstream branches and licenses may change; the links
 - A preset must have an identifiable configuration example.
 - A recipe must explain the move and identify an implementation path.
 - A visual style must provide a reusable specification and a reference example; it remains separate from renderable templates.
+- A generative video prompt is copyable text plus an upstream model label and a reviewed license. It does not count as a reusable film, scene, preset, shot, or style. HyperFrames template forks and agent briefs that build HTML compositions stay out of that section.
 - Supporting motion-design tools must expose a concrete API or reusable implementation and explain their video integration path; they do not count as ready-made templates.
 - Frameworks are useful context, but do not count as ready-made templates.
 - Web-only animation components need a video integration path before entering the core list.

@@ -1,5 +1,7 @@
 import React,{useCallback,useEffect,useRef,useState} from 'react';
+import {HeroMotion} from './HeroMotion';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
+import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
 import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 function Arrow(){return <span aria-hidden="true">↗</span>}
@@ -15,7 +17,7 @@ function Visual({resource,hero=false}:{resource:Resource,hero?:boolean}){
  </div>;
 }
 function External({href,children,className=''}:{href:string,children:React.ReactNode,className?:string}){return <a href={href} className={className} target="_blank" rel="noopener noreferrer">{children}<Arrow/></a>}
-function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPlayback,onVideo}:{resource:Resource,href:(path?:string)=>string,saved:boolean,onSave:(id:string)=>void,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void}){
+export function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPlayback,onVideo}:{resource:Resource,href:(path?:string)=>string,saved:boolean,onSave:(id:string)=>void,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void}){
  const preview=resolvePreview(resource);
  const poster=preview.poster?.startsWith('/previews/')?href(preview.poster.slice(1)):preview.poster;
  const still=poster||preview.url;
@@ -57,9 +59,22 @@ function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPla
 function HomeGallery({href,saved,onSave}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void}){
  const videos=useRef(new Map<string,HTMLVideoElement>());
  const sources=useRef(new Map<string,string>());
+ const tabs=useRef(new Map<GalleryCategory,HTMLButtonElement>());
+ const grid=useRef<HTMLDivElement>(null);
+ const revealIndex=useRef<number|null>(null);
+ const [browse,setBrowse]=useState(createGalleryBrowseState);
  const [playback,setPlayback]=useState<GalleryPlaybackState>({activeId:null,playing:false});
  const playbackRef=useRef(playback);
- const onVideo=useCallback((id:string,node:HTMLVideoElement|null,url?:string|null)=>{if(node){videos.current.set(id,node);if(url)sources.current.set(id,url);}else{videos.current.delete(id);sources.current.delete(id);}},[]);
+ const playRequest=useRef(0);
+ const onVideo=useCallback((id:string,node:HTMLVideoElement|null,url?:string|null)=>{
+  if(node){videos.current.set(id,node);if(url)sources.current.set(id,url);}
+  else{
+   const previous=videos.current.get(id);
+   if(previous)resetPreview(previous);
+   videos.current.delete(id);
+   sources.current.delete(id);
+  }
+ },[]);
  const onPlayback=useCallback((id:string,isPlaying:boolean)=>{
   if(playbackRef.current.activeId!==id)return;
   const next={activeId:id,playing:isPlaying};
@@ -67,10 +82,13 @@ function HomeGallery({href,saved,onSave}:{href:(path?:string)=>string,saved:stri
   setPlayback(next);
  },[]);
  function toggle(id:string){
+  const request=++playRequest.current;
   const result=toggleGalleryPlayback(playbackRef.current,id,videos.current,sources.current);
   playbackRef.current=result.state;
   setPlayback(result.state);
   void result.play?.catch(()=>{
+   // An old media request must not clear a newer playback session after a tab switch.
+   if(request!==playRequest.current)return;
    const next=abandonGalleryPlayback(playbackRef.current,id);
    playbackRef.current=next;
    setPlayback(next);
@@ -78,14 +96,74 @@ function HomeGallery({href,saved,onSave}:{href:(path?:string)=>string,saved:stri
    if(video&&next.activeId!==id)resetPreview(video);
   });
  }
+ const activate=useCallback((category:GalleryCategory)=>{
+  ++playRequest.current;
+  const previousId=playbackRef.current.activeId;
+  const idle={activeId:null,playing:false};
+  playbackRef.current=idle;
+  setPlayback(idle);
+  if(previousId){const previous=videos.current.get(previousId);if(previous)resetPreview(previous);}
+  revealIndex.current=null;
+  setBrowse(current=>selectGalleryCategory(current,category));
+ },[]);
+ useEffect(()=>{
+  function syncHash(){
+   const category=GALLERY_CATEGORY_IDS.find(id=>`#${id}`===window.location.hash);
+   if(category)activate(category);
+  }
+  syncHash();
+  window.addEventListener('hashchange',syncHash);
+  return()=>window.removeEventListener('hashchange',syncHash);
+ },[activate]);
+ useEffect(()=>{
+  if(revealIndex.current===null)return;
+  const firstNew=grid.current?.children[revealIndex.current] as HTMLElement|undefined;
+  revealIndex.current=null;
+  // Continue from the newly appended row instead of skipping it on the next Tab press.
+  firstNew?.querySelector<HTMLAnchorElement>('h3 a')?.focus({preventScroll:true});
+  firstNew?.scrollIntoView({block:'start'});
+ },[browse]);
+ function selectTab(category:GalleryCategory){
+  if(category===browse.activeCategory)return;
+  activate(category);
+  history.replaceState(history.state,'',`#${category}`);
+ }
+ function handleTabKey(event:React.KeyboardEvent<HTMLButtonElement>,index:number){
+  const last=GALLERY_CATEGORY_IDS.length-1;
+  const next=event.key==='ArrowRight'?(index+1)%(last+1):event.key==='ArrowLeft'?(index+last)%(last+1):event.key==='Home'?0:event.key==='End'?last:null;
+  if(next===null)return;
+  event.preventDefault();
+  const category=GALLERY_CATEGORY_IDS[next];
+  tabs.current.get(category)?.focus({preventScroll:true});
+  selectTab(category);
+ }
  const groups=homePreviewGroups();
  const sections=[
-  {id:'video-gallery',label:'Video gallery',number:'01',title:'Watch the videos.',items:groups.videos,description:'Play MP4 demos here, or open YouTube videos on YouTube. Playback starts muted. Nothing on this page is a local render test.'},
-  {id:'animated-examples',label:'Animated examples',number:'02',title:'Explore animated examples.',items:groups.animations,description:'GIF and animated WebP examples. These are animated images, not videos. Select a cover to open the original animation.'},
-  {id:'other-resources',label:'Other resources',number:'03',title:'Images & project pages.',items:groups.other,description:'Static template images and project websites. Select a cover to visit the source.'},
- ];
- return <><nav className="gallery-navigation" aria-label="Browse media types">{sections.map(section=><a key={section.id} href={`#${section.id}`}>{section.label} <span>{section.items.length}</span></a>)}</nav>{sections.map(section=><section key={section.id} id={section.id} className={`section ${section.id==='video-gallery'?'home-gallery':'home-preview-section'}`} aria-label={section.label}><div className="section-heading"><div><p className="eyebrow">{section.number} / {section.label.toUpperCase()} · {section.items.length}</p><h2>{section.title}</h2></div>{section.id==='video-gallery'?<a href={href('library/')}>All {resources.length} resources ↗</a>:<a href="#video-gallery">Back to videos ↑</a>}</div><p className="gallery-lead">{section.description}</p><div className="card-grid">{section.items.map(resource=><GalleryCard key={resource.id} resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.activeId} playing={playback.playing} onToggle={toggle} onPlayback={onPlayback} onVideo={onVideo}/>)}</div></section>)}</>;
-
+  {id:'video-gallery',label:'Video gallery',unit:'videos',items:groups.videos,description:'A shot, a style, a whole new direction. Watch the work, then explore its source.',format:'Click to play · Starts muted'},
+  {id:'animated-examples',label:'Animated examples',unit:'animated examples',items:groups.animations,description:'Small studies in motion. Open an animation to see how the idea comes together.',format:'GIF & animated WebP'},
+  {id:'other-resources',label:'Other resources',unit:'resources',items:groups.other,description:'Visual starting points, templates and tools. Follow a frame back to its creator.',format:'Images & project pages'},
+ ] satisfies {id:GalleryCategory,label:string,unit:string,items:Resource[],description:string,format:string}[];
+ return <>
+  <div className="gallery-navigation" role="tablist" aria-label="Browse media types">
+   {sections.map((section,index)=><button key={section.id} type="button" role="tab" id={`${section.id}-tab`} aria-controls={section.id} aria-selected={browse.activeCategory===section.id} tabIndex={browse.activeCategory===section.id?0:-1} ref={node=>{if(node)tabs.current.set(section.id,node);else tabs.current.delete(section.id);}} onClick={()=>selectTab(section.id)} onKeyDown={event=>handleTabKey(event,index)}>{section.label} <span>{section.items.length}</span></button>)}
+  </div>
+  {sections.map(section=>{
+   const active=browse.activeCategory===section.id;
+   const visible=section.items.slice(0,browse.visibleCounts[section.id]);
+   const remaining=section.items.length-visible.length;
+   return <section key={section.id} id={section.id} className="section home-gallery" role="tabpanel" aria-labelledby={`${section.id}-tab`} hidden={!active} tabIndex={active?0:-1}>
+    {active&&<>
+     <div className="gallery-context"><p className="gallery-lead">{section.description}</p><span className="gallery-format">{section.format}</span></div>
+     <div className="card-grid" ref={grid}>{visible.map(resource=><GalleryCard key={resource.id} resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.activeId} playing={playback.playing} onToggle={toggle} onPlayback={onPlayback} onVideo={onVideo}/>)}</div>
+     <div className="gallery-pagination">
+      <p className="gallery-progress" role="status" aria-live="polite" aria-atomic="true">Showing {visible.length} of {section.items.length} {section.unit}</p>
+      {remaining>0?<button type="button" className="button gallery-load-more" onClick={()=>{revealIndex.current=visible.length;setBrowse(current=>loadMoreGalleryItems(current,section.items.length));}}>Load {Math.min(GALLERY_BATCH_SIZE,remaining)} more <span aria-hidden="true">↓</span></button>:<p className="gallery-complete">All {section.items.length} {section.unit} shown</p>}
+     </div>
+    </>}
+   </section>;
+  })}
+  <noscript><p className="gallery-lead">Enable JavaScript to switch categories and load more previews, or <a href={href('library/')}>browse all {resources.length} resources in the library</a>.</p></noscript>
+ </>;
 }
 export function App({path,base='/'}:{path:string,base?:string}){
  const route=routeForPath(path,base);const href=(s='')=>base+s;
@@ -117,26 +195,44 @@ export function App({path,base='/'}:{path:string,base?:string}){
  function About(){return <><Intro label="CURATED, WITH CONTEXT" title="Know what you’re getting." text="An independent collection of reusable parts for making videos with code. Specific artifacts, useful context, and a path back to the source."/><div className="about-grid"><section className="prose-block"><h2>One index. Different starting points.</h2>{Object.entries(kindNames).map(([k,n])=><div className="kind-definition" key={k}><h3>{n}</h3><p>{kindGuides[k]}</p></div>)}</section><div><section className="prose-block"><h2>Our selection standard</h2><p>We look for an identifiable source file, example, configuration, implementation recipe, or reusable style specification. A preview alone is not an editable template.</p><p>Descriptions explain the look, the likely use, and the adaptation work. A source review does not promise installation success, render quality, or unrestricted commercial use.</p><p>The collection was researched and drafted with AI assistance. Sources and review dates stay attached to individual resources. The catalog is CC0; upstream materials keep their own licenses.</p><External href={`${repo}/blob/main/docs/selection.md`}>Full selection notes</External></section><section className="prose-block yellow-panel"><h2>Found a good starting point?</h2><p>Suggest a specific resource, tell us what can be reused, and link to its source and terms.</p><External href={`${repo}/issues/new/choose`} className="button primary">Suggest a resource</External><p><External href={`${repo}/blob/main/contributing.md`}>Contribution guidelines</External></p></section><section className="prose-block"><h2>About the covers</h2><p>Detail pages and the library use original editorial illustrations. They are not screenshots, footage, or verified reproductions. The homepage gallery hotlinks an upstream file, image, or page only when a reviewed preview exists, and labels it Upstream demo, Preview, or Editorial cover. Choose Play on an upstream demo to watch it here. Playback starts muted, and the player controls can unmute it. Videos never autoplay. Animated images may move when loaded. A preview is not a local render test.</p><h3>Private by design</h3><p>Search runs in your browser. Saved resources and your theme preference stay on this device. There is no account, tracking script, or connection to a rendering service.</p></section></div></div></>}
  let content:React.ReactNode;
  if(route.type==='home')content=<>
-  <section className="hero hero-short">
-   <div className="hero-copy">
-    <p className="eyebrow"><span className="live-dot"/> A CURATED INDEX FOR VIDEO MAKERS</p>
-    <h1>GOOD CODE.<br/>GREAT <span className="outlined">VIDEO.</span></h1>
-   </div>
-   <div className="hero-summary">
-    <p className="hero-description">Find a visual style, a camera move, or your next film template. Start with the source. Make it yours.</p>
+  <section className="brand-hero" aria-labelledby="home-title">
+   <div className="brand-hero-copy">
+    <p className="eyebrow">A FIELD GUIDE TO CODE-DRIVEN VIDEO</p>
+    <h1 id="home-title"><span>Good code.</span><span>Great video.</span></h1>
+    <p className="brand-hero-description">Explore films, motion studies and reusable ideas.<br/>{' '}Find your next visual language. Make it yours.</p>
     <div className="hero-actions">
-     <a className="button primary" href={href('library/')}>Explore the library <span aria-hidden="true">↗</span></a>
-     <a className="plain-link" href={href('collections/')}>What are you making? →</a>
+     <a className="button primary" href="#explore">Explore the work <span aria-hidden="true">↓</span></a>
+     <External className="button secondary" href={repo}>View on GitHub</External>
     </div>
-    <div className="hero-stats">
-     <div><b>{coreCount}</b><span>reusable starting points</span></div>
-     <div><b>{projects.length}</b><span>source projects</span></div>
-    </div>
+   </div>
+   <figure className="brand-hero-art">
+    <HeroMotion/>
+    <figcaption>CODE <span aria-hidden="true">→</span> FRAME <span aria-hidden="true">→</span> MOTION</figcaption>
+   </figure>
+   <a className="hero-scroll" href="#explore">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+  </section>
+  <div className="home-content">
+  <section className="collection-signal" aria-label="About the collection">
+   <p>An open collection.<br/>A new starting point.</p>
+   <div className="signal-stats">
+    <div><b>{resources.length}</b><span>curated resources</span></div>
+    <div><b>{projects.length}</b><span>source projects</span></div>
+    <div><b>{collections.length.toString().padStart(2,'0')}</b><span>creative directions</span></div>
    </div>
   </section>
-  <HomeGallery href={href} saved={saved} onSave={toggleSave}/>
-  <section className="section"><div className="section-heading"><div><p className="eyebrow">04 / THE STARTING LINE</p><h2>What are you making?</h2></div><a href={href('collections/')}>Browse use cases ↗</a></div><CollectionCards/></section>
-  <section className="manifesto"><span className="manifesto-mark">{'</>'}</span><div><p className="eyebrow">MORE THAN A LINK DUMP</p><h2>See the possibility.<br/>Understand the reuse.</h2><p>Every entry points to something specific: editable source, a configuration, a shot recipe, or a style specification. You bring the story.</p><a className="button" href={href('about/')}>How we curate ↗</a></div><div className="manifesto-facts"><p><b>01</b> Original sources</p><p><b>02</b> Practical reuse notes</p><p><b>03</b> Honest review status</p></div></section>
+  <section className="motion-index" id="explore" aria-labelledby="index-title">
+   <header className="index-heading"><div><p className="eyebrow">THE MOTION INDEX</p><h2 id="index-title">Find a frame. Make it yours.</h2></div><a href={href('library/')}>All {resources.length} resources <Arrow/></a></header>
+   <HomeGallery href={href} saved={saved} onSave={toggleSave}/>
+  </section>
+  <section className="use-case-band" aria-labelledby="use-case-title">
+   <div className="use-case-intro"><div><p className="eyebrow">A DIRECTION FOR EVERY IDEA</p><h2 id="use-case-title">Start with a story.</h2></div><p>A launch, an explanation, a journey.<br/>Find the right tools for the thing you want to say.</p></div>
+   <CollectionCards/>
+  </section>
+  <section className="editorial-note" aria-labelledby="editorial-title">
+   <div><p className="eyebrow">CURATED, WITH CONTEXT</p><h2 id="editorial-title">Borrow a technique.<br/>Build something new.</h2></div>
+   <div><p>Every entry leads to a specific source, with practical reuse notes and an honest review status. The starting point is here. The next frame is yours.</p><a href={href('about/')}>Our selection standard <Arrow/></a></div>
+  </section>
+  </div>
  </>;
 else if(route.type==='library')content=<Library/>;
  else if(route.type==='resource')content=<ResourceDetail id={route.id}/>;
@@ -147,5 +243,35 @@ else if(route.type==='library')content=<Library/>;
  else if(route.type==='about')content=<About/>;
  else if(route.type==='saved')content=<><Intro label="YOUR SHORTLIST" title="Keep the good stuff." text="Resources you saved in this browser. No account required; clearing browser storage removes this list."/>{saved.length?<Cards items={resources.filter(r=>saved.includes(r.id))}/>:<div className="empty"><strong>Your next idea is out there.</strong><p>Use the star on a resource to save it here.</p><a className="button primary" href={href('library/')}>Explore the library ↗</a></div>}</>;
  else content=<><Intro label="404 / FRAME NOT FOUND" title="This shot is missing." text="The page may have moved, or the address may be incorrect."/><a className="button primary" href={href('library/')}>Back to the library ↗</a></>;
- return <><a className="skip-link" href="#main">Skip to content</a><header className="site-header"><a className="brand" href={href()} aria-label="Awesome Code Video home"><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></a><button className="menu-toggle" aria-expanded={menu} aria-controls="site-navigation" onClick={()=>setMenu(!menu)}>Menu {menu?'−':'+'}</button><nav id="site-navigation" className={menu?'open':''} aria-label="Main navigation"><a aria-current={route.type==='library'?'page':undefined} href={href('library/')}>Library</a><a aria-current={route.type==='collections'?'page':undefined} href={href('collections/')}>Use cases</a><a aria-current={route.type==='projects'?'page':undefined} href={href('projects/')}>Projects</a><a aria-current={route.type==='about'?'page':undefined} href={href('about/')}>About</a></nav><div className="header-tools"><a href={href('saved/')} className="saved-nav" aria-label={`Saved resources (${saved.length})`}>☆<span>{saved.length}</span></a><button className="theme-toggle" onClick={toggleTheme} aria-label={dark?'Use light theme':'Use dark theme'}>{dark?'☀':'◐'}</button><External href={repo} className="github-link">GitHub</External></div></header><main id="main" className={`main ${route.type==='home'?'home-main':''}`}>{content}</main><footer className="footer"><div className="footer-top"><a className="brand" href={href()}><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></a><p>For people who make<br/>videos with code.</p><div><a href={href('about/')}>Selection standard ↗</a><External href={`${repo}/issues/new/choose`}>Suggest a resource</External><External href={`${repo}/blob/main/README.zh-CN.md`}>中文清单</External></div></div><div className="footer-bottom"><span>AN INDEPENDENT, OPEN COLLECTION.</span><span>Catalog: CC0 · Upstream materials retain their own terms.</span><External href={repo}>Made to be shared</External></div></footer><div className="sr-only" role="status">{saveStatus}</div></>;
+ return <div className={`site-shell${route.type==='home'?' home-site':''}`}>
+  <a className="skip-link" href="#main">Skip to content</a>
+  <header className="site-header">
+   <a className="brand" href={href()} aria-label="Awesome Code Video home">
+    {route.type==='home'?<span className="brand-wordmark">AWESOME CODE VIDEO</span>:<><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></>}
+   </a>
+   {route.type==='home'&&<span className="brand-note">CODE × MOTION × POSSIBILITY</span>}
+   <button className="menu-toggle" aria-expanded={menu} aria-controls="site-navigation" onClick={()=>setMenu(!menu)}>Menu {menu?'−':'+'}</button>
+   <nav id="site-navigation" className={menu?'open':''} aria-label="Main navigation">
+    <a aria-current={route.type==='library'?'page':undefined} href={href('library/')}>Library</a>
+    <a aria-current={route.type==='collections'?'page':undefined} href={href('collections/')}>Use cases</a>
+    <a aria-current={route.type==='projects'?'page':undefined} href={href('projects/')}>Projects</a>
+    <a aria-current={route.type==='about'?'page':undefined} href={href('about/')}>About</a>
+   </nav>
+   <div className="header-tools">
+    <a href={href('saved/')} className="saved-nav" aria-label={`Saved resources (${saved.length})`}>☆<span>{saved.length}</span></a>
+    {route.type!=='home'&&<button className="theme-toggle" onClick={toggleTheme} aria-label={dark?'Use light theme':'Use dark theme'}>{dark?'☀':'◐'}</button>}
+    <External href={repo} className="github-link">GitHub</External>
+   </div>
+  </header>
+  <main id="main" className={`main ${route.type==='home'?'home-main':''}`}>{content}</main>
+  <footer className="footer">
+   <div className="footer-top">
+    <a className="brand" href={href()}>{route.type==='home'?<span className="brand-wordmark">AWESOME<br/>CODE VIDEO</span>:<><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></>}</a>
+    <p>For people who make<br/>videos with code.</p>
+    <div><a href={href('about/')}>Selection standard ↗</a><External href={`${repo}/issues/new/choose`}>Suggest a resource</External><External href={`${repo}/blob/main/README.zh-CN.md`}>中文清单</External></div>
+   </div>
+   <div className="footer-bottom"><span>AN INDEPENDENT, OPEN COLLECTION.</span><span>Catalog: CC0 · Upstream materials retain their own terms.</span><External href={repo}>Made to be shared</External></div>
+  </footer>
+  <div className="sr-only" role="status">{saveStatus}</div>
+ </div>;
 }

@@ -22,16 +22,24 @@
 .hero-short .hero-stats span { display: inline; font: 10px/1.5 var(--mono); color: var(--muted); letter-spacing: 0; margin: 0; }
 
 .gallery-navigation { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 0 14px; margin: 0; border-bottom: 1px solid var(--edge); }
-.gallery-navigation a { display: flex; gap: 10px; align-items: center; padding: 10px 14px; font-size: 13px; font-weight: 600; border: 1px solid transparent; transition: border-color .15s,background .15s; }
-.gallery-navigation a:hover { border-color: var(--edge); background: var(--panel); }
-.gallery-navigation a:first-child { background: var(--yellow); color: #141414; border-color: #141414; }
-.gallery-navigation span { font: 10px var(--mono); opacity: .7; }
+.gallery-navigation button { display: flex; gap: 10px; align-items: center; min-width: 0; padding: 10px 14px; font-size: 13px; font-weight: 600; line-height: 1.35; text-align: left; background: transparent; border: 1px solid transparent; border-radius: 0; appearance: none; transition: border-color .15s,background .15s; }
+.gallery-navigation button:hover { border-color: var(--edge); background: var(--panel); }
+.gallery-navigation button[aria-selected="true"] { background: var(--yellow); color: #141414; border-color: #141414; }
+.gallery-navigation button:focus-visible { outline-color: var(--ink); outline-offset: 3px; }
+.gallery-navigation span { flex-shrink: 0; font: 10px var(--mono); opacity: .7; }
 .home-gallery { margin-top: 25px; }
 .home-gallery, .home-preview-section { scroll-margin-top: 24px; }
 .home-main .section-heading { margin-bottom: 12px; gap: 20px; }
 .home-main .section-heading .eyebrow { font-size: 10px; letter-spacing: 1px; margin-bottom: 6px; color: var(--muted); }
 .home-main .section-heading h2 { font-size: 28px; letter-spacing: -1px; }
 .gallery-lead { max-width: 820px; margin: 0 0 20px; font-size: 12px; line-height: 1.6; color: var(--muted); }
+
+.home-main .gallery-pagination { display: grid; justify-items: center; gap: 14px; margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--edge-soft); }
+.home-main .gallery-progress, .home-main .gallery-complete { margin: 0; font: 11px/1.6 var(--mono); text-align: center; color: var(--muted); }
+.home-main .gallery-load-more { min-width: 192px; justify-content: center; gap: 16px; padding: 12px 22px; border: 1px solid var(--ink); background: var(--panel); color: var(--ink); box-shadow: 3px 3px 0 var(--card-shadow); }
+.home-main .gallery-load-more:hover { background: var(--yellow); color: #141414; border-color: #141414; box-shadow: 1px 1px 0 var(--card-shadow); }
+.home-main .gallery-load-more:focus-visible { outline-color: var(--ink); }
+.home-main .gallery-complete { padding: 9px 0; }
 
 /* Cards let the preview lead; provenance remains available on demand. */
 .home-main .card-grid { gap: 24px; align-items: start; }
@@ -99,8 +107,11 @@ html[data-theme=dark] .preview-embed { background: #0c0c0c; color: var(--ink); }
   .hero-short .hero-stats b { font-size: 13px; }
   .hero-short .hero-stats span { font-size: 9px; }
   .gallery-navigation { gap: 3px; padding-bottom: 12px; }
-  .gallery-navigation a { font-size: 11px; gap: 7px; padding: 9px 10px; }
+  .gallery-navigation button { font-size: 11px; gap: 7px; padding: 9px 10px; }
   .gallery-navigation span { font-size: 9px; }
+  .home-main .gallery-pagination { margin-top: 24px; padding-top: 20px; gap: 12px; }
+  .home-main .gallery-progress, .home-main .gallery-complete { font-size: 10px; }
+  .home-main .gallery-load-more { min-width: 180px; min-height: 44px; }
   .home-gallery { margin-top: 22px; }
   .home-main .section-heading { gap: 12px; }
   .home-main .section-heading .eyebrow { font-size: 9px; }
@@ -120,13 +131,13 @@ html[data-theme=dark] .preview-embed { background: #0c0c0c; color: var(--ink); }
   .preview-media.preview-player { height: 100%; aspect-ratio: auto; }
   .gallery-card .visual { height: auto; aspect-ratio: 16 / 9; }
   .gallery-navigation { flex-wrap: nowrap; justify-content: space-between; gap: 0; }
-  .gallery-navigation a { padding: 9px 6px; gap: 5px; font-size: 10px; }
+  .gallery-navigation button { padding: 9px 6px; gap: 5px; font-size: 10px; }
   .gallery-navigation span { font-size: 9px; }
 }
 @media (max-width: 360px) {
   .hero-short .hero-actions { gap: 14px; }
   .hero-short .hero-actions .plain-link { font-size: 10px; }
   .hero-short .button { padding: 11px; gap: 12px; }
-  .gallery-navigation a { font-size: 9px; gap: 4px; padding-inline: 5px; }
+  .gallery-navigation button { font-size: 9px; gap: 4px; padding-inline: 5px; }
   .gallery-navigation span { font-size: 8px; }
 }

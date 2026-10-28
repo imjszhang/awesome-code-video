@@ -75,5 +75,28 @@
     "poster_sha256": "433c67fff3c1e05fd8848dda859d48a9a79921b555a76aadf3731bab4fec9feb",
     "license": "\u5f85\u786e\u8ba4",
     "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)"
+  },
+  {
+    "resource_id": "od-8-bit-orbit-video-template",
+    "source_url": "https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4",
+    "page_url": "https://github.com/nexu-io/open-design/blob/main/skills/8-bit-orbit-video-template/example.html",
+    "upstream_title": null,
+    "poster": "/previews/od-8-bit-orbit-video-template.webp",
+    "source_sha256": "4b2d3479fffe15bde8bfa97967bba4ca9a3606e1254ca4d4e513d1450e384827",
+    "poster_sha256": "3120be6a96d27e608e052387f857743adbd4150574332a9ca1869489221805ba",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)"
+  }
+,
+  {
+    "resource_id": "od-weread-year-in-review-video-template",
+    "source_url": "https://repo-assets.open-design.ai/resources/videos/skills/weread-year-in-review-video-template/default-showcase.mp4",
+    "page_url": "https://github.com/nexu-io/open-design/blob/main/skills/weread-year-in-review-video-template/example.html",
+    "upstream_title": null,
+    "poster": "/previews/od-weread-year-in-review-video-template.webp",
+    "source_sha256": "6ae794992f30ce052f3afd7889f8e974d329049b9813e02d9992bf3cf64ba62a",
+    "poster_sha256": "17fe3af7b68be46820eed703ac90d37c0f3b3f4a3a94b39395dfcf068653667b",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)"
   }
 ]

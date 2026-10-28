@@ -6,7 +6,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 156 个可复用单元：99 个成片或场景工程、6 个地图镜头、31 个镜头配方、20 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 169 个可复用单元：107 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -18,6 +18,7 @@
 - [视频制作框架](#视频制作框架)
 - [视频动效辅助工具](#视频动效辅助工具)
 - [制作工作流](#制作工作流)
+- [生成式视频提示词](#生成式视频提示词)
 - [相关清单](#相关清单)
 - [复用边界](#复用边界)
 
@@ -66,24 +67,24 @@
 - [提案：大胆路演](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L113) - 用于范围、时间线和报价演示的 Remotion 提案成片。通过 Bold Pitch 展示导出复用 Proposal.tsx，该导出使用 bold 主题和 pitch 版式。替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [提案：霓虹路演](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L128) - 用于范围、时间线和报价演示的 Remotion 提案成片。通过 Neon Pitch 展示导出复用 Proposal.tsx，该导出使用 neon 主题和 pitch 版式。替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [KPI 计数器](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx) - 独立的 Remotion 场景，在错开的卡片上滚动 KPI 数字。README 写明 1920×1080、4 秒，KpiCounter.tsx 为 30 fps、120 帧。复用组件和类型化参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
-- [生长柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx) - 独立的 Remotion 场景，柱形按数据序列生长。README 写明 1920×1080、5 秒。复用 BarChartAnim.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [生长柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx) - 独立的 Remotion 场景，柱形按数据序列生长。README 写明 1920×1080、5 秒。复用 BarChartAnim.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [故障文字](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/glitch-text/GlitchText.tsx) - 独立的 Remotion 标题场景，故障文字先错位再稳定。README 写明 1920×1080、4 秒。复用 GlitchText.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
-- [Logo 虚化揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-blur-reveal/LogoBlurReveal.tsx) - 独立的 Remotion 场景，Logo 从虚化中变清晰。README 写明 1920×1080、4 秒。复用 LogoBlurReveal.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [打字机](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/typewriter/Typewriter.tsx) - 独立的方形 Remotion 场景，带光标逐字打出文案。README 写明 1080×1080、约 3.3 秒。复用 Typewriter.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [Logo 虚化揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-blur-reveal/LogoBlurReveal.tsx) - 独立的 Remotion 场景，Logo 从虚化中变清晰。README 写明 1920×1080、4 秒。复用 LogoBlurReveal.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
+- [打字机](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/typewriter/Typewriter.tsx) - 独立的方形 Remotion 场景，带光标逐字打出文案。README 写明 1080×1080、约 3.3 秒。复用 Typewriter.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [竞速柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/racing-chart/RacingChart.tsx) - 独立的 Remotion 场景，柱形随数值变化重新排序。README 写明 1920×1080、7 秒。复用 RacingChart.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
-- [星空](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/starfield/Starfield.tsx) - 独立的 Remotion 场景，星星如慢速曲速飞行般掠过。README 写明 1920×1080、5 秒，Starfield.tsx 为 30 fps、150 帧。复用 Starfield.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [星空](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/starfield/Starfield.tsx) - 独立的 Remotion 场景，星星如慢速曲速飞行般掠过。README 写明 1920×1080、5 秒，Starfield.tsx 为 30 fps、150 帧。复用 Starfield.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [社交短片画框](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/social-reel/SocialReel.tsx) - 独立的 Remotion 场景，用账号、说明和进度条组成短片式画框。README 写明 1920×1080、5 秒，SocialReel.tsx 为 30 fps、150 帧。复用 SocialReel.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [Logo 描边绘制](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-stroke-draw/LogoStrokeDraw.tsx) - 独立的 Remotion 场景，先描出 Logo 轮廓再填充。README 写明 1920×1080、3.67 秒，LogoStrokeDraw.tsx 为 30 fps、110 帧。复用 LogoStrokeDraw.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
-- [动态文字堆叠](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kinetic-word-stack/KineticWordStack.tsx) - 独立的 Remotion 场景，词语冲入并堆成一块。README 写明 1920×1080、4 秒，KineticWordStack.tsx 为 30 fps、120 帧。复用 KineticWordStack.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [动态文字堆叠](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kinetic-word-stack/KineticWordStack.tsx) - 独立的 Remotion 场景，词语冲入并堆成一块。README 写明 1920×1080、4 秒，KineticWordStack.tsx 为 30 fps、120 帧。复用 KineticWordStack.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [霓虹招牌闪烁](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/neon-sign/NeonSign.tsx) - 独立的方形 Remotion 场景，文字像霓虹灯管一样闪烁点亮。README 写明 1080×1080、约 3.33 秒，NeonSign.tsx 为 30 fps、100 帧。复用 NeonSign.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
-- [烟花爆发](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/fireworks-burst/FireworksBurst.tsx) - 独立的方形 Remotion 场景，烟花按节奏绽开。README 写明 1080×1080、3.67 秒，FireworksBurst.tsx 为 30 fps、110 帧。复用 FireworksBurst.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [生长折线图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/line-chart-anim/LineChartAnim.tsx) - 独立的 Remotion 场景，折线沿坐标轴画向数据序列。README 写明 1920×1080、5 秒，LineChartAnim.tsx 为 30 fps、150 帧。复用 LineChartAnim.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [乱码揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/scramble-text/ScrambleText.tsx) - 独立的 Remotion 标题场景，字符先随机跳动再锁定成标题。README 写明 1920×1080、5 秒，ScrambleText.tsx 为 30 fps、150 帧。复用 ScrambleText.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [烟花爆发](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/fireworks-burst/FireworksBurst.tsx) - 独立的方形 Remotion 场景，烟花按节奏绽开。README 写明 1080×1080、3.67 秒，FireworksBurst.tsx 为 30 fps、110 帧。复用 FireworksBurst.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
+- [生长折线图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/line-chart-anim/LineChartAnim.tsx) - 独立的 Remotion 场景，折线沿坐标轴画向数据序列。README 写明 1920×1080、5 秒，LineChartAnim.tsx 为 30 fps、150 帧。复用 LineChartAnim.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
+- [乱码揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/scramble-text/ScrambleText.tsx) - 独立的 Remotion 标题场景，字符先随机跳动再锁定成标题。README 写明 1920×1080、5 秒，ScrambleText.tsx 为 30 fps、150 帧。复用 ScrambleText.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [散景循环](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bokeh-circles/BokehCircles.tsx) - 独立的 Remotion 场景，失焦光斑循环漂动。README 写明 1920×1080、5 秒，BokehCircles.tsx 为 30 fps、150 帧。复用 BokehCircles.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
-- [网格波浪循环](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/loop-grid-wave/LoopGridWave.tsx) - 独立的 Remotion 场景，点阵按波浪起伏循环。README 写明 1920×1080、3 秒，LoopGridWave.tsx 为 30 fps、90 帧。复用 LoopGridWave.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [像素 K 线](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-candlestick-ohlc/PixelCandlestickOhlc.tsx) - 独立的 Remotion 场景，用复古像素 K 线播放价格数据。README 写明 1920×1080、6 秒，PixelCandlestickOhlc.tsx 为 30 fps、180 帧。复用 PixelCandlestickOhlc.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [像素马赛克转场](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-mosaic-transition/PixelMosaicTransition.tsx) - 独立的 Remotion 场景，画面先碎成像素块再重新拼合。README 写明 1920×1080、3 秒，PixelMosaicTransition.tsx 为 30 fps、90 帧。复用 PixelMosaicTransition.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
-- [滴灌填充仪表](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pourover-drip-fill-gauge/PouroverDripFillGauge.tsx) - 独立的 Remotion 场景，仪表按滴逐格填充到目标百分比。README 写明 1920×1080、6 秒，PouroverDripFillGauge.tsx 为 30 fps、180 帧。复用 PouroverDripFillGauge.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
+- [网格波浪循环](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/loop-grid-wave/LoopGridWave.tsx) - 独立的 Remotion 场景，点阵按波浪起伏循环。README 写明 1920×1080、3 秒，LoopGridWave.tsx 为 30 fps、90 帧。复用 LoopGridWave.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
+- [像素 K 线](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-candlestick-ohlc/PixelCandlestickOhlc.tsx) - 独立的 Remotion 场景，用复古像素 K 线播放价格数据。README 写明 1920×1080、6 秒，PixelCandlestickOhlc.tsx 为 30 fps、180 帧。复用 PixelCandlestickOhlc.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
+- [像素马赛克转场](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-mosaic-transition/PixelMosaicTransition.tsx) - 独立的 Remotion 场景，画面先碎成像素块再重新拼合。README 写明 1920×1080、3 秒，PixelMosaicTransition.tsx 为 30 fps、90 帧。复用 PixelMosaicTransition.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
+- [滴灌填充仪表](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pourover-drip-fill-gauge/PouroverDripFillGauge.tsx) - 独立的 Remotion 场景，仪表按滴逐格填充到目标百分比。README 写明 1920×1080、6 秒，PouroverDripFillGauge.tsx 为 30 fps、180 帧。复用 PouroverDripFillGauge.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [像素打字机引文](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-typewriter-quote/PixelTypewriterQuote.tsx) - 独立的 Remotion 场景，用复古像素字体把引文打到画面上。README 写明 1920×1080、6 秒，PixelTypewriterQuote.tsx 为 30 fps、180 帧。复用 PixelTypewriterQuote.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [翻页](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/flip-page-transition/FlipPageTransition.tsx) - 独立的 Remotion 场景，翻页从一场切到下一场。README 写明 1920×1080、4 秒，FlipPageTransition.tsx 为 30 fps、120 帧。复用 FlipPageTransition.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
 - [碎裂揭示](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/shatter-reveal/ShatterReveal.tsx) - 独立的 Remotion 场景，覆盖层碎成碎片，露出后面的画面。README 写明 1920×1080、4 秒，ShatterReveal.tsx 为 30 fps、120 帧。复用 ShatterReveal.tsx 及其参数，并保留 MIT 声明。链接的 GIF 是动画预览，不是 MP4 成片；Remotion 运行时许可另行适用。
@@ -138,6 +139,21 @@
 - [Cow](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L49) - HyperFrames 首页展示卡片片（cow）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
 - [1969 年报纸界面](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L28) - HyperFrames 首页展示卡片片（1969 年报纸界面）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
 - [背景移除发布](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L33) - HyperFrames 首页展示卡片片（VFX 背景移除发布）。HeyGen CDN 的 card/ MP4。不可再分发，只热链。
+
+
+下面 6 条是 nexu-io html-video 的原创模板，Apache-2.0。同一仓库里 heygen-com/hyperframes 示例的直接分叉没有收录。可播放预览热链自 Open Design 镜像，没有在本地渲染。
+
+- [故障标题帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-glitch-title) - HyperFrames 标题卡，带 RGB 错位、扫描线和色差。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0，与本清单里其他故障文字片段不是同一上游。复用 templates/frame-glitch-title，替换标题和副标题。规格默认 1920×1080、60 fps，时长可变，约 3 到 8 秒。可播放预览是 Open Design 镜像里的 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [报刊风数据图帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-data-chart-nyt) - 带衬线标题和描线的编辑风动态图表，是 html-video 的原创 Apache-2.0 模板。画面受报刊数据图启发，不是本清单已收 HyperFrames data-chart 块的分叉。复用 templates/frame-data-chart-nyt，替换标题和数据。规格默认 1920×1080、60 fps，时长可变，约 5 到 20 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [漏光电影帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-light-leak-cinema) - 带胶片颗粒和漏光叠层的电影感画面。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/frame-light-leak-cinema，替换标题。规格默认 1920×1080、60 fps，时长可变，约 4 到 10 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [液态背景主视觉](https://github.com/nexu-io/html-video/tree/main/templates/frame-liquid-bg-hero) - 流动液态渐变上的主视觉卡片，居中标题，可选行动号召。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/frame-liquid-bg-hero，替换文案。规格默认 1920×1080、60 fps，时长可变，约 4 到 12 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [Logo 结尾帧](https://github.com/nexu-io/html-video/tree/main/templates/frame-logo-outro) - 结尾卡片：拼合 Logo、加辉光并露出品牌语。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/frame-logo-outro，替换品牌名和标语。规格默认 1920×1080、60 fps，时长可变，约 3 到 10 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+- [光标打字特效](https://github.com/nexu-io/html-video/tree/main/templates/vfx-text-cursor) - 带发光光标和光条的打字机画面。templates/NOTICE.md 将其标为 html-video 原创模板，Apache-2.0。复用 templates/vfx-text-cursor，替换打出的文字。规格默认 1920×1080、60 fps，时长可变，约 3 到 10 秒。可播放预览是 Open Design 镜像 MP4（jsDelivr），按 Apache-2.0 热链；2026-10-28 做过 HEAD，没有在本地渲染。
+
+下面两条是 Open Design 技能，交付的是 HTML 成片工程。目录预览是 example.html 页面，不是视频文件。
+
+- [8-bit 轨道 HyperFrames 视频模板](https://github.com/nexu-io/open-design/tree/main/skills/8-bit-orbit-video-template) - 复古像素、多场景的 HyperFrames HTML 技能。文档中的流程保持三个短场景，每段停留不超过 3 秒，源在 assets/template.html。仓库为 Apache-2.0。目录预览只有仓库内的 example.html 页面（嵌入），该目录没有提交 MP4。example.html 指向一份托管样片，做过 HEAD，但没有当作可播放的目录预览，也没有本地渲染测试。技能目录没有自带字体文件。
+- [阅读年报视频模板](https://github.com/nexu-io/open-design/tree/main/skills/weread-year-in-review-video-template) - 竖屏 9:16 的 HyperFrames 技能，做年度阅读报告（模板视口 1080×1920；技能说明写的是 12 个场景）。视觉受阅读应用年报界面启发。它不是微信读书或 WeRead 的官方模板，也不表示存在合作关系。复用 skills/weread-year-in-review-video-template。仓库 LICENSE 为 Apache-2.0；技能没有打包字体文件（只点名 Songti SC、PingFang SC 等系统中文字体），也没有单独的素材许可，因此这些条款仍未知。目录预览只有 example.html（嵌入）。技能目录没有提交 MP4。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
 ## 参数化地图镜头
 
@@ -199,6 +215,9 @@
 - [Logo 片头 — 极光绽放](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/logo-sting-aurora-bloom.mp4) - ali-abassi/remotion-templates 中 logo-sting 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 - [下三分之一 — 横条](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/lower-third-bar-rule.mp4) - ali-abassi/remotion-templates 的静音下三分之一短环预览。相对已收录的数据可视化、代码、浏览器和光标家族，这是新的家族。
 - [等距场景 — 应用生态](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/isometric-scenes-app-ecosystem.mp4) - ali-abassi/remotion-templates 的静音等距场景短环预览。本批只增加这一家族，不灌入其余约 990 条预览。
+- [图表动画 — 箱线图](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/chart-animations-box-plot.mp4) - ali-abassi/remotion-templates 中 chart-animations 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [编辑标题 — 突发新闻条](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/editorial-headlines-breaking-strip.mp4) - ali-abassi/remotion-templates 中 editorial-headlines 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [讲解图示 — 前后对比系统](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/explainer-diagrams-before-after-system.mp4) - ali-abassi/remotion-templates 中 explainer-diagrams 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 
 ## 视觉风格文件
 
@@ -226,6 +245,8 @@
 | [装饰艺术](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/art-deco/STYLE.md) | 装饰艺术风格说明与样片；演示片 CC BY 4.0，署名 LemoLab | 品牌与风格短片 |
 | [积木玩具](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/brick-toy) | 乐高积木玩具视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 玩具、产品与趣味短片 |
 | [孔版印刷](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/risograph) | Risograph 孔版印刷视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 印刷、海报与独立出版风格短片 |
+| [彩色玻璃](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/stained-glass) | 彩色玻璃视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 风格短片 |
+| [木刻版画](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/woodcut) | 木刻版画视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 印刷与版画风格短片 |
 
 ## 视频制作框架
 
@@ -235,6 +256,7 @@
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - 将 HTML、CSS 和 JavaScript 动画制作成视频，适合网页技术栈与编程助手协作。
 - [Motion Canvas](https://motioncanvas.io/) - 用 TypeScript 编排动画，适合图解和讲解型视频。
 - [Manim Community](https://www.manim.community/) - 用 Python 制作数学与技术动画，适合公式、几何和概念推导；这里链接的是社区维护版。
+- [html-video](https://github.com/nexu-io/html-video) - 面向编程助手的 HTML 到本地 MP4 层，带模板库和统一渲染适配接口。目前真正接好的引擎是 HyperFrames（无头 Chromium 加 FFmpeg）；Remotion、Motion Canvas、Revideo、Manim 在文档里仍是路线图，这里不能当成已经可渲染。仓库为 Apache-2.0，文档写有 21 个模板；本清单只收这个框架和 NOTICE 标明的 6 个原创模板，不收 heygen-com/hyperframes 示例的直接分叉。预览是仓库 hero PNG（缩略图链接），按 Apache-2.0 热链。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
 ## 视频动效辅助工具
 
@@ -249,6 +271,21 @@
 - [llm-explain](https://github.com/Gohanwu42/llm-explain) - 讲解工作流，附 Python 与 FFmpeg 合成脚本，将本地静态图片、旁白和字幕合成 MP4 与同步 SRT，适合旁白驱动的概念图解。图片与音频需自行准备，再调整分镜清单。
 - [Remotion Agent Skills](https://github.com/remotion-dev/skills) - 官方编程助手指南，覆盖 Remotion 视频创建、预览与渲染，并提供字幕、地图和多媒体专项参考。适合自建 React 视频制作流程；视觉方向需自行设计，许可按 Remotion 条款核对。
 - [六层视频制作母提示词](https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ) - 中文文章提供完整制作提示词，覆盖交付物、创作权限、制作参数、视觉规则、核心创意和审片迭代。适合用编程助手制作科普或产品影片时拟定任务；替换主题、规格与创意方向。它是制作指令，不是固定画风或可执行成片工程。
+
+## 生成式视频提示词
+
+可直接复制的文生视频和图生视频提示词，附带来源文件里的模型标签。它们不计入上面的 169 个可复用单元。这不是可以克隆后渲染的 Remotion、HyperFrames 或 Shotcraft 工程。模型名只是上游标注，不代表换一个生成器会得到同样结果。2026-10-28 仅做源码审阅，没有本地渲染测试。
+
+- [A Decade of Refinement Glow-Up](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json) - 可复制的 Seedance 2.0 提示词，做 15 秒身份锁定的形象转变：同一个人从普通街景走到迪拜屋顶的黑西装镜头。适合作为参考图转变简报。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Maverick | AI（https://x.com/RizwanAly07/status/2048948726623056366）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Animation transfer and camera tracking prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json) - 很短的 Seedance 2.0 提示词：把参考行走套到角色上，同时镜头保持锁定。适合做不换机位的动作迁移。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Olivio Sarikas（https://x.com/OlivioSarikas/status/2049093762077630628）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Beat-Synced Outfit Transformation Dance](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/beat-synced-outfit-transformation-dance.json) - Seedance 2.0 提示词：参考舞蹈进行到一半时按节拍换装，再由第二个角色把剩余步伐跳完。适合带参考图的舞蹈剪辑。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Kashberg（https://x.com/Kashberg_0/status/2049074008730247669）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Character Intro Motion Graphics Sequence](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/character-intro-motion-graphics-sequence.json) - 带时间轴的 Seedance 2.0 提示词：三个参考角色依次入场，带界面标注，最后合成队伍标题。适合风格化的角色亮相。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 KANA（https://x.com/KanaWorks_AI/status/2049281443956974029）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Cinematic Route Navigation Guide](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-route-navigation-guide.json) - Seedance 2.0 提示词：5 秒步行路线引导，同一位向导，起始帧用街景图。场景序号和下一步方向是占位符。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Michael Guo（https://x.com/Michaelzsguo/status/2048966649982669053）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Cinematic Street Racing Sequence for Seedance 2](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/cinematic-street-racing-sequence-for-seedance-2.json) - 多镜头 Seedance 2.0 提示词：夜间街头赛车，包括驾驶员特写、氮气按钮和湿沥青上的低机位加速。适合作为电影感追逐简报。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Pierrick Chevallier | IA（https://x.com/CharaspowerAI/status/2039651574297792688）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Modern Rural Aesthetics Healing Short Film Video Prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/modern-rural-aesthetics-healing-short-film-video-prompt.json) - 三镜头 Seedance 2.0 提示词：明亮农舍里的烹饪短片，包括清晨采摘、刀工和安静用餐。适合平静的食物与生活方式片段。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 John（https://x.com/johnAGI168/status/2021818021354848258）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Nightclub Flyer Atmospheric Animation](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/nightclub-flyer-atmospheric-animation.json) - Seedance 2.0 提示词：夜店海报上的人物和文字保持锁定，只让烟雾、轮廓光和闪光移动。JSON 的 aspect 是 16:9，提示词正文另写了 4:5。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Nash Deen（https://x.com/DeenNash_Fu/status/2048912067361452121）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Toaster Rocket Jumpscare](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/toaster-rocket-jumpscare.json) - Seedance 2.0 提示词：手持家庭录像风格，烤面包机把面包弹到天花板，老人被吓到。上游 prompt 字段把同一段话重复了两遍，本条按原文保留。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Marin（https://x.com/MarinMethod/status/2049140113343394003）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
+- [Desk Hologram AR on Real Workspace](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/video-seedance-desk-hologram-ar-realdesk.json) - Apache-2.0 的 Seedance 2.0 提示词：竖屏桌面全息，一个全息角色站在真实的开发者键盘上，先锁定静帧再做成约 15 秒的单镜头。源提示词 3877 个字符，本条只收开头段落和文中标明的负面提示。Open Design / nexu-io（https://github.com/nexu-io/open-design）。模型名只是上游标注。预览是 Open Design 托管的 MP4。没有本地渲染测试。
 
 ## 相关清单
 

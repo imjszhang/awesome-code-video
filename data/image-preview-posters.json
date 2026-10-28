@@ -1,5 +1,115 @@
 [
   {
+    "resource_id": "gvp-anim-transfer-cam-track",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/089e7cd70d20131d6d1b44741520eaee/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-anim-transfer-cam-track.webp",
+    "source_sha256": "81910255e3ae8641f21ff6b6fa5db6180095414ab05993f733600972c38307cc",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "8860588e8c609e4c4929cb17c14de593e31a5329f9a5288b9d924650ad5e24d7",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-beat-synced-outfit-dance",
+    "source_url": "https://pbs.twimg.com/media/HG_FqHJboAA5vAe.jpg",
+    "poster": "/previews/gvp-beat-synced-outfit-dance.webp",
+    "source_sha256": "0d91d115685c650acd1ac3a20b48a88a29fec1a7e3a67fe8f93d923766d04a3b",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "364f1f50834dcbf9ed9d910a789053583ec51283829bc01344af7f75b27a7e9a",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-character-intro-mogra",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d7697b00e2a3cb0ecb91273a772eda39/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-character-intro-mogra.webp",
+    "source_sha256": "b8114ed6b1752217b813d3712efb337ac91edb8d3f50763b1bfdd522763ef8fd",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "95d9c1034e04d4cc02966de62484da4083ea98534c541a5bbafd97854d39a53d",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-decade-glow-up",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/d2d6d15cbc6ef4d4d4c8c9a7de7007d7/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-decade-glow-up.webp",
+    "source_sha256": "ddb0c1106b5f03e5564638f1acba992cdcc956153db8bac0200e819c08e38c77",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "1a33d78c688cb409932440f1afa5d07f4961218e0509d6f8f69d1b11d1e4eec6",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-modern-rural-healing",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ce508b28e505ffce07247e2ab036d6f1/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-modern-rural-healing.webp",
+    "source_sha256": "0213159c749b2399c408e475a576471f9bc57137b893dbb9c09f808d347bfe47",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "b4c6bd652b068bf281e7aa72739a7c15204618ef2cdafcd80bd63653a913913c",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-nightclub-flyer-atmos",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/ac4aa8dd242046f292eab0e1333692ef/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-nightclub-flyer-atmos.webp",
+    "source_sha256": "f190f05b8f7984469b68614f8af9481c738bba5b2dec02ba0616d6c9ee545895",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "e25d182a9a9b4030061dee70d3b1247dcf35e202d8f4ae0d987d834081188aad",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-route-navigation-guide",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/49a08d9ecf7257120711ce6d7b158073/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-route-navigation-guide.webp",
+    "source_sha256": "42dd675b61bd344aa2c25efb035f59a51134427dc55b56b19165b19b2a597ca9",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "c756fc5c666cfda2c8620da51dd502350c118369d579046ff443a9d28651ab4f",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-street-racing-cinematic",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/3a7fb0a6d706b9f568479bb720ce1ad4/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-street-racing-cinematic.webp",
+    "source_sha256": "1dd83ffebc5cd2785b3bd0b2479f91cdc18f537b345875ca5b6880f02594e3b1",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "2ac1a9ad191cbeca38ca6d12656c1585d39039750f05c4af14592da24ea1fa3e",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "gvp-toaster-rocket-jumpscare",
+    "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/fbf9f399fd8f4905a62661966d937ba8/thumbnails/thumbnail.jpg",
+    "poster": "/previews/gvp-toaster-rocket-jumpscare.webp",
+    "source_sha256": "e5d24c975b54b065c48c06dcc5a4353bdcb48e3d61615b3e59b3c1ced6a50bef",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "5f1f0c6ec60aa0e8642e9e43a61fe16da376681070444539671cab96ba84d64e",
+    "license": "CC-BY-4.0",
+    "attribution": "YouMind OpenLab (https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE); mirrored by Open Design / nexu-io (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "html-video",
+    "source_url": "https://raw.githubusercontent.com/nexu-io/html-video/main/docs/assets/hero.png",
+    "poster": "/previews/html-video.webp",
+    "source_sha256": "99330d43ec528e0ead0ab532a04c2a19a1fd22b57bddbc3cfe3f079064240995",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "189af8d105f99d78ae17635f4ec448f328890d4f86f04e0a62c19dcafee8a099",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io/html-video"
+  },
+  {
     "resource_id": "map-motion-flight-routes",
     "source_url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/showcase_flight_region.webp",
     "poster": "/previews/map-motion-flight-routes.webp",
@@ -198,17 +308,6 @@
     "attribution": "Remotion (https://www.remotion.dev/templates/tiktok)"
   },
   {
-    "resource_id": "rendercomp-bar-chart-anim",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bar-chart-anim.gif",
-    "poster": "/previews/rendercomp-bar-chart-anim.webp",
-    "source_sha256": "1bdb5806d7fa750773c3b04f8d53c5462d5e539fad3d6cb0f2d56a6b09b89681",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "1b6c563dc279b7f52e77df3aef703db9d069a048b7417c94b48746a78dbd431c",
-    "license": "MIT",
-    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
-  },
-  {
     "resource_id": "rendercomp-camera-shake",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/camera-shake.gif",
     "poster": "/previews/rendercomp-camera-shake.webp",
@@ -238,17 +337,6 @@
     "frame_index": 7,
     "frame_count": 19,
     "poster_sha256": "3ada23fcd5c89e84ad5ce83e182af19d19dd3791e887d587ea4ae437f11f4118",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-fireworks-burst",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/fireworks-burst.gif",
-    "poster": "/previews/rendercomp-fireworks-burst.webp",
-    "source_sha256": "a768b68a591de4215a062184b232e1bdd5f06e92ec5a8e049ce102a21cf4ad74",
-    "frame_index": 7,
-    "frame_count": 20,
-    "poster_sha256": "90119e94063ba373e701b48c6ee9747e8ee2464cb574a8bc7ffee5057e7e4deb",
     "license": "MIT",
     "attribution": "RenderComp"
   },
@@ -286,39 +374,6 @@
     "attribution": "RenderComp"
   },
   {
-    "resource_id": "rendercomp-kinetic-word-stack",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kinetic-word-stack.gif",
-    "poster": "/previews/rendercomp-kinetic-word-stack.webp",
-    "source_sha256": "3edd0a137fcddad90f4e5d2776e96c5c4b73379d1f50d31379e03c0fd16dc66a",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "498ea04c31bc0e5302465e5e1aa98c40996f863101ebc34a8e45ad06e671929b",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-line-chart-anim",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/line-chart-anim.gif",
-    "poster": "/previews/rendercomp-line-chart-anim.webp",
-    "source_sha256": "58a23160a627acccf19751c0bac39666451f8faae0475fd9531726e7a0d46259",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "331b14b37ef80b0c088c446c607936d7db5cc9a0112a5e559d2f58d76e182108",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-logo-blur-reveal",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-blur-reveal.gif",
-    "poster": "/previews/rendercomp-logo-blur-reveal.webp",
-    "source_sha256": "c8714c347d5c32b2cb1e521136de0e110d2f6d066940941849b8fe249729f276",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "dfc49eea418290f5e350dbb8aee43dafbd71a72c52f4d04d97eadda44f1cbee5",
-    "license": "MIT",
-    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
-  },
-  {
     "resource_id": "rendercomp-logo-bounce-drop",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-bounce-drop.gif",
     "poster": "/previews/rendercomp-logo-bounce-drop.webp",
@@ -352,17 +407,6 @@
     "attribution": "RenderComp"
   },
   {
-    "resource_id": "rendercomp-loop-grid-wave",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/loop-grid-wave.gif",
-    "poster": "/previews/rendercomp-loop-grid-wave.webp",
-    "source_sha256": "9f8bcb2bf7235917eb856e569158c082db323ffe199a3036cc3fdf2202eb591f",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "079dbdc08dbbebb2dce178af50597da7481594bb3384819493dded8ae75fda88",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
     "resource_id": "rendercomp-parallax-pan",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/parallax-pan.gif",
     "poster": "/previews/rendercomp-parallax-pan.webp",
@@ -370,28 +414,6 @@
     "frame_index": 7,
     "frame_count": 19,
     "poster_sha256": "264b50ac9862518781e307c0a6ea8de226cbef12e40e704d1cc146294e122073",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-pixel-candlestick-ohlc",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-candlestick-ohlc.gif",
-    "poster": "/previews/rendercomp-pixel-candlestick-ohlc.webp",
-    "source_sha256": "c6e9dae8183fee0d16332764ce1ec626c2aac5dd0ba40783cc45ed172e2aa47a",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "be50e3dd104ca36bdf591fd413c1e769ee9c2d60e3d06153ca78a70e0f2c0c00",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-pixel-mosaic-transition",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-mosaic-transition.gif",
-    "poster": "/previews/rendercomp-pixel-mosaic-transition.webp",
-    "source_sha256": "c16dc9c9be56143374e3d4b85d23248cb5e590f3642380a90f227af8b800895d",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "dfeb0a1d8a3aadf392e946a4a3009ec409848dc0c8722ae6cccd4031ddc341c0",
     "license": "MIT",
     "attribution": "RenderComp"
   },
@@ -418,28 +440,6 @@
     "attribution": "RenderComp"
   },
   {
-    "resource_id": "rendercomp-pourover-drip-fill-gauge",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pourover-drip-fill-gauge.gif",
-    "poster": "/previews/rendercomp-pourover-drip-fill-gauge.webp",
-    "source_sha256": "628cc37bac77dcbd3c4eaf77a3b464eaf1a613e394a60361140abc00219dd890",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "6d0da0149f78cedd422f1b440d7914da402f9f744c8243afba78bed22afd74d5",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-scramble-text",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/scramble-text.gif",
-    "poster": "/previews/rendercomp-scramble-text.webp",
-    "source_sha256": "001950d48e2ffbf80b8e2103b1cc56aa046d952dbff79b15e97d6499290abcce",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "d8a0cb2238298a66d9ae922fadbd55a1d16504270cc3823396634c4f57299443",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
     "resource_id": "rendercomp-shatter-reveal",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/shatter-reveal.gif",
     "poster": "/previews/rendercomp-shatter-reveal.webp",
@@ -447,17 +447,6 @@
     "frame_index": 7,
     "frame_count": 19,
     "poster_sha256": "34f659ea5df4c3e5297bb5818bf49a42ef54d5322a832445083b783fc3653235",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-starfield",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/starfield.gif",
-    "poster": "/previews/rendercomp-starfield.webp",
-    "source_sha256": "b6534161c665a17fcbeaa7947158955b3457759433406ee74a134afca3880426",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "dce2478602d2893212646dd0c6d14d69a99c0a5a3fc27d3557c827df1171c9c6",
     "license": "MIT",
     "attribution": "RenderComp"
   },
@@ -482,17 +471,6 @@
     "poster_sha256": "ab570d2567a86e338d1471e3eee40512085430fb8ecf05281e55f7986f370179",
     "license": "MIT",
     "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-typewriter",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/typewriter.gif",
-    "poster": "/previews/rendercomp-typewriter.webp",
-    "source_sha256": "0947fc8d2ad2f7fa0bf64fdccbaf870fdd9e26951503cfd110ffd1074baaa709",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "22b97b3f15c3478a3e3e918476790bc8517228175f0d4030e2801ef942cde404",
-    "license": "MIT",
-    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
   },
   {
     "resource_id": "rendercomp-wave-hello",
