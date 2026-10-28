@@ -2,9 +2,24 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import React from 'react';
 import {renderToString} from 'react-dom/server';
-import {App} from '../web/src/App';
+import {App,GalleryCard} from '../web/src/App';
+import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems} from '../web/src/galleryBrowsing';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,homePreviewItems,homePreviewGroups,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview} from '../web/src/model';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,homePreviewItems,homePreviewGroups,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
+
+function renderGalleryCard(resource:Resource,base='/') {
+ return renderToString(React.createElement(GalleryCard,{
+  resource,href:(path='')=>base+path,saved:false,onSave:()=>{},
+  activeId:null,playing:false,onToggle:()=>{},onPlayback:()=>{},onVideo:()=>{},
+ }));
+}
+function renderPreviewCards(items=homePreviewItems(),base='/') {
+ return items.map(resource=>renderGalleryCard(resource,base)).join('');
+}
+function escapeHtml(value:string) {
+ const entities:Record<string,string>={'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#x27;'};
+ return value.replace(/[&<>"']/g,char=>entities[char]);
+}
 
 test('every public resource and project has exactly one stable route',()=>{
  const paths=allPaths();assert.equal(new Set(paths).size,paths.length);
@@ -84,7 +99,7 @@ test('incomplete or unsafe previews degrade without exposing a url',()=>{
  assert.equal(resolvePreview(thumb).playable,false);
  assert.equal(previewPoster({preview:{...thumb.preview,poster:thumb.preview!.url}}),thumb.preview!.url);
 });
-test('homepage gallery lists complete previews and featured covers without autoplay',()=>{
+test('gallery cards retain complete previews and featured covers without autoplay',()=>{
  const items=homePreviewItems();
  const ids=items.map(r=>r.id);
  assert.equal(new Set(ids).size,ids.length);
@@ -101,15 +116,16 @@ test('homepage gallery lists complete previews and featured covers without autop
  }
  const esc=(value:string)=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
  const html=renderToString(React.createElement(App,{path:'/'}));
- assert.match(html,/class="hero hero-short"/);
+ assert.match(html,/class="brand-hero"/);
  assert.equal(html.includes('hero-poster'),false);
- assert.match(html,/aria-label="Video gallery"/);
- assert.match(html,/Nothing on this page is a local render test/);
+ assert.match(html,/role="tablist"/);
  assert.equal(html.includes('EDITORIAL COVER'),false);
  assert.equal(html.includes('<iframe'),false);
- const captions=[...html.matchAll(/<span class="art-caption">([^<]*)<\/span>/g)].map(m=>m[1]);
- assert.deepEqual(captions,Object.values(homePreviewGroups()).flat().map(r=>previewCaption(r)));
- const videos=[...html.matchAll(/<video\b[^>]*>/g)].map(m=>m[0]);
+ const cardHtml=renderPreviewCards(items);
+ assert.equal([...cardHtml.matchAll(/Watch on YouTube/g)].length,items.filter(isYouTubePreview).length);
+ const captions=[...cardHtml.matchAll(/<span class="art-caption">([^<]*)<\/span>/g)].map(m=>m[1]);
+ assert.deepEqual(captions,items.map(r=>previewCaption(r)));
+ const videos=[...cardHtml.matchAll(/<video\b[^>]*>/g)].map(m=>m[0]);
  const playable=items.filter(r=>previewPlayable(r));
  assert.equal(videos.length,playable.length);
  assert.equal(videos.filter(tag=>/\bsrc="/i.test(tag)).length,0);
@@ -125,7 +141,7 @@ test('homepage gallery lists complete previews and featured covers without autop
   assert.doesNotMatch(attrs,/\bmuted\b/i);
   assert.doesNotMatch(attrs,/\bloop\b/i);
  }
- const images=[...html.matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
+ const images=[...cardHtml.matchAll(/<img\b[^>]*>/g)].map(m=>m[0]);
  const thumbs=items.filter(r=>{const preview=resolvePreview(r);return !preview.degraded&&preview.mode==='thumb_link';});
  const posterStills=items.filter(r=>{const preview=resolvePreview(r);return preview.playable&&Boolean(preview.poster);});
  const pageStills=items.filter(r=>{const p=resolvePreview(r);return p.mode==='embed'&&p.poster;});
@@ -136,27 +152,32 @@ test('homepage gallery lists complete previews and featured covers without autop
  }
  for(const resource of items){
   const preview=resolvePreview(resource);
-  assert.match(html,new RegExp(`href="/resources/${resource.id}/"`));
-  assert.match(html,new RegExp(`<p class="preview-note">${esc(preview.detail)}`));
+  const resourceHtml=renderGalleryCard(resource);
+  assert.match(resourceHtml,new RegExp(`href="/resources/${resource.id}/"`));
+  assert.match(resourceHtml,new RegExp(`<p class="preview-note">${esc(preview.detail)}`));
+  if(!preview.degraded){
+   assert(resourceHtml.includes(escapeHtml(preview.license!)),resource.id);
+   assert(resourceHtml.includes(escapeHtml(preview.attribution!)),resource.id);
+  }
   if(preview.degraded){
    assert.equal(preview.caption,'Editorial cover');
    continue;
   }
-  assert.match(html,new RegExp(`href="${esc(preview.url!)}" class="preview-source"`));
+  assert.match(resourceHtml,new RegExp(`href="${esc(preview.url!)}" class="preview-source"`));
   if(preview.playable){
-   assert.match(html,new RegExp(`<video\\b[^>]*id="preview-${resource.id.replaceAll('-','_')}"`));
-   assert.doesNotMatch(html,new RegExp(`<(?:video|img|source)\\b[^>]*src="${esc(preview.url!)}"`));
-   if(preview.poster)assert.match(html,new RegExp(`<img\\b[^>]*src="${esc(preview.poster)}"`));
+   assert.match(resourceHtml,new RegExp(`<video\\b[^>]*id="preview-${resource.id.replaceAll('-','_')}"`));
+   assert.doesNotMatch(resourceHtml,new RegExp(`<(?:video|img|source)\\b[^>]*src="${esc(preview.url!)}"`));
+   if(preview.poster)assert.match(resourceHtml,new RegExp(`<img\\b[^>]*src="${esc(preview.poster)}"`));
   }
-  if(preview.mode==='thumb_link')assert.match(html,new RegExp(`<img\\b[^>]*src="${esc(preview.poster||preview.url!)}"`));
+  if(preview.mode==='thumb_link')assert.match(resourceHtml,new RegExp(`<img\\b[^>]*src="${esc(preview.poster||preview.url!)}"`));
   if(preview.mode==='embed'){
-   if(preview.poster)assert(html.includes(`src="${preview.poster}"`));
-   else assert.match(html,/class="preview-embed"/);
-   assert.doesNotMatch(html,new RegExp(`<video\\b[^>]*src="${esc(preview.url!)}"`));
-   assert.doesNotMatch(html,new RegExp(`<img\\b[^>]*src="${esc(preview.url!)}"`));
+   if(preview.poster)assert(resourceHtml.includes(`src="${preview.poster}"`));
+   else assert.match(resourceHtml,/class="preview-embed"/);
+   assert.doesNotMatch(resourceHtml,new RegExp(`<video\\b[^>]*src="${esc(preview.url!)}"`));
+   assert.doesNotMatch(resourceHtml,new RegExp(`<img\\b[^>]*src="${esc(preview.url!)}"`));
   }
  }
- for(const resource of resources)assert.equal(html.includes(`href="/resources/${resource.id}/"`),galleryIds.has(resource.id),resource.id);
+ for(const resource of resources)assert.equal(cardHtml.includes(`href="/resources/${resource.id}/"`),galleryIds.has(resource.id),resource.id);
  const library=renderToString(React.createElement(App,{path:'/library/'}));
  assert.equal(library.includes('<video'),false);
  assert.equal(library.includes('<img'),false);
@@ -169,7 +190,19 @@ test('homepage gallery lists complete previews and featured covers without autop
  assert.match(about,/Playback starts muted/);
  assert.match(about,/Videos never autoplay/);
 });
-test('homepage playable cards can start muted and other preview kinds stay unchanged',async()=>{
+test('missing preview cards stay editorial and retain source review context',()=>{
+ const resource={...resources.find(r=>r.id==='ink-press')!,preview:undefined};
+ const html=renderGalleryCard(resource);
+ assert.match(html,/Editorial cover/);
+ assert.match(html,/not an upstream render/);
+ assert.match(html,/class="preview-details"/);
+ assert.match(html,/Source &amp; license/);
+ assert(html.includes(resource.review.reviewed_at));
+ assert.match(html,new RegExp(`href="/resources/${resource.id}/"`));
+ assert.doesNotMatch(html,/<(?:video|img|iframe)\b/);
+ assert.doesNotMatch(html,/class="preview-play"|class="preview-source"/);
+});
+test('playable gallery cards can start muted and other preview kinds stay unchanged',async()=>{
  const items=homePreviewItems();
  const playable=items.filter(r=>previewPlayable(r));
  const thumbs=items.filter(r=>{const preview=resolvePreview(r);return !preview.degraded&&preview.mode==='thumb_link';});
@@ -179,7 +212,7 @@ test('homepage playable cards can start muted and other preview kinds stay uncha
  assert(thumbs.length>0);
  assert(embeds.length>0);
  assert.equal(playable.length+thumbs.length+embeds.length+covers.length,items.length);
- const html=renderToString(React.createElement(App,{path:'/'}));
+ const html=renderPreviewCards(items);
  const cards=[...html.matchAll(/<article class="resource-card gallery-card">([\s\S]*?)<\/article>/g)].map(match=>match[1]);
  assert.equal(cards.length,items.length);
  const esc=(value:string)=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
@@ -235,7 +268,7 @@ test('homepage playable cards can start muted and other preview kinds stay uncha
   }
  }
  assert.equal(html.includes('<iframe'),false);
- assert.match(html,/Playback starts muted/);
+ assert.match(renderToString(React.createElement(App,{path:'/'})),/Click to play · Starts muted/);
  const library=renderToString(React.createElement(App,{path:'/library/'}));
  assert.equal(library.includes('preview-play'),false);
  const detail=renderToString(React.createElement(App,{path:'/resources/lemo-watercolor/'}));
@@ -353,7 +386,7 @@ test('all pages render server-side without browser APIs and internal links resol
  const paths=allPaths();const valid=new Set(paths.map(p=>'/preview/'+p));
  for(const path of paths){const html=renderToString(React.createElement(App,{path:'/preview/'+path,base:'/preview/'}));
  assert(html.includes('<h1'),path);
- for(const match of html.matchAll(/href="(\/preview\/[^"?#]*)/g))assert(valid.has(match[1]),`Broken link ${match[1]} on ${path}`);
+ for(const match of html.matchAll(/<a\b[^>]*href="(\/preview\/[^"?#]*)/g))assert(valid.has(match[1]),`Broken link ${match[1]} on ${path}`);
  }
  assert.equal(projects.length,new Set(projects.map(p=>p.id)).size);
 });
@@ -362,7 +395,7 @@ test('GIF previews render as lazy images without video players or Play buttons',
  const gifs=resources.filter(r=>r.preview&&/\.gif$/i.test(new URL(r.preview.url).pathname));
  assert.ok(gifs.length>0);
  assert.ok(gifs.every(r=>r.preview!.kind==='thumb_link'));
- const html=renderToString(React.createElement(App,{path:'/'}));
+ const html=renderPreviewCards(gifs);
  for(const resource of gifs){
   const preview=resolvePreview(resource);
   assert.equal(preview.degraded,false,resource.id);
@@ -390,14 +423,37 @@ test('bundled video posters respect the deployment base without loading MP4s',()
   assert.equal(resolvePreview({preview:{...preview,poster}}).degraded,true);
  }
  const base='/gallery/';
- const html=renderToString(React.createElement(App,{path:base,base}));
+ const html=renderPreviewCards(homePreviewItems(),base);
  for(const resource of resources.filter(r=>r.preview?.poster?.startsWith('/previews/'))){
   assert(html.includes(`src="${base}${resource.preview!.poster!.slice(1)}"`),resource.id);
  }
  for(const [tag] of html.matchAll(/<video\b[^>]*>/g))assert.doesNotMatch(tag,/\bsrc=/);
 });
 
-test('homepage separates videos, animated images and other resources without duplicates',()=>{
+test('homepage hero has a code-only static fallback and stays separate from resource previews',()=>{
+ for(const base of ['/','/gallery/']){
+  const home=renderToString(React.createElement(App,{path:base,base}));
+  assert.match(home,/class="[^"]*\bhome-site\b[^"]*"/);
+  assert.match(home,/id="explore"/);
+  assert.match(home,/href="(?:\/gallery\/)?#explore"/);
+  const hero=home.match(/<section\b[^>]*class="brand-hero"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+  assert.ok(hero,'homepage includes its hero');
+  const canvas=hero.match(/<canvas\b[^>]*>/)?.[0];
+  const fallback=hero.match(/<svg\b[^>]*class="hero-motion-fallback"[^>]*>[\s\S]*?<\/svg>/)?.[0];
+  assert.ok(canvas,'animation has a canvas host');
+  assert.ok(fallback,'initial HTML has a vector composition without JavaScript');
+  assert.match(canvas,/aria-hidden="true"/,'decorative animation does not duplicate the heading');
+  assert.match(fallback,/aria-hidden="true"/);
+  assert.match(fallback,/<(?:path|circle|ellipse|rect|polygon)\b/,'fallback contains visible geometry');
+  assert.doesNotMatch(hero,/<(?:img|video|iframe)\b|art\/code-in-motion\.webp/,'hero requires no external media');
+  const cards=renderPreviewCards(homePreviewItems(),base);
+  assert.doesNotMatch(cards,/hero-motion|art\/code-in-motion\.webp/,'brand scene is never presented as an upstream preview');
+  const library=renderToString(React.createElement(App,{path:`${base}library/`,base}));
+  assert.doesNotMatch(library,/\bhome-site\b|hero-motion|art\/code-in-motion\.webp/);
+ }
+});
+
+test('homepage tabs expose totals and mount only the first video batch',()=>{
  const groups=homePreviewGroups();
  const videoFiles=groups.videos.filter(r=>r.preview?.kind==='video');
  const pageEmbeds=groups.videos.filter(r=>r.preview?.kind==='embed');
@@ -409,20 +465,74 @@ test('homepage separates videos, animated images and other resources without dup
  assert.equal(new Set(all.map(r=>r.id)).size,all.length);
  assert.deepEqual(new Set(all.map(r=>r.id)),new Set(homePreviewItems().map(r=>r.id)));
  const html=renderToString(React.createElement(App,{path:'/'}));
- const section=(id:string)=>html.match(new RegExp(`<section[^>]*id="${id}"[^>]*>([\\s\\S]*?)</section>`))![1];
- const videos=section('video-gallery');
- assert.equal([...videos.matchAll(/class="resource-card gallery-card"/g)].length,groups.videos.length);
- assert.equal([...videos.matchAll(/<video\b/g)].length,videoFiles.length);
- assert.equal([...videos.matchAll(/Watch on YouTube/g)].length,pageEmbeds.length);
- for(const [id,items] of [['animated-examples',groups.animations],['other-resources',groups.other]] as const){
-  const content=section(id);
-  assert.equal([...content.matchAll(/class="resource-card gallery-card"/g)].length,items.length);
-  assert.doesNotMatch(content,/<video\b/);
-  assert.match(html,new RegExp(`href="#${id}"`));
+ const firstBatch=groups.videos.slice(0,GALLERY_BATCH_SIZE);
+ const firstIds=new Set(firstBatch.map(r=>r.id));
+ const tabs=[...html.matchAll(/<button\b([^>]*role="tab"[^>]*)>([\s\S]*?)<\/button>/g)];
+ assert.equal(tabs.length,3);
+ const labels=['Video gallery','Animated examples','Other resources'];
+ const items=[groups.videos,groups.animations,groups.other];
+ for(const [index,id] of GALLERY_CATEGORY_IDS.entries()){
+  const tab=tabs[index];
+  assert.match(tab[1],new RegExp(`aria-controls="${id}"`));
+  assert.match(tab[1],new RegExp(`aria-selected="${index===0}"`));
+  assert.match(tab[1],new RegExp(`tabindex="${index===0?0:-1}"`));
+  assert(tab[2].includes(labels[index]));
+  assert.match(tab[2],new RegExp(`<span[^>]*>${items[index].length}</span>`));
+  const tabId=tab[1].match(/\bid="([^"]+)"/)![1];
+  const panel=html.match(new RegExp(`<section\\b([^>]*\\bid="${id}"[^>]*)>([\\s\\S]*?)</section>`));
+  assert.ok(panel,id);
+  assert.match(panel[1],/role="tabpanel"/);
+  assert.match(panel[1],new RegExp(`aria-labelledby="${tabId}"`));
+  if(index===0){
+   assert.doesNotMatch(panel[1],/\bhidden(?:=|\s|$)/);
+   assert.equal([...panel[2].matchAll(/class="resource-card gallery-card"/g)].length,firstBatch.length);
+   assert.equal([...panel[2].matchAll(/<video\b/g)].length,firstBatch.filter(previewPlayable).length);
+  }else{
+   assert.match(panel[1],/\bhidden(?:=|\s|$)/);
+   assert.doesNotMatch(panel[2],/<(?:article|video|img)\b/);
+  }
  }
+ for(const resource of resources)assert.equal(html.includes(`href="/resources/${resource.id}/"`),firstIds.has(resource.id),resource.id);
+ assert.match(html.replace(/<!--[\s\S]*?-->/g,''),new RegExp(`Showing ${firstBatch.length} of ${groups.videos.length} videos`));
+ assert.match(html.replace(/<!--[\s\S]*?-->/g,''),/Load 12 more/);
+ assert.match(html,/<noscript>[\s\S]*href="\/library\/"[\s\S]*<\/noscript>/);
  const youtube=groups.videos.find(r=>r.preview?.kind==='embed')!;
  const spoof={...youtube,preview:{...youtube.preview!,url:'https://www.youtube.com.example.org/embed/H5GETOP7ivs'}};
  assert.equal(homeGalleryItems([spoof]).length,0);
  const featured=resources.find(r=>r.id==='ink-press')!;
  assert.equal(homeGalleryItems([{...featured,preview:undefined}]).length,0);
+});
+
+test('gallery browsing preserves each category batch and caps the last load',()=>{
+ assert.equal(GALLERY_BATCH_SIZE,12);
+ const initial=createGalleryBrowseState();
+ assert.equal(initial.activeCategory,'video-gallery');
+ assert.deepEqual(initial.visibleCounts,{'video-gallery':12,'animated-examples':12,'other-resources':12});
+ assert.equal(selectGalleryCategory(initial,'video-gallery'),initial);
+ const videos=loadMoreGalleryItems(initial,92);
+ assert.equal(videos.visibleCounts['video-gallery'],24);
+ assert.equal(initial.visibleCounts['video-gallery'],12,'previous state stays immutable');
+ const animations=selectGalleryCategory(videos,'animated-examples');
+ assert.equal(animations.visibleCounts['animated-examples'],12);
+ const moreAnimations=loadMoreGalleryItems(animations,47);
+ assert.equal(moreAnimations.visibleCounts['animated-examples'],24);
+ const backToVideos=selectGalleryCategory(moreAnimations,'video-gallery');
+ assert.equal(backToVideos.visibleCounts['video-gallery'],24);
+ assert.equal(backToVideos.visibleCounts['animated-examples'],24);
+ const other=selectGalleryCategory(backToVideos,'other-resources');
+ const lastOther=loadMoreGalleryItems(other,13);
+ assert.equal(lastOther.visibleCounts['other-resources'],13);
+ assert.equal(lastOther.visibleCounts['video-gallery'],24);
+ assert.equal(lastOther.visibleCounts['animated-examples'],24);
+ assert.equal(loadMoreGalleryItems(lastOther,13),lastOther,'completed categories do not add duplicates');
+ assert.equal(loadMoreGalleryItems(lastOther,5),lastOther,'loading does not reduce an existing batch');
+ let completeVideos=selectGalleryCategory(lastOther,'video-gallery');
+ const sizes=[completeVideos.visibleCounts['video-gallery']];
+ for(let batch=0;batch<6;batch++){
+  completeVideos=loadMoreGalleryItems(completeVideos,92);
+  sizes.push(completeVideos.visibleCounts['video-gallery']);
+ }
+ assert.deepEqual(sizes,[24,36,48,60,72,84,92]);
+ assert.equal(loadMoreGalleryItems(completeVideos,92),completeVideos);
+ assert.equal(selectGalleryCategory(completeVideos,'other-resources').visibleCounts['other-resources'],13);
 });
