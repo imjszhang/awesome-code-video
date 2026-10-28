@@ -1751,10 +1751,11 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that counts KPI figures on staggered cards. The README documents it as 1920 by 1080 and 4 seconds, and KpiCounter.tsx sets 120 frames at 30 fps. Reuse the component and its typed props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that counts KPI figures on staggered cards. The README documents it as 1920 by 1080 and 4 seconds, and KpiCounter.tsx sets 120 frames at 30 fps. Reuse the component and its typed props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
-      "S-CV-078"
+      "S-CV-078",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -1763,13 +1764,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/kpi-counter.mp4",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
       "redistributable": true,
-      "source": "S-CV-078 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif. Byte-range request on 2026-10-27 returned a GIF89a header. The GIF is in the MIT repository (S-CV-077); keep the Trimora Inc. notice. It is an animated preview, not an MP4 master. Remotion's runtime license is separate. The file was not copied into this repository. This is not a local render test.",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/kpi-counter.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=429776 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/kpi-counter.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-kpi-counter.webp"
     }
   },
@@ -1809,10 +1810,11 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/glitch-text/GlitchText.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion title composition that splits and then settles glitch text. The README documents it as 1920 by 1080 and 4 seconds. Reuse GlitchText.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion title composition that splits and then settles glitch text. The README documents it as 1920 by 1080 and 4 seconds. Reuse GlitchText.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
-      "S-CV-078"
+      "S-CV-078",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -1821,13 +1823,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/glitch-text.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/glitch-text.mp4",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
       "redistributable": true,
-      "source": "S-CV-078 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/glitch-text.gif. Byte-range request on 2026-10-27 returned a GIF89a header. The GIF is in the MIT repository (S-CV-077); keep the Trimora Inc. notice. It is an animated preview, not an MP4 master. Remotion's runtime license is separate. The file was not copied into this repository. This is not a local render test.",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/glitch-text.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=1091608 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/glitch-text.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-glitch-text.webp"
     }
   },
@@ -1896,10 +1898,11 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/racing-chart/RacingChart.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that reranks bars as values change. The README documents it as 1920 by 1080 and 7 seconds. Reuse RacingChart.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that reranks bars as values change. The README documents it as 1920 by 1080 and 7 seconds. Reuse RacingChart.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
-      "S-CV-078"
+      "S-CV-078",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -1908,13 +1911,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/racing-chart.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/racing-chart.mp4",
       "license": "MIT",
       "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)",
       "redistributable": true,
-      "source": "S-CV-078 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/racing-chart.gif. Byte-range request on 2026-10-27 returned a GIF89a header. The GIF is in the MIT repository (S-CV-077); keep the Trimora Inc. notice. It is an animated preview, not an MP4 master. Remotion's runtime license is separate. The file was not copied into this repository. This is not a local render test.",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/racing-chart.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=502661 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/racing-chart.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-racing-chart.webp"
     }
   },
@@ -2134,11 +2137,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/social-reel/SocialReel.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that frames a handle, caption, and progress bar in a reel-style layout. The README documents it as 1920 by 1080 and 5 seconds, and SocialReel.tsx sets 150 frames at 30 fps. Reuse SocialReel.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that frames a handle, caption, and progress bar in a reel-style layout. The README documents it as 1920 by 1080 and 5 seconds, and SocialReel.tsx sets 150 frames at 30 fps. Reuse SocialReel.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-086",
-      "S-CV-087"
+      "S-CV-087",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -2147,13 +2151,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/social-reel.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/social-reel.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/social-reel.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/social-reel.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=529932 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/social-reel.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-social-reel.webp"
     }
   },
@@ -2164,11 +2168,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-stroke-draw/LogoStrokeDraw.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that traces a logo outline and then fills it. The README documents it as 1920 by 1080 and 3.67 seconds, and LogoStrokeDraw.tsx sets 110 frames at 30 fps. Reuse LogoStrokeDraw.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that traces a logo outline and then fills it. The README documents it as 1920 by 1080 and 3.67 seconds, and LogoStrokeDraw.tsx sets 110 frames at 30 fps. Reuse LogoStrokeDraw.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-086",
-      "S-CV-087"
+      "S-CV-087",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -2177,13 +2182,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-stroke-draw.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-stroke-draw.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-stroke-draw.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-stroke-draw.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=386950 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/logo-stroke-draw.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-logo-stroke-draw.webp"
     }
   },
@@ -2224,11 +2229,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/neon-sign/NeonSign.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained square Remotion composition that flickers text on like a neon tube. The README documents it as 1080 by 1080 and about 3.33 seconds, and NeonSign.tsx sets 100 frames at 30 fps. Reuse NeonSign.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained square Remotion composition that flickers text on like a neon tube. The README documents it as 1080 by 1080 and about 3.33 seconds, and NeonSign.tsx sets 100 frames at 30 fps. Reuse NeonSign.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-086",
-      "S-CV-087"
+      "S-CV-087",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -2237,13 +2243,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/neon-sign.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/neon-sign.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-087 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/neon-sign.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/neon-sign.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=201175 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/neon-sign.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-neon-sign.webp"
     }
   },
@@ -2764,11 +2770,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bokeh-circles/BokehCircles.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that drifts soft out-of-focus lights in a loop. The README documents it as 1920 by 1080 and 5 seconds, and BokehCircles.tsx sets 150 frames at 30 fps. Reuse BokehCircles.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that drifts soft out-of-focus lights in a loop. The README documents it as 1920 by 1080 and 5 seconds, and BokehCircles.tsx sets 150 frames at 30 fps. Reuse BokehCircles.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -2777,13 +2784,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bokeh-circles.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/bokeh-circles.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bokeh-circles.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/bokeh-circles.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=1320635 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/bokeh-circles.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-bokeh-circles.webp"
     }
   },
@@ -3244,11 +3251,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/particle-snow/ParticleSnow.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained square Remotion composition that drifts layered snow. The README documents it as 1080 by 1080 and 5 seconds, and ParticleSnow.tsx sets 150 frames at 30 fps. Reuse ParticleSnow.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained square Remotion composition that drifts layered snow. The README documents it as 1080 by 1080 and 5 seconds, and ParticleSnow.tsx sets 150 frames at 30 fps. Reuse ParticleSnow.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3257,13 +3265,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/particle-snow.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/particle-snow.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/particle-snow.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/particle-snow.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=681827 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/particle-snow.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-particle-snow.webp"
     }
   },
@@ -3334,11 +3342,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/slide-wipe/SlideWipe.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that slides one frame aside to reveal the next. The README documents it as 1920 by 1080 and 4 seconds, and SlideWipe.tsx sets 120 frames at 30 fps. Reuse SlideWipe.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that slides one frame aside to reveal the next. The README documents it as 1920 by 1080 and 4 seconds, and SlideWipe.tsx sets 120 frames at 30 fps. Reuse SlideWipe.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3347,13 +3356,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/slide-wipe.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/slide-wipe.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/slide-wipe.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/slide-wipe.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=321380 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/slide-wipe.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-slide-wipe.webp"
     }
   },
@@ -3424,11 +3433,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/chapter-title/ChapterTitle.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that shows a numbered chapter card for a section break. The README documents it as 1920 by 1080 and 5 seconds, and ChapterTitle.tsx sets 150 frames at 30 fps. Reuse ChapterTitle.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that shows a numbered chapter card for a section break. The README documents it as 1920 by 1080 and 5 seconds, and ChapterTitle.tsx sets 150 frames at 30 fps. Reuse ChapterTitle.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3437,13 +3447,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/chapter-title.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/chapter-title.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/chapter-title.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/chapter-title.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-28 returned HTTP 200 video/mp4 Content-Length=382247 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/chapter-title.gif (S-CV-078).",
+      "checked_at": "2026-10-28",
       "poster": "/previews/rendercomp-chapter-title.webp"
     }
   },
@@ -4687,6 +4697,180 @@
       "source": "S-CV-116 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cursor-demos-click-ripple.mp4",
       "checked_at": "2026-10-27",
       "poster": "/previews/remotion-templates-cursor-click.webp"
+    }
+  },
+  {
+    "id": "revideo-example",
+    "project_id": "revideo",
+    "name": "ReVideo Examples Package Preview",
+    "kind": "scene",
+    "url": "https://github.com/midrender/revideo/tree/main/packages/examples",
+    "section": "Film and Scene Templates",
+    "description": "MIT-licensed ReVideo examples package with a small hotlinkable MP4 under packages/examples/assets. Distinct from the scramble.gif template preview already cataloged.",
+    "evidence_ids": [
+      "S-CV-119",
+      "S-CV-101"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/examples/assets/example.mp4",
+      "license": "MIT",
+      "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)",
+      "redistributable": true,
+      "source": "S-CV-119 https://raw.githubusercontent.com/midrender/revideo/main/packages/examples/assets/example.mp4. Range on 2026-10-28: 200 application/octet-stream Content-Length=36507, ftyp isom. Repo LICENSE is MIT. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/revideo-example.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-logo-sting-aurora",
+    "project_id": "remotion-templates",
+    "name": "Logo Sting — Aurora Bloom",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/logo-sting-aurora-bloom.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the logo-sting family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-120",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/logo-sting-aurora-bloom.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/logo-sting-aurora-bloom.mp4. Range on 2026-10-28: 200 octet-stream CL=29985, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop ≠ full film; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/remotion-templates-logo-sting-aurora.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-lower-third-bar",
+    "project_id": "remotion-templates",
+    "name": "Lower Third — Bar Rule",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/lower-third-bar-rule.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop lower-third preview from ali-abassi/remotion-templates. New family vs Batch G (dataviz/code/browser/cursor).",
+    "evidence_ids": [
+      "S-CV-120",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/lower-third-bar-rule.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/lower-third-bar-rule.mp4. Range on 2026-10-28: 200 octet-stream CL=11898, ftyp isom. License 待确认 (S-CV-117). Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/remotion-templates-lower-third-bar.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-isometric-app",
+    "project_id": "remotion-templates",
+    "name": "Isometric Scenes — App Ecosystem",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/isometric-scenes-app-ecosystem.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop isometric scene preview from ali-abassi/remotion-templates. Controlled +1 family; do not flood remaining ~990 previews.",
+    "evidence_ids": [
+      "S-CV-120",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/isometric-scenes-app-ecosystem.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/isometric-scenes-app-ecosystem.mp4. Range on 2026-10-28: 200 octet-stream CL=37113, ftyp isom. License 待确认 (S-CV-117). Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/remotion-templates-isometric-app.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-brick-toy",
+    "project_id": "lemo-opuscar",
+    "name": "Brick Toy",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/brick-toy",
+    "section": "Visual Style Templates",
+    "description": "Lego-brick toy visual style from lemo-opuscar; demo film on the web release tag.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/brick-toy.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/brick-toy.mp4. Range on 2026-10-28: content-range bytes */6022107, ftyp isom. Style dir styles/brick-toy present. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/lemo-opuscar-brick-toy.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-risograph",
+    "project_id": "lemo-opuscar",
+    "name": "Risograph",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/risograph",
+    "section": "Visual Style Templates",
+    "description": "Print visual style (risograph) from lemo-opuscar; demo film on the web release tag. Controlled +1 (avoid flooding remaining unused styles).",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/risograph.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/risograph.mp4. Range on 2026-10-28: content-range bytes */9542260, ftyp isom. Style dir styles/risograph present. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/lemo-opuscar-risograph.webp"
     }
   }
 ]

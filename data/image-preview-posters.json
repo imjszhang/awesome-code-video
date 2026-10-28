@@ -209,17 +209,6 @@
     "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
   },
   {
-    "resource_id": "rendercomp-bokeh-circles",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bokeh-circles.gif",
-    "poster": "/previews/rendercomp-bokeh-circles.webp",
-    "source_sha256": "7611c527b7dcced7196d470a7c8ab22ba6b085b3bd3fabdde8c39615c6b7f46c",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "5c624ba3300161133cc3b1767fe27e6aec061591804d01cae979bf15d4165cf6",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
     "resource_id": "rendercomp-camera-shake",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/camera-shake.gif",
     "poster": "/previews/rendercomp-camera-shake.webp",
@@ -238,17 +227,6 @@
     "frame_index": 7,
     "frame_count": 19,
     "poster_sha256": "cddd14ddc20ff66bba6850710fef95bde5e2e3aa3304d3135b676dd4e5686f71",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-chapter-title",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/chapter-title.gif",
-    "poster": "/previews/rendercomp-chapter-title.webp",
-    "source_sha256": "561ef2c546d7c43f182fd2bf97be2feeeb4ade5f103ae34973e41685d8c425e4",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "49dbdbabf537eaf34f2ebf58d1a1b433395ebd563f921578dea83d57bcb00ff8",
     "license": "MIT",
     "attribution": "RenderComp"
   },
@@ -297,17 +275,6 @@
     "attribution": "RenderComp"
   },
   {
-    "resource_id": "rendercomp-glitch-text",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/glitch-text.gif",
-    "poster": "/previews/rendercomp-glitch-text.webp",
-    "source_sha256": "83f487193161c7b66a9132806b7558af4627379e5a4a84a2252690a3293b995b",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "ee8846075db438a6ea9483fa7eaeccb7b71763d81ed288b3ddbaa4a4500306e4",
-    "license": "MIT",
-    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
-  },
-  {
     "resource_id": "rendercomp-ink-spread-transition",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/ink-spread-transition.gif",
     "poster": "/previews/rendercomp-ink-spread-transition.webp",
@@ -328,17 +295,6 @@
     "poster_sha256": "498ea04c31bc0e5302465e5e1aa98c40996f863101ebc34a8e45ad06e671929b",
     "license": "MIT",
     "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-kpi-counter",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
-    "poster": "/previews/rendercomp-kpi-counter.webp",
-    "source_sha256": "b79cd4078b9438e59460b03fc2d2000559bf969c1d582ebacfcb90ae86d7c9f2",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "a078839d96c7bb4218c0a07fe15d8d01ec5d7bf575841b75aac7761c7004b885",
-    "license": "MIT",
-    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
   },
   {
     "resource_id": "rendercomp-line-chart-anim",
@@ -396,17 +352,6 @@
     "attribution": "RenderComp"
   },
   {
-    "resource_id": "rendercomp-logo-stroke-draw",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-stroke-draw.gif",
-    "poster": "/previews/rendercomp-logo-stroke-draw.webp",
-    "source_sha256": "d0906dc70ba0cfcab591dd9c9af5b0c81b7c5a0b264a60c006f84104cc15f8cb",
-    "frame_index": 7,
-    "frame_count": 20,
-    "poster_sha256": "0b4e66573c822d51710583ae96e50e5b5e21c7dbfa64f9eac39a238b4b3d7c36",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
     "resource_id": "rendercomp-loop-grid-wave",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/loop-grid-wave.gif",
     "poster": "/previews/rendercomp-loop-grid-wave.webp",
@@ -418,17 +363,6 @@
     "attribution": "RenderComp"
   },
   {
-    "resource_id": "rendercomp-neon-sign",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/neon-sign.gif",
-    "poster": "/previews/rendercomp-neon-sign.webp",
-    "source_sha256": "ecf7593210b24cba3ee2139e5d388d9b6da401e79d219001368c593a754360e9",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "6739b9ee1e518aad50d0583da25fc989415170176f4b3dbaf7b135cb6a1455b0",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
     "resource_id": "rendercomp-parallax-pan",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/parallax-pan.gif",
     "poster": "/previews/rendercomp-parallax-pan.webp",
@@ -436,17 +370,6 @@
     "frame_index": 7,
     "frame_count": 19,
     "poster_sha256": "264b50ac9862518781e307c0a6ea8de226cbef12e40e704d1cc146294e122073",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-particle-snow",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/particle-snow.gif",
-    "poster": "/previews/rendercomp-particle-snow.webp",
-    "source_sha256": "58f2f54427c11bf3aee8f8fb62e4d0846dc46e79f5a86ec2e90e837a28eb1420",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "24f67aa10fc3dfbf32e9edcbd1a6199caa205c2589885716223e7ceb6c1b5f7a",
     "license": "MIT",
     "attribution": "RenderComp"
   },
@@ -506,17 +429,6 @@
     "attribution": "RenderComp"
   },
   {
-    "resource_id": "rendercomp-racing-chart",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/racing-chart.gif",
-    "poster": "/previews/rendercomp-racing-chart.webp",
-    "source_sha256": "ba0b6355a688d225dccda181f19a8f601aee21e0bd303cbb8a0ede4852a789d7",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "662db632e8a11aa6309fdb5d6bb8c9795a85da4e96f5cc4fa91821d3e10d31ee",
-    "license": "MIT",
-    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
-  },
-  {
     "resource_id": "rendercomp-scramble-text",
     "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/scramble-text.gif",
     "poster": "/previews/rendercomp-scramble-text.webp",
@@ -535,28 +447,6 @@
     "frame_index": 7,
     "frame_count": 19,
     "poster_sha256": "34f659ea5df4c3e5297bb5818bf49a42ef54d5322a832445083b783fc3653235",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-slide-wipe",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/slide-wipe.gif",
-    "poster": "/previews/rendercomp-slide-wipe.webp",
-    "source_sha256": "a64bbf203a259dc10c358e97bc8130bb0fb9c4627aad5c5c3a5eef1aed9b8527",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "76c7258e159d9831caa960a682800beccbcd844ad5335177f4122bd232a13d45",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-social-reel",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/social-reel.gif",
-    "poster": "/previews/rendercomp-social-reel.webp",
-    "source_sha256": "aac5e825b0b05b4889cfb89e8c8468c98dd1ae161343237757d6e0e771fac6c6",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "b86248cb2df09e433d726a76111c7ab46415f6a4dd1eb40c9b0d656eafb2739e",
     "license": "MIT",
     "attribution": "RenderComp"
   },

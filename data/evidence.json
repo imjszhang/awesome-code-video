@@ -1285,5 +1285,38 @@
     "reliability": "medium",
     "checked_at": "2026-10-27",
     "notes": "On 2026-10-27: no root LICENSE file; package.json license field null; README warns third-party code/media retain own requirements. Therefore preview.license=待确认 and redistributable=false despite public raw hotlinks. Remotion runtime license is separate (do not conflate). New project stub remotion-templates for catalog."
+  },
+  {
+    "id": "S-CV-118",
+    "project_id": "rendercomp-free-remotion-templates",
+    "title": "RenderComp — official R2 preview MP4s (rendercomp.com/free)",
+    "url": "https://rendercomp.com/free",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Free templates marketing page embeds Cloudflare R2 MP4s at https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/<composition-id>.mp4 (50 titles). Sampled 10 matching catalog thumb_link rows on 2026-10-28: HTTP 200 video/mp4 + ftyp isom. ASSETS.md confirms the GitHub repo ships 0 video files (GIF thumbs only). Templates MIT (S-CV-077); Remotion runtime separate. Hotlink only; render_tested false."
+  },
+  {
+    "id": "S-CV-119",
+    "project_id": "revideo",
+    "title": "ReVideo — packages/examples/assets/example.mp4",
+    "url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/examples/assets/example.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Range on 2026-10-28: 200 application/octet-stream Content-Length=36507, ftyp isom; not LFS. Repo LICENSE MIT (also referenced by S-CV-101). Distinct from scramble.gif template preview."
+  },
+  {
+    "id": "S-CV-120",
+    "project_id": "remotion-templates",
+    "title": "remotion-templates — Batch H muted site/previews (3 families)",
+    "url": "https://github.com/ali-abassi/remotion-templates/tree/main/site/previews",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-28",
+    "notes": "logo-sting-aurora-bloom.mp4 (29985), lower-third-bar-rule.mp4 (11898), isometric-scenes-app-ecosystem.mp4 (37113): all 200 + ftyp isom. License still 待确认 / redistributable false (S-CV-117). Controlled families only — do not ingest remaining ~990."
   }
 ]
