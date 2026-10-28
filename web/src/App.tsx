@@ -31,7 +31,28 @@ function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPla
  </>:!preview.degraded&&preview.mode==='thumb_link'&&still?<img className="preview-media preview-poster" src={still} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'&&poster?<img className="preview-media preview-poster" src={poster} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'?<div className="preview-embed"><span>UPSTREAM PAGE</span><b>Open the source page.</b></div>:<Visual resource={resource}/>;
  const upstreamLabel=canPlay?'Upstream file':isYouTubePreview(resource)?'Watch on YouTube':preview.mode==='thumb_link'?'Upstream image':'Upstream page';
  const frame=canPlay?<div className="art-link">{media}</div>:<a className="art-link" href={preview.url||href(`resources/${resource.id}/`)} target={preview.url?'_blank':undefined} rel={preview.url?'noopener noreferrer':undefined} aria-label={`Open ${preview.mode==='embed'?'source page':'upstream preview'}: ${resource.name}`}>{media}</a>;
- return <article className="resource-card gallery-card"><div className="art-frame">{frame}<span className="art-caption">{preview.caption}</span></div><div className="card-body"><div className="card-kicker"><span>{kindNames[resource.kind]}</span><button className={`save-button ${saved?'is-saved':''}`} aria-label={`${saved?'Unsave':'Save'} ${resource.name}`} aria-pressed={saved} onClick={()=>onSave(resource.id)}>{saved?'★':'☆'}</button></div><h3><a href={href(`resources/${resource.id}/`)}>{resource.name}<Arrow/></a></h3><p>{resource.description}</p><p className="preview-note">{preview.detail}{preview.degraded?null:<> {preview.license}. {preview.attribution}</>}</p>{!preview.degraded&&preview.url?<External href={preview.url} className="preview-source">{upstreamLabel}</External>:null}<div className="card-foot"><span>{projectFor(resource).name}</span><span>Source reviewed</span></div></div></article>;
+ return <article className="resource-card gallery-card">
+  <div className="art-frame">{frame}<span className="art-caption">{preview.caption}</span></div>
+  <div className="card-body">
+   <div className="card-kicker">
+    <span>{kindNames[resource.kind]}</span>
+    <button className={`save-button ${saved?'is-saved':''}`} aria-label={`${saved?'Unsave':'Save'} ${resource.name}`} aria-pressed={saved} onClick={()=>onSave(resource.id)}>{saved?'★':'☆'}</button>
+   </div>
+   <h3><a href={href(`resources/${resource.id}/`)}>{resource.name}<Arrow/></a></h3>
+   <p className="card-description">{resource.description}</p>
+   <details className="preview-details">
+    <summary className="preview-summary">
+     <span className="card-project">{projectFor(resource).name}</span>
+     <span className="preview-details-label">Source &amp; license <span aria-hidden="true">+</span></span>
+    </summary>
+    <div className="preview-details-content">
+     <p className="preview-note">{preview.detail}{preview.degraded?null:<> {preview.license}. {preview.attribution}</>}</p>
+     {!preview.degraded&&preview.url?<External href={preview.url} className="preview-source">{upstreamLabel}</External>:null}
+     <p className="preview-review">Source reviewed · {resource.review.reviewed_at}</p>
+    </div>
+   </details>
+  </div>
+ </article>;
 }
 function HomeGallery({href,saved,onSave}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void}){
  const videos=useRef(new Map<string,HTMLVideoElement>());
@@ -95,7 +116,28 @@ export function App({path,base='/'}:{path:string,base?:string}){
  function Projects(){return <><Intro label="THE PEOPLE & CODE BEHIND THE FRAMES" title="Good work has a source." text="Each project can contain many reusable resources. Explore the selected examples, then continue with the original creators."/><div className="project-list">{projects.map((p,i)=><a href={href(`projects/${p.id}/`)} className="project-row" key={p.id}><span className="project-index">{String(i+1).padStart(2,'0')}</span><div><h2>{p.name}</h2><p>{new URL(p.url).hostname}{'github' in p&&p.github?' / '+p.github.full_name:''}</p></div><span>{resources.filter(r=>r.project_id===p.id).length} resources</span><Arrow/></a>)}</div></>}
  function About(){return <><Intro label="CURATED, WITH CONTEXT" title="Know what you’re getting." text="An independent collection of reusable parts for making videos with code. Specific artifacts, useful context, and a path back to the source."/><div className="about-grid"><section className="prose-block"><h2>One index. Different starting points.</h2>{Object.entries(kindNames).map(([k,n])=><div className="kind-definition" key={k}><h3>{n}</h3><p>{kindGuides[k]}</p></div>)}</section><div><section className="prose-block"><h2>Our selection standard</h2><p>We look for an identifiable source file, example, configuration, implementation recipe, or reusable style specification. A preview alone is not an editable template.</p><p>Descriptions explain the look, the likely use, and the adaptation work. A source review does not promise installation success, render quality, or unrestricted commercial use.</p><p>The collection was researched and drafted with AI assistance. Sources and review dates stay attached to individual resources. The catalog is CC0; upstream materials keep their own licenses.</p><External href={`${repo}/blob/main/docs/selection.md`}>Full selection notes</External></section><section className="prose-block yellow-panel"><h2>Found a good starting point?</h2><p>Suggest a specific resource, tell us what can be reused, and link to its source and terms.</p><External href={`${repo}/issues/new/choose`} className="button primary">Suggest a resource</External><p><External href={`${repo}/blob/main/contributing.md`}>Contribution guidelines</External></p></section><section className="prose-block"><h2>About the covers</h2><p>Detail pages and the library use original editorial illustrations. They are not screenshots, footage, or verified reproductions. The homepage gallery hotlinks an upstream file, image, or page only when a reviewed preview exists, and labels it Upstream demo, Preview, or Editorial cover. Choose Play on an upstream demo to watch it here. Playback starts muted, and the player controls can unmute it. Videos never autoplay. Animated images may move when loaded. A preview is not a local render test.</p><h3>Private by design</h3><p>Search runs in your browser. Saved resources and your theme preference stay on this device. There is no account, tracking script, or connection to a rendering service.</p></section></div></div></>}
  let content:React.ReactNode;
- if(route.type==='home')content=<><section className="hero hero-short"><div className="hero-copy"><p className="eyebrow"><span className="live-dot"/> A CURATED INDEX FOR VIDEO MAKERS</p><h1>GOOD CODE.<br/>GREAT <span className="outlined">VIDEO.</span></h1><p className="hero-description">Find your next visual style, camera move, or complete film template. Built with code. Ready to make your own.</p><div className="hero-actions"><a className="button primary" href={href('library/')}>Explore the library <span>↗</span></a><a className="plain-link" href={href('collections/')}>What are you making? →</a></div><div className="hero-stats"><div><b>{coreCount}</b><span>REUSABLE STARTING POINTS</span></div><div><b>{projects.length}</b><span>SOURCE PROJECTS</span></div><div><b>∞</b><span>WAYS TO MAKE IT YOURS</span></div></div></div></section><div className="ticker"><span>FILMS & SCENES</span><i>✳</i><span>SHOT RECIPES</span><i>✳</i><span>VISUAL STYLES</span><i>✳</i><span>MAP PRESETS</span><i>✳</i><span>PRODUCTION WORKFLOWS</span></div><HomeGallery href={href} saved={saved} onSave={toggleSave}/><section className="section"><div className="section-heading"><div><p className="eyebrow">04 / THE STARTING LINE</p><h2>What are you making?</h2></div><a href={href('collections/')}>Browse use cases ↗</a></div><CollectionCards/></section><section className="manifesto"><span className="manifesto-mark">{'</>'}</span><div><p className="eyebrow">MORE THAN A LINK DUMP</p><h2>See the possibility.<br/>Understand the reuse.</h2><p>Every entry points to something specific: editable source, a configuration, a shot recipe, or a style specification. You bring the story.</p><a className="button" href={href('about/')}>How we curate ↗</a></div><div className="manifesto-facts"><p><b>01</b> Original sources</p><p><b>02</b> Practical reuse notes</p><p><b>03</b> Honest review status</p></div></section></>;
+ if(route.type==='home')content=<>
+  <section className="hero hero-short">
+   <div className="hero-copy">
+    <p className="eyebrow"><span className="live-dot"/> A CURATED INDEX FOR VIDEO MAKERS</p>
+    <h1>GOOD CODE.<br/>GREAT <span className="outlined">VIDEO.</span></h1>
+   </div>
+   <div className="hero-summary">
+    <p className="hero-description">Find a visual style, a camera move, or your next film template. Start with the source. Make it yours.</p>
+    <div className="hero-actions">
+     <a className="button primary" href={href('library/')}>Explore the library <span aria-hidden="true">↗</span></a>
+     <a className="plain-link" href={href('collections/')}>What are you making? →</a>
+    </div>
+    <div className="hero-stats">
+     <div><b>{coreCount}</b><span>reusable starting points</span></div>
+     <div><b>{projects.length}</b><span>source projects</span></div>
+    </div>
+   </div>
+  </section>
+  <HomeGallery href={href} saved={saved} onSave={toggleSave}/>
+  <section className="section"><div className="section-heading"><div><p className="eyebrow">04 / THE STARTING LINE</p><h2>What are you making?</h2></div><a href={href('collections/')}>Browse use cases ↗</a></div><CollectionCards/></section>
+  <section className="manifesto"><span className="manifesto-mark">{'</>'}</span><div><p className="eyebrow">MORE THAN A LINK DUMP</p><h2>See the possibility.<br/>Understand the reuse.</h2><p>Every entry points to something specific: editable source, a configuration, a shot recipe, or a style specification. You bring the story.</p><a className="button" href={href('about/')}>How we curate ↗</a></div><div className="manifesto-facts"><p><b>01</b> Original sources</p><p><b>02</b> Practical reuse notes</p><p><b>03</b> Honest review status</p></div></section>
+ </>;
 else if(route.type==='library')content=<Library/>;
  else if(route.type==='resource')content=<ResourceDetail id={route.id}/>;
  else if(route.type==='projects')content=<Projects/>;
