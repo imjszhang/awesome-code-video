@@ -1,0 +1,3194 @@
+[
+  {
+    "resource_id": "awesome-video-as-code",
+    "source_url": "https://raw.githubusercontent.com/voidforall/awesome-video-as-code/main/assets/trailer.mp4",
+    "poster": "/previews/awesome-video-as-code.webp",
+    "timestamp_seconds": 7.35,
+    "duration_seconds": 21.0,
+    "source_width": 2560,
+    "source_height": 1440,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ba9fe662619ac0a7cebeaf302ac3645f493d62c0a94943ed6cd71ab705df4963"
+      },
+      {
+        "start": 225470,
+        "end": 1076582,
+        "sha256": "24628b913081ab582cbb58c6d2c50fed2a6a1da4e802a3755c34dab8f963ed34"
+      }
+    ],
+    "poster_sha256": "7671c5392c45f1c4457ec69430376a3b126805f883a9c5ef8685212adbdcc55e",
+    "license": "CC0-1.0",
+    "attribution": "voidforall / Awesome Video as Code (https://github.com/voidforall/awesome-video-as-code)"
+  },
+  {
+    "resource_id": "butterfly-life",
+    "source_url": "https://raw.githubusercontent.com/kuhnhomeuk-cell/procedural-film/main/examples/butterfly-life/exports/butterfly-life-phone.mp4",
+    "poster": "/previews/butterfly-life.webp",
+    "timestamp_seconds": 11.2,
+    "duration_seconds": 32.0,
+    "source_width": 720,
+    "source_height": 1280,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "97bb20e9e587bbd597ae565918fd799b159dd721439c6b58df7b3cc937045958"
+      },
+      {
+        "start": 3226842,
+        "end": 4157053,
+        "sha256": "b0b0ecc62d12838517cd00f143f399f5daeb55e9e8712f1e9a2e7b611c1f940e"
+      }
+    ],
+    "poster_sha256": "5adf53b5b3788bb6aa42115ce6cbf674d1ea1a4c45bddc72dc7ae2b5aa4db84c",
+    "license": "MIT",
+    "attribution": "Dean Kuhn (https://github.com/kuhnhomeuk-cell/procedural-film)"
+  },
+  {
+    "resource_id": "claude-quest",
+    "source_url": "https://raw.githubusercontent.com/kuhnhomeuk-cell/procedural-film/main/examples/claude-quest-v2/exports/claude-quest-v2-720.mp4",
+    "poster": "/previews/claude-quest.webp",
+    "timestamp_seconds": 21.168,
+    "duration_seconds": 60.48,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "0f933408adfe9f283c3d0077e981ea29c82e45f328b16efa714efa8158adadf6"
+      },
+      {
+        "start": 32,
+        "end": 95661,
+        "sha256": "e9435fd6e20467cb424cc895a5f2c80c9d1004cb66e4e362fe03d64d5ffa4439"
+      },
+      {
+        "start": 95662,
+        "end": 95677,
+        "sha256": "a89e276c7d9eeec7a4fe266ec51d65ab6988ca9ba7b0674d8b0978be8494087e"
+      },
+      {
+        "start": 95662,
+        "end": 95669,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 95670,
+        "end": 95685,
+        "sha256": "7a500b5169ab16a2e9f97b89996593ab60eb770bac9f4a72245fec40f3b395fc"
+      },
+      {
+        "start": 3987955,
+        "end": 5037898,
+        "sha256": "16ed11c5d3810b9e3a5786ea505ec1cc08e686e9e4f3fd23e0010d12d15ee87c"
+      }
+    ],
+    "poster_sha256": "74fc5c4243f83351b07731b883f7ace629522c10f21deb45e411fa57e783bdde",
+    "license": "MIT",
+    "attribution": "Dean Kuhn (https://github.com/kuhnhomeuk-cell/procedural-film)"
+  },
+  {
+    "resource_id": "explainroo-chatgpt-demo",
+    "source_url": "https://www.explainroo.com/videos/chatgpt-demo.mp4",
+    "poster": "/previews/explainroo-chatgpt-demo.webp",
+    "timestamp_seconds": 19.122,
+    "duration_seconds": 54.634,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "add51f10ccf737b8096f689b7769e39b9ec398a6a1517677a02d28cb0248969f"
+      },
+      {
+        "start": 1151206,
+        "end": 1643218,
+        "sha256": "9e2466a0efff05f0fb847991e9bbecf0b3e168998619604754b74b60b1b6db04"
+      }
+    ],
+    "poster_sha256": "50fe54723a48fe3770498eb0568fae37d27a840b43f816467e001c86856e606b",
+    "license": "MIT",
+    "attribution": "Vincent Schmalbach (https://github.com/vincentsch/explainroo)"
+  },
+  {
+    "resource_id": "explainroo-claude-demo",
+    "source_url": "https://www.explainroo.com/videos/claude-demo.mp4",
+    "poster": "/previews/explainroo-claude-demo.webp",
+    "timestamp_seconds": 18.883,
+    "duration_seconds": 53.952,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d8a18e8280f8ba5f230936de22e7ae5d452abd443176cdc762423dfa7f98464c"
+      },
+      {
+        "start": 1262368,
+        "end": 1441623,
+        "sha256": "ae5135730645cf4f34fd3cd2a1a9878c93befc45d27f30ecad5554c4e8e955f0"
+      }
+    ],
+    "poster_sha256": "17771b3d093cf46e4d46a67fbd0c19f1fc077440e0f2099aec7ea6474a701364",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-gmail-demo",
+    "source_url": "https://www.explainroo.com/videos/gmail-demo.mp4",
+    "poster": "/previews/explainroo-gmail-demo.webp",
+    "timestamp_seconds": 20.69,
+    "duration_seconds": 59.114,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d50abdef900d53ab91caa0daf611d3ee1ca0fe1a3394965930e9853fa5a08a7e"
+      },
+      {
+        "start": 2255736,
+        "end": 2550913,
+        "sha256": "de8804ac945bb8f1dea3502e986a46a30fce7d67013749570b1b88e2ca48f142"
+      }
+    ],
+    "poster_sha256": "4fc3f2ef62cf2a639a8edd9890aa6d23848bb0736424d4621ba7e0a2f4510426",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-how-a-fridge-keeps-food-cold",
+    "source_url": "https://www.explainroo.com/videos/how-a-fridge-keeps-food-cold.mp4",
+    "poster": "/previews/explainroo-how-a-fridge-keeps-food-cold.webp",
+    "timestamp_seconds": 24.214,
+    "duration_seconds": 69.184,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "77d0b54f88c51ebcbf29c83061e07ee338ba27fd995f942886b296a55d6a68b5"
+      },
+      {
+        "start": 32,
+        "end": 75719,
+        "sha256": "4098fb82e55cf96f63213b31f831b6cd23c56f4412436d0fd6df9943ed16519d"
+      },
+      {
+        "start": 75720,
+        "end": 75735,
+        "sha256": "a31962af3c69eed1b3420fb958f41300b8af35149ebf000f5e1f5d29fee412fa"
+      },
+      {
+        "start": 75720,
+        "end": 75727,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 75728,
+        "end": 75743,
+        "sha256": "6af595ab99b9c21d3b5250c579623095c87ae71dcde2e43fae9683e3e0c23968"
+      },
+      {
+        "start": 1417656,
+        "end": 2258294,
+        "sha256": "143cd84d731120c5d0faebb24a66b21a48178561d44085a34c908f74fc1c0d7a"
+      }
+    ],
+    "poster_sha256": "a3047118cba9c26b870899e04b30af412512da8e0f601bdf86184917a62a5c94",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-how-compound-interest-works",
+    "source_url": "https://www.explainroo.com/videos/how-compound-interest-works.mp4",
+    "poster": "/previews/explainroo-how-compound-interest-works.webp",
+    "timestamp_seconds": 23.057,
+    "duration_seconds": 65.877,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "7bf0362295ea27e91f03ce5dc5c9cf7328a21d3b37ffd7a951b01c0cf223e407"
+      },
+      {
+        "start": 32,
+        "end": 72931,
+        "sha256": "dea2f637becb271c5924cbf4e0027b1b90abb7805e7e31732771d231bfc62209"
+      },
+      {
+        "start": 72932,
+        "end": 72947,
+        "sha256": "248b71a04f19f8a7b2ffeb6023e7cf47e752c25be3ae5a2a594a84fb7538c4b4"
+      },
+      {
+        "start": 72932,
+        "end": 72939,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 72940,
+        "end": 72955,
+        "sha256": "720a09669803267a8a99204fb710101a9c10248b394b8542b81220bee93091c1"
+      },
+      {
+        "start": 1285731,
+        "end": 1887377,
+        "sha256": "6f6a6aeb8e0bb3ee444e48c33bdf7cbac31f83824684f5295e393b1ee08ebba9"
+      }
+    ],
+    "poster_sha256": "cb792127d346aa6398c7298023ca462c9b04abccee627db9a32025b740d07991",
+    "license": "MIT",
+    "attribution": "Vincent Schmalbach (https://github.com/vincentsch/explainroo)"
+  },
+  {
+    "resource_id": "explainroo-how-explainroo-makes-a-video",
+    "source_url": "https://www.explainroo.com/videos/how-explainroo-makes-a-video.mp4",
+    "poster": "/previews/explainroo-how-explainroo-makes-a-video.webp",
+    "timestamp_seconds": 30.106,
+    "duration_seconds": 86.016,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "958a6a87c7191fe5d0d862b76d82ccc5a562ed7d3b05552c825d6422f9cd9236"
+      },
+      {
+        "start": 32,
+        "end": 95271,
+        "sha256": "9a415eefd2cd4d1e23092d851f3ed11f2e2fd2b178114803a1f3368f77ad94ae"
+      },
+      {
+        "start": 95272,
+        "end": 95287,
+        "sha256": "967dc386b0256f3a5843262fa9891b6b460df86397e35801f374c339b4373f8a"
+      },
+      {
+        "start": 95272,
+        "end": 95279,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 95280,
+        "end": 95295,
+        "sha256": "8d685eede681b4ecdbd5afbb7d59210c8dc8755dfa381e940257ce09c5f9c8cf"
+      },
+      {
+        "start": 2651153,
+        "end": 3374057,
+        "sha256": "f901a08dd613a4286ea2408477c4d817472bb65af5aee71dd762033f3d18388a"
+      }
+    ],
+    "poster_sha256": "dafe7d118de6ce03a1ba56d5269be22dccc5a6b8b24b7f16238513b2c10e7341",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-how-to-jump-start-a-car",
+    "source_url": "https://www.explainroo.com/videos/how-to-jump-start-a-car.mp4",
+    "poster": "/previews/explainroo-how-to-jump-start-a-car.webp",
+    "timestamp_seconds": 24.655,
+    "duration_seconds": 70.442,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "1badf03130e7aa3ddd54739bfcf3708e748df27e3a5cb2a8b6c31f4db609027c"
+      },
+      {
+        "start": 32,
+        "end": 78487,
+        "sha256": "73bac6214d5efe49b356c39fd3d129458b5f774e6b3ea537752191f86ccbbcd0"
+      },
+      {
+        "start": 78488,
+        "end": 78503,
+        "sha256": "9b0f8b13f5de9f911ec4c13875faae60aeafc14899455d2685018d2e31e9edd7"
+      },
+      {
+        "start": 78488,
+        "end": 78495,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 78496,
+        "end": 78511,
+        "sha256": "2d330fa533b9a19cc8807576d4864d3e92aaffd4a135173fac07a18471396518"
+      },
+      {
+        "start": 1958416,
+        "end": 3003442,
+        "sha256": "757a33455bae78d1acf08a08803d15625d230826c3f4efd9057fd3053c2a6d26"
+      }
+    ],
+    "poster_sha256": "016913926ea9dd02519b5b5f4dd4808df7c78e744335360a7fb503de0c6afb25",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-how-to-make-pour-over-coffee",
+    "source_url": "https://www.explainroo.com/videos/how-to-make-pour-over-coffee.mp4",
+    "poster": "/previews/explainroo-how-to-make-pour-over-coffee.webp",
+    "timestamp_seconds": 25.483,
+    "duration_seconds": 72.81,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "12e97f56829a0d4c2724b8f9f31c32b31bd2f18c51d02587fe58f1b90184944f"
+      },
+      {
+        "start": 32,
+        "end": 81127,
+        "sha256": "4e477a004bd586e76c986eadf25261630e2d5fa9dcfdb287d954fe995fdc5780"
+      },
+      {
+        "start": 81128,
+        "end": 81143,
+        "sha256": "96ee65cb4ec21a16a5b4bab68eeaaaaa3af68e614640cf90788d135fba2d04a7"
+      },
+      {
+        "start": 81128,
+        "end": 81135,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 81136,
+        "end": 81151,
+        "sha256": "d7c60b29f8fef48f3535d3f770564af906878e0d987e2256b8f46fe11d6a6657"
+      },
+      {
+        "start": 2964245,
+        "end": 3231542,
+        "sha256": "7c119081f1bdddd6519c4ffade934421d26a95b4ccf47b7a87e9be1d00c5e324"
+      }
+    ],
+    "poster_sha256": "91a5a137b258b188da2a17034e81adbcae17c98cbf903fc4e8f7b2c947e68c8b",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-unspar-product-demo",
+    "source_url": "https://www.explainroo.com/videos/unspar-product-demo.mp4",
+    "poster": "/previews/explainroo-unspar-product-demo.webp",
+    "timestamp_seconds": 20.563,
+    "duration_seconds": 58.752,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "dde81bd7d398e0f048f38d066a76c4e489b6d4aa1ce311fabea6bd9e1f343709"
+      },
+      {
+        "start": 1525290,
+        "end": 2181572,
+        "sha256": "1c2be7163f081e9b9846c5884abe330024375d272cf4c091e2d2a15cf07eb1dc"
+      }
+    ],
+    "poster_sha256": "caac80b9ae63d63bc6f020c40472d415ae956fb10cd963edd722ab67572b31ba",
+    "license": "MIT",
+    "attribution": "Vincent Schmalbach (https://github.com/vincentsch/explainroo)"
+  },
+  {
+    "resource_id": "explainroo-vroni-product-demo",
+    "source_url": "https://www.explainroo.com/videos/vroni-product-demo.mp4",
+    "poster": "/previews/explainroo-vroni-product-demo.webp",
+    "timestamp_seconds": 20.033,
+    "duration_seconds": 57.237,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "4e9538fb3950dfb94cbbcfa93a079b79fbaa8c219063bec8816514fa2c349223"
+      },
+      {
+        "start": 1268605,
+        "end": 2175536,
+        "sha256": "1b4743056e2c3d3e885f692751be76626a87a17c863b0b87839e722be13e6246"
+      }
+    ],
+    "poster_sha256": "7c08d41a17243314e1271f690079dd16297966f52e0cdebd12cde39a537d2ae4",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-what-an-api-does",
+    "source_url": "https://www.explainroo.com/videos/what-an-api-does.mp4",
+    "poster": "/previews/explainroo-what-an-api-does.webp",
+    "timestamp_seconds": 25.043,
+    "duration_seconds": 71.552,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8992cd27e4ddb89c4d9059da634a62d42523bea76f96c9c651dcb217613b9f44"
+      },
+      {
+        "start": 32,
+        "end": 79295,
+        "sha256": "caedfca092961e757aad5b19236f041fc65bb18df58bc9f0231b64c659fe438f"
+      },
+      {
+        "start": 79296,
+        "end": 79311,
+        "sha256": "3c32f37b099c143b7ac73056ea78d40735af94bb9dc1e7014b6a098cd050ddc1"
+      },
+      {
+        "start": 79296,
+        "end": 79303,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 79304,
+        "end": 79319,
+        "sha256": "a8fda6af8c029d6da476edef7aa905750bba4f83d207e9a75e45195aec67ced3"
+      },
+      {
+        "start": 2693350,
+        "end": 2846372,
+        "sha256": "ae1795009c6951b12a2fbe511a6a87f7634a2d8a9c0fdbea3820a44ff75d6685"
+      }
+    ],
+    "poster_sha256": "a690a3d3d917442565e3ffa315c6883d8c7eca21b36a06fe3aa68ba5b5ef4e23",
+    "license": "MIT",
+    "attribution": "Vincent Schmalbach (https://github.com/vincentsch/explainroo)"
+  },
+  {
+    "resource_id": "explainroo-what-happens-to-a-support-ticket",
+    "source_url": "https://www.explainroo.com/videos/what-happens-to-a-support-ticket.mp4",
+    "poster": "/previews/explainroo-what-happens-to-a-support-ticket.webp",
+    "timestamp_seconds": 23.781,
+    "duration_seconds": 67.946,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b0b04cf7a91ab9ba4f3f704e247feb7eedff05e2dfcf86e71fb8fdd97b41f628"
+      },
+      {
+        "start": 32,
+        "end": 74483,
+        "sha256": "5e8bd439ee404df04afef51e884671296d9775a8a7226f7a04e130429444d855"
+      },
+      {
+        "start": 74484,
+        "end": 74499,
+        "sha256": "7eb65e611806214f94c0892212db2592e0e9833fc063e45531d3895ff522ef5b"
+      },
+      {
+        "start": 74484,
+        "end": 74491,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 74492,
+        "end": 74507,
+        "sha256": "10876126ced90b65a4e9852147032ff0cbe45c9879a6b5f802975a3af36c3942"
+      },
+      {
+        "start": 1574722,
+        "end": 2098573,
+        "sha256": "35651d5aca863a5863947c3f2de77df233ea91a0fba94656c1eb2c20030fe806"
+      }
+    ],
+    "poster_sha256": "5c4285e9b9d63770383b02c49f77212d3d81f49fe0f7a9189928ae7d4074047d",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-what-single-sign-on-does",
+    "source_url": "https://www.explainroo.com/videos/what-single-sign-on-does.mp4",
+    "poster": "/previews/explainroo-what-single-sign-on-does.webp",
+    "timestamp_seconds": 24.923,
+    "duration_seconds": 71.21,
+    "source_width": 1080,
+    "source_height": 1350,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "e2383814ee85ccadfbeff48ad439adbd9bbeb0a18c74402de05c8c0e7f213bb1"
+      },
+      {
+        "start": 32,
+        "end": 78365,
+        "sha256": "d224fd55f792a60dfecbb50672bef74084219953b0bbbaea3f1f6714afdb5511"
+      },
+      {
+        "start": 78366,
+        "end": 78381,
+        "sha256": "0627a0276258fea15b767532669b3cd82ee15da02923fef5be503be8405a7fe3"
+      },
+      {
+        "start": 78366,
+        "end": 78373,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 78374,
+        "end": 78389,
+        "sha256": "23031fc7e9f8829b21bd5669027f62b63875029dd3803a28639e5913a4db6371"
+      },
+      {
+        "start": 1151049,
+        "end": 1779690,
+        "sha256": "bfa87b8cd3a8ef858f72b80d339a32490183318bfa95b0c2895ed890d4ec88ff"
+      }
+    ],
+    "poster_sha256": "119d29e609ba419935842d6e2e010328883ec19b73b433267bd0ec4fb7f7ecf8",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-why-phone-batteries-wear-out",
+    "source_url": "https://www.explainroo.com/videos/why-phone-batteries-wear-out.mp4",
+    "poster": "/previews/explainroo-why-phone-batteries-wear-out.webp",
+    "timestamp_seconds": 21.459,
+    "duration_seconds": 61.312,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6bf1e8e8df71b67375336112cc9c52b1b12d19adcaaef19ebfe8648a86bb6721"
+      },
+      {
+        "start": 32,
+        "end": 67907,
+        "sha256": "f193fde33a848c2dce0486514a65f105aa4a6faa0361def73a4460ef6c084760"
+      },
+      {
+        "start": 67908,
+        "end": 67923,
+        "sha256": "58f6f125d931b110353092d03e1c9797ebcfcb30889c340ac7d1041f083784bc"
+      },
+      {
+        "start": 67908,
+        "end": 67915,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 67916,
+        "end": 67931,
+        "sha256": "9998bce09c69d7cfefb6e1cf13657ebf99a66d9f055ff53a07f52aadb147edff"
+      },
+      {
+        "start": 885276,
+        "end": 1344277,
+        "sha256": "4163995fba520587bf6b1253f4802da6c6a8db178bfc28dd329c1e593dc12c9a"
+      }
+    ],
+    "poster_sha256": "ef52fce8a2f4b4047f26a07839f590b991a6e023b0f8156afe309d89cf46a8f9",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "explainroo-why-we-have-leap-years",
+    "source_url": "https://www.explainroo.com/videos/why-we-have-leap-years.mp4",
+    "poster": "/previews/explainroo-why-we-have-leap-years.webp",
+    "timestamp_seconds": 24.11,
+    "duration_seconds": 68.885,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "c4cf429fb29a0d58bc827a803353b261af57987eb8f3d68da7b904aded984508"
+      },
+      {
+        "start": 32,
+        "end": 76721,
+        "sha256": "0f6ad50a9dd229ae7ecd8a28ad9b5b5e981ab23e3ed4f8397cb74f6021af2edc"
+      },
+      {
+        "start": 76722,
+        "end": 76737,
+        "sha256": "6799d3e19edd5076316b6ca2e5a0f7647a955ff88ad23088b002f867186604f0"
+      },
+      {
+        "start": 76722,
+        "end": 76729,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 76730,
+        "end": 76745,
+        "sha256": "e16d2eba3cbf862e83d3186bf8d2de6fc6326646fdd62e38357fe879fa5edfbe"
+      },
+      {
+        "start": 1988588,
+        "end": 3063435,
+        "sha256": "911d107cc9e5b4e63f18d8a7d075edde56b2358d49e23f834c71e7393741c348"
+      }
+    ],
+    "poster_sha256": "fd52cbacfdd0e782f343634d859165b095ca6b65665b76857b6dfa66f8888d75",
+    "license": "MIT",
+    "attribution": "explainroo"
+  },
+  {
+    "resource_id": "freelancer-affiliate-review-dark-scorecard",
+    "source_url": "https://freelancer-templates.org/previews/hero/AffiliateReview-DarkScorecard.mp4",
+    "poster": "/previews/freelancer-affiliate-review-dark-scorecard.webp",
+    "timestamp_seconds": 1.843,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "9d1b472db4d242968a08fdc67fa83dbc0795d712c96ee60d52236459a35f9797"
+      },
+      {
+        "start": 4083,
+        "end": 142297,
+        "sha256": "f49cbf84bf5ddb51bf340277c4967d44eec0aef4e2c3aeed3e10e7096f062fa8"
+      }
+    ],
+    "poster_sha256": "1bdb7a5824915fa13d7cd8f02434e193df00b003352d055816bb2a6e69581aaa",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-behind-the-scenes-dark-scene-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-DarkSceneCards.mp4",
+    "poster": "/previews/freelancer-behind-the-scenes-dark-scene-cards.webp",
+    "timestamp_seconds": 1.843,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "05eece3b1dc931f1bccfd86b11223ec6b01767c94253079e30c6aa656d704efe"
+      },
+      {
+        "start": 4075,
+        "end": 211034,
+        "sha256": "cbbe510167a6019a75b7e8350ff722f9c9701004574f89aeae3fb9d6cddef1d5"
+      }
+    ],
+    "poster_sha256": "c263183fbacc84efdb5000118dcab931b96a4d82d7757b4bb6f4ca6b548f9027",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-case-study-neon-spotlight",
+    "source_url": "https://freelancer-templates.org/previews/hero/CaseStudy-NeonSpotlight.mp4",
+    "poster": "/previews/freelancer-case-study-neon-spotlight.webp",
+    "timestamp_seconds": 1.843,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "1a7eea4f443fc538d5e2a0350d315b07812eb5e513459e23cd30e3a54f79f38e"
+      },
+      {
+        "start": 4051,
+        "end": 153759,
+        "sha256": "e7b81fbdbd94e8e735ea965987558e4d4ae2e2a26b08cd1f55eaf6afa0f27461"
+      }
+    ],
+    "poster_sha256": "388f4e4a7eef39941d243ecba8381a4991a4feda10a2cb4e0dc59b9c18b21b82",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-course-promo-dark-overview",
+    "source_url": "https://freelancer-templates.org/previews/hero/CoursePromo-DarkOverview.mp4",
+    "poster": "/previews/freelancer-course-promo-dark-overview.webp",
+    "timestamp_seconds": 1.843,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "adc551f8a5a22d4202750fa498897ecf9530eaeab08b690137f766f34922f6ee"
+      },
+      {
+        "start": 4067,
+        "end": 177469,
+        "sha256": "2e980a84bfd7902ab5358cc89822dade1bda3ea2072ab8fb26bf7c8e06b7a29f"
+      }
+    ],
+    "poster_sha256": "dd921475d81be70cf270cf2c8a85da568e68b31ba2378efa52102ecfdfb9cdf5",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-event-neon-countdown",
+    "source_url": "https://freelancer-templates.org/previews/hero/Event-NeonCountdown.mp4",
+    "poster": "/previews/freelancer-event-neon-countdown.webp",
+    "timestamp_seconds": 2.746,
+    "duration_seconds": 3.050667,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b34ea7d05dceaab44d65b50cd9434b54859eed9d4612faec073ef8654ca51657"
+      },
+      {
+        "start": 5171,
+        "end": 182183,
+        "sha256": "079586b62e07e4e48b2b80363bc0e8b0b303fe83aec1000f23a5bc8d3b3323bc"
+      }
+    ],
+    "poster_sha256": "81b5d6801a52c83bf300e5fdb9e843d0c8f12386a503d0e0221dd5595a43562a",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-explainer-dark-cinematic",
+    "source_url": "https://freelancer-templates.org/previews/hero/Explainer-DarkCinematic.mp4",
+    "poster": "/previews/freelancer-explainer-dark-cinematic.webp",
+    "timestamp_seconds": 1.843,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "1a0f26f26b670879720c40531875d1824d0b7423cbeb167ccaf40b16fd472618"
+      },
+      {
+        "start": 4091,
+        "end": 224713,
+        "sha256": "37e5bbc5fc814cba3334adc2b57a47f6832a83778479093438c0c36df79ed5b8"
+      }
+    ],
+    "poster_sha256": "86e872ce94d114c8a386761847566ddacaa1f1bc559e81188471f43ebef0c3a2",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-proposal-bold-pitch",
+    "source_url": "https://freelancer-templates.org/previews/hero/Proposal-BoldPitch.mp4",
+    "poster": "/previews/freelancer-proposal-bold-pitch.webp",
+    "timestamp_seconds": 2.746,
+    "duration_seconds": 3.050667,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "1093035d910aec4601ea2a30eef1d5bef26287293f145462ecb2baa359645e50"
+      },
+      {
+        "start": 5163,
+        "end": 195443,
+        "sha256": "665f10145c8709f734fb8c0604e9c6537d2507217fe4aa7f8041b0106cc61866"
+      }
+    ],
+    "poster_sha256": "818acd7918e0cfe22364bf31baaec8433b619f12eb9e921a5ff1cdb2f59dc787",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-proposal-dark-executive",
+    "source_url": "https://freelancer-templates.org/previews/hero/Proposal-DarkExecutive.mp4",
+    "poster": "/previews/freelancer-proposal-dark-executive.webp",
+    "timestamp_seconds": 1.84,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "4bd6ea1831e828baaeb2c4309d95ba1e8a958c4967fd3d91fa395d27f737a346"
+      },
+      {
+        "start": 4083,
+        "end": 208511,
+        "sha256": "9a2d72bbc34aaac871bbf5e10f78b2323e1b0bf73637b6a08b5cd6ba5b1757b3"
+      }
+    ],
+    "poster_sha256": "4fd204efc8cf497a7d086f3964ea4b01286f2b70ee69628a4b229710002f8d8c",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-proposal-neon-pitch",
+    "source_url": "https://freelancer-templates.org/previews/hero/Proposal-NeonPitch.mp4",
+    "poster": "/previews/freelancer-proposal-neon-pitch.webp",
+    "timestamp_seconds": 1.843,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6393af3f0ff12a8f7313ff9f8122fb4a0e8e081594a922ef140867f5a03b53f3"
+      },
+      {
+        "start": 4075,
+        "end": 203530,
+        "sha256": "97f514ee3f5036f5cd32bf56ffc0fa4e99088ec52e818030cb57d017cbf0a46e"
+      }
+    ],
+    "poster_sha256": "d839c47a1caedce1db0e8f4dfbe24568bb957bc608360c7761fa478ec0f4c868",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-recap-neon-timeline",
+    "source_url": "https://freelancer-templates.org/previews/hero/Recap-NeonTimeline.mp4",
+    "poster": "/previews/freelancer-recap-neon-timeline.webp",
+    "timestamp_seconds": 1.843,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "acba92114bc99afe1681d99cec6a3e3b9b7e0257bfe356122d4647e0717abec9"
+      },
+      {
+        "start": 4091,
+        "end": 189290,
+        "sha256": "ef688113214c643d7cc3ac2571bf6319846c499d1bb2e1aef41dc53bd85768ab"
+      }
+    ],
+    "poster_sha256": "9f734cb04e916fb5783729a138c774c8bfc926b7180a23ec92aa1a1e2cf36011",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-testimonial-neon-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-NeonSplit.mp4",
+    "poster": "/previews/freelancer-testimonial-neon-split.webp",
+    "timestamp_seconds": 2.746,
+    "duration_seconds": 3.050667,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8ea273f6679197b2c6a64831cf13b01cacb7f401021b60a7e0dcea1ae2455f24"
+      },
+      {
+        "start": 5219,
+        "end": 208271,
+        "sha256": "ab365f4c7cd2a79a0efc64224d3dd46a4abbd09f5d4d06f30439c755a38fd07f"
+      }
+    ],
+    "poster_sha256": "d2d78fd14103f3febfd9857ada3ecb93f8dfc461ba9ebd7c438bdc8f97e082b3",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-tutorial-dark-numbered-steps",
+    "source_url": "https://freelancer-templates.org/previews/hero/Tutorial-DarkNumberedSteps.mp4",
+    "poster": "/previews/freelancer-tutorial-dark-numbered-steps.webp",
+    "timestamp_seconds": 2.746,
+    "duration_seconds": 3.050667,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fafb2bf0c09699fe5a640290515453b7375a4165fe48e3b371c501743cf74325"
+      },
+      {
+        "start": 5171,
+        "end": 163262,
+        "sha256": "c64c955d12df8c381cd082a9f54cd21fc68fd6b65e005feed02fcdf188642d51"
+      }
+    ],
+    "poster_sha256": "3f6598fb311dc6b1de69c9c536e3b40f6bddf6b39a1503edb1ea0abfd441ffd7",
+    "license": "CC-BY-NC-SA-4.0",
+    "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "hyperframes",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/docs/images/showcase/journey-introduction-v5-v2.mp4",
+    "poster": "/previews/hyperframes.webp",
+    "timestamp_seconds": 19.6,
+    "duration_seconds": 56.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "12af6a72f7aa6b246ced2c0ab34a52d0152d4e474ec6e17193ad82951bd90902"
+      },
+      {
+        "start": 1060055,
+        "end": 1157653,
+        "sha256": "b6e34939ad386bf5b761d00fd98a7dbb8f86234c405e81ec57ab999c72dfebea"
+      }
+    ],
+    "poster_sha256": "39a4267741d6956829a5ac5b2c884cab004eee054f231e4f1dfe83ca0582ac53",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-cow",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/cow-v1.mp4",
+    "poster": "/previews/hyperframes-cow.webp",
+    "timestamp_seconds": 10.395,
+    "duration_seconds": 29.7,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b9ffaf8c33cbffe11d8cfab00c6d8ee1d7972cfa7f3c8bb5ca1c462d368c61a0"
+      },
+      {
+        "start": 2347342,
+        "end": 2641623,
+        "sha256": "f47151c1d4bfb64489bc888a20ba0ccc1ca3bd8c60921e0e26543fbdedbf4b01"
+      }
+    ],
+    "poster_sha256": "fe3a76c01c006ba42de4e6f87c626eec52cff267b824ec94275ce09172f058ef",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-data-chart",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/data-chart.mp4",
+    "poster": "/previews/hyperframes-data-chart.webp",
+    "timestamp_seconds": 5.25,
+    "duration_seconds": 15.0,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "c1fcca1ddce2b5c4a51f83ef241661e8b36fd6c44439b41fa9fc36b30d7fc52a"
+      },
+      {
+        "start": 2318,
+        "end": 66976,
+        "sha256": "e160cd06ee87715f86f791b4a7b34b81065f38a9faaddb4489430f5870fb2a70"
+      }
+    ],
+    "poster_sha256": "1329e29659a8fe5731020e1117ab84133b3be725e154dd35c5ae562772ca42d3",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-manga-last-onigiri",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/manga-last-onigiri-v1.mp4",
+    "poster": "/previews/hyperframes-manga-last-onigiri.webp",
+    "timestamp_seconds": 8.925,
+    "duration_seconds": 25.5,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "72c2629f0427f894f3d76b9ba818c2b68279d02e447a589892c7001cf72814cc"
+      },
+      {
+        "start": 1936568,
+        "end": 3671635,
+        "sha256": "4f9708cc7527f3b545294eb994f7bd4a13de75e59405cc9fcd233a6737763963"
+      }
+    ],
+    "poster_sha256": "45c624ee6a58cb47c7af1596aa093f9e47d84706f98d06e2cb1a0f8548b8d032",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-opening-night",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/frameys-opening-night-v1.mp4",
+    "poster": "/previews/hyperframes-opening-night.webp",
+    "timestamp_seconds": 17.502,
+    "duration_seconds": 50.005,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "c0ed36ddf196ca53af1c22b0482c8b530e5917b2a2fcccf4ae302efc636f2816"
+      },
+      {
+        "start": 1526798,
+        "end": 2448875,
+        "sha256": "e862e67471dc1c8843d6360d0263729ff119433bab87e412bcdf8294dd0ffca9"
+      }
+    ],
+    "poster_sha256": "5a0cc7cececa2ca25c2612104a24652cf44acd19f73f4fbc7da6d4aa41c15b62",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-real-ui-newspaper-1969",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/real-ui-newspaper-1969-v1.mp4",
+    "poster": "/previews/hyperframes-real-ui-newspaper-1969.webp",
+    "timestamp_seconds": 2.8,
+    "duration_seconds": 8.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d610c9ab21ee7048ebeda26714e5872afc5aa4e167597ff8a39b52ef1f5f4fdf"
+      },
+      {
+        "start": 518182,
+        "end": 1242858,
+        "sha256": "c1f2ddc93aa0f2aca3877b8134b997bf387a77e489c2b0c3ba7c0e2a5c468815"
+      }
+    ],
+    "poster_sha256": "d2ef9c54e79145624325fc5bbd65923b0d27e99dd41a0425d33fa853cdcef547",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-remix-firecrawl",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/desktop/viral-clone/remix-firecrawl-result.mp4",
+    "poster": "/previews/hyperframes-remix-firecrawl.webp",
+    "timestamp_seconds": 11.247,
+    "duration_seconds": 32.133333,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "268ab274bed26da25a37db7961e0fec39db7ff5c44e7bf0d377310ca94bfd8c3"
+      },
+      {
+        "start": 904173,
+        "end": 941290,
+        "sha256": "35a6206bccc610c2ce9c64395471deabc21592782b471bf017e1cdf9642099f6"
+      }
+    ],
+    "poster_sha256": "86b822b182ae6ec54c588efee0c92983ecdffb4e5d85442972bfc3556bcc3776",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-remix-linear-loops",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/desktop/viral-clone/remix-linear-loops-result.mp4",
+    "poster": "/previews/hyperframes-remix-linear-loops.webp",
+    "timestamp_seconds": 14.163,
+    "duration_seconds": 40.466667,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b327a184bf8ce399d1c29a1ff76ae4bf62caad5c461774c6fb2fc72ce2446034"
+      },
+      {
+        "start": 1085463,
+        "end": 1423661,
+        "sha256": "6688ee22471ba11842e313ff75bc1ce92f90bc3553a298be6f1d168a96b51799"
+      }
+    ],
+    "poster_sha256": "d522c890945866abd757e4ef067a2ec4282229843e6cf0cf28780291cfa64920",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-remotion-to-hyperframes",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/remotion-to-hyperframes-v1.mp4",
+    "poster": "/previews/hyperframes-remotion-to-hyperframes.webp",
+    "timestamp_seconds": 7.038,
+    "duration_seconds": 20.108005,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8e315be487f8f51b1ae5897289bb01b5018d46865a5bea8f5f5ded47ba86164c"
+      },
+      {
+        "start": 688944,
+        "end": 1118829,
+        "sha256": "1aea1d556357e02af9853e450220e5bc95892fb823f178682649d5bf0ceba337"
+      }
+    ],
+    "poster_sha256": "2cbdc418cf9508fea10b7ba81f49a7854a2d0b141621debac8e71d5d36c60e43",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-vfx-background-removal",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/card/vfx-background-removal-launch-v1.mp4",
+    "poster": "/previews/hyperframes-vfx-background-removal.webp",
+    "timestamp_seconds": 15.043,
+    "duration_seconds": 42.98,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "0910181626f2a4683406196a15c34458f94bfade6b8a0dbeeda50eb270ccb529"
+      },
+      {
+        "start": 2914839,
+        "end": 3324360,
+        "sha256": "937ae9ef1df38fe2a27a938698230831341ba6565c6913784b20caed2e77c9ac"
+      }
+    ],
+    "poster_sha256": "c814732944549de1196d6e3e240493e5414f3a1679bf9bc93656aa7243264d8e",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "hyperframes-yt-lower-third",
+    "source_url": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/yt-lower-third.mp4",
+    "poster": "/previews/hyperframes-yt-lower-third.webp",
+    "timestamp_seconds": 1.575,
+    "duration_seconds": 4.5,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "163fa4b6c88a5b7b8f49ffdd70683db4dbf07499a11ebd1a290e60e26e721bc1"
+      },
+      {
+        "start": 1306,
+        "end": 76430,
+        "sha256": "8e63de5a41e8f5ac9f6923f670fab9f9357c88f366c47eb92df042f3fd4b69a0"
+      }
+    ],
+    "poster_sha256": "41bcf089044e187d1885e50edba924d4ad424ca504c9c3f4870abdb863f7dfb0",
+    "license": "待确认",
+    "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
+  },
+  {
+    "resource_id": "ink-press",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/showcase-media/showcase-ink-press-template.mp4",
+    "poster": "/previews/ink-press.webp",
+    "timestamp_seconds": 12.662,
+    "duration_seconds": 36.176009,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a1b40be5e64d37bf716c0a3ff3f11f525a3e670360bbf67ec756fceda6eb6d96"
+      },
+      {
+        "start": 5296336,
+        "end": 5715686,
+        "sha256": "a3e7a972f3f56872d63a8c373dbacd5094d8f1d1bbdead46147d5a8e47808557"
+      }
+    ],
+    "poster_sha256": "331326e525fe890e01a9a3bbf25d50664bd2c9759fbcfd5fc8904ebf96e1d13d",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "lemo-briefing-board",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/briefing-board.mp4",
+    "poster": "/previews/lemo-briefing-board.webp",
+    "timestamp_seconds": 14.0,
+    "duration_seconds": 40.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "c59109f6010e24c136339872112a1194e1caecb52f260c1e882405b8ae9ad547"
+      },
+      {
+        "start": 943820,
+        "end": 1205963,
+        "sha256": "666b831bf15281bf3d998cf46c169950cc80e06e7f5902fbc388e84e34a5d51d"
+      },
+      {
+        "start": 1205964,
+        "end": 1468107,
+        "sha256": "a9cdda3c26d1120a4226c4e51aed778c010c14f1b3cea56fd6689d49b7670ab5"
+      },
+      {
+        "start": 1468108,
+        "end": 1730251,
+        "sha256": "af537d3f1c80e825842e862fc7dbcdb3acf0b430bb6dde3c5d0f65fd1d3528f9"
+      },
+      {
+        "start": 1730252,
+        "end": 1992395,
+        "sha256": "90c4b01d7c5227111451a812ed9dd8c1508cb2f1a9581542517aba05361d3f20"
+      },
+      {
+        "start": 1992396,
+        "end": 2099142,
+        "sha256": "ab639bb81173db81aa471ecd95dc11dfa946a994fba06362702ce7ecbf91e55d"
+      }
+    ],
+    "poster_sha256": "7956cca23b1a1b11582488ba18eb713f9ac79353e58508a5e13eb3df92940c2a",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-16-bit-pixel-rpg",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/pixel-rpg.mp4",
+    "poster": "/previews/lemo-opuscar-16-bit-pixel-rpg.webp",
+    "timestamp_seconds": 19.077,
+    "duration_seconds": 54.506,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f77357cc8cc4a6511d4edea11d9012122ca4fb091ea9f1abe58d0a168f31a30b"
+      },
+      {
+        "start": 963396,
+        "end": 1064289,
+        "sha256": "d6ee8dfe14b36a3d0b6c2bdd31cb5c142a17730910337fb17c46c7d35808c124"
+      }
+    ],
+    "poster_sha256": "9a3ceb141baeefa3e783e7e558ec096eee94cd7635f3b465e6fea2c1f48cbbdd",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-art-deco",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/art-deco.mp4",
+    "poster": "/previews/lemo-opuscar-art-deco.webp",
+    "timestamp_seconds": 20.431,
+    "duration_seconds": 58.375,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b836c549becc910af4b251c487581c7591d100d9ee31781b341b91daf20ad092"
+      },
+      {
+        "start": 2239881,
+        "end": 2945820,
+        "sha256": "690b2a79dc5ae09392ba12f235205b12fe005058d112794f5e2b907afbe8053b"
+      }
+    ],
+    "poster_sha256": "19256a85673aedbfc1a0d4eec7fa5e62ac978e3f001dbfd6ef655fdff4a51908",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-ascii-crt-terminal",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ascii-crt.mp4",
+    "poster": "/previews/lemo-opuscar-ascii-crt-terminal.webp",
+    "timestamp_seconds": 20.927,
+    "duration_seconds": 59.791667,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a8b23cb633474b6bc8b185ce3045951217618bc8ff71696ecb1f5dc60bf49fba"
+      },
+      {
+        "start": 945716,
+        "end": 1340864,
+        "sha256": "fde1f70e1b7fb0d5aa4338f0310b179760c4a5c6c4d15ca6fb0548e215085b86"
+      }
+    ],
+    "poster_sha256": "3566563fcdf1ebefdd4a4c51478d8971bebe99542feaf4efef2698774f958440",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-blueprint",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/blueprint.mp4",
+    "poster": "/previews/lemo-opuscar-blueprint.webp",
+    "timestamp_seconds": 16.333,
+    "duration_seconds": 46.666667,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "5a4b340db9a281d78943a4d19ea46ed531e50c07c9fb8ffc1679c64db2131c61"
+      },
+      {
+        "start": 1353913,
+        "end": 2219055,
+        "sha256": "728ac0345bad93b23a25971f36175132661b6122234d74e7be7094ab8f73078b"
+      }
+    ],
+    "poster_sha256": "fc61444e08e174cee90249409998ec5d93148ac12b16d2fa498f6a1ea52769cd",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-brick-toy",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/brick-toy.mp4",
+    "poster": "/previews/lemo-opuscar-brick-toy.webp",
+    "timestamp_seconds": 18.906,
+    "duration_seconds": 54.016,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "0d2b16f4edc52f46225b2ae847712f4ca434e85db0a44517b59951a55d137891"
+      },
+      {
+        "start": 1636880,
+        "end": 1899023,
+        "sha256": "f0d8edd43bfd7aea00a4198f4d2d098eac8b07dbca70024f67ba3f326dddd6b4"
+      },
+      {
+        "start": 1899024,
+        "end": 1992811,
+        "sha256": "a746d160943b2e17ee37eb763edd0f2324ab22c58e064054416374fd109f5383"
+      }
+    ],
+    "poster_sha256": "776767ace3bcacf780d3208816c3fe06af05221605ce2f42ca7604635ef78045",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-caption-news",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/caption-news.mp4",
+    "poster": "/previews/lemo-opuscar-caption-news.webp",
+    "timestamp_seconds": 20.832,
+    "duration_seconds": 59.52,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "5657aace3dfd5a58fa2966952e3a968f53d86d64ab7f821dd207d8398bb2d832"
+      },
+      {
+        "start": 32,
+        "end": 66826,
+        "sha256": "504a1284f2e969d1f26ce54e5bd12da3008d1428a26c7cbdbd6e85ba24463ea6"
+      },
+      {
+        "start": 66827,
+        "end": 66842,
+        "sha256": "a542b11122c4b35820fe9f7ee650400481baa10e0e66b3735b96f129e16511ec"
+      },
+      {
+        "start": 66827,
+        "end": 66834,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 66835,
+        "end": 66850,
+        "sha256": "c7a9754bc42a84408681fdf0b371f08c085453c7b49551edcc1cb14bd36d2452"
+      },
+      {
+        "start": 2567195,
+        "end": 3224396,
+        "sha256": "7ce7906c9fad489c1424e522622deb11c2c21fe93a9460c0876d9d725eae41f5"
+      }
+    ],
+    "poster_sha256": "e64585ce46263372a609be2ae587e71d15efc5a86da75528c004516113fe6f4b",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-chinese-ink-wash",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ink-wash.mp4",
+    "poster": "/previews/lemo-opuscar-chinese-ink-wash.webp",
+    "timestamp_seconds": 16.8,
+    "duration_seconds": 48.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "559d907ee2e88713cd57b8c04fe961aada7176b33b34365cab2497d058bb76e1"
+      },
+      {
+        "start": 786689,
+        "end": 1634828,
+        "sha256": "1811dba088fab3b145bc568a57661aa94a5d2279e176d8bb9e14f1da92e5552d"
+      }
+    ],
+    "poster_sha256": "703665e395f7ce4f9fa4d4f6bb0a7140abcf10bd461bb3ac47c43ba0f282b1ba",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-dark-tech-keynote",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dark-keynote.mp4",
+    "poster": "/previews/lemo-opuscar-dark-tech-keynote.webp",
+    "timestamp_seconds": 14.702,
+    "duration_seconds": 42.005,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8aa67fa9749dcf6e4e8189ec4ba52ca69ddc4a9f67da0faa0ffc0b144635fa44"
+      },
+      {
+        "start": 1862108,
+        "end": 2647726,
+        "sha256": "8a4284a83df0bec755dd9c86182ee00d1164d8c8e39fbfd8d1f1d6373084b099"
+      }
+    ],
+    "poster_sha256": "7de17ddd794da51b5dd2fb8c3b17ca536fe6540128ff2260e303ed842160cf68",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-data-storytelling",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dataviz.mp4",
+    "poster": "/previews/lemo-opuscar-data-storytelling.webp",
+    "timestamp_seconds": 17.502,
+    "duration_seconds": 50.005,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ad1b998a1ccfe17dd1e7eb59af8183dc1956bd941c7efe446c8f01f3e776da19"
+      },
+      {
+        "start": 1035712,
+        "end": 1944037,
+        "sha256": "069531f194c92298724860cef6c0c9b0ce9c8b12a74e816fc7df6a5110e78162"
+      }
+    ],
+    "poster_sha256": "0b3096bb40e67dfda1750a059b12b9b284bd931a069d24817d75e69a3ad6fb9a",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-halftone-dossier",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/halftone-dossier.mp4",
+    "poster": "/previews/lemo-opuscar-halftone-dossier.webp",
+    "timestamp_seconds": 10.506,
+    "duration_seconds": 30.016,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ba6f85358805d72a34d109a13dfc8c25d418ab98df221ef4bbd744fc946c2063"
+      },
+      {
+        "start": 2234896,
+        "end": 3065023,
+        "sha256": "aca0f8dab598c8544f0b0db14a48f897309d4f0c8756e160d8ae36ec8cbf7838"
+      }
+    ],
+    "poster_sha256": "666df703e3d920de0847c28c3e8616979f3d5375d26f16e80180a6c29b5bdaca",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-hologram-hud",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/hologram-hud.mp4",
+    "poster": "/previews/lemo-opuscar-hologram-hud.webp",
+    "timestamp_seconds": 13.656,
+    "duration_seconds": 39.018,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "15540d618bee9d88b7149e443cdceeb0c8e7202de630c573f6ac41f84c8913d3"
+      },
+      {
+        "start": 1730782,
+        "end": 2703110,
+        "sha256": "3dac6315c0a4783794c93ab5644da2dda29513a98196d53a714f18eab2f9e934"
+      }
+    ],
+    "poster_sha256": "7c41c63b19ed67ee14a5d305a2113fca23a9577ed6b4fa1859c77a18115d88dc",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-isometric-infographic",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/iso-infographic.mp4",
+    "poster": "/previews/lemo-opuscar-isometric-infographic.webp",
+    "timestamp_seconds": 20.577,
+    "duration_seconds": 58.791667,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "009fd2356210088b67290975e17acf297ae2248e5763156074f4592ff931cc1a"
+      },
+      {
+        "start": 1119578,
+        "end": 1381721,
+        "sha256": "5aac7cd2ec1521acc77a636fa6ddcb0380b439237fa5c6219cb6abefb7e28bae"
+      },
+      {
+        "start": 1381722,
+        "end": 1643865,
+        "sha256": "62d9b9ecc718caaee1a754ae89b0817eca53f6335ca2682bde56569a28d1a22e"
+      },
+      {
+        "start": 1643866,
+        "end": 1906009,
+        "sha256": "f4f376f6028431aadc0bd2df6d9ad301358c227d582a107821b24c1b70d6166b"
+      },
+      {
+        "start": 1906010,
+        "end": 2168153,
+        "sha256": "46013f28a25068dbb20c6f9ddab431dba18a64f7ccfb5e50aabba6fcfa279342"
+      },
+      {
+        "start": 2168154,
+        "end": 2430297,
+        "sha256": "6958e771d7530683ccd8e016e85b90a42fe9d52959d905f9ee150dc9b7575530"
+      },
+      {
+        "start": 2430298,
+        "end": 2623326,
+        "sha256": "c256d17231a660e63ea12ec10f7df9e13889ca0558c54075d8f226953ccb31c9"
+      }
+    ],
+    "poster_sha256": "aef57a2f8e9bd9748c4a33d66fdbbfdf5413c4854c4da51839b35f8408b0ac9f",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-paper-pop-up-book",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/paper-popup.mp4",
+    "poster": "/previews/lemo-opuscar-paper-pop-up-book.webp",
+    "timestamp_seconds": 46.555,
+    "duration_seconds": 133.013,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a9ce75f0f6af66e8f04e7aaae522d5d89e07435d3388c4d224e89b85f0820140"
+      },
+      {
+        "start": 32,
+        "end": 213710,
+        "sha256": "e3d97b843bd21c10db0556ac7c5b311eb58aaf429c78e7caa26803035c62e589"
+      },
+      {
+        "start": 213711,
+        "end": 213726,
+        "sha256": "ed87955d9714ee4860645ba0f4f8087afde4674828b5becbcf49d573f43b92b5"
+      },
+      {
+        "start": 213711,
+        "end": 213718,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 213719,
+        "end": 213734,
+        "sha256": "04fe2590e584bede0d50932f7baade963070c1d4099895b66cda33121a7be10a"
+      },
+      {
+        "start": 9592305,
+        "end": 10159909,
+        "sha256": "0362daaf83ab9882b0dc66b05ba6b728d77f9ae30380b088e9688e99542f6d9e"
+      }
+    ],
+    "poster_sha256": "a8fbe159eda579be832fdaa29602ee278cb6e14c26c5721b6b0f38980ffc9bcd",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-risograph",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/risograph.mp4",
+    "poster": "/previews/lemo-opuscar-risograph.webp",
+    "timestamp_seconds": 14.0,
+    "duration_seconds": 40.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d18892fa0559897b8c09484ae6a0889f06bb16de50b14e0f7a2626d85204394c"
+      },
+      {
+        "start": 2002226,
+        "end": 2264369,
+        "sha256": "8b284c18d901a06b6cc708095afe64c6cf2622820c0cdaefd94786fcd5519c1b"
+      },
+      {
+        "start": 2264370,
+        "end": 2526513,
+        "sha256": "3b8ac591e5500f578cba0c493072ea49d3fcdf122f613e9f198b468ab089bbe7"
+      },
+      {
+        "start": 2526514,
+        "end": 2788657,
+        "sha256": "193ff5ea8308836b331e7eb7d3f2d4591e70cb2225272f9b4c980e46a83f0000"
+      },
+      {
+        "start": 2788658,
+        "end": 3050801,
+        "sha256": "290a2cfe2dcabc08519ab422f407aefbb1bf83dbcbf9d73e7ac27e0fb7f06558"
+      },
+      {
+        "start": 3050802,
+        "end": 3312945,
+        "sha256": "0d0cae1d4b915dd3d97a419dfa9bdbe5fe0c8d06aad1022c6992eff0431f4ef5"
+      },
+      {
+        "start": 3312946,
+        "end": 3575089,
+        "sha256": "05f5bf0a7a2fa4720f8a41d96792e1dba198db8eecf521b3d2d009f983ea95b6"
+      },
+      {
+        "start": 3575090,
+        "end": 3837233,
+        "sha256": "badeb3388b049be14e99c4e246224bf68f9e2e6a817f32f1f0c192f5eec3eeec"
+      },
+      {
+        "start": 3837234,
+        "end": 3852666,
+        "sha256": "4da051c5f81cc3c6c38b26f3cef1ccfde7ff99988601a07bba8743ae036bc97e"
+      }
+    ],
+    "poster_sha256": "da40f0f90ec4dd73a1e6f86a0c0e0f724aca812648df8684b44cc28b8c29664c",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-swiss-motion-graphics",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/swiss-motion.mp4",
+    "poster": "/previews/lemo-opuscar-swiss-motion-graphics.webp",
+    "timestamp_seconds": 15.4,
+    "duration_seconds": 44.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8b7835f56788bbfa23f53b0180f7efb6caec45d62da307d8e53ebb313616fcd8"
+      },
+      {
+        "start": 227660,
+        "end": 547626,
+        "sha256": "d7a034fcb01eeaa308c434c2357f7b277973362850f241e053ebee375b657d51"
+      }
+    ],
+    "poster_sha256": "476e68691fd0cbcf3451ea3185430e9ed4013f43a6e7cda7a7a776b9e80269c4",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-ukiyoe",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ukiyoe.mp4",
+    "poster": "/previews/lemo-opuscar-ukiyoe.webp",
+    "timestamp_seconds": 15.403,
+    "duration_seconds": 44.01,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2be73ecee674d3c3dc8cc20aa288be0bd84f9ea7c1a7c5112d027dab643749d3"
+      },
+      {
+        "start": 1323611,
+        "end": 1585754,
+        "sha256": "749192a71116bd30306260b46b9d807abae4d40029f404038f127ac1b67f5a02"
+      },
+      {
+        "start": 1585755,
+        "end": 1847898,
+        "sha256": "2594f8f241cf6bb12f3e748d9f08b7767aac8cfa85d49b6d007c02a69bfa46ee"
+      },
+      {
+        "start": 1847899,
+        "end": 2110042,
+        "sha256": "19a7ecf9284d826fe3f690e19f5d7f64130dd0dc0297021d262e8d34b4d14fa1"
+      },
+      {
+        "start": 2110043,
+        "end": 2372186,
+        "sha256": "66f45d6867c924f85b2bfdded520ccaa3e6d0c8c5a40f879bdcd17e1b7ecc5bf"
+      },
+      {
+        "start": 2372187,
+        "end": 2634330,
+        "sha256": "6ebedbe9cd431bbe8641f40dba351b8314f662f25fe2a4e8f99bc62af90ae7c5"
+      },
+      {
+        "start": 2634331,
+        "end": 2896474,
+        "sha256": "b3745e73b3d2dad65d4d224ced0473e3081015ff47738799bb5dcff265fcd006"
+      },
+      {
+        "start": 2896475,
+        "end": 2965770,
+        "sha256": "e5c228dd1972904a4bfaaa3f5f50c386c9578a2735780b1e190101f8002a0fbf"
+      }
+    ],
+    "poster_sha256": "4f2d5a409b024b5676f0a6530c0253531c5906ffc191fc7602a9848eb23cd099",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-whiteboard-explainer",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/whiteboard.mp4",
+    "poster": "/previews/lemo-opuscar-whiteboard-explainer.webp",
+    "timestamp_seconds": 38.856,
+    "duration_seconds": 111.018,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "7850411c7d0345814ecce06c58d234c906e6f44b418fd4795d258adc7aeea9ba"
+      },
+      {
+        "start": 32,
+        "end": 76510,
+        "sha256": "61c7dd2f308ebc65cb8c602509d3a3c2efcde0122f10549fdfdd65720c815e84"
+      },
+      {
+        "start": 76511,
+        "end": 76526,
+        "sha256": "f39a055e6a94eccf716fbdf3875986c78e2207afd9a0c06b86e4fc5bca382227"
+      },
+      {
+        "start": 76511,
+        "end": 76518,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 76519,
+        "end": 76534,
+        "sha256": "ad7ec55657ac8999c89687ffb9a335ec54a002babee2d4ecc5b55778193d63fe"
+      },
+      {
+        "start": 3611805,
+        "end": 4302672,
+        "sha256": "f4f3059fe7f3eacf79be3941c4ae7fc09c609926cd035cb1bece7df5c72affad"
+      }
+    ],
+    "poster_sha256": "6c0de83ff28ab995251a84446d989f2e977c5414ce40b7332e1caf985165be88",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-teardown",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/teardown.mp4",
+    "poster": "/previews/lemo-teardown.webp",
+    "timestamp_seconds": 13.562,
+    "duration_seconds": 38.75,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "910472499241137ca3572da7f021c2d121fafde6c03aba08f43a770bd70c45b7"
+      },
+      {
+        "start": 1345770,
+        "end": 2268705,
+        "sha256": "581e99572f823d51de083d2feb4ec0a5d71c6b5370438b7e97742930c87adce3"
+      }
+    ],
+    "poster_sha256": "1eea33a177e09d8811e7e141f49e1e6a8aeded413b5047aa7878f0bf72afa456",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-watercolor",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/watercolor.mp4",
+    "poster": "/previews/lemo-watercolor.webp",
+    "timestamp_seconds": 39.76,
+    "duration_seconds": 113.6,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "19e402b3d08998fe9d962cd0ca47b93d59da08480c77696313512e44ea4dfb92"
+      },
+      {
+        "start": 32,
+        "end": 182650,
+        "sha256": "3b5f51a4dbe930a81e9caede2f297ed2d57d0b886d5000489dee227748e7c3d6"
+      },
+      {
+        "start": 182651,
+        "end": 182666,
+        "sha256": "eae26f7aaee0a65a8e5fd32a9acca6841553fc63ce685aefee777013fd712807"
+      },
+      {
+        "start": 182651,
+        "end": 182658,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 182659,
+        "end": 182674,
+        "sha256": "254668365bf1fd31449fd8e645c18a073e2b515463772dc1266c06dfcc5927d1"
+      },
+      {
+        "start": 3820130,
+        "end": 4419240,
+        "sha256": "69d041d6b744590a36512c5ab67f70aec71f6b8efcb09750d3fbc5f964d23ffb"
+      }
+    ],
+    "poster_sha256": "e0d9d7ac734cca52bc53a77d60c108965e8204c1a67134a09475d12449eb64fb",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "paper-cut-five-layer-motion",
+    "source_url": "https://raw.githubusercontent.com/HeiGeAi/Paper-Cut/main/examples/five-layer-motion/renders/paper-cut-layer-demo-20s-motion-v2.mp4",
+    "poster": "/previews/paper-cut-five-layer-motion.webp",
+    "timestamp_seconds": 7.0,
+    "duration_seconds": 20.0,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "03447532880350e2f6b24dafbeedc43dce313efa21a0ae0892c61c8e658980e1"
+      },
+      {
+        "start": 3725,
+        "end": 265868,
+        "sha256": "d28f03ef5ff971e1bd31a0ff6723e13da2a423dbe282a41fe6fe08e8ebbd0e4a"
+      },
+      {
+        "start": 265869,
+        "end": 528012,
+        "sha256": "f2cb8222c4b4ad6107d764f3f340bc540729857ccb97e6e0873a6c1549848383"
+      },
+      {
+        "start": 528013,
+        "end": 790156,
+        "sha256": "1783aa3e5b405cd0d3383d3f18f8fa4feb4be55b26004316cab235dfcefc6dee"
+      },
+      {
+        "start": 790157,
+        "end": 1052300,
+        "sha256": "a43dc89170827efbeed64704e505dd14ece8a9c601d424a5fb6f3c7a63e8c182"
+      },
+      {
+        "start": 1052301,
+        "end": 1314444,
+        "sha256": "ace39726faf7e158c66ccd4e896f712d75420d6af579806df754ad75bd6cd9aa"
+      },
+      {
+        "start": 1314445,
+        "end": 1576588,
+        "sha256": "ff45b5a82807439ff3acfab35e33846f407fdf106efbc253c65ea704ab2fe2e4"
+      },
+      {
+        "start": 1576589,
+        "end": 1838732,
+        "sha256": "4bf5abd6791f4bc38d71e1b193ae56e498f9f8910dbf0be0fcc8cbae5a8bda82"
+      },
+      {
+        "start": 1838733,
+        "end": 2100876,
+        "sha256": "ea4a9b12930585c4a7e2e5a0e1db446e33b02d174e3d403f20bd693f47289706"
+      },
+      {
+        "start": 2100877,
+        "end": 2363020,
+        "sha256": "aedf3427d69ca5d1ed93fdc9540d9665537045049f227b39f840dd4726355391"
+      },
+      {
+        "start": 2363021,
+        "end": 2625164,
+        "sha256": "de703e63e145450c8cca30166a363061a2f00ae72a0f42644293efd8984e9476"
+      },
+      {
+        "start": 2625165,
+        "end": 2887308,
+        "sha256": "0212fd0ddf8b41f0459ee613c6cd80736622eaf32c9b3ec90b5cb82ce8726308"
+      },
+      {
+        "start": 2887309,
+        "end": 3149452,
+        "sha256": "3c62ec738ce99764e884f40648033d1f75d71b43680a4ea7c9c359c89d3a9feb"
+      },
+      {
+        "start": 3149453,
+        "end": 3411596,
+        "sha256": "641f88a8a640306b1a5d9cce938c9e4f27589fd934b92c1520a93cbdf5d52cf0"
+      },
+      {
+        "start": 3411597,
+        "end": 3502407,
+        "sha256": "3fd3c61fb3cb2c8ca61586420392fd84db17a8118f4db8113dfad428f0ec3448"
+      }
+    ],
+    "poster_sha256": "4dff3b635858e6f96450007784e4758bda93119b66d02ca0e93121940658dc94",
+    "license": "MIT",
+    "attribution": "Blake Xu (HeiGeAi) (https://github.com/HeiGeAi/Paper-Cut)"
+  },
+  {
+    "resource_id": "remotion-templates-browser-chrome",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/browser-chrome-address-bar-zoom.mp4",
+    "poster": "/previews/remotion-templates-browser-chrome.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 29896,
+        "sha256": "193882639c5d8522983c260e208407395b0803a0fe09a38730b357316fbe2a77"
+      },
+      {
+        "start": 2459,
+        "end": 28319,
+        "sha256": "e6816d87eb3a3f5934905fcf281d1ca8fa3cee55ee0b81c74db69b04dc591f31"
+      }
+    ],
+    "poster_sha256": "4eb3b8808796b31afb06c55d377464647559fa9b65fb768b32d23136e4acbc3c",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-code-product-api",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/code-product-demos-api-response.mp4",
+    "poster": "/previews/remotion-templates-code-product-api.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 26500,
+        "sha256": "03c649cbfce66f063cde6590f39d5ca4564332c8061bc4a856e058143ba0fab2"
+      },
+      {
+        "start": 2451,
+        "end": 21605,
+        "sha256": "3aea31c5b615eab1a9ffee7a85a5422f0560baaa0f5295c4f696275c9f04c6e8"
+      }
+    ],
+    "poster_sha256": "beba7f6cae9aed15dd190758f83baf4abcf88120aea8e95efc835d56d28b1db2",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-cursor-click",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cursor-demos-click-ripple.mp4",
+    "poster": "/previews/remotion-templates-cursor-click.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 20052,
+        "sha256": "0902aaba3962340cac2981afa1d5042f3c24214e3bd3b678b9d4a1f9dcd5dbd0"
+      },
+      {
+        "start": 2459,
+        "end": 16508,
+        "sha256": "0cbea75ea7a12c928c6f9d8087f2bf0808b5afa3484b55e457e29c04765a6b38"
+      }
+    ],
+    "poster_sha256": "0bc38e109a76fe91e1dcded6425b339bbbfb2cf0752a35d32be44424df5f159c",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-dataviz-bar-race",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/dataviz-bar-race.mp4",
+    "poster": "/previews/remotion-templates-dataviz-bar-race.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 25706,
+        "sha256": "7f2802f4f3e723d71e8ccdb54440e084038edccce574646e8bdd73e0681102e9"
+      },
+      {
+        "start": 2475,
+        "end": 21487,
+        "sha256": "144cd27a1ef2d15372430ca6587fb09b954de4ee70e223f75f009608b5514f7b"
+      }
+    ],
+    "poster_sha256": "518c5b5dd56a7a1a1197cb16713d35071a9565cdea05fc6113479c54e86329b1",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-isometric-app",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/isometric-scenes-app-ecosystem.mp4",
+    "poster": "/previews/remotion-templates-isometric-app.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 37112,
+        "sha256": "94cd02e8cf2b9e5511f417b450405c3b7c4897c4fce226472dc8d5f9513c8071"
+      },
+      {
+        "start": 2411,
+        "end": 29362,
+        "sha256": "5a36fae56c9d780f9d9de135d728b3253da171baf188aa8b099449a875e975ad"
+      }
+    ],
+    "poster_sha256": "c0ef384abaa63503f1fe939b14bd7fdf6103509ffc3483eab32d4243f287ee4a",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-logo-sting-aurora",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/logo-sting-aurora-bloom.mp4",
+    "poster": "/previews/remotion-templates-logo-sting-aurora.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 29984,
+        "sha256": "f031a475606aca9a7292d8cd7d100a51a766c78692f0d2330fa412db269f5c31"
+      },
+      {
+        "start": 2467,
+        "end": 23360,
+        "sha256": "354fa0089f9c7fc352445adb424ea9fe7e827ce6ffeedb1a3ae76ba9c72e090e"
+      }
+    ],
+    "poster_sha256": "c22ccad3f7178c4a8d5f944908eace100588b38ec9d40144fce059e6b78382e4",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-lower-third-bar",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/lower-third-bar-rule.mp4",
+    "poster": "/previews/remotion-templates-lower-third-bar.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 11897,
+        "sha256": "0b19cbd89db576dd5c9e3f27156250b2d847b229c25bb51c90fc414e820f538e"
+      },
+      {
+        "start": 2467,
+        "end": 9710,
+        "sha256": "5828810ce2014e46b11fd67e528c034f4fc326b3085d176609dd06e69bad180f"
+      }
+    ],
+    "poster_sha256": "9da347864481726116632062a7cdf17a6c6bd47e06ff99e8022428bc2106a6aa",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-bokeh-circles",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/bokeh-circles.mp4",
+    "poster": "/previews/rendercomp-bokeh-circles.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f81702eff1c78174661f77342054c045818cbf917eef032bd727de7a2de562ac"
+      },
+      {
+        "start": 7427,
+        "end": 269570,
+        "sha256": "c6d0d72a303ee14c69752f136d6a570a6e26a5479f58d7b151aa9fd343a66885"
+      },
+      {
+        "start": 269571,
+        "end": 531714,
+        "sha256": "a994007d3770190ca03efb7861cad9ff5e28a99b0628c482d260550017008e70"
+      },
+      {
+        "start": 531715,
+        "end": 744463,
+        "sha256": "9da5d4c3ca65b181e9561db02ddb2f253975a0a7bf77074ee07ec65b3fe3aed3"
+      }
+    ],
+    "poster_sha256": "f98c91006a92891f47b9b8c79518c4829fb8fe4efb2858aac4a1adc9b6c8e83e",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-chapter-title",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/chapter-title.mp4",
+    "poster": "/previews/rendercomp-chapter-title.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "793803dd5f36bea1938679315969c645c275c12c82ce67089589fc85cb2f0ca1"
+      },
+      {
+        "start": 7283,
+        "end": 269426,
+        "sha256": "de20ae85d0e83561bff3d63520346719dfc68dcdc8f41d7aa3e871c06d034066"
+      },
+      {
+        "start": 269427,
+        "end": 277735,
+        "sha256": "84b3b437eee48ddbad56a94eebed85ae188dff41aecc905f6c82fc2665634ed3"
+      }
+    ],
+    "poster_sha256": "abfbf604a5ad6149e19ffcd7676928aaf0e9187339ec937c0db6c8b07f856aac",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-glitch-text",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/glitch-text.mp4",
+    "poster": "/previews/rendercomp-glitch-text.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "616f65a7f243e0be060aa62b1ab8a3daa50b3046974dd9631c3f2817e1a3044a"
+      },
+      {
+        "start": 6279,
+        "end": 268422,
+        "sha256": "5ab45cac0c55be9adaadacfb77e2b527737ba63938ab1813d1018da39a894ad5"
+      },
+      {
+        "start": 268423,
+        "end": 530566,
+        "sha256": "eac18290e89cc586416d2cb2c5425e5a1a8b51cc244d84d940c70a1ecca8fcb5"
+      },
+      {
+        "start": 530567,
+        "end": 760923,
+        "sha256": "c91261c33d8f8beec925fc5f7f552c4de57e1b5e9b6391595bb0c9025215869e"
+      }
+    ],
+    "poster_sha256": "1abb4fb8fc54d043d6d28bf94d7536d831e80d981b4e8340ec114c46dbe6a525",
+    "license": "MIT",
+    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-kpi-counter",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/kpi-counter.mp4",
+    "poster": "/previews/rendercomp-kpi-counter.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8b624256019ca69580111613bf2323c1cd0e700aedd64121401ade10f90e9651"
+      },
+      {
+        "start": 6271,
+        "end": 268414,
+        "sha256": "d647310fc1c74667afb7306b532ac30ee9f09d21f9d8fd07b1ec08e97362ff69"
+      },
+      {
+        "start": 268415,
+        "end": 340315,
+        "sha256": "b81363c0be369aa3a434110c7b8cc83d24b02d85fd11e84051df0c9707ceb9b0"
+      }
+    ],
+    "poster_sha256": "1f850879728123cc64d6921470b3bc8dc3121d5f997f0bacfebe618e93a66d21",
+    "license": "MIT",
+    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-logo-stroke-draw",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-stroke-draw.mp4",
+    "poster": "/previews/rendercomp-logo-stroke-draw.webp",
+    "timestamp_seconds": 1.299,
+    "duration_seconds": 3.712,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fe03de331563b57e07a14e2423e534b3e879d5425044ca5d1029f2a23f992832"
+      },
+      {
+        "start": 5883,
+        "end": 257322,
+        "sha256": "7f1bdc7497f4623e89293fc49292181ee680c3d356518c5773611076999ae433"
+      }
+    ],
+    "poster_sha256": "9f2e828673f7593ea0c51f2f365e711cfa5d925cb568a0be1e6a9f5f867625e3",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-neon-sign",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/neon-sign.mp4",
+    "poster": "/previews/rendercomp-neon-sign.webp",
+    "timestamp_seconds": 1.187,
+    "duration_seconds": 3.392,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b134ad9cb914879f4d725d2c8d94928ea78d891eb62913f40f55445920e8fb70"
+      },
+      {
+        "start": 5569,
+        "end": 145194,
+        "sha256": "19299c99a6eb823aeb8309e4e999400dcce1eaf8bb24d316cb1ef92bf80c09aa"
+      }
+    ],
+    "poster_sha256": "fafd6a767b30c19257a7693d59e6df52a6726742ca197a06df2151ace694603c",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-particle-snow",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/particle-snow.mp4",
+    "poster": "/previews/rendercomp-particle-snow.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "94e801dd5dc8851b3ebb21e7a1ce86f84d7106b2e9fe945d962a4fd3e4d93358"
+      },
+      {
+        "start": 7421,
+        "end": 269564,
+        "sha256": "1144de3c9b143346b60739ff8a0c87011becbbb7416c2ef68027e0a05a5886b8"
+      },
+      {
+        "start": 269565,
+        "end": 419405,
+        "sha256": "6ba3fdba6f198f3c6d437e050f588b96625e08704f3d6058303f8e71e7a2a60d"
+      }
+    ],
+    "poster_sha256": "dc62e0494aaba7737240020a23567c4180e41f9dcbe9f9b66b480297ecc040db",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-racing-chart",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/racing-chart.mp4",
+    "poster": "/previews/rendercomp-racing-chart.webp",
+    "timestamp_seconds": 2.471,
+    "duration_seconds": 7.061333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "5ea27c29dfaf090050a1ff8ed86556ed6dc2e32d98a489c943e4ff37c1099af7"
+      },
+      {
+        "start": 9623,
+        "end": 271766,
+        "sha256": "43749174a604add66c3b7f7ef4a297e363ae5210b3db29ccff48c5f2c43cf720"
+      },
+      {
+        "start": 271767,
+        "end": 278649,
+        "sha256": "ea7f6ca64c2343d07723f6ef8ca5257479f7bfda0eed1dac52a5a941de1f6653"
+      }
+    ],
+    "poster_sha256": "ca8df7c9dc8e09186b430ef15651ceacd7db6217c47517e63756ab129538e207",
+    "license": "MIT",
+    "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-slide-wipe",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/slide-wipe.mp4",
+    "poster": "/previews/rendercomp-slide-wipe.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fe584328d96d0a9101629e3e4584544a9db34930176bb019e1f97cf010cf9909"
+      },
+      {
+        "start": 6303,
+        "end": 237581,
+        "sha256": "65dcd5cc4278afe40a94fdefb9974ed967611e2ea3e24efc19f8ebae925a2cb4"
+      }
+    ],
+    "poster_sha256": "3aa97eddda976d8a9ad4c69584d64f3772b887c1bbea97363a1536721608b85a",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-social-reel",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/social-reel.mp4",
+    "poster": "/previews/rendercomp-social-reel.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "80a239df1ac5c0a9730ac9789549a02f10cdab018f0691dd4fd8a632e31bf00e"
+      },
+      {
+        "start": 7395,
+        "end": 267372,
+        "sha256": "5872083a0ec5cd8a70bd7dc659eb9dfd39164eee1ae83a232671b1fc37b16c80"
+      }
+    ],
+    "poster_sha256": "9823928c880290206d836689d7c3085a08b9ecc7fbe09985277f52d911b71c1e",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "revideo-example",
+    "source_url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/examples/assets/example.mp4",
+    "poster": "/previews/revideo-example.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 36506,
+        "sha256": "0a0a4e3f785b6c525e1618e181e0feb69648a7756d5ff99aa554d433563d6afc"
+      },
+      {
+        "start": 48,
+        "end": 30771,
+        "sha256": "3ab716e6d08804d5a95ced5aff39be4c24507cfeda56fd71b7a270985606fa33"
+      }
+    ],
+    "poster_sha256": "e38b7799102ff30ed9c9d6447ad91d0b62581dc72884f4cfc5537ca84c3dbf54",
+    "license": "MIT",
+    "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)"
+  },
+  {
+    "resource_id": "video-shotcraft-carousel-3d",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/carousel-3d.mp4",
+    "poster": "/previews/video-shotcraft-carousel-3d.webp",
+    "timestamp_seconds": 2.135,
+    "duration_seconds": 6.1,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "07bde1dd9068ab23922f440cfb55d66164e8de9c88009ebd16afabe1cc045f71"
+      },
+      {
+        "start": 2690181,
+        "end": 2690196,
+        "sha256": "b90498e825cb68e7e925b769c2a85d36cc4c0db224303582d0a59306240e43c4"
+      },
+      {
+        "start": 2690181,
+        "end": 2693075,
+        "sha256": "e42eef4338cbd4a1924b9e14282b3be38b5cb517f250a3ee227ad5b80b53208d"
+      },
+      {
+        "start": 48,
+        "end": 1492349,
+        "sha256": "c8449f02a622dc71d438e9b2a77bb405fc26b7a8e01b2f120d35bf1fa9742c14"
+      }
+    ],
+    "poster_sha256": "6b956b932da40ab30244b64b77fb76fcf29ce34dcfedb7f6110aff8880960c24",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-chart-live-moves",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/oscilloscope-stream.mp4",
+    "poster": "/previews/video-shotcraft-chart-live-moves.webp",
+    "timestamp_seconds": 1.882,
+    "duration_seconds": 5.376,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "70475b2a96d2e39f4c4d82b88bbfe797cc04bd7b0b837c8cf0a09eb954b5d1b5",
+    "source_byte_ranges": [],
+    "poster_sha256": "cb27902a61d11e70bea5f78bcb1753db2a89b36baeb11bdea80f937ebd202552",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-deck-deal-fly-in",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/deck-deal-flyin.mp4",
+    "poster": "/previews/video-shotcraft-deck-deal-fly-in.webp",
+    "timestamp_seconds": 1.882,
+    "duration_seconds": 5.376,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "46977669eba24511ac93634ef484a5281df9a18bb5f252b7ac7d141e2b60f229"
+      },
+      {
+        "start": 2109993,
+        "end": 3583546,
+        "sha256": "b50e41baec209d40bc314940dac475a5aeba4d48e1137660f5305c53751c4959"
+      }
+    ],
+    "poster_sha256": "c0a3e27bdaeeb46fa2324358b6aeb473d9501b09a4a256000f7e3d959b7d71e3",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-document-typewriter-reveal",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/document-typewriter-reveal.mp4",
+    "poster": "/previews/video-shotcraft-document-typewriter-reveal.webp",
+    "timestamp_seconds": 1.283,
+    "duration_seconds": 3.666667,
+    "source_width": 960,
+    "source_height": 540,
+    "source_sha256": "d332ea767e28d4a68c89cd64f38ebf5b11fbd7357dc5c63e0e892f7f14c59041",
+    "source_byte_ranges": [],
+    "poster_sha256": "220d7fb7458c40dbd641be7dc49837028f09dba1b6ae2ee6ffe8f76d4f830f44",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-paper-title-card",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/paper-title-card.mp4",
+    "poster": "/previews/video-shotcraft-paper-title-card.webp",
+    "timestamp_seconds": 0.642,
+    "duration_seconds": 1.833333,
+    "source_width": 960,
+    "source_height": 540,
+    "source_sha256": "96cf09acb0348c043c48e0df059e5fa3cf8fa1f694471c68760674134025bf92",
+    "source_byte_ranges": [],
+    "poster_sha256": "939aff9a9325f63a0335bcf7a59d72a6605de7c9b1a2a811ae2a8a8534179625",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-radial-wave",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/radial-wave.mp4",
+    "poster": "/previews/video-shotcraft-radial-wave.webp",
+    "timestamp_seconds": 1.505,
+    "duration_seconds": 4.3,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "75d4149fc22ec2ef193af766fc47aeb4419e192abccdcbb8870d801a95e161fd"
+      },
+      {
+        "start": 762981,
+        "end": 762996,
+        "sha256": "c55a8890bf45cc8438e0d02c5d369f44598e22bc85011982a975451a34401b89"
+      },
+      {
+        "start": 762981,
+        "end": 765323,
+        "sha256": "237a4b669029722109fc4ccd7a38f9676bf813c951d08ca98feb12bdbe8063c9"
+      },
+      {
+        "start": 48,
+        "end": 273632,
+        "sha256": "7cc46bb5a816dff89997c1fb9d6da5b2b70c1ca157fb54052d32542f5fa2a410"
+      }
+    ],
+    "poster_sha256": "d9c4600393f33e2186adbb24f927c454c7cb83fcd4b16a6bee99c56e18615041",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-space-camera-moves",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/exploded-view.mp4",
+    "poster": "/previews/video-shotcraft-space-camera-moves.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "c09f9cce7966341c93ec9508392ca176e911e42c3bc652ff9f88498a62dba478",
+    "source_byte_ranges": [],
+    "poster_sha256": "d2626bfdb20b1c2b50661b282e1d061dce3ac3ae866fd70ded0f5f3d9d42c864",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-terminal-3d",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/terminal-3d.mp4",
+    "poster": "/previews/video-shotcraft-terminal-3d.webp",
+    "timestamp_seconds": 2.275,
+    "duration_seconds": 6.5,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "7487bf16a44148a729d74afb7023648ce8ee42367692b8e7d5b0fb4480935c5f"
+      },
+      {
+        "start": 685873,
+        "end": 685888,
+        "sha256": "0a0d608428a8fabbf3a295f6e96af2987579f0d8f1515824d8c6852ae6cea664"
+      },
+      {
+        "start": 685873,
+        "end": 688623,
+        "sha256": "1670ffc481cbfc94a1bfd37013117d00e5a0bea920fea192927538c6d6f196ed"
+      },
+      {
+        "start": 48,
+        "end": 293107,
+        "sha256": "9e3dcbd500672a1aeb74b0d960fd67e470d331eaee36f0f5c3760ef41dbc41bd"
+      }
+    ],
+    "poster_sha256": "04f063f98368c6c5f371723b9e1ae15563396236a3926019598074deca44b8cf",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-text-as-mask",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/text-as-mask.mp4",
+    "poster": "/previews/video-shotcraft-text-as-mask.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "149301bddf5ae79929b8416040a10f4305ca77bfdc4b53d240272339a854fced",
+    "source_byte_ranges": [],
+    "poster_sha256": "9f905024609798a4ebc538aa1f1e14affb24529b7183ad3ba8ec7379358d6124",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-type-and-filter",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/type-and-filter.mp4",
+    "poster": "/previews/video-shotcraft-type-and-filter.webp",
+    "timestamp_seconds": 0.84,
+    "duration_seconds": 2.4,
+    "source_width": 960,
+    "source_height": 540,
+    "source_sha256": "f27f2965be5279dff17f5d90982cb97fda70a2deffb5dde67673c35065a4489c",
+    "source_byte_ranges": [],
+    "poster_sha256": "6cb5f0f7ae2eda09cbbd9cfb44d7b1ab90ae0841d86cc08bb99f0cc9dd95bc61",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-ui-to-brand-morph",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/icon-flip-bloom.mp4",
+    "poster": "/previews/video-shotcraft-ui-to-brand-morph.webp",
+    "timestamp_seconds": 3.2,
+    "duration_seconds": 4.394667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "1dbc4e06a25901acadd21e4a5f8a196a8422da529603fdd40cbf52adddf48601",
+    "source_byte_ranges": [],
+    "poster_sha256": "50dccfb0e2216ee637794f4b9a38a1b28ba4cba365945645c3aee6d6b86ce190",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "webreel-custom-theme",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/custom-theme.mp4",
+    "poster": "/previews/webreel-custom-theme.webp",
+    "timestamp_seconds": 3.022,
+    "duration_seconds": 8.633333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b1e6f9d8c28f2f2b869d33f65162ce66f5030bc3fe550f10a36b99abb351b09a"
+      },
+      {
+        "start": 590201,
+        "end": 590216,
+        "sha256": "1acdd167e42ea135045bda364d9ac6a309f6fe9f1144e152e1a8e129a7d76b28"
+      },
+      {
+        "start": 590201,
+        "end": 602065,
+        "sha256": "0c01f7c4c2e3c1a3872af7900e5861d3f9753b076820f15e242203de41d27c15"
+      },
+      {
+        "start": 69,
+        "end": 276539,
+        "sha256": "249b8fb7f9a1638bb81a3554ee86f7f1da056c151048abcb3c7911b974002474"
+      }
+    ],
+    "poster_sha256": "cfab808b33394e670770f2f168cfd9a1beb1d5962b2ca09592ec4eb66fee4fbe",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-drag-and-drop",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/drag-and-drop.mp4",
+    "poster": "/previews/webreel-drag-and-drop.webp",
+    "timestamp_seconds": 2.433,
+    "duration_seconds": 6.95,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "e51cb6b9de744bffce05d0c3c94fb6044a6e780b99afe1707f7f5d7f59bf1859"
+      },
+      {
+        "start": 891314,
+        "end": 891329,
+        "sha256": "ebb653f22d6ba262b5158dd4cecb5f8dfe6c3a3774f82166347edd72921aa819"
+      },
+      {
+        "start": 891314,
+        "end": 901222,
+        "sha256": "94372ecdab9c7d90b60ee60ecb771484ccdc57d1b9419717d265d96d03c2c1df"
+      },
+      {
+        "start": 69,
+        "end": 298457,
+        "sha256": "d5deff281d9dd26eca9e1fa5aea6c29d1c97fa74b92cf363ca2279928d22ad68"
+      }
+    ],
+    "poster_sha256": "6cfea209df6243a3d103d1c8af95f5ea41f3799522bf363769bd7b1aeb6a83f1",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-form-filling",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/form-filling.mp4",
+    "poster": "/previews/webreel-form-filling.webp",
+    "timestamp_seconds": 3.751,
+    "duration_seconds": 10.716667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6f37a07623f3126b3c7bb590dbec33002fdb229890b03963d3a10b113fb2086a"
+      },
+      {
+        "start": 1146871,
+        "end": 1146886,
+        "sha256": "39b5eaf0318c66e2efe3f24bfbc3fb121f0d90736e70c99879f0e25bc95c70d8"
+      },
+      {
+        "start": 1146871,
+        "end": 1161155,
+        "sha256": "9f57cc38ce7c88847ba6f1aaf9b320f221fc2b24b9da0b164fc0ca8c52f2aafb"
+      },
+      {
+        "start": 69,
+        "end": 139296,
+        "sha256": "0fe195d81bf935538288f8ffd3a9a05c322ebf6a8e57d624fb74511224dc320c"
+      }
+    ],
+    "poster_sha256": "a7f285dda2864560216fac457b8637b0deddc22692503da73b767349cca40a94",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-hello-world",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/hello-world.mp4",
+    "poster": "/previews/webreel-hello-world.webp",
+    "timestamp_seconds": 1.12,
+    "duration_seconds": 3.2,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ba41d1edb4af8ddf3be31ca003a6fcd3d6d9d002bbb11408a0648c58be8927b9"
+      },
+      {
+        "start": 863837,
+        "end": 863852,
+        "sha256": "c43099e8ad80d60a6cd54c72e42bf44ccbb8cd4bdf966e9f8f68f1f82992ec04"
+      },
+      {
+        "start": 863837,
+        "end": 869373,
+        "sha256": "a43a4bd03b743c95768ce0a03aacfee3fe82be16bc48a20260c351161a998848"
+      },
+      {
+        "start": 69,
+        "end": 110745,
+        "sha256": "405d4e7f72e850b7001f24547e637ff0f17ec7971a9adc06fd597879dc68ab69"
+      }
+    ],
+    "poster_sha256": "17752aa17f6e2537f4b89f47e4f4b6c6b309abb6c04e176ee11ec67c8b5d44fb",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-keyboard-shortcuts",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/keyboard-shortcuts.mp4",
+    "poster": "/previews/webreel-keyboard-shortcuts.webp",
+    "timestamp_seconds": 5.052,
+    "duration_seconds": 14.433333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "7d24d8d69ba2e78dc020a956262c4dc696c5446c625b6b53af0047d2b81e4291"
+      },
+      {
+        "start": 3216841,
+        "end": 3216856,
+        "sha256": "deb80396473c6d0fc6f819bfdd20fcb5ce57afcf0959fccee02ac124a51934b4"
+      },
+      {
+        "start": 3216841,
+        "end": 3221640,
+        "sha256": "8d054543fd2c67a2e55eedb394d7edb6cd0ebab0160ba5cf4494f100b89f49a5"
+      },
+      {
+        "start": 732585,
+        "end": 1174118,
+        "sha256": "0c3163d3dec0670ba546e34a1a3510a3f9ab37d62a836f29b452f439a5bcf4dc"
+      }
+    ],
+    "poster_sha256": "3fa6f5430a7abdefaf3b1e2645209b725f7df979ef39b1ec575100403cd40acf",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-mobile-viewport",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/mobile-viewport.mp4",
+    "poster": "/previews/webreel-mobile-viewport.webp",
+    "timestamp_seconds": 1.5,
+    "duration_seconds": 11.7,
+    "source_width": 390,
+    "source_height": 844,
+    "source_sha256": "f2a5fc89878ff9d7a2906a1d68c4e109e6ac0a5821eeb7a4ecacc75d8d92fad0",
+    "source_byte_ranges": [],
+    "poster_sha256": "62e289921e75701cb3c88951731769e7965fa72b6e6fdccb59123955841836de",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-modifier-clicks",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/modifier-clicks.mp4",
+    "poster": "/previews/webreel-modifier-clicks.webp",
+    "timestamp_seconds": 3.728,
+    "duration_seconds": 10.65,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6309e1550fa3bfd5b846d9329fd8fc51443c402accf39edc0e33d21ea9b5cdc6"
+      },
+      {
+        "start": 583234,
+        "end": 583249,
+        "sha256": "da503cf3ca035d0a85f5ee55052805bfca82b7796f7c3d0195aad7ffdab8862e"
+      },
+      {
+        "start": 583234,
+        "end": 587073,
+        "sha256": "4241018f73033e723a5d3d4ea38c006a6c7e89e39d4124bed2eeecdcc57d0034"
+      },
+      {
+        "start": 48,
+        "end": 305568,
+        "sha256": "499f1242c7833f248e8537fb390a8cd5418c300a2bf9dc78f5f4f89d296175e3"
+      }
+    ],
+    "poster_sha256": "311b5554f20e18e108bf316d9e6bce50eab6bb5f8c4dec340057bf0f225619e2",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-page-scrolling",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/page-scrolling.mp4",
+    "poster": "/previews/webreel-page-scrolling.webp",
+    "timestamp_seconds": 2.339,
+    "duration_seconds": 6.683333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "96a5c4355783dc783c96c024117b2c78bcdc80527de58eae0c3f600d97131340"
+      },
+      {
+        "start": 48,
+        "end": 262191,
+        "sha256": "4e45159b5453039fa3553732fbdd5207658b038fcfdf1a6a3df8e3053f51337d"
+      },
+      {
+        "start": 262192,
+        "end": 524335,
+        "sha256": "49897b43d24e8f1759ccca9dd11f79c898e46e0a8e308266ff99e10ad0d155a3"
+      },
+      {
+        "start": 524336,
+        "end": 786479,
+        "sha256": "4ef62a9209885823c6f3c426a0acb1eb58d25f430c2144dd47167434bc22ccf1"
+      },
+      {
+        "start": 786480,
+        "end": 1048623,
+        "sha256": "ae849f88f02bcbcdbf7fbc43da010b32401e6fda81caaae55d02adeeb0d28ac2"
+      },
+      {
+        "start": 1048624,
+        "end": 1310767,
+        "sha256": "a1a03ec0721da0cd07b85ebee474e8aec4b6975763d210f72ac29ee1975d426e"
+      },
+      {
+        "start": 1310768,
+        "end": 1572911,
+        "sha256": "0fe60df88726d50dac520456ee73474287d31777a410efbc5a284d0d1c349f0c"
+      },
+      {
+        "start": 1572912,
+        "end": 1835055,
+        "sha256": "bbb2e4ec8fb38878acf688ab3a71c345d83593e8c6809b1f2d0309d4f52d335a"
+      },
+      {
+        "start": 1835056,
+        "end": 2097199,
+        "sha256": "a2995fe93b453f68b162dd261d676bfb93be52216fb500cf1d53f1e7268932d1"
+      },
+      {
+        "start": 2097200,
+        "end": 2359343,
+        "sha256": "6ed7d15cab62a67da457f286e91d06b2155f224325e39665bce1b0e79d463b1c"
+      },
+      {
+        "start": 2359344,
+        "end": 2621487,
+        "sha256": "7d1d05fafab81fc6c697e78ed227b3616ab5e837fa44d5d35cba2284166d39a2"
+      },
+      {
+        "start": 2621488,
+        "end": 2883631,
+        "sha256": "03a28b12e2f2291ef43e439bf32884b17a69fc587c294c65c694a4df839fca62"
+      },
+      {
+        "start": 2883632,
+        "end": 3145775,
+        "sha256": "2ede01e6a8701b612eefbb88fae078c6814e303388f3ef4ed42412ad7e53d1e3"
+      },
+      {
+        "start": 3145776,
+        "end": 3407919,
+        "sha256": "569e542d8987ba97c928a9b57bf73dc5018287be875558bf077817b7bc193ffc"
+      },
+      {
+        "start": 3407920,
+        "end": 3663792,
+        "sha256": "f849135982fdcd5627e2c89ca1f6851b9e39e78327ac0e0948c5367742eebca3"
+      },
+      {
+        "start": 5643136,
+        "end": 5643151,
+        "sha256": "4b0c4deba5bea31ab848199bea0cb90fd9418d39a887ec5cb8b8b6816658396f"
+      },
+      {
+        "start": 5643136,
+        "end": 5646099,
+        "sha256": "10cd71e8efa598ed8a405cf9345ad28710a2591ee84b26da4d5ba284664479e4"
+      }
+    ],
+    "poster_sha256": "03d9a4f292dcaacbaee3423371bd2906cb2bd7516b036bcdb3a4e69637a1c8c8",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-screenshots",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/screenshots.mp4",
+    "poster": "/previews/webreel-screenshots.webp",
+    "timestamp_seconds": 1.727,
+    "duration_seconds": 4.933333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "74dbde985e7b9c6dfcfba29ac3445bb11113e0e38cc88318cf07b64dedc6f89e"
+      },
+      {
+        "start": 854289,
+        "end": 854304,
+        "sha256": "917eb43caa41604c9f3f32121e28711d1699a9c38466155e725a7bd2f92a97ca"
+      },
+      {
+        "start": 854289,
+        "end": 861841,
+        "sha256": "75a70366deac3c50aa8ab610755e7d757ebcec4f483e214a0e10cfe400a5f08f"
+      },
+      {
+        "start": 69,
+        "end": 621243,
+        "sha256": "82cab19477de399cbcb89f8e70d43278e692c72de195c5cba14982851e1405f9"
+      }
+    ],
+    "poster_sha256": "96bf80b1d589df1aae15178d7ea19bd859d856f952e743d7fe38127c9e1b7671",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "webreel-shared-steps",
+    "source_url": "https://raw.githubusercontent.com/vercel-labs/webreel/main/apps/docs/public/examples/videos/shared-steps.mp4",
+    "poster": "/previews/webreel-shared-steps.webp",
+    "timestamp_seconds": 1.703,
+    "duration_seconds": 4.866667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fb0d7877e23b6e37f25a57155f5b7ceea27b008ecdc0a72dfc24dd7630b2a063"
+      },
+      {
+        "start": 322581,
+        "end": 322596,
+        "sha256": "14bf7930106d0990519156474d9e8c3522a23244a6b1582e716e1a6842b96d82"
+      },
+      {
+        "start": 322581,
+        "end": 329592,
+        "sha256": "ee7d84eb850338138d5b0fcea5834d5f75a5693ff52def853b73329f0d4edd56"
+      },
+      {
+        "start": 69,
+        "end": 173239,
+        "sha256": "a3d0d3c349018ed6c2208b5bb9743135a86a7c5789273aa77d9b2734c9a458c8"
+      }
+    ],
+    "poster_sha256": "72d61017a63f257a4ca1fc66a923e3ac07e936beda9920d48e515f9ccd12bcde",
+    "license": "Apache-2.0",
+    "attribution": "Vercel Labs / webreel (https://github.com/vercel-labs/webreel)"
+  },
+  {
+    "resource_id": "zero-to-product-video-hero",
+    "source_url": "https://raw.githubusercontent.com/specstoryai/zero-to-product-video-hero/main/example/out/video.mp4",
+    "poster": "/previews/zero-to-product-video-hero.webp",
+    "timestamp_seconds": 10.521,
+    "duration_seconds": 30.058667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "cde0ba4eb38157bf8b31f1315da839687a4040d6503454824b23fe910e2592ee"
+      },
+      {
+        "start": 587337,
+        "end": 1431200,
+        "sha256": "922d04d52ad4c26abe53e7d4e11b9bf226b9e85104d8322fd8837b20ce11911e"
+      }
+    ],
+    "poster_sha256": "50c9dadc7255271b8b450da6483b4f4218fc4ff7e6c300c9e46c670c26be2e1d",
+    "license": "MIT",
+    "attribution": "SpecStory, Inc. (https://github.com/specstoryai/zero-to-product-video-hero)"
+  }
+]

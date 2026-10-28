@@ -1,12 +1,22 @@
 import projectData from '../../data/projects.json';
 import resourceData from '../../data/resources.json';
 import evidenceData from '../../data/evidence.json';
+import imagePosters from '../../data/image-preview-posters.json';
 import MiniSearch from 'minisearch';
+import { isCompletePreview, resolvePreview, type ResourcePreview } from './preview';
+
+export type { PreviewCaption, PreviewKind, ResolvedPreview, ResourcePreview } from './preview';
+export { previewCaption, previewMode, previewPlayable, previewPoster, previewUrl, resolvePreview } from './preview';
 
 export const projects = projectData;
-export const resources = resourceData;
+type CatalogResource = Omit<(typeof resourceData)[number], 'preview'>;
+export type Resource = CatalogResource & { preview?: ResourcePreview };
+function readResource(record: (typeof resourceData)[number]): Resource {
+ const { preview, ...rest } = record;
+ return isCompletePreview(preview) ? { ...rest, preview } : rest;
+}
+export const resources: Resource[] = resourceData.map(readResource);
 export const evidence = evidenceData;
-export type Resource = typeof resources[number];
 export const repo = 'https://github.com/imjszhang/awesome-code-video';
 export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',tool:'Motion design tool',workflow:'Workflow',collection:'Related list'};
 export const kindGuides: Record<string, string> = {
@@ -29,6 +39,40 @@ export const collections = [
  {id:'retro-and-playful',name:'Retro & playful',caption:'A little nostalgia. A lot of character.',description:'Pixel-world storytelling and terminal-inspired art direction for game narratives and playful technical films.',ids:['claude-quest','lemo-opuscar-16-bit-pixel-rpg','lemo-opuscar-ascii-crt-terminal','remotion-code-hike'],symbol:'⌘'}
 ];
 export const featuredIds = ['ink-press','paper-cut-five-layer-motion','map-motion-globe-to-location','lemo-opuscar-swiss-motion-graphics','claude-quest','hyperframes-data-chart'];
+/** Homepage grid: every complete preview, plus featured resources that have none. Playable files come first. */
+export function homePreviewItems(list: readonly Resource[] = resources): Resource[] {
+ const featured = new Set(featuredIds);
+ const rank = (resource: Resource) => {
+  const preview = resolvePreview(resource);
+  if (preview.degraded) return 3;
+  if (preview.playable) return 0;
+  if (preview.mode === 'thumb_link') return 1;
+  return 2;
+ };
+ return list.filter(resource => featured.has(resource.id) || !resolvePreview(resource).degraded).sort((a, b) => rank(a) - rank(b) || list.indexOf(a) - list.indexOf(b));
+}
+/** Only known animated images belong in the animation section. */
+const animatedPreviewUrls = new Set(imagePosters.filter(p => p.frame_count > 1).map(p => p.source_url));
+export function isYouTubePreview(resource: Resource): boolean {
+ const preview = resolvePreview(resource);
+ if (preview.mode !== 'embed' || !preview.url) return false;
+ const url = new URL(preview.url);
+ return ['www.youtube.com', 'youtube.com'].includes(url.hostname) && /^\/embed\/[\w-]{11}$/.test(url.pathname);
+}
+export function homePreviewGroups(list: readonly Resource[] = resources) {
+ const groups: {videos: Resource[]; animations: Resource[]; other: Resource[]} = {videos: [], animations: [], other: []};
+ for (const resource of homePreviewItems(list)) {
+  const preview = resolvePreview(resource);
+  if (preview.playable || isYouTubePreview(resource)) groups.videos.push(resource);
+  else if (preview.mode === 'thumb_link' && preview.url && animatedPreviewUrls.has(preview.url)) groups.animations.push(resource);
+  else groups.other.push(resource);
+ }
+ return groups;
+}
+/** The main gallery contains videos only; other media have their own sections. */
+export function homeGalleryItems(list: readonly Resource[] = resources): Resource[] {
+ return homePreviewGroups(list).videos;
+}
 export const isCore = (r:Resource) => ['film','scene','preset','shot','style'].includes(r.kind);
 export const coreCount = resources.filter(isCore).length;
 export const projectFor = (r:Resource) => projects.find(p=>p.id===r.project_id)!;

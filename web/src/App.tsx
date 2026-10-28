@@ -1,5 +1,6 @@
-import React,{useEffect,useState} from 'react';
-import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,featuredIds,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,type Resource} from './model';
+import React,{useCallback,useEffect,useRef,useState} from 'react';
+import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
+import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 function Arrow(){return <span aria-hidden="true">↗</span>}
 function Visual({resource,hero=false}:{resource:Resource,hero?:boolean}){
@@ -14,6 +15,78 @@ function Visual({resource,hero=false}:{resource:Resource,hero?:boolean}){
  </div>;
 }
 function External({href,children,className=''}:{href:string,children:React.ReactNode,className?:string}){return <a href={href} className={className} target="_blank" rel="noopener noreferrer">{children}<Arrow/></a>}
+function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPlayback,onVideo}:{resource:Resource,href:(path?:string)=>string,saved:boolean,onSave:(id:string)=>void,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void}){
+ const preview=resolvePreview(resource);
+ const poster=preview.poster?.startsWith('/previews/')?href(preview.poster.slice(1)):preview.poster;
+ const still=poster||preview.url;
+ const canPlay=Boolean(preview.playable&&preview.url);
+ const previewDomId=`preview-${resource.id.replaceAll('-','_')}`;
+ const armed=canPlay&&activeId===resource.id;
+ const showPause=armed&&playing;
+ const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(resource.id,node,preview.url);},[onVideo,resource.id,preview.url]);
+ const media=canPlay?<>
+  <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} upstream demo: ${resource.name}`} onClick={()=>onToggle(resource.id)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
+  {poster?<img className="preview-media preview-poster" src={poster} alt="" loading="lazy" decoding="async"/>:<Visual resource={resource}/>}
+  <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={poster||undefined} playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(resource.id,true)} onPause={()=>onPlayback(resource.id,false)}/>
+ </>:!preview.degraded&&preview.mode==='thumb_link'&&still?<img className="preview-media preview-poster" src={still} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'&&poster?<img className="preview-media preview-poster" src={poster} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'?<div className="preview-embed"><span>UPSTREAM PAGE</span><b>Open the source page.</b></div>:<Visual resource={resource}/>;
+ const upstreamLabel=canPlay?'Upstream file':isYouTubePreview(resource)?'Watch on YouTube':preview.mode==='thumb_link'?'Upstream image':'Upstream page';
+ const frame=canPlay?<div className="art-link">{media}</div>:<a className="art-link" href={preview.url||href(`resources/${resource.id}/`)} target={preview.url?'_blank':undefined} rel={preview.url?'noopener noreferrer':undefined} aria-label={`Open ${preview.mode==='embed'?'source page':'upstream preview'}: ${resource.name}`}>{media}</a>;
+ return <article className="resource-card gallery-card">
+  <div className="art-frame">{frame}<span className="art-caption">{preview.caption}</span></div>
+  <div className="card-body">
+   <div className="card-kicker">
+    <span>{kindNames[resource.kind]}</span>
+    <button className={`save-button ${saved?'is-saved':''}`} aria-label={`${saved?'Unsave':'Save'} ${resource.name}`} aria-pressed={saved} onClick={()=>onSave(resource.id)}>{saved?'★':'☆'}</button>
+   </div>
+   <h3><a href={href(`resources/${resource.id}/`)}>{resource.name}<Arrow/></a></h3>
+   <p className="card-description">{resource.description}</p>
+   <details className="preview-details">
+    <summary className="preview-summary">
+     <span className="card-project">{projectFor(resource).name}</span>
+     <span className="preview-details-label">Source &amp; license <span aria-hidden="true">+</span></span>
+    </summary>
+    <div className="preview-details-content">
+     <p className="preview-note">{preview.detail}{preview.degraded?null:<> {preview.license}. {preview.attribution}</>}</p>
+     {!preview.degraded&&preview.url?<External href={preview.url} className="preview-source">{upstreamLabel}</External>:null}
+     <p className="preview-review">Source reviewed · {resource.review.reviewed_at}</p>
+    </div>
+   </details>
+  </div>
+ </article>;
+}
+function HomeGallery({href,saved,onSave}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void}){
+ const videos=useRef(new Map<string,HTMLVideoElement>());
+ const sources=useRef(new Map<string,string>());
+ const [playback,setPlayback]=useState<GalleryPlaybackState>({activeId:null,playing:false});
+ const playbackRef=useRef(playback);
+ const onVideo=useCallback((id:string,node:HTMLVideoElement|null,url?:string|null)=>{if(node){videos.current.set(id,node);if(url)sources.current.set(id,url);}else{videos.current.delete(id);sources.current.delete(id);}},[]);
+ const onPlayback=useCallback((id:string,isPlaying:boolean)=>{
+  if(playbackRef.current.activeId!==id)return;
+  const next={activeId:id,playing:isPlaying};
+  playbackRef.current=next;
+  setPlayback(next);
+ },[]);
+ function toggle(id:string){
+  const result=toggleGalleryPlayback(playbackRef.current,id,videos.current,sources.current);
+  playbackRef.current=result.state;
+  setPlayback(result.state);
+  void result.play?.catch(()=>{
+   const next=abandonGalleryPlayback(playbackRef.current,id);
+   playbackRef.current=next;
+   setPlayback(next);
+   const video=videos.current.get(id);
+   if(video&&next.activeId!==id)resetPreview(video);
+  });
+ }
+ const groups=homePreviewGroups();
+ const sections=[
+  {id:'video-gallery',label:'Video gallery',number:'01',title:'Watch the videos.',items:groups.videos,description:'Play MP4 demos here, or open YouTube videos on YouTube. Playback starts muted. Nothing on this page is a local render test.'},
+  {id:'animated-examples',label:'Animated examples',number:'02',title:'Explore animated examples.',items:groups.animations,description:'GIF and animated WebP examples. These are animated images, not videos. Select a cover to open the original animation.'},
+  {id:'other-resources',label:'Other resources',number:'03',title:'Images & project pages.',items:groups.other,description:'Static template images and project websites. Select a cover to visit the source.'},
+ ];
+ return <><nav className="gallery-navigation" aria-label="Browse media types">{sections.map(section=><a key={section.id} href={`#${section.id}`}>{section.label} <span>{section.items.length}</span></a>)}</nav>{sections.map(section=><section key={section.id} id={section.id} className={`section ${section.id==='video-gallery'?'home-gallery':'home-preview-section'}`} aria-label={section.label}><div className="section-heading"><div><p className="eyebrow">{section.number} / {section.label.toUpperCase()} · {section.items.length}</p><h2>{section.title}</h2></div>{section.id==='video-gallery'?<a href={href('library/')}>All {resources.length} resources ↗</a>:<a href="#video-gallery">Back to videos ↑</a>}</div><p className="gallery-lead">{section.description}</p><div className="card-grid">{section.items.map(resource=><GalleryCard key={resource.id} resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.activeId} playing={playback.playing} onToggle={toggle} onPlayback={onPlayback} onVideo={onVideo}/>)}</div></section>)}</>;
+
+}
 export function App({path,base='/'}:{path:string,base?:string}){
  const route=routeForPath(path,base);const href=(s='')=>base+s;
  const [saved,setSaved]=useState<string[]>([]);const [saveStatus,setSaveStatus]=useState('');
@@ -41,10 +114,31 @@ export function App({path,base='/'}:{path:string,base?:string}){
   return <><nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href('library/')}>Library</a><span>/</span><a href={href(`projects/${p.id}/`)}>{p.name}</a><span>/</span><span>{r.name}</span></nav><div className="detail-layout"><div className="detail-main"><div className="detail-art"><Visual resource={r} hero/><span className="art-caption">EDITORIAL COVER — NOT AN UPSTREAM RENDER</span></div><div className="detail-title"><span className="tag">{kindNames[r.kind]}</span><h1>{r.name}</h1><p>{r.description}</p></div><section className="prose-block"><h2>What you’re reusing</h2><p>{kindGuides[r.kind]}</p>{themes.length>0&&<><h3>A good starting point for</h3><div className="topic-links">{themes.map(c=><a key={c.id} href={href(`collections/${c.id}/`)}>{c.name} ↗</a>)}</div><small>Use-case recommendations are editorial assessments.</small></>}</section><section className="prose-block"><h2>Make it your own</h2><ol className="steps"><li><b>Inspect the actual source.</b><p>Open the linked artifact and its project instructions. Check the required runtime, inputs, and upstream terms.</p></li><li><b>Adapt the content and visual direction.</b><p>Use the replacement notes above. Bring your own copy, data, assets, and branding; match the timing to your story.</p></li><li><b>Preview, render, and review.</b><p>Follow the upstream render workflow. Check framing, typography, audio, and output before publishing.</p></li></ol></section><section className="prose-block" id="sources"><h2>Review & sources <span className="count-small">{sources.length}</span></h2><p>Source and documentation review is separate from installation and render testing.</p>{sources.map(s=><details key={s.id}><summary>{s.title}<span>{s.checked_at}</span></summary><p>{s.notes}</p><External href={s.url}>Read reviewed source</External></details>)}</section></div><aside className="detail-sidebar"><div className="source-panel"><p className="eyebrow">START WITH THE SOURCE</p><h2>Build on this.</h2><External href={r.url} className="button primary">{r.kind==='style'?'Open style specification':r.kind==='collection'?'Open related list':'Open original resource'}</External>{galleryLinks[r.project_id]&&<External href={galleryLinks[r.project_id]} className="button">Upstream demo gallery</External>}<button className="button" onClick={copy}>{copied?'Copied ✓':'Copy reuse brief'}<span aria-hidden="true">⧉</span></button><button className="text-button" aria-pressed={saved.includes(r.id)} onClick={()=>toggleSave(r.id)}>{saved.includes(r.id)?'★ Saved on this device':'☆ Save for later'}</button><span role="status" className="small-status">{copied?'Source link and reuse notes copied.':copyError}</span><dl><dt>Source project</dt><dd><a href={href(`projects/${p.id}/`)}>{p.name} ↗</a></dd><dt>Resource type</dt><dd>{kindNames[r.kind]}</dd><dt>Reviewed</dt><dd>{r.review.reviewed_at}</dd><dt>Render tested</dt><dd>{r.review.render_tested?'Yes':'Not tested'}</dd></dl><p className="license-note">Code, footage, fonts, audio, and dependencies retain their own terms. Check upstream licenses for your use.</p></div></aside></div>{related.length>0&&<section className="section"><div className="section-heading"><h2>Keep exploring.</h2><a href={href('library/')}>The full index ↗</a></div><Cards items={related}/></section>}</>;
  }
  function Projects(){return <><Intro label="THE PEOPLE & CODE BEHIND THE FRAMES" title="Good work has a source." text="Each project can contain many reusable resources. Explore the selected examples, then continue with the original creators."/><div className="project-list">{projects.map((p,i)=><a href={href(`projects/${p.id}/`)} className="project-row" key={p.id}><span className="project-index">{String(i+1).padStart(2,'0')}</span><div><h2>{p.name}</h2><p>{new URL(p.url).hostname}{'github' in p&&p.github?' / '+p.github.full_name:''}</p></div><span>{resources.filter(r=>r.project_id===p.id).length} resources</span><Arrow/></a>)}</div></>}
- function About(){return <><Intro label="CURATED, WITH CONTEXT" title="Know what you’re getting." text="An independent collection of reusable parts for making videos with code. Specific artifacts, useful context, and a path back to the source."/><div className="about-grid"><section className="prose-block"><h2>One index. Different starting points.</h2>{Object.entries(kindNames).map(([k,n])=><div className="kind-definition" key={k}><h3>{n}</h3><p>{kindGuides[k]}</p></div>)}</section><div><section className="prose-block"><h2>Our selection standard</h2><p>We look for an identifiable source file, example, configuration, implementation recipe, or reusable style specification. A preview alone is not an editable template.</p><p>Descriptions explain the look, the likely use, and the adaptation work. A source review does not promise installation success, render quality, or unrestricted commercial use.</p><p>The collection was researched and drafted with AI assistance. Sources and review dates stay attached to individual resources. The catalog is CC0; upstream materials keep their own licenses.</p><External href={`${repo}/blob/main/docs/selection.md`}>Full selection notes</External></section><section className="prose-block yellow-panel"><h2>Found a good starting point?</h2><p>Suggest a specific resource, tell us what can be reused, and link to its source and terms.</p><External href={`${repo}/issues/new/choose`} className="button primary">Suggest a resource</External><p><External href={`${repo}/blob/main/contributing.md`}>Contribution guidelines</External></p></section><section className="prose-block"><h2>About the covers</h2><p>Resource cards use original editorial illustrations to identify themes. They are not screenshots, footage, or verified reproductions of the listed projects. Original demos are linked where available.</p><h3>Private by design</h3><p>Search runs in your browser. Saved resources and your theme preference stay on this device. There is no account, tracking script, or connection to a rendering service.</p></section></div></div></>}
+ function About(){return <><Intro label="CURATED, WITH CONTEXT" title="Know what you’re getting." text="An independent collection of reusable parts for making videos with code. Specific artifacts, useful context, and a path back to the source."/><div className="about-grid"><section className="prose-block"><h2>One index. Different starting points.</h2>{Object.entries(kindNames).map(([k,n])=><div className="kind-definition" key={k}><h3>{n}</h3><p>{kindGuides[k]}</p></div>)}</section><div><section className="prose-block"><h2>Our selection standard</h2><p>We look for an identifiable source file, example, configuration, implementation recipe, or reusable style specification. A preview alone is not an editable template.</p><p>Descriptions explain the look, the likely use, and the adaptation work. A source review does not promise installation success, render quality, or unrestricted commercial use.</p><p>The collection was researched and drafted with AI assistance. Sources and review dates stay attached to individual resources. The catalog is CC0; upstream materials keep their own licenses.</p><External href={`${repo}/blob/main/docs/selection.md`}>Full selection notes</External></section><section className="prose-block yellow-panel"><h2>Found a good starting point?</h2><p>Suggest a specific resource, tell us what can be reused, and link to its source and terms.</p><External href={`${repo}/issues/new/choose`} className="button primary">Suggest a resource</External><p><External href={`${repo}/blob/main/contributing.md`}>Contribution guidelines</External></p></section><section className="prose-block"><h2>About the covers</h2><p>Detail pages and the library use original editorial illustrations. They are not screenshots, footage, or verified reproductions. The homepage gallery hotlinks an upstream file, image, or page only when a reviewed preview exists, and labels it Upstream demo, Preview, or Editorial cover. Choose Play on an upstream demo to watch it here. Playback starts muted, and the player controls can unmute it. Videos never autoplay. Animated images may move when loaded. A preview is not a local render test.</p><h3>Private by design</h3><p>Search runs in your browser. Saved resources and your theme preference stay on this device. There is no account, tracking script, or connection to a rendering service.</p></section></div></div></>}
  let content:React.ReactNode;
- if(route.type==='home')content=<><section className="hero"><div className="hero-copy"><p className="eyebrow"><span className="live-dot"/> A CURATED INDEX FOR VIDEO MAKERS</p><h1>GOOD CODE.<br/>GREAT <span className="outlined">VIDEO.</span></h1><p className="hero-description">Find your next visual style, camera move, or complete film template. Built with code. Ready to make your own.</p><div className="hero-actions"><a className="button primary" href={href('library/')}>Explore the library <span>↗</span></a><a className="plain-link" href={href('collections/')}>What are you making? →</a></div><div className="hero-stats"><div><b>{coreCount}</b><span>REUSABLE STARTING POINTS</span></div><div><b>{projects.length}</b><span>SOURCE PROJECTS</span></div><div><b>∞</b><span>WAYS TO MAKE IT YOURS</span></div></div></div><div className="hero-poster"><div className="poster-top"><span>THE CREATIVE TOOLKIT</span><span>VOL. 01 / {new Date('2026-10-27').getUTCFullYear()}</span></div><div className="poster-stage"><div className="poster-cross">✳</div><div className="poster-bracket left">{'{'}</div><div className="play-tile"><span>▶</span></div><div className="poster-bracket right">{'}'}</div><span className="poster-label">IDEA → CODE → FRAME</span></div><div className="poster-timeline"><span>00:00</span><i/><i/><i/><i/><i/><span>∞</span></div><div className="poster-bottom"><span>YOUR NEXT FILM<br/>STARTS SOMEWHERE.</span><b>START HERE ↙</b></div></div></section><div className="ticker"><span>FILMS & SCENES</span><i>✳</i><span>SHOT RECIPES</span><i>✳</i><span>VISUAL STYLES</span><i>✳</i><span>MAP PRESETS</span><i>✳</i><span>PRODUCTION WORKFLOWS</span></div><section className="section"><div className="section-heading"><div><p className="eyebrow">01 / THE STARTING LINE</p><h2>What are you making?</h2></div><a href={href('collections/')}>Browse use cases ↗</a></div><CollectionCards/></section><section className="section"><div className="section-heading"><div><p className="eyebrow">02 / EDITOR’S PICKS</p><h2>Steal the idea.<br/><span className="muted">Respect the source.</span></h2></div><a href={href('library/')}>All {resources.length} resources ↗</a></div><Cards items={featuredIds.map(id=>resources.find(r=>r.id===id)!)}/></section><section className="manifesto"><span className="manifesto-mark">{'</>'}</span><div><p className="eyebrow">MORE THAN A LINK DUMP</p><h2>See the possibility.<br/>Understand the reuse.</h2><p>Every entry points to something specific: editable source, a configuration, a shot recipe, or a style specification. You bring the story.</p><a className="button" href={href('about/')}>How we curate ↗</a></div><div className="manifesto-facts"><p><b>01</b> Original sources</p><p><b>02</b> Practical reuse notes</p><p><b>03</b> Honest review status</p></div></section></>;
- else if(route.type==='library')content=<Library/>;
+ if(route.type==='home')content=<>
+  <section className="hero hero-short">
+   <div className="hero-copy">
+    <p className="eyebrow"><span className="live-dot"/> A CURATED INDEX FOR VIDEO MAKERS</p>
+    <h1>GOOD CODE.<br/>GREAT <span className="outlined">VIDEO.</span></h1>
+   </div>
+   <div className="hero-summary">
+    <p className="hero-description">Find a visual style, a camera move, or your next film template. Start with the source. Make it yours.</p>
+    <div className="hero-actions">
+     <a className="button primary" href={href('library/')}>Explore the library <span aria-hidden="true">↗</span></a>
+     <a className="plain-link" href={href('collections/')}>What are you making? →</a>
+    </div>
+    <div className="hero-stats">
+     <div><b>{coreCount}</b><span>reusable starting points</span></div>
+     <div><b>{projects.length}</b><span>source projects</span></div>
+    </div>
+   </div>
+  </section>
+  <HomeGallery href={href} saved={saved} onSave={toggleSave}/>
+  <section className="section"><div className="section-heading"><div><p className="eyebrow">04 / THE STARTING LINE</p><h2>What are you making?</h2></div><a href={href('collections/')}>Browse use cases ↗</a></div><CollectionCards/></section>
+  <section className="manifesto"><span className="manifesto-mark">{'</>'}</span><div><p className="eyebrow">MORE THAN A LINK DUMP</p><h2>See the possibility.<br/>Understand the reuse.</h2><p>Every entry points to something specific: editable source, a configuration, a shot recipe, or a style specification. You bring the story.</p><a className="button" href={href('about/')}>How we curate ↗</a></div><div className="manifesto-facts"><p><b>01</b> Original sources</p><p><b>02</b> Practical reuse notes</p><p><b>03</b> Honest review status</p></div></section>
+ </>;
+else if(route.type==='library')content=<Library/>;
  else if(route.type==='resource')content=<ResourceDetail id={route.id}/>;
  else if(route.type==='projects')content=<Projects/>;
  else if(route.type==='project'){const p=projects.find(p=>p.id===route.id)!;content=<><Intro label="SOURCE PROJECT" title={p.name} text="Selected reusable resources from this project, with specific artifact links and review notes."/><div className="page-actions"><External href={p.url} className="button primary">Visit original project</External><a href={href('projects/')}>All projects →</a></div><Cards items={resources.filter(r=>r.project_id===p.id)}/></>}

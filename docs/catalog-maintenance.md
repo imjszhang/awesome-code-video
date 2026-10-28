@@ -76,6 +76,24 @@ Use `unverified` for evidence that has only been discovered. Unverified evidence
 
 The first-edition references preserve the source/documentation review dated 2026-10-27. This migration did not add new render-test results or immutable upstream snapshots. The catalog stores public metadata and concise review notes, not article copies, credentials, private collections, or raw research transcripts.
 
+## Preview Media
+
+A resource may include an optional `preview` object when an upstream file or page can be linked without copying it into this repository. Omit `preview` when there is no reliable preview. Do not store the media itself.
+
+```json
+{
+  "kind": "video",
+  "url": "https://example.com/demo.mp4",
+  "license": "CC BY 4.0",
+  "attribution": "Example Author (https://example.com)",
+  "redistributable": false,
+  "source": "S-CV-001 https://example.com/demo.mp4",
+  "checked_at": "2026-10-27"
+}
+```
+
+`kind` is `video` for a direct video file, `embed` for an upstream page, or `thumb_link` for an image such as an animated GIF or WebP. `poster` is an optional HTTPS image URL or bundled `/previews/<resource-id>.webp` frame capture, and must be omitted when unknown. Bundled captures have provenance in `data/preview-posters.json`. `redistributable` is a boolean. `true` is only for a direct `video` or `thumb_link` image whose upstream terms allow redistribution; uncertain or noncommercial media stays `false`. `source` records the evidence id and upstream URL, including open questions. `checked_at` is the review date. A `preview` does not change `review.render_tested`: linking a file is not a local render test. When a new media URL is the evidence, add a reviewed `preview-media` record instead of marking an unverified link as reviewed. The website reads the same object through `web/src/preview.ts`. A missing or invalid preview stays an editorial cover and is not described as a render.
+
 ## Checks
 
 ```sh
@@ -84,7 +102,7 @@ npm run check
 
 This runs the following:
 
-- `catalog:check`: Required fields, project/resource/evidence relationships, duplicate identities, and candidate consistency.
+- `catalog:check`: Required fields, project/resource/evidence relationships, duplicate identities, candidate consistency, and optional `preview` media when a resource includes it. A missing `preview` is valid. The check does not download media.
 - `readme:check`: English names, descriptions, links, categories, and counts against the catalog; Chinese resource coverage, categories, and counts. It does not verify translation meaning.
 - `traceability:check`: Actual `js-traceability@0.1.0` reference checks, plus the catalog's stricter review-status and project-boundary rules.
 - `test`: Regression tests for matching, candidate decisions, reference validation, and README drift.

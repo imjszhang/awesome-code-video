@@ -1,0 +1,79 @@
+[
+  {
+    "resource_id": "manim-community",
+    "source_url": "https://www.manim.community/banner.png",
+    "page_url": "https://www.manim.community/",
+    "upstream_title": null,
+    "poster": "/previews/manim-community.webp",
+    "source_sha256": "ab7455c843b88371350c44a1fa7659ed3d749b7f540f64a4c88430fc702074f4",
+    "poster_sha256": "ad1a21dfe2c1d492575f737f298fcd5c5ae2d6fab12b61266a22cda90c01cbb1",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "Manim Community (https://www.manim.community/)"
+  },
+  {
+    "resource_id": "motion-canvas",
+    "source_url": "https://i.ytimg.com/vi/H5GETOP7ivs/hqdefault.jpg",
+    "page_url": "https://www.youtube.com/embed/H5GETOP7ivs",
+    "upstream_title": "Motion Canvas is now Open Source!",
+    "poster": "/previews/motion-canvas.webp",
+    "source_sha256": "29b3e837398c3c8ff7423cf93a9c078a74b332b14fb9c98d7fff25f524d17bde",
+    "poster_sha256": "0e8c180101a6afcfd1fcca9dbcf915df5ac66ea57e6cb5a0cb267190e1a4404e",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/motion-canvas)"
+  },
+  {
+    "resource_id": "motion-canvas-asset-code",
+    "source_url": "https://i.ytimg.com/vi/s1ZQnS_tOg0/hqdefault.jpg",
+    "page_url": "https://www.youtube.com/embed/s1ZQnS_tOg0",
+    "upstream_title": "Could This Asset Be Code?",
+    "poster": "/previews/motion-canvas-asset-code.webp",
+    "source_sha256": "8039bce59bc0a158f201e621b4650e6d325323747d438c9ff4e5f9e5dfc1fedd",
+    "poster_sha256": "43a0c748be2dd3c4c2a8ba6c116cc33de31d11c76bfaa69683beeab8316bef8d",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)"
+  },
+  {
+    "resource_id": "motion-canvas-smooth-parallax",
+    "source_url": "https://i.ytimg.com/vi/c_3TLN2gHow/hqdefault.jpg",
+    "page_url": "https://www.youtube.com/embed/c_3TLN2gHow",
+    "upstream_title": "Smooth Parallax - Pixel Renderer Devlog #2",
+    "poster": "/previews/motion-canvas-smooth-parallax.webp",
+    "source_sha256": "86ea1e4e51fa018fd94152be17bf88fb1ca654aa33508d880a828e25ca7bb1a3",
+    "poster_sha256": "a4a5eee08b89b82606220fd1cdae529953c1a9e918a06961085e54d1e6c9c441",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)"
+  },
+  {
+    "resource_id": "motion-canvas-deferred-lights",
+    "source_url": "https://i.ytimg.com/vi/R6vQ9VmMz2w/hqdefault.jpg",
+    "page_url": "https://www.youtube.com/embed/R6vQ9VmMz2w",
+    "upstream_title": "Deferred Lights - Pixel Renderer Devlog #1",
+    "poster": "/previews/motion-canvas-deferred-lights.webp",
+    "source_sha256": "8c77142ac56ec423b1a4ceffcac770201e2d0d6b44f432dcecead48e3e5720b2",
+    "poster_sha256": "f9471a5b4d0c313441c9e8ebba6a397e3ba098139db7703df5098aa110b5b486",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)"
+  },
+  {
+    "resource_id": "onetake",
+    "source_url": "https://onetakemotion.com/img/og.png",
+    "page_url": "https://onetakemotion.com",
+    "upstream_title": null,
+    "poster": "/previews/onetake.webp",
+    "source_sha256": "afd9cb36939db3eebc27d30eebc061d2bb77cfc29de0d9a8ba105bfbcef75702",
+    "poster_sha256": "85231ce3bb5f82a6ff05a06279d84c5f064ce172cc7c0921cc70c699024e4a81",
+    "license": "PolyForm-NC",
+    "attribution": "Patrick / feitangyuan (https://github.com/feitangyuan/onetake)"
+  },
+  {
+    "resource_id": "motion-canvas-anniversary",
+    "source_url": "https://i.ytimg.com/vi/4kjEwvrDKlg/hqdefault.jpg",
+    "page_url": "https://www.youtube.com/embed/4kjEwvrDKlg",
+    "upstream_title": "One Year of Motion Canvas",
+    "poster": "/previews/motion-canvas-anniversary.webp",
+    "source_sha256": "0f876345bdab784bb13e61807283a57a7f233ee08f3b62311a02849d6b9363c3",
+    "poster_sha256": "433c67fff3c1e05fd8848dda859d48a9a79921b555a76aadf3731bab4fec9feb",
+    "license": "\u5f85\u786e\u8ba4",
+    "attribution": "Motion Canvas / aarthificial (https://github.com/motion-canvas/examples)"
+  }
+]
