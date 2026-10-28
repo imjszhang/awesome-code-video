@@ -5029,5 +5029,272 @@
       "checked_at": "2026-10-28",
       "poster": "/previews/remotion-templates-explainer-diagrams-before-after.webp"
     }
+  },
+  {
+    "id": "html-video",
+    "project_id": "html-video",
+    "name": "html-video",
+    "kind": "framework",
+    "url": "https://github.com/nexu-io/html-video",
+    "section": "Frameworks and Renderers",
+    "description": "HTML-to-local-MP4 layer for coding agents, with a template gallery and one render-adapter interface. The shipped engine is HyperFrames (headless Chromium and FFmpeg); Remotion, Motion Canvas, Revideo, and Manim adapters are documented as roadmap only and do not render here. The repository is Apache-2.0 and documents 21 templates; this catalog adds the framework entry and six NOTICE-marked originals, and leaves out heygen-com/hyperframes example forks. The preview is the repository hero PNG (thumb link), hotlinked under Apache-2.0. Source-reviewed on 2026-10-28; not render-tested.",
+    "evidence_ids": [
+      "S-CV-122",
+      "S-CV-126"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Only the HyperFrames engine is described as shipped.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/nexu-io/html-video/main/docs/assets/hero.png",
+      "license": "Apache-2.0",
+      "attribution": "nexu-io/html-video",
+      "redistributable": true,
+      "source": "S-CV-126 https://raw.githubusercontent.com/nexu-io/html-video/main/docs/assets/hero.png. HEAD on 2026-10-28: 200 image/png, Content-Length 1401732. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/html-video.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-glitch-title",
+    "project_id": "html-video",
+    "name": "Glitch Title Frame",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-glitch-title",
+    "section": "Film and Scene Templates",
+    "description": "HyperFrames title card with RGB shift, scanlines, and chromatic offset. templates/NOTICE.md lists it as an original Apache-2.0 html-video template, separate from other glitch snippets already in this list. Reuse templates/frame-glitch-title and replace the title and subtitle. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 3 to 8 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-glitch-title/preview.mp4",
+      "license": "Apache-2.0",
+      "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)",
+      "redistributable": true,
+      "source": "S-CV-125 https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-glitch-title/preview.mp4. HEAD on 2026-10-28: 200 video/mp4, Content-Length 278102, ftyp isom. Apache-2.0 Open Design mirror of an html-video original. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/html-video-frame-glitch-title.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-data-chart-nyt",
+    "project_id": "html-video",
+    "name": "NYT-Style Data Chart Frame",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-data-chart-nyt",
+    "section": "Film and Scene Templates",
+    "description": "Editorial animated chart with serif headlines and a traced series, written as an original Apache-2.0 html-video template. It is inspired by newspaper data graphics and is not a fork of the HyperFrames data-chart block already listed. Reuse templates/frame-data-chart-nyt and replace the headline and data. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 5 to 20 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-data-chart-nyt/preview.mp4",
+      "license": "Apache-2.0",
+      "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)",
+      "redistributable": true,
+      "source": "S-CV-125 https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-data-chart-nyt/preview.mp4. HEAD on 2026-10-28: 200 video/mp4, Content-Length 171660, ftyp isom. Apache-2.0 Open Design mirror of an html-video original. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/html-video-frame-data-chart-nyt.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-light-leak-cinema",
+    "project_id": "html-video",
+    "name": "Light-Leak Cinematic Frame",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-light-leak-cinema",
+    "section": "Film and Scene Templates",
+    "description": "Cinematic card with film grain and light-leak overlays. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/frame-light-leak-cinema and replace the headline. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 4 to 10 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-light-leak-cinema/preview.mp4",
+      "license": "Apache-2.0",
+      "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)",
+      "redistributable": true,
+      "source": "S-CV-125 https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-light-leak-cinema/preview.mp4. HEAD on 2026-10-28: 200 video/mp4, Content-Length 156079, ftyp isom. Apache-2.0 Open Design mirror of an html-video original. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/html-video-frame-light-leak-cinema.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-liquid-bg-hero",
+    "project_id": "html-video",
+    "name": "Liquid Background Hero",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-liquid-bg-hero",
+    "section": "Film and Scene Templates",
+    "description": "Hero card over a moving liquid gradient, with a centered headline and optional call to action. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/frame-liquid-bg-hero and replace the copy. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 4 to 12 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-liquid-bg-hero/preview.mp4",
+      "license": "Apache-2.0",
+      "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)",
+      "redistributable": true,
+      "source": "S-CV-125 https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-liquid-bg-hero/preview.mp4. HEAD on 2026-10-28: 200 video/mp4, Content-Length 689483, ftyp isom. Apache-2.0 Open Design mirror of an html-video original. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/html-video-frame-liquid-bg-hero.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-logo-outro",
+    "project_id": "html-video",
+    "name": "Logo Outro Frame",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-logo-outro",
+    "section": "Film and Scene Templates",
+    "description": "End card that assembles a logo treatment, adds a glow, and reveals a brand line. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/frame-logo-outro and replace the brand name and tagline. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 3 to 10 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-logo-outro/preview.mp4",
+      "license": "Apache-2.0",
+      "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)",
+      "redistributable": true,
+      "source": "S-CV-125 https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/frame-logo-outro/preview.mp4. HEAD on 2026-10-28: 200 video/mp4, Content-Length 73229, ftyp isom. Apache-2.0 Open Design mirror of an html-video original. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/html-video-frame-logo-outro.webp"
+    }
+  },
+  {
+    "id": "html-video-vfx-text-cursor",
+    "project_id": "html-video",
+    "name": "VFX Text Cursor",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/vfx-text-cursor",
+    "section": "Film and Scene Templates",
+    "description": "Typewriter card with a glowing cursor and light streaks. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/vfx-text-cursor and replace the typed line. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 3 to 10 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/vfx-text-cursor/preview.mp4",
+      "license": "Apache-2.0",
+      "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)",
+      "redistributable": true,
+      "source": "S-CV-125 https://cdn.jsdelivr.net/gh/nexu-io/open-design@main/plugins/_official/video-templates/vfx-text-cursor/preview.mp4. HEAD on 2026-10-28: 200 video/mp4, Content-Length 167816, ftyp isom. Apache-2.0 Open Design mirror of an html-video original. Hotlink only; not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/html-video-vfx-text-cursor.webp"
+    }
+  },
+  {
+    "id": "od-8-bit-orbit-video-template",
+    "project_id": "open-design",
+    "name": "8-bit Orbit HyperFrames Video Template",
+    "kind": "film",
+    "url": "https://github.com/nexu-io/open-design/tree/main/skills/8-bit-orbit-video-template",
+    "section": "Film and Scene Templates",
+    "description": "HyperFrames skill for a retro pixel, multi-scene HTML composition. The documented workflow keeps three short scenes, each held within 3 seconds, in assets/template.html. The repository is Apache-2.0. The catalog preview is only the in-repo example.html page (embed). That folder commits no MP4; example.html references a hosted showcase that was HEAD-checked and was not used as a playable catalog preview and was not render-tested. Named fonts are not vendored in the skill.",
+    "evidence_ids": [
+      "S-CV-127",
+      "S-CV-128"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Catalog preview is the HTML example page. The hosted showcase MP4 is outside the git tree and is not a playable catalog preview.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://github.com/nexu-io/open-design/blob/main/skills/8-bit-orbit-video-template/example.html",
+      "license": "待确认",
+      "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-CV-128 https://github.com/nexu-io/open-design/blob/main/skills/8-bit-orbit-video-template/example.html. In-repo HTML page only. No committed MP4. Hosted showcase HEAD 200 was not adopted as a video preview. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/od-8-bit-orbit-video-template.webp"
+    }
+  },
+  {
+    "id": "od-weread-year-in-review-video-template",
+    "project_id": "open-design",
+    "name": "WeRead Year-in-Review Video Template",
+    "kind": "film",
+    "url": "https://github.com/nexu-io/open-design/tree/main/skills/weread-year-in-review-video-template",
+    "section": "Film and Scene Templates",
+    "description": "Vertical 9:16 HyperFrames skill for an annual reading report (template viewport 1080 by 1920; the skill text describes a 12-scene timeline). The look is inspired by reading-app year-in-review screens. It is not a WeChat Reading or WeRead official template and does not imply a partnership. Reuse skills/weread-year-in-review-video-template. The repository LICENSE is Apache-2.0; the skill does not vendor font files (it names system CJK faces such as Songti SC and PingFang SC) and ships no separate asset license, so those terms stay unknown. The catalog preview is only example.html (embed). The skill folder commits no MP4. Source-reviewed on 2026-10-28; not render-tested.",
+    "evidence_ids": [
+      "S-CV-127",
+      "S-CV-129"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-28",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. No WeChat Reading or WeRead partnership is stated. Font files are not vendored and their terms are unknown.",
+    "preview": {
+      "kind": "embed",
+      "url": "https://github.com/nexu-io/open-design/blob/main/skills/weread-year-in-review-video-template/example.html",
+      "license": "待确认",
+      "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)",
+      "redistributable": false,
+      "source": "S-CV-129 https://github.com/nexu-io/open-design/blob/main/skills/weread-year-in-review-video-template/example.html. In-repo HTML page only. No committed MP4. Hosted showcase HEAD 200 was not adopted as a video preview. Not a local render test.",
+      "checked_at": "2026-10-28",
+      "poster": "/previews/od-weread-year-in-review-video-template.webp"
+    }
   }
 ]

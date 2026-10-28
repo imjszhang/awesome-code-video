@@ -8,7 +8,7 @@
 
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
-Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 161 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
+Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 169 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
 ## Contents
 
@@ -141,6 +141,21 @@ Complete projects and self-contained scenes with editable source.
 - [Real UI Newspaper 1969](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L28) - Homepage showcase card film (real-ui newspaper 1969). HeyGen CDN card/ MP4. redistributable false; hotlink only.
 - [VFX Background Removal Launch](https://github.com/heygen-com/hyperframes/blob/main/docs/snippets/film-rows.jsx#L33) - Homepage showcase card film (VFX background-removal launch). HeyGen CDN card/ MP4. redistributable false; hotlink only.
 
+
+Original html-video frames below are Apache-2.0 templates from nexu-io. HeyGen HyperFrames example forks in that repository are omitted. Playable previews are hotlinked from the Open Design mirror and were not render-tested here.
+
+- [Glitch Title Frame](https://github.com/nexu-io/html-video/tree/main/templates/frame-glitch-title) - HyperFrames title card with RGB shift, scanlines, and chromatic offset. templates/NOTICE.md lists it as an original Apache-2.0 html-video template, separate from other glitch snippets already in this list. Reuse templates/frame-glitch-title and replace the title and subtitle. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 3 to 8 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.
+- [NYT-Style Data Chart Frame](https://github.com/nexu-io/html-video/tree/main/templates/frame-data-chart-nyt) - Editorial animated chart with serif headlines and a traced series, written as an original Apache-2.0 html-video template. It is inspired by newspaper data graphics and is not a fork of the HyperFrames data-chart block already listed. Reuse templates/frame-data-chart-nyt and replace the headline and data. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 5 to 20 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.
+- [Light-Leak Cinematic Frame](https://github.com/nexu-io/html-video/tree/main/templates/frame-light-leak-cinema) - Cinematic card with film grain and light-leak overlays. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/frame-light-leak-cinema and replace the headline. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 4 to 10 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.
+- [Liquid Background Hero](https://github.com/nexu-io/html-video/tree/main/templates/frame-liquid-bg-hero) - Hero card over a moving liquid gradient, with a centered headline and optional call to action. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/frame-liquid-bg-hero and replace the copy. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 4 to 12 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.
+- [Logo Outro Frame](https://github.com/nexu-io/html-video/tree/main/templates/frame-logo-outro) - End card that assembles a logo treatment, adds a glow, and reveals a brand line. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/frame-logo-outro and replace the brand name and tagline. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 3 to 10 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.
+- [VFX Text Cursor](https://github.com/nexu-io/html-video/tree/main/templates/vfx-text-cursor) - Typewriter card with a glowing cursor and light streaks. templates/NOTICE.md lists it as an original Apache-2.0 html-video template. Reuse templates/vfx-text-cursor and replace the typed line. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 3 to 10 seconds. The playable preview is the Open Design mirror MP4 on jsDelivr, hotlinked under Apache-2.0; HEAD-checked on 2026-10-28 and not render-tested locally.
+
+These Open Design skills ship HTML compositions. Their catalog previews are example.html pages, not video files.
+
+- [8-bit Orbit HyperFrames Video Template](https://github.com/nexu-io/open-design/tree/main/skills/8-bit-orbit-video-template) - HyperFrames skill for a retro pixel, multi-scene HTML composition. The documented workflow keeps three short scenes, each held within 3 seconds, in assets/template.html. The repository is Apache-2.0. The catalog preview is only the in-repo example.html page (embed). That folder commits no MP4; example.html references a hosted showcase that was HEAD-checked and was not used as a playable catalog preview and was not render-tested. Named fonts are not vendored in the skill.
+- [WeRead Year-in-Review Video Template](https://github.com/nexu-io/open-design/tree/main/skills/weread-year-in-review-video-template) - Vertical 9:16 HyperFrames skill for an annual reading report (template viewport 1080 by 1920; the skill text describes a 12-scene timeline). The look is inspired by reading-app year-in-review screens. It is not a WeChat Reading or WeRead official template and does not imply a partnership. Reuse skills/weread-year-in-review-video-template. The repository LICENSE is Apache-2.0; the skill does not vendor font files (it names system CJK faces such as Songti SC and PingFang SC) and ships no separate asset license, so those terms stay unknown. The catalog preview is only example.html (embed). The skill folder commits no MP4. Source-reviewed on 2026-10-28; not render-tested.
+
 See the [practical reuse guide](docs/reuse-guide.md) for what to replace and where the adaptation work sits.
 
 ## Map Animation Presets
@@ -236,12 +251,13 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 
 ## Frameworks and Renderers
 
-These are foundations for composing or rendering your own work. They are not included in the 161 reusable examples above.
+These are foundations for composing or rendering your own work. They are not included in the 169 reusable examples above.
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).
 - [Motion Canvas](https://motioncanvas.io/) - TypeScript animation with a visual preview workflow for explanatory videos and synchronized motion.
 - [Manim Community](https://www.manim.community/) - Python animation for mathematical diagrams, scientific explanations, and technical teaching.
+- [html-video](https://github.com/nexu-io/html-video) - HTML-to-local-MP4 layer for coding agents, with a template gallery and one render-adapter interface. The shipped engine is HyperFrames (headless Chromium and FFmpeg); Remotion, Motion Canvas, Revideo, and Manim adapters are documented as roadmap only and do not render here. The repository is Apache-2.0 and documents 21 templates; this catalog adds the framework entry and six NOTICE-marked originals, and leaves out heygen-com/hyperframes example forks. The preview is the repository hero PNG (thumb link), hotlinked under Apache-2.0. Source-reviewed on 2026-10-28; not render-tested.
 
 ## Motion Design Tools
 

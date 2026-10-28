@@ -1,5 +1,16 @@
 [
   {
+    "resource_id": "html-video",
+    "source_url": "https://raw.githubusercontent.com/nexu-io/html-video/main/docs/assets/hero.png",
+    "poster": "/previews/html-video.webp",
+    "source_sha256": "99330d43ec528e0ead0ab532a04c2a19a1fd22b57bddbc3cfe3f079064240995",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "189af8d105f99d78ae17635f4ec448f328890d4f86f04e0a62c19dcafee8a099",
+    "license": "Apache-2.0",
+    "attribution": "nexu-io/html-video"
+  },
+  {
     "resource_id": "map-motion-flight-routes",
     "source_url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/showcase_flight_region.webp",
     "poster": "/previews/map-motion-flight-routes.webp",

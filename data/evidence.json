@@ -1329,5 +1329,93 @@
     "reliability": "medium",
     "checked_at": "2026-10-28",
     "notes": "Batch I adds three unused families: chart-animations-box-plot.mp4 (CL=24985), editorial-headlines-breaking-strip.mp4 (CL=45768), explainer-diagrams-before-after-system.mp4 (CL=25773). All Range-verified ftyp isom on 2026-10-28 via raw.githubusercontent.com. No root LICENSE (S-CV-117) — redistributable false. Muted short loops ≠ finished films. Hotlink only."
+  },
+  {
+    "id": "S-CV-122",
+    "project_id": "html-video",
+    "title": "html-video — README engine status and Apache-2.0 LICENSE",
+    "url": "https://github.com/nexu-io/html-video/blob/main/README.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Source-reviewed on 2026-10-28. README states the adapter interface exists and the HyperFrames engine is the one that renders (headless Chromium plus FFmpeg/libx264). Remotion, Motion Canvas / Revideo, and Manim are roadmap; those adapters are not built. GitHub API license SPDX Apache-2.0 (repository id 1250822765). LICENSE file is Apache License 2.0. No local render (render_tested=false)."
+  },
+  {
+    "id": "S-CV-123",
+    "project_id": "html-video",
+    "title": "html-video — templates/NOTICE.md originals versus heygen forks",
+    "url": "https://github.com/nexu-io/html-video/blob/main/templates/NOTICE.md",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Source-reviewed templates/NOTICE.md on 2026-10-28. Original Apache-2.0 templates: frame-data-chart-nyt, frame-glitch-title, frame-light-leak-cinema, frame-liquid-bg-hero, frame-logo-outro, vfx-text-cursor. Direct forks of heygen-com/hyperframes registry/examples (warm-grain, swiss-grid, kinetic-type, nyt-graph, decision-tree, play-mode, product-promo, vignelli) are named in NOTICE and are not added in this batch. No local render."
+  },
+  {
+    "id": "S-CV-124",
+    "project_id": "html-video",
+    "title": "html-video — six original template.html-video.yaml specs",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Source-reviewed the six original template.html-video.yaml files on 2026-10-28. Each sets engine hyperframes, license.spdx Apache-2.0, author nexu-io. Spec defaults are 1920x1080 at 60 fps. Duration ranges: glitch 3-8s, data-chart-nyt 5-20s, light-leak 4-10s, liquid-bg 4-12s, logo-outro 3-10s, vfx-text-cursor 3-10s. frame-data-chart-nyt is an editorial chart; NOTICE lists it as original, so it is not treated as a fork of heygen-com/hyperframes registry/blocks/data-chart. vfx-text-cursor source/index.html styles a blinking cursor with a glow and light-streak rules. No local render."
+  },
+  {
+    "id": "S-CV-125",
+    "project_id": "html-video",
+    "title": "html-video originals — Open Design mirror preview.mp4 files",
+    "url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/video-templates",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Preview MP4s HEAD-checked on 2026-10-28 via jsDelivr (200 video/mp4, ftyp isom). Not copied into this repository and not render-tested. Content-Length: frame-glitch-title 278102, frame-data-chart-nyt 171660, frame-light-leak-cinema 156079, frame-liquid-bg-hero 689483, frame-logo-outro 73229, vfx-text-cursor 167816. Files live under nexu-io/open-design plugins/_official/video-templates and mirror the html-video originals. redistributable true under Apache-2.0 with attribution to nexu-io / Open Design."
+  },
+  {
+    "id": "S-CV-126",
+    "project_id": "html-video",
+    "title": "html-video — docs/assets/hero.png",
+    "url": "https://raw.githubusercontent.com/nexu-io/html-video/main/docs/assets/hero.png",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "HEAD on 2026-10-28: 200 image/png, Content-Length 1401732. The html-video tree reviewed here ships PNG showcase images; template MP4s are on the Open Design mirror, not in this file. Apache-2.0 repository media. Not a local render."
+  },
+  {
+    "id": "S-CV-127",
+    "project_id": "open-design",
+    "title": "Open Design — repository LICENSE Apache-2.0",
+    "url": "https://github.com/nexu-io/open-design/blob/main/LICENSE",
+    "type": "official-source",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "LICENSE file is Apache License 2.0. GitHub API reports SPDX Apache-2.0, repository id 1223170290, default branch main, checked 2026-10-28. The repository license does not by itself clear hosted showcase binaries or the system fonts named by individual skills."
+  },
+  {
+    "id": "S-CV-128",
+    "project_id": "open-design",
+    "title": "8-bit Orbit video template — SKILL.md and example.html",
+    "url": "https://github.com/nexu-io/open-design/blob/main/skills/8-bit-orbit-video-template/SKILL.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Source-reviewed SKILL.md and example.html on 2026-10-28. HyperFrames HTML template with assets/template.html, example.html, and references/. No MP4 is committed in the skill directory. example.html embeds https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4 (HEAD 200 video/mp4, Content-Length 1745845). That remote file is not the catalog preview; the preview is an embed of example.html. Not render-tested. Named fonts are not vendored. render_tested=false."
+  },
+  {
+    "id": "S-CV-129",
+    "project_id": "open-design",
+    "title": "WeRead year-in-review video template — SKILL.md and example.html",
+    "url": "https://github.com/nexu-io/open-design/blob/main/skills/weread-year-in-review-video-template/SKILL.md",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-28",
+    "notes": "Source-reviewed SKILL.md, example.html, and the start of assets/template.html on 2026-10-28. SKILL.md describes a WeRead-inspired 9:16 annual reading report and a 12-scene timeline. template.html sets a 1080 by 1920 viewport and names system CJK font stacks (Songti SC, Noto Serif CJK SC, Source Han Serif SC, PingFang SC, Noto Sans CJK SC, Microsoft YaHei) without vendoring font files or a separate asset license. No WeChat Reading or WeRead partnership is stated. No MP4 is committed in the skill directory. example.html embeds https://repo-assets.open-design.ai/resources/videos/skills/weread-year-in-review-video-template/default-showcase.mp4 (HEAD 200 video/mp4, Content-Length 6075887). Catalog preview remains the example.html embed. Not render-tested."
   }
 ]
