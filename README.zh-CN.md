@@ -4,6 +4,10 @@
 
 [English](README.md) · 简体中文
 
+**[访问 Awesome Code Video 官网 →](https://awesomecodevideo.com/)** · [搜索资源库](https://awesomecodevideo.com/library/) · [按使用场景浏览](https://awesomecodevideo.com/collections/)
+
+在网站查看视觉预览，按框架和资源类型筛选，并获取源码链接与复用说明。
+
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
 英文版是主版本。本版覆盖首批 169 个可复用单元：107 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。

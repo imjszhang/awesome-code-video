@@ -6,6 +6,10 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
+**[Explore Awesome Code Video →](https://awesomecodevideo.com/)** · [Search the resource library](https://awesomecodevideo.com/library/) · [Browse by use case](https://awesomecodevideo.com/collections/)
+
+Browse visual previews, filter resources by framework and type, and open source links with practical reuse notes on the website.
+
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
 Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 169 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
