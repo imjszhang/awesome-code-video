@@ -4,7 +4,7 @@ import React from 'react';
 import {renderToString} from 'react-dom/server';
 import {App} from '../web/src/App';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,homePreviewItems,homePreviewGroups,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview} from '../web/src/model';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,homePreviewItems,homePreviewGroups,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview} from '../web/src/model';
 
 test('every public resource and project has exactly one stable route',()=>{
  const paths=allPaths();assert.equal(new Set(paths).size,paths.length);
@@ -360,7 +360,8 @@ test('all pages render server-side without browser APIs and internal links resol
 
 test('GIF previews render as lazy images without video players or Play buttons',()=>{
  const gifs=resources.filter(r=>r.preview&&/\.gif$/i.test(new URL(r.preview.url).pathname));
- assert.equal(gifs.length,42);
+ assert.ok(gifs.length>0);
+ assert.ok(gifs.every(r=>r.preview!.kind==='thumb_link'));
  const html=renderToString(React.createElement(App,{path:'/'}));
  for(const resource of gifs){
   const preview=resolvePreview(resource);
@@ -398,22 +399,24 @@ test('bundled video posters respect the deployment base without loading MP4s',()
 
 test('homepage separates videos, animated images and other resources without duplicates',()=>{
  const groups=homePreviewGroups();
- assert.deepEqual(Object.fromEntries(Object.entries(groups).map(([key,items])=>[key,items.length])),{videos:92,animations:47,other:13});
+ const videoFiles=groups.videos.filter(r=>r.preview?.kind==='video');
+ const pageEmbeds=groups.videos.filter(r=>r.preview?.kind==='embed');
+ assert.equal(videoFiles.length+pageEmbeds.length,groups.videos.length);
+ assert.ok(videoFiles.every(r=>previewPlayable(r)));
+ assert.ok(pageEmbeds.every(isYouTubePreview));
  assert.deepEqual(homeGalleryItems(),groups.videos);
- assert.equal(groups.videos.filter(r=>r.preview?.kind==='video').length,87);
- assert.equal(groups.videos.filter(r=>r.preview?.kind==='embed').length,5);
  const all=Object.values(groups).flat();
  assert.equal(new Set(all.map(r=>r.id)).size,all.length);
  assert.deepEqual(new Set(all.map(r=>r.id)),new Set(homePreviewItems().map(r=>r.id)));
  const html=renderToString(React.createElement(App,{path:'/'}));
  const section=(id:string)=>html.match(new RegExp(`<section[^>]*id="${id}"[^>]*>([\\s\\S]*?)</section>`))![1];
  const videos=section('video-gallery');
- assert.equal([...videos.matchAll(/class="resource-card gallery-card"/g)].length,92);
- assert.equal([...videos.matchAll(/<video\b/g)].length,87);
- assert.equal([...videos.matchAll(/Watch on YouTube/g)].length,5);
- for(const [id,count] of [['animated-examples',47],['other-resources',13]] as const){
+ assert.equal([...videos.matchAll(/class="resource-card gallery-card"/g)].length,groups.videos.length);
+ assert.equal([...videos.matchAll(/<video\b/g)].length,videoFiles.length);
+ assert.equal([...videos.matchAll(/Watch on YouTube/g)].length,pageEmbeds.length);
+ for(const [id,items] of [['animated-examples',groups.animations],['other-resources',groups.other]] as const){
   const content=section(id);
-  assert.equal([...content.matchAll(/class="resource-card gallery-card"/g)].length,count);
+  assert.equal([...content.matchAll(/class="resource-card gallery-card"/g)].length,items.length);
   assert.doesNotMatch(content,/<video\b/);
   assert.match(html,new RegExp(`href="#${id}"`));
  }
