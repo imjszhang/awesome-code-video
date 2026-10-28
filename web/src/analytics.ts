@@ -54,6 +54,7 @@ function safeReferrer(value:string,origin:string):string {
 }
 const campaignSources = new Set(['google','bing','duckduckgo','yahoo','baidu','yandex','brave','github','x','twitter','linkedin','reddit','youtube','newsletter','email','facebook','instagram','tiktok','threads','bluesky','mastodon','producthunt','hackernews','devto','hashnode','chatgpt','perplexity','gemini','claude']);
 const campaignMedia = new Set(['organic','referral','social','organic_social','email','newsletter','cpc','ppc','paid','paid_social','display','affiliate']);
+const campaignFields = ['campaign_source','campaign_medium','campaign_name'] as const;
 
 /** Only catalog routes and bounded marketing labels can leave the browser. Never send q or a 404 path. */
 export function measurementContext(href:string,referrer:string,origin=defaultOrigin):Record<string,string> {
@@ -181,6 +182,7 @@ export function createAnalytics(environment:AnalyticsEnvironment,runtime:Analyti
   const id=environment.measurementId||'';
   let initialized=false,tagStarted=false,stopped=false,pageViewSent=false,consent:AnalyticsConsent='unknown';
   const listeners=new Set<()=>void>();
+  const landingCampaign:Record<string,string>={};
   function availability():AnalyticsAvailability{
     if(!runtime)return {available:false,reason:'unavailable'};
     if(environment.enabled!=='true'||environment.production!==true)return {available:false,reason:'disabled'};
@@ -194,7 +196,13 @@ export function createAnalytics(environment:AnalyticsEnvironment,runtime:Analyti
     catch{return 'unknown';}
   }
   function notify(){for(const listener of listeners){try{listener();}catch{/* An observer must not break privacy choices. */}}}
-  function context(){return measurementContext(runtime!.href(),runtime!.referrer(),origin!);}
+  function context(){
+    const page=measurementContext(runtime!.href(),runtime!.referrer(),origin!);
+    // Search may replace the query before consent. Keep only the vetted landing campaign
+    // in document memory; page location and referrer still describe the current page.
+    for(const key of campaignFields)delete page[key];
+    return {...page,...landingCampaign};
+  }
   function start(){
     if(!runtime||consent!=='granted'||!availability().available||tagStarted||stopped)return;
     try{
@@ -232,6 +240,10 @@ export function createAnalytics(environment:AnalyticsEnvironment,runtime:Analyti
   function initialize(activate=true){
     if(initialized)return;
     initialized=true;
+    if(runtime&&origin&&availability().available)try{
+      const landing=measurementContext(runtime.href(),'',origin);
+      for(const key of campaignFields)if(landing[key])landingCampaign[key]=landing[key];
+    }catch{/* Unavailable context must not interfere with consent or the website. */}
     consent=readConsent();
     try{runtime?.listenForConsent(()=>{
         const next=readConsent();

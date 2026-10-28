@@ -106,6 +106,35 @@ test('only bounded campaign attributes survive and search terms never do',()=>{
   assert.equal(invalid.campaign_source,undefined);assert.equal(invalid.campaign_medium,undefined);assert.equal(invalid.campaign_name,undefined);
 });
 
+test('consent after a search rewrite retains only the vetted landing campaign without replaying actions',()=>{
+  const {analytics,state,events}=fixture();
+  state.href='https://awesomecodevideo.com/library/?utm_source=github&utm_medium=referral&utm_campaign=seo-qa&utm_term=private@example.com&q=private@example.com#private';
+  analytics.initializeAnalytics();
+  assert.equal(analytics.trackEvent('search_results_view',{query_length:19,result_count:0}),false);
+  assert.deepEqual(state.commands,[]);
+  assert.deepEqual(state.scripts,[]);
+  assert.equal(state.stored,null,'Landing attribution is not persisted in browser storage');
+  state.href='https://awesomecodevideo.com/library/?q=another-private@example.com';
+  analytics.setAnalyticsConsent('granted');
+  const page=events('page_view')[0][2] as Record<string,unknown>;
+  assert.equal(page.campaign_source,'github');
+  assert.equal(page.campaign_medium,'referral');
+  assert.equal(page.campaign_name,'seo-qa');
+  assert.equal(page.page_location,'https://awesomecodevideo.com/library/');
+  assert.equal(page.page_type,'library');
+  assert.equal(events('search_results_view').length,0,'The earlier search is not replayed');
+  state.href='https://awesomecodevideo.com/?utm_source=bing&utm_medium=organic&utm_campaign=later#private';
+  analytics.trackEvent('open_resource',{resource_id:resources[0].id});
+  const action=events('open_resource')[0][2] as Record<string,unknown>;
+  assert.equal(action.page_location,'https://awesomecodevideo.com/','Current page context is not frozen with attribution');
+  assert.equal(action.page_type,'home');
+  assert.equal(action.campaign_source,'github');
+  assert.equal(action.campaign_medium,'referral');
+  assert.equal(action.campaign_name,'seo-qa');
+  assert.equal(events('page_view').length,1);
+  assert.doesNotMatch(JSON.stringify(state.commands),/private|utm_term|\?q=|#private/);
+});
+
 test('every custom event uses sanitized context and runtime catalog allowlists',()=>{
   const {analytics,state,events}=fixture(production,'granted');
   state.href='https://awesomecodevideo.com/library/?q=private@example.com';
