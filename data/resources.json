@@ -3324,11 +3324,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-bounce-drop/LogoBounceDrop.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that drops a logo in and settles it with a bounce. The README documents it as 1920 by 1080 and 3 seconds, and LogoBounceDrop.tsx sets 90 frames at 30 fps. Reuse LogoBounceDrop.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that drops a logo in and settles it with a bounce. The README documents it as 1920 by 1080 and 3 seconds, and LogoBounceDrop.tsx sets 90 frames at 30 fps. Reuse LogoBounceDrop.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3337,13 +3338,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-bounce-drop.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-bounce-drop.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-bounce-drop.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-bounce-drop.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. HEAD on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=388955. Range bytes 0-63 returned HTTP 206 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/logo-bounce-drop.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-logo-bounce-drop.webp"
     }
   },
@@ -3385,11 +3386,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/transition-circle-wipe/TransitionCircleWipe.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that expands a circle from the center to replace the scene. The README documents it as 1920 by 1080 and 3 seconds, and TransitionCircleWipe.tsx sets 90 frames at 30 fps. Reuse TransitionCircleWipe.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that expands a circle from the center to replace the scene. The README documents it as 1920 by 1080 and 3 seconds, and TransitionCircleWipe.tsx sets 90 frames at 30 fps. Reuse TransitionCircleWipe.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3398,13 +3400,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/transition-circle-wipe.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/transition-circle-wipe.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/transition-circle-wipe.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/transition-circle-wipe.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. HEAD on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=284536. Range bytes 0-63 returned HTTP 206 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/transition-circle-wipe.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-transition-circle-wipe.webp"
     }
   },
@@ -3415,11 +3417,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/ink-spread-transition/InkSpreadTransition.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that spreads ink across the frame into the next scene. The README documents it as 1920 by 1080 and 4 seconds, and InkSpreadTransition.tsx sets 120 frames at 30 fps. Reuse InkSpreadTransition.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that spreads ink across the frame into the next scene. The README documents it as 1920 by 1080 and 4 seconds, and InkSpreadTransition.tsx sets 120 frames at 30 fps. Reuse InkSpreadTransition.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3428,13 +3431,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/ink-spread-transition.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/ink-spread-transition.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/ink-spread-transition.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/ink-spread-transition.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. HEAD on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=343251. Range bytes 0-63 returned HTTP 206 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/ink-spread-transition.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-ink-spread-transition.webp"
     }
   },
@@ -3476,11 +3479,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/text-mask-reveal/TextMaskReveal.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that slides text up out of a mask. The README documents it as 1920 by 1080 and 3.67 seconds, and TextMaskReveal.tsx sets 110 frames at 30 fps. Reuse TextMaskReveal.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that slides text up out of a mask. The README documents it as 1920 by 1080 and 3.67 seconds, and TextMaskReveal.tsx sets 110 frames at 30 fps. Reuse TextMaskReveal.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3489,13 +3493,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/text-mask-reveal.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/text-mask-reveal.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/text-mask-reveal.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/text-mask-reveal.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. HEAD on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=238227. Range bytes 0-63 returned HTTP 206 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/text-mask-reveal.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-text-mask-reveal.webp"
     }
   },
@@ -5037,7 +5041,7 @@
     "kind": "framework",
     "url": "https://github.com/nexu-io/html-video",
     "section": "Frameworks and Renderers",
-    "description": "HTML-to-local-MP4 layer for coding agents, with a template gallery and one render-adapter interface. The shipped engine is HyperFrames (headless Chromium and FFmpeg); Remotion, Motion Canvas, Revideo, and Manim adapters are documented as roadmap only and do not render here. The repository is Apache-2.0 and documents 21 templates; this catalog adds the framework entry and six NOTICE-marked originals, and leaves out heygen-com/hyperframes example forks. The preview is the repository hero PNG (thumb link), hotlinked under Apache-2.0. Source-reviewed on 2026-10-28; not render-tested.",
+    "description": "HTML-to-local-MP4 layer for coding agents, with a template gallery and one render-adapter interface. The shipped engine is HyperFrames (headless Chromium and FFmpeg); Remotion, Motion Canvas, Revideo, and Manim adapters are documented as roadmap only and do not render here. The repository is Apache-2.0 and documents 21 templates; this catalog adds the framework entry, six NOTICE-marked originals, three NOTICE-named HyperFrames forks (Swiss Grid, Kinetic Type, and Warm Grain), and Bold Poster, which is Apache-2.0 with a MIT frontend-slides provenance rather than a HyperFrames fork. Other HyperFrames example forks stay out. The preview is the repository hero PNG (thumb link), hotlinked under Apache-2.0. Source-reviewed on 2026-10-28; not render-tested.",
     "evidence_ids": [
       "S-CV-122",
       "S-CV-126"
@@ -5886,6 +5890,272 @@
       "source": "S-CV-157 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cinematic-credits-end-credits.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=14819, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop is not a full film; not a local render test.",
       "checked_at": "2026-10-29",
       "poster": "/previews/remotion-templates-cinematic-credits-end.webp"
+    }
+  },
+  {
+    "id": "swiftclip-product-launch",
+    "project_id": "swiftclip",
+    "name": "Product Launch",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/ProductLaunch.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion scene that fades in a headline with an icon, then a blue subheadline and a waitlist chip. Root.tsx registers ProductLaunch at 1920 by 1080, 30 fps, and 450 frames (15 seconds). Reuse remotion/ProductLaunch.tsx and its headline props, and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene. Remotion's runtime license is separate. Source-reviewed on 2026-10-29; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-launch.jpg",
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "redistributable": true,
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-launch.jpg. HEAD on 2026-10-29: HTTP 200 image/jpeg, Content-Length 46320. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/swiftclip-product-launch.webp"
+    }
+  },
+  {
+    "id": "swiftclip-code-reveal",
+    "project_id": "swiftclip",
+    "name": "Code Reveal",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/CodeReveal.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion scene that slides a frosted code card into view and shows a short syntax-colored snippet. Root.tsx registers CodeReveal at 1920 by 1080, 30 fps, and 300 frames (10 seconds). Reuse remotion/CodeReveal.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene. Remotion's runtime license is separate. Source-reviewed on 2026-10-29; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/code-reveal.jpg",
+      "license": "MIT",
+      "attribution": "SwiftClip contributors",
+      "redistributable": true,
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/code-reveal.jpg. HEAD on 2026-10-29: HTTP 200 image/jpeg, Content-Length 29364. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/swiftclip-code-reveal.webp"
+    }
+  },
+  {
+    "id": "swiftclip-data-viz",
+    "project_id": "swiftclip",
+    "name": "Data Viz",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/DataViz.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion scene that reveals a system-load card and fills a bar to 75 percent. Root.tsx registers DataViz at 1920 by 1080, 30 fps, and 600 frames (20 seconds). Reuse remotion/DataViz.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene. Remotion's runtime license is separate. Source-reviewed on 2026-10-29; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/data-viz.jpg",
+      "license": "MIT",
+      "attribution": "SwiftClip contributors",
+      "redistributable": true,
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/data-viz.jpg. HEAD on 2026-10-29: HTTP 200 image/jpeg, Content-Length 30132. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/swiftclip-data-viz.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-swiss-grid",
+    "project_id": "html-video",
+    "name": "Swiss Grid",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-swiss-grid",
+    "section": "Film and Scene Templates",
+    "description": "HyperFrames card on a structured grid for corporate slides and typography-led titles. templates/NOTICE.md lists frame-swiss-grid as a direct Apache-2.0 fork of heygen-com/hyperframes registry/examples/swiss-grid. Reuse templates/frame-swiss-grid and replace the copy. The spec defaults to 1920 by 1080 at 30 fps, with a variable length of 3 to 30 seconds (default 10). The playable preview is the Open Design raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125",
+      "S-CV-159"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-swiss-grid/preview.mp4",
+      "license": "Apache-2.0 (HyperFrames fork per html-video templates/NOTICE.md)",
+      "attribution": "nexu-io / Open Design + heygen-com/hyperframes (see NOTICE.md)",
+      "redistributable": true,
+      "source": "S-CV-159 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-swiss-grid/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 529596. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-swiss-grid.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-kinetic-type",
+    "project_id": "html-video",
+    "name": "Kinetic Type",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-kinetic-type",
+    "section": "Film and Scene Templates",
+    "description": "Bold kinetic typography promo for punchy intros and statement headlines. templates/NOTICE.md lists frame-kinetic-type as a direct Apache-2.0 fork of heygen-com/hyperframes registry/examples/kinetic-type. Reuse templates/frame-kinetic-type and replace the copy. The spec defaults to 1920 by 1080 at 30 fps, with a variable length of 3 to 30 seconds (default 15). The playable preview is the Open Design raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125",
+      "S-CV-159"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-kinetic-type/preview.mp4",
+      "license": "Apache-2.0 (HyperFrames fork per html-video templates/NOTICE.md)",
+      "attribution": "nexu-io / Open Design + heygen-com/hyperframes (see NOTICE.md)",
+      "redistributable": true,
+      "source": "S-CV-159 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-kinetic-type/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 540407. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-kinetic-type.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-warm-grain",
+    "project_id": "html-video",
+    "name": "Warm Grain",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-warm-grain",
+    "section": "Film and Scene Templates",
+    "description": "Cream editorial card with a grain texture for lifestyle brands and magazine-style intros. templates/NOTICE.md lists frame-warm-grain as a direct Apache-2.0 fork of heygen-com/hyperframes registry/examples/warm-grain. Reuse templates/frame-warm-grain and replace the copy. The spec defaults to 1920 by 1080 at 30 fps, with a variable length of 3 to 30 seconds (default 10). The playable preview is the Open Design raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125",
+      "S-CV-159"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-warm-grain/preview.mp4",
+      "license": "Apache-2.0 (HyperFrames fork per html-video templates/NOTICE.md)",
+      "attribution": "nexu-io / Open Design + heygen-com/hyperframes (see NOTICE.md)",
+      "redistributable": true,
+      "source": "S-CV-159 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-warm-grain/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 792683. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-warm-grain.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-bold-poster",
+    "project_id": "html-video",
+    "name": "Bold Poster",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-bold-poster",
+    "section": "Film and Scene Templates",
+    "description": "Editorial poster card with a red rule, a giant display figure, and tilted headline lines. template.html-video.yaml licenses it Apache-2.0 and attributes the design spec to frontend-slides by Zara Zhang (MIT); templates/NOTICE.md does not list it as a heygen-com/hyperframes fork. Reuse templates/frame-bold-poster and replace the headline. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 4 to 6 seconds. The playable preview is the Open Design raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-124",
+      "S-CV-125",
+      "S-CV-159"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-bold-poster/preview.mp4",
+      "license": "Apache-2.0 (html-video template; design spec attributed to frontend-slides, MIT)",
+      "attribution": "nexu-io / Open Design; frontend-slides by Zara Zhang (MIT)",
+      "redistributable": true,
+      "source": "S-CV-159 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-bold-poster/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 368055. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-bold-poster.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-chalkboard",
+    "project_id": "lemo-opuscar",
+    "name": "Chalkboard",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/chalkboard/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Classroom chalkboard visual style from lemo-opuscar: a dark ink-green slate, chalk that draws itself in stroke order, and a camera that faces the board flat. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/chalkboard/STYLE.md as art direction for a new lesson, not as a finished template.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/chalkboard.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/chalkboard.mp4. HEAD -L on 2026-10-29: HTTP 200 application/octet-stream Content-Length=5363912, ftyp isom. STYLE.md at styles/chalkboard/STYLE.md returned HTTP 200. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-chalkboard.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-papercut-red",
+    "project_id": "lemo-opuscar",
+    "name": "Papercut Red",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/papercut-red/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Red paper-cut visual style from lemo-opuscar: jointed China-red cut-outs, detail made by holes rather than strokes, and character steps at 12 fps. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/papercut-red/STYLE.md as art direction for a new film, not as a finished template.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/papercut-red.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/papercut-red.mp4. HEAD -L on 2026-10-29: HTTP 200 application/octet-stream Content-Length=7752934, ftyp isom. STYLE.md at styles/papercut-red/STYLE.md returned HTTP 200. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-papercut-red.webp"
     }
   }
 ]

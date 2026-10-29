@@ -651,5 +651,20 @@
     "aliases": [],
     "urls": [],
     "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "swiftclip",
+    "name": "SwiftClip",
+    "url": "https://github.com/zz41354899/SwiftClip",
+    "aliases": [],
+    "urls": [
+      "https://swift-clip.vercel.app"
+    ],
+    "github": {
+      "id": 1225439149,
+      "full_name": "zz41354899/SwiftClip",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-29"
   }
 ]
