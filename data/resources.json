@@ -2951,11 +2951,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-typewriter-quote/PixelTypewriterQuote.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that types a retro pixel-font quote onto the screen. The README documents it as 1920 by 1080 and 6 seconds, and PixelTypewriterQuote.tsx sets 180 frames at 30 fps. Reuse PixelTypewriterQuote.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that types a retro pixel-font quote onto the screen. The README documents it as 1920 by 1080 and 6 seconds, and PixelTypewriterQuote.tsx sets 180 frames at 30 fps. Reuse PixelTypewriterQuote.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -2964,13 +2965,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-typewriter-quote.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/pixel-typewriter-quote.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-typewriter-quote.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/pixel-typewriter-quote.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=2391598 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/pixel-typewriter-quote.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-pixel-typewriter-quote.webp"
     }
   },
@@ -2981,11 +2982,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/flip-page-transition/FlipPageTransition.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that turns a page from one scene to the next. The README documents it as 1920 by 1080 and 4 seconds, and FlipPageTransition.tsx sets 120 frames at 30 fps. Reuse FlipPageTransition.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that turns a page from one scene to the next. The README documents it as 1920 by 1080 and 4 seconds, and FlipPageTransition.tsx sets 120 frames at 30 fps. Reuse FlipPageTransition.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -2994,13 +2996,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/flip-page-transition.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/flip-page-transition.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/flip-page-transition.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/flip-page-transition.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=593397 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/flip-page-transition.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-flip-page-transition.webp"
     }
   },
@@ -3011,11 +3013,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/shatter-reveal/ShatterReveal.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that shatters a cover into shards and reveals the layer behind. The README documents it as 1920 by 1080 and 4 seconds, and ShatterReveal.tsx sets 120 frames at 30 fps. Reuse ShatterReveal.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that shatters a cover into shards and reveals the layer behind. The README documents it as 1920 by 1080 and 4 seconds, and ShatterReveal.tsx sets 120 frames at 30 fps. Reuse ShatterReveal.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3024,13 +3027,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/shatter-reveal.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/shatter-reveal.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/shatter-reveal.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/shatter-reveal.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=1870416 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/shatter-reveal.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-shatter-reveal.webp"
     }
   },
@@ -3041,11 +3044,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/camera-shake/CameraShake.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that applies a handheld camera shake. The README documents it as 1920 by 1080 and 4 seconds, and CameraShake.tsx sets 120 frames at 30 fps. Reuse CameraShake.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that applies a handheld camera shake. The README documents it as 1920 by 1080 and 4 seconds, and CameraShake.tsx sets 120 frames at 30 fps. Reuse CameraShake.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3054,13 +3058,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/camera-shake.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/camera-shake.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/camera-shake.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/camera-shake.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=796881 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/camera-shake.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-camera-shake.webp"
     }
   },
@@ -3071,11 +3075,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/parallax-pan/ParallaxPan.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that pans layered planes at different speeds. The README documents it as 1920 by 1080 and 4 seconds, and ParallaxPan.tsx sets 120 frames at 30 fps. Reuse ParallaxPan.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that pans layered planes at different speeds. The README documents it as 1920 by 1080 and 4 seconds, and ParallaxPan.tsx sets 120 frames at 30 fps. Reuse ParallaxPan.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3084,13 +3089,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/parallax-pan.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/parallax-pan.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/parallax-pan.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/parallax-pan.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=667703 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/parallax-pan.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-parallax-pan.webp"
     }
   },
@@ -3101,11 +3106,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/wave-hello/WaveHello.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained square Remotion composition that shows a hand waving hello. The README documents it as 1080 by 1080 and 3 seconds, and WaveHello.tsx sets 90 frames at 30 fps. Reuse WaveHello.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained square Remotion composition that shows a hand waving hello. The README documents it as 1080 by 1080 and 3 seconds, and WaveHello.tsx sets 90 frames at 30 fps. Reuse WaveHello.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3114,13 +3120,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/wave-hello.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/wave-hello.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/wave-hello.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/wave-hello.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=467802 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/wave-hello.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-wave-hello.webp"
     }
   },
@@ -3131,11 +3137,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/pixel-waterfall-cycle/PixelWaterfallCycle.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained vertical Remotion composition that loops a pixel-art waterfall. The README documents it as 1080 by 1920 and 6 seconds, and PixelWaterfallCycle.tsx sets 180 frames at 30 fps. Reuse PixelWaterfallCycle.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained vertical Remotion composition that loops a pixel-art waterfall. The README documents it as 1080 by 1920 and 6 seconds, and PixelWaterfallCycle.tsx sets 180 frames at 30 fps. Reuse PixelWaterfallCycle.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3144,13 +3151,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-waterfall-cycle.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/pixel-waterfall-cycle.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/pixel-waterfall-cycle.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/pixel-waterfall-cycle.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=4390442 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/pixel-waterfall-cycle.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-pixel-waterfall-cycle.webp"
     }
   },
@@ -3161,11 +3168,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-split-reveal/LogoSplitReveal.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that splits two panels apart to reveal a logo. The README documents it as 1920 by 1080 and 4 seconds, and LogoSplitReveal.tsx sets 120 frames at 30 fps. Reuse LogoSplitReveal.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that splits two panels apart to reveal a logo. The README documents it as 1920 by 1080 and 4 seconds, and LogoSplitReveal.tsx sets 120 frames at 30 fps. Reuse LogoSplitReveal.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3174,13 +3182,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-split-reveal.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-split-reveal.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-split-reveal.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-split-reveal.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=463900 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/logo-split-reveal.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-logo-split-reveal.webp"
     }
   },
@@ -3191,11 +3199,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/logo-mask-wipe/LogoMaskWipe.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that wipes a diagonal mask across to expose a logo. The README documents it as 1920 by 1080 and about 3.33 seconds, and LogoMaskWipe.tsx sets 100 frames at 30 fps. Reuse LogoMaskWipe.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that wipes a diagonal mask across to expose a logo. The README documents it as 1920 by 1080 and about 3.33 seconds, and LogoMaskWipe.tsx sets 100 frames at 30 fps. Reuse LogoMaskWipe.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3204,13 +3213,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-mask-wipe.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-mask-wipe.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-mask-wipe.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-mask-wipe.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=475720 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/logo-mask-wipe.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-logo-mask-wipe.webp"
     }
   },
@@ -3221,11 +3230,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/end-card/EndCard.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that shows a closing card with slots for a call to action and links. The README documents it as 1920 by 1080 and 5 seconds, and EndCard.tsx sets 150 frames at 30 fps. Reuse EndCard.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that shows a closing card with slots for a call to action and links. The README documents it as 1920 by 1080 and 5 seconds, and EndCard.tsx sets 150 frames at 30 fps. Reuse EndCard.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3234,13 +3244,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/end-card.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/end-card.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/end-card.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/end-card.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=684197 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/end-card.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-end-card.webp"
     }
   },
@@ -3251,11 +3261,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/card-flip-transition/CardFlipTransition.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that flips the frame like a card into the next scene. The README documents it as 1920 by 1080 and 4 seconds, and CardFlipTransition.tsx sets 120 frames at 30 fps. Reuse CardFlipTransition.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that flips the frame like a card into the next scene. The README documents it as 1920 by 1080 and 4 seconds, and CardFlipTransition.tsx sets 120 frames at 30 fps. Reuse CardFlipTransition.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3264,13 +3275,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/card-flip-transition.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/card-flip-transition.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/card-flip-transition.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/card-flip-transition.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=316420 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/card-flip-transition.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-card-flip-transition.webp"
     }
   },
@@ -3312,11 +3323,12 @@
     "kind": "scene",
     "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/four-tone-mono-titler/FourToneMonoTitler.tsx",
     "section": "Film and Scene Templates",
-    "description": "A self-contained Remotion composition that steps a title block through four tones. The README documents it as 1920 by 1080 and 4 seconds, and FourToneMonoTitler.tsx sets 120 frames at 30 fps. Reuse FourToneMonoTitler.tsx and its props, and keep the MIT notice. The linked GIF is an animated preview, not an MP4 master, and Remotion's runtime license is separate.",
+    "description": "A self-contained Remotion composition that steps a title block through four tones. The README documents it as 1920 by 1080 and 4 seconds, and FourToneMonoTitler.tsx sets 120 frames at 30 fps. Reuse FourToneMonoTitler.tsx and its props, and keep the MIT notice. The linked preview is the official Cloudflare R2 MP4, hotlinked and not copied into this repository, and Remotion's runtime license is separate.",
     "evidence_ids": [
       "S-CV-077",
       "S-CV-092",
-      "S-CV-093"
+      "S-CV-093",
+      "S-CV-118"
     ],
     "review": {
       "level": "source-reviewed",
@@ -3325,13 +3337,13 @@
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
-      "kind": "thumb_link",
-      "url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/four-tone-mono-titler.gif",
+      "kind": "video",
+      "url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/four-tone-mono-titler.mp4",
       "license": "MIT",
       "attribution": "RenderComp",
       "redistributable": true,
-      "source": "S-CV-093 https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/four-tone-mono-titler.gif",
-      "checked_at": "2026-10-27",
+      "source": "S-CV-118 https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/four-tone-mono-titler.mp4. Official rendercomp.com free-templates page hosts Cloudflare R2 preview MP4s under pub-…r2.dev/previews/. Byte-range on 2026-10-29 returned HTTP 200 video/mp4 Content-Length=238657 and ftyp isom. Template source remains MIT (S-CV-077); Remotion runtime license is separate. Hotlink only — not copied into this repository. Not a local render test. Previous thumb_link was docs/thumbs/four-tone-mono-titler.gif (S-CV-093).",
+      "checked_at": "2026-10-29",
       "poster": "/previews/rendercomp-four-tone-mono-titler.webp"
     }
   },

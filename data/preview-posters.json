@@ -2710,6 +2710,46 @@
     "attribution": "RenderComp"
   },
   {
+    "resource_id": "rendercomp-camera-shake",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/camera-shake.mp4",
+    "poster": "/previews/rendercomp-camera-shake.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6dc1062e1fca591eb3653ca202ad0d69291aa911c3b8b18e27f874a37cc62aeb"
+      }
+    ],
+    "poster_sha256": "f84b683b38c44628fa6dd048fea605369dbc41c1134f719b443a86f7df28c6ac",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-card-flip-transition",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/card-flip-transition.mp4",
+    "poster": "/previews/rendercomp-card-flip-transition.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "666946b0f885ecf76d9988bdbf923c9491e6982c52a0a23a354341166639c947"
+      }
+    ],
+    "poster_sha256": "cddd14ddc20ff66bba6850710fef95bde5e2e3aa3304d3135b676dd4e5686f71",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
     "resource_id": "rendercomp-chapter-title",
     "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/chapter-title.mp4",
     "poster": "/previews/rendercomp-chapter-title.webp",
@@ -2736,6 +2776,26 @@
       }
     ],
     "poster_sha256": "abfbf604a5ad6149e19ffcd7676928aaf0e9187339ec937c0db6c8b07f856aac",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-end-card",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/end-card.mp4",
+    "poster": "/previews/rendercomp-end-card.webp",
+    "timestamp_seconds": 1.77,
+    "duration_seconds": 5.056,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f6f5bafbe54f426ba4669e7fb7ac04cb6b1a692e4dde84f27327bd4bfaf9512b"
+      }
+    ],
+    "poster_sha256": "3ada23fcd5c89e84ad5ce83e182af19d19dd3791e887d587ea4ae437f11f4118",
     "license": "MIT",
     "attribution": "RenderComp"
   },
@@ -2768,6 +2828,46 @@
     "poster_sha256": "23a872f81c689f29bea7914fcfddad2b8966d076ea34a1a0dcd86483cde0bb01",
     "license": "MIT",
     "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-flip-page-transition",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/flip-page-transition.mp4",
+    "poster": "/previews/rendercomp-flip-page-transition.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d7e5020848ab16737f61bc5dedd059b0d5b683c2c507f3f37130a9dba04d959a"
+      }
+    ],
+    "poster_sha256": "dcca4cd3525cc50fb4002fb5933b6ff16d0d79e8be5678900c60b9e6ccc642cc",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-four-tone-mono-titler",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/four-tone-mono-titler.mp4",
+    "poster": "/previews/rendercomp-four-tone-mono-titler.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "31f6d8c1031437a83478ab8254efe70eb09b7b400303be41712605f808314264"
+      }
+    ],
+    "poster_sha256": "b85d577afba80fe84b41ebe9d16beacc19f267afe12b22c018d7256b33a8a470",
+    "license": "MIT",
+    "attribution": "RenderComp"
   },
   {
     "resource_id": "rendercomp-glitch-text",
@@ -2915,6 +3015,46 @@
     "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
   },
   {
+    "resource_id": "rendercomp-logo-mask-wipe",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-mask-wipe.mp4",
+    "poster": "/previews/rendercomp-logo-mask-wipe.webp",
+    "timestamp_seconds": 1.187,
+    "duration_seconds": 3.392,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6508905e9adfeea9880e1842809a2a91fe7b491d5b766a37c98362c84144c1de"
+      }
+    ],
+    "poster_sha256": "8cddca5766db318691139d8a9c6acb498604ab3b5600cff36729a40315085e3d",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-logo-split-reveal",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-split-reveal.mp4",
+    "poster": "/previews/rendercomp-logo-split-reveal.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8e94173eea5a04b645ec9e982085c73a3f617e8463344c2c8db18b92b13f985b"
+      }
+    ],
+    "poster_sha256": "3ff33631e02938a2ae07cbfd733cf6ebd4bae32a3c7dd1aa33b1c7500cc229e9",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
     "resource_id": "rendercomp-logo-stroke-draw",
     "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/logo-stroke-draw.mp4",
     "poster": "/previews/rendercomp-logo-stroke-draw.webp",
@@ -3006,6 +3146,26 @@
       }
     ],
     "poster_sha256": "fafd6a767b30c19257a7693d59e6df52a6726742ca197a06df2151ace694603c",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-parallax-pan",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/parallax-pan.mp4",
+    "poster": "/previews/rendercomp-parallax-pan.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "498a505ad8c873d1bd9f1f1c8107aa2cf5977e849b5cd246db22d61830672796"
+      }
+    ],
+    "poster_sha256": "264b50ac9862518781e307c0a6ea8de226cbef12e40e704d1cc146294e122073",
     "license": "MIT",
     "attribution": "RenderComp"
   },
@@ -3165,6 +3325,46 @@
     "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
   },
   {
+    "resource_id": "rendercomp-pixel-typewriter-quote",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/pixel-typewriter-quote.mp4",
+    "poster": "/previews/rendercomp-pixel-typewriter-quote.webp",
+    "timestamp_seconds": 2.121,
+    "duration_seconds": 6.058667,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fd0e6271d19c0f0fd2e798cc92b4f7cdb68f35e457bfc6e328842344e554a59f"
+      }
+    ],
+    "poster_sha256": "c05bb0533c0b0d4261b0df5ad18836b1f036436580f4d708788342a203acd01c",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
+    "resource_id": "rendercomp-pixel-waterfall-cycle",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/pixel-waterfall-cycle.mp4",
+    "poster": "/previews/rendercomp-pixel-waterfall-cycle.webp",
+    "timestamp_seconds": 2.121,
+    "duration_seconds": 6.058667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "76d4c5984ae2707db6e73a52ea7b01c83eaeff21686fef765de767f8e08cacdf"
+      }
+    ],
+    "poster_sha256": "e6d2774051bcb3266b874b8df6d824311ff1704f260e06e99069c3d7ca8c50e6",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
     "resource_id": "rendercomp-pourover-drip-fill-gauge",
     "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/pourover-drip-fill-gauge.mp4",
     "poster": "/previews/rendercomp-pourover-drip-fill-gauge.webp",
@@ -3285,6 +3485,26 @@
     "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
   },
   {
+    "resource_id": "rendercomp-shatter-reveal",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/shatter-reveal.mp4",
+    "poster": "/previews/rendercomp-shatter-reveal.webp",
+    "timestamp_seconds": 1.419,
+    "duration_seconds": 4.053333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b43930c7e74b5fd84b76f1162a4370e976c3cee301d00a81f5691ffc900c609b"
+      }
+    ],
+    "poster_sha256": "34f659ea5df4c3e5297bb5818bf49a42ef54d5322a832445083b783fc3653235",
+    "license": "MIT",
+    "attribution": "RenderComp"
+  },
+  {
     "resource_id": "rendercomp-slide-wipe",
     "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/slide-wipe.mp4",
     "poster": "/previews/rendercomp-slide-wipe.webp",
@@ -3388,6 +3608,26 @@
     "poster_sha256": "96b718aa5645037d620befe992aaf40558665296211b3678755a8bbfdbf221c1",
     "license": "MIT",
     "attribution": "Trimora Inc. (https://github.com/RenderComp/free-remotion-templates)"
+  },
+  {
+    "resource_id": "rendercomp-wave-hello",
+    "source_url": "https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/wave-hello.mp4",
+    "poster": "/previews/rendercomp-wave-hello.webp",
+    "timestamp_seconds": 1.068,
+    "duration_seconds": 3.050667,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b3c142a05a7ba05a2c0ac8ba331608d60b5c0456eb3c626659f8ee50083e3149"
+      }
+    ],
+    "poster_sha256": "77b6e81c3eee309f50e6c5f0f500be5b1b80427cca63606fe43f715b02ec6d0a",
+    "license": "MIT",
+    "attribution": "RenderComp"
   },
   {
     "resource_id": "revideo-example",
