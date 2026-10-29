@@ -1825,6 +1825,36 @@
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
   {
+    "resource_id": "lemo-opuscar-glass-product",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/glass-product.mp4",
+    "poster": "/previews/lemo-opuscar-glass-product.webp",
+    "timestamp_seconds": 11.2,
+    "duration_seconds": 32.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "eacb099ffd9b15c1d0d3476f1d10f95b3447197d3a07eb6198256edd90de3299"
+      },
+      {
+        "start": 981621,
+        "end": 1243764,
+        "sha256": "b1ffac2956d280aae2941745ec835995141e56d10ab31908512dc5f3315e946b"
+      },
+      {
+        "start": 1243765,
+        "end": 1427762,
+        "sha256": "926f0a01a05ad388e74d9fd97b4108100466e59a6bcaed7778589a898e3ea3f5"
+      }
+    ],
+    "poster_sha256": "f81ea4fda4e1f751f861443ad55d895fd3dc46f3c69bef15e650fcd81b84929b",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
     "resource_id": "lemo-opuscar-halftone-dossier",
     "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/halftone-dossier.mp4",
     "poster": "/previews/lemo-opuscar-halftone-dossier.webp",
@@ -1921,6 +1951,76 @@
       }
     ],
     "poster_sha256": "aef57a2f8e9bd9748c4a33d66fdbbfdf5413c4854c4da51839b35f8408b0ac9f",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-midcentury-toon",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/midcentury-toon.mp4",
+    "poster": "/previews/lemo-opuscar-midcentury-toon.webp",
+    "timestamp_seconds": 14.0,
+    "duration_seconds": 40.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "3ff7001d74d06714f8454f5bb4b164c6f69fa4dbbd1bcaedf4bd686a8ae19cbf"
+      },
+      {
+        "start": 1324654,
+        "end": 1586797,
+        "sha256": "1e59b0e0e36fc465a2f543c131b09357e047840efe4552f899d6b3e00c6bfc99"
+      },
+      {
+        "start": 1586798,
+        "end": 1848941,
+        "sha256": "b6621145a140726c80bfabd6c843526c5270d1b4e8045aadaed645c42fe8b8c6"
+      },
+      {
+        "start": 1848942,
+        "end": 1871041,
+        "sha256": "9fb24b23f6987efb06503181d16f289ac30e333c57482e70b50efb72871ecf32"
+      }
+    ],
+    "poster_sha256": "efa09bcaae468cb31bb01d21f9b3a99ac66ef0204290754dee3987831c495325",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-one-line",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/one-line.mp4",
+    "poster": "/previews/lemo-opuscar-one-line.webp",
+    "timestamp_seconds": 16.625,
+    "duration_seconds": 47.5,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "87d822b4e27ea6e95328ed8f62cc0ea6d867dd9a5c6d4bce297d30f5dc14060b"
+      },
+      {
+        "start": 577839,
+        "end": 839982,
+        "sha256": "9a0fdfc48a48b42a928b348c10bbd4866c1fc511da5a6ae4a7e63a9cfa29ff89"
+      },
+      {
+        "start": 839983,
+        "end": 1102126,
+        "sha256": "fc645a8c5cf60fae1428ae6939498b7d499d4ac98099025fb609eb77769680d5"
+      },
+      {
+        "start": 1102127,
+        "end": 1217406,
+        "sha256": "fafdb18cc22a9ee9a9894e06bf8c50632ae456ce6b6724c30462246981fc5459"
+      }
+    ],
+    "poster_sha256": "a19aa5a60bd163e89ad47a929bfdb04c395eae629422a534916f9164530316c7",
     "license": "CC BY 4.0",
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
@@ -2400,6 +2500,56 @@
     "attribution": "Blake Xu (HeiGeAi) (https://github.com/HeiGeAi/Paper-Cut)"
   },
   {
+    "resource_id": "remotion-templates-3d-device-stages-macro",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/3d-device-stages-macro-detail.mp4",
+    "poster": "/previews/remotion-templates-3d-device-stages-macro.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 23513,
+        "sha256": "9fc819e841c2fbc95f40121635a5e192a05a7bde7a7e34f1dda2e0f805cdc511"
+      },
+      {
+        "start": 2475,
+        "end": 21065,
+        "sha256": "bab1e47860039ce9dac6478e980771fe2b6dc58d23a3ba69d4957d8a3edbb651"
+      }
+    ],
+    "poster_sha256": "fc52e64b1bf2d059aad4af3206a3fb61301be242c833a83b5fbeec4b59641698",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-app-onboarding-profile",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/app-onboarding-profile-setup.mp4",
+    "poster": "/previews/remotion-templates-app-onboarding-profile.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 22868,
+        "sha256": "8424c26a043c14fc72d03421399be599a8ea5d8605639f6a55c74c0ead70023c"
+      },
+      {
+        "start": 2459,
+        "end": 18796,
+        "sha256": "9440dc83ea254b90b1f340c6f35a055042b8f8e6b2689295fca69238cb73c34a"
+      }
+    ],
+    "poster_sha256": "97296f5e852f69a067f61c06adcce3d36983f3b60af834489e394a745ec5e758",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-browser-chrome",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/browser-chrome-address-bar-zoom.mp4",
     "poster": "/previews/remotion-templates-browser-chrome.webp",
@@ -2446,6 +2596,31 @@
       }
     ],
     "poster_sha256": "72b099a85000173e029bcb3add7dbb5f1c21cb27cd04379c48e19f8500e0985c",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-cinematic-credits-end",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cinematic-credits-end-credits.mp4",
+    "poster": "/previews/remotion-templates-cinematic-credits-end.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 14818,
+        "sha256": "8140f8067f84541252c6defdf44811027c936c8b434f733d48cea47a2642cda1"
+      },
+      {
+        "start": 2419,
+        "end": 12937,
+        "sha256": "b42066195f28e2e3b9f77893953aafd08f0294235f2fdaf46b119b0395dcfcf2"
+      }
+    ],
+    "poster_sha256": "4b81341de1284f786429a012971e94c43d78e562c634802f57f9d2db706d0d0b",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },

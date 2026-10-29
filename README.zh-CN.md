@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 170 个可复用单元：108 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 176 个可复用单元：108 个成片或场景工程、6 个地图镜头、37 个镜头配方、25 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -226,6 +226,9 @@
 - [图表动画 — 箱线图](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/chart-animations-box-plot.mp4) - ali-abassi/remotion-templates 中 chart-animations 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 - [编辑标题 — 突发新闻条](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/editorial-headlines-breaking-strip.mp4) - ali-abassi/remotion-templates 中 editorial-headlines 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 - [讲解图示 — 前后对比系统](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/explainer-diagrams-before-after-system.mp4) - ali-abassi/remotion-templates 中 explainer-diagrams 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [3D 设备舞台 — 微距细节](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/3d-device-stages-macro-detail.mp4) - ali-abassi/remotion-templates 中 3d-device 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [应用引导 — 资料设置](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/app-onboarding-profile-setup.mp4) - ali-abassi/remotion-templates 中 app-onboarding 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [电影片尾 — 演职员表](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cinematic-credits-end-credits.mp4) - ali-abassi/remotion-templates 中 cinematic-credits 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 
 ## 视觉风格文件
 
@@ -255,6 +258,9 @@
 | [孔版印刷](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/risograph) | Risograph 孔版印刷视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 印刷、海报与独立出版风格短片 |
 | [彩色玻璃](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/stained-glass) | 彩色玻璃视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 风格短片 |
 | [木刻版画](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/woodcut) | 木刻版画视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 印刷与版画风格短片 |
+| [玻璃产品](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/glass-product) | 暗场摄影棚里的透明与磨砂玻璃，条形灯扫过，并有慢速爆炸视图；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 产品材质与发布短片 |
+| [一线成画](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/one-line) | 暖纸上一条不中断的墨线，场景靠变形衔接而不是硬切；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 叙事与讲解短片 |
+| [世纪中叶卡通](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/midcentury-toon) | 扁平套色、几何人物和有限动画，适合步骤说明；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 跟做教程与说明短片 |
 
 ## 视频制作框架
 
@@ -281,7 +287,7 @@
 
 ## 生成式视频提示词
 
-可直接复制的文生视频和图生视频提示词，附带来源文件里的模型标签。它们不计入上面的 171 个可复用单元。这不是可以克隆后渲染的 Remotion、HyperFrames 或 Shotcraft 工程。模型名只是上游标注，不代表换一个生成器会得到同样结果。2026-10-28 仅做源码审阅，没有本地渲染测试。
+可直接复制的文生视频和图生视频提示词，附带来源文件里的模型标签。它们不计入上面的 176 个可复用单元。这不是可以克隆后渲染的 Remotion、HyperFrames 或 Shotcraft 工程。模型名只是上游标注，不代表换一个生成器会得到同样结果。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
 - [A Decade of Refinement Glow-Up](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json) - 可复制的 Seedance 2.0 提示词，做 15 秒身份锁定的形象转变：同一个人从普通街景走到迪拜屋顶的黑西装镜头。适合作为参考图转变简报。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Maverick | AI（https://x.com/RizwanAly07/status/2048948726623056366）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
 - [Animation transfer and camera tracking prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json) - 很短的 Seedance 2.0 提示词：把参考行走套到角色上，同时镜头保持锁定。适合做不换机位的动作迁移。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Olivio Sarikas（https://x.com/OlivioSarikas/status/2049093762077630628）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。

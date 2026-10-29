@@ -12,7 +12,7 @@ Browse visual previews, filter resources by framework and type, and open source 
 
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
-Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 170 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
+Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 176 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
 Only public, inspectable resources with clear reuse permissions are included. Encrypted or account-bound template source, noncommercial-only restrictions, and unresolved licenses are excluded. Open-source copyright notices do not disqualify a project.
 
@@ -228,6 +228,9 @@ These muted preview loops come from [ali-abassi/remotion-templates](https://gith
 - [Chart Animations — Box Plot](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/chart-animations-box-plot.mp4) - Muted short-loop Remotion preview from the chart-animations family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.
 - [Editorial Headlines — Breaking Strip](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/editorial-headlines-breaking-strip.mp4) - Muted short-loop Remotion preview from the editorial-headlines family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.
 - [Explainer Diagrams — Before/After System](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/explainer-diagrams-before-after-system.mp4) - Muted short-loop Remotion preview from the explainer-diagrams family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.
+- [3D Device Stages — Macro Detail](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/3d-device-stages-macro-detail.mp4) - Muted short-loop Remotion preview from the 3d-device family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.
+- [App Onboarding — Profile Setup](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/app-onboarding-profile-setup.mp4) - Muted short-loop Remotion preview from the app-onboarding family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.
+- [Cinematic Credits — End Credits](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cinematic-credits-end-credits.mp4) - Muted short-loop Remotion preview from the cinematic-credits family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.
 
 ## Visual Style Templates
 
@@ -257,10 +260,13 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 - [Risograph](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/risograph) - Print visual style (risograph) from lemo-opuscar; demo film on the web release tag. Controlled +1 (avoid flooding remaining unused styles).
 - [Stained Glass](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/stained-glass) - Stained-glass visual style from lemo-opuscar; demo film on the web release tag. Deferred from Batch H; controlled +1.
 - [Woodcut](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/woodcut) - Print visual style (woodcut) from lemo-opuscar; demo film on the web release tag. Controlled +1 (avoid flooding remaining unused styles).
+- [Glass Product](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/glass-product) - Dark-field glass product visual style from lemo-opuscar: refractive and frosted glass, strip-light sweeps, and slow exploded views. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/glass-product as art direction for a new film, not as a finished template.
+- [One Line](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/one-line) - Single continuous-line drawing visual style from lemo-opuscar: one ink line on warm paper, with scenes that morph instead of cutting. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/one-line as art direction for a new film, not as a finished template.
+- [Midcentury Toon](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/midcentury-toon) - Mid-century cartoon visual style from lemo-opuscar: flat off-register color, geometric figures, and limited animation for how-to cards. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/midcentury-toon as art direction for a new film, not as a finished template.
 
 ## Frameworks and Renderers
 
-These are foundations for composing or rendering your own work. They are not included in the 170 reusable examples above.
+These are foundations for composing or rendering your own work. They are not included in the 176 reusable examples above.
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).
@@ -285,7 +291,7 @@ Useful when you want a method or reusable motion primitives rather than a fixed 
 
 ## Generative Video Prompts
 
-Copy-paste text-to-video and image-to-video prompts with the model label stored upstream. They are not included in the 170 reusable examples above. These are not Remotion, HyperFrames, or Shotcraft projects you clone and render. A model name is the source file's label, not a promise that another generator will match it. Source-reviewed on 2026-10-28; not render-tested.
+Copy-paste text-to-video and image-to-video prompts with the model label stored upstream. They are not included in the 176 reusable examples above. These are not Remotion, HyperFrames, or Shotcraft projects you clone and render. A model name is the source file's label, not a promise that another generator will match it. Source-reviewed on 2026-10-28; not render-tested.
 
 - [A Decade of Refinement Glow-Up](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json) - Copy-paste Seedance 2.0 prompt for a 15-second identity-locked glow-up, from a plain 2016 street look to a Dubai rooftop in a black suit. Useful as a reference-image transformation brief. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Maverick | AI (https://x.com/RizwanAly07/status/2048948726623056366). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.
 - [Animation transfer and camera tracking prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json) - Short Seedance 2.0 prompt that copies a referenced walk onto a character while the camera stays locked. Useful for motion transfer without a new angle. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Olivio Sarikas (https://x.com/OlivioSarikas/status/2049093762077630628). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.
