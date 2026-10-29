@@ -525,7 +525,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-27",
-    "notes": "Inspected scene construction, theme selection and standalone HTML output."
+    "notes": "Inspected scene construction, theme selection and standalone HTML output. On 2026-10-29 the official README gallery still https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/ripple-tank.webp was hotlinked (HTTP 200 image/webp, Content-Length 34680). No upstream MP4. MIT (S-CV-050). Not copied. Not a local render test."
   },
   {
     "id": "S-CV-049",
@@ -777,8 +777,8 @@
     "type": "preview-media",
     "status": "reviewed",
     "reliability": "medium",
-    "checked_at": "2026-10-27",
-    "notes": "Listed docs/media. README says code is MIT and map data keeps its own terms, including Amap commercial authorization. Preset filenames do not match media filenames; pairings are editorial. No vlog_locate_night file exists. Byte-range checks returned WEBP headers. Frames were not reviewed. Files were not copied and were not rendered locally."
+    "checked_at": "2026-10-29",
+    "notes": "Listed docs/media. README says code is MIT and map data keeps its own terms, including Amap commercial authorization. Preset filenames do not match media filenames; pairings are editorial. No vlog_locate_night file exists. Byte-range checks returned WEBP headers. Frames were not reviewed. Files were not copied and were not rendered locally. On 2026-10-29 Night Location hotlinks vlog_locate_bund.webp (HTTP 200 image/webp, Content-Length 683228). README labels that still as the Shanghai Bund at night, and vlog_locate_night.json is the Bund amap-dark preset, so the pairing is editorial. There is still no file named vlog_locate_night.*. Globe-to-Location uses the same still. radiate_dark.webp remains Radial Coverage. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-072",
@@ -1669,7 +1669,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Inspected motion.json, README.md, package.json and render.mjs: public version 0.2.7-open-beta, landscape 1920x1080 at 60fps, adapter.py entry, Chrome/Playwright frame capture and FFmpeg encoding. Requires Node.js, Python, uv and local Chrome/FFmpeg. English direct .motion URL returned ZIP signature. No install or render test. Portrait and newer official personal editions are excluded from this resource."
+    "notes": "Inspected motion.json, README.md, package.json and render.mjs: public version 0.2.7-open-beta, landscape 1920x1080 at 60fps, adapter.py entry, Chrome/Playwright frame capture and FFmpeg encoding. Requires Node.js, Python, uv and local Chrome/FFmpeg. English direct .motion URL returned ZIP signature. No install or render test. Portrait and newer official personal editions are excluded from this resource. On 2026-10-29 the public assets/demo.mp4 was hotlinked (HTTP 200, application/octet-stream, Content-Length 4112668, ftyp isom, ffprobe H.264 1280x720) with assets/poster.jpg. The template project is 1920x1080; the public demo file is 1280x720. Demo assets stay non-redistributable (S-CV-132). Not copied. Not a local render test."
   },
   {
     "id": "S-CV-132",
@@ -1691,7 +1691,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Downloaded version 1.0.0 and statically inspected the open inner ZIP: src/index.html, motion.json, params.schema.json, presets/demo.json, guide.json and licenses/TEMPLATE-LICENSE.txt. Verified GSAP timeline, editable text/statistic/accent inputs, 10 seconds, 1920x1080 at 30fps. Website license explanation permits personal/noncommercial modification and prohibits template redistribution; GSAP is separately licensed. Inner release SHA-256: 1067afb8f21c86e434b12b5b2162b7003144d3ed382169e6e9977b4321e903f8. No template/helper execution, paid service calls, signature verification or render test. Personal envelope and credentials remain local and are not published."
+    "notes": "Downloaded version 1.0.0 and statically inspected the open inner ZIP: src/index.html, motion.json, params.schema.json, presets/demo.json, guide.json and licenses/TEMPLATE-LICENSE.txt. Verified GSAP timeline, editable text/statistic/accent inputs, 10 seconds, 1920x1080 at 30fps. Website license explanation permits personal/noncommercial modification and prohibits template redistribution; GSAP is separately licensed. Inner release SHA-256: 1067afb8f21c86e434b12b5b2162b7003144d3ed382169e6e9977b4321e903f8. No template/helper execution, paid service calls, signature verification or render test. Personal envelope and credentials remain local and are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/870/1.0.0-6dcf8b7863ca.mp4 (HTTP 200 video/mp4, Content-Length 3958605, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/870/1.0.0-99c20483f4b4.jpg. CDN hotlink only. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-134",
@@ -1702,7 +1702,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 9fba89b865b5c599c8cc55de078d67efbcae335d168e0bf564551f14abc70791. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 9fba89b865b5c599c8cc55de078d67efbcae335d168e0bf564551f14abc70791. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/880/1.0.0-2c8e89fea7a8.mp4 (HTTP 200 video/mp4, Content-Length 8486172, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/880/1.0.0-53419c8f2925.jpg. CDN hotlink only. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-135",
@@ -1713,7 +1713,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/index.source.html. Inner release SHA-256: 9fe1e32e028557cf8d9aee8a67b9e03a571dd3f89877278d9de77b5b0de8022a. Template source is MIT-licensed; fonts and third-party assets retain separate terms. GSAP has separate terms. The lockfile and actual source use bundled GSAP, despite a stale no-third-party-library statement in TEMPLATE-LICENSE.txt; GSAP retains separate terms. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/index.source.html. Inner release SHA-256: 9fe1e32e028557cf8d9aee8a67b9e03a571dd3f89877278d9de77b5b0de8022a. Template source is MIT-licensed; fonts and third-party assets retain separate terms. GSAP has separate terms. The lockfile and actual source use bundled GSAP, despite a stale no-third-party-library statement in TEMPLATE-LICENSE.txt; GSAP retains separate terms. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked and kept as video: https://media.openaicut.com/previews/885/1.0.0-1d0d4dc1ea23.mp4 (HTTP 200 video/mp4, Content-Length 45255886, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/885/1.0.0-10251bc4895b.jpg. The file is about 45MB; the poster is required so the gallery can click-to-play. CDN hotlink only. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-136",
@@ -1724,7 +1724,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 5a22647ba36531c3960f9c2ac65df6dbca33030733308e795379e22db5045c60. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 5a22647ba36531c3960f9c2ac65df6dbca33030733308e795379e22db5045c60. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/882/1.0.0-5df639825460.mp4 (HTTP 200 video/mp4, Content-Length 5286828, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/882/1.0.0-20fa9d055973.jpg. CDN hotlink only. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-137",
@@ -1735,7 +1735,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, tools/music.py. Inner release SHA-256: 2d0c116f597f03c4da803d1210bbab43b557a5bcd4f92b4198ff496252f3aaf9. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, tools/music.py. Inner release SHA-256: 2d0c116f597f03c4da803d1210bbab43b557a5bcd4f92b4198ff496252f3aaf9. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/889/1.0.0-c28fac802c50.mp4 (HTTP 200 video/mp4, Content-Length 2365214, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/889/1.0.0-d8681251c776.jpg. CDN hotlink only. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-138",
@@ -1746,7 +1746,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, tools/prep.py, tools/sfx.py, tools/tr.py. Inner release SHA-256: e6e5f974ab4b4b5f85b7f1a0f08f29a0b03b38a048ce8db7f54b41e030fe30d7. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, tools/prep.py, tools/sfx.py, tools/tr.py. Inner release SHA-256: e6e5f974ab4b4b5f85b7f1a0f08f29a0b03b38a048ce8db7f54b41e030fe30d7. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/890/1.0.0-a07dfe35eea8.mp4 (HTTP 200 video/mp4, Content-Length 4306962, ftyp isom, ffprobe H.264 1080x1920) with poster https://media.openaicut.com/covers/890/1.0.0-50bebde67959.jpg. CDN hotlink only. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-139",
@@ -1757,7 +1757,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/meta.js. Inner release SHA-256: d5fd83bc28a838c4d770a261782c4d6c07fffe5571b3c90c5ff8c8a6f63c64b5. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/meta.js. Inner release SHA-256: d5fd83bc28a838c4d770a261782c4d6c07fffe5571b3c90c5ff8c8a6f63c64b5. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/869/1.0.0-zh-d5fd83bc28a8.mp4 (HTTP 200 video/mp4, Content-Length 1307696, ftyp isom, ffprobe H.264 1080x1080) with poster https://media.openaicut.com/covers/869/1.0.0-zh-01708b4a2214.jpg. Synthetic chart examples, not live quotes. CDN hotlink only. redistributable is false. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-140",
@@ -1768,7 +1768,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: c1c0641a3905e17090518a01c4c014dfb24049d5fca72f43bdf4b2f28ea2b44a. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: c1c0641a3905e17090518a01c4c014dfb24049d5fca72f43bdf4b2f28ea2b44a. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/874/1.0.0-zh-7831dd69bc6b.mp4 (HTTP 200 video/mp4, Content-Length 1465016, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/874/1.0.0-zh-4340b94c82ff.jpg. CDN hotlink only. redistributable is false. GSAP remains separately licensed. Not copied. Not a local render test."
   },
   {
     "id": "S-CV-141",
@@ -1779,6 +1779,6 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-29",
-    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: 312872f1fbe94f53a674dd2d8dd370fd9a40fb27eb2620d3049b783b37f886d5. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: 312872f1fbe94f53a674dd2d8dd370fd9a40fb27eb2620d3049b783b37f886d5. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/875/1.0.0-zh-cd8ad1570460.mp4 (HTTP 200 video/mp4, Content-Length 4035957, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/875/1.0.0-zh-3c1d5e7cd796.jpg. CDN hotlink only. redistributable is false. GSAP remains separately licensed. Not copied. Not a local render test."
   }
 ]

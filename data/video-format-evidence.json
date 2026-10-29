@@ -58,5 +58,95 @@
     "embed_height": 113,
     "checked_at": "2026-10-29",
     "note": "Orientation verified against upstream project shared.size and YouTube oEmbed. Composition dimensions are not a measurement of the encoded YouTube stream."
+  },
+  {
+    "resource_id": "kinetic-tech",
+    "preview_url": "https://raw.githubusercontent.com/motiontemplates/385712/main/assets/demo.mp4",
+    "composition_width": 1280,
+    "composition_height": 720,
+    "source_url": "https://raw.githubusercontent.com/motiontemplates/385712/main/assets/demo.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1280x720. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "kouboo-motion",
+    "preview_url": "https://media.openaicut.com/previews/870/1.0.0-6dcf8b7863ca.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/870/1.0.0-6dcf8b7863ca.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1920x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-deep-stage-host-stage",
+    "preview_url": "https://media.openaicut.com/previews/880/1.0.0-2c8e89fea7a8.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/880/1.0.0-2c8e89fea7a8.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1920x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-deep-stage-full-video",
+    "preview_url": "https://media.openaicut.com/previews/885/1.0.0-1d0d4dc1ea23.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/885/1.0.0-1d0d4dc1ea23.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1920x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-deep-stage-case-data",
+    "preview_url": "https://media.openaicut.com/previews/882/1.0.0-5df639825460.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/882/1.0.0-5df639825460.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1920x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-kit1-doc-shortfilm",
+    "preview_url": "https://media.openaicut.com/previews/889/1.0.0-c28fac802c50.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/889/1.0.0-c28fac802c50.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1920x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-kit2-koubo-wrap",
+    "preview_url": "https://media.openaicut.com/previews/890/1.0.0-a07dfe35eea8.mp4",
+    "composition_width": 1080,
+    "composition_height": 1920,
+    "source_url": "https://media.openaicut.com/previews/890/1.0.0-a07dfe35eea8.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1080x1920. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-volume-price-kline-charts",
+    "preview_url": "https://media.openaicut.com/previews/869/1.0.0-zh-d5fd83bc28a8.mp4",
+    "composition_width": 1080,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/869/1.0.0-zh-d5fd83bc28a8.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1080x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-collage-wall",
+    "preview_url": "https://media.openaicut.com/previews/874/1.0.0-zh-7831dd69bc6b.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/874/1.0.0-zh-7831dd69bc6b.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1920x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "motiongit-collage-views",
+    "preview_url": "https://media.openaicut.com/previews/875/1.0.0-zh-cd8ad1570460.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://media.openaicut.com/previews/875/1.0.0-zh-cd8ad1570460.mp4",
+    "checked_at": "2026-10-29",
+    "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1920x1080. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
   }
 ]

@@ -132,7 +132,7 @@ test('gallery cards retain complete previews and featured covers without autopla
  for(const tag of videos){
   assert.match(tag,/preload="none"/);
   assert.doesNotMatch(tag,/\bsrc="/i);
-  assert.match(tag,/\bposter="\/previews\//i);
+  assert.match(tag,/\bposter="(?:\/previews\/|https:\/\/)/i);
   assert.match(tag,/playsinline/i);
   assert.match(tag,/tabindex="-1"/);
   const attrs=tag.replace(/\s(?:src|poster)="[^"]*"/gi,'');
@@ -229,7 +229,7 @@ test('playable gallery cards can start muted and other preview kinds stay unchan
   assert.ok(card,resource.id);
   const preview=resolvePreview(resource);
   if(preview.playable){
-   assert.match(card,new RegExp(`aria-label="Play upstream demo: ${esc(resource.name)}"`));
+   assert.match(card,new RegExp(`aria-label="Play upstream demo: ${esc(escapeHtml(resource.name))}"`));
    assert.match(card,new RegExp(`aria-controls="preview-${resource.id.replaceAll('-','_')}"`));
    assert.match(card,/<button\b[^>]*class="preview-play"/);
    assert.match(card,/<div class="art-link">/);
@@ -237,7 +237,7 @@ test('playable gallery cards can start muted and other preview kinds stay unchan
    const video=card.match(/<video\b[^>]*>/)?.[0]??'';
    assert.match(video,/preload="none"/);
    assert.doesNotMatch(video,/\bsrc="/i);
-   assert.match(video,/\bposter="\/previews\//i);
+   assert.match(video,/\bposter="(?:\/previews\/|https:\/\/)/i);
    assert.match(video,/tabindex="-1"/);
    const attrs=video.replace(/\s(?:src|poster)="[^"]*"/gi,'');
    assert.doesNotMatch(attrs,/\bautoplay\b/i);

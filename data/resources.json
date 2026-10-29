@@ -161,7 +161,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview withheld: upstream radiate_dark.webp belongs to Radial Coverage, not this night-location preset. No matching export was found on 2026-10-28."
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. The preview is an editorial pairing of the README still vlog_locate_bund.webp, labeled as the Shanghai Bund at night, with vlog_locate_night.json. Globe-to-Location uses the same still. radiate_dark.webp remains Radial Coverage.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/vlog_locate_bund.webp",
+      "license": "待确认（code MIT; map tiles own terms）",
+      "attribution": "SpaceZephyr (https://github.com/SpaceZephyr/map-motion)",
+      "redistributable": false,
+      "source": "S-CV-071 https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/vlog_locate_bund.webp. README labels this still as the Shanghai Bund at night, and vlog_locate_night.json is the Bund amap-dark night preset, so the pairing is editorial. docs/media has no vlog_locate_night.* filename. Globe-to-Location already links the same still. radiate_dark.webp stays with Radial Coverage. HEAD on 2026-10-29: HTTP 200 image/webp Content-Length=683228. README says the code is MIT and map data follows its own source terms; commercial use of Amap tiles needs Amap authorization. Preview redistribution is 待确认, so redistributable is false. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29"
+    }
   },
   {
     "id": "map-motion-hiking-elevation",
@@ -1207,7 +1216,16 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
-    "editorial_note": "Video use cases are curator suggestions. No installation, visual quality test or render test performed."
+    "editorial_note": "Video use cases are curator suggestions. No installation, visual quality test or render test performed.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/ripple-tank.webp",
+      "license": "MIT",
+      "attribution": "wheresryan22 (https://github.com/wheresryan22/anatomy)",
+      "redistributable": true,
+      "source": "S-CV-048 https://raw.githubusercontent.com/wheresryan22/anatomy/main/.github/assets/ripple-tank.webp. Official README gallery still for examples/ripple-tank. HEAD on 2026-10-29: HTTP 200 image/webp Content-Length=34680. The example outputs HTML, not an MP4 (S-CV-049). Upstream license is MIT (S-CV-050), so redistributable is true. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29"
+    }
   },
   {
     "id": "amicro-line-reveal",
@@ -5720,7 +5738,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Video use cases are editorial assessments; source review does not imply installation or rendering success."
+    "editorial_note": "Video use cases are editorial assessments; source review does not imply installation or rendering success.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/motiontemplates/385712/main/assets/demo.mp4",
+      "license": "MIT (template code); third-party demo assets separate",
+      "attribution": "MotionGit / motiontemplates (https://github.com/motiontemplates/385712)",
+      "redistributable": false,
+      "source": "S-CV-131 https://raw.githubusercontent.com/motiontemplates/385712/main/assets/demo.mp4. Public template page https://github.com/motiontemplates/385712/tree/main/template. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=4112668, ftyp isom. ffprobe reports H.264 1280x720; the template project itself is 1920x1080 at 60 fps. Poster https://raw.githubusercontent.com/motiontemplates/385712/main/assets/poster.jpg. Template code is MIT (S-CV-132); demo likenesses, audio, and third-party assets are separate, so redistributable is false. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://raw.githubusercontent.com/motiontemplates/385712/main/assets/poster.jpg"
+    }
   },
   {
     "id": "kouboo-motion",
@@ -5738,7 +5766,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license review only. Personal/noncommercial use; do not redistribute the template or its credential-bearing download package. Runtime behavior and rendering were not tested."
+    "editorial_note": "Static source and license review only. Personal/noncommercial use; do not redistribute the template or its credential-bearing download package. Runtime behavior and rendering were not tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/870/1.0.0-6dcf8b7863ca.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-133 https://media.openaicut.com/previews/870/1.0.0-6dcf8b7863ca.mp4. Public product page https://motiongit.com/@thepandaq/kouboo-motion. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=3958605, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/870/1.0.0-99c20483f4b4.jpg. Personal/noncommercial use; template redistribution is prohibited. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/870/1.0.0-99c20483f4b4.jpg"
+    }
   },
   {
     "id": "motiongit-deep-stage-host-stage",
@@ -5756,7 +5794,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/880/1.0.0-2c8e89fea7a8.mp4",
+      "license": "Template source MIT; fonts/third-party separate; preview CDN hotlink only",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-134 https://media.openaicut.com/previews/880/1.0.0-2c8e89fea7a8.mp4. Public product page https://motiongit.com/@thepandaq/deep-stage-host-stage. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=8486172, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/880/1.0.0-53419c8f2925.jpg. Template source is MIT; fonts and third-party assets are separate. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/880/1.0.0-53419c8f2925.jpg"
+    }
   },
   {
     "id": "motiongit-deep-stage-full-video",
@@ -5774,7 +5822,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested. The lockfile and actual source use bundled GSAP, despite a stale no-third-party-library statement in TEMPLATE-LICENSE.txt; GSAP retains separate terms. Template source is MIT-licensed; fonts and third-party assets retain separate terms. GSAP has separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested. The lockfile and actual source use bundled GSAP, despite a stale no-third-party-library statement in TEMPLATE-LICENSE.txt; GSAP retains separate terms. Template source is MIT-licensed; fonts and third-party assets retain separate terms. GSAP has separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/885/1.0.0-1d0d4dc1ea23.mp4",
+      "license": "Template source MIT; fonts/third-party/GSAP separate; preview CDN hotlink only",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-135 https://media.openaicut.com/previews/885/1.0.0-1d0d4dc1ea23.mp4. Public product page https://motiongit.com/@thepandaq/deep-stage-full-video. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=45255886, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/885/1.0.0-10251bc4895b.jpg is required because the preview is about 45MB and the gallery click-to-play path must show a still before assigning the media URL. Template source is MIT; fonts, third-party assets, and GSAP are separate. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/885/1.0.0-10251bc4895b.jpg"
+    }
   },
   {
     "id": "motiongit-deep-stage-case-data",
@@ -5792,7 +5850,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/882/1.0.0-5df639825460.mp4",
+      "license": "Template source MIT; fonts/third-party separate; preview CDN hotlink only",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-136 https://media.openaicut.com/previews/882/1.0.0-5df639825460.mp4. Public product page https://motiongit.com/@thepandaq/deep-stage-case-data. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=5286828, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/882/1.0.0-20fa9d055973.jpg. Template source is MIT; fonts and third-party assets are separate. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/882/1.0.0-20fa9d055973.jpg"
+    }
   },
   {
     "id": "motiongit-kit1-doc-shortfilm",
@@ -5810,7 +5878,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/889/1.0.0-c28fac802c50.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited",
+      "attribution": "@chenyutao0417 / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-137 https://media.openaicut.com/previews/889/1.0.0-c28fac802c50.mp4. Public product page https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=2365214, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/889/1.0.0-d8681251c776.jpg. Personal/noncommercial use; template redistribution is prohibited. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/889/1.0.0-d8681251c776.jpg"
+    }
   },
   {
     "id": "motiongit-kit2-koubo-wrap",
@@ -5828,7 +5906,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/890/1.0.0-a07dfe35eea8.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited",
+      "attribution": "@chenyutao0417 / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-138 https://media.openaicut.com/previews/890/1.0.0-a07dfe35eea8.mp4. Public product page https://motiongit.com/@chenyutao0417/kit2-koubo-wrap. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=4306962, ftyp isom. ffprobe reports H.264 1080x1920. Poster https://media.openaicut.com/covers/890/1.0.0-50bebde67959.jpg. Personal/noncommercial use; template redistribution is prohibited. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/890/1.0.0-50bebde67959.jpg"
+    }
   },
   {
     "id": "motiongit-volume-price-kline-charts",
@@ -5846,7 +5934,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/869/1.0.0-zh-d5fd83bc28a8.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited",
+      "attribution": "@oubaba95128 / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-139 https://media.openaicut.com/previews/869/1.0.0-zh-d5fd83bc28a8.mp4. Public product page https://motiongit.com/@oubaba95128/volume-price-kline-charts. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=1307696, ftyp isom. ffprobe reports H.264 1080x1080. Poster https://media.openaicut.com/covers/869/1.0.0-zh-01708b4a2214.jpg. Personal/noncommercial use; template redistribution is prohibited. The charts are synthetic examples, not live market data. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/869/1.0.0-zh-01708b4a2214.jpg"
+    }
   },
   {
     "id": "motiongit-collage-wall",
@@ -5864,7 +5962,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/874/1.0.0-zh-7831dd69bc6b.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited; GSAP separate",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-140 https://media.openaicut.com/previews/874/1.0.0-zh-7831dd69bc6b.mp4. Public product page https://motiongit.com/@thepandaq/collage-wall. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=1465016, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/874/1.0.0-zh-4340b94c82ff.jpg. Personal/noncommercial use; template redistribution is prohibited. GSAP has separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/874/1.0.0-zh-4340b94c82ff.jpg"
+    }
   },
   {
     "id": "motiongit-collage-views",
@@ -5882,6 +5990,16 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/875/1.0.0-zh-cd8ad1570460.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited; GSAP separate",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-141 https://media.openaicut.com/previews/875/1.0.0-zh-cd8ad1570460.mp4. Public product page https://motiongit.com/@thepandaq/collage-views. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=4035957, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/875/1.0.0-zh-3c1d5e7cd796.jpg. Personal/noncommercial use; template redistribution is prohibited. GSAP has separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/875/1.0.0-zh-3c1d5e7cd796.jpg"
+    }
   }
 ]
