@@ -1,6 +1,7 @@
 import projectData from '../../data/projects.json';
 import resourceData from '../../data/resources.json';
 import evidenceData from '../../data/evidence.json';
+import videoFormatEvidence from '../../data/video-format-evidence.json';
 import videoPosters from '../../data/preview-posters.json';
 import imagePosters from '../../data/image-preview-posters.json';
 import MiniSearch from 'minisearch';
@@ -143,6 +144,9 @@ export type VideoOrientation = 'landscape' | 'portrait' | 'square' | 'unknown';
 /** Match the measured media URL so replaced previews cannot inherit stale dimensions. */
 export function videoOrientation(resource: Resource): VideoOrientation {
  const metadata = videoPosters.find(p => p.resource_id === resource.id && p.source_url === resource.preview?.url);
- if (!metadata || metadata.source_width <= 0 || metadata.source_height <= 0) return 'unknown';
- return metadata.source_width > metadata.source_height ? 'landscape' : metadata.source_width < metadata.source_height ? 'portrait' : 'square';
+ const evidence = videoFormatEvidence.find(p => p.resource_id === resource.id && p.preview_url === resource.preview?.url);
+ const width = metadata?.source_width ?? evidence?.composition_width;
+ const height = metadata?.source_height ?? evidence?.composition_height;
+ if (!width || !height || width <= 0 || height <= 0) return 'unknown';
+ return width > height ? 'landscape' : width < height ? 'portrait' : 'square';
 }

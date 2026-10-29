@@ -546,5 +546,18 @@ test('video orientation uses measured source dimensions and rejects stale metada
  assert.equal(videoOrientation({...portrait,preview:{...portrait.preview!,url:'https://example.com/replaced.mp4'}}),'unknown');
  assert.equal(videoOrientation({...portrait,preview:undefined}),'unknown');
  const videos=homeGalleryItems();
- for(const format of ['landscape','portrait','square','unknown'])assert.ok(videos.some(r=>videoOrientation(r)===format));
+ for(const format of ['landscape','portrait','square'])assert.ok(videos.some(r=>videoOrientation(r)===format));
+});
+
+
+test('reviewed YouTube projects are landscape without classifying replacement URLs',()=>{
+ const embeds=homeGalleryItems().filter(isYouTubePreview);
+ assert.equal(embeds.length,5);
+ for(const resource of embeds){
+  assert.equal(videoOrientation(resource),'landscape',resource.id);
+  assert.equal(videoOrientation({...resource,preview:{...resource.preview!,url:'https://www.youtube.com/embed/abcdefghijk'}}),'unknown');
+ }
+ assert.equal(homeGalleryItems().filter(r=>videoOrientation(r)==='unknown').length,0);
+ const html=renderToString(React.createElement(App,{path:'/'}));
+ assert.doesNotMatch(html,/Unconfirmed format/);
 });

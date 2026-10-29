@@ -1,0 +1,62 @@
+[
+  {
+    "resource_id": "motion-canvas",
+    "preview_url": "https://www.youtube.com/embed/H5GETOP7ivs",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://github.com/motion-canvas/examples/blob/master/examples/motion-canvas/src/project.meta",
+    "oembed_url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=H5GETOP7ivs&format=json",
+    "embed_width": 200,
+    "embed_height": 113,
+    "checked_at": "2026-10-29",
+    "note": "Orientation verified against upstream project shared.size and YouTube oEmbed. Composition dimensions are not a measurement of the encoded YouTube stream."
+  },
+  {
+    "resource_id": "motion-canvas-asset-code",
+    "preview_url": "https://www.youtube.com/embed/s1ZQnS_tOg0",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://github.com/motion-canvas/examples/blob/master/examples/asset-code/src/project.meta",
+    "oembed_url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=s1ZQnS_tOg0&format=json",
+    "embed_width": 200,
+    "embed_height": 113,
+    "checked_at": "2026-10-29",
+    "note": "Orientation verified against upstream project shared.size and YouTube oEmbed. Composition dimensions are not a measurement of the encoded YouTube stream."
+  },
+  {
+    "resource_id": "motion-canvas-anniversary",
+    "preview_url": "https://www.youtube.com/embed/4kjEwvrDKlg",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://github.com/motion-canvas/examples/blob/master/examples/anniversary/src/projects/intro.meta",
+    "oembed_url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=4kjEwvrDKlg&format=json",
+    "embed_width": 200,
+    "embed_height": 113,
+    "checked_at": "2026-10-29",
+    "note": "Orientation verified against upstream project shared.size and YouTube oEmbed. Composition dimensions are not a measurement of the encoded YouTube stream."
+  },
+  {
+    "resource_id": "motion-canvas-smooth-parallax",
+    "preview_url": "https://www.youtube.com/embed/c_3TLN2gHow",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://github.com/motion-canvas/examples/blob/master/examples/smooth-parallax/src/project.meta",
+    "oembed_url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=c_3TLN2gHow&format=json",
+    "embed_width": 200,
+    "embed_height": 113,
+    "checked_at": "2026-10-29",
+    "note": "Orientation verified against upstream project shared.size and YouTube oEmbed. Composition dimensions are not a measurement of the encoded YouTube stream."
+  },
+  {
+    "resource_id": "motion-canvas-deferred-lights",
+    "preview_url": "https://www.youtube.com/embed/R6vQ9VmMz2w",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://github.com/motion-canvas/examples/blob/master/examples/deferred-lighting/src/project.meta",
+    "oembed_url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=R6vQ9VmMz2w&format=json",
+    "embed_width": 200,
+    "embed_height": 113,
+    "checked_at": "2026-10-29",
+    "note": "Orientation verified against upstream project shared.size and YouTube oEmbed. Composition dimensions are not a measurement of the encoded YouTube stream."
+  }
+]
