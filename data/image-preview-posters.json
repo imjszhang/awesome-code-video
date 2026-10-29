@@ -308,50 +308,6 @@
     "attribution": "Remotion (https://www.remotion.dev/templates/tiktok)"
   },
   {
-    "resource_id": "rendercomp-ink-spread-transition",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/ink-spread-transition.gif",
-    "poster": "/previews/rendercomp-ink-spread-transition.webp",
-    "source_sha256": "88d6ea67c51192138a27a3f18c4d4b7cf6df8efb628db6c370a4dc4945a61d6f",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "07c5b66bd7f67a997178b17605170d649c541e7dd937a9c492c05cffeeb3bf15",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-logo-bounce-drop",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/logo-bounce-drop.gif",
-    "poster": "/previews/rendercomp-logo-bounce-drop.webp",
-    "source_sha256": "11eb35a80111f8cbe52fc240f495b31080177f5710e983cb1cea476d3254d4ec",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "287922a8df4e7923dd87fab2c081135810c220bee08503b5e7a1d292097ca014",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-text-mask-reveal",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/text-mask-reveal.gif",
-    "poster": "/previews/rendercomp-text-mask-reveal.webp",
-    "source_sha256": "b83d2411b4467e066fa190984c972e7afde522d9e84e109e04fac2835ebfe9e5",
-    "frame_index": 7,
-    "frame_count": 20,
-    "poster_sha256": "a5eefdcca38ca91f88f419d986cf765b3d7af1a7b930fcc35af525a66dcc0473",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
-    "resource_id": "rendercomp-transition-circle-wipe",
-    "source_url": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/transition-circle-wipe.gif",
-    "poster": "/previews/rendercomp-transition-circle-wipe.webp",
-    "source_sha256": "a06b3f28aa3e2b18dc5417287cd3205053a9b47a680f3684cf17d9339723858c",
-    "frame_index": 7,
-    "frame_count": 19,
-    "poster_sha256": "ab570d2567a86e338d1471e3eee40512085430fb8ecf05281e55f7986f370179",
-    "license": "MIT",
-    "attribution": "RenderComp"
-  },
-  {
     "resource_id": "revideo-scramble",
     "source_url": "https://raw.githubusercontent.com/midrender/revideo/main/packages/template/scramble.gif",
     "poster": "/previews/revideo-scramble.webp",
@@ -372,5 +328,38 @@
     "poster_sha256": "c572214d35a0c3d5133fd8c83bf9f68732628d970b63e1aadafd0faff78774bf",
     "license": "待确认",
     "attribution": "AriaMinaei / Theatre.js (https://github.com/AriaMinaei/theatre-example-bouncing-box)"
+  },
+  {
+    "resource_id": "swiftclip-product-launch",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-launch.jpg",
+    "poster": "/previews/swiftclip-product-launch.webp",
+    "source_sha256": "39c099899d2113036f31e8f2ca12698b14552b3459f126e83373d7a1fb541445",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "6ebc177f4c16c6bbccedaffc66fbaf790e225ef9b5fcf6953384028d207d0edf",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-code-reveal",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/code-reveal.jpg",
+    "poster": "/previews/swiftclip-code-reveal.webp",
+    "source_sha256": "1e94ad56ba451166c255662cfe15175b3bfcf39375746600119ddb86cb7ca40e",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "6bba564b2e40e6692e663753e36814bb221dbf1d99010f4f848dbb67b6f68b8c",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors"
+  },
+  {
+    "resource_id": "swiftclip-data-viz",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/data-viz.jpg",
+    "poster": "/previews/swiftclip-data-viz.webp",
+    "source_sha256": "1ac7fad36d3430777635e514ff4f24233bb91388c67e6bed510edeb2dc74a7ea",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "ec9499dfa96b9055c444840dca0cb3c47092c716804a85d34ad0e57731f5b04a",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors"
   }
 ]

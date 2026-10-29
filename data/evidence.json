@@ -1295,7 +1295,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-28",
-    "notes": "Free templates marketing page embeds Cloudflare R2 MP4s at https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/<composition-id>.mp4 (50 titles). Sampled 10 matching catalog thumb_link rows on 2026-10-28: HTTP 200 video/mp4 + ftyp isom. ASSETS.md confirms the GitHub repo ships 0 video files (GIF thumbs only). Templates MIT (S-CV-077); Remotion runtime separate. Hotlink only; render_tested false."
+    "notes": "Free templates marketing page embeds Cloudflare R2 MP4s at https://pub-dccb845aa563454b8ae24952cf1ef5ed.r2.dev/previews/<composition-id>.mp4 (50 titles). Sampled 10 matching catalog thumb_link rows on 2026-10-28: HTTP 200 video/mp4 + ftyp isom. ASSETS.md confirms the GitHub repo ships 0 video files (GIF thumbs only). Templates MIT (S-CV-077); Remotion runtime separate. Hotlink only; render_tested false. Batch O on 2026-10-29 rechecked logo-bounce-drop (Content-Length 388955), transition-circle-wipe (284536), ink-spread-transition (343251), and text-mask-reveal (238227): each HEAD HTTP 200 video/mp4, Range bytes 0-63, ftyp isom. Posters kept at the existing /previews paths and regenerated from these MP4s. render_tested remains false."
   },
   {
     "id": "S-CV-119",
@@ -1350,7 +1350,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-28",
-    "notes": "Source-reviewed templates/NOTICE.md on 2026-10-28. Original Apache-2.0 templates: frame-data-chart-nyt, frame-glitch-title, frame-light-leak-cinema, frame-liquid-bg-hero, frame-logo-outro, vfx-text-cursor. Direct forks of heygen-com/hyperframes registry/examples (warm-grain, swiss-grid, kinetic-type, nyt-graph, decision-tree, play-mode, product-promo, vignelli) are named in NOTICE and are not added in this batch. No local render."
+    "notes": "Source-reviewed templates/NOTICE.md on 2026-10-28. Original Apache-2.0 templates: frame-data-chart-nyt, frame-glitch-title, frame-light-leak-cinema, frame-liquid-bg-hero, frame-logo-outro, vfx-text-cursor. Direct forks of heygen-com/hyperframes registry/examples (warm-grain, swiss-grid, kinetic-type, nyt-graph, decision-tree, play-mode, product-promo, vignelli) are named in NOTICE and are not added in this batch. No local render. On 2026-10-29 Batch O re-read this NOTICE: frame-swiss-grid, frame-kinetic-type, and frame-warm-grain remain listed as heygen-com/hyperframes forks and are cataloged in that batch. frame-bold-poster is not named here."
   },
   {
     "id": "S-CV-124",
@@ -1956,5 +1956,27 @@
     "reliability": "medium",
     "checked_at": "2026-10-29",
     "notes": "Batch N-prime adds three unused families: 3d-device-stages-macro-detail.mp4 (Content-Length=23514), app-onboarding-profile-setup.mp4 (Content-Length=22869), and cinematic-credits-end-credits.mp4 (Content-Length=14819). HEAD on 2026-10-29 via raw.githubusercontent.com returned HTTP 200 application/octet-stream and ftyp isom for each file. No root LICENSE (S-CV-117), so redistributable is false. Muted short loops are not finished films. Hotlink only; files were not copied into this repository and were not render-tested locally."
+  },
+  {
+    "id": "S-CV-158",
+    "project_id": "swiftclip",
+    "title": "SwiftClip — MIT license, three Remotion scenes, and JPEG thumbnails",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/LICENSE",
+    "type": "license",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Reviewed on 2026-10-29. GitHub repository zz41354899/SwiftClip id 1225439149, default branch main, SPDX MIT. LICENSE is the MIT license, copyright 2026 SwiftClip contributors. Root.tsx registers ProductLaunch at 1920 by 1080, 30 fps, 450 frames; CodeReveal at 1920 by 1080, 30 fps, 300 frames; DataViz at 1920 by 1080, 30 fps, 600 frames. The default-branch tree contains JPEG files under public/thumbnails and no mp4 or webm files. HEAD on 2026-10-29: product-launch.jpg 200 image/jpeg Content-Length 46320; code-reveal.jpg 29364; data-viz.jpg 30132. Each Range bytes 0-63 begins with a JPEG SOI marker. These thumbnails are not playable films. Remotion's runtime license is separate. Hotlink only. Not render-tested."
+  },
+  {
+    "id": "S-CV-159",
+    "project_id": "html-video",
+    "title": "html-video Batch O frames — Open Design raw preview.mp4 files",
+    "url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/video-templates",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Batch O previews rechecked on 2026-10-29 via raw.githubusercontent.com/nexu-io/open-design, not jsDelivr. HEAD HTTP 200 application/octet-stream and Range bytes 0-63 ftyp isom: frame-swiss-grid/preview.mp4 Content-Length 529596, frame-kinetic-type 540407, frame-warm-grain 792683, frame-bold-poster 368055. templates/NOTICE.md names frame-swiss-grid, frame-kinetic-type, and frame-warm-grain as direct Apache-2.0 forks of heygen-com/hyperframes registry/examples. Their template.html-video.yaml files set 1920 by 1080, default 30 fps, and a variable duration of 3 to 30 seconds (defaults 10, 15, and 10). frame-bold-poster is absent from NOTICE.md. Its yaml is Apache-2.0, author nexu-io, default 1920 by 1080 at 60 fps, duration 4 to 6 seconds, and records provenance via frontend-slides by Zara Zhang (MIT, https://github.com/zarazhangrui/frontend-slides). Hotlink only. Not copied. Not a local render. Short preview loops are not finished films."
   }
 ]
