@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 185 个可复用单元：115 个成片或场景工程、6 个地图镜头、37 个镜头配方、27 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 196 个可复用单元：121 个成片或场景工程、6 个地图镜头、40 个镜头配方、29 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -151,6 +151,8 @@
 - [产品发布](https://github.com/zz41354899/SwiftClip/blob/main/remotion/ProductLaunch.tsx) - Remotion 场景：标题和图标淡入，随后是蓝色副标题和候补名单按钮。Root.tsx 将 ProductLaunch 登记为 1920×1080、30 fps、450 帧（15 秒）。复用 remotion/ProductLaunch.tsx 及其标题参数，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4。Remotion 运行时许可另行适用。2026-10-29 仅做源码审阅，没有本地渲染测试。
 - [代码揭示](https://github.com/zz41354899/SwiftClip/blob/main/remotion/CodeReveal.tsx) - Remotion 场景：磨砂代码卡片滑入，并显示一小段带语法色的代码。Root.tsx 将 CodeReveal 登记为 1920×1080、30 fps、300 帧（10 秒）。复用 remotion/CodeReveal.tsx，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4。Remotion 运行时许可另行适用。2026-10-29 仅做源码审阅，没有本地渲染测试。
 - [数据可视化](https://github.com/zz41354899/SwiftClip/blob/main/remotion/DataViz.tsx) - Remotion 场景：系统负载卡片出现，进度条填充到 75%。Root.tsx 将 DataViz 登记为 1920×1080、30 fps、600 帧（20 秒）。复用 remotion/DataViz.tsx，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4。Remotion 运行时许可另行适用。2026-10-29 仅做源码审阅，没有本地渲染测试。
+- [品牌揭示](https://github.com/zz41354899/SwiftClip/blob/main/remotion/BrandReveal.tsx) - Remotion 场景：彩色标识先放大出现，随后是品牌名和大写标语。Root.tsx 将 BrandReveal 登记为 1920×1080、30 fps、180 帧（6 秒）。复用 remotion/BrandReveal.tsx 及其品牌参数，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4，因此这不是可播放成片。没有生成式提示词。Remotion 运行时许可另行适用。2026-10-29 仅做源码审阅，没有本地渲染测试。
+- [庆祝迸发](https://github.com/zz41354899/SwiftClip/blob/main/remotion/CelebrationBurst.tsx) - Remotion 场景：磨砂卡片放大出现，带奖杯和达成目标的标题。Root.tsx 将 CelebrationBurst 登记为 1080×1080、30 fps、180 帧（6 秒）。复用 remotion/CelebrationBurst.tsx，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4，因此这不是可播放成片。没有生成式提示词。Remotion 运行时许可另行适用。2026-10-29 仅做源码审阅，没有本地渲染测试。
 
 下面 6 条是 nexu-io html-video 的原创模板，Apache-2.0，NOTICE 有标明。可播放预览热链自 Open Design 镜像（jsDelivr），没有在本地渲染。
 
@@ -168,6 +170,13 @@
 - [动态字体](https://github.com/nexu-io/html-video/tree/main/templates/frame-kinetic-type) - 粗体动态字体宣传，适合有力的开场和陈述标题。templates/NOTICE.md 将 frame-kinetic-type 标为 heygen-com/hyperframes registry/examples/kinetic-type 的直接分叉，Apache-2.0。复用 templates/frame-kinetic-type，替换文案。规格默认 1920×1080、30 fps，时长可变，约 3 到 30 秒（默认 15 秒）。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-29 做过 HEAD，没有在本地渲染。短环不是完整成片。
 - [暖颗粒](https://github.com/nexu-io/html-video/tree/main/templates/frame-warm-grain) - 带颗粒质感的奶油色编辑画面，适合生活方式品牌和杂志式开场。templates/NOTICE.md 将 frame-warm-grain 标为 heygen-com/hyperframes registry/examples/warm-grain 的直接分叉，Apache-2.0。复用 templates/frame-warm-grain，替换文案。规格默认 1920×1080、30 fps，时长可变，约 3 到 30 秒（默认 10 秒）。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-29 做过 HEAD，没有在本地渲染。短环不是完整成片。
 - [粗体海报](https://github.com/nexu-io/html-video/tree/main/templates/frame-bold-poster) - 编辑风海报画面，有红线、巨大展示字符和倾斜的标题行。template.html-video.yaml 许可为 Apache-2.0，并把设计说明归于 Zara Zhang 的 frontend-slides（MIT）；templates/NOTICE.md 没有把它列为 heygen-com/hyperframes 分叉。复用 templates/frame-bold-poster，替换标题。规格默认 1920×1080、60 fps，时长可变，约 4 到 6 秒。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-29 做过 HEAD，没有在本地渲染。短环不是完整成片。
+
+下面 4 条继续使用 GitHub raw 预览。决策树和 Vignelli 是 templates/NOTICE.md 点名的 HyperFrames 示例分叉。大胆信号和极简构建是 Apache-2.0 模板，NOTICE.md 没有把它们列为 HyperFrames 分叉。可播放预览是 Open Design 在 GitHub raw 上的 MP4，不是 jsDelivr，没有在本地渲染。
+
+- [决策树](https://github.com/nexu-io/html-video/tree/main/templates/frame-decision-tree) - 带分支的流程图，适合步骤说明和流程示意。templates/NOTICE.md 将 frame-decision-tree 标为 heygen-com/hyperframes registry/examples/decision-tree 的直接分叉，Apache-2.0。复用 templates/frame-decision-tree。规格默认 1920×1080、30 fps，时长可变，约 3 到 30 秒（默认 15 秒）。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-29 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
+- [Vignelli](https://github.com/nexu-io/html-video/tree/main/templates/frame-vignelli) - 粗体字和红色强调，适合社交陈述。templates/NOTICE.md 将 frame-vignelli 标为 heygen-com/hyperframes registry/examples/vignelli 的直接分叉，Apache-2.0。复用 templates/frame-vignelli，替换文案。规格默认 1080×1920、30 fps，时长可变，约 3 到 30 秒（默认 10 秒）。所链接的 Open Design preview.mp4 实测为 1920×1080。可播放预览是这份 GitHub raw MP4，按 Apache-2.0 热链；2026-10-29 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
+- [大胆信号](https://github.com/nexu-io/html-video/tree/main/templates/frame-bold-signal) - 深色章节卡：章节编号滚入，面包屑淡出，橙色卡片带着标题滑入。template.html-video.yaml 许可为 Apache-2.0，并把视觉归于 Zara Zhang 的 frontend-slides Bold Signal 预设（MIT）；templates/NOTICE.md 没有把它列为 heygen-com/hyperframes 分叉，yaml 写明动作是重做的，不是逐字拷贝上游源码。复用 templates/frame-bold-signal，替换标题。规格默认 1920×1080、60 fps，时长可变，约 3 到 6 秒。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-29 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
+- [极简构建](https://github.com/nexu-io/html-video/tree/main/templates/frame-build-minimal) - 大留白主视觉：一个细字单词先出现，随后是暖金色发丝线。template.html-video.yaml 许可为 Apache-2.0，并把视觉归于 alchaincyf 的 huashu-design（MIT）；templates/NOTICE.md 没有把它列为 heygen-com/hyperframes 分叉，yaml 写明动作是重做的，不是逐字拷贝上游源码。复用 templates/frame-build-minimal，替换主标题词。规格默认 1920×1080、60 fps，时长可变，约 4 到 7 秒。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-29 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
 
 下面两条是 Open Design 技能，交付的是 HTML 成片工程。目录预览是 example.html 页面，不是视频文件。
 
@@ -242,6 +251,9 @@
 - [3D 设备舞台 — 微距细节](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/3d-device-stages-macro-detail.mp4) - ali-abassi/remotion-templates 中 3d-device 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 - [应用引导 — 资料设置](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/app-onboarding-profile-setup.mp4) - ali-abassi/remotion-templates 中 app-onboarding 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 - [电影片尾 — 演职员表](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cinematic-credits-end-credits.mp4) - ali-abassi/remotion-templates 中 cinematic-credits 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [片头倒计时](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/retro-film-leader-countdown.mp4) - ali-abassi/remotion-templates 中 retro-vhs 家族的静音短环预览。复用 src/families/retro-vhs.tsx，登记 id 为 retro-film-leader-countdown，1920×1080、30 fps、120 帧。画面是学院风胶片片头倒计时，带校准环、旋转扫光和片门抖动。上游没有 SPDX，不可再分发，MP4 只热链。有项目包和视频预览，没有计入生成式提示词。没有本地渲染测试。
+- [示波器](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/music-visualizers-oscilloscope.mp4) - ali-abassi/remotion-templates 中 music-visualizers 家族的静音短环预览。复用 src/families/music-visualizers.tsx，登记 id 为 music-visualizers-oscilloscope，1920×1080、30 fps、150 帧。画面是双踪示波器和波形运动。上游没有 SPDX，不可再分发，MP4 只热链。有项目包和视频预览，没有计入生成式提示词。没有本地渲染测试。
+- [信号丢失恢复](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/glitch-signal-lost.mp4) - ali-abassi/remotion-templates 中 glitch-chroma 家族的静音短环预览。复用 src/families/glitch-chroma.tsx，登记 id 为 glitch-signal-lost，1920×1080、30 fps、100 帧。广播雪花和丢失信号提示切到几何标志。上游没有 SPDX，不可再分发，MP4 只热链。有项目包和视频预览，没有计入生成式提示词。没有本地渲染测试。
 
 ## 视觉风格文件
 
@@ -276,6 +288,8 @@
 | [世纪中叶卡通](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/midcentury-toon) | 扁平套色、几何人物和有限动画，适合步骤说明；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 跟做教程与说明短片 |
 | [黑板](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/chalkboard/STYLE.md) | 深墨绿色板面，粉笔按笔顺自己写出，镜头正对黑板；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 课堂讲解短片 |
 | [红色剪纸](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/papercut-red/STYLE.md) | 接合的中国红色剪纸，细节靠镂空而不是描边，人物按 12 fps 步进；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 民俗与叙事短片 |
+| [电路板](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/circuit-board/STYLE.md) | 俯视印刷电路：绿色阻焊、铜走线、金焊盘，光沿铜线移动。STYLE.md 是风格提示词，不是可分叉的成片或构图包；演示片 CC BY 4.0，署名 LemoLab | 系统、信号与流程讲解 |
+| [新闻片](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/newsreel/STYLE.md) | 1920 年代末新闻片：放映片门、探照灯片头、旋转报纸，以及档案素材上的播音。STYLE.md 是风格提示词，不是可分叉的成片或构图包；演示片 CC BY 4.0，署名 LemoLab | 档案与叙事短片 |
 
 ## 视频制作框架
 
@@ -285,7 +299,7 @@
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - 将 HTML、CSS 和 JavaScript 动画制作成视频，适合网页技术栈与编程助手协作。
 - [Motion Canvas](https://motioncanvas.io/) - 用 TypeScript 编排动画，适合图解和讲解型视频。
 - [Manim Community](https://www.manim.community/) - 用 Python 制作数学与技术动画，适合公式、几何和概念推导；这里链接的是社区维护版。
-- [html-video](https://github.com/nexu-io/html-video) - 面向编程助手的 HTML 到本地 MP4 层，带模板库和统一渲染适配接口。目前真正接好的引擎是 HyperFrames（无头 Chromium 加 FFmpeg）；Remotion、Motion Canvas、Revideo、Manim 在文档里仍是路线图，这里不能当成已经可渲染。仓库为 Apache-2.0，文档写有 21 个模板；本清单收录这个框架、NOTICE 标明的 6 个原创模板、3 个 NOTICE 点名的 HyperFrames 分叉（瑞士网格、动态字体、暖颗粒），以及 Bold Poster（Apache-2.0，设计说明出自 MIT 的 frontend-slides，不是 HyperFrames 分叉）。其余 HyperFrames 示例分叉仍不收录。预览是仓库 hero PNG（缩略图链接），按 Apache-2.0 热链。2026-10-28 仅做源码审阅，没有本地渲染测试。
+- [html-video](https://github.com/nexu-io/html-video) - 面向编程助手的 HTML 到本地 MP4 层，带模板库和统一渲染适配接口。目前真正接好的引擎是 HyperFrames（无头 Chromium 加 FFmpeg）；Remotion、Motion Canvas、Revideo、Manim 在文档里仍是路线图，这里不能当成已经可渲染。仓库为 Apache-2.0，文档写有 21 个模板；本清单收录这个框架、NOTICE 标明的 6 个原创模板、5 个 NOTICE 点名的 HyperFrames 分叉（瑞士网格、动态字体、暖颗粒、决策树、Vignelli），Bold Poster 与大胆信号（Apache-2.0，设计说明出自 MIT 的 frontend-slides，不是 HyperFrames 分叉），以及极简构建（Apache-2.0，提炼自 MIT 的 huashu-design，不是 HyperFrames 分叉）。其余 HyperFrames 示例分叉仍不收录。预览是仓库 hero PNG（缩略图链接），按 Apache-2.0 热链。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
 ## 视频动效辅助工具
 

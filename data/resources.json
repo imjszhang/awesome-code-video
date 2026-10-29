@@ -5041,7 +5041,7 @@
     "kind": "framework",
     "url": "https://github.com/nexu-io/html-video",
     "section": "Frameworks and Renderers",
-    "description": "HTML-to-local-MP4 layer for coding agents, with a template gallery and one render-adapter interface. The shipped engine is HyperFrames (headless Chromium and FFmpeg); Remotion, Motion Canvas, Revideo, and Manim adapters are documented as roadmap only and do not render here. The repository is Apache-2.0 and documents 21 templates; this catalog adds the framework entry, six NOTICE-marked originals, three NOTICE-named HyperFrames forks (Swiss Grid, Kinetic Type, and Warm Grain), and Bold Poster, which is Apache-2.0 with a MIT frontend-slides provenance rather than a HyperFrames fork. Other HyperFrames example forks stay out. The preview is the repository hero PNG (thumb link), hotlinked under Apache-2.0. Source-reviewed on 2026-10-28; not render-tested.",
+    "description": "HTML-to-local-MP4 layer for coding agents, with a template gallery and one render-adapter interface. The shipped engine is HyperFrames (headless Chromium and FFmpeg); Remotion, Motion Canvas, Revideo, and Manim adapters are documented as roadmap only and do not render here. The repository is Apache-2.0 and documents 21 templates; this catalog adds the framework entry, six NOTICE-marked originals, five NOTICE-named HyperFrames forks (Swiss Grid, Kinetic Type, Warm Grain, Decision Tree, and Vignelli), Bold Poster and Bold Signal (Apache-2.0, with MIT frontend-slides provenance, and not HyperFrames forks), and Build Minimal (Apache-2.0, distilled from MIT-licensed huashu-design, and not a HyperFrames fork). Other HyperFrames example forks stay out. The preview is the repository hero PNG (thumb link), hotlinked under Apache-2.0. Source-reviewed on 2026-10-28; not render-tested.",
     "evidence_ids": [
       "S-CV-122",
       "S-CV-126"
@@ -6156,6 +6156,323 @@
       "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/papercut-red.mp4. HEAD -L on 2026-10-29: HTTP 200 application/octet-stream Content-Length=7752934, ftyp isom. STYLE.md at styles/papercut-red/STYLE.md returned HTTP 200. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Hotlink only; not copied into this repository. Not a local render test.",
       "checked_at": "2026-10-29",
       "poster": "/previews/lemo-opuscar-papercut-red.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-retro-film-leader-countdown",
+    "project_id": "remotion-templates",
+    "name": "Film Leader Countdown",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/retro-film-leader-countdown.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the retro-vhs family in ali-abassi/remotion-templates. Reuse src/families/retro-vhs.tsx and registry id retro-film-leader-countdown, which sets 1920 by 1080, 30 fps, and 120 frames. It is a vintage academy-style film-leader countdown with calibration rings, a rotating sweep, and gate jitter. License SPDX is missing upstream, so redistributable is false and the MP4 is hotlinked only. The entry has a project package and a video preview, and it records no generative prompt. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-160",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/retro-film-leader-countdown.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-160 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/retro-film-leader-countdown.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=488219, ftyp isom. Registry src/families/retro-vhs.registry.json sets 1920 by 1080, 30 fps, 120 frames. No root LICENSE (S-CV-117; LICENSE still HTTP 404 on 2026-10-29). Hotlink only; muted loop is not a full film; not a local render test. agentPrompt is not counted as a generative prompt.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-retro-film-leader-countdown.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-music-visualizers-oscilloscope",
+    "project_id": "remotion-templates",
+    "name": "Oscilloscope",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/music-visualizers-oscilloscope.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the music-visualizers family in ali-abassi/remotion-templates. Reuse src/families/music-visualizers.tsx and registry id music-visualizers-oscilloscope, which sets 1920 by 1080, 30 fps, and 150 frames. It is a dual-trace oscilloscope with waveform motion. License SPDX is missing upstream, so redistributable is false and the MP4 is hotlinked only. The entry has a project package and a video preview, and it records no generative prompt. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-160",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/music-visualizers-oscilloscope.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-160 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/music-visualizers-oscilloscope.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=167259, ftyp isom. Registry src/families/music-visualizers.registry.json sets 1920 by 1080, 30 fps, 150 frames. No root LICENSE (S-CV-117; LICENSE still HTTP 404 on 2026-10-29). Hotlink only; muted loop is not a full film; not a local render test. agentPrompt is not counted as a generative prompt.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-music-visualizers-oscilloscope.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-glitch-signal-lost",
+    "project_id": "remotion-templates",
+    "name": "Signal Lost Restore",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/glitch-signal-lost.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the glitch-chroma family in ali-abassi/remotion-templates. Reuse src/families/glitch-chroma.tsx and registry id glitch-signal-lost, which sets 1920 by 1080, 30 fps, and 100 frames. Broadcast static and a lost-signal warning snap into a geometric logo. License SPDX is missing upstream, so redistributable is false and the MP4 is hotlinked only. The entry has a project package and a video preview, and it records no generative prompt. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-160",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/glitch-signal-lost.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-160 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/glitch-signal-lost.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=119406, ftyp isom. Registry src/families/glitch-chroma.registry.json sets 1920 by 1080, 30 fps, 100 frames. No root LICENSE (S-CV-117; LICENSE still HTTP 404 on 2026-10-29). Hotlink only; muted loop is not a full film; not a local render test. agentPrompt is not counted as a generative prompt.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-glitch-signal-lost.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-decision-tree",
+    "project_id": "html-video",
+    "name": "Decision Tree",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-decision-tree",
+    "section": "Film and Scene Templates",
+    "description": "Branching flowchart for how-to flows and process diagrams. templates/NOTICE.md lists frame-decision-tree as a direct Apache-2.0 fork of heygen-com/hyperframes registry/examples/decision-tree. Reuse templates/frame-decision-tree. The spec defaults to 1920 by 1080 at 30 fps, with a variable length of 3 to 30 seconds (default 15). The playable preview is the Open Design raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film. The template package has a video preview and no generative prompt.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-161"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-decision-tree/preview.mp4",
+      "license": "Apache-2.0 (HyperFrames fork per html-video templates/NOTICE.md)",
+      "attribution": "nexu-io / Open Design + heygen-com/hyperframes (see NOTICE.md)",
+      "redistributable": true,
+      "source": "S-CV-161 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-decision-tree/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 394592. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-decision-tree.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-vignelli",
+    "project_id": "html-video",
+    "name": "Vignelli",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-vignelli",
+    "section": "Film and Scene Templates",
+    "description": "Bold type with red accents for social statements. templates/NOTICE.md lists frame-vignelli as a direct Apache-2.0 fork of heygen-com/hyperframes registry/examples/vignelli. Reuse templates/frame-vignelli and replace the copy. The spec defaults to 1080 by 1920 at 30 fps, with a variable length of 3 to 30 seconds (default 10). The linked Open Design preview.mp4 probed as 1920 by 1080. The playable preview is that raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film. The template package has a video preview and no generative prompt.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-161"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-vignelli/preview.mp4",
+      "license": "Apache-2.0 (HyperFrames fork per html-video templates/NOTICE.md)",
+      "attribution": "nexu-io / Open Design + heygen-com/hyperframes (see NOTICE.md)",
+      "redistributable": true,
+      "source": "S-CV-161 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-vignelli/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 264909. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-vignelli.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-bold-signal",
+    "project_id": "html-video",
+    "name": "Bold Signal",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-bold-signal",
+    "section": "Film and Scene Templates",
+    "description": "Dark section card where a section number rolls in, a breadcrumb fades, and an orange card slides in with the title. template.html-video.yaml licenses it Apache-2.0 and attributes the look to the frontend-slides Bold Signal preset by Zara Zhang (MIT); templates/NOTICE.md does not list it as a heygen-com/hyperframes fork, and the yaml says the motion was rebuilt rather than copied verbatim. Reuse templates/frame-bold-signal and replace the title. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 3 to 6 seconds. The playable preview is the Open Design raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film. The template package has a video preview and no generative prompt.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-161"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-bold-signal/preview.mp4",
+      "license": "Apache-2.0 (html-video template.yaml; design look attributed to frontend-slides, MIT)",
+      "attribution": "nexu-io / Open Design; frontend-slides Bold Signal preset by Zara Zhang (MIT)",
+      "redistributable": true,
+      "source": "S-CV-161 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-bold-signal/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 150640. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-bold-signal.webp"
+    }
+  },
+  {
+    "id": "html-video-frame-build-minimal",
+    "project_id": "html-video",
+    "name": "Build Minimal",
+    "kind": "scene",
+    "url": "https://github.com/nexu-io/html-video/tree/main/templates/frame-build-minimal",
+    "section": "Film and Scene Templates",
+    "description": "Whitespace hero that reveals one thin word, then a warm-gold hairline. template.html-video.yaml licenses it Apache-2.0 and attributes the look to huashu-design by alchaincyf (MIT); templates/NOTICE.md does not list it as a heygen-com/hyperframes fork, and the yaml says the motion was rebuilt rather than copied verbatim. Reuse templates/frame-build-minimal and replace the hero word. The spec defaults to 1920 by 1080 at 60 fps, with a variable length of 4 to 7 seconds. The playable preview is the Open Design raw GitHub MP4, hotlinked under Apache-2.0; HEAD-checked on 2026-10-29 and not render-tested locally. The short loop is not a finished film. The template package has a video preview and no generative prompt.",
+    "evidence_ids": [
+      "S-CV-123",
+      "S-CV-161"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-build-minimal/preview.mp4",
+      "license": "Apache-2.0 (html-video template.yaml; design look attributed to huashu-design, MIT)",
+      "attribution": "nexu-io / Open Design; huashu-design by alchaincyf (MIT)",
+      "redistributable": true,
+      "source": "S-CV-161 https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-build-minimal/preview.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream, Content-Length 110826. Range bytes 0-63 returned ftyp isom. Raw GitHub Open Design mirror; not jsDelivr. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/html-video-frame-build-minimal.webp"
+    }
+  },
+  {
+    "id": "swiftclip-brand-reveal",
+    "project_id": "swiftclip",
+    "name": "Brand Reveal",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/BrandReveal.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion scene that scales in a colored mark, then a brand name and an uppercase tagline. Root.tsx registers BrandReveal at 1920 by 1080, 30 fps, and 180 frames (6 seconds). Reuse remotion/BrandReveal.tsx and its brand props, and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-29; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/brand-reveal.jpg",
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "redistributable": true,
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/brand-reveal.jpg. HEAD on 2026-10-29: HTTP 200 image/jpeg, Content-Length 29261. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/swiftclip-brand-reveal.webp"
+    }
+  },
+  {
+    "id": "swiftclip-celebration-burst",
+    "project_id": "swiftclip",
+    "name": "Celebration Burst",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/CelebrationBurst.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion scene that scales in a frosted card with a trophy and a goal headline. Root.tsx registers CelebrationBurst at 1080 by 1080, 30 fps, and 180 frames (6 seconds). Reuse remotion/CelebrationBurst.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-29; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/celebration-burst.jpg",
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "redistributable": true,
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/celebration-burst.jpg. HEAD on 2026-10-29: HTTP 200 image/jpeg, Content-Length 23104. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/swiftclip-celebration-burst.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-circuit-board",
+    "project_id": "lemo-opuscar",
+    "name": "Circuit Board",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/circuit-board/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Top-down printed-circuit visual style from lemo-opuscar: green solder mask, copper traces, gold pads, and light that travels the copper. styles/circuit-board/STYLE.md is a style prompt, not a forkable film or composition package. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse the style prompt as art direction for a new film.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/circuit-board.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/circuit-board.mp4. HEAD -L on 2026-10-29: HTTP 200 application/octet-stream Content-Length=10262124, ftyp isom. STYLE.md at styles/circuit-board/STYLE.md returned HTTP 200. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Style prompt plus demo film; not a composition project package. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-circuit-board.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-newsreel",
+    "project_id": "lemo-opuscar",
+    "name": "Newsreel",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/newsreel/STYLE.md",
+    "section": "Visual Style Templates",
+    "description": "Late-1920s newsreel visual style from lemo-opuscar: a projected film gate, searchlight ident, spinning newspaper, and an announcer over archive material. styles/newsreel/STYLE.md is a style prompt, not a forkable film or composition package. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse the style prompt as art direction for a new film.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/newsreel.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/newsreel.mp4. HEAD -L on 2026-10-29: HTTP 200 application/octet-stream Content-Length=9955989, ftyp isom. STYLE.md at styles/newsreel/STYLE.md returned HTTP 200. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Style prompt plus demo film; not a composition project package. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-newsreel.webp"
     }
   }
 ]
