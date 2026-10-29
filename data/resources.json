@@ -5713,5 +5713,179 @@
       "checked_at": "2026-10-29",
       "poster": "https://raw.githubusercontent.com/motiontemplates/385712/main/assets/poster.jpg"
     }
+  },
+  {
+    "id": "lemo-opuscar-glass-product",
+    "project_id": "lemo-opuscar",
+    "name": "Glass Product",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/glass-product",
+    "section": "Visual Style Templates",
+    "description": "Dark-field glass product visual style from lemo-opuscar: refractive and frosted glass, strip-light sweeps, and slow exploded views. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/glass-product as art direction for a new film, not as a finished template.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/glass-product.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/glass-product.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=4732458, ftyp isom. Style directory styles/glass-product returned HTTP 200 for STYLE.md. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-glass-product.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-one-line",
+    "project_id": "lemo-opuscar",
+    "name": "One Line",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/one-line",
+    "section": "Visual Style Templates",
+    "description": "Single continuous-line drawing visual style from lemo-opuscar: one ink line on warm paper, with scenes that morph instead of cutting. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/one-line as art direction for a new film, not as a finished template.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/one-line.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/one-line.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=3961464, ftyp isom. Style directory styles/one-line returned HTTP 200 for STYLE.md. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-one-line.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-midcentury-toon",
+    "project_id": "lemo-opuscar",
+    "name": "Midcentury Toon",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/midcentury-toon",
+    "section": "Visual Style Templates",
+    "description": "Mid-century cartoon visual style from lemo-opuscar: flat off-register color, geometric figures, and limited animation for how-to cards. Demo film on the web release tag is CC BY 4.0; credit LemoLab. Reuse styles/midcentury-toon as art direction for a new film, not as a finished template.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/midcentury-toon.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/midcentury-toon.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=4303162, ftyp isom. Style directory styles/midcentury-toon returned HTTP 200 for STYLE.md. README Licence: demo films and stills are CC BY 4.0; credit LemoLab and link the repository. Code remains MIT (S-CV-054). Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-midcentury-toon.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-3d-device-stages-macro",
+    "project_id": "remotion-templates",
+    "name": "3D Device Stages — Macro Detail",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/3d-device-stages-macro-detail.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the 3d-device family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-157",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/3d-device-stages-macro-detail.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-157 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/3d-device-stages-macro-detail.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=23514, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop is not a full film; not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-3d-device-stages-macro.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-app-onboarding-profile",
+    "project_id": "remotion-templates",
+    "name": "App Onboarding — Profile Setup",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/app-onboarding-profile-setup.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the app-onboarding family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-157",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/app-onboarding-profile-setup.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-157 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/app-onboarding-profile-setup.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=22869, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop is not a full film; not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-app-onboarding-profile.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-cinematic-credits-end",
+    "project_id": "remotion-templates",
+    "name": "Cinematic Credits — End Credits",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cinematic-credits-end-credits.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the cinematic-credits family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-157",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cinematic-credits-end-credits.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-157 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cinematic-credits-end-credits.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=14819, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop is not a full film; not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-cinematic-credits-end.webp"
+    }
   }
 ]
