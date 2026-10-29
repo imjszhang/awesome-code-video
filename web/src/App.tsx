@@ -4,7 +4,7 @@ import {PrivacyChoices} from './PrivacyChoices';
 import {getAnalyticsConsent,subscribeAnalytics,trackEvent} from './analytics';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
-import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,isYouTubePreview,resolvePreview,type Resource} from './model';
+import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 export type SiteMeasurement={trackEvent:typeof trackEvent;getAnalyticsConsent:typeof getAnalyticsConsent;subscribeAnalytics:typeof subscribeAnalytics};
 const defaultMeasurement:SiteMeasurement={trackEvent,getAnalyticsConsent,subscribeAnalytics};
@@ -90,6 +90,7 @@ function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>strin
  const grid=useRef<HTMLDivElement>(null);
  const revealIndex=useRef<number|null>(null);
  const [browse,setBrowse]=useState(createGalleryBrowseState);
+ const [orientation,setOrientation]=useState<VideoOrientation>('landscape');
  const [playback,setPlayback]=useState<GalleryPlaybackState>({activeId:null,playing:false});
  const playbackRef=useRef(playback);
  const playRequest=useRef(0);
@@ -166,14 +167,15 @@ function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>strin
   selectTab(category);
  }
  const groups=homePreviewGroups();
+ const orientations = [{id:'landscape',label:'Landscape'}, {id:'portrait',label:'Portrait'}, {id:'square',label:'Square'}, {id:'unknown',label:'Unconfirmed format'}] as const;
  const sections=[
-  {id:'video-gallery',label:'Video gallery',unit:'videos',items:groups.videos,description:'A shot, a style, a whole new direction. Watch the work, then explore its source.',format:'Click to play · Starts muted'},
+  {id:'video-gallery',label:'Video gallery',unit:'videos',items:groups.videos.filter(resource=>videoOrientation(resource)===orientation),description:'A shot, a style, a whole new direction. Watch the work, then explore its source.',format:'Click to play · Starts muted'},
   {id:'animated-examples',label:'Animated examples',unit:'animated examples',items:groups.animations,description:'Small studies in motion. Open an animation to see how the idea comes together.',format:'GIF & animated WebP'},
   {id:'other-resources',label:'Other resources',unit:'resources',items:groups.other,description:'Visual starting points, templates and tools. Follow a frame back to its creator.',format:'Images & project pages'},
  ] satisfies {id:GalleryCategory,label:string,unit:string,items:Resource[],description:string,format:string}[];
  return <>
   <div className="gallery-navigation" role="tablist" aria-label="Browse media types">
-   {sections.map((section,index)=><button key={section.id} type="button" role="tab" id={`${section.id}-tab`} aria-controls={section.id} aria-selected={browse.activeCategory===section.id} tabIndex={browse.activeCategory===section.id?0:-1} ref={node=>{if(node)tabs.current.set(section.id,node);else tabs.current.delete(section.id);}} onClick={()=>selectTab(section.id)} onKeyDown={event=>handleTabKey(event,index)}>{section.label} <span>{section.items.length}</span></button>)}
+   {sections.map((section,index)=><button key={section.id} type="button" role="tab" id={`${section.id}-tab`} aria-controls={section.id} aria-selected={browse.activeCategory===section.id} tabIndex={browse.activeCategory===section.id?0:-1} ref={node=>{if(node)tabs.current.set(section.id,node);else tabs.current.delete(section.id);}} onClick={()=>selectTab(section.id)} onKeyDown={event=>handleTabKey(event,index)}>{section.label} <span>{section.id==='video-gallery'?groups.videos.length:section.items.length}</span></button>)}
   </div>
   {sections.map(section=>{
    const active=browse.activeCategory===section.id;
@@ -181,8 +183,9 @@ function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>strin
    const remaining=section.items.length-visible.length;
    return <section key={section.id} id={section.id} className="section home-gallery" role="tabpanel" aria-labelledby={`${section.id}-tab`} hidden={!active} tabIndex={active?0:-1}>
     {active&&<>
+     {section.id==='video-gallery'&&<div className="gallery-orientations" role="group" aria-label="Video orientation">{orientations.map(option=><button key={option.id} type="button" aria-pressed={orientation===option.id} onClick={()=>{activate('video-gallery');setOrientation(option.id);setBrowse(current=>({...current,visibleCounts:{...current.visibleCounts,'video-gallery':GALLERY_BATCH_SIZE}}));}}>{option.label} <span>{groups.videos.filter(resource=>videoOrientation(resource)===option.id).length}</span></button>)}</div>}
      <div className="gallery-context"><p className="gallery-lead">{section.description}</p><span className="gallery-format">{section.format}</span></div>
-     <div className="card-grid" ref={grid}>{visible.map(resource=><GalleryCard key={resource.id} resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.activeId} playing={playback.playing} onToggle={toggle} onPlayback={onPlayback} onVideo={onVideo} measurement={measurement}/>)}</div>
+     <div className={`card-grid ${section.id==='video-gallery'?`gallery-${orientation}`:''}`} ref={grid}>{visible.map(resource=><GalleryCard key={resource.id} resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.activeId} playing={playback.playing} onToggle={toggle} onPlayback={onPlayback} onVideo={onVideo} measurement={measurement}/>)}</div>
      <div className="gallery-pagination">
       <p className="gallery-progress" role="status" aria-live="polite" aria-atomic="true">Showing {visible.length} of {section.items.length} {section.unit}</p>
       {remaining>0?<button type="button" className="button gallery-load-more" onClick={()=>{revealIndex.current=visible.length;setBrowse(current=>loadMoreGalleryItems(current,section.items.length));trackEvent('gallery_load_more',{category:section.id,visible_count:Math.min(visible.length+GALLERY_BATCH_SIZE,section.items.length),placement:'home_gallery'});}}>Load {Math.min(GALLERY_BATCH_SIZE,remaining)} more <span aria-hidden="true">↓</span></button>:<p className="gallery-complete">All {section.items.length} {section.unit} shown</p>}

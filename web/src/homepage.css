@@ -454,3 +454,16 @@
   .home-site .brand-hero-description { font-size: 16px; }
   .home-site .brand-hero .button { font-size: 16px; padding-inline: 7px; gap: 5px; }
 }
+
+/* Separate formats keep vertical films readable at gallery scale. */
+.home-site .gallery-orientations { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 22px; }
+.home-site .gallery-orientations button { border: 1px solid #444; border-radius: 4px; padding: 10px 14px; background: transparent; color: #bbb; font: 13px var(--body); }
+.home-site .gallery-orientations button[aria-pressed="true"] { background: var(--yellow); border-color: var(--yellow); color: #111; }
+.home-site .gallery-orientations span { margin-left: 8px; font: 10px var(--mono); }
+.home-site .gallery-portrait { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.home-site .gallery-portrait .preview-media { aspect-ratio: 9 / 16; }
+.home-site .gallery-square .preview-media { aspect-ratio: 1; }
+.home-site .gallery-portrait .preview-player, .home-site .gallery-square .preview-player { aspect-ratio: auto; height: 100%; }
+@media(max-width: 1000px) { .home-site .gallery-portrait { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media(max-width: 700px) { .home-site .gallery-portrait { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width: 480px) { .home-site .gallery-portrait { grid-template-columns: minmax(0,1fr); } }

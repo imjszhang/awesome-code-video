@@ -5,7 +5,7 @@ import {renderToString} from 'react-dom/server';
 import {App,GalleryCard} from '../web/src/App';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems} from '../web/src/galleryBrowsing';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,homePreviewItems,homePreviewGroups,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
 
 function renderGalleryCard(resource:Resource,base='/') {
  return renderToString(React.createElement(GalleryCard,{
@@ -465,7 +465,8 @@ test('homepage tabs expose totals and mount only the first video batch',()=>{
  assert.equal(new Set(all.map(r=>r.id)).size,all.length);
  assert.deepEqual(new Set(all.map(r=>r.id)),new Set(homePreviewItems().map(r=>r.id)));
  const html=renderToString(React.createElement(App,{path:'/'}));
- const firstBatch=groups.videos.slice(0,GALLERY_BATCH_SIZE);
+ const landscape=groups.videos.filter(r=>videoOrientation(r)==='landscape');
+ const firstBatch=landscape.slice(0,GALLERY_BATCH_SIZE);
  const firstIds=new Set(firstBatch.map(r=>r.id));
  const tabs=[...html.matchAll(/<button\b([^>]*role="tab"[^>]*)>([\s\S]*?)<\/button>/g)];
  assert.equal(tabs.length,3);
@@ -493,7 +494,7 @@ test('homepage tabs expose totals and mount only the first video batch',()=>{
   }
  }
  for(const resource of resources)assert.equal(html.includes(`href="/resources/${resource.id}/"`),firstIds.has(resource.id),resource.id);
- assert.match(html.replace(/<!--[\s\S]*?-->/g,''),new RegExp(`Showing ${firstBatch.length} of ${groups.videos.length} videos`));
+ assert.match(html.replace(/<!--[\s\S]*?-->/g,''),new RegExp(`Showing ${firstBatch.length} of ${landscape.length} videos`));
  assert.match(html.replace(/<!--[\s\S]*?-->/g,''),/Load 12 more/);
  assert.match(html,/<noscript>[\s\S]*href="\/library\/"[\s\S]*<\/noscript>/);
  const youtube=groups.videos.find(r=>r.preview?.kind==='embed')!;
@@ -535,4 +536,15 @@ test('gallery browsing preserves each category batch and caps the last load',()=
  assert.deepEqual(sizes,[24,36,48,60,72,84,92]);
  assert.equal(loadMoreGalleryItems(completeVideos,92),completeVideos);
  assert.equal(selectGalleryCategory(completeVideos,'other-resources').visibleCounts['other-resources'],13);
+});
+
+
+test('video orientation uses measured source dimensions and rejects stale metadata',()=>{
+ const portrait=resources.find(r=>r.id==='butterfly-life')!;
+ assert.equal(videoOrientation(portrait),'portrait');
+ assert.equal(videoOrientation(resources.find(r=>r.id==='awesome-video-as-code')!),'landscape');
+ assert.equal(videoOrientation({...portrait,preview:{...portrait.preview!,url:'https://example.com/replaced.mp4'}}),'unknown');
+ assert.equal(videoOrientation({...portrait,preview:undefined}),'unknown');
+ const videos=homeGalleryItems();
+ for(const format of ['landscape','portrait','square','unknown'])assert.ok(videos.some(r=>videoOrientation(r)===format));
 });
