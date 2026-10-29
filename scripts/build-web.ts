@@ -1,4 +1,5 @@
 import {build} from 'vite';
+import {appBootstrap} from './lib/web-bootstrap';
 import React from 'react';
 import {renderToString} from 'react-dom/server';
 import {mkdir,readFile,writeFile} from 'node:fs/promises';
@@ -18,10 +19,11 @@ const esc=(s:string)=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;
 await build();
 const manifest=JSON.parse(await readFile('dist/.vite/manifest.json','utf8'));
 const entry=manifest['index.html'];
+await writeFile('dist/app-entry.json',JSON.stringify({file:entry.file}));
 const paths=allPaths();
 for(const path of [...paths,'404.html']){
  const route=routeForPath(base+path,base);
- const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${pageSeoHead(route,{site,base,path,indexable})}${release?`<meta name="site-release" content="${release}">`:''}<meta name="theme-color" content="#fcd228"><link rel="icon" type="image/svg+xml" href="${base}favicon.svg">${entry.css.map((f:string)=>`<link rel="stylesheet" href="${base}${f}">`).join('')}</head><body><div id="root">${renderToString(React.createElement(App,{path:base+path,base}))}</div><script type="module" src="${base}${entry.file}"></script></body></html>`;
+ const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${pageSeoHead(route,{site,base,path,indexable})}${release?`<meta name="site-release" content="${release}">`:''}<link rel="modulepreload" href="${base}${entry.file}"><meta name="theme-color" content="#fcd228"><link rel="icon" type="image/svg+xml" href="${base}favicon.svg">${entry.css.map((f:string)=>`<link rel="stylesheet" href="${base}${f}">`).join('')}</head><body><div id="root">${renderToString(React.createElement(App,{path:base+path,base}))}</div><script type="module">${appBootstrap(entry.file,base)}</script></body></html>`;
  const file=path==='404.html'?'dist/404.html':join('dist',path,'index.html');
  await mkdir(join(file,'..'),{recursive:true});await writeFile(file,html);
 }

@@ -11,6 +11,10 @@ async function check(){
  const [home,robots,sitemap,saved,missing]=await Promise.all([
   read('/'),read('/robots.txt'),read('/sitemap.xml'),read('/saved/'),read('/__site_health_missing__/',404),
  ]);
+ const entry=JSON.parse(await read('/app-entry.json'));
+ assert.match(entry.file,/^assets\/[a-zA-Z0-9_-]+\.js$/);
+ assert.ok(home.includes(entry.file),'HTML and entry manifest agree');
+ await read('/'+entry.file);
  assert.match(home,/<meta name="robots" content="index,follow">/);
  assert.ok(home.includes(`<link rel="canonical" href="${origin.origin}/">`),'Homepage canonical');
  assert.match(home,/<meta property="og:image" content="https:\/\//);
