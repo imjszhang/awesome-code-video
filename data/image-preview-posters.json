@@ -361,5 +361,27 @@
     "poster_sha256": "ec9499dfa96b9055c444840dca0cb3c47092c716804a85d34ad0e57731f5b04a",
     "license": "MIT",
     "attribution": "SwiftClip contributors"
+  },
+  {
+    "resource_id": "swiftclip-brand-reveal",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/brand-reveal.jpg",
+    "poster": "/previews/swiftclip-brand-reveal.webp",
+    "source_sha256": "dab26678b4c5a98d41593b98d1c1ae5bf512ff4b25186ba754b4c9f80a880a24",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "ec93c8be05ca710c5b7ae3e04cb8504d281f7aeb56184389ce0388ee77dff64d",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-celebration-burst",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/celebration-burst.jpg",
+    "poster": "/previews/swiftclip-celebration-burst.webp",
+    "source_sha256": "4dfb833e03128df89b9ec4ac1bb46902bc145604961bb93d7faf26545e8f2ae5",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "1e08216af2b63d35026b9ed91bbb2b8a6f2b8da88df8f7052af091f20c04df35",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   }
 ]
