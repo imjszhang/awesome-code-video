@@ -2249,11 +2249,11 @@
     "url": "https://motiongit.com/@adunext/template-01-integrated-portrait",
     "name": "Modern Editorial · Narrated Explainer · Portrait",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:44.979Z",
-    "updated_at": "2026-10-29T03:34:45.051Z",
+    "updated_at": "2026-10-29T04:25:49.308Z",
     "history": [
       {
         "at": "2026-10-29T03:34:44.979Z",
@@ -2266,6 +2266,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:49.308Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2274,11 +2280,11 @@
     "url": "https://motiongit.com/@adunext/template-02-expanded",
     "name": "Paper Perspective · Narrated Explainer",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.21-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:45.139Z",
-    "updated_at": "2026-10-29T03:34:45.212Z",
+    "updated_at": "2026-10-29T04:25:49.483Z",
     "history": [
       {
         "at": "2026-10-29T03:34:45.139Z",
@@ -2291,6 +2297,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:49.483Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.21-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2299,11 +2311,11 @@
     "url": "https://motiongit.com/@adunext/template-02-expanded-portrait",
     "name": "Paper Perspective · Narrated Explainer · Portrait",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.5 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:45.299Z",
-    "updated_at": "2026-10-29T03:34:45.378Z",
+    "updated_at": "2026-10-29T04:25:48.995Z",
     "history": [
       {
         "at": "2026-10-29T03:34:45.299Z",
@@ -2316,6 +2328,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:48.995Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.5 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2324,11 +2342,11 @@
     "url": "https://motiongit.com/@adunext/template-03-native",
     "name": "Dark Dimensional Stage · Multi-screen Story",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:45.467Z",
-    "updated_at": "2026-10-29T03:34:45.543Z",
+    "updated_at": "2026-10-29T04:25:49.152Z",
     "history": [
       {
         "at": "2026-10-29T03:34:45.467Z",
@@ -2341,6 +2359,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:49.152Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2374,11 +2398,11 @@
     "url": "https://motiongit.com/@adunext/template-04-dark-console",
     "name": "Tech Console · Narrated Explainer",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.20-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:45.794Z",
-    "updated_at": "2026-10-29T03:34:45.882Z",
+    "updated_at": "2026-10-29T04:25:49.649Z",
     "history": [
       {
         "at": "2026-10-29T03:34:45.794Z",
@@ -2391,6 +2415,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:49.649Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.20-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2399,11 +2429,11 @@
     "url": "https://motiongit.com/@adunext/template-04-dark-console-portrait",
     "name": "Tech Console · Narrated Explainer · Portrait",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:45.974Z",
-    "updated_at": "2026-10-29T03:34:46.056Z",
+    "updated_at": "2026-10-29T04:25:49.964Z",
     "history": [
       {
         "at": "2026-10-29T03:34:45.974Z",
@@ -2416,6 +2446,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:49.964Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2424,11 +2460,11 @@
     "url": "https://motiongit.com/@adunext/template-05-native",
     "name": "Vivid Characters · Narrative Explainer",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:46.144Z",
-    "updated_at": "2026-10-29T03:34:46.220Z",
+    "updated_at": "2026-10-29T04:25:50.441Z",
     "history": [
       {
         "at": "2026-10-29T03:34:46.144Z",
@@ -2441,6 +2477,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:50.441Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2449,11 +2491,11 @@
     "url": "https://motiongit.com/@adunext/template-05-native-portrait",
     "name": "Vivid Characters · Narrative Explainer · Portrait",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:46.304Z",
-    "updated_at": "2026-10-29T03:34:46.385Z",
+    "updated_at": "2026-10-29T04:25:48.837Z",
     "history": [
       {
         "at": "2026-10-29T03:34:46.304Z",
@@ -2466,6 +2508,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:48.837Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2474,11 +2522,11 @@
     "url": "https://motiongit.com/@adunext/vibrant-poster",
     "name": "Vibrant Poster · Narrated Explainer",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:46.466Z",
-    "updated_at": "2026-10-29T03:34:46.540Z",
+    "updated_at": "2026-10-29T04:25:50.121Z",
     "history": [
       {
         "at": "2026-10-29T03:34:46.466Z",
@@ -2491,6 +2539,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:50.121Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.3 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2499,11 +2553,11 @@
     "url": "https://motiongit.com/@adunext/vibrant-poster-portrait",
     "name": "Vibrant Poster · Narrated Explainer · Portrait",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:46.624Z",
-    "updated_at": "2026-10-29T03:34:46.704Z",
+    "updated_at": "2026-10-29T04:25:49.806Z",
     "history": [
       {
         "at": "2026-10-29T03:34:46.624Z",
@@ -2516,6 +2570,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:49.806Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.7.18-alpha.4 downloaded and statically inspected. Public parameters/presets/license are readable, but implementation is encrypted (protected-objects-v1) with no inspectable animation source. Source-based admission remains unresolved; no helper execution, decryption, paid API calls or render test."
       }
     ]
   },
@@ -2523,12 +2583,14 @@
     "id": "C-d80d2ff9d14e",
     "url": "https://motiongit.com/@thepandaq/kouboo-motion",
     "name": "Narrated Promo · 10-Second Intro",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated package contains editable HTML/GSAP source, schema and preset; personal/noncommercial restrictions explicitly recorded. Static review only.",
+    "resource_id": "kouboo-motion",
+    "evidence_ids": [
+      "S-CV-133"
+    ],
     "created_at": "2026-10-29T03:34:46.789Z",
-    "updated_at": "2026-10-29T03:34:46.864Z",
+    "updated_at": "2026-10-29T04:25:50.281Z",
     "history": [
       {
         "at": "2026-10-29T03:34:46.789Z",
@@ -2541,6 +2603,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T04:25:50.281Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated package contains editable HTML/GSAP source, schema and preset; personal/noncommercial restrictions explicitly recorded. Static review only."
       }
     ]
   },

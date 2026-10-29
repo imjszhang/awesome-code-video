@@ -1,5 +1,7 @@
 # MotionGit review — 2026-10-29
 
+The initial unauthenticated audit below is preserved as history. See the authenticated follow-up at the end for superseding package findings and the remaining work.
+
 Reviewed 72 templates, the additional Kinetic Tech portrait variant, and the preview-only 3D Book. Added the collection and Kinetic Tech public landscape source. Other items remain deferred, not rejected for quality. No template was installed or rendered.
 
 All 72 official pages returned HTTP 200. The 38 linked GitHub trees were inspected; 37 contained presentation/documentation rather than a template source directory or .motion package. Kinetic Tech alone exposed a template implementation and packages. Official page download controls take precedence over generic catalog availability labels. No sign-up, login, support action or purchase was performed.
@@ -84,3 +86,72 @@ Outcomes: 1 accepted template; 54 login-required, 15 support-goal-gated, 2 tempo
 | preview-3d-book | 3D Book | Deferred: preview only, download coming soon. | [Catalog](https://github.com/motiontemplates/all/blob/main/catalog.json) |
 
 Revisit deferred entries when source packages become accessible. Login requirements do not themselves disqualify a template; they prevented package-level review in this pass. Do not infer a shared code or media license across the collection.
+
+
+## Authenticated follow-up — 2026-10-29
+
+This follow-up supersedes the login-only reason above for the 11 downloaded packages. Of the original 54 login-required candidates, 11 complete packages were obtained: one accepted, ten remain deferred because their animation implementations are encrypted. The remaining 43 were not downloaded successfully before browser control timed out again. They are **not** marked reviewed or rejected.
+
+Only local static ZIP/source/schema/license inspection was performed. No downloaded code or helper was executed, no runtime was decrypted, and no paid services were called. Credentials, personal envelopes and template archives remain outside Git. The hashes below identify the non-personal inner releases, not account envelopes.
+
+| Template | Version | Decision | Inner release SHA-256 |
+| --- | --- | --- | --- |
+| [Vivid Characters · Narrative Explainer · Portrait](https://motiongit.com/@adunext/template-05-native-portrait) | 2.7.18-alpha.4 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `2a0e8e68119bd80a5fcae7fb6f49b7c6125abc8dd0bfc3bc5396525e6ab621ce` |
+| [Paper Perspective · Narrated Explainer · Portrait](https://motiongit.com/@adunext/template-02-expanded-portrait) | 2.7.18-alpha.5 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `bfb6e5a36397f0db50b787c62deb94d1f22f6f47ab01a9745991be9d350ecf3c` |
+| [Dark Dimensional Stage · Multi-screen Story](https://motiongit.com/@adunext/template-03-native) | 2.7.18-alpha.3 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `404a252661eca4abd66047a7d2ce64a041cffa1f898a353dd3070aa0279ccfff` |
+| [Modern Editorial · Narrated Explainer · Portrait](https://motiongit.com/@adunext/template-01-integrated-portrait) | 2.7.18-alpha.4 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `6b63f94acd83db24d445d63cd55cf7c5fbce6bcf4eb7713f5d832099b14676fe` |
+| [Paper Perspective · Narrated Explainer](https://motiongit.com/@adunext/template-02-expanded) | 2.7.21-alpha.4 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `1760d076d36e16cf3fc99af56b413b60099a021f432c917acb02b63c22b80bac` |
+| [Tech Console · Narrated Explainer](https://motiongit.com/@adunext/template-04-dark-console) | 2.7.20-alpha.3 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `e58a24448f045a8ad7ed9ac925f03cdc39ca8af793e473626620464d3b3565ad` |
+| [Vibrant Poster · Narrated Explainer · Portrait](https://motiongit.com/@adunext/vibrant-poster-portrait) | 2.7.18-alpha.4 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `8a3d09bafc30bb1cde95d6624c53ea1fbc57b8033fc128500e3fee47e91fdb16` |
+| [Tech Console · Narrated Explainer · Portrait](https://motiongit.com/@adunext/template-04-dark-console-portrait) | 2.7.18-alpha.4 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `895f2bde66e62a67014fd4566df11ff18e3d38aa96a8d59e9d2e0d4723d57100` |
+| [Vibrant Poster · Narrated Explainer](https://motiongit.com/@adunext/vibrant-poster) | 2.7.18-alpha.3 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `0507f7cc12d8756f75d46c38ab13041b32c00c49b55a837e8368f1a4606ae36d` |
+| [Narrated Promo · 10-Second Intro](https://motiongit.com/@thepandaq/kouboo-motion) | 1.0.0 | Accepted: editable HTML/GSAP; personal/noncommercial only. | `1067afb8f21c86e434b12b5b2162b7003144d3ed382169e6e9977b4321e903f8` |
+| [Vivid Characters · Narrative Explainer](https://motiongit.com/@adunext/template-05-native) | 2.7.18-alpha.3 | Deferred: public schemas/presets available; animation core encrypted and uninspected. | `006cbfcadf98f9b8e8518ce0109538a264db52c2733e21159e1432bffb9b7f0e` |
+
+### Remaining package checks
+
+The following 43 candidates still need package inspection:
+
+- [3D Stage · Narrated Video Intro](https://motiongit.com/@thepandaq/cool-3d-intro) — pending authenticated package inspection.
+- [DEEP STAGE · Presenter Stage](https://motiongit.com/@thepandaq/deep-stage-host-stage) — pending authenticated package inspection.
+- [DEEP STAGE · Complete Narrated Video](https://motiongit.com/@thepandaq/deep-stage-full-video) — pending authenticated package inspection.
+- [Kit 2 · Portrait Presenter Graphics](https://motiongit.com/@chenyutao0417/kit2-koubo-wrap) — pending authenticated package inspection.
+- [Price & Volume · Candlestick and Intraday Charts](https://motiongit.com/@oubaba95128/volume-price-kline-charts) — pending authenticated package inspection.
+- [Creative Workflow · Timeline](https://motiongit.com/@thepandaq/collage-flow) — pending authenticated package inspection.
+- [DEEP STAGE · Case Study Dashboard](https://motiongit.com/@thepandaq/deep-stage-case-data) — pending authenticated package inspection.
+- [Goals & Evidence · 17 Motion Diagram Types](https://motiongit.com/@frankye1211/product-update-story) — pending authenticated package inspection.
+- [Soft Gradient · Illustrated Narration](https://motiongit.com/@frankye1211/moonwhite-robot-unified) — pending authenticated package inspection.
+- [Kit 1 · Documentary Explainer](https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm) — pending authenticated package inspection.
+- [Ink Biography · A Life in Characters](https://motiongit.com/@chenyutao0417/ink-saga) — pending authenticated package inspection.
+- [Screen Collage · Brand Story](https://motiongit.com/@motiongit/motiongit-promo-main) — pending authenticated package inspection.
+- [Pixel Platformer · Product Introduction](https://motiongit.com/@motiongit/motiongit-promo-pixel) — pending authenticated package inspection.
+- [Light and Dark Cuts · Product Promotion](https://motiongit.com/@motiongit/motiongit-promo-velocity) — pending authenticated package inspection.
+- [Workflow Demo · Product Tutorial](https://motiongit.com/@motiongit/motiongit-promo-user) — pending authenticated package inspection.
+- [Modular Collage · Creator Tools](https://motiongit.com/@motiongit/motiongit-promo-creator) — pending authenticated package inspection.
+- [Engineering Blueprint · Product Breakdown](https://motiongit.com/@motiongit/motiongit-promo-blueprint) — pending authenticated package inspection.
+- [Keynote Stage · Product Demo](https://motiongit.com/@motiongit/motiongit-promo-keynote) — pending authenticated package inspection.
+- [Paper Scroll · Brand Story](https://motiongit.com/@motiongit/motiongit-promo-ink) — pending authenticated package inspection.
+- [Collage · Opening Reveal](https://motiongit.com/@thepandaq/collage-open) — pending authenticated package inspection.
+- [Multi-Screen Wall · Layout Transition](https://motiongit.com/@thepandaq/collage-wall) — pending authenticated package inspection.
+- [Four Perspectives · Scrolling Filmstrip](https://motiongit.com/@thepandaq/collage-views) — pending authenticated package inspection.
+- [Product Workspace · Brand Outro](https://motiongit.com/@thepandaq/collage-product) — pending authenticated package inspection.
+- [DEEP STAGE · Product Spotlight](https://motiongit.com/@thepandaq/deep-stage-product-focus) — pending authenticated package inspection.
+- [Multi-Screen Business · Animated Charts](https://motiongit.com/@frankye1211/corporate-multiscreen-charts) — pending authenticated package inspection.
+- [Halftone Dots · Portrait Title](https://motiongit.com/@prism-studio/visual-art-a-halftone) — pending authenticated package inspection.
+- [Photo Mosaic · Image Reveal](https://motiongit.com/@prism-studio/visual-art-b-mosaic) — pending authenticated package inspection.
+- [Geometric Collage · Animated Poster](https://motiongit.com/@prism-studio/visual-art-c-collage) — pending authenticated package inspection.
+- [Brush Repainting · Art Photo](https://motiongit.com/@prism-studio/visual-art-d-brushwork) — pending authenticated package inspection.
+- [Signal Glitch · Photo Transition](https://motiongit.com/@prism-studio/visual-art-e-glitch) — pending authenticated package inspection.
+- [Double Exposure · Portrait Layers](https://motiongit.com/@prism-studio/visual-art-f-double) — pending authenticated package inspection.
+- [Spatial Gallery · Photo Memories](https://motiongit.com/@prism-studio/visual-art-g-gallery) — pending authenticated package inspection.
+- [Mirror Kaleidoscope · Photo Motion](https://motiongit.com/@prism-studio/visual-art-h-kaleido) — pending authenticated package inspection.
+- [DeepSeek Whale · Particle Reveal](https://motiongit.com/@thepandaq/deepseek-whale-assemble) — pending authenticated package inspection.
+- [DeepSeek · 3D Particle Morph](https://motiongit.com/@thepandaq/deepseek-form-morph) — pending authenticated package inspection.
+- [DeepSeek · Particle Typography](https://motiongit.com/@thepandaq/deepseek-word-morph) — pending authenticated package inspection.
+- [Light Ribbon · Word Reveal](https://motiongit.com/@thepandaq/light-ribbon-word) — pending authenticated package inspection.
+- [Panel Transitions · Wipe Pack](https://motiongit.com/@thepandaq/collage-wipe) — pending authenticated package inspection.
+- [DEEP STAGE · Cinematic Title Intro](https://motiongit.com/@thepandaq/deep-stage-title-ignition) — pending authenticated package inspection.
+- [DEEP STAGE · Media Wall](https://motiongit.com/@thepandaq/deep-stage-media-wall) — pending authenticated package inspection.
+- [DEEP STAGE · Brand Outro](https://motiongit.com/@thepandaq/deep-stage-outro-lockup) — pending authenticated package inspection.
+- [3D 吉祥物手把手教程](https://motiongit.com/@xkkiss12/mascot-tutorial-3d) — pending authenticated package inspection.
+- [可爱角色歌词 MV](https://motiongit.com/@chenyutao0417/cute-character-lyric-mv) — pending authenticated package inspection.

@@ -12,7 +12,7 @@ Browse visual previews, filter resources by framework and type, and open source 
 
 Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
 
-Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 170 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
+Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 171 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
 ## Contents
 
@@ -164,6 +164,7 @@ These Open Design skills ship HTML compositions. Their catalog previews are exam
 See the [practical reuse guide](docs/reuse-guide.md) for what to replace and where the adaptation work sits.
 
 - [Kinetic Tech](https://github.com/motiontemplates/385712/tree/main/template) - Metallic typography, amber lighting, and spatial choreography for technology explainers and product announcements. Reuse the public 0.2.7-open-beta landscape project at 1920 × 1080 and 60 fps; replace text and supplied media, then adapt scene selection and timing. Includes editable source, parameters, action sounds, and a Chrome/Playwright plus FFmpeg rendering path. The public edition differs from newer official and portrait editions; third-party assets retain separate terms.
+- [Kouboo Motion](https://motiongit.com/@thepandaq/kouboo-motion) - Neon cyan and magenta rings, kinetic type, a number counter, and a shockwave outro for personal channel intros and noncommercial teasers. The 10-second, 1920 × 1080 at 30 fps .motion package includes editable HTML/GSAP source, a parameter schema, and a demo preset. Replace titles, statistics, accent color, and channel text. Login is required; the downloaded package contains a personal account key. Personal and noncommercial use only; template redistribution is prohibited, and GSAP has separate terms.
 
 ## Map Animation Presets
 
@@ -258,7 +259,7 @@ These [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) styles provide c
 
 ## Frameworks and Renderers
 
-These are foundations for composing or rendering your own work. They are not included in the 170 reusable examples above.
+These are foundations for composing or rendering your own work. They are not included in the 171 reusable examples above.
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) - HTML-based video composition and rendering for browser-oriented motion design and agent-authored scenes.
 - [Remotion](https://github.com/remotion-dev/remotion) - React-based video composition and rendering for parameterized templates, product films, and data-driven videos; consult its [commercial licensing terms](https://www.remotion.dev/docs/license).
@@ -284,7 +285,7 @@ Useful when you want a method or reusable motion primitives rather than a fixed 
 
 ## Generative Video Prompts
 
-Copy-paste text-to-video and image-to-video prompts with the model label stored upstream. They are not included in the 170 reusable examples above. These are not Remotion, HyperFrames, or Shotcraft projects you clone and render. A model name is the source file's label, not a promise that another generator will match it. Source-reviewed on 2026-10-28; not render-tested.
+Copy-paste text-to-video and image-to-video prompts with the model label stored upstream. They are not included in the 171 reusable examples above. These are not Remotion, HyperFrames, or Shotcraft projects you clone and render. A model name is the source file's label, not a promise that another generator will match it. Source-reviewed on 2026-10-28; not render-tested.
 
 - [A Decade of Refinement Glow-Up](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json) - Copy-paste Seedance 2.0 prompt for a 15-second identity-locked glow-up, from a plain 2016 street look to a Dubai rooftop in a black suit. Useful as a reference-image transformation brief. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Maverick | AI (https://x.com/RizwanAly07/status/2048948726623056366). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.
 - [Animation transfer and camera tracking prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json) - Short Seedance 2.0 prompt that copies a referenced walk onto a character while the camera stays locked. Useful for motion transfer without a new angle. Prompt text is CC BY 4.0 from YouMind OpenLab, license https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE, mirrored in Open Design. Author Olivio Sarikas (https://x.com/OlivioSarikas/status/2049093762077630628). The model label is upstream only. Preview is the upstream thumbnail. Not render-tested.

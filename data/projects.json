@@ -459,5 +459,13 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "kouboo-motion",
+    "name": "Kouboo Motion",
+    "url": "https://motiongit.com/@thepandaq/kouboo-motion",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
   }
 ]

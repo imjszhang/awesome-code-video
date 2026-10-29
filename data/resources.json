@@ -5721,5 +5721,23 @@
       "render_tested": false
     },
     "editorial_note": "Video use cases are editorial assessments; source review does not imply installation or rendering success."
+  },
+  {
+    "id": "kouboo-motion",
+    "project_id": "kouboo-motion",
+    "name": "Kouboo Motion",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/kouboo-motion",
+    "section": "Film and Scene Templates",
+    "description": "Neon cyan and magenta rings, kinetic type, a number counter, and a shockwave outro for personal channel intros and noncommercial teasers. The 10-second, 1920 × 1080 at 30 fps .motion package includes editable HTML/GSAP source, a parameter schema, and a demo preset. Replace titles, statistics, accent color, and channel text. Login is required; the downloaded package contains a personal account key. Personal and noncommercial use only; template redistribution is prohibited, and GSAP has separate terms.",
+    "evidence_ids": [
+      "S-CV-133"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license review only. Personal/noncommercial use; do not redistribute the template or its credential-bearing download package. Runtime behavior and rendering were not tested."
   }
 ]

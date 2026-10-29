@@ -1681,5 +1681,16 @@
     "reliability": "high",
     "checked_at": "2026-10-29",
     "notes": "Read MIT license for template code. Third-party fonts, likenesses, brand assets and demo audio require their own rights; do not infer demo redistribution permission from code licensing."
+  },
+  {
+    "id": "S-CV-133",
+    "project_id": "kouboo-motion",
+    "title": "Kouboo Motion authenticated package and license review",
+    "url": "https://motiongit.com/@thepandaq/kouboo-motion",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Downloaded version 1.0.0 and statically inspected the open inner ZIP: src/index.html, motion.json, params.schema.json, presets/demo.json, guide.json and licenses/TEMPLATE-LICENSE.txt. Verified GSAP timeline, editable text/statistic/accent inputs, 10 seconds, 1920x1080 at 30fps. Website license explanation permits personal/noncommercial modification and prohibits template redistribution; GSAP is separately licensed. Inner release SHA-256: 1067afb8f21c86e434b12b5b2162b7003144d3ed382169e6e9977b4321e903f8. No template/helper execution, paid service calls, signature verification or render test. Personal envelope and credentials remain local and are not published."
   }
 ]
