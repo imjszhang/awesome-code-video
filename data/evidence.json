@@ -1945,5 +1945,16 @@
     "reliability": "high",
     "checked_at": "2026-10-29",
     "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/audio.mjs, src/browser.js, src/params.mjs, src/pet.js, src/render.mjs, src/scene.html, src/scene.js, src/timeline.js, tools/build-manifest.py, tools/make-bloomly.html. Inner release SHA-256: b94e24201a1637bc5d12842b0e891e90ecb8815cace9a718fbc7f7f0b410a84d. The page lists personal/noncommercial use, while the package includes MIT source terms; confirm broader commercial scope with the author. Third-party assets retain their own licenses. The package includes an MIT license for source, while the official listing labels the offer personal/noncommercial. The catalog recommends the narrower personal scope and does not assert commercial clearance; clarify broader use with the author. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-157",
+    "project_id": "remotion-templates",
+    "title": "remotion-templates — Batch N muted site/previews (3d-device / app-onboarding / cinematic-credits)",
+    "url": "https://github.com/ali-abassi/remotion-templates/tree/main/site/previews",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-29",
+    "notes": "Batch N adds three unused families: 3d-device-stages-macro-detail.mp4 (Content-Length=23514), app-onboarding-profile-setup.mp4 (Content-Length=22869), cinematic-credits-end-credits.mp4 (Content-Length=14819). HEAD on 2026-10-29: HTTP 200 application/octet-stream, ftyp isom, via raw.githubusercontent.com. No root LICENSE (S-CV-117), so redistributable is false. Muted short loops are not finished films. Hotlink only; files were not copied into this repository and were not render-tested."
   }
 ]

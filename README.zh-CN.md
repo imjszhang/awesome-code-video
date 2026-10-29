@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 194 个可复用单元：132 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 200 个可复用单元：132 个成片或场景工程、6 个地图镜头、37 个镜头配方、25 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -248,6 +248,9 @@
 - [图表动画 — 箱线图](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/chart-animations-box-plot.mp4) - ali-abassi/remotion-templates 中 chart-animations 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 - [编辑标题 — 突发新闻条](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/editorial-headlines-breaking-strip.mp4) - ali-abassi/remotion-templates 中 editorial-headlines 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 - [讲解图示 — 前后对比系统](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/explainer-diagrams-before-after-system.mp4) - ali-abassi/remotion-templates 中 explainer-diagrams 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [3D 设备舞台 — 微距细节](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/3d-device-stages-macro-detail.mp4) - ali-abassi/remotion-templates 中 3d-device 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [应用引导 — 资料设置](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/app-onboarding-profile-setup.mp4) - ali-abassi/remotion-templates 中 app-onboarding 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
+- [电影片尾 — 演职员表](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cinematic-credits-end-credits.mp4) - ali-abassi/remotion-templates 中 cinematic-credits 家族的静音短环预览（site/previews）。上游没有 SPDX，按不可再分发处理。
 
 ## 视觉风格文件
 
@@ -277,6 +280,9 @@
 | [孔版印刷](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/risograph) | Risograph 孔版印刷视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 印刷、海报与独立出版风格短片 |
 | [彩色玻璃](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/stained-glass) | 彩色玻璃视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 风格短片 |
 | [木刻版画](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/woodcut) | 木刻版画视觉风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 印刷与版画风格短片 |
+| [玻璃静物](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/glass-product) | 玻璃与折射静物动态风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 产品与静物风格短片 |
+| [单线描绘](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/one-line) | 单线描绘叙事风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 插画与叙事短片 |
+| [世纪中叶卡通](https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/midcentury-toon) | 世纪中叶卡通动态风格；演示片在 web 发行标签上，CC BY 4.0，署名 LemoLab | 复古卡通风格短片 |
 
 ## 视频制作框架
 

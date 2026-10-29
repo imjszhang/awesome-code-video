@@ -6030,7 +6030,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/876/1.0.0-zh-294b6a370e6d.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited; GSAP separate",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-142 https://media.openaicut.com/previews/876/1.0.0-zh-294b6a370e6d.mp4. Public product page https://motiongit.com/@thepandaq/collage-flow. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=977914, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/876/1.0.0-zh-0836cb139a44.jpg. Personal/noncommercial use; template redistribution is prohibited. GSAP has separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/876/1.0.0-zh-0836cb139a44.jpg"
+    }
   },
   {
     "id": "motiongit-collage-open",
@@ -6048,7 +6058,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/873/1.0.0-zh-6b7b749b3dc5.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited; GSAP separate",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-143 https://media.openaicut.com/previews/873/1.0.0-zh-6b7b749b3dc5.mp4. Public product page https://motiongit.com/@thepandaq/collage-open. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=1812549, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/873/1.0.0-zh-12a46d4c356c.jpg. Personal/noncommercial use; template redistribution is prohibited. GSAP has separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/873/1.0.0-zh-12a46d4c356c.jpg"
+    }
   },
   {
     "id": "motiongit-ink-saga",
@@ -6084,7 +6104,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/888/0.8.0-rc.2-6971ec2770b7.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited",
+      "attribution": "@frankye1211 / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-145 https://media.openaicut.com/previews/888/0.8.0-rc.2-6971ec2770b7.mp4. Public product page https://motiongit.com/@frankye1211/moonwhite-robot-unified. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=4948835, ftyp isom. ffprobe reports H.264 1280x720. Poster https://media.openaicut.com/covers/888/0.8.0-rc.2-15b068f72745.jpg. Personal/noncommercial use; template redistribution is prohibited. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/888/0.8.0-rc.2-15b068f72745.jpg"
+    }
   },
   {
     "id": "motiongit-collage-product",
@@ -6102,7 +6132,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/877/1.0.0-zh-97910ee13592.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited; GSAP separate",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-146 https://media.openaicut.com/previews/877/1.0.0-zh-97910ee13592.mp4. Public product page https://motiongit.com/@thepandaq/collage-product. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=1413200, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/877/1.0.0-zh-a24df31e704a.jpg. Personal/noncommercial use; template redistribution is prohibited. GSAP has separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/877/1.0.0-zh-a24df31e704a.jpg"
+    }
   },
   {
     "id": "motiongit-deep-stage-product-focus",
@@ -6156,7 +6196,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/886/0.4.0-rc.4-7ab29961149d.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited",
+      "attribution": "@frankye1211 / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-149 https://media.openaicut.com/previews/886/0.4.0-rc.4-7ab29961149d.mp4. Public product page https://motiongit.com/@frankye1211/product-update-story. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=1281135, ftyp isom. ffprobe reports H.264 1280x720. Poster https://media.openaicut.com/covers/886/0.4.0-rc.4-5ddf2903802d.jpg. Personal/noncommercial use; template redistribution is prohibited. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/886/0.4.0-rc.4-5ddf2903802d.jpg"
+    }
   },
   {
     "id": "motiongit-light-ribbon-word",
@@ -6228,7 +6278,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested. The acquired route selected the warm style variant; the inspected package includes the shared source and parameterized accent. Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested. The acquired route selected the warm style variant; the inspected package includes the shared source and parameterized accent. Template source is MIT-licensed; fonts and third-party assets retain separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/879/1.0.0-8e74030d1901.mp4",
+      "license": "Template MIT (package review); preview CDN hotlink only; redistribution of preview media false",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-153 https://media.openaicut.com/previews/879/1.0.0-8e74030d1901.mp4. Public product page https://motiongit.com/@thepandaq/deep-stage-title-ignition. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=2275469, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/879/1.0.0-12a34d321725.jpg. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/879/1.0.0-12a34d321725.jpg"
+    }
   },
   {
     "id": "motiongit-collage-wipe",
@@ -6246,7 +6306,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/878/1.0.0-zh-be7dc794ab1a.mp4",
+      "license": "Personal/noncommercial; template redistribution prohibited; GSAP separate",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-154 https://media.openaicut.com/previews/878/1.0.0-zh-be7dc794ab1a.mp4. Public product page https://motiongit.com/@thepandaq/collage-wipe. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=764671, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/878/1.0.0-zh-36c9ef9f02df.jpg. Personal/noncommercial use; template redistribution is prohibited. GSAP has separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/878/1.0.0-zh-36c9ef9f02df.jpg"
+    }
   },
   {
     "id": "motiongit-deep-stage-outro-lockup",
@@ -6264,7 +6334,17 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
-    "editorial_note": "Static source and license inspection only; not render-tested. The acquired route selected the warm style variant; shared source and parameterized accent were inspected. Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+    "editorial_note": "Static source and license inspection only; not render-tested. The acquired route selected the warm style variant; shared source and parameterized accent were inspected. Template source is MIT-licensed; fonts and third-party assets retain separate terms.",
+    "preview": {
+      "kind": "video",
+      "url": "https://media.openaicut.com/previews/884/1.0.0-651f2839086d.mp4",
+      "license": "Template MIT (package review); preview CDN hotlink only; redistribution of preview media false",
+      "attribution": "@thepandaq / MotionGit",
+      "redistributable": false,
+      "source": "S-CV-155 https://media.openaicut.com/previews/884/1.0.0-651f2839086d.mp4. Public product page https://motiongit.com/@thepandaq/deep-stage-outro-lockup. HEAD on 2026-10-29: HTTP 200 video/mp4 Content-Length=2061840, ftyp isom. ffprobe reports H.264 1920x1080. Poster https://media.openaicut.com/covers/884/1.0.0-1e5dc2b6dbd5.jpg. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Preview CDN hotlink only, so redistributable is false. Personal package credentials were not published. Hotlink only — not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "https://media.openaicut.com/covers/884/1.0.0-1e5dc2b6dbd5.jpg"
+    }
   },
   {
     "id": "motiongit-mascot-tutorial-3d",
@@ -6283,5 +6363,179 @@
       "render_tested": false
     },
     "editorial_note": "Static source and license inspection only; not render-tested. The package includes an MIT license for source, while the official listing labels the offer personal/noncommercial. The catalog recommends the narrower personal scope and does not assert commercial clearance; clarify broader use with the author. The page lists personal/noncommercial use, while the package includes MIT source terms; confirm broader commercial scope with the author. Third-party assets retain their own licenses."
+  },
+  {
+    "id": "lemo-opuscar-glass-product",
+    "project_id": "lemo-opuscar",
+    "name": "Glass Product",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/glass-product",
+    "section": "Visual Style Templates",
+    "description": "Product glass and refractive still-life motion style from lemo-opuscar. Demo film is CC BY 4.0 via the web release; credit LemoLab. Controlled addition so remaining unused styles stay deferred.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/glass-product.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/glass-product.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=4732458, ftyp isom. Style directory styles/glass-product returned HTTP 200. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-glass-product.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-one-line",
+    "project_id": "lemo-opuscar",
+    "name": "One Line",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/one-line",
+    "section": "Visual Style Templates",
+    "description": "Single-line drawing storytelling style from lemo-opuscar. Demo film is CC BY 4.0 via the web release; credit LemoLab. Controlled addition so remaining unused styles stay deferred.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/one-line.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/one-line.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=3961464, ftyp isom. Style directory styles/one-line returned HTTP 200. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-one-line.webp"
+    }
+  },
+  {
+    "id": "lemo-opuscar-midcentury-toon",
+    "project_id": "lemo-opuscar",
+    "name": "Midcentury Toon",
+    "kind": "style",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/tree/main/styles/midcentury-toon",
+    "section": "Visual Style Templates",
+    "description": "Mid-century cartoon motion style from lemo-opuscar. Demo film is CC BY 4.0 via the web release; credit LemoLab. Controlled addition so remaining unused styles stay deferred.",
+    "evidence_ids": [
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/midcentury-toon.mp4",
+      "license": "CC BY 4.0",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "redistributable": true,
+      "source": "S-CV-066 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/midcentury-toon.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=4303162, ftyp isom. Style directory styles/midcentury-toon returned HTTP 200. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/lemo-opuscar-midcentury-toon.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-3d-device-stages-macro",
+    "project_id": "remotion-templates",
+    "name": "3D Device Stages — Macro Detail",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/3d-device-stages-macro-detail.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the 3d-device family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-157",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/3d-device-stages-macro-detail.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-157 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/3d-device-stages-macro-detail.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=23514, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop is not a full film; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-3d-device-stages-macro.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-app-onboarding-profile",
+    "project_id": "remotion-templates",
+    "name": "App Onboarding — Profile Setup",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/app-onboarding-profile-setup.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the app-onboarding family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-157",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/app-onboarding-profile-setup.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-157 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/app-onboarding-profile-setup.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=22869, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop is not a full film; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-app-onboarding-profile.webp"
+    }
+  },
+  {
+    "id": "remotion-templates-cinematic-credits-end",
+    "project_id": "remotion-templates",
+    "name": "Cinematic Credits — End Credits",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/cinematic-credits-end-credits.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the cinematic-credits family in ali-abassi/remotion-templates (site/previews). License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-157",
+      "S-CV-117"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cinematic-credits-end-credits.mp4",
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "redistributable": false,
+      "source": "S-CV-157 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/cinematic-credits-end-credits.mp4. HEAD on 2026-10-29: HTTP 200 application/octet-stream Content-Length=14819, ftyp isom. No root LICENSE (S-CV-117). Hotlink only; muted loop is not a full film; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-10-29",
+      "poster": "/previews/remotion-templates-cinematic-credits-end.webp"
+    }
   }
 ]

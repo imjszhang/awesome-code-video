@@ -9,7 +9,7 @@ const resources = JSON.parse(read('data/resources.json'));
 const captures = JSON.parse(read('data/preview-posters.json'));
 const bundledPoster = poster => typeof poster === 'string' && poster.startsWith('/previews/');
 
-/** Batch L hotlinks upstream media and does not vendor a cover file. */
+/** Batch L and Batch N hotlink upstream CDN covers and do not vendor a cover file. */
 const HOTLINK_IDS = [
   'kinetic-tech',
   'kouboo-motion',
@@ -21,6 +21,14 @@ const HOTLINK_IDS = [
   'motiongit-volume-price-kline-charts',
   'motiongit-collage-wall',
   'motiongit-collage-views',
+  'motiongit-collage-flow',
+  'motiongit-collage-open',
+  'motiongit-collage-product',
+  'motiongit-collage-wipe',
+  'motiongit-deep-stage-title-ignition',
+  'motiongit-deep-stage-outro-lockup',
+  'motiongit-product-update-story',
+  'motiongit-moonwhite-robot-unified',
   'anatomy-ripple-tank',
   'map-motion-night-location',
 ];
