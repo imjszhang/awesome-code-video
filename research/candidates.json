@@ -2854,12 +2854,14 @@
     "id": "C-d4672fc2b7d7",
     "url": "https://motiongit.com/@thepandaq/collage-flow",
     "name": "Creative Workflow · Timeline",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-collage-flow",
+    "evidence_ids": [
+      "S-CV-142"
+    ],
     "created_at": "2026-10-29T03:34:48.256Z",
-    "updated_at": "2026-10-29T03:34:48.335Z",
+    "updated_at": "2026-10-29T06:12:44.491Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.256Z",
@@ -2872,6 +2874,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:44.491Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -2912,12 +2920,14 @@
     "id": "C-b594997649f2",
     "url": "https://motiongit.com/@frankye1211/product-update-story",
     "name": "Goals & Evidence · 17 Motion Diagram Types",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-product-update-story",
+    "evidence_ids": [
+      "S-CV-149"
+    ],
     "created_at": "2026-10-29T03:34:48.581Z",
-    "updated_at": "2026-10-29T03:34:48.659Z",
+    "updated_at": "2026-10-29T06:12:45.739Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.581Z",
@@ -2930,6 +2940,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:45.739Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -2937,12 +2953,14 @@
     "id": "C-75e424e74600",
     "url": "https://motiongit.com/@frankye1211/moonwhite-robot-unified",
     "name": "Soft Gradient · Illustrated Narration",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-moonwhite-robot-unified",
+    "evidence_ids": [
+      "S-CV-145"
+    ],
     "created_at": "2026-10-29T03:34:48.743Z",
-    "updated_at": "2026-10-29T03:34:48.820Z",
+    "updated_at": "2026-10-29T06:12:45.025Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.743Z",
@@ -2955,6 +2973,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:45.025Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -2995,12 +3019,14 @@
     "id": "C-46154fc3accf",
     "url": "https://motiongit.com/@chenyutao0417/ink-saga",
     "name": "Ink Biography · A Life in Characters",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-ink-saga",
+    "evidence_ids": [
+      "S-CV-144"
+    ],
     "created_at": "2026-10-29T03:34:49.071Z",
-    "updated_at": "2026-10-29T03:34:49.148Z",
+    "updated_at": "2026-10-29T06:12:44.849Z",
     "history": [
       {
         "at": "2026-10-29T03:34:49.071Z",
@@ -3013,6 +3039,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:44.849Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -3321,11 +3353,11 @@
     "url": "https://motiongit.com/@motiongit/motiongit-promo-main",
     "name": "Screen Collage · Brand Story",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:51.260Z",
-    "updated_at": "2026-10-29T03:34:51.344Z",
+    "updated_at": "2026-10-29T06:25:50.581Z",
     "history": [
       {
         "at": "2026-10-29T03:34:51.260Z",
@@ -3338,6 +3370,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:50.581Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3346,11 +3384,11 @@
     "url": "https://motiongit.com/@motiongit/motiongit-promo-pixel",
     "name": "Pixel Platformer · Product Introduction",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.6 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:51.436Z",
-    "updated_at": "2026-10-29T03:34:51.519Z",
+    "updated_at": "2026-10-29T06:25:50.941Z",
     "history": [
       {
         "at": "2026-10-29T03:34:51.436Z",
@@ -3363,6 +3401,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:50.941Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.6 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3371,11 +3415,11 @@
     "url": "https://motiongit.com/@motiongit/motiongit-promo-velocity",
     "name": "Light and Dark Cuts · Product Promotion",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:51.612Z",
-    "updated_at": "2026-10-29T03:34:51.694Z",
+    "updated_at": "2026-10-29T06:25:52.944Z",
     "history": [
       {
         "at": "2026-10-29T03:34:51.612Z",
@@ -3388,6 +3432,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:52.944Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3396,11 +3446,11 @@
     "url": "https://motiongit.com/@motiongit/motiongit-promo-user",
     "name": "Workflow Demo · Product Tutorial",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:51.790Z",
-    "updated_at": "2026-10-29T03:34:51.871Z",
+    "updated_at": "2026-10-29T06:25:52.401Z",
     "history": [
       {
         "at": "2026-10-29T03:34:51.790Z",
@@ -3413,6 +3463,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:52.401Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3452,11 +3508,11 @@
     "url": "https://motiongit.com/@motiongit/motiongit-promo-blueprint",
     "name": "Engineering Blueprint · Product Breakdown",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:52.138Z",
-    "updated_at": "2026-10-29T03:34:52.218Z",
+    "updated_at": "2026-10-29T06:25:50.762Z",
     "history": [
       {
         "at": "2026-10-29T03:34:52.138Z",
@@ -3469,6 +3525,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:50.762Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3538,12 +3600,14 @@
     "id": "C-ea3a90abd57f",
     "url": "https://motiongit.com/@thepandaq/collage-open",
     "name": "Collage · Opening Reveal",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-collage-open",
+    "evidence_ids": [
+      "S-CV-143"
+    ],
     "created_at": "2026-10-29T03:34:52.655Z",
-    "updated_at": "2026-10-29T03:34:52.735Z",
+    "updated_at": "2026-10-29T06:12:44.669Z",
     "history": [
       {
         "at": "2026-10-29T03:34:52.655Z",
@@ -3556,6 +3620,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:44.669Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -3629,12 +3699,14 @@
     "id": "C-305a4988fca6",
     "url": "https://motiongit.com/@thepandaq/collage-product",
     "name": "Product Workspace · Brand Outro",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-collage-product",
+    "evidence_ids": [
+      "S-CV-146"
+    ],
     "created_at": "2026-10-29T03:34:53.172Z",
-    "updated_at": "2026-10-29T03:34:53.253Z",
+    "updated_at": "2026-10-29T06:12:45.203Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.172Z",
@@ -3647,6 +3719,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:45.203Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -3654,12 +3732,14 @@
     "id": "C-36a0fd5a07e4",
     "url": "https://motiongit.com/@thepandaq/deep-stage-product-focus",
     "name": "DEEP STAGE · Product Spotlight",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-deep-stage-product-focus",
+    "evidence_ids": [
+      "S-CV-147"
+    ],
     "created_at": "2026-10-29T03:34:53.345Z",
-    "updated_at": "2026-10-29T03:34:53.425Z",
+    "updated_at": "2026-10-29T06:12:45.379Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.345Z",
@@ -3672,6 +3752,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:45.379Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -3679,12 +3765,14 @@
     "id": "C-f91b151a36c9",
     "url": "https://motiongit.com/@frankye1211/corporate-multiscreen-charts",
     "name": "Multi-Screen Business · Animated Charts",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-corporate-multiscreen-charts",
+    "evidence_ids": [
+      "S-CV-148"
+    ],
     "created_at": "2026-10-29T03:34:53.520Z",
-    "updated_at": "2026-10-29T03:34:53.603Z",
+    "updated_at": "2026-10-29T06:12:45.562Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.520Z",
@@ -3697,6 +3785,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:12:45.562Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -3705,11 +3799,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-a-halftone",
     "name": "Halftone Dots · Portrait Title",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.6 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:53.696Z",
-    "updated_at": "2026-10-29T03:34:53.781Z",
+    "updated_at": "2026-10-29T06:25:51.487Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.696Z",
@@ -3722,6 +3816,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:51.487Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.6 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3730,11 +3830,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-b-mosaic",
     "name": "Photo Mosaic · Image Reveal",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:53.875Z",
-    "updated_at": "2026-10-29T03:34:53.957Z",
+    "updated_at": "2026-10-29T06:25:51.857Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.875Z",
@@ -3747,6 +3847,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:51.857Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3755,11 +3861,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-c-collage",
     "name": "Geometric Collage · Animated Poster",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:54.050Z",
-    "updated_at": "2026-10-29T03:34:54.137Z",
+    "updated_at": "2026-10-29T06:25:53.124Z",
     "history": [
       {
         "at": "2026-10-29T03:34:54.050Z",
@@ -3772,6 +3878,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:53.124Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3780,11 +3892,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-d-brushwork",
     "name": "Brush Repainting · Art Photo",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:54.232Z",
-    "updated_at": "2026-10-29T03:34:54.315Z",
+    "updated_at": "2026-10-29T06:25:51.121Z",
     "history": [
       {
         "at": "2026-10-29T03:34:54.232Z",
@@ -3797,6 +3909,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:51.121Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3805,11 +3923,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-e-glitch",
     "name": "Signal Glitch · Photo Transition",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:54.413Z",
-    "updated_at": "2026-10-29T03:34:54.494Z",
+    "updated_at": "2026-10-29T06:25:52.220Z",
     "history": [
       {
         "at": "2026-10-29T03:34:54.413Z",
@@ -3822,6 +3940,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:52.220Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3830,11 +3954,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-f-double",
     "name": "Double Exposure · Portrait Layers",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:54.592Z",
-    "updated_at": "2026-10-29T03:34:54.674Z",
+    "updated_at": "2026-10-29T06:25:52.766Z",
     "history": [
       {
         "at": "2026-10-29T03:34:54.592Z",
@@ -3847,6 +3971,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:52.766Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3855,11 +3985,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-g-gallery",
     "name": "Spatial Gallery · Photo Memories",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:54.768Z",
-    "updated_at": "2026-10-29T03:34:54.855Z",
+    "updated_at": "2026-10-29T06:25:52.580Z",
     "history": [
       {
         "at": "2026-10-29T03:34:54.768Z",
@@ -3872,6 +4002,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:52.580Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3880,11 +4016,11 @@
     "url": "https://motiongit.com/@prism-studio/visual-art-h-kaleido",
     "name": "Mirror Kaleidoscope · Photo Motion",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:54.951Z",
-    "updated_at": "2026-10-29T03:34:55.032Z",
+    "updated_at": "2026-10-29T06:25:52.036Z",
     "history": [
       {
         "at": "2026-10-29T03:34:54.951Z",
@@ -3897,6 +4033,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:52.036Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Authenticated version 2.6.4 downloaded and statically inspected. Public parameter schema and preset are readable, but the animation implementation remains encrypted; no inspectable implementation source. No execution, decryption, rendering or paid API calls."
       }
     ]
   },
@@ -3905,11 +4047,11 @@
     "url": "https://motiongit.com/@thepandaq/deepseek-whale-assemble",
     "name": "DeepSeek Whale · Particle Reveal",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Editable particle implementation is present, but its bundled license says it derives from deepseek-agi-particles and copyright/use authorization is not confirmed. Author/rightsholder clarification required before admission.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:55.129Z",
-    "updated_at": "2026-10-29T03:34:55.213Z",
+    "updated_at": "2026-10-29T06:25:51.672Z",
     "history": [
       {
         "at": "2026-10-29T03:34:55.129Z",
@@ -3922,6 +4064,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:51.672Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Editable particle implementation is present, but its bundled license says it derives from deepseek-agi-particles and copyright/use authorization is not confirmed. Author/rightsholder clarification required before admission."
       }
     ]
   },
@@ -3930,11 +4078,11 @@
     "url": "https://motiongit.com/@thepandaq/deepseek-form-morph",
     "name": "DeepSeek · 3D Particle Morph",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Editable 3D particle morph source is present, but its bundled license says it derives from deepseek-agi-particles and copyright/use authorization is not confirmed. Author/rightsholder clarification required before admission.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:55.308Z",
-    "updated_at": "2026-10-29T03:34:55.394Z",
+    "updated_at": "2026-10-29T06:25:51.304Z",
     "history": [
       {
         "at": "2026-10-29T03:34:55.308Z",
@@ -3947,6 +4095,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:51.304Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Editable 3D particle morph source is present, but its bundled license says it derives from deepseek-agi-particles and copyright/use authorization is not confirmed. Author/rightsholder clarification required before admission."
       }
     ]
   },
@@ -3955,11 +4109,11 @@
     "url": "https://motiongit.com/@thepandaq/deepseek-word-morph",
     "name": "DeepSeek · Particle Typography",
     "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "reason": "Editable particle typography implementation is present, but its bundled license says it derives from deepseek-agi-particles and copyright/use authorization is not confirmed. Author/rightsholder clarification required before admission.",
     "resource_id": null,
     "evidence_ids": [],
     "created_at": "2026-10-29T03:34:55.492Z",
-    "updated_at": "2026-10-29T03:34:55.574Z",
+    "updated_at": "2026-10-29T06:25:53.307Z",
     "history": [
       {
         "at": "2026-10-29T03:34:55.492Z",
@@ -3972,6 +4126,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:25:53.307Z",
+        "from": "deferred",
+        "to": "deferred",
+        "reason": "Editable particle typography implementation is present, but its bundled license says it derives from deepseek-agi-particles and copyright/use authorization is not confirmed. Author/rightsholder clarification required before admission."
       }
     ]
   },
@@ -3979,12 +4139,14 @@
     "id": "C-4bb54f44fbc3",
     "url": "https://motiongit.com/@thepandaq/light-ribbon-word",
     "name": "Light Ribbon · Word Reveal",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-light-ribbon-word",
+    "evidence_ids": [
+      "S-CV-150"
+    ],
     "created_at": "2026-10-29T03:34:55.676Z",
-    "updated_at": "2026-10-29T03:34:55.760Z",
+    "updated_at": "2026-10-29T06:21:54.788Z",
     "history": [
       {
         "at": "2026-10-29T03:34:55.676Z",
@@ -3997,6 +4159,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:21:54.788Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -4004,12 +4172,14 @@
     "id": "C-402d82e65eb4",
     "url": "https://motiongit.com/@thepandaq/collage-wipe",
     "name": "Panel Transitions · Wipe Pack",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-collage-wipe",
+    "evidence_ids": [
+      "S-CV-154"
+    ],
     "created_at": "2026-10-29T03:34:55.859Z",
-    "updated_at": "2026-10-29T03:34:55.944Z",
+    "updated_at": "2026-10-29T06:21:55.506Z",
     "history": [
       {
         "at": "2026-10-29T03:34:55.859Z",
@@ -4022,6 +4192,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:21:55.506Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -4029,12 +4205,14 @@
     "id": "C-5e2efdef4cd3",
     "url": "https://motiongit.com/@thepandaq/deep-stage-title-ignition",
     "name": "DEEP STAGE · Cinematic Title Intro",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-deep-stage-title-ignition",
+    "evidence_ids": [
+      "S-CV-153"
+    ],
     "created_at": "2026-10-29T03:34:56.041Z",
-    "updated_at": "2026-10-29T03:34:56.130Z",
+    "updated_at": "2026-10-29T06:21:55.326Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.041Z",
@@ -4047,6 +4225,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:21:55.326Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -4054,12 +4238,14 @@
     "id": "C-7cf0cbb3c051",
     "url": "https://motiongit.com/@thepandaq/deep-stage-media-wall",
     "name": "DEEP STAGE · Media Wall",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-deep-stage-media-wall",
+    "evidence_ids": [
+      "S-CV-151"
+    ],
     "created_at": "2026-10-29T03:34:56.235Z",
-    "updated_at": "2026-10-29T03:34:56.320Z",
+    "updated_at": "2026-10-29T06:21:54.967Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.235Z",
@@ -4072,6 +4258,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:21:54.967Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -4079,12 +4271,14 @@
     "id": "C-9b348ac1a57b",
     "url": "https://motiongit.com/@thepandaq/deep-stage-outro-lockup",
     "name": "DEEP STAGE · Brand Outro",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-deep-stage-outro-lockup",
+    "evidence_ids": [
+      "S-CV-155"
+    ],
     "created_at": "2026-10-29T03:34:56.417Z",
-    "updated_at": "2026-10-29T03:34:56.505Z",
+    "updated_at": "2026-10-29T06:21:55.689Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.417Z",
@@ -4097,6 +4291,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:21:55.689Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -4104,12 +4304,14 @@
     "id": "C-341a4fcb8f91",
     "url": "https://motiongit.com/@xkkiss12/mascot-tutorial-3d",
     "name": "3D 吉祥物手把手教程",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-mascot-tutorial-3d",
+    "evidence_ids": [
+      "S-CV-156"
+    ],
     "created_at": "2026-10-29T03:34:56.608Z",
-    "updated_at": "2026-10-29T03:34:56.691Z",
+    "updated_at": "2026-10-29T06:21:55.867Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.608Z",
@@ -4122,6 +4324,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:21:55.867Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },
@@ -4129,12 +4337,14 @@
     "id": "C-e200a0a3bc90",
     "url": "https://motiongit.com/@chenyutao0417/cute-character-lyric-mv",
     "name": "可爱角色歌词 MV",
-    "status": "deferred",
-    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
-    "resource_id": null,
-    "evidence_ids": [],
+    "status": "accepted",
+    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
+    "resource_id": "motiongit-cute-character-lyric-mv",
+    "evidence_ids": [
+      "S-CV-152"
+    ],
     "created_at": "2026-10-29T03:34:56.787Z",
-    "updated_at": "2026-10-29T03:34:56.870Z",
+    "updated_at": "2026-10-29T06:21:55.146Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.787Z",
@@ -4147,6 +4357,12 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      },
+      {
+        "at": "2026-10-29T06:21:55.146Z",
+        "from": "deferred",
+        "to": "accepted",
+        "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
       }
     ]
   },

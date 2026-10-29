@@ -6001,5 +6001,275 @@
       "checked_at": "2026-10-29",
       "poster": "https://media.openaicut.com/covers/875/1.0.0-zh-3c1d5e7cd796.jpg"
     }
+  },
+  {
+    "id": "motiongit-collage-flow",
+    "project_id": "motiongit-collage-flow",
+    "name": "Creative Workflow · Timeline",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/collage-flow",
+    "section": "Film and Scene Templates",
+    "description": "A dark editorial collage turns a four-step creative process into a four-track editing timeline, with an animated playhead and statistic labels. Useful for creator-tool explainers and workflow chapters. Editable HTML/GSAP exposes brand text and accent; changing step labels or timing requires source edits. Fixed 9.76667-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-142"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+  },
+  {
+    "id": "motiongit-collage-open",
+    "project_id": "motiongit-collage-open",
+    "name": "Collage · Opening Reveal",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/collage-open",
+    "section": "Film and Scene Templates",
+    "description": "Nine photographic and graphic panels fly into an editorial collage wall before the headline settles. Useful for portfolio openings, brand films, and product teasers. Editable HTML/GSAP exposes brand text, headline, reel label, and accent; the scene count and timing are fixed. Fixed 8.46667-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-143"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+  },
+  {
+    "id": "motiongit-ink-saga",
+    "project_id": "motiongit-ink-saga",
+    "name": "Ink Biography · A Life in Characters",
+    "kind": "film",
+    "url": "https://motiongit.com/@chenyutao0417/ink-saga",
+    "section": "Film and Scene Templates",
+    "description": "Ink-wash paper textures, Chinese characters acting as people, stamped annotations, particle accents, and crossfades for historical biographies and psychology stories. Editable Canvas source and scene JSON expose scene timing, captions, idioms, notes, and stamps. The supplied biography is a fixed-length example; a new story needs a new scene plan and licensed audio. Fixed 168.5-second, 1920 × 1080 at 30 fps package. Personal and commercial rendered videos are permitted; redistribution or resale of the template/source is prohibited. Third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-144"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal and commercial rendered videos are permitted; redistribution or resale of the template/source is prohibited. Third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-moonwhite-robot-unified",
+    "project_id": "motiongit-moonwhite-robot-unified",
+    "name": "Soft Gradient · Illustrated Narration",
+    "kind": "film",
+    "url": "https://motiongit.com/@frankye1211/moonwhite-robot-unified",
+    "section": "Film and Scene Templates",
+    "description": "Moon-white, mint, and warm-paper graphics with diagram transformations, editorial presenter cards, image/video focus windows, and overview walls. Useful for calm product explainers and illustrated knowledge videos. Editable Canvas/JavaScript and a Python adapter accept scene plans, local media references, narration, and presentation settings; focus regions must be supplied rather than detected automatically. 24 fps; the current editorial preset targets 1920 × 1080, while legacy presentation defaults to 1280 × 720. Duration follows supported scene contracts. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-145"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-collage-product",
+    "project_id": "motiongit-collage-product",
+    "name": "Product Workspace · Brand Outro",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/collage-product",
+    "section": "Film and Scene Templates",
+    "description": "An editorial product workspace links storyboard, canvas, color panels, and timeline before wiping into a prism logo, wordmark, and call to action. Useful for creator-tool demonstrations and brand-film endings. Editable HTML/GSAP exposes product headlines, brand, taglines, CTA text, and accent; the workspace and logo artwork require source edits. Fixed 14.4-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-146"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+  },
+  {
+    "id": "motiongit-deep-stage-product-focus",
+    "project_id": "motiongit-deep-stage-product-focus",
+    "name": "DEEP STAGE · Product Spotlight",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-product-focus",
+    "section": "Film and Scene Templates",
+    "description": "A dark perspective product screen pushes closer while three specification cards rise in sequence and count up, alongside a small presenter window. Useful for product features and specification comparisons. Editable HTML/CSS exposes product copy, numeric specifications, and accent; product imagery and the presenter are CSS/SVG placeholders requiring source integration. Fixed 12-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-147"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-corporate-multiscreen-charts",
+    "project_id": "motiongit-corporate-multiscreen-charts",
+    "name": "Multi-Screen Business · Animated Charts",
+    "kind": "film",
+    "url": "https://motiongit.com/@frankye1211/corporate-multiscreen-charts",
+    "section": "Film and Scene Templates",
+    "description": "A corporate multi-screen film continuously rearranges photo panels with bar, line, donut, and ranking charts. Useful for concise business results and brand presentations. Editable Canvas/JavaScript, an adapter, and JSON parameters expose copy, image media, palette, and chart data; the fixed scene order does not support arbitrary duration or video replacement. Fixed 20-second, 1920 × 1080 at 60 fps package. The official page lists template code under MIT; the bundled notice defers to platform terms. Third-party photos and fonts retain separate licenses. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-148"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested. The published template page explicitly selects MIT for template code. The bundled author-submission notice grants no standalone license and defers reuse to the applicable author/platform license; third-party photos and fonts remain separately licensed. The official page lists template code under MIT; the bundled notice defers to platform terms. Third-party photos and fonts retain separate licenses."
+  },
+  {
+    "id": "motiongit-product-update-story",
+    "project_id": "motiongit-product-update-story",
+    "name": "Goals & Evidence · 17 Motion Diagram Types",
+    "kind": "film",
+    "url": "https://motiongit.com/@frankye1211/product-update-story",
+    "section": "Film and Scene Templates",
+    "description": "Restrained diagram-led explainers built around objectives, evidence, comparisons, routes, handoffs, and typography break-up effects. Useful for product updates and narrated reasoning. Editable Canvas/JavaScript with a Python planner accepts structured segments, real metrics, local media, and aligned captions; it does not infer arbitrary narration semantics automatically. 1280 × 720 at 24 fps; narration timing follows the supplied caption/scene contract. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-149"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-light-ribbon-word",
+    "project_id": "motiongit-light-ribbon-word",
+    "name": "Light Ribbon · Word Reveal",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/light-ribbon-word",
+    "section": "Film and Scene Templates",
+    "description": "Luminous particle ribbons gather into a short word, receive a light sweep, and dissolve back into flowing strands. Useful for restrained title reveals and personal channel intros. Editable Canvas source exposes the word and palette; the implementation uppercases and truncates text to eight characters. Fixed 10-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-150"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested. The package declares the bundled Inter font under SIL OFL 1.1 but does not include a separate full font-license notice. This review does not clear redistribution of the font or personal package; retain/verify the font license separately. Personal/noncommercial use only; template redistribution is prohibited."
+  },
+  {
+    "id": "motiongit-deep-stage-media-wall",
+    "project_id": "motiongit-deep-stage-media-wall",
+    "name": "DEEP STAGE · Media Wall",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-media-wall",
+    "section": "Film and Scene Templates",
+    "description": "Six cinematic still cards settle into a dark 3D wall, float gently, and recede with a continuous camera pullback. Useful for introducing visual categories and media-library chapters. Editable HTML/CSS and a bundled timeline engine expose six labels, headings, and accent; the built-in abstract imagery has no parameter slot for arbitrary photos or video. Fixed 10-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-151"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-cute-character-lyric-mv",
+    "project_id": "motiongit-cute-character-lyric-mv",
+    "name": "Cute Character · Lyric Music Video",
+    "kind": "film",
+    "url": "https://motiongit.com/@chenyutao0417/cute-character-lyric-mv",
+    "section": "Film and Scene Templates",
+    "description": "Pastel character animation with pose interpolation, oversized kinetic words, side notes, and a lyric bar across nine fixed shots. Useful for short lyric videos and playful character stories. Editable Remotion/TypeScript and content JSON expose timed lyrics, keywords, and notes; use your own authorized lyrics and music, and edit the source for a different character or shot timing. Fixed 33-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Remotion has separate licensing terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-152"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms. Remotion has separate licensing terms."
+  },
+  {
+    "id": "motiongit-deep-stage-title-ignition",
+    "project_id": "motiongit-deep-stage-title-ignition",
+    "name": "DEEP STAGE · Cinematic Title Intro",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-title-ignition",
+    "section": "Film and Scene Templates",
+    "description": "A dark cinematic stage ignites its horizon and floor grid, lights a distant screen wall, and drops a metallic two-part headline into place. Useful for product launches, case-study openings, and course intros. Editable HTML/CSS and a bundled timeline engine expose brand, headline, subtitle, metadata, and accent. Fixed 10-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-153"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested. The acquired route selected the warm style variant; the inspected package includes the shared source and parameterized accent. Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-collage-wipe",
+    "project_id": "motiongit-collage-wipe",
+    "name": "Panel Transitions · Wipe Pack",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/collage-wipe",
+    "section": "Film and Scene Templates",
+    "description": "Four graphic transitions demonstrate closing vertical slats, descending horizontal panels, paper-colored bars, and ink-colored bars. Useful for chapter changes and editorial scene cuts. Editable HTML/GSAP exposes brand and accent; the eight-second sequence demonstrates the wipes, and using an individual transition requires adapting its source timing. Fixed 8-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-154"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+  },
+  {
+    "id": "motiongit-deep-stage-outro-lockup",
+    "project_id": "motiongit-deep-stage-outro-lockup",
+    "name": "DEEP STAGE · Brand Outro",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-outro-lockup",
+    "section": "Film and Scene Templates",
+    "description": "Distant screens recede as a nested rounded-square logo draws on, followed by a wordmark, tagline, monospaced details, and a horizontal light sweep. Useful for consistent brand outros and course endings. Editable HTML/CSS and a bundled timeline engine expose brand text, tagline, details, version, and accent; replacing the geometric logo requires source edits. Fixed 8-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-155"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested. The acquired route selected the warm style variant; shared source and parameterized accent were inspected. Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-mascot-tutorial-3d",
+    "project_id": "motiongit-mascot-tutorial-3d",
+    "name": "3D Mascot · Guided Product Tutorial",
+    "kind": "film",
+    "url": "https://motiongit.com/@xkkiss12/mascot-tutorial-3d",
+    "section": "Film and Scene Templates",
+    "description": "A logo becomes a playful 3D mascot that guides clicks, typing, and focus marks on a tablet-like interface. Useful for product onboarding and step-by-step app tutorials. Editable Three.js/Canvas code with a Node/Playwright entry accepts screenshots, action steps, brand text, mascot geometry, colors, and timing; it uses supplied UI images rather than automating the real product. 1920 × 1080 at 30 fps; the supplied example is 72.3 seconds, with duration derived from configured steps. The page lists personal/noncommercial use, while the package includes MIT source terms; confirm broader commercial scope with the author. Third-party assets retain their own licenses. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-156"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested. The package includes an MIT license for source, while the official listing labels the offer personal/noncommercial. The catalog recommends the narrower personal scope and does not assert commercial clearance; clarify broader use with the author. The page lists personal/noncommercial use, while the package includes MIT source terms; confirm broader commercial scope with the author. Third-party assets retain their own licenses."
   }
 ]

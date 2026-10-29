@@ -1780,5 +1780,170 @@
     "reliability": "high",
     "checked_at": "2026-10-29",
     "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: 312872f1fbe94f53a674dd2d8dd370fd9a40fb27eb2620d3049b783b37f886d5. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published. On 2026-10-29 the public product-page preview was hotlinked: https://media.openaicut.com/previews/875/1.0.0-zh-cd8ad1570460.mp4 (HTTP 200 video/mp4, Content-Length 4035957, ftyp isom, ffprobe H.264 1920x1080) with poster https://media.openaicut.com/covers/875/1.0.0-zh-3c1d5e7cd796.jpg. CDN hotlink only. redistributable is false. GSAP remains separately licensed. Not copied. Not a local render test."
+  },
+  {
+    "id": "S-CV-142",
+    "project_id": "motiongit-collage-flow",
+    "title": "Creative Workflow · Timeline authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/collage-flow",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: e5e84adf1e14479f59c65a3d4d4353d19113fae38146b7614fe7be7be65261a1. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-143",
+    "project_id": "motiongit-collage-open",
+    "title": "Collage · Opening Reveal authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/collage-open",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: d3f87179c23c05d1f96531074d2da3f1a6864fd809204baa34ca47f75492ed16. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-144",
+    "project_id": "motiongit-ink-saga",
+    "title": "Ink Biography · A Life in Characters authenticated static package review",
+    "url": "https://motiongit.com/@chenyutao0417/ink-saga",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: audio/sfx.py, examples/build_hanxin.py, scripts/preview.mjs, scripts/render.mjs, src/engine.js, src/index.html. Inner release SHA-256: 7b315ad155aff9ae5cefcf52e0a9ba7eadab7f5087f14a98dc22d8ce7b5f1165. Personal and commercial rendered videos are permitted; redistribution or resale of the template/source is prohibited. Third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-145",
+    "project_id": "motiongit-moonwhite-robot-unified",
+    "title": "Soft Gradient · Illustrated Narration authenticated static package review",
+    "url": "https://motiongit.com/@frankye1211/moonwhite-robot-unified",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 0.8.1-rc.1 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/adapter.py, src/audio.py, src/bookends.js, src/editorial.js, src/explainer.js, src/font-guard.js, src/food-icons.js, src/foundation.js, src/graphics.js, src/index.html, src/mix.mjs, src/palette.js, src/presentation.py, src/presenter.js, src/presenter.py, src/quality.py, src/render.mjs, src/scenes.js, src/short_scenes.py, src/waterfall.js. Inner release SHA-256: 571b9f87d2da76358fbaae515b5ebe1ca556177cab92a8b39b0cbc8d1473f7df. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-146",
+    "project_id": "motiongit-collage-product",
+    "title": "Product Workspace · Brand Outro authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/collage-product",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: 901d4d966bc417605d9d36edf56c68e8fa594e192851a86daa0b9db362ea642d. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-147",
+    "project_id": "motiongit-deep-stage-product-focus",
+    "title": "DEEP STAGE · Product Spotlight authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-product-focus",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: e592e2f7c7ce5edd211abfcd2fb9b3ab1293714b35790da4b3d929734cb6ef4e. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-148",
+    "project_id": "motiongit-corporate-multiscreen-charts",
+    "title": "Multi-Screen Business · Animated Charts authenticated static package review",
+    "url": "https://motiongit.com/@frankye1211/corporate-multiscreen-charts",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 0.1.1-candidate reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/adapter.mjs, src/index.html, src/motion.js. Inner release SHA-256: a43ff10687ecf94f41ef79908e22b2fe0456f28ba2b78608d6844017fc49d8f4. The official page lists template code under MIT; the bundled notice defers to platform terms. Third-party photos and fonts retain separate licenses. The published template page explicitly selects MIT for template code. The bundled author-submission notice grants no standalone license and defers reuse to the applicable author/platform license; third-party photos and fonts remain separately licensed. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-149",
+    "project_id": "motiongit-product-update-story",
+    "title": "Goals & Evidence · 17 Motion Diagram Types authenticated static package review",
+    "url": "https://motiongit.com/@frankye1211/product-update-story",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 0.4.0-rc.5 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/adapter.py, src/adaptive.js, src/audio.py, src/font-guard.js, src/foundation.js, src/index.html, src/mix.mjs, src/planner.py, src/product.js, src/render.mjs, src/rich.js. Inner release SHA-256: 99d4a0852741ee52596a8ddd078419fb8ef26c4f3dc23385a33317d7087ba2bd. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-150",
+    "project_id": "motiongit-light-ribbon-word",
+    "title": "Light Ribbon · Word Reveal authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/light-ribbon-word",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html. Inner release SHA-256: d0e2717739692813146d0b9484b77c6b9a1ee61cf26fff44e736a7e9e1840071. Personal/noncommercial use only; template redistribution is prohibited. The package declares the bundled Inter font under SIL OFL 1.1 but does not include a separate full font-license notice. This review does not clear redistribution of the font or personal package; retain/verify the font license separately. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-151",
+    "project_id": "motiongit-deep-stage-media-wall",
+    "title": "DEEP STAGE · Media Wall authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-media-wall",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 6b6d7884aeddc4ed7d0109393fdf091fac8e9cc1123c9177f5016b9b9782f0d9. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-152",
+    "project_id": "motiongit-cute-character-lyric-mv",
+    "title": "Cute Character · Lyric Music Video authenticated static package review",
+    "url": "https://motiongit.com/@chenyutao0417/cute-character-lyric-mv",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.1 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: keys.mjs, src/CanvasScene.tsx, src/index.ts, src/Main.tsx, src/Overlay.tsx, src/rig.ts, src/Root.tsx, src/Shots.tsx. Inner release SHA-256: 4b374c988d40bbb9dc6704a09ca9ef881a00b437ca47b5df0c610b00a44d9493. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Remotion has separate licensing terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-153",
+    "project_id": "motiongit-deep-stage-title-ignition",
+    "title": "DEEP STAGE · Cinematic Title Intro authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-title-ignition",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 2f186c1e74ce971d2b9a858fc94f2d9ceffdcf528a35e239f4f1c28148c05cee. Template source is MIT-licensed; fonts and third-party assets retain separate terms. The acquired route selected the warm style variant; the inspected package includes the shared source and parameterized accent. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-154",
+    "project_id": "motiongit-collage-wipe",
+    "title": "Panel Transitions · Wipe Pack authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/collage-wipe",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: 70934ca13d177685a4352e03956b18e1d5d548220f9e09b5a1b1eecf23c13564. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-155",
+    "project_id": "motiongit-deep-stage-outro-lockup",
+    "title": "DEEP STAGE · Brand Outro authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-outro-lockup",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 625e93846c577aa7b976c4bb6188cbcd28b211b36382516681a67bfcdf89fc10. Template source is MIT-licensed; fonts and third-party assets retain separate terms. The acquired route selected the warm style variant; shared source and parameterized accent were inspected. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-156",
+    "project_id": "motiongit-mascot-tutorial-3d",
+    "title": "3D Mascot · Guided Product Tutorial authenticated static package review",
+    "url": "https://motiongit.com/@xkkiss12/mascot-tutorial-3d",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/audio.mjs, src/browser.js, src/params.mjs, src/pet.js, src/render.mjs, src/scene.html, src/scene.js, src/timeline.js, tools/build-manifest.py, tools/make-bloomly.html. Inner release SHA-256: b94e24201a1637bc5d12842b0e891e90ecb8815cace9a718fbc7f7f0b410a84d. The page lists personal/noncommercial use, while the package includes MIT source terms; confirm broader commercial scope with the author. Third-party assets retain their own licenses. The package includes an MIT license for source, while the official listing labels the offer personal/noncommercial. The catalog recommends the narrower personal scope and does not assert commercial clearance; clarify broader use with the author. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
   }
 ]
