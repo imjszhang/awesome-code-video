@@ -18,6 +18,8 @@ Initial review: 2026-10-27. Upstream branches and licenses may change; the links
 
 ## Selection Boundaries
 
+Only publicly accessible, inspectable artifacts with clear reuse permissions belong in the catalog. Exclude encrypted implementations, account-bound/private source packages, noncommercial-only or proprietary template restrictions, and unresolved or conflicting licenses. Ordinary copyright notices under MIT, Apache, BSD or other reuse-permitting licenses are not a reason for exclusion. Third-party asset licenses still apply.
+
 - A full project must expose editable film or scene source, not only a preview video.
 - A preset must have an identifiable configuration example.
 - A recipe must explain the move and identify an implementation path.

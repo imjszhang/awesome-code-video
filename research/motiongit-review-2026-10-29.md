@@ -258,3 +258,8 @@ Licensing caveats: accepted does not mean unrestricted open source. Collage frag
 The four unresolved-license packages are Cool 3D Intro and the three DeepSeek particle/morph packages (404937, 941301, 380710). Readable implementation alone does not resolve their authorization.
 
 All accepted resources retain `source-reviewed` and `render_tested: false`; descriptions distinguish editable parameters from changes requiring source edits.
+
+
+## Public-source policy supersedes earlier admissions — 2026-10-29
+
+All 24 authenticated-package admissions above have been withdrawn under the maintainer’s new public-source policy, including packages with MIT notices: the reviewed source was supplied through personal account-bound downloads. The mixed gated MotionGit directory is also removed; Kinetic Tech remains through its public source. Earlier accepted counts are historical audit outcomes, not current catalog membership. Encrypted and license-uncertain candidates remain outside the catalog. No personal packages or protected source are published.

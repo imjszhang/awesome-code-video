@@ -10,7 +10,7 @@ import { isCompletePreview, resolvePreview, type ResourcePreview } from './previ
 export type { PreviewCaption, PreviewKind, ResolvedPreview, ResourcePreview } from './preview';
 export { previewCaption, previewMode, previewPlayable, previewPoster, previewUrl, resolvePreview } from './preview';
 
-export const projects = projectData;
+export const projects = projectData.filter(project => resourceData.some(resource => resource.project_id === project.id));
 type CatalogResource = Omit<(typeof resourceData)[number], 'preview'>;
 export type Resource = CatalogResource & { preview?: ResourcePreview };
 function readResource(record: (typeof resourceData)[number]): Resource {
@@ -34,7 +34,7 @@ export const kindGuides: Record<string, string> = {
  generative_prompt:'A copy-paste text-to-video or image-to-video prompt with an upstream model label. It is not an editable render project, and the model name is not a compatibility guarantee.'
 };
 export const collections = [
- {id:'product-demos',name:'Product demos',caption:'Make your next launch move.',description:'Editable product films, interface demonstrations, and focused shots for explaining what your software does.',ids:['kinetic-tech','ink-press','video-shotcraft-type-and-filter','video-shotcraft-space-camera-moves','webreel-custom-theme','webreel-drag-and-drop','webreel-mobile-viewport','onetake','guizang-product-video-skill'],symbol:'↗'},
+ {id:'product-demos',name:'Product demos',caption:'Make your next launch move.',description:'Editable product films, interface demonstrations, and focused shots for explaining what your software does.',ids:['kinetic-tech','ink-press','video-shotcraft-type-and-filter','video-shotcraft-space-camera-moves','webreel-custom-theme','webreel-drag-and-drop','webreel-mobile-viewport','guizang-product-video-skill'],symbol:'↗'},
  {id:'explainers',name:'Explainers',caption:'Give a complex idea a clear shape.',description:'Paper collage, diagrams, science scenes, and narrated workflows for turning an idea into an explanation.',ids:['paper-cut-five-layer-motion','butterfly-life','anatomy-ripple-tank','lemo-opuscar-whiteboard-explainer','lemo-opuscar-isometric-infographic','llm-explain','lemo-watercolor','lemo-teardown'],symbol:'✳'},
  {id:'maps-and-travel',name:'Maps & travel',caption:'Put your story on the map.',description:'Reusable location, flight, road-trip, and elevation configurations. Check each mode’s data and provider requirements.',ids:['map-motion-globe-to-location','map-motion-night-location','map-motion-hiking-elevation','map-motion-road-trip','map-motion-flight-routes','map-motion-radial-coverage'],symbol:'◎'},
  {id:'data-stories',name:'Data stories',caption:'Turn numbers into a narrative.',description:'Chart motion, visual systems, and information-design specifications for metrics, research, and technical stories.',ids:['hyperframes-data-chart','video-shotcraft-chart-live-moves','lemo-opuscar-data-storytelling','lemo-opuscar-blueprint','lemo-briefing-board'],symbol:'▥'},

@@ -12,15 +12,6 @@ const bundledPoster = poster => typeof poster === 'string' && poster.startsWith(
 /** Batch L hotlinks upstream media and does not vendor a cover file. */
 const HOTLINK_IDS = [
   'kinetic-tech',
-  'kouboo-motion',
-  'motiongit-deep-stage-host-stage',
-  'motiongit-deep-stage-full-video',
-  'motiongit-deep-stage-case-data',
-  'motiongit-kit1-doc-shortfilm',
-  'motiongit-kit2-koubo-wrap',
-  'motiongit-volume-price-kline-charts',
-  'motiongit-collage-wall',
-  'motiongit-collage-views',
   'anatomy-ripple-tank',
   'map-motion-night-location',
 ];
@@ -86,10 +77,6 @@ test('every gallery preview has a bundled cover or an explicit hotlink', () => {
   assert.equal(night.preview.url, 'https://raw.githubusercontent.com/SpaceZephyr/map-motion/main/docs/media/vlog_locate_bund.webp');
   assert.equal(night.preview.redistributable, false);
   assert.doesNotMatch(night.editorial_note, /No matching export|Preview withheld/);
-  const full = resources.find(r => r.id === 'motiongit-deep-stage-full-video');
-  assert.equal(full.preview.kind, 'video');
-  assert.equal(full.preview.poster, 'https://media.openaicut.com/covers/885/1.0.0-10251bc4895b.jpg');
-  assert.equal(full.preview.redistributable, false);
   assert.equal(resources.find(r => r.id === 'amicro-line-reveal').preview, undefined);
   assert(resources.find(r => r.id === 'map-motion-radial-coverage').preview.url.endsWith('/radiate_dark.webp'));
 });

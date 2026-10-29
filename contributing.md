@@ -10,12 +10,14 @@ General design inspiration, generic AI video generators, unexplained demo reels,
 
 ## Before suggesting a resource
 
+Only publicly accessible, inspectable artifacts with clear reuse permissions belong in the catalog. Exclude encrypted implementations, account-bound/private source packages, noncommercial-only or proprietary template restrictions, and unresolved or conflicting licenses. Ordinary copyright notices under MIT, Apache, BSD or other reuse-permitting licenses are not a reason for exclusion. Third-party asset licenses still apply.
+
 - Search the list and open issues for duplicates.
 - Link to the original project and, when possible, the exact example, template, or style file.
 - Explain what is reusable and what a user still needs to build or replace.
 - Describe the visual style and the kind of video it suits.
 - State whether you tried it yourself or reviewed its source and documentation. Do not present source review as a successful render test.
-- Mention material limitations, such as noncommercial terms, paid dependencies, required services, or assets licensed separately.
+- Mention material limitations, such as paid dependencies, required services, or assets licensed separately.
 - Disclose if you maintain, sell, or are affiliated with the resource. Self-submissions are welcome and use the same criteria.
 
 ## Editing the list

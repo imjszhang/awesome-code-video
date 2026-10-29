@@ -2583,14 +2583,14 @@
     "id": "C-d80d2ff9d14e",
     "url": "https://motiongit.com/@thepandaq/kouboo-motion",
     "name": "Narrated Promo · 10-Second Intro",
-    "status": "accepted",
-    "reason": "Authenticated package contains editable HTML/GSAP source, schema and preset; personal/noncommercial restrictions explicitly recorded. Static review only.",
-    "resource_id": "kouboo-motion",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-133"
     ],
     "created_at": "2026-10-29T03:34:46.789Z",
-    "updated_at": "2026-10-29T04:25:50.281Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:46.789Z",
@@ -2609,6 +2609,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated package contains editable HTML/GSAP source, schema and preset; personal/noncommercial restrictions explicitly recorded. Static review only."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2647,14 +2653,14 @@
     "id": "C-8e7e2e85ee1d",
     "url": "https://motiongit.com/@thepandaq/deep-stage-host-stage",
     "name": "DEEP STAGE · Presenter Stage",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-deep-stage-host-stage",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-134"
     ],
     "created_at": "2026-10-29T03:34:47.116Z",
-    "updated_at": "2026-10-29T05:16:51.019Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:47.116Z",
@@ -2673,6 +2679,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2680,14 +2692,14 @@
     "id": "C-45a9e13b58a1",
     "url": "https://motiongit.com/@thepandaq/deep-stage-full-video",
     "name": "DEEP STAGE · Complete Narrated Video",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-deep-stage-full-video",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-135"
     ],
     "created_at": "2026-10-29T03:34:47.281Z",
-    "updated_at": "2026-10-29T05:16:51.187Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:47.281Z",
@@ -2706,6 +2718,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2713,14 +2731,14 @@
     "id": "C-702a4d44734f",
     "url": "https://motiongit.com/@chenyutao0417/kit2-koubo-wrap",
     "name": "Kit 2 · Portrait Presenter Graphics",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-kit2-koubo-wrap",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-138"
     ],
     "created_at": "2026-10-29T03:34:47.442Z",
-    "updated_at": "2026-10-29T05:16:51.694Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:47.442Z",
@@ -2739,6 +2757,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2821,14 +2845,14 @@
     "id": "C-68edd99dba8b",
     "url": "https://motiongit.com/@oubaba95128/volume-price-kline-charts",
     "name": "Price & Volume · Candlestick and Intraday Charts",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-volume-price-kline-charts",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-139"
     ],
     "created_at": "2026-10-29T03:34:48.094Z",
-    "updated_at": "2026-10-29T05:16:51.862Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.094Z",
@@ -2847,6 +2871,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2854,14 +2884,14 @@
     "id": "C-d4672fc2b7d7",
     "url": "https://motiongit.com/@thepandaq/collage-flow",
     "name": "Creative Workflow · Timeline",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-collage-flow",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-142"
     ],
     "created_at": "2026-10-29T03:34:48.256Z",
-    "updated_at": "2026-10-29T06:12:44.491Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.256Z",
@@ -2880,6 +2910,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2887,14 +2923,14 @@
     "id": "C-a1592830bbf8",
     "url": "https://motiongit.com/@thepandaq/deep-stage-case-data",
     "name": "DEEP STAGE · Case Study Dashboard",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-deep-stage-case-data",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-136"
     ],
     "created_at": "2026-10-29T03:34:48.421Z",
-    "updated_at": "2026-10-29T05:16:51.359Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.421Z",
@@ -2913,6 +2949,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2920,14 +2962,14 @@
     "id": "C-b594997649f2",
     "url": "https://motiongit.com/@frankye1211/product-update-story",
     "name": "Goals & Evidence · 17 Motion Diagram Types",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-product-update-story",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-149"
     ],
     "created_at": "2026-10-29T03:34:48.581Z",
-    "updated_at": "2026-10-29T06:12:45.739Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.581Z",
@@ -2946,6 +2988,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2953,14 +3001,14 @@
     "id": "C-75e424e74600",
     "url": "https://motiongit.com/@frankye1211/moonwhite-robot-unified",
     "name": "Soft Gradient · Illustrated Narration",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-moonwhite-robot-unified",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-145"
     ],
     "created_at": "2026-10-29T03:34:48.743Z",
-    "updated_at": "2026-10-29T06:12:45.025Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.743Z",
@@ -2979,6 +3027,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -2986,14 +3040,14 @@
     "id": "C-df9e724158e9",
     "url": "https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm",
     "name": "Kit 1 · Documentary Explainer",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-kit1-doc-shortfilm",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-137"
     ],
     "created_at": "2026-10-29T03:34:48.906Z",
-    "updated_at": "2026-10-29T05:16:51.525Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:48.906Z",
@@ -3012,6 +3066,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -3019,14 +3079,14 @@
     "id": "C-46154fc3accf",
     "url": "https://motiongit.com/@chenyutao0417/ink-saga",
     "name": "Ink Biography · A Life in Characters",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-ink-saga",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-144"
     ],
     "created_at": "2026-10-29T03:34:49.071Z",
-    "updated_at": "2026-10-29T06:12:44.849Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:49.071Z",
@@ -3045,6 +3105,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -3600,14 +3666,14 @@
     "id": "C-ea3a90abd57f",
     "url": "https://motiongit.com/@thepandaq/collage-open",
     "name": "Collage · Opening Reveal",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-collage-open",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-143"
     ],
     "created_at": "2026-10-29T03:34:52.655Z",
-    "updated_at": "2026-10-29T06:12:44.669Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:52.655Z",
@@ -3626,6 +3692,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -3633,14 +3705,14 @@
     "id": "C-47d31c977a11",
     "url": "https://motiongit.com/@thepandaq/collage-wall",
     "name": "Multi-Screen Wall · Layout Transition",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-collage-wall",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-140"
     ],
     "created_at": "2026-10-29T03:34:52.826Z",
-    "updated_at": "2026-10-29T05:16:52.030Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:52.826Z",
@@ -3659,6 +3731,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -3666,14 +3744,14 @@
     "id": "C-3cf1db3fe2e9",
     "url": "https://motiongit.com/@thepandaq/collage-views",
     "name": "Four Perspectives · Scrolling Filmstrip",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-collage-views",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-141"
     ],
     "created_at": "2026-10-29T03:34:52.998Z",
-    "updated_at": "2026-10-29T05:16:52.201Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:52.998Z",
@@ -3692,6 +3770,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -3699,14 +3783,14 @@
     "id": "C-305a4988fca6",
     "url": "https://motiongit.com/@thepandaq/collage-product",
     "name": "Product Workspace · Brand Outro",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-collage-product",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-146"
     ],
     "created_at": "2026-10-29T03:34:53.172Z",
-    "updated_at": "2026-10-29T06:12:45.203Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.172Z",
@@ -3725,6 +3809,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -3732,14 +3822,14 @@
     "id": "C-36a0fd5a07e4",
     "url": "https://motiongit.com/@thepandaq/deep-stage-product-focus",
     "name": "DEEP STAGE · Product Spotlight",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-deep-stage-product-focus",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-147"
     ],
     "created_at": "2026-10-29T03:34:53.345Z",
-    "updated_at": "2026-10-29T06:12:45.379Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.345Z",
@@ -3758,6 +3848,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -3765,14 +3861,14 @@
     "id": "C-f91b151a36c9",
     "url": "https://motiongit.com/@frankye1211/corporate-multiscreen-charts",
     "name": "Multi-Screen Business · Animated Charts",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-corporate-multiscreen-charts",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-148"
     ],
     "created_at": "2026-10-29T03:34:53.520Z",
-    "updated_at": "2026-10-29T06:12:45.562Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:53.520Z",
@@ -3791,6 +3887,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4139,14 +4241,14 @@
     "id": "C-4bb54f44fbc3",
     "url": "https://motiongit.com/@thepandaq/light-ribbon-word",
     "name": "Light Ribbon · Word Reveal",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-light-ribbon-word",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-150"
     ],
     "created_at": "2026-10-29T03:34:55.676Z",
-    "updated_at": "2026-10-29T06:21:54.788Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:55.676Z",
@@ -4165,6 +4267,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4172,14 +4280,14 @@
     "id": "C-402d82e65eb4",
     "url": "https://motiongit.com/@thepandaq/collage-wipe",
     "name": "Panel Transitions · Wipe Pack",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-collage-wipe",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-154"
     ],
     "created_at": "2026-10-29T03:34:55.859Z",
-    "updated_at": "2026-10-29T06:21:55.506Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:55.859Z",
@@ -4198,6 +4306,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4205,14 +4319,14 @@
     "id": "C-5e2efdef4cd3",
     "url": "https://motiongit.com/@thepandaq/deep-stage-title-ignition",
     "name": "DEEP STAGE · Cinematic Title Intro",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-deep-stage-title-ignition",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-153"
     ],
     "created_at": "2026-10-29T03:34:56.041Z",
-    "updated_at": "2026-10-29T06:21:55.326Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.041Z",
@@ -4231,6 +4345,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4238,14 +4358,14 @@
     "id": "C-7cf0cbb3c051",
     "url": "https://motiongit.com/@thepandaq/deep-stage-media-wall",
     "name": "DEEP STAGE · Media Wall",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-deep-stage-media-wall",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-151"
     ],
     "created_at": "2026-10-29T03:34:56.235Z",
-    "updated_at": "2026-10-29T06:21:54.967Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.235Z",
@@ -4264,6 +4384,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4271,14 +4397,14 @@
     "id": "C-9b348ac1a57b",
     "url": "https://motiongit.com/@thepandaq/deep-stage-outro-lockup",
     "name": "DEEP STAGE · Brand Outro",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-deep-stage-outro-lockup",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-155"
     ],
     "created_at": "2026-10-29T03:34:56.417Z",
-    "updated_at": "2026-10-29T06:21:55.689Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.417Z",
@@ -4297,6 +4423,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4304,14 +4436,14 @@
     "id": "C-341a4fcb8f91",
     "url": "https://motiongit.com/@xkkiss12/mascot-tutorial-3d",
     "name": "3D 吉祥物手把手教程",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-mascot-tutorial-3d",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-156"
     ],
     "created_at": "2026-10-29T03:34:56.608Z",
-    "updated_at": "2026-10-29T06:21:55.867Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.608Z",
@@ -4330,6 +4462,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4337,14 +4475,14 @@
     "id": "C-e200a0a3bc90",
     "url": "https://motiongit.com/@chenyutao0417/cute-character-lyric-mv",
     "name": "可爱角色歌词 MV",
-    "status": "accepted",
-    "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls.",
-    "resource_id": "motiongit-cute-character-lyric-mv",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
     "evidence_ids": [
       "S-CV-152"
     ],
     "created_at": "2026-10-29T03:34:56.787Z",
-    "updated_at": "2026-10-29T06:21:55.146Z",
+    "updated_at": "2026-10-29T06:47:41.808266Z",
     "history": [
       {
         "at": "2026-10-29T03:34:56.787Z",
@@ -4363,6 +4501,12 @@
         "from": "deferred",
         "to": "accepted",
         "reason": "Authenticated editable source, parameter contract and license reviewed statically. Scope and reuse restrictions recorded; no rendering or paid service calls."
+      },
+      {
+        "at": "2026-10-29T06:47:41.808266Z",
+        "from": "accepted",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   },
@@ -4413,6 +4557,56 @@
         "from": "pending",
         "to": "deferred",
         "reason": "Preview-only project; catalog says download coming soon. See research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-11127db74315",
+    "url": "https://github.com/feitangyuan/onetake",
+    "name": "OneTake",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T06:47:41.886Z",
+    "updated_at": "2026-10-29T06:47:41.984Z",
+    "history": [
+      {
+        "at": "2026-10-29T06:47:41.886Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T06:47:41.984Z",
+        "from": "pending",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
+      }
+    ]
+  },
+  {
+    "id": "C-98b4dc074f80",
+    "url": "https://github.com/motiontemplates/all",
+    "name": "MotionGit Template Collection",
+    "status": "rejected",
+    "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T06:47:42.097Z",
+    "updated_at": "2026-10-29T06:47:42.193Z",
+    "history": [
+      {
+        "at": "2026-10-29T06:47:42.097Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T06:47:42.193Z",
+        "from": "pending",
+        "to": "rejected",
+        "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
   }
