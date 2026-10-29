@@ -467,5 +467,69 @@
     "aliases": [],
     "urls": [],
     "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-deep-stage-host-stage",
+    "name": "DEEP STAGE · Presenter Stage",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-host-stage",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-deep-stage-full-video",
+    "name": "DEEP STAGE · Complete Narrated Video",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-full-video",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-deep-stage-case-data",
+    "name": "DEEP STAGE · Case Study Dashboard",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-case-data",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-kit1-doc-shortfilm",
+    "name": "Kit 1 · Documentary Explainer",
+    "url": "https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-kit2-koubo-wrap",
+    "name": "Kit 2 · Portrait Presenter Graphics",
+    "url": "https://motiongit.com/@chenyutao0417/kit2-koubo-wrap",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-volume-price-kline-charts",
+    "name": "Price & Volume · Candlestick and Intraday Charts",
+    "url": "https://motiongit.com/@oubaba95128/volume-price-kline-charts",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-collage-wall",
+    "name": "Multi-Screen Wall · Layout Transition",
+    "url": "https://motiongit.com/@thepandaq/collage-wall",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "motiongit-collage-views",
+    "name": "Four Perspectives · Scrolling Filmstrip",
+    "url": "https://motiongit.com/@thepandaq/collage-views",
+    "aliases": [],
+    "urls": [],
+    "identity_checked_at": "2026-10-29"
   }
 ]

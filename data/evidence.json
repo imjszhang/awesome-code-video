@@ -1692,5 +1692,93 @@
     "reliability": "high",
     "checked_at": "2026-10-29",
     "notes": "Downloaded version 1.0.0 and statically inspected the open inner ZIP: src/index.html, motion.json, params.schema.json, presets/demo.json, guide.json and licenses/TEMPLATE-LICENSE.txt. Verified GSAP timeline, editable text/statistic/accent inputs, 10 seconds, 1920x1080 at 30fps. Website license explanation permits personal/noncommercial modification and prohibits template redistribution; GSAP is separately licensed. Inner release SHA-256: 1067afb8f21c86e434b12b5b2162b7003144d3ed382169e6e9977b4321e903f8. No template/helper execution, paid service calls, signature verification or render test. Personal envelope and credentials remain local and are not published."
+  },
+  {
+    "id": "S-CV-134",
+    "project_id": "motiongit-deep-stage-host-stage",
+    "title": "DEEP STAGE · Presenter Stage authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-host-stage",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 9fba89b865b5c599c8cc55de078d67efbcae335d168e0bf564551f14abc70791. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-135",
+    "project_id": "motiongit-deep-stage-full-video",
+    "title": "DEEP STAGE · Complete Narrated Video authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-full-video",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/index.source.html. Inner release SHA-256: 9fe1e32e028557cf8d9aee8a67b9e03a571dd3f89877278d9de77b5b0de8022a. Template source is MIT-licensed; fonts and third-party assets retain separate terms. GSAP has separate terms. The lockfile and actual source use bundled GSAP, despite a stale no-third-party-library statement in TEMPLATE-LICENSE.txt; GSAP retains separate terms. Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-136",
+    "project_id": "motiongit-deep-stage-case-data",
+    "title": "DEEP STAGE · Case Study Dashboard authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-case-data",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: assets/motion.js, assets/stage.css, src/index.html. Inner release SHA-256: 5a22647ba36531c3960f9c2ac65df6dbca33030733308e795379e22db5045c60. Template source is MIT-licensed; fonts and third-party assets retain separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-137",
+    "project_id": "motiongit-kit1-doc-shortfilm",
+    "title": "Kit 1 · Documentary Explainer authenticated static package review",
+    "url": "https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, tools/music.py. Inner release SHA-256: 2d0c116f597f03c4da803d1210bbab43b557a5bcd4f92b4198ff496252f3aaf9. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-138",
+    "project_id": "motiongit-kit2-koubo-wrap",
+    "title": "Kit 2 · Portrait Presenter Graphics authenticated static package review",
+    "url": "https://motiongit.com/@chenyutao0417/kit2-koubo-wrap",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, tools/prep.py, tools/sfx.py, tools/tr.py. Inner release SHA-256: e6e5f974ab4b4b5f85b7f1a0f08f29a0b03b38a048ce8db7f54b41e030fe30d7. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-139",
+    "project_id": "motiongit-volume-price-kline-charts",
+    "title": "Price & Volume · Candlestick and Intraday Charts authenticated static package review",
+    "url": "https://motiongit.com/@oubaba95128/volume-price-kline-charts",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/meta.js. Inner release SHA-256: d5fd83bc28a838c4d770a261782c4d6c07fffe5571b3c90c5ff8c8a6f63c64b5. Personal/noncommercial use only; template redistribution is prohibited.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-140",
+    "project_id": "motiongit-collage-wall",
+    "title": "Multi-Screen Wall · Layout Transition authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/collage-wall",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: c1c0641a3905e17090518a01c4c014dfb24049d5fca72f43bdf4b2f28ea2b44a. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
+  },
+  {
+    "id": "S-CV-141",
+    "project_id": "motiongit-collage-views",
+    "title": "Four Perspectives · Scrolling Filmstrip authenticated static package review",
+    "url": "https://motiongit.com/@thepandaq/collage-views",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Authenticated version 1.0.0 reviewed via Firefox/JS Eyes and local nested ZIP inspection. Inspected runtime entry, animation implementation, parameter schema, demo preset, guide and package/webpage licensing. Source files: src/index.html, src/main.js. Inner release SHA-256: 312872f1fbe94f53a674dd2d8dd370fd9a40fb27eb2620d3049b783b37f886d5. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms.  Static review only: no template/helper execution, decryption, rendering, paid API calls or signature verification. Personal package and credentials are not published."
   }
 ]

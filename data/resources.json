@@ -5739,5 +5739,149 @@
       "render_tested": false
     },
     "editorial_note": "Static source and license review only. Personal/noncommercial use; do not redistribute the template or its credential-bearing download package. Runtime behavior and rendering were not tested."
+  },
+  {
+    "id": "motiongit-deep-stage-host-stage",
+    "project_id": "motiongit-deep-stage-host-stage",
+    "name": "DEEP STAGE · Presenter Stage",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-host-stage",
+    "section": "Film and Scene Templates",
+    "description": "Dark cinematic presenter stage with a portrait silhouette, a three-point information screen, chapter navigation, and lower thirds. Useful for course chapters and narrated product explainers. Editable HTML/CSS and a bundled timeline engine expose presenter text, points, chapters, and accent color; replacing the silhouette with footage requires source work. Fixed 14-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-134"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-deep-stage-full-video",
+    "project_id": "motiongit-deep-stage-full-video",
+    "name": "DEEP STAGE · Complete Narrated Video",
+    "kind": "film",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-full-video",
+    "section": "Film and Scene Templates",
+    "description": "A continuous dark 3D-stage presentation moving through a title reveal, presenter layout, product spotlight, KPI comparison, media wall, and brand outro. Useful for a complete product explainer. Editable HTML/GSAP source exposes brand copy, presenter details, product and case text, ten captions, and accent color. Fixed 46-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. GSAP has separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-135"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested. The lockfile and actual source use bundled GSAP, despite a stale no-third-party-library statement in TEMPLATE-LICENSE.txt; GSAP retains separate terms. Template source is MIT-licensed; fonts and third-party assets retain separate terms. GSAP has separate terms."
+  },
+  {
+    "id": "motiongit-deep-stage-case-data",
+    "project_id": "motiongit-deep-stage-case-data",
+    "name": "DEEP STAGE · Case Study Dashboard",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-case-data",
+    "section": "Film and Scene Templates",
+    "description": "Dark perspective dashboard with three rolling KPIs, six growing bars, and a before/after side screen. Useful for case studies, product results, and monthly reports. Editable HTML/CSS and a bundled timeline engine expose values, chart labels, comparison copy, footnotes, and accent color. Fixed 13-second, 1920 × 1080 at 30 fps package. Template source is MIT-licensed; fonts and third-party assets retain separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-136"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Template source is MIT-licensed; fonts and third-party assets retain separate terms."
+  },
+  {
+    "id": "motiongit-kit1-doc-shortfilm",
+    "project_id": "motiongit-kit1-doc-shortfilm",
+    "name": "Kit 1 · Documentary Explainer",
+    "kind": "film",
+    "url": "https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm",
+    "section": "Film and Scene Templates",
+    "description": "Warm, moody documentary typography with a spotlight, an impact word, bilingual captions, and a dark-to-light finale. Useful for reflective knowledge shorts and quote-led stories without a presenter. Editable HTML exposes anchor words, caption timing, impact beats, and lighting; changing duration requires retiming the source. Fixed 20-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-137"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited."
+  },
+  {
+    "id": "motiongit-kit2-koubo-wrap",
+    "project_id": "motiongit-kit2-koubo-wrap",
+    "name": "Kit 2 · Portrait Presenter Graphics",
+    "kind": "film",
+    "url": "https://motiongit.com/@chenyutao0417/kit2-koubo-wrap",
+    "section": "Film and Scene Templates",
+    "description": "Portrait talking-head graphics with full-screen, circular, and card-shaped presenter windows, orange emphasis, bilingual pill captions, and ten visual metaphors. Useful for personal knowledge shorts and experience sharing. Editable HTML/SVG exposes hooks, captions, and cuts; the included presenter is a vector placeholder and real footage needs integration. Fixed 36.5-second, 1080 × 1920 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-138"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited."
+  },
+  {
+    "id": "motiongit-volume-price-kline-charts",
+    "project_id": "motiongit-volume-price-kline-charts",
+    "name": "Price & Volume · Candlestick and Intraday Charts",
+    "kind": "scene",
+    "url": "https://motiongit.com/@oubaba95128/volume-price-kline-charts",
+    "section": "Film and Scene Templates",
+    "description": "Dark square chart inserts with red/green candlesticks, volume, and intraday drawing animations. Useful for explaining chart patterns with synthetic examples. Editable Canvas code and frame-operation JSON expose three titles and palette settings; the OHLC sequences are fixed examples, not live market data or an arbitrary-data chart generator. Fixed 49.2-second, 1080 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-139"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited."
+  },
+  {
+    "id": "motiongit-collage-wall",
+    "project_id": "motiongit-collage-wall",
+    "name": "Multi-Screen Wall · Layout Transition",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/collage-wall",
+    "section": "Film and Scene Templates",
+    "description": "Editorial multi-screen collage wall with photographic tiles, graphic panels, and a coordinated layout swap. Useful for portfolio reels and brand-story transitions. Editable HTML/GSAP exposes brand text, reel label, headline, and accent; changing the supplied photos requires source edits. Fixed 8.6-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-140"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
+  },
+  {
+    "id": "motiongit-collage-views",
+    "project_id": "motiongit-collage-views",
+    "name": "Four Perspectives · Scrolling Filmstrip",
+    "kind": "scene",
+    "url": "https://motiongit.com/@thepandaq/collage-views",
+    "section": "Film and Scene Templates",
+    "description": "Four-view collage that transitions into a horizontal photographic filmstrip. Useful for comparing creative variations and presenting portfolio sequences. Editable HTML/GSAP exposes brand text, reel label, headline, and accent; the fixed landscape excerpt is not an arbitrary shot-count template. Fixed 8.2-second, 1920 × 1080 at 30 fps package. Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms. Login required; keep the credential-bearing personal download private.",
+    "evidence_ids": [
+      "S-CV-141"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Static source and license inspection only; not render-tested.  Personal/noncommercial use only; template redistribution is prohibited. GSAP has separate terms."
   }
 ]

@@ -155,3 +155,60 @@ The following 43 candidates still need package inspection:
 - [DEEP STAGE · Brand Outro](https://motiongit.com/@thepandaq/deep-stage-outro-lockup) — pending authenticated package inspection.
 - [3D 吉祥物手把手教程](https://motiongit.com/@xkkiss12/mascot-tutorial-3d) — pending authenticated package inspection.
 - [可爱角色歌词 MV](https://motiongit.com/@chenyutao0417/cute-character-lyric-mv) — pending authenticated package inspection.
+
+## Firefox / JS Eyes follow-up — 2026-10-29
+
+This section supersedes the pending-package list above. Firefox provided an authenticated download route after Codex browser routing failed. Twelve additional complete personal packages were downloaded and statically inspected: eight accepted, three deferred for encrypted implementation, and one deferred for an unresolved bundled license. Across the original 54 login-required candidates, 23 packages have now been inspected (nine accepted and fourteen deferred); 31 still require package inspection. The subsequent JS Eyes extension queue failure is a transport blocker, not a source-review result.
+
+No downloaded template, helper, media-generation or rendering code was executed. No paid service was called, and encrypted implementations were not decrypted. Personal archives and credentials remain outside Git. Package hashes below identify inner non-personal releases. No independent render or signature verification was performed.
+
+| Template | Version | Decision | Inner release SHA-256 |
+| --- | --- | --- | --- |
+| [DEEP STAGE · Presenter Stage](https://motiongit.com/@thepandaq/deep-stage-host-stage) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `9fba89b865b5c599c8cc55de078d67efbcae335d168e0bf564551f14abc70791` |
+| [Kit 1 · Documentary Explainer](https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `2d0c116f597f03c4da803d1210bbab43b557a5bcd4f92b4198ff496252f3aaf9` |
+| [Price & Volume · Candlestick and Intraday Charts](https://motiongit.com/@oubaba95128/volume-price-kline-charts) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `d5fd83bc28a838c4d770a261782c4d6c07fffe5571b3c90c5ff8c8a6f63c64b5` |
+| [Paper Scroll · Brand Story](https://motiongit.com/@motiongit/motiongit-promo-ink) | 2.6.6 | Deferred: encrypted animation implementation. | `27923ea0ca52ec61737bb01a074053b6dddd932079c0867b64c02a1b24a23468` |
+| [Modular Collage · Creator Tools](https://motiongit.com/@motiongit/motiongit-promo-creator) | 2.6.4 | Deferred: encrypted animation implementation. | `618b713ad7935ecebebaa881abc26c109a618ea3b94d3631fe4101bee1d1cc50` |
+| [3D Stage · Narrated Video Intro](https://motiongit.com/@thepandaq/cool-3d-intro) | 1.0.0 | Deferred: bundled license awaits author confirmation. | `5ad7400b7be8a1241a7dcda3ed3620be6fbdbbbc35b1fd88298f119087c3526b` |
+| [Kit 2 · Portrait Presenter Graphics](https://motiongit.com/@chenyutao0417/kit2-koubo-wrap) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `e6e5f974ab4b4b5f85b7f1a0f08f29a0b03b38a048ce8db7f54b41e030fe30d7` |
+| [DEEP STAGE · Case Study Dashboard](https://motiongit.com/@thepandaq/deep-stage-case-data) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `5a22647ba36531c3960f9c2ac65df6dbca33030733308e795379e22db5045c60` |
+| [Keynote Stage · Product Demo](https://motiongit.com/@motiongit/motiongit-promo-keynote) | 2.6.4 | Deferred: encrypted animation implementation. | `7be15eee5b41676979f23675a7a56b3bf51c1379559667b05cc37dcf0fc6a01b` |
+| [DEEP STAGE · Complete Narrated Video](https://motiongit.com/@thepandaq/deep-stage-full-video) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `9fe1e32e028557cf8d9aee8a67b9e03a571dd3f89877278d9de77b5b0de8022a` |
+| [Multi-Screen Wall · Layout Transition](https://motiongit.com/@thepandaq/collage-wall) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `c1c0641a3905e17090518a01c4c014dfb24049d5fca72f43bdf4b2f28ea2b44a` |
+| [Four Perspectives · Scrolling Filmstrip](https://motiongit.com/@thepandaq/collage-views) | 1.0.0 | Accepted: editable source and reuse terms inspected; see catalog for restrictions. | `312872f1fbe94f53a674dd2d8dd370fd9a40fb27eb2620d3049b783b37f886d5` |
+
+Review caveats: DEEP STAGE Presenter Stage and Kit 2 use a drawn presenter placeholder; real footage requires integration. The candlestick sequence uses fixed synthetic drawing data, not live or arbitrary OHLC input. The DEEP STAGE full-video lockfile and source bundle GSAP despite a stale no-third-party-library sentence in its template license; the catalog explicitly separates GSAP terms. Collage fragments share a larger underlying timeline but expose different fixed excerpts; they are listed as distinct reusable scenes, not new full-film engines.
+
+### Still awaiting package inspection
+
+- [Creative Workflow · Timeline](https://motiongit.com/@thepandaq/collage-flow) — pending package inspection; not accepted or rejected from preview alone.
+- [Goals & Evidence · 17 Motion Diagram Types](https://motiongit.com/@frankye1211/product-update-story) — pending package inspection; not accepted or rejected from preview alone.
+- [Soft Gradient · Illustrated Narration](https://motiongit.com/@frankye1211/moonwhite-robot-unified) — pending package inspection; not accepted or rejected from preview alone.
+- [Ink Biography · A Life in Characters](https://motiongit.com/@chenyutao0417/ink-saga) — pending package inspection; not accepted or rejected from preview alone.
+- [Screen Collage · Brand Story](https://motiongit.com/@motiongit/motiongit-promo-main) — pending package inspection; not accepted or rejected from preview alone.
+- [Pixel Platformer · Product Introduction](https://motiongit.com/@motiongit/motiongit-promo-pixel) — pending package inspection; not accepted or rejected from preview alone.
+- [Light and Dark Cuts · Product Promotion](https://motiongit.com/@motiongit/motiongit-promo-velocity) — pending package inspection; not accepted or rejected from preview alone.
+- [Workflow Demo · Product Tutorial](https://motiongit.com/@motiongit/motiongit-promo-user) — pending package inspection; not accepted or rejected from preview alone.
+- [Engineering Blueprint · Product Breakdown](https://motiongit.com/@motiongit/motiongit-promo-blueprint) — pending package inspection; not accepted or rejected from preview alone.
+- [Collage · Opening Reveal](https://motiongit.com/@thepandaq/collage-open) — pending package inspection; not accepted or rejected from preview alone.
+- [Product Workspace · Brand Outro](https://motiongit.com/@thepandaq/collage-product) — pending package inspection; not accepted or rejected from preview alone.
+- [DEEP STAGE · Product Spotlight](https://motiongit.com/@thepandaq/deep-stage-product-focus) — pending package inspection; not accepted or rejected from preview alone.
+- [Multi-Screen Business · Animated Charts](https://motiongit.com/@frankye1211/corporate-multiscreen-charts) — pending package inspection; not accepted or rejected from preview alone.
+- [Halftone Dots · Portrait Title](https://motiongit.com/@prism-studio/visual-art-a-halftone) — pending package inspection; not accepted or rejected from preview alone.
+- [Photo Mosaic · Image Reveal](https://motiongit.com/@prism-studio/visual-art-b-mosaic) — pending package inspection; not accepted or rejected from preview alone.
+- [Geometric Collage · Animated Poster](https://motiongit.com/@prism-studio/visual-art-c-collage) — pending package inspection; not accepted or rejected from preview alone.
+- [Brush Repainting · Art Photo](https://motiongit.com/@prism-studio/visual-art-d-brushwork) — pending package inspection; not accepted or rejected from preview alone.
+- [Signal Glitch · Photo Transition](https://motiongit.com/@prism-studio/visual-art-e-glitch) — pending package inspection; not accepted or rejected from preview alone.
+- [Double Exposure · Portrait Layers](https://motiongit.com/@prism-studio/visual-art-f-double) — pending package inspection; not accepted or rejected from preview alone.
+- [Spatial Gallery · Photo Memories](https://motiongit.com/@prism-studio/visual-art-g-gallery) — pending package inspection; not accepted or rejected from preview alone.
+- [Mirror Kaleidoscope · Photo Motion](https://motiongit.com/@prism-studio/visual-art-h-kaleido) — pending package inspection; not accepted or rejected from preview alone.
+- [DeepSeek Whale · Particle Reveal](https://motiongit.com/@thepandaq/deepseek-whale-assemble) — pending package inspection; not accepted or rejected from preview alone.
+- [DeepSeek · 3D Particle Morph](https://motiongit.com/@thepandaq/deepseek-form-morph) — pending package inspection; not accepted or rejected from preview alone.
+- [DeepSeek · Particle Typography](https://motiongit.com/@thepandaq/deepseek-word-morph) — pending package inspection; not accepted or rejected from preview alone.
+- [Light Ribbon · Word Reveal](https://motiongit.com/@thepandaq/light-ribbon-word) — pending package inspection; not accepted or rejected from preview alone.
+- [Panel Transitions · Wipe Pack](https://motiongit.com/@thepandaq/collage-wipe) — pending package inspection; not accepted or rejected from preview alone.
+- [DEEP STAGE · Cinematic Title Intro](https://motiongit.com/@thepandaq/deep-stage-title-ignition) — pending package inspection; not accepted or rejected from preview alone.
+- [DEEP STAGE · Media Wall](https://motiongit.com/@thepandaq/deep-stage-media-wall) — pending package inspection; not accepted or rejected from preview alone.
+- [DEEP STAGE · Brand Outro](https://motiongit.com/@thepandaq/deep-stage-outro-lockup) — pending package inspection; not accepted or rejected from preview alone.
+- [3D 吉祥物手把手教程](https://motiongit.com/@xkkiss12/mascot-tutorial-3d) — pending package inspection; not accepted or rejected from preview alone.
+- [可爱角色歌词 MV](https://motiongit.com/@chenyutao0417/cute-character-lyric-mv) — pending package inspection; not accepted or rejected from preview alone.
