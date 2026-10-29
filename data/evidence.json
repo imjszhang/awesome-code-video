@@ -1648,5 +1648,38 @@
     "reliability": "high",
     "checked_at": "2026-10-28",
     "notes": "Range request on 2026-10-28: HTTP 206 video/mp4, Content-Range total 8983605 bytes, ftyp isom. Host is repo-assets.open-design.ai. previewImageUrl https://repo-assets.open-design.ai/resources/images/prompt-templates/video-seedance-desk-hologram-ar-realdesk-poster.jpg also returned a JPEG and is not the catalog preview. A local WebP frame is bundled. The MP4 was not copied into this repository. redistributable is false. Not a local render test."
+  },
+  {
+    "id": "S-CV-130",
+    "project_id": "motiongit-all",
+    "title": "MotionGit catalog and distribution status",
+    "url": "https://github.com/motiontemplates/all/blob/main/catalog.json",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Reviewed all 72 template records, one additional portrait demo and one preview-only project. Only Kinetic Tech declares GitHub source included. Checked every linked official template page and all 38 linked repository trees. Review outcomes are recorded in research/motiongit-review-2026-10-29.md; no claim that all listed templates are downloadable or rendered."
+  },
+  {
+    "id": "S-CV-131",
+    "project_id": "kinetic-tech",
+    "title": "Kinetic Tech public template source and rendering entry",
+    "url": "https://github.com/motiontemplates/385712/tree/main/template",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Inspected motion.json, README.md, package.json and render.mjs: public version 0.2.7-open-beta, landscape 1920x1080 at 60fps, adapter.py entry, Chrome/Playwright frame capture and FFmpeg encoding. Requires Node.js, Python, uv and local Chrome/FFmpeg. English direct .motion URL returned ZIP signature. No install or render test. Portrait and newer official personal editions are excluded from this resource."
+  },
+  {
+    "id": "S-CV-132",
+    "project_id": "kinetic-tech",
+    "title": "Kinetic Tech template license",
+    "url": "https://github.com/motiontemplates/385712/blob/main/template/licenses/TEMPLATE-LICENSE.txt",
+    "type": "official-documentation",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-10-29",
+    "notes": "Read MIT license for template code. Third-party fonts, likenesses, brand assets and demo audio require their own rights; do not infer demo redistribution permission from code licensing."
   }
 ]

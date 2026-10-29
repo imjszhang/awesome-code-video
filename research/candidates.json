@@ -2218,5 +2218,1830 @@
         "reason": "Open Design prompt JSON, license, and preview URL reviewed on 2026-10-28. Copyable Seedance 2.0 prompt admitted with attribution. Not render-tested."
       }
     ]
+  },
+  {
+    "id": "C-a45792611598",
+    "url": "https://motiongit.com/@adunext/template-01-integrated",
+    "name": "Modern Editorial · Narrated Explainer",
+    "status": "deferred",
+    "reason": "Official page reports download temporarily unavailable; package could not be reviewed. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:44.821Z",
+    "updated_at": "2026-10-29T03:34:44.896Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:44.821Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:44.896Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page reports download temporarily unavailable; package could not be reviewed. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-98a9fdbea6d4",
+    "url": "https://motiongit.com/@adunext/template-01-integrated-portrait",
+    "name": "Modern Editorial · Narrated Explainer · Portrait",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:44.979Z",
+    "updated_at": "2026-10-29T03:34:45.051Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:44.979Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:45.051Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-6d9d55cefe3d",
+    "url": "https://motiongit.com/@adunext/template-02-expanded",
+    "name": "Paper Perspective · Narrated Explainer",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:45.139Z",
+    "updated_at": "2026-10-29T03:34:45.212Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:45.139Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:45.212Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-1f1eda12aca2",
+    "url": "https://motiongit.com/@adunext/template-02-expanded-portrait",
+    "name": "Paper Perspective · Narrated Explainer · Portrait",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:45.299Z",
+    "updated_at": "2026-10-29T03:34:45.378Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:45.299Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:45.378Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-7db658e96195",
+    "url": "https://motiongit.com/@adunext/template-03-native",
+    "name": "Dark Dimensional Stage · Multi-screen Story",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:45.467Z",
+    "updated_at": "2026-10-29T03:34:45.543Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:45.467Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:45.543Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-43e03c4e9d4f",
+    "url": "https://motiongit.com/@adunext/template-03-native-portrait",
+    "name": "Dark Dimensional Stage · Multi-screen Story · Portrait",
+    "status": "deferred",
+    "reason": "Official page reports download temporarily unavailable; package could not be reviewed. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:45.626Z",
+    "updated_at": "2026-10-29T03:34:45.708Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:45.626Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:45.708Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page reports download temporarily unavailable; package could not be reviewed. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-7b83d0d559e5",
+    "url": "https://motiongit.com/@adunext/template-04-dark-console",
+    "name": "Tech Console · Narrated Explainer",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:45.794Z",
+    "updated_at": "2026-10-29T03:34:45.882Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:45.794Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:45.882Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-0eb16646f764",
+    "url": "https://motiongit.com/@adunext/template-04-dark-console-portrait",
+    "name": "Tech Console · Narrated Explainer · Portrait",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:45.974Z",
+    "updated_at": "2026-10-29T03:34:46.056Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:45.974Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:46.056Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-ab223d4b60a6",
+    "url": "https://motiongit.com/@adunext/template-05-native",
+    "name": "Vivid Characters · Narrative Explainer",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:46.144Z",
+    "updated_at": "2026-10-29T03:34:46.220Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:46.144Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:46.220Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-f3391721bb89",
+    "url": "https://motiongit.com/@adunext/template-05-native-portrait",
+    "name": "Vivid Characters · Narrative Explainer · Portrait",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:46.304Z",
+    "updated_at": "2026-10-29T03:34:46.385Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:46.304Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:46.385Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-41820481d4ec",
+    "url": "https://motiongit.com/@adunext/vibrant-poster",
+    "name": "Vibrant Poster · Narrated Explainer",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:46.466Z",
+    "updated_at": "2026-10-29T03:34:46.540Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:46.466Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:46.540Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-a6ea11c7d049",
+    "url": "https://motiongit.com/@adunext/vibrant-poster-portrait",
+    "name": "Vibrant Poster · Narrated Explainer · Portrait",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:46.624Z",
+    "updated_at": "2026-10-29T03:34:46.704Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:46.624Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:46.704Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-d80d2ff9d14e",
+    "url": "https://motiongit.com/@thepandaq/kouboo-motion",
+    "name": "Narrated Promo · 10-Second Intro",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:46.789Z",
+    "updated_at": "2026-10-29T03:34:46.864Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:46.789Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:46.864Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-54763c6c1e7c",
+    "url": "https://motiongit.com/@thepandaq/cool-3d-intro",
+    "name": "3D Stage · Narrated Video Intro",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:46.950Z",
+    "updated_at": "2026-10-29T03:34:47.028Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:46.950Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:47.028Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-8e7e2e85ee1d",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-host-stage",
+    "name": "DEEP STAGE · Presenter Stage",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:47.116Z",
+    "updated_at": "2026-10-29T03:34:47.193Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:47.116Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:47.193Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-45a9e13b58a1",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-full-video",
+    "name": "DEEP STAGE · Complete Narrated Video",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:47.281Z",
+    "updated_at": "2026-10-29T03:34:47.359Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:47.281Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:47.359Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-702a4d44734f",
+    "url": "https://motiongit.com/@chenyutao0417/kit2-koubo-wrap",
+    "name": "Kit 2 · Portrait Presenter Graphics",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:47.442Z",
+    "updated_at": "2026-10-29T03:34:47.518Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:47.442Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:47.518Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-92e24ea7ba56",
+    "url": "https://motiongit.com/@adunext/break-boundaries",
+    "name": "Beyond the Frame",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:47.602Z",
+    "updated_at": "2026-10-29T03:34:47.679Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:47.602Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:47.679Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-720055b45804",
+    "url": "https://motiongit.com/@adunext/character-theater",
+    "name": "Character Theater",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:47.766Z",
+    "updated_at": "2026-10-29T03:34:47.844Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:47.766Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:47.844Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-4e46b2817e90",
+    "url": "https://motiongit.com/@adunext/cartoon-explainer",
+    "name": "Hand-Drawn Cartoon Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:47.930Z",
+    "updated_at": "2026-10-29T03:34:48.008Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:47.930Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:48.008Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-68edd99dba8b",
+    "url": "https://motiongit.com/@oubaba95128/volume-price-kline-charts",
+    "name": "Price & Volume · Candlestick and Intraday Charts",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:48.094Z",
+    "updated_at": "2026-10-29T03:34:48.170Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:48.094Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:48.170Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-d4672fc2b7d7",
+    "url": "https://motiongit.com/@thepandaq/collage-flow",
+    "name": "Creative Workflow · Timeline",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:48.256Z",
+    "updated_at": "2026-10-29T03:34:48.335Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:48.256Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:48.335Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-a1592830bbf8",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-case-data",
+    "name": "DEEP STAGE · Case Study Dashboard",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:48.421Z",
+    "updated_at": "2026-10-29T03:34:48.496Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:48.421Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:48.496Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-b594997649f2",
+    "url": "https://motiongit.com/@frankye1211/product-update-story",
+    "name": "Goals & Evidence · 17 Motion Diagram Types",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:48.581Z",
+    "updated_at": "2026-10-29T03:34:48.659Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:48.581Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:48.659Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-75e424e74600",
+    "url": "https://motiongit.com/@frankye1211/moonwhite-robot-unified",
+    "name": "Soft Gradient · Illustrated Narration",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:48.743Z",
+    "updated_at": "2026-10-29T03:34:48.820Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:48.743Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:48.820Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-df9e724158e9",
+    "url": "https://motiongit.com/@chenyutao0417/kit1-doc-shortfilm",
+    "name": "Kit 1 · Documentary Explainer",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:48.906Z",
+    "updated_at": "2026-10-29T03:34:48.985Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:48.906Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:48.985Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-46154fc3accf",
+    "url": "https://motiongit.com/@chenyutao0417/ink-saga",
+    "name": "Ink Biography · A Life in Characters",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:49.071Z",
+    "updated_at": "2026-10-29T03:34:49.148Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:49.071Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:49.148Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-42b93bd98484",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-swiss",
+    "name": "Swiss Grid · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:49.235Z",
+    "updated_at": "2026-10-29T03:34:49.315Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:49.235Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:49.315Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-30b1654ab55c",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-clay",
+    "name": "Clay Lab · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:49.403Z",
+    "updated_at": "2026-10-29T03:34:49.481Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:49.403Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:49.481Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-d89f4dbdf5c8",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-chalkboard",
+    "name": "Chalkboard · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:49.574Z",
+    "updated_at": "2026-10-29T03:34:49.651Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:49.574Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:49.651Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-4c4c4acb4803",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-mindmap",
+    "name": "Growing Mind Map · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:49.738Z",
+    "updated_at": "2026-10-29T03:34:49.817Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:49.738Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:49.817Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-3649c312f17a",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-timeline",
+    "name": "Museum Timeline · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:49.906Z",
+    "updated_at": "2026-10-29T03:34:49.985Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:49.906Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:49.985Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-1c6edffb746c",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-lightboard",
+    "name": "Glowing Lightboard · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:50.075Z",
+    "updated_at": "2026-10-29T03:34:50.153Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:50.075Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:50.153Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-0525f9832238",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-isometric",
+    "name": "Isometric Systems · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:50.241Z",
+    "updated_at": "2026-10-29T03:34:50.319Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:50.241Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:50.319Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-d1f5e15db646",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-papercut",
+    "name": "Layered Papercut · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:50.407Z",
+    "updated_at": "2026-10-29T03:34:50.485Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:50.407Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:50.485Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-3818f7e5c505",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-metro",
+    "name": "Metro Network · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:50.573Z",
+    "updated_at": "2026-10-29T03:34:50.651Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:50.573Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:50.651Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-0ac65699cf20",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-riso",
+    "name": "Two-Color Risograph · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:50.740Z",
+    "updated_at": "2026-10-29T03:34:50.818Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:50.740Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:50.818Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-1648229b7645",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-sketchnote",
+    "name": "Dot-Grid Notes · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:50.913Z",
+    "updated_at": "2026-10-29T03:34:50.991Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:50.913Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:50.991Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-67ba276aef5f",
+    "url": "https://motiongit.com/@adunext/knowledge-explainer-byrne",
+    "name": "Color Geometry · Knowledge Explainer",
+    "status": "deferred",
+    "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:51.084Z",
+    "updated_at": "2026-10-29T03:34:51.163Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:51.084Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:51.163Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page says downloads open after support goals; no downloadable package verified. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-f52e09e20bce",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-main",
+    "name": "Screen Collage · Brand Story",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:51.260Z",
+    "updated_at": "2026-10-29T03:34:51.344Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:51.260Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:51.344Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-783c963b4c35",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-pixel",
+    "name": "Pixel Platformer · Product Introduction",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:51.436Z",
+    "updated_at": "2026-10-29T03:34:51.519Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:51.436Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:51.519Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-abd02b010752",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-velocity",
+    "name": "Light and Dark Cuts · Product Promotion",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:51.612Z",
+    "updated_at": "2026-10-29T03:34:51.694Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:51.612Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:51.694Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-2718633e779c",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-user",
+    "name": "Workflow Demo · Product Tutorial",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:51.790Z",
+    "updated_at": "2026-10-29T03:34:51.871Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:51.790Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:51.871Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-424acbca5fc4",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-creator",
+    "name": "Modular Collage · Creator Tools",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:51.963Z",
+    "updated_at": "2026-10-29T03:34:52.044Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:51.963Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:52.044Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-3adbc29fdb6a",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-blueprint",
+    "name": "Engineering Blueprint · Product Breakdown",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:52.138Z",
+    "updated_at": "2026-10-29T03:34:52.218Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:52.138Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:52.218Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-13273ace6a0a",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-keynote",
+    "name": "Keynote Stage · Product Demo",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:52.314Z",
+    "updated_at": "2026-10-29T03:34:52.394Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:52.314Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:52.394Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-418380134362",
+    "url": "https://motiongit.com/@motiongit/motiongit-promo-ink",
+    "name": "Paper Scroll · Brand Story",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:52.485Z",
+    "updated_at": "2026-10-29T03:34:52.565Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:52.485Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:52.565Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-ea3a90abd57f",
+    "url": "https://motiongit.com/@thepandaq/collage-open",
+    "name": "Collage · Opening Reveal",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:52.655Z",
+    "updated_at": "2026-10-29T03:34:52.735Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:52.655Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:52.735Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-47d31c977a11",
+    "url": "https://motiongit.com/@thepandaq/collage-wall",
+    "name": "Multi-Screen Wall · Layout Transition",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:52.826Z",
+    "updated_at": "2026-10-29T03:34:52.906Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:52.826Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:52.906Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-3cf1db3fe2e9",
+    "url": "https://motiongit.com/@thepandaq/collage-views",
+    "name": "Four Perspectives · Scrolling Filmstrip",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:52.998Z",
+    "updated_at": "2026-10-29T03:34:53.079Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:52.998Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:53.079Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-305a4988fca6",
+    "url": "https://motiongit.com/@thepandaq/collage-product",
+    "name": "Product Workspace · Brand Outro",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:53.172Z",
+    "updated_at": "2026-10-29T03:34:53.253Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:53.172Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:53.253Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-36a0fd5a07e4",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-product-focus",
+    "name": "DEEP STAGE · Product Spotlight",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:53.345Z",
+    "updated_at": "2026-10-29T03:34:53.425Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:53.345Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:53.425Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-f91b151a36c9",
+    "url": "https://motiongit.com/@frankye1211/corporate-multiscreen-charts",
+    "name": "Multi-Screen Business · Animated Charts",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:53.520Z",
+    "updated_at": "2026-10-29T03:34:53.603Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:53.520Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:53.603Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-86564d34af02",
+    "url": "https://motiongit.com/@prism-studio/visual-art-a-halftone",
+    "name": "Halftone Dots · Portrait Title",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:53.696Z",
+    "updated_at": "2026-10-29T03:34:53.781Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:53.696Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:53.781Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-cec6a8d89fd8",
+    "url": "https://motiongit.com/@prism-studio/visual-art-b-mosaic",
+    "name": "Photo Mosaic · Image Reveal",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:53.875Z",
+    "updated_at": "2026-10-29T03:34:53.957Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:53.875Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:53.957Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-b20fc4c26c53",
+    "url": "https://motiongit.com/@prism-studio/visual-art-c-collage",
+    "name": "Geometric Collage · Animated Poster",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:54.050Z",
+    "updated_at": "2026-10-29T03:34:54.137Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:54.050Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:54.137Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-e7b48f58cb3b",
+    "url": "https://motiongit.com/@prism-studio/visual-art-d-brushwork",
+    "name": "Brush Repainting · Art Photo",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:54.232Z",
+    "updated_at": "2026-10-29T03:34:54.315Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:54.232Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:54.315Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-2ae494a3ae41",
+    "url": "https://motiongit.com/@prism-studio/visual-art-e-glitch",
+    "name": "Signal Glitch · Photo Transition",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:54.413Z",
+    "updated_at": "2026-10-29T03:34:54.494Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:54.413Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:54.494Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-6ad89410fcfd",
+    "url": "https://motiongit.com/@prism-studio/visual-art-f-double",
+    "name": "Double Exposure · Portrait Layers",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:54.592Z",
+    "updated_at": "2026-10-29T03:34:54.674Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:54.592Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:54.674Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-059b1d62e2d1",
+    "url": "https://motiongit.com/@prism-studio/visual-art-g-gallery",
+    "name": "Spatial Gallery · Photo Memories",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:54.768Z",
+    "updated_at": "2026-10-29T03:34:54.855Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:54.768Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:54.855Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-b649e6b0fcda",
+    "url": "https://motiongit.com/@prism-studio/visual-art-h-kaleido",
+    "name": "Mirror Kaleidoscope · Photo Motion",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:54.951Z",
+    "updated_at": "2026-10-29T03:34:55.032Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:54.951Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:55.032Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-2e24a6c209fe",
+    "url": "https://motiongit.com/@thepandaq/deepseek-whale-assemble",
+    "name": "DeepSeek Whale · Particle Reveal",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:55.129Z",
+    "updated_at": "2026-10-29T03:34:55.213Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:55.129Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:55.213Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-58452a4bca5c",
+    "url": "https://motiongit.com/@thepandaq/deepseek-form-morph",
+    "name": "DeepSeek · 3D Particle Morph",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:55.308Z",
+    "updated_at": "2026-10-29T03:34:55.394Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:55.308Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:55.394Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-dbe463f6b948",
+    "url": "https://motiongit.com/@thepandaq/deepseek-word-morph",
+    "name": "DeepSeek · Particle Typography",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:55.492Z",
+    "updated_at": "2026-10-29T03:34:55.574Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:55.492Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:55.574Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-4bb54f44fbc3",
+    "url": "https://motiongit.com/@thepandaq/light-ribbon-word",
+    "name": "Light Ribbon · Word Reveal",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:55.676Z",
+    "updated_at": "2026-10-29T03:34:55.760Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:55.676Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:55.760Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-402d82e65eb4",
+    "url": "https://motiongit.com/@thepandaq/collage-wipe",
+    "name": "Panel Transitions · Wipe Pack",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:55.859Z",
+    "updated_at": "2026-10-29T03:34:55.944Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:55.859Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:55.944Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-5e2efdef4cd3",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-title-ignition",
+    "name": "DEEP STAGE · Cinematic Title Intro",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:56.041Z",
+    "updated_at": "2026-10-29T03:34:56.130Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:56.041Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:56.130Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-7cf0cbb3c051",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-media-wall",
+    "name": "DEEP STAGE · Media Wall",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:56.235Z",
+    "updated_at": "2026-10-29T03:34:56.320Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:56.235Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:56.320Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-9b348ac1a57b",
+    "url": "https://motiongit.com/@thepandaq/deep-stage-outro-lockup",
+    "name": "DEEP STAGE · Brand Outro",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:56.417Z",
+    "updated_at": "2026-10-29T03:34:56.505Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:56.417Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:56.505Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-341a4fcb8f91",
+    "url": "https://motiongit.com/@xkkiss12/mascot-tutorial-3d",
+    "name": "3D 吉祥物手把手教程",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:56.608Z",
+    "updated_at": "2026-10-29T03:34:56.691Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:56.608Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:56.691Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-e200a0a3bc90",
+    "url": "https://motiongit.com/@chenyutao0417/cute-character-lyric-mv",
+    "name": "可爱角色歌词 MV",
+    "status": "deferred",
+    "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:34:56.787Z",
+    "updated_at": "2026-10-29T03:34:56.870Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:34:56.787Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:34:56.870Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Official page requires sign-in to obtain the package; editable package source and bundled license were not accessible in this review. Reviewed 2026-10-29; see research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-04137d627bdb",
+    "url": "https://motiongit.com/@adunext/385712",
+    "name": "Kinetic Tech Chinese Portrait",
+    "status": "deferred",
+    "reason": "Portrait package differs from public landscape source; official package not inspected. See research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:35:12.791Z",
+    "updated_at": "2026-10-29T03:35:12.877Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:35:12.791Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:35:12.877Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Portrait package differs from public landscape source; official package not inspected. See research/motiongit-review-2026-10-29.md."
+      }
+    ]
+  },
+  {
+    "id": "C-624d9854a559",
+    "url": "https://motiontemplates.github.io/all#preview-3d-book",
+    "name": "3D Book — A Personal Story",
+    "status": "deferred",
+    "reason": "Preview-only project; catalog says download coming soon. See research/motiongit-review-2026-10-29.md.",
+    "resource_id": null,
+    "evidence_ids": [],
+    "created_at": "2026-10-29T03:35:12.980Z",
+    "updated_at": "2026-10-29T03:35:13.067Z",
+    "history": [
+      {
+        "at": "2026-10-29T03:35:12.980Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-10-29T03:35:13.067Z",
+        "from": "pending",
+        "to": "deferred",
+        "reason": "Preview-only project; catalog says download coming soon. See research/motiongit-review-2026-10-29.md."
+      }
+    ]
   }
 ]

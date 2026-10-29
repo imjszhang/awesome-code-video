@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 169 个可复用单元：107 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 170 个可复用单元：108 个成片或场景工程、6 个地图镜头、34 个镜头配方、22 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 ## Contents
 
@@ -159,6 +159,8 @@
 - [8-bit 轨道 HyperFrames 视频模板](https://github.com/nexu-io/open-design/tree/main/skills/8-bit-orbit-video-template) - 复古像素、多场景的 HyperFrames HTML 技能。文档中的流程保持三个短场景，每段停留不超过 3 秒，源在 assets/template.html。仓库为 Apache-2.0。目录预览只有仓库内的 example.html 页面（嵌入），该目录没有提交 MP4。example.html 指向一份托管样片，做过 HEAD，但没有当作可播放的目录预览，也没有本地渲染测试。技能目录没有自带字体文件。
 - [阅读年报视频模板](https://github.com/nexu-io/open-design/tree/main/skills/weread-year-in-review-video-template) - 竖屏 9:16 的 HyperFrames 技能，做年度阅读报告（模板视口 1080×1920；技能说明写的是 12 个场景）。视觉受阅读应用年报界面启发。它不是微信读书或 WeRead 的官方模板，也不表示存在合作关系。复用 skills/weread-year-in-review-video-template。仓库 LICENSE 为 Apache-2.0；技能没有打包字体文件（只点名 Songti SC、PingFang SC 等系统中文字体），也没有单独的素材许可，因此这些条款仍未知。目录预览只有 example.html（嵌入）。技能目录没有提交 MP4。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
+- [Kinetic Tech](https://github.com/motiontemplates/385712/tree/main/template) - 金属字体、琥珀色光效与空间动效，适合科技讲解和产品发布。公开版 0.2.7-open-beta 为 1920 × 1080、60fps 横屏工程，提供可编辑源码、参数、动作音效和 Chrome/Playwright + FFmpeg 渲染入口；替换文字与素材，调整场景和节奏。公开版不同于官网新版及竖屏版，第三方素材许可需另行核对。
+
 ## 参数化地图镜头
 
 以下示例来自 [map-motion](https://github.com/SpaceZephyr/map-motion)。复制 JSON 示例后修改坐标、路线、标签和时间配置，再按项目说明渲染。所选地图模式可能需要 API Key 或对应数据。
@@ -278,7 +280,7 @@
 
 ## 生成式视频提示词
 
-可直接复制的文生视频和图生视频提示词，附带来源文件里的模型标签。它们不计入上面的 169 个可复用单元。这不是可以克隆后渲染的 Remotion、HyperFrames 或 Shotcraft 工程。模型名只是上游标注，不代表换一个生成器会得到同样结果。2026-10-28 仅做源码审阅，没有本地渲染测试。
+可直接复制的文生视频和图生视频提示词，附带来源文件里的模型标签。它们不计入上面的 170 个可复用单元。这不是可以克隆后渲染的 Remotion、HyperFrames 或 Shotcraft 工程。模型名只是上游标注，不代表换一个生成器会得到同样结果。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
 - [A Decade of Refinement Glow-Up](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/a-decade-of-refinement-glow-up.json) - 可复制的 Seedance 2.0 提示词，做 15 秒身份锁定的形象转变：同一个人从普通街景走到迪拜屋顶的黑西装镜头。适合作为参考图转变简报。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Maverick | AI（https://x.com/RizwanAly07/status/2048948726623056366）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
 - [Animation transfer and camera tracking prompt](https://github.com/nexu-io/open-design/blob/main/prompt-templates/video/animation-transfer-and-camera-tracking-prompt.json) - 很短的 Seedance 2.0 提示词：把参考行走套到角色上，同时镜头保持锁定。适合做不换机位的动作迁移。提示词文本为 CC BY 4.0，来自 YouMind OpenLab，许可 https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts/blob/main/LICENSE，由 Open Design 镜像。作者 Olivio Sarikas（https://x.com/OlivioSarikas/status/2049093762077630628）。模型名只是上游标注。预览是上游缩略图。没有本地渲染测试。
@@ -295,6 +297,8 @@
 
 - [Awesome Video as Code](https://github.com/voidforall/awesome-video-as-code) - 更广泛的编程助手视频工具、制作流程、案例与研究资源。
 - [Awesome Video Skills](https://github.com/AaronAust1n/awesome-video-skills) - 更广泛的视频制作工具、框架、技能与自动化流程。
+
+- [MotionGit Template Collection](https://github.com/motiontemplates/all) - .motion 视频模板合集，提供风格介绍、素材要求、Demo 和下载入口。部分模板需登录或达到支持目标，部分暂不可下载；应逐包核对源码与许可。Kinetic Tech 的 GitHub 公开版可独立获取。
 
 ## 复用边界
 

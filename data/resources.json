@@ -5684,5 +5684,42 @@
       "checked_at": "2026-10-28",
       "poster": "/previews/gvp-desk-hologram-ar.webp"
     }
+  },
+  {
+    "id": "motiongit-collection",
+    "project_id": "motiongit-all",
+    "name": "MotionGit Template Collection",
+    "kind": "collection",
+    "url": "https://github.com/motiontemplates/all",
+    "section": "Related Lists",
+    "description": "A directory of .motion video projects with style descriptions, material requirements, demos, and download routes. Availability varies: some downloads require login or support goals, and some are unavailable. Review each package and its license; the GitHub public edition of Kinetic Tech is independently accessible.",
+    "evidence_ids": [
+      "S-CV-130"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Video use cases are editorial assessments; source review does not imply installation or rendering success."
+  },
+  {
+    "id": "kinetic-tech",
+    "project_id": "kinetic-tech",
+    "name": "Kinetic Tech",
+    "kind": "film",
+    "url": "https://github.com/motiontemplates/385712/tree/main/template",
+    "section": "Film and Scene Templates",
+    "description": "Metallic typography, amber lighting, and spatial choreography for technology explainers and product announcements. Reuse the public 0.2.7-open-beta landscape project at 1920 × 1080 and 60 fps; replace text and supplied media, then adapt scene selection and timing. Includes editable source, parameters, action sounds, and a Chrome/Playwright plus FFmpeg rendering path. The public edition differs from newer official and portrait editions; third-party assets retain separate terms.",
+    "evidence_ids": [
+      "S-CV-131",
+      "S-CV-132"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-29",
+      "render_tested": false
+    },
+    "editorial_note": "Video use cases are editorial assessments; source review does not imply installation or rendering success."
   }
 ]

@@ -433,5 +433,31 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-28"
+  },
+  {
+    "id": "motiongit-all",
+    "name": "MotionGit Template Collection",
+    "url": "https://github.com/motiontemplates/all",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1420397852,
+      "full_name": "motiontemplates/all",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "kinetic-tech",
+    "name": "Kinetic Tech",
+    "url": "https://github.com/motiontemplates/385712",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1415838836,
+      "full_name": "motiontemplates/385712",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-10-29"
   }
 ]
