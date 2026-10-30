@@ -396,6 +396,28 @@
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
   {
+    "resource_id": "swiftclip-saas-promo",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/saas-promo.jpg",
+    "poster": "/previews/swiftclip-saas-promo.webp",
+    "source_sha256": "2ca9927292458ac94a8ffe0d1c19ddf79d89a3c5931c456205f30461d3f6dd0b",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "c0fec827f8ebaa2786c64849f2987cf27008aed5dfd6d20bca0a1afb791ea747",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-timeline",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/timeline.jpg",
+    "poster": "/previews/swiftclip-timeline.webp",
+    "source_sha256": "72eb21ca0d84dc0159c61ef06b20ccff962b4e1abc26d629831db972402d18c8",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "d1f2aec82aa1145c8decbd9008e34701c2a0a84049f50d8b99c42bcf2f5577cb",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "theatre-bouncing-box",
     "source_url": "https://raw.githubusercontent.com/AriaMinaei/theatre-example-bouncing-box/main/demo.gif",
     "poster": "/previews/theatre-bouncing-box.webp",
