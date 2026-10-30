@@ -374,6 +374,28 @@
     "attribution": "SwiftClip contributors"
   },
   {
+    "resource_id": "swiftclip-dynamic-island",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/dynamic-island.jpg",
+    "poster": "/previews/swiftclip-dynamic-island.webp",
+    "source_sha256": "775b6a3353328b775d43a6167d233e83478df6ea308089c7c143dd70dc21bb76",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "b90ed7a17fab4653ed8cba03b8d2c14611e19b8701d3670c3fd75d567d4ca1b4",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-end-screen",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/end-screen.jpg",
+    "poster": "/previews/swiftclip-end-screen.webp",
+    "source_sha256": "f75b96c6a1d40cb40da152e7655e891a3c2b4930b47fa69b02b103497781d07c",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "3d1f00f6133eff9671c0661aec7545e80d161ab63dd6a58ddd20562ff9731eeb",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-event-promo",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/event-promo.jpg",
     "poster": "/previews/swiftclip-event-promo.webp",
@@ -403,6 +425,17 @@
     "frame_index": 0,
     "frame_count": 1,
     "poster_sha256": "e55d534b334bb9117dd6dd8263bb25e54d42f884594eec485a5bc1801e2cf4ad",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-macintosh",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/macintosh.jpg",
+    "poster": "/previews/swiftclip-macintosh.webp",
+    "source_sha256": "6024a47d4c3145b9120388977a351656611775513d9fa799010d79f66e0425d6",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "f8a245a451142f306d4db4619aac06487872150af810a7af7ff262fadfba125a",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
@@ -480,6 +513,17 @@
     "frame_index": 0,
     "frame_count": 1,
     "poster_sha256": "3f78565439f8f1fac166d617faab034c2e8a5ef8f0afd1473eb63a857608a83d",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-subscribe-cta",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/subscribe-cta.jpg",
+    "poster": "/previews/swiftclip-subscribe-cta.webp",
+    "source_sha256": "8df92db5721de4fce314ffd96e9ae5e6035a24e256c51809be6671ec1a8dadde",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "87638f12f38f30dc6bbc237ef2ffc8cf6183841679890c8d747cd781ce3f0243",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },

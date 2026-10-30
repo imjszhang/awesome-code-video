@@ -798,6 +798,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bug-triage-arctic-triage-list",
+    "source_url": "https://freelancer-templates.org/previews/hero/BugTriage-ArcticTriageList.mp4",
+    "poster": "/previews/freelancer-bug-triage-arctic-triage-list.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "9215a8f7e77b6738c6a8c5ecaa45795797f2379a3508e28c7ebc863f668aefbc",
+    "source_byte_ranges": [],
+    "poster_sha256": "046b02c56b65c9c49a30ff0181d752bc81153b20724044ec8d09766028c8cb4a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-call-to-action-candy-centered",
     "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-CandyCentered.mp4",
     "poster": "/previews/freelancer-call-to-action-candy-centered.webp",
@@ -1080,6 +1094,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-platform-overview-arctic-module-grid",
+    "source_url": "https://freelancer-templates.org/previews/hero/PlatformOverview-ArcticModuleGrid.mp4",
+    "poster": "/previews/freelancer-platform-overview-arctic-module-grid.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "60322b5fa249c02fae1fda2a27b2bf69d63f082c6e5b40fbd847b26437fdfc61",
+    "source_byte_ranges": [],
+    "poster_sha256": "360f50bcfe199cddc0939f3690c251cd984a998dc0e76c318007e25ebc214a55",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-portfolio-arctic-case-study",
     "source_url": "https://freelancer-templates.org/previews/hero/Portfolio-ArcticCaseStudy.mp4",
     "poster": "/previews/freelancer-portfolio-arctic-case-study.webp",
@@ -1197,6 +1225,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-qbr-dashboard-arctic-detailed",
+    "source_url": "https://freelancer-templates.org/previews/hero/QBRDashboard-ArcticDetailed.mp4",
+    "poster": "/previews/freelancer-qbr-dashboard-arctic-detailed.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "8fb6a8479cad8fc51333afb9a131e5926a99020d375a7ae660bab3f603db57d9",
+    "source_byte_ranges": [],
+    "poster_sha256": "b82c0074c27081aa712c53c3c6cd75a7a7ef8a098cd72e01409f85b71db8326f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-recap-neon-timeline",
     "source_url": "https://freelancer-templates.org/previews/hero/Recap-NeonTimeline.mp4",
     "poster": "/previews/freelancer-recap-neon-timeline.webp",
@@ -1289,6 +1331,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-stat-counter-charcoal-grid",
+    "source_url": "https://freelancer-templates.org/previews/hero/StatCounter-CharcoalGrid.mp4",
+    "poster": "/previews/freelancer-stat-counter-charcoal-grid.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": "ed358add5be61cf342f8512c188b6a0121521e91d948e7c89d2441fad14346da",
+    "source_byte_ranges": [],
+    "poster_sha256": "7453b1c71227689301bb48e0489ae0758e90a108b0fb38ca403cccc6ceeddb07",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-testimonial-neon-split",
     "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-NeonSplit.mp4",
     "poster": "/previews/freelancer-testimonial-neon-split.webp",
@@ -1314,6 +1370,20 @@
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
   },
   {
+    "resource_id": "freelancer-thought-leadership-arctic-keynote",
+    "source_url": "https://freelancer-templates.org/previews/hero/ThoughtLeadership-ArcticKeynote.mp4",
+    "poster": "/previews/freelancer-thought-leadership-arctic-keynote.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "06062b34f921036b686383047e13dcf6fbc5df2f2ebfb089a52e9583fdabb79a",
+    "source_byte_ranges": [],
+    "poster_sha256": "0f89a8f920c91ccbb1c7eeac046a6c6993c7d0000ebcd6f6d106943f388ab55a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-tutorial-dark-numbered-steps",
     "source_url": "https://freelancer-templates.org/previews/hero/Tutorial-DarkNumberedSteps.mp4",
     "poster": "/previews/freelancer-tutorial-dark-numbered-steps.webp",
@@ -1337,6 +1407,20 @@
     "poster_sha256": "3f6598fb311dc6b1de69c9c536e3b40f6bddf6b39a1503edb1ea0abfd441ffd7",
     "license": "CC-BY-NC-SA-4.0",
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-velocity-chart-arctic-trend-line",
+    "source_url": "https://freelancer-templates.org/previews/hero/VelocityChart-ArcticTrendLine.mp4",
+    "poster": "/previews/freelancer-velocity-chart-arctic-trend-line.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "a97861daf9c3c9d765c08b98e4c2d0fd7125c51903759ba132de8a13880b1706",
+    "source_byte_ranges": [],
+    "poster_sha256": "b9fb76e90e21eab948bbfa8d72b41623967ef127f4147a1ffaa6706f56ca7363",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
   },
   {
     "resource_id": "gvp-desk-hologram-ar",
@@ -3824,6 +3908,20 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-music-visualizers-stereo-field",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/music-visualizers-stereo-field.mp4",
+    "poster": "/previews/remotion-templates-music-visualizers-stereo-field.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "d026f4875e4f96eb71a69d85ae0ee5be5f3113fbf8ae6ffcedd824193438215f",
+    "source_byte_ranges": [],
+    "poster_sha256": "63cf2335089cc91a03361ae00840b2b475c3af640658cb2d81a591d50f7b8df1",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-network-graphs-relationship-reveal",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/network-graphs-relationship-reveal.mp4",
     "poster": "/previews/remotion-templates-network-graphs-relationship-reveal.webp",
@@ -3848,6 +3946,20 @@
     "source_sha256": "538fe80400f48f82cb0454f51fc91bb8dafa165298922df37ec07a33590e3707",
     "source_byte_ranges": null,
     "poster_sha256": "550a270c4958fc2269d65267d8be5f825d89fd0e4aad0ac12905dbf045d0f13c",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-particles-confetti-cannon",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-confetti-cannon.mp4",
+    "poster": "/previews/remotion-templates-particles-confetti-cannon.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "374ce26ac473d510752f56b513f2d44bdaf907527649eae2d6b8dc7b698db16c",
+    "source_byte_ranges": [],
+    "poster_sha256": "8363cbfd4f23ee305471ad3b71324e48b47af798ae4caea0d39a64d96b6bcd6e",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
