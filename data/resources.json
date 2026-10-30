@@ -7855,5 +7855,349 @@
       "checked_at": "2026-10-30",
       "poster": "/previews/swiftclip-split-reveal.webp"
     }
+  },
+  {
+    "id": "remotion-templates-retro-chrome-sunset",
+    "project_id": "remotion-templates",
+    "name": "Chrome Sunset",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/retro-chrome-sunset.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the retro-vhs family in ali-abassi/remotion-templates (site/previews). Chrome sunset treatment. License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-120"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/retro-chrome-sunset.mp4",
+      "redistributable": false,
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/remotion-templates-retro-chrome-sunset.webp",
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/retro-chrome-sunset.mp4. HEAD on 2026-10-30: HTTP 200 application/octet-stream Content-Length=196162, ftyp isom. No root LICENSE (S-CV-117). Same-family continuation (CL≥80KB). Hotlink only; muted loop is not a full film; not a local render test."
+    }
+  },
+  {
+    "id": "remotion-templates-glitch-digital-rain",
+    "project_id": "remotion-templates",
+    "name": "Digital Rain Console",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/glitch-digital-rain.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the glitch-chroma family in ali-abassi/remotion-templates (site/previews). Digital rain console treatment. License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-120"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/glitch-digital-rain.mp4",
+      "redistributable": false,
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/remotion-templates-glitch-digital-rain.webp",
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/glitch-digital-rain.mp4. HEAD on 2026-10-30: HTTP 200 application/octet-stream Content-Length=116540, ftyp isom. No root LICENSE (S-CV-117). Same-family continuation (CL≥80KB). Hotlink only; muted loop is not a full film; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-listicle-arctic-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Arctic Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle cards composition. Reuse Listicle.tsx and theme props; the listed hero variant is Arctic Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-ArcticCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-listicle-arctic-cards.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Listicle-ArcticCards.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=287410, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-agent-dashboard-arctic-flow",
+    "project_id": "freelancer-templates",
+    "name": "Agent Dashboard Arctic Flow",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/agentdashboard/AgentDashboard.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion agent-dashboard flow composition. Reuse AgentDashboard.tsx and theme props; the listed hero variant is Arctic Flow. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AgentDashboard-ArcticFlow.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-agent-dashboard-arctic-flow.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/AgentDashboard-ArcticFlow.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=245118, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-bug-tracker-arctic-triage-board",
+    "project_id": "freelancer-templates",
+    "name": "Bug Tracker Arctic Triage Board",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtracker/BugTracker.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bug-tracker triage board composition. Reuse BugTracker.tsx and theme props; the listed hero variant is Arctic Triage Board. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BugTracker-ArcticTriageBoard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-bug-tracker-arctic-triage-board.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/BugTracker-ArcticTriageBoard.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=190668, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-client-welcome-arctic-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Client Welcome Arctic Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-welcome dashboard composition. Reuse ClientWelcome.tsx and theme props; the listed hero variant is Arctic Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientWelcome-ArcticDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-client-welcome-arctic-dashboard.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ClientWelcome-ArcticDashboard.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=288091, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-meeting-recap-arctic-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Meeting Recap Arctic Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/meetingrecap/MeetingRecap.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion meeting-recap dashboard composition. Reuse MeetingRecap.tsx and theme props; the listed hero variant is Arctic Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MeetingRecap-ArcticDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-meeting-recap-arctic-dashboard.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/MeetingRecap-ArcticDashboard.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=251736, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-sprint-recap-arctic-highlight-cards",
+    "project_id": "freelancer-templates",
+    "name": "Sprint Recap Arctic Highlight Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintrecap/SprintRecap.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion sprint-recap highlight cards composition. Reuse SprintRecap.tsx and theme props; the listed hero variant is Arctic Highlight Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SprintRecap-ArcticHighlightCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-sprint-recap-arctic-highlight-cards.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/SprintRecap-ArcticHighlightCards.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=165371, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "swiftclip-web-promo",
+    "project_id": "swiftclip",
+    "name": "Web Promo",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/WebPromo.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion web promo scene composition. Root.tsx registers WebPromo at 1920 by 1080, 30 fps, and 300 frames (10 seconds). Reuse remotion/WebPromo.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/web-promo.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/web-promo.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=44850. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-web-promo.webp"
+    }
+  },
+  {
+    "id": "swiftclip-event-promo",
+    "project_id": "swiftclip",
+    "name": "Event Promo",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/EventPromo.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion event promo scene composition. Root.tsx registers EventPromo at 1920 by 1080, 30 fps, and 240 frames (8 seconds). Reuse remotion/EventPromo.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/event-promo.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/event-promo.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=32839. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-event-promo.webp"
+    }
+  },
+  {
+    "id": "swiftclip-pricing-card",
+    "project_id": "swiftclip",
+    "name": "Pricing Card",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/PricingCard.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pricing card scene composition. Root.tsx registers PricingCard at 1080 by 1080, 30 fps, and 240 frames (8 seconds). Reuse remotion/PricingCard.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/pricing-card.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/pricing-card.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=28369. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-pricing-card.webp"
+    }
+  },
+  {
+    "id": "swiftclip-product-card",
+    "project_id": "swiftclip",
+    "name": "Product Card",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/ProductCard.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion product card scene composition. Root.tsx registers ProductCard at 1080 by 1080, 30 fps, and 180 frames (6 seconds). Reuse remotion/ProductCard.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-card.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-card.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=22205. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-product-card.webp"
+    }
   }
 ]

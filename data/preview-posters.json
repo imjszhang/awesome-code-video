@@ -695,6 +695,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-agent-dashboard-arctic-flow",
+    "source_url": "https://freelancer-templates.org/previews/hero/AgentDashboard-ArcticFlow.mp4",
+    "poster": "/previews/freelancer-agent-dashboard-arctic-flow.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8a63b14898786f405e5496168e2c2f8a97a8f7e302200439ef2aa2fb82720292"
+      },
+      {
+        "start": 4027,
+        "end": 212184,
+        "sha256": "d7620e952e026c1844625a4cbfcaea6ec2ae2cc73d2fae1b70500df3cdfd665b"
+      }
+    ],
+    "poster_sha256": "17df4b7f461829cca2396f45e2e89c8000efe9063b399cc63f1e82541345ded9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-announcement-candy-banner",
     "source_url": "https://freelancer-templates.org/previews/hero/Announcement-CandyBanner.mp4",
     "poster": "/previews/freelancer-announcement-candy-banner.webp",
@@ -748,6 +773,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bug-tracker-arctic-triage-board",
+    "source_url": "https://freelancer-templates.org/previews/hero/BugTracker-ArcticTriageBoard.mp4",
+    "poster": "/previews/freelancer-bug-tracker-arctic-triage-board.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d9df0afeaf62b5e7bcadceef4a2f4e12e1d4a803b3519afe8a1ae074af8c78eb"
+      },
+      {
+        "start": 4019,
+        "end": 157838,
+        "sha256": "69162a7b17d9b910bdd4bf252c0040d7b44a862396dff3008e0f5aa3c600fca4"
+      }
+    ],
+    "poster_sha256": "787c6086d5b174390b609082bd3fd332d86d6c61a9d4ba5a82f6a81f503822a3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-call-to-action-candy-centered",
     "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-CandyCentered.mp4",
     "poster": "/previews/freelancer-call-to-action-candy-centered.webp",
@@ -797,6 +847,31 @@
     "source_sha256": "e4b1595d9521a3e088936a524da1671feab2c83c8586e673003b0782ad85482e",
     "source_byte_ranges": [],
     "poster_sha256": "b4a94dcd55386af55ddfcb68263cb553448cf40b3dc1a64735f3fd12773cf2eb",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-client-welcome-arctic-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ClientWelcome-ArcticDashboard.mp4",
+    "poster": "/previews/freelancer-client-welcome-arctic-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "1ea7c768cead83239ffaa20716d040a08853cef9ea2dc6d61bac2d7dd04c586f",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8bba608f4c8372674d665e9269fc07b732c2304b0a61371b9a9f407dcc303dd4"
+      },
+      {
+        "start": 3987,
+        "end": 245911,
+        "sha256": "2a56704883d6f296225e1229e910ecdc01797ece8ba302019c79e9f8678ea26c"
+      }
+    ],
+    "poster_sha256": "8f3960af4f7e01c424d083348b03a94fcfad1bd3da6dc15874c66bb81ec7bc37",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -914,6 +989,51 @@
     "source_sha256": "0f7b21e15a731b5f2eb47911257991646202726fe404f4ec8529e7cff337fc36",
     "source_byte_ranges": null,
     "poster_sha256": "218ba7e611a8879735bb8da25c53833d200da54350171d6b0c9005ce2f4f236f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-arctic-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-ArcticCards.mp4",
+    "poster": "/previews/freelancer-listicle-arctic-cards.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "1dc484deb047716f11a948797e7ed0d60b9fd57961c1e540505b9bf9e0386f29",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "0244959e2bb38de1eb7f9f1ff662954e99b8d52e91e032dd56f53103bad55298"
+      }
+    ],
+    "poster_sha256": "91974141af77322acfd822f25d49658de2ef889a611c71e37133b3c4bebe3fab",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-meeting-recap-arctic-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/MeetingRecap-ArcticDashboard.mp4",
+    "poster": "/previews/freelancer-meeting-recap-arctic-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "7b172f130d625b82dc147b460a38fc7d6611b51e4ff5507056a54f9bd8bb2d39",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "83b709925a5b000a6bc8284d6115b7a8959a5cca48644411edb6f3e7189c4f12"
+      },
+      {
+        "start": 4027,
+        "end": 203282,
+        "sha256": "040b74ba5e523ecae8eaa70a56488f0bc07492ae22852ccf3cf3c79d67b0cdd3"
+      }
+    ],
+    "poster_sha256": "d07b87fdcb5332ae9bed1431c696720ce9ea91d6690f8731f10391326ce541c8",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1140,6 +1260,31 @@
     "source_sha256": "851d77c07e1f32d4d6a32fa1871acec493f12963e1ff500babc937a698756d19",
     "source_byte_ranges": null,
     "poster_sha256": "0a73ea7957a4e5dc0596e7204aa0a2ed835f084ed2b1903957b23aaec2ae2a3b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-sprint-recap-arctic-highlight-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/SprintRecap-ArcticHighlightCards.mp4",
+    "poster": "/previews/freelancer-sprint-recap-arctic-highlight-cards.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "fedeca13b6e1101fcbf487a0ffb83e23fa07771afe40227dea8c1fc6a43c8f28",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6211f958ed6c09f09230a021594dec5ac5d70804df0c6da52bc66bdb8b10a7b1"
+      },
+      {
+        "start": 4083,
+        "end": 146374,
+        "sha256": "07d437d10298b77e52e8cb328df65a95c93d0d8a9c3b071fc9b715752e635148"
+      }
+    ],
+    "poster_sha256": "be3dacfc3ef5f9c0840eaa3d1510ea51aa023c2ad90057d15bc2963ba97a26a3",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3501,6 +3646,31 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-glitch-digital-rain",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/glitch-digital-rain.mp4",
+    "poster": "/previews/remotion-templates-glitch-digital-rain.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "728e3376752bc65aa0d24bc94b0964f3b51de95afef0b15e2eba40fee8be046c",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "9a0e0819969d6a273afe355c5772a0e4b9db54162fef9327e1eeab9349f8db31"
+      },
+      {
+        "start": 2475,
+        "end": 82501,
+        "sha256": "8d95369c8d7087f0255fc132e9bc73ce8590f029ba0db42fddb25317aab1e08f"
+      }
+    ],
+    "poster_sha256": "0cc1ff7eaa0c345e3e43cddb898ee48f4222a618fca1ea2b3a6fdc0bb83df0cf",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-glitch-signal-lost",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/glitch-signal-lost.mp4",
     "poster": "/previews/remotion-templates-glitch-signal-lost.webp",
@@ -3706,6 +3876,31 @@
     "source_sha256": "9938559d6df4d5ae790ff7f52c4a11db8ba973eea5c06cce2dd8c3d8eac233c0",
     "source_byte_ranges": null,
     "poster_sha256": "9105f74f04208cf1c19c8705ce27e0f0b91756d60b868f638c8b5a47b5fb59cb",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-retro-chrome-sunset",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/retro-chrome-sunset.mp4",
+    "poster": "/previews/remotion-templates-retro-chrome-sunset.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f9f6d851e38239219c3dff678231b036de17f8342bebb70cefa4a7c1c118a473"
+      },
+      {
+        "start": 2395,
+        "end": 141917,
+        "sha256": "94d8e1adffae2501bdb11e17fb6aa2f3d7db09fdf1ad1d7216e59d39b6385362"
+      }
+    ],
+    "poster_sha256": "8652b72957c008b239e8f4eaae554159f0c364b3108e4e1ae44eb45bdce8c59f",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
