@@ -484,6 +484,17 @@
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
   {
+    "resource_id": "swiftclip-minimal-title",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/minimal-title.jpg",
+    "poster": "/previews/swiftclip-minimal-title.webp",
+    "source_sha256": "4b66e372fa7702f9289fa47db5313248522331111059d3f170edac13b476612e",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "894dddf0e118a9a395594fda891080734e20c0a80773f1dc30f2a0b84ffa8733",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-news-breaking",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/news-breaking.jpg",
     "poster": "/previews/swiftclip-news-breaking.webp",
@@ -550,6 +561,17 @@
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
   {
+    "resource_id": "swiftclip-social-story",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/social-story.jpg",
+    "poster": "/previews/swiftclip-social-story.webp",
+    "source_sha256": "53d7fd8d740e9aef3cfd018599bd4c749de3ff6f156342a5e3d2438836854f79",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "0a19d754df2b324631c6844214f6d57b16339682e34872bd0cbfabe8c70f1e47",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-split-reveal",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/split-reveal.jpg",
     "poster": "/previews/swiftclip-split-reveal.webp",
@@ -583,6 +605,17 @@
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
   {
+    "resource_id": "swiftclip-testimonial-card",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/testimonial-card.jpg",
+    "poster": "/previews/swiftclip-testimonial-card.webp",
+    "source_sha256": "f276f9086dd61e72ac971b58ce57921977c0c5e454679e9eaa53cf66482d4b89",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "88d34eb207591c7822b095b05cedac022fe171decba06984edf95785b5773ac5",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-timeline",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/timeline.jpg",
     "poster": "/previews/swiftclip-timeline.webp",
@@ -612,6 +645,17 @@
     "frame_index": 0,
     "frame_count": 1,
     "poster_sha256": "7943fa45d6cd6b54e4bc3ed46b3d6bc8b8213a47f816f9f010665a99e690da5f",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-vertical-story",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/vertical-story.jpg",
+    "poster": "/previews/swiftclip-vertical-story.webp",
+    "source_sha256": "4fa0d0727e1500436a5f52fb711964e87ac12a48e124015b78786da826d00ccb",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "41d59e4d897d91cff3c94df6c5d0fd982f803550593531d689dc6914292b0f23",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },

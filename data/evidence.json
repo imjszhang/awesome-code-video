@@ -2077,5 +2077,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-30",
     "notes": "Batch W on 2026-10-30. remotion-templates same-family continuations (music-visualizers-spectrum-tunnel Content-Length 88547, particles-snowfall 96861, particles-rain-splash-ripples 97394, particles-bubble-columns 80666): raw GitHub MP4 HEAD/bytes 200 application/octet-stream + ftyp isom (via gh api recheck when raw CDN flaky); no SPDX (S-CV-117) so redistributable false; same-family ≥80KB ×4; new-family not expanded. SwiftClip bar-chart.jpg / ai-animation.jpg / applemovie.jpg / quote-story.jpg: JPEG thumbs only, no MP4 in tree (S-CV-158). freelancer-templates heroes ProjectHealth-ArcticWorkstreamView, ClientPipeline-ArcticPipelineBoard, RateCard-ArcticDashboard, ScopeChange-ArcticDashboard: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
+  },
+  {
+    "id": "S-CV-169",
+    "project_id": "freelancer-templates",
+    "title": "Batch X preview media — FT×8 heroes, SwiftClip×4 thumbs (0 RT)",
+    "url": "https://freelancer-templates.org/previews/hero/ServiceOverview-ArcticDashboard.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-30",
+    "notes": "Batch X on 2026-10-30. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). freelancer-templates heroes ServiceOverview-ArcticDashboard, ResultsShowcase-ArcticDashboard, StatCounter-DarkSingle, ProjectTimeline-ArcticDashboard, DeploymentStatus-ArcticPipelineView, FeatureFlags-ArcticResultsView, IntegrationStatus-ArcticCategoryGroups, ConceptPitch-ArcticBrief: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false; StatCounter Dark Single linked via StatCounterShowcase.tsx#L65 to avoid URL collision with Charcoal Grid. SwiftClip social-story.jpg / vertical-story.jpg / minimal-title.jpg / testimonial-card.jpg: JPEG thumbs only, no MP4 in tree (S-CV-158). 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
   }
 ]
