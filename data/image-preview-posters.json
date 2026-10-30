@@ -319,6 +319,39 @@
     "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)"
   },
   {
+    "resource_id": "swiftclip-ai-animation",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/ai-animation.jpg",
+    "poster": "/previews/swiftclip-ai-animation.webp",
+    "source_sha256": "ab0d8b17cd846afbc62231401098e384c9fd49ebb19a6351f4efd067d94c4093",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "9f624bd583b95e1d967948b3338b2269c5c8af26539900a567f8ca3ccb5647c2",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-applemovie",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/applemovie.jpg",
+    "poster": "/previews/swiftclip-applemovie.webp",
+    "source_sha256": "2ad48b34a7c49edaf001e786108e5978f83732b41b312b385e6c89ad85d3d085",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "b63ac58b3ed5dd1c08d40ab096825c275798d2b043653f73312b9f233c3d8207",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-bar-chart",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/bar-chart.jpg",
+    "poster": "/previews/swiftclip-bar-chart.webp",
+    "source_sha256": "15822885a6f6fad105281b7d8818d8c8034bfc85ec9e65c97ad16d536957c9a7",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "65fd1428e54355b75aaa340d7b9ef2062e81cfea56cd4832dfbd34cb0d603be4",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-brand-reveal",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/brand-reveal.jpg",
     "poster": "/previews/swiftclip-brand-reveal.webp",
@@ -491,6 +524,17 @@
     "frame_index": 0,
     "frame_count": 1,
     "poster_sha256": "6ebc177f4c16c6bbccedaffc66fbaf790e225ef9b5fcf6953384028d207d0edf",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-quote-story",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/quote-story.jpg",
+    "poster": "/previews/swiftclip-quote-story.webp",
+    "source_sha256": "89dcd24cab41c7d785a38d8c7c66a7cbabd940b0af0a16c213c1414367b487ca",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "1323296e768e6e1b6a4c15cc5c22d1f70f4617cc3072e8cc05133287056aa365",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },

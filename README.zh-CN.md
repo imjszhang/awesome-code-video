@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 268 个可复用单元：154 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 280 个可复用单元：154 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -100,6 +100,10 @@
 - [统计计数：炭黑网格](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx) - 用于统计计数网格的 Remotion 成片，列出的主预览变体是 Charcoal Grid（池中无 Arctic）。复用 StatCounter.tsx 与主题 props，替换文案与数字。站点条款为 CC-BY-NC-SA 4.0，GitHub license 字段为空，hero MP4 不得镜像进仓。Remotion 运行时许可另计。
 - [缺陷分诊：北极分诊列表](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtriage/BugTriage.tsx) - 用于缺陷分诊列表的 Remotion 成片，列出的主预览变体是 Arctic Triage List。复用 BugTriage.tsx 与主题 props，替换文案与数字。站点条款为 CC-BY-NC-SA 4.0，GitHub license 字段为空，hero MP4 不得镜像进仓。Remotion 运行时许可另计。
 - [速率图：北极趋势线](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/velocitychart/VelocityChart.tsx) - 用于速率图趋势线的 Remotion 成片，列出的主预览变体是 Arctic Trend Line。复用 VelocityChart.tsx 与主题 props，替换文案与数字。站点条款为 CC-BY-NC-SA 4.0，GitHub license 字段为空，hero MP4 不得镜像进仓。Remotion 运行时许可另计。
+- [项目健康：北极工作流视图](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecthealth/ProjectHealth.tsx) - 用于项目健康工作流视图的 Remotion 成片，列出的主预览变体是 Arctic Workstream View。复用 ProjectHealth.tsx 与主题 props，替换文案与数字。站点条款为 CC-BY-NC-SA 4.0，GitHub license 字段为空，hero MP4 不得镜像进仓。Remotion 运行时许可另计。
+- [客户管道：北极管道看板](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientpipeline/ClientPipeline.tsx) - 用于客户管道看板的 Remotion 成片，列出的主预览变体是 Arctic Pipeline Board。复用 ClientPipeline.tsx 与主题 props，替换文案与数字。站点条款为 CC-BY-NC-SA 4.0，GitHub license 字段为空，hero MP4 不得镜像进仓。Remotion 运行时许可另计。
+- [价目表：北极仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx) - 用于价目表仪表盘的 Remotion 成片，列出的主预览变体是 Arctic Dashboard。复用 RateCard.tsx 与主题 props，替换文案与数字。站点条款为 CC-BY-NC-SA 4.0，GitHub license 字段为空，hero MP4 不得镜像进仓。Remotion 运行时许可另计。
+- [范围变更：北极仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/scopechange/ScopeChange.tsx) - 用于范围变更仪表盘的 Remotion 成片，列出的主预览变体是 Arctic Dashboard。复用 ScopeChange.tsx 与主题 props，替换文案与数字。站点条款为 CC-BY-NC-SA 4.0，GitHub license 字段为空，hero MP4 不得镜像进仓。Remotion 运行时许可另计。
 - [KPI 计数器](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx) - 独立的 Remotion 场景，在错开的卡片上滚动 KPI 数字。README 写明 1920×1080、4 秒，KpiCounter.tsx 为 30 fps、120 帧。复用组件和类型化参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [生长柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx) - 独立的 Remotion 场景，柱形按数据序列生长。README 写明 1920×1080、5 秒。复用 BarChartAnim.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [故障文字](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/glitch-text/GlitchText.tsx) - 独立的 Remotion 标题场景，故障文字先错位再稳定。README 写明 1920×1080、4 秒。复用 GlitchText.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
@@ -200,6 +204,10 @@
 - [结束画面](https://github.com/zz41354899/SwiftClip/blob/main/remotion/EndScreen.tsx) - Remotion 结束画面场景。Root.tsx 登记 EndScreen 为 1920×1080、30 fps、210 帧（7 秒）。复用 remotion/EndScreen.tsx，并保留 MIT 声明。目录只链仓内 public/thumbnails 下的 JPEG 缩略图；SwiftClip 未发布该场景的可热链 MP4，因此这不是可播成片。不含生成式提示词。Remotion 运行时许可另计。2026-10-30 源码审阅；未做本地渲染实测。
 - [灵动岛](https://github.com/zz41354899/SwiftClip/blob/main/remotion/DynamicIsland.tsx) - Remotion 灵动岛场景。Root.tsx 登记 DynamicIsland 为 1920×1080、30 fps、150 帧（5 秒）。复用 remotion/DynamicIsland.tsx，并保留 MIT 声明。目录只链仓内 public/thumbnails 下的 JPEG 缩略图；SwiftClip 未发布该场景的可热链 MP4，因此这不是可播成片。不含生成式提示词。Remotion 运行时许可另计。2026-10-30 源码审阅；未做本地渲染实测。
 - [麦金塔](https://github.com/zz41354899/SwiftClip/blob/main/remotion/Macintosh.tsx) - Remotion 麦金塔场景。Root.tsx 登记 Macintosh 为 1920×1080、30 fps、270 帧（9 秒）。复用 remotion/Macintosh.tsx，并保留 MIT 声明。目录只链仓内 public/thumbnails 下的 JPEG 缩略图；SwiftClip 未发布该场景的可热链 MP4，因此这不是可播成片。不含生成式提示词。Remotion 运行时许可另计。2026-10-30 源码审阅；未做本地渲染实测。
+- [柱状图](https://github.com/zz41354899/SwiftClip/blob/main/remotion/BarChart.tsx) - Remotion 柱状图场景。Root.tsx 登记 BarChart 为 1920×1080、30 fps、240 帧（8 秒）。复用 remotion/BarChart.tsx，并保留 MIT 声明。目录只链仓内 public/thumbnails 下的 JPEG 缩略图；SwiftClip 未发布该场景的可热链 MP4，因此这不是可播成片。不含生成式提示词。Remotion 运行时许可另计。2026-10-30 源码审阅；未做本地渲染实测。
+- [AI 动画](https://github.com/zz41354899/SwiftClip/blob/main/remotion/AiAnimation.tsx) - Remotion AI 动画场景。Root.tsx 登记 AiAnimation 为 1920×1080、30 fps、240 帧（8 秒）。复用 remotion/AiAnimation.tsx，并保留 MIT 声明。目录只链仓内 public/thumbnails 下的 JPEG 缩略图；SwiftClip 未发布该场景的可热链 MP4，因此这不是可播成片。不含生成式提示词。Remotion 运行时许可另计。2026-10-30 源码审阅；未做本地渲染实测。
+- [苹果影片](https://github.com/zz41354899/SwiftClip/blob/main/remotion/AppleMovie.tsx) - Remotion 苹果影片场景。Root.tsx 登记 AppleMovie 为 1920×1080、30 fps、480 帧（16 秒）。复用 remotion/AppleMovie.tsx，并保留 MIT 声明。目录只链仓内 public/thumbnails 下的 JPEG 缩略图；SwiftClip 未发布该场景的可热链 MP4，因此这不是可播成片。不含生成式提示词。Remotion 运行时许可另计。2026-10-30 源码审阅；未做本地渲染实测。
+- [引言故事](https://github.com/zz41354899/SwiftClip/blob/main/remotion/QuoteStory.tsx) - Remotion 引言故事场景。Root.tsx 登记 QuoteStory 为 1080×1920、30 fps、240 帧（8 秒）。复用 remotion/QuoteStory.tsx，并保留 MIT 声明。目录只链仓内 public/thumbnails 下的 JPEG 缩略图；SwiftClip 未发布该场景的可热链 MP4，因此这不是可播成片。不含生成式提示词。Remotion 运行时许可另计。2026-10-30 源码审阅；未做本地渲染实测。
 
 下面 6 条是 nexu-io html-video 的原创模板，Apache-2.0，NOTICE 有标明。可播放预览热链自 Open Design 镜像（jsDelivr），没有在本地渲染。
 
@@ -327,6 +335,10 @@
 - [数字雨控制台](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/glitch-digital-rain.mp4) - ali-abassi/remotion-templates 中 glitch-chroma 家族的静音短环预览（site/previews）。数字雨控制台处理。上游无 SPDX，按不可再分发处理，仅热链。
 - [立体声场](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/music-visualizers-stereo-field.mp4) - ali-abassi/remotion-templates 中 music-visualizers 家族的静音短环预览（site/previews）。立体声场处理。上游无 SPDX，按不可再分发处理，仅热链。
 - [彩纸礼炮](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-confetti-cannon.mp4) - ali-abassi/remotion-templates 中 particle-systems 家族的静音短环预览（site/previews）。彩纸礼炮处理。上游无 SPDX，按不可再分发处理，仅热链。
+- [频谱隧道](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/music-visualizers-spectrum-tunnel.mp4) - ali-abassi/remotion-templates 中 music-visualizers 家族的静音短环预览（site/previews）。频谱隧道处理。上游无 SPDX，按不可再分发处理，仅热链。
+- [柔和降雪](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-snowfall.mp4) - ali-abassi/remotion-templates 中 particle-systems 家族的静音短环预览（site/previews）。柔和降雪处理。上游无 SPDX，按不可再分发处理，仅热链。
+- [雨滴飞溅涟漪](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-rain-splash-ripples.mp4) - ali-abassi/remotion-templates 中 particle-systems 家族的静音短环预览（site/previews）。雨滴飞溅涟漪处理。上游无 SPDX，按不可再分发处理，仅热链。
+- [气泡柱](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-bubble-columns.mp4) - ali-abassi/remotion-templates 中 particle-systems 家族的静音短环预览（site/previews）。气泡柱处理。上游无 SPDX，按不可再分发处理，仅热链。
 
 ## 视觉风格文件
 

@@ -8543,5 +8543,349 @@
       "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/macintosh.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=124777. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
       "poster": "/previews/swiftclip-macintosh.webp"
     }
+  },
+  {
+    "id": "remotion-templates-music-visualizers-spectrum-tunnel",
+    "project_id": "remotion-templates",
+    "name": "Spectrum Tunnel",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/music-visualizers-spectrum-tunnel.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the music-visualizers family in ali-abassi/remotion-templates (site/previews). Spectrum tunnel treatment. License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-120"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/music-visualizers-spectrum-tunnel.mp4",
+      "redistributable": false,
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/remotion-templates-music-visualizers-spectrum-tunnel.webp",
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/music-visualizers-spectrum-tunnel.mp4. HEAD on 2026-10-30: HTTP 200 application/octet-stream Content-Length=88547, ftyp isom. No root LICENSE (S-CV-117). Same-family continuation (CL≥80KB). Hotlink only; muted loop is not a full film; not a local render test."
+    }
+  },
+  {
+    "id": "remotion-templates-particles-snowfall",
+    "project_id": "remotion-templates",
+    "name": "Soft Snowfall",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-snowfall.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the particle-systems family in ali-abassi/remotion-templates (site/previews). Soft snowfall treatment. License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-120"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-snowfall.mp4",
+      "redistributable": false,
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/remotion-templates-particles-snowfall.webp",
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-snowfall.mp4. HEAD on 2026-10-30: HTTP 200 application/octet-stream Content-Length=96861, ftyp isom. No root LICENSE (S-CV-117). Same-family continuation (CL≥80KB). Hotlink only; muted loop is not a full film; not a local render test."
+    }
+  },
+  {
+    "id": "remotion-templates-particles-rain-splash-ripples",
+    "project_id": "remotion-templates",
+    "name": "Rain and Splash Ripples",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-rain-splash-ripples.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the particle-systems family in ali-abassi/remotion-templates (site/previews). Rain and splash ripples treatment. License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-120"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-rain-splash-ripples.mp4",
+      "redistributable": false,
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/remotion-templates-particles-rain-splash-ripples.webp",
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-rain-splash-ripples.mp4. HEAD on 2026-10-30: HTTP 200 application/octet-stream Content-Length=97394, ftyp isom. No root LICENSE (S-CV-117). Same-family continuation (CL≥80KB). Hotlink only; muted loop is not a full film; not a local render test."
+    }
+  },
+  {
+    "id": "remotion-templates-particles-bubble-columns",
+    "project_id": "remotion-templates",
+    "name": "Bubble Columns",
+    "kind": "shot",
+    "url": "https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-bubble-columns.mp4",
+    "section": "Shot Recipes",
+    "description": "Muted short-loop Remotion preview from the particle-systems family in ali-abassi/remotion-templates (site/previews). Bubble columns treatment. License SPDX missing upstream — treat redistributable as false.",
+    "evidence_ids": [
+      "S-CV-117",
+      "S-CV-120"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-bubble-columns.mp4",
+      "redistributable": false,
+      "license": "待确认",
+      "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/remotion-templates-particles-bubble-columns.webp",
+      "source": "S-CV-120 https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-bubble-columns.mp4. HEAD on 2026-10-30: HTTP 200 application/octet-stream Content-Length=80666, ftyp isom. No root LICENSE (S-CV-117). Same-family continuation (CL≥80KB). Hotlink only; muted loop is not a full film; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-project-health-arctic-workstream-view",
+    "project_id": "freelancer-templates",
+    "name": "Project Health Arctic Workstream View",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecthealth/ProjectHealth.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion project-health composition. Reuse ProjectHealth.tsx and theme props; the listed hero variant is Arctic Workstream View. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ProjectHealth-ArcticWorkstreamView.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-project-health-arctic-workstream-view.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ProjectHealth-ArcticWorkstreamView.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=209362, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-client-pipeline-arctic-pipeline-board",
+    "project_id": "freelancer-templates",
+    "name": "Client Pipeline Arctic Pipeline Board",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientpipeline/ClientPipeline.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-pipeline composition. Reuse ClientPipeline.tsx and theme props; the listed hero variant is Arctic Pipeline Board. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientPipeline-ArcticPipelineBoard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-client-pipeline-arctic-pipeline-board.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ClientPipeline-ArcticPipelineBoard.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=181746, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-rate-card-arctic-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Rate Card Arctic Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion rate-card composition. Reuse RateCard.tsx and theme props; the listed hero variant is Arctic Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/RateCard-ArcticDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-rate-card-arctic-dashboard.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/RateCard-ArcticDashboard.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=234959, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-scope-change-arctic-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Scope Change Arctic Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/scopechange/ScopeChange.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion scope-change composition. Reuse ScopeChange.tsx and theme props; the listed hero variant is Arctic Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ScopeChange-ArcticDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-30",
+      "poster": "/previews/freelancer-scope-change-arctic-dashboard.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ScopeChange-ArcticDashboard.mp4. HEAD on 2026-10-30: HTTP 200 video/mp4 Content-Length=298989, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "swiftclip-bar-chart",
+    "project_id": "swiftclip",
+    "name": "Bar Chart",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/BarChart.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bar-chart scene composition. Root.tsx registers BarChart at 1920 by 1080, 30 fps, and 240 frames (8 seconds). Reuse remotion/BarChart.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/bar-chart.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/bar-chart.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=30070. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-bar-chart.webp"
+    }
+  },
+  {
+    "id": "swiftclip-ai-animation",
+    "project_id": "swiftclip",
+    "name": "AI Animation",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/AiAnimation.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion AI-animation scene composition. Root.tsx registers AiAnimation at 1920 by 1080, 30 fps, and 240 frames (8 seconds). Reuse remotion/AiAnimation.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/ai-animation.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/ai-animation.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=21015. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-ai-animation.webp"
+    }
+  },
+  {
+    "id": "swiftclip-applemovie",
+    "project_id": "swiftclip",
+    "name": "Apple Movie",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/AppleMovie.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion applemovie scene composition. Root.tsx registers AppleMovie at 1920 by 1080, 30 fps, and 480 frames (16 seconds). Reuse remotion/AppleMovie.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/applemovie.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/applemovie.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=215019. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-applemovie.webp"
+    }
+  },
+  {
+    "id": "swiftclip-quote-story",
+    "project_id": "swiftclip",
+    "name": "Quote Story",
+    "kind": "scene",
+    "url": "https://github.com/zz41354899/SwiftClip/blob/main/remotion/QuoteStory.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion quote-story scene composition. Root.tsx registers QuoteStory at 1080 by 1920, 30 fps, and 240 frames (8 seconds). Reuse remotion/QuoteStory.tsx and keep the MIT notice. The catalog links only the repository JPEG thumbnail under public/thumbnails; SwiftClip publishes no MP4 hotlink for this scene, so this is not a playable film. No generative prompt is included. Remotion's runtime license is separate. Source-reviewed on 2026-10-30; not render-tested.",
+    "evidence_ids": [
+      "S-CV-158"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-30",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/quote-story.jpg",
+      "redistributable": true,
+      "license": "MIT",
+      "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)",
+      "checked_at": "2026-10-30",
+      "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/quote-story.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=50174. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
+      "poster": "/previews/swiftclip-quote-story.webp"
+    }
   }
 ]
