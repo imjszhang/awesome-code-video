@@ -2066,5 +2066,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-30",
     "notes": "Batch V on 2026-10-30. remotion-templates same-family continuations (music-visualizers-stereo-field Content-Length 113631, particles-confetti-cannon 110103): raw GitHub MP4 HEAD 200 application/octet-stream + ftyp isom; no SPDX (S-CV-117) so redistributable false; same-family ≥80KB ×2; new-family <65KB not relaxed. SwiftClip subscribe-cta.jpg / end-screen.jpg / dynamic-island.jpg / macintosh.jpg: JPEG thumbs only, no MP4 in tree (S-CV-158). freelancer-templates heroes QBRDashboard-ArcticDetailed, ThoughtLeadership-ArcticKeynote, PlatformOverview-ArcticModuleGrid, StatCounter-CharcoalGrid, BugTriage-ArcticTriageList, VelocityChart-ArcticTrendLine: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Hotlink only. Not copied. Not render-tested."
+  },
+  {
+    "id": "S-CV-168",
+    "project_id": "remotion-templates",
+    "title": "Batch W preview media — RT same-family ≥80k ×4, FT×4 heroes, SwiftClip×4 thumbs",
+    "url": "https://github.com/ali-abassi/remotion-templates/tree/main/site/previews",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-30",
+    "notes": "Batch W on 2026-10-30. remotion-templates same-family continuations (music-visualizers-spectrum-tunnel Content-Length 88547, particles-snowfall 96861, particles-rain-splash-ripples 97394, particles-bubble-columns 80666): raw GitHub MP4 HEAD/bytes 200 application/octet-stream + ftyp isom (via gh api recheck when raw CDN flaky); no SPDX (S-CV-117) so redistributable false; same-family ≥80KB ×4; new-family not expanded. SwiftClip bar-chart.jpg / ai-animation.jpg / applemovie.jpg / quote-story.jpg: JPEG thumbs only, no MP4 in tree (S-CV-158). freelancer-templates heroes ProjectHealth-ArcticWorkstreamView, ClientPipeline-ArcticPipelineBoard, RateCard-ArcticDashboard, ScopeChange-ArcticDashboard: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
   }
 ]

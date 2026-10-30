@@ -851,6 +851,20 @@
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
   },
   {
+    "resource_id": "freelancer-client-pipeline-arctic-pipeline-board",
+    "source_url": "https://freelancer-templates.org/previews/hero/ClientPipeline-ArcticPipelineBoard.mp4",
+    "poster": "/previews/freelancer-client-pipeline-arctic-pipeline-board.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "24e166e7ff9bc2c38baea4c49028ecdc6fe6d0b7b7115b48ca400c43c16905b1",
+    "source_byte_ranges": [],
+    "poster_sha256": "f92037c2600e634b4c984ba67d28b6aa619795235c5240885543399131a20dc9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-client-report-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ClientReport-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-client-report-arctic-dashboard.webp",
@@ -1150,6 +1164,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-project-health-arctic-workstream-view",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProjectHealth-ArcticWorkstreamView.mp4",
+    "poster": "/previews/freelancer-project-health-arctic-workstream-view.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "effb43ff2865835262e6a78d8c5377b781162e3a619ff60766137e5a208bd19d",
+    "source_byte_ranges": [],
+    "poster_sha256": "90ab5260782cbcf8655b73da13db7ac7a83d62cf4d5dcdd9171f2f892196076d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-proposal-bold-pitch",
     "source_url": "https://freelancer-templates.org/previews/hero/Proposal-BoldPitch.mp4",
     "poster": "/previews/freelancer-proposal-bold-pitch.webp",
@@ -1239,6 +1267,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-rate-card-arctic-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/RateCard-ArcticDashboard.mp4",
+    "poster": "/previews/freelancer-rate-card-arctic-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "742f0c6e4b8792519f3c06f36c175adae2221ff934d143d0287de09965b0afe2",
+    "source_byte_ranges": [],
+    "poster_sha256": "f932318a2e268630f7546f5f52f77860e29399f66a0b70478a1b5f086298a085",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-recap-neon-timeline",
     "source_url": "https://freelancer-templates.org/previews/hero/Recap-NeonTimeline.mp4",
     "poster": "/previews/freelancer-recap-neon-timeline.webp",
@@ -1274,6 +1316,20 @@
     "source_sha256": "9a3da4f5899e38bcc5e23df4997c6d9f0a2e3470ffe2c8b2ff1263e67e42842a",
     "source_byte_ranges": [],
     "poster_sha256": "a75afa04c64067c8a3aac857267fd5b642981eb24ace899292f65808cd60723e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-scope-change-arctic-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ScopeChange-ArcticDashboard.mp4",
+    "poster": "/previews/freelancer-scope-change-arctic-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "814597ed827f1fe5078a6cb4fbdcb8e90f85df34630bcc5f0f6a0edae2e1a9f5",
+    "source_byte_ranges": [],
+    "poster_sha256": "311df1f58e22e46db13f67c51bc5394d56f2b49ace64805c09831d353b1f3d30",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3908,6 +3964,20 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-music-visualizers-spectrum-tunnel",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/music-visualizers-spectrum-tunnel.mp4",
+    "poster": "/previews/remotion-templates-music-visualizers-spectrum-tunnel.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "ffa856d80417f15b0872f9c8e8260acf5a6fae6a0d4212c1c86854237ea49c5b",
+    "source_byte_ranges": [],
+    "poster_sha256": "9e8024bc173b0d3207390444ae41aca1ac7035cb009d995188dea5bce7d8a304",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-music-visualizers-stereo-field",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/music-visualizers-stereo-field.mp4",
     "poster": "/previews/remotion-templates-music-visualizers-stereo-field.webp",
@@ -3950,6 +4020,20 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-particles-bubble-columns",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-bubble-columns.mp4",
+    "poster": "/previews/remotion-templates-particles-bubble-columns.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "665e317335a955187df3ccaad14a9cb69117ed54b6f249fc657e9bbe9a95146f",
+    "source_byte_ranges": [],
+    "poster_sha256": "9239e184ec6ff663d30d06bc257c261c8f0d17793590f12d9f5aaf7997a4d337",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-particles-confetti-cannon",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-confetti-cannon.mp4",
     "poster": "/previews/remotion-templates-particles-confetti-cannon.webp",
@@ -3960,6 +4044,34 @@
     "source_sha256": "374ce26ac473d510752f56b513f2d44bdaf907527649eae2d6b8dc7b698db16c",
     "source_byte_ranges": [],
     "poster_sha256": "8363cbfd4f23ee305471ad3b71324e48b47af798ae4caea0d39a64d96b6bcd6e",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-particles-rain-splash-ripples",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-rain-splash-ripples.mp4",
+    "poster": "/previews/remotion-templates-particles-rain-splash-ripples.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "210e43b1062b8f5c77563447a5e8f49f6ca22b2820d31699bf8e746cc652ce03",
+    "source_byte_ranges": [],
+    "poster_sha256": "530560362d435ba394c1cef9b75a4707a3133e032f45bfb71ab722bd1e15e63d",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-particles-snowfall",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-snowfall.mp4",
+    "poster": "/previews/remotion-templates-particles-snowfall.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "373196154f84977ec1a8e12e2269c3920f77c98d285b14d6741df0d8ee91a309",
+    "source_byte_ranges": [],
+    "poster_sha256": "0a326565a37701c63ded9428d55a7be6724e6ae38a063a382d4ad8e42febdbc9",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
