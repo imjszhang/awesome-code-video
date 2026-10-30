@@ -374,6 +374,17 @@
     "attribution": "SwiftClip contributors"
   },
   {
+    "resource_id": "swiftclip-event-promo",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/event-promo.jpg",
+    "poster": "/previews/swiftclip-event-promo.webp",
+    "source_sha256": "0e317578bfcc2a57ab56cc2217e8824d5ec3bb09e6c601f12fc078b99ffb5ab9",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "57b2f38688859dfd695a6683da38cea3ac4c4e4b300d354e9174feabe4d63204",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-gradient-reveal",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/gradient-reveal.jpg",
     "poster": "/previews/swiftclip-gradient-reveal.webp",
@@ -414,6 +425,28 @@
     "frame_index": 0,
     "frame_count": 1,
     "poster_sha256": "1068c3ebcf984da730b6c4402338bd2e822a34f2e5357b86c2a7f32b9a8a7511",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-pricing-card",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/pricing-card.jpg",
+    "poster": "/previews/swiftclip-pricing-card.webp",
+    "source_sha256": "b26893e2db4a7653da87cffca4dd1383587d81192838090de9debc23b865cf5b",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "a89eb03667af87da8b450d775fcd1f52ff98a34b3b67fa51a46af17ce73f48d7",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-product-card",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-card.jpg",
+    "poster": "/previews/swiftclip-product-card.webp",
+    "source_sha256": "e9a58e9f1c0225b9fa3c2796bb2cd2ea7aec422745b5434f9f4869153c9a9e53",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "a23df807806d2d80a0ca6a0f9550b6b033617adac75ca736636c22595ecf88da",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
@@ -491,6 +524,17 @@
     "frame_index": 0,
     "frame_count": 1,
     "poster_sha256": "7943fa45d6cd6b54e4bc3ed46b3d6bc8b8213a47f816f9f010665a99e690da5f",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-web-promo",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/web-promo.jpg",
+    "poster": "/previews/swiftclip-web-promo.webp",
+    "source_sha256": "9053a889649c8975db83d0a525200888faa225b14de5c7ef87616d6d628c65bb",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "e63918e0ecb30c73075a21b07ab05bee947d7a1ac8d40cfa22406b426423fb21",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
