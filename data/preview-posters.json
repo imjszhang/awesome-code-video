@@ -748,6 +748,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-call-to-action-candy-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-CandyCentered.mp4",
+    "poster": "/previews/freelancer-call-to-action-candy-centered.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": "476be1fa9a0a78e23c03a6b972f97ae5cb9f49bd2cbcf4332db4dd5354be2f33",
+    "source_byte_ranges": [],
+    "poster_sha256": "9551601df9af1d287f257c41f9c34b9a92297a060dc5bb88dab6eb0c5c9006ea",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-case-study-neon-spotlight",
     "source_url": "https://freelancer-templates.org/previews/hero/CaseStudy-NeonSpotlight.mp4",
     "poster": "/previews/freelancer-case-study-neon-spotlight.webp",
@@ -771,6 +785,20 @@
     "poster_sha256": "388f4e4a7eef39941d243ecba8381a4991a4feda10a2cb4e0dc59b9c18b21b82",
     "license": "CC-BY-NC-SA-4.0",
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-client-report-arctic-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ClientReport-ArcticDashboard.mp4",
+    "poster": "/previews/freelancer-client-report-arctic-dashboard.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "e4b1595d9521a3e088936a524da1671feab2c83c8586e673003b0782ad85482e",
+    "source_byte_ranges": [],
+    "poster_sha256": "b4a94dcd55386af55ddfcb68263cb553448cf40b3dc1a64735f3fd12773cf2eb",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
   },
   {
     "resource_id": "freelancer-course-promo-dark-overview",
@@ -862,6 +890,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-feature-roadmap-arctic-swimlane",
+    "source_url": "https://freelancer-templates.org/previews/hero/FeatureRoadmap-ArcticSwimlane.mp4",
+    "poster": "/previews/freelancer-feature-roadmap-arctic-swimlane.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "034f691362a15eb310429fc60cdbf10025dcbdf319b136abc2d2b8ed1fe7e706",
+    "source_byte_ranges": [],
+    "poster_sha256": "f7a12f94c4866f355735b94fed69ef7b3643096a3b639a118bbe2e02f6cfa2f6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-invoice-arctic-professional",
     "source_url": "https://freelancer-templates.org/previews/hero/Invoice-ArcticProfessional.mp4",
     "poster": "/previews/freelancer-invoice-arctic-professional.webp",
@@ -886,6 +928,20 @@
     "source_sha256": "68dcc0773f235538c348179a3db32a82b5bfec9581eaea018fbf8506cefcd14e",
     "source_byte_ranges": null,
     "poster_sha256": "8f4111be23c6f7bfe3455efab975a93d86ef8851f63f6295c4ec9c47d60587b9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-newsletter-promo-arctic-issue-preview",
+    "source_url": "https://freelancer-templates.org/previews/hero/NewsletterPromo-ArcticIssuePreview.mp4",
+    "poster": "/previews/freelancer-newsletter-promo-arctic-issue-preview.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "57e02371718b961dbfff17c7775c8fbea93816537ada4b762d388fe0b8a4edae",
+    "source_byte_ranges": [],
+    "poster_sha256": "b48e37828c947dfbc83049bc510974c1a4d485c405d0c71df212b068465a83cf",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1044,6 +1100,34 @@
     "poster_sha256": "9f734cb04e916fb5783729a138c774c8bfc926b7180a23ec92aa1a1e2cf36011",
     "license": "CC-BY-NC-SA-4.0",
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-release-notes-arctic-highlights",
+    "source_url": "https://freelancer-templates.org/previews/hero/ReleaseNotes-ArcticHighlights.mp4",
+    "poster": "/previews/freelancer-release-notes-arctic-highlights.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "9a3da4f5899e38bcc5e23df4997c6d9f0a2e3470ffe2c8b2ff1263e67e42842a",
+    "source_byte_ranges": [],
+    "poster_sha256": "a75afa04c64067c8a3aac857267fd5b642981eb24ace899292f65808cd60723e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-social-proof-arctic-achievement",
+    "source_url": "https://freelancer-templates.org/previews/hero/SocialProof-ArcticAchievement.mp4",
+    "poster": "/previews/freelancer-social-proof-arctic-achievement.webp",
+    "timestamp_seconds": 0.7,
+    "duration_seconds": 2.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "b65cc5064edb01aa634ed4261905d78df25500c8d71d521294cfe1cb7a96cd97",
+    "source_byte_ranges": [],
+    "poster_sha256": "c9a2b6723fada2723cff1dd8ad96779780707400ece22245a32cd328ff8d2a9d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
   },
   {
     "resource_id": "freelancer-sprint-dashboard-arctic-velocity",
@@ -3570,6 +3654,20 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-network-graphs-relationship-reveal",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/network-graphs-relationship-reveal.mp4",
+    "poster": "/previews/remotion-templates-network-graphs-relationship-reveal.webp",
+    "timestamp_seconds": 1.0499999999999998,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "547b016f9dc7f00eab8a4e39248d184c4484bdf9e89826d568f02cb1b760d7cd",
+    "source_byte_ranges": [],
+    "poster_sha256": "bffb696aec53cf1e89c19bacd4d626f018cab6f4fa3ac1dd3099228b08070f1a",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-news-breaking-red-slab",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/news-breaking-red-slab.mp4",
     "poster": "/previews/remotion-templates-news-breaking-red-slab.webp",
@@ -3652,6 +3750,20 @@
     "source_sha256": "0ae8fc8adec6ac75a3c94d21e7904cf47ba1299a375e71941f471b1259e61327",
     "source_byte_ranges": null,
     "poster_sha256": "64ce114fa0cd91b21e4ec56d053582689c77933a5900e28f47d2d07fd5656b73",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-transition-zoom-through",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/transition-zoom-through.mp4",
+    "poster": "/previews/remotion-templates-transition-zoom-through.webp",
+    "timestamp_seconds": 0.9566665499999999,
+    "duration_seconds": 2.733333,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "bbcf22170136bcc9828ec8814cee02c9a26a7ead6e31d1f2cb9d8d3ea9c454c9",
+    "source_byte_ranges": [],
+    "poster_sha256": "83709382d46c8b89b1935425bec192f39f4d18ca61eeaefa54e23cc2a7acf7a0",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
