@@ -820,6 +820,62 @@
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
   },
   {
+    "resource_id": "freelancer-faq-arctic-accordion",
+    "source_url": "https://freelancer-templates.org/previews/hero/FAQ-ArcticAccordion.mp4",
+    "poster": "/previews/freelancer-faq-arctic-accordion.webp",
+    "timestamp_seconds": 0.8192,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "3f7bc5fb8ccf0c43f468c398959261e577df5ca0e0e290be8afc81b1cb2a66e2",
+    "source_byte_ranges": null,
+    "poster_sha256": "2fff31dd55a5db45ce78bec63b07437a4ac0dd8315b15cc1ce44ab34ce5549b8",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-onboarding-arctic-professional",
+    "source_url": "https://freelancer-templates.org/previews/hero/Onboarding-ArcticProfessional.mp4",
+    "poster": "/previews/freelancer-onboarding-arctic-professional.webp",
+    "timestamp_seconds": 0.8192,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "7da37ef0c02ee9fc98975d47af88c59778ec8ac361f51b3833158c0ee2bd7c6d",
+    "source_byte_ranges": null,
+    "poster_sha256": "62af71982a5f9780951ce29336669636f4be4e326d11fdacdba695cc9de8f7a6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-pricing-arctic-tiers",
+    "source_url": "https://freelancer-templates.org/previews/hero/Pricing-ArcticTiers.mp4",
+    "poster": "/previews/freelancer-pricing-arctic-tiers.webp",
+    "timestamp_seconds": 0.8192,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ed9c7ffcbd3e1eb3c4075efd7e868c6c3502ebd43db6746b4988c7ff1e2cac7b",
+    "source_byte_ranges": null,
+    "poster_sha256": "ba6d14cda1241168d067245ef30bf3585bd24ca34228cbf568dbabf126d9cc8e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-product-launch-arctic-feature-grid",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProductLaunch-ArcticFeatureGrid.mp4",
+    "poster": "/previews/freelancer-product-launch-arctic-feature-grid.webp",
+    "timestamp_seconds": 0.8192,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "5c0f12d8170d3a4c3957b7d1a590afe90fb0cf19981842cc5012ad42450109c1",
+    "source_byte_ranges": null,
+    "poster_sha256": "319d60971b0048aaa14914a7d653e451fca9dbeb1b9629e57fc923d664a9035c",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-proposal-bold-pitch",
     "source_url": "https://freelancer-templates.org/previews/hero/Proposal-BoldPitch.mp4",
     "poster": "/previews/freelancer-proposal-bold-pitch.webp",
@@ -918,6 +974,20 @@
     "poster_sha256": "9f734cb04e916fb5783729a138c774c8bfc926b7180a23ec92aa1a1e2cf36011",
     "license": "CC-BY-NC-SA-4.0",
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-sprint-dashboard-arctic-velocity",
+    "source_url": "https://freelancer-templates.org/previews/hero/SprintDashboard-ArcticVelocity.mp4",
+    "poster": "/previews/freelancer-sprint-dashboard-arctic-velocity.webp",
+    "timestamp_seconds": 0.8192,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "851d77c07e1f32d4d6a32fa1871acec493f12963e1ff500babc937a698756d19",
+    "source_byte_ranges": null,
+    "poster_sha256": "0a73ea7957a4e5dc0596e7204aa0a2ed835f084ed2b1903957b23aaec2ae2a3b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
   },
   {
     "resource_id": "freelancer-testimonial-neon-split",
@@ -1361,6 +1431,20 @@
     "poster_sha256": "b9a3bb177157a6d798f560206dc723729b8e9e1b422924da32611124ea494f48",
     "license": "Apache-2.0",
     "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
+    "resource_id": "html-video-frame-pentagram-stat",
+    "source_url": "https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/video-templates/frame-pentagram-stat/preview.mp4",
+    "poster": "/previews/html-video-frame-pentagram-stat.webp",
+    "timestamp_seconds": 1.24,
+    "duration_seconds": 3.1,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "2029476f1c1a2e1ad25e8d18631fff956c434bd82cbead57c9f3f2282f852fdb",
+    "source_byte_ranges": null,
+    "poster_sha256": "e5b2ef6ef37491b20239ea9538f837d3041c60d307c6d9901bd81156a8b3d91d",
+    "license": "Apache-2.0 (via huashu-design Pentagram showcase, MIT); L1 inspiration Pentagram/Bierut (not affiliation)",
+    "attribution": "nexu-io / html-video · via huashu-design (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-play-mode",
@@ -3118,6 +3202,20 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-dashboards-real-time-grid",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/dashboards-real-time-grid.mp4",
+    "poster": "/previews/remotion-templates-dashboards-real-time-grid.webp",
+    "timestamp_seconds": 1.2,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "2750897791dcc0f448d87c84c188a8757aca4dc9c8df74fba66f8bad4ef1b4e5",
+    "source_byte_ranges": null,
+    "poster_sha256": "545f68110f30ce255f1b2696632ce60d0246bb2623a624321dd51da7050c854e",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-dataviz-bar-race",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/dataviz-bar-race.mp4",
     "poster": "/previews/remotion-templates-dataviz-bar-race.webp",
@@ -3346,6 +3444,34 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-news-breaking-red-slab",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/news-breaking-red-slab.mp4",
+    "poster": "/previews/remotion-templates-news-breaking-red-slab.webp",
+    "timestamp_seconds": 1.2,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "538fe80400f48f82cb0454f51fc91bb8dafa165298922df37ec07a33590e3707",
+    "source_byte_ranges": null,
+    "poster_sha256": "550a270c4958fc2269d65267d8be5f825d89fd0e4aad0ac12905dbf045d0f13c",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-particles-star-warp-streaks",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/particles-star-warp-streaks.mp4",
+    "poster": "/previews/remotion-templates-particles-star-warp-streaks.webp",
+    "timestamp_seconds": 1.2,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "1c3d6fa96cedf3257a6aea576cab6e4328290e1fecf4048fbd3fe02a109c9068",
+    "source_byte_ranges": null,
+    "poster_sha256": "c3e009bec7cc7841d00ba14dd119b2975dfd28b019f7b5d4e7e493a3d6051041",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-podcast-full-bleed-visualizer",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/podcast-full-bleed-visualizer.mp4",
     "poster": "/previews/remotion-templates-podcast-full-bleed-visualizer.webp",
@@ -3386,6 +3512,20 @@
       }
     ],
     "poster_sha256": "348363da80d7225022326c800fed6fbacc52c7afe6bebe72e2cc9c243217a394",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-social-confetti-edge-banner",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/social-confetti-edge-banner.mp4",
+    "poster": "/previews/remotion-templates-social-confetti-edge-banner.webp",
+    "timestamp_seconds": 1.2,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "0ae8fc8adec6ac75a3c94d21e7904cf47ba1299a375e71941f471b1259e61327",
+    "source_byte_ranges": null,
+    "poster_sha256": "64ce114fa0cd91b21e4ec56d053582689c77933a5900e28f47d2d07fd5656b73",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },

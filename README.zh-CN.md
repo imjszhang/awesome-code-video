@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 208 个可复用单元：121 个成片或场景工程、6 个地图镜头、40 个镜头配方、29 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 220 个可复用单元：136 个成片或场景工程、6 个地图镜头、47 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -72,6 +72,11 @@
 - [幕后：深色场景卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx) - 用于过程走查和场景卡片的 Remotion 幕后成片，列出的主预览变体是 Dark Scene Cards。复用 BehindTheScenes.tsx，替换场景和收尾文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [提案：大胆路演](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L113) - 用于范围、时间线和报价演示的 Remotion 提案成片。通过 Bold Pitch 展示导出复用 Proposal.tsx，该导出使用 bold 主题和 pitch 版式。替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [提案：霓虹路演](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L128) - 用于范围、时间线和报价演示的 Remotion 提案成片。通过 Neon Pitch 展示导出复用 Proposal.tsx，该导出使用 neon 主题和 pitch 版式。替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [定价：北极分层](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pricing/Pricing.tsx) - 用于套餐分层和方案对比的 Remotion 定价成片，列出的主预览变体是 Arctic Tiers。复用 Pricing.tsx，替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [产品发布：北极功能网格](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productlaunch/ProductLaunch.tsx) - 用于功能网格和发布亮点的 Remotion 产品发布成片，列出的主预览变体是 Arctic Feature Grid。复用 ProductLaunch.tsx，替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [引导：北极专业风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx) - 用于分步引导和产品导览的 Remotion 成片，列出的主预览变体是 Arctic Professional。复用 Onboarding.tsx，替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [冲刺仪表盘：北极速度](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintdashboard/SprintDashboard.tsx) - 用于速度与看板指标的 Remotion 冲刺仪表盘成片，列出的主预览变体是 Arctic Velocity。复用 SprintDashboard.tsx，替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [FAQ：北极手风琴](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/faq/FAQ.tsx) - 用于手风琴问答展开的 Remotion FAQ 成片，列出的主预览变体是 Arctic Accordion。复用 FAQ.tsx，替换文案和数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [KPI 计数器](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx) - 独立的 Remotion 场景，在错开的卡片上滚动 KPI 数字。README 写明 1920×1080、4 秒，KpiCounter.tsx 为 30 fps、120 帧。复用组件和类型化参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [生长柱状图](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx) - 独立的 Remotion 场景，柱形按数据序列生长。README 写明 1920×1080、5 秒。复用 BarChartAnim.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
 - [故障文字](https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/glitch-text/GlitchText.tsx) - 独立的 Remotion 标题场景，故障文字先错位再稳定。README 写明 1920×1080、4 秒。复用 GlitchText.tsx 及其参数，并保留 MIT 声明。链接的预览是官方 Cloudflare R2 MP4（只热链，不复制进本仓库）；Remotion 运行时许可另行适用。
@@ -155,6 +160,8 @@
 - [庆祝迸发](https://github.com/zz41354899/SwiftClip/blob/main/remotion/CelebrationBurst.tsx) - Remotion 场景：磨砂卡片放大出现，带奖杯和达成目标的标题。Root.tsx 将 CelebrationBurst 登记为 1080×1080、30 fps、180 帧（6 秒）。复用 remotion/CelebrationBurst.tsx，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4，因此这不是可播放成片。没有生成式提示词。Remotion 运行时许可另行适用。2026-10-29 仅做源码审阅，没有本地渲染测试。
 - [指标仪表盘](https://github.com/zz41354899/SwiftClip/blob/main/remotion/MetricDashboard.tsx) - Remotion 场景：紧凑的指标/KPI 仪表盘卡片。Root.tsx 将 MetricDashboard 登记为 1920×1080、30 fps、240 帧（8 秒）。复用 remotion/MetricDashboard.tsx，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4，因此这不是可播放成片。没有生成式提示词。Remotion 运行时许可另行适用。2026-10-30 仅做源码审阅，没有本地渲染测试。
 - [倒计时](https://github.com/zz41354899/SwiftClip/blob/main/remotion/CountdownTimer.tsx) - Remotion 倒计时场景。Root.tsx 将 CountdownTimer 登记为 1920×1080、30 fps、210 帧（7 秒）。复用 remotion/CountdownTimer.tsx，并保留 MIT 声明。目录只链接仓库 public/thumbnails 里的 JPEG 缩略图；SwiftClip 没有为该场景提供可热链的 MP4，因此这不是可播放成片。没有生成式提示词。Remotion 运行时许可另行适用。2026-10-30 仅做源码审阅，没有本地渲染测试。
+- [SaaS 宣传](https://github.com/zz41354899/SwiftClip/blob/main/remotion/SaaSPromo.tsx) - Remotion SaaS 宣传场景。Root.tsx 登记 SaaSPromo 为 1920×1080、30 fps、900 帧（30 秒）。复用 remotion/SaaSPromo.tsx，并保留 MIT 声明。目录只链仓库 public/thumbnails 下的 JPEG 缩略图；SwiftClip 没有为该场景发布可热链 MP4，因此这不是可播成片。没有生成式提示词。Remotion 运行时许可另行适用。2026-10-30 源码审阅，没有渲染实测。
+- [时间线](https://github.com/zz41354899/SwiftClip/blob/main/remotion/Timeline.tsx) - Remotion 时间线场景。Root.tsx 登记 Timeline 为 1920×1080、30 fps、270 帧（9 秒）。复用 remotion/Timeline.tsx，并保留 MIT 声明。目录只链仓库 public/thumbnails 下的 JPEG 缩略图；SwiftClip 没有为该场景发布可热链 MP4，因此这不是可播成片。没有生成式提示词。Remotion 运行时许可另行适用。2026-10-30 源码审阅，没有渲染实测。
 
 下面 6 条是 nexu-io html-video 的原创模板，Apache-2.0，NOTICE 有标明。可播放预览热链自 Open Design 镜像（jsDelivr），没有在本地渲染。
 
@@ -187,6 +194,7 @@
 - [产品宣传](https://github.com/nexu-io/html-video/tree/main/templates/frame-product-promo) - 多场景产品展示，带 SVG 素材。templates/NOTICE.md 将 frame-product-promo 标为 heygen-com/hyperframes registry/examples/product-promo 的直接分叉，Apache-2.0。复用 templates/frame-product-promo，替换产品文案。规格默认 1920×1080、30 fps，时长可变，约 3 到 30 秒（默认 20 秒）。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-30 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
 - [Creative Voltage](https://github.com/nexu-io/html-video/tree/main/templates/frame-creative-voltage) - 电气感分屏与手写字：错位面板和描边标题。template.html-video.yaml 许可为 Apache-2.0，并把视觉归于 Zara Zhang 的 frontend-slides Creative Voltage 预设（MIT）；templates/NOTICE.md 没有把它列为 heygen-com/hyperframes 分叉。复用 templates/frame-creative-voltage，替换标题。规格默认 1920×1080、60 fps，时长可变，约 3 到 6 秒。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-30 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
 - [Electric Studio](https://github.com/nexu-io/html-video/tree/main/templates/frame-electric-studio) - 白/蓝分屏与引文揭示，提炼自 Electric Studio 预设。template.html-video.yaml 许可为 Apache-2.0，并把视觉归于 Zara Zhang 的 frontend-slides Electric Studio 预设（MIT）；templates/NOTICE.md 没有把它列为 heygen-com/hyperframes 分叉。复用 templates/frame-electric-studio，替换引文。规格默认 1920×1080、60 fps，时长可变，约 3 到 6 秒。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-30 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
+- [Pentagram Stat](https://github.com/nexu-io/html-video/tree/main/templates/frame-pentagram-stat) - 瑞士网格统计锚点：大数字溢出画幅边缘，网格线扫入，柱状图生长。template.html-video.yaml 许可为 Apache-2.0，并把视觉归于 alchaincyf 的 huashu-design（MIT）Pentagram 展示；L1 设计灵感来自 Pentagram / Michael Bierut（非合作关系）；templates/NOTICE.md 没有把它列为 heygen-com/hyperframes 分叉。复用 templates/frame-pentagram-stat，替换统计文案。规格默认 1920×1080、60 fps，时长可变，约 3 到 6 秒。可播放预览是 Open Design 的 GitHub raw MP4，按 Apache-2.0 热链；2026-10-30 做过 HEAD，没有在本地渲染。短环不是完整成片。模板包有视频预览，没有生成式提示词。
 
 下面两条是 Open Design 技能，交付的是 HTML 成片工程。目录预览是 example.html 页面，不是视频文件。
 
@@ -267,6 +275,10 @@
 - [材质特写](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/fashion-editorial-material-close.mp4) - ali-abassi/remotion-templates 中 fashion-editorial 家族的静音短环预览（site/previews）。材质特写处理。上游没有 SPDX，按不可再分发处理。
 - [激光网格](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/dj-set-visuals-laser-grid.mp4) - ali-abassi/remotion-templates 中 dj-set-visuals 家族的静音短环预览（site/previews）。激光网格处理。上游没有 SPDX，按不可再分发处理。
 - [全幅可视化](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/podcast-full-bleed-visualizer.mp4) - ali-abassi/remotion-templates 中 podcast 可视化组的静音短环预览（site/previews）。全幅处理。上游没有 SPDX，按不可再分发处理。
+- [星空曲速拖尾](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/particles-star-warp-streaks.mp4) - ali-abassi/remotion-templates 中 particle-systems 家族的静音短环预览（site/previews）。星空曲速拖尾处理。上游没有 SPDX，按不可再分发处理。
+- [突发新闻红条](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/news-breaking-red-slab.mp4) - ali-abassi/remotion-templates 中 news-broadcast 家族的静音短环预览（site/previews）。突发新闻红条处理。上游没有 SPDX，按不可再分发处理。
+- [实时网格](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/dashboards-real-time-grid.mp4) - ali-abassi/remotion-templates 中 dashboards 家族的静音短环预览（site/previews）。实时网格处理。上游没有 SPDX，按不可再分发处理。
+- [彩纸边缘横幅](https://github.com/ali-abassi/remotion-templates/blob/main/site/previews/social-confetti-edge-banner.mp4) - ali-abassi/remotion-templates 中 social-announcements 家族的静音短环预览（site/previews）。彩纸边缘横幅处理。上游没有 SPDX，按不可再分发处理。
 
 ## 视觉风格文件
 
