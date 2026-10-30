@@ -695,6 +695,34 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-announcement-candy-banner",
+    "source_url": "https://freelancer-templates.org/previews/hero/Announcement-CandyBanner.mp4",
+    "poster": "/previews/freelancer-announcement-candy-banner.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": "94a0ef410b3fbc4ae314889b9040b36410f6ea1fc92b39be66a9e709b4184966",
+    "source_byte_ranges": null,
+    "poster_sha256": "34b717cf88bafbfbe69626867c091bfc24b033b91be959ded7fd783ecafe50d3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-before-after-arctic-reveal-wipe",
+    "source_url": "https://freelancer-templates.org/previews/hero/BeforeAfter-ArcticRevealWipe.mp4",
+    "poster": "/previews/freelancer-before-after-arctic-reveal-wipe.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "207a8d6d12ca6efb497d1fda56b656678c106e636ce553658377d77d201c34e2",
+    "source_byte_ranges": null,
+    "poster_sha256": "b545a81ff96eb7037c88a1c6c6adf4e2132a3aa56e9b127e5ab1711a7cc96164",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-behind-the-scenes-dark-scene-cards",
     "source_url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-DarkSceneCards.mp4",
     "poster": "/previews/freelancer-behind-the-scenes-dark-scene-cards.webp",
@@ -834,6 +862,34 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-invoice-arctic-professional",
+    "source_url": "https://freelancer-templates.org/previews/hero/Invoice-ArcticProfessional.mp4",
+    "poster": "/previews/freelancer-invoice-arctic-professional.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "0f7b21e15a731b5f2eb47911257991646202726fe404f4ec8529e7cff337fc36",
+    "source_byte_ranges": null,
+    "poster_sha256": "218ba7e611a8879735bb8da25c53833d200da54350171d6b0c9005ce2f4f236f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-milestone-arctic-journey",
+    "source_url": "https://freelancer-templates.org/previews/hero/Milestone-ArcticJourney.mp4",
+    "poster": "/previews/freelancer-milestone-arctic-journey.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "68dcc0773f235538c348179a3db32a82b5bfec9581eaea018fbf8506cefcd14e",
+    "source_byte_ranges": null,
+    "poster_sha256": "8f4111be23c6f7bfe3455efab975a93d86ef8851f63f6295c4ec9c47d60587b9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-onboarding-arctic-professional",
     "source_url": "https://freelancer-templates.org/previews/hero/Onboarding-ArcticProfessional.mp4",
     "poster": "/previews/freelancer-onboarding-arctic-professional.webp",
@@ -844,6 +900,20 @@
     "source_sha256": "7da37ef0c02ee9fc98975d47af88c59778ec8ac361f51b3833158c0ee2bd7c6d",
     "source_byte_ranges": null,
     "poster_sha256": "62af71982a5f9780951ce29336669636f4be4e326d11fdacdba695cc9de8f7a6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-portfolio-arctic-case-study",
+    "source_url": "https://freelancer-templates.org/previews/hero/Portfolio-ArcticCaseStudy.mp4",
+    "poster": "/previews/freelancer-portfolio-arctic-case-study.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "4f52e758ab880cccd405f6ee6d53b6325c2fb57711e8251aad39ec1ad93f95cf",
+    "source_byte_ranges": null,
+    "poster_sha256": "7d33275656f4b6d465d76b9ce2074862f70e5db05c34d19b43d330dd8f3c8c67",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3052,6 +3122,20 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-abstract-geometry-orbital-rings",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/abstract-geometry-orbital-rings.mp4",
+    "poster": "/previews/remotion-templates-abstract-geometry-orbital-rings.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "ed61de9136ac21703a9ad68b0a818744fee3e1cb5e6056b7150be93cafd1b5e5",
+    "source_byte_ranges": null,
+    "poster_sha256": "56a9f348ab8fd079d4832ede13a01a830d31ae5185398c021dafaa1d84ad4a1b",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-app-onboarding-profile",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/app-onboarding-profile-setup.mp4",
     "poster": "/previews/remotion-templates-app-onboarding-profile.webp",
@@ -3173,6 +3257,20 @@
       }
     ],
     "poster_sha256": "beba7f6cae9aed15dd190758f83baf4abcf88120aea8e95efc835d56d28b1db2",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-creator-ugc-raw-to-polished",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/creator-ugc-raw-to-polished.mp4",
+    "poster": "/previews/remotion-templates-creator-ugc-raw-to-polished.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 360,
+    "source_height": 640,
+    "source_sha256": "efdee7fa44e5619aff44a2c2e0501fdede25adee5aaa7dd454810672495093fc",
+    "source_byte_ranges": null,
+    "poster_sha256": "0dfb9537f4c1982d5b297bf76848c885fe691d510badffcfe806623955278634",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
@@ -3344,6 +3442,20 @@
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
+    "resource_id": "remotion-templates-gradient-grain-poster",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/gradient-grain-poster.mp4",
+    "poster": "/previews/remotion-templates-gradient-grain-poster.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "176bf280856e1bb264c5bb2508ccc37aa53d7ac46547cc5bda9e2a17042549ec",
+    "source_byte_ranges": null,
+    "poster_sha256": "d11ac8ee421721ed2e4e3b5803d9d93c0c9d2cc45a4e3e4ee00cc11489a66775",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
     "resource_id": "remotion-templates-isometric-app",
     "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/isometric-scenes-app-ecosystem.mp4",
     "poster": "/previews/remotion-templates-isometric-app.webp",
@@ -3365,6 +3477,20 @@
       }
     ],
     "poster_sha256": "c0ef384abaa63503f1fe939b14bd7fdf6103509ffc3483eab32d4243f287ee4a",
+    "license": "待确认",
+    "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
+  },
+  {
+    "resource_id": "remotion-templates-kinetic-marquee-shout-hype",
+    "source_url": "https://raw.githubusercontent.com/ali-abassi/remotion-templates/main/site/previews/kinetic-marquee-shout-hype.mp4",
+    "poster": "/previews/remotion-templates-kinetic-marquee-shout-hype.webp",
+    "timestamp_seconds": 1.05,
+    "duration_seconds": 3.0,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "444d2c00d17c0c40736be7b29799b793a6f0f2abd805aee97c6a34292c1dc85d",
+    "source_byte_ranges": null,
+    "poster_sha256": "8b0188d4021d10ba1e0c94d4f8716b76c4319fa431bd7343cc50d1aadd91e07e",
     "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },

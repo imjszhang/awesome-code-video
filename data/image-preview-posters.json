@@ -374,6 +374,17 @@
     "attribution": "SwiftClip contributors"
   },
   {
+    "resource_id": "swiftclip-gradient-reveal",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/gradient-reveal.jpg",
+    "poster": "/previews/swiftclip-gradient-reveal.webp",
+    "source_sha256": "86bb33bcfdad4ff982333bbcc851c9466210356897b37dd7523d7d9a4b2eb7c6",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "f0ae20a76e2fbbdc9f4042dd3b1c9d65938b8109ecd33f4f56ae2cb467392252",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-metric-dashboard",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/metric-dashboard.jpg",
     "poster": "/previews/swiftclip-metric-dashboard.webp",
@@ -407,6 +418,17 @@
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
   {
+    "resource_id": "swiftclip-team-grid",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/team-grid.jpg",
+    "poster": "/previews/swiftclip-team-grid.webp",
+    "source_sha256": "eee1ffa5fca76440a6d6dadac18bc2e758bed53e621e282a05709b12fcee60a9",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "c7dda73aa4ea710042e2acada810c855837b8a430727a05ca18795a42e5bc41e",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
     "resource_id": "swiftclip-timeline",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/timeline.jpg",
     "poster": "/previews/swiftclip-timeline.webp",
@@ -414,6 +436,17 @@
     "frame_index": 0,
     "frame_count": 1,
     "poster_sha256": "d1f2aec82aa1145c8decbd9008e34701c2a0a84049f50d8b99c42bcf2f5577cb",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-typewriter-quote",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/typewriter-quote.jpg",
+    "poster": "/previews/swiftclip-typewriter-quote.webp",
+    "source_sha256": "60f287208e76b66ce5cda615315c1c42fc0c2abcaf1968ba4f38b06cd527b0ac",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "7943fa45d6cd6b54e4bc3ed46b3d6bc8b8213a47f816f9f010665a99e690da5f",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
   },
