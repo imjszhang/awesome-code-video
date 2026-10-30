@@ -319,50 +319,6 @@
     "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)"
   },
   {
-    "resource_id": "theatre-bouncing-box",
-    "source_url": "https://raw.githubusercontent.com/AriaMinaei/theatre-example-bouncing-box/main/demo.gif",
-    "poster": "/previews/theatre-bouncing-box.webp",
-    "source_sha256": "d7906035722e797201dee310e5e1c2098a5c96585f0c102355d737aff44087f4",
-    "frame_index": 78,
-    "frame_count": 196,
-    "poster_sha256": "c572214d35a0c3d5133fd8c83bf9f68732628d970b63e1aadafd0faff78774bf",
-    "license": "待确认",
-    "attribution": "AriaMinaei / Theatre.js (https://github.com/AriaMinaei/theatre-example-bouncing-box)"
-  },
-  {
-    "resource_id": "swiftclip-product-launch",
-    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-launch.jpg",
-    "poster": "/previews/swiftclip-product-launch.webp",
-    "source_sha256": "39c099899d2113036f31e8f2ca12698b14552b3459f126e83373d7a1fb541445",
-    "frame_index": 0,
-    "frame_count": 1,
-    "poster_sha256": "6ebc177f4c16c6bbccedaffc66fbaf790e225ef9b5fcf6953384028d207d0edf",
-    "license": "MIT",
-    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
-  },
-  {
-    "resource_id": "swiftclip-code-reveal",
-    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/code-reveal.jpg",
-    "poster": "/previews/swiftclip-code-reveal.webp",
-    "source_sha256": "1e94ad56ba451166c255662cfe15175b3bfcf39375746600119ddb86cb7ca40e",
-    "frame_index": 0,
-    "frame_count": 1,
-    "poster_sha256": "6bba564b2e40e6692e663753e36814bb221dbf1d99010f4f848dbb67b6f68b8c",
-    "license": "MIT",
-    "attribution": "SwiftClip contributors"
-  },
-  {
-    "resource_id": "swiftclip-data-viz",
-    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/data-viz.jpg",
-    "poster": "/previews/swiftclip-data-viz.webp",
-    "source_sha256": "1ac7fad36d3430777635e514ff4f24233bb91388c67e6bed510edeb2dc74a7ea",
-    "frame_index": 0,
-    "frame_count": 1,
-    "poster_sha256": "ec9499dfa96b9055c444840dca0cb3c47092c716804a85d34ad0e57731f5b04a",
-    "license": "MIT",
-    "attribution": "SwiftClip contributors"
-  },
-  {
     "resource_id": "swiftclip-brand-reveal",
     "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/brand-reveal.jpg",
     "poster": "/previews/swiftclip-brand-reveal.webp",
@@ -383,5 +339,71 @@
     "poster_sha256": "1e08216af2b63d35026b9ed91bbb2b8a6f2b8da88df8f7052af091f20c04df35",
     "license": "MIT",
     "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-code-reveal",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/code-reveal.jpg",
+    "poster": "/previews/swiftclip-code-reveal.webp",
+    "source_sha256": "1e94ad56ba451166c255662cfe15175b3bfcf39375746600119ddb86cb7ca40e",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "6bba564b2e40e6692e663753e36814bb221dbf1d99010f4f848dbb67b6f68b8c",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors"
+  },
+  {
+    "resource_id": "swiftclip-countdown-timer",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/countdown-timer.jpg",
+    "poster": "/previews/swiftclip-countdown-timer.webp",
+    "source_sha256": "95757ef731f2507113423ae1b46a877653123b35482d89f1eed172b67e9e9dea",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "68f764b2ce01d86fb8f4c4d6d31ccc4e3bac559ab6d13922458dbe0d69204ff0",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-data-viz",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/data-viz.jpg",
+    "poster": "/previews/swiftclip-data-viz.webp",
+    "source_sha256": "1ac7fad36d3430777635e514ff4f24233bb91388c67e6bed510edeb2dc74a7ea",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "ec9499dfa96b9055c444840dca0cb3c47092c716804a85d34ad0e57731f5b04a",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors"
+  },
+  {
+    "resource_id": "swiftclip-metric-dashboard",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/metric-dashboard.jpg",
+    "poster": "/previews/swiftclip-metric-dashboard.webp",
+    "source_sha256": "4ccc9ac054232bab9124e032a3f8428d9e9549d9a7a7a5c6befdb1e9fe72c5d3",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "5ea1dfa29cb5e298ec0a7560207f9113d3d5c27cd82004ce4a18a849228bf785",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "swiftclip-product-launch",
+    "source_url": "https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/product-launch.jpg",
+    "poster": "/previews/swiftclip-product-launch.webp",
+    "source_sha256": "39c099899d2113036f31e8f2ca12698b14552b3459f126e83373d7a1fb541445",
+    "frame_index": 0,
+    "frame_count": 1,
+    "poster_sha256": "6ebc177f4c16c6bbccedaffc66fbaf790e225ef9b5fcf6953384028d207d0edf",
+    "license": "MIT",
+    "attribution": "SwiftClip contributors (https://github.com/zz41354899/SwiftClip)"
+  },
+  {
+    "resource_id": "theatre-bouncing-box",
+    "source_url": "https://raw.githubusercontent.com/AriaMinaei/theatre-example-bouncing-box/main/demo.gif",
+    "poster": "/previews/theatre-bouncing-box.webp",
+    "source_sha256": "d7906035722e797201dee310e5e1c2098a5c96585f0c102355d737aff44087f4",
+    "frame_index": 78,
+    "frame_count": 196,
+    "poster_sha256": "c572214d35a0c3d5133fd8c83bf9f68732628d970b63e1aadafd0faff78774bf",
+    "license": "待确认",
+    "attribution": "AriaMinaei / Theatre.js (https://github.com/AriaMinaei/theatre-example-bouncing-box)"
   }
 ]

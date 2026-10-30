@@ -723,7 +723,7 @@
     "status": "reviewed",
     "reliability": "high",
     "checked_at": "2026-10-27",
-    "notes": "Read the web release asset list and the README Licence section. Demo films and stills are CC BY 4.0 with LemoLab attribution and a link to the repository. Code remains MIT (S-CV-054). Three voice tracks on other films are excluded from CC BY 4.0. Byte-range checks of the listed mp4 URLs returned ftyp headers. Files were not copied here and were not rendered locally."
+    "notes": "Read the web release asset list and the README Licence section. Demo films and stills are CC BY 4.0 with LemoLab attribution and a link to the repository. Code remains MIT (S-CV-054). Three voice tracks on other films are excluded from CC BY 4.0. Byte-range checks of the listed mp4 URLs returned ftyp headers. Files were not copied here and were not rendered locally. Batch Q on 2026-10-30. HEAD on releases/download/web/news-package.mp4 and archive-lighttable.mp4 returned playable MP4s (ftyp). STYLE.md prompts ship with the demos; these are style+demo films, not composition packages. CC BY 4.0 demos / MIT code (S-CV-054). Hotlink only. Not copied. Not a local render."
   },
   {
     "id": "S-CV-067",
@@ -1317,7 +1317,7 @@
     "status": "reviewed",
     "reliability": "medium",
     "checked_at": "2026-10-28",
-    "notes": "logo-sting-aurora-bloom.mp4 (29985), lower-third-bar-rule.mp4 (11898), isometric-scenes-app-ecosystem.mp4 (37113): all 200 + ftyp isom. License still 待确认 / redistributable false (S-CV-117). Controlled families only — do not ingest remaining ~990."
+    "notes": "logo-sting-aurora-bloom.mp4 (29985), lower-third-bar-rule.mp4 (11898), isometric-scenes-app-ecosystem.mp4 (37113): all 200 + ftyp isom. License still 待确认 / redistributable false (S-CV-117). Controlled families only — do not ingest remaining ~990. Batch Q on 2026-10-30. HEAD via raw.githubusercontent.com returned HTTP 200 application/octet-stream and Range bytes 0-63 ftyp isom: fashion-editorial-material-close.mp4 Content-Length 169195, dj-set-visuals-laser-grid.mp4 138127, podcast-full-bleed-visualizer.mp4 114288. License still 待确认 / redistributable false (S-CV-117). Hotlink only. Not copied. Not a local render."
   },
   {
     "id": "S-CV-121",
@@ -1349,8 +1349,8 @@
     "type": "official-source",
     "status": "reviewed",
     "reliability": "high",
-    "checked_at": "2026-10-28",
-    "notes": "Source-reviewed templates/NOTICE.md on 2026-10-28. Original Apache-2.0 templates: frame-data-chart-nyt, frame-glitch-title, frame-light-leak-cinema, frame-liquid-bg-hero, frame-logo-outro, vfx-text-cursor. Direct forks of heygen-com/hyperframes registry/examples (warm-grain, swiss-grid, kinetic-type, nyt-graph, decision-tree, play-mode, product-promo, vignelli) are named in NOTICE and are not added in this batch. No local render. On 2026-10-29 Batch O re-read this NOTICE: frame-swiss-grid, frame-kinetic-type, and frame-warm-grain remain listed as heygen-com/hyperframes forks and are cataloged in that batch. frame-bold-poster is not named here. On 2026-10-29 Batch P re-read NOTICE.md: frame-decision-tree and frame-vignelli are still listed as heygen-com/hyperframes forks and are cataloged in that batch. frame-bold-signal and frame-build-minimal are absent from NOTICE.md."
+    "checked_at": "2026-10-30",
+    "notes": "Source-reviewed templates/NOTICE.md on 2026-10-28. Original Apache-2.0 templates: frame-data-chart-nyt, frame-glitch-title, frame-light-leak-cinema, frame-liquid-bg-hero, frame-logo-outro, vfx-text-cursor. Direct forks of heygen-com/hyperframes registry/examples (warm-grain, swiss-grid, kinetic-type, nyt-graph, decision-tree, play-mode, product-promo, vignelli) are named in NOTICE and are not added in this batch. No local render. On 2026-10-29 Batch O re-read this NOTICE: frame-swiss-grid, frame-kinetic-type, and frame-warm-grain remain listed as heygen-com/hyperframes forks and are cataloged in that batch. frame-bold-poster is not named here. On 2026-10-29 Batch P re-read NOTICE.md: frame-decision-tree and frame-vignelli are still listed as heygen-com/hyperframes forks and are cataloged in that batch. frame-bold-signal and frame-build-minimal are absent from NOTICE.md. On 2026-10-30 Batch Q re-read NOTICE.md: frame-play-mode and frame-product-promo are still listed as heygen-com/hyperframes forks and are cataloged in that batch. frame-takram-organic, frame-creative-voltage, and frame-electric-studio are absent from NOTICE.md."
   },
   {
     "id": "S-CV-124",
@@ -1965,8 +1965,8 @@
     "type": "license",
     "status": "reviewed",
     "reliability": "high",
-    "checked_at": "2026-10-29",
-    "notes": "Reviewed on 2026-10-29. GitHub repository zz41354899/SwiftClip id 1225439149, default branch main, SPDX MIT. LICENSE is the MIT license, copyright 2026 SwiftClip contributors. Root.tsx registers ProductLaunch at 1920 by 1080, 30 fps, 450 frames; CodeReveal at 1920 by 1080, 30 fps, 300 frames; DataViz at 1920 by 1080, 30 fps, 600 frames. The default-branch tree contains JPEG files under public/thumbnails and no mp4 or webm files. HEAD on 2026-10-29: product-launch.jpg 200 image/jpeg Content-Length 46320; code-reveal.jpg 29364; data-viz.jpg 30132. Each Range bytes 0-63 begins with a JPEG SOI marker. These thumbnails are not playable films. Remotion's runtime license is separate. Hotlink only. Not render-tested. Batch P on 2026-10-29 re-read Root.tsx: BrandReveal is 1920 by 1080, 30 fps, 180 frames; CelebrationBurst is 1080 by 1080, 30 fps, 180 frames. The default-branch tree still contains no mp4, webm, mov, or gif files. HEAD: brand-reveal.jpg HTTP 200 image/jpeg Content-Length 29261; celebration-burst.jpg Content-Length 23104. Range bytes 0-2 for each file begins with a JPEG SOI marker. These thumbnails are not playable films."
+    "checked_at": "2026-10-30",
+    "notes": "Reviewed on 2026-10-29. GitHub repository zz41354899/SwiftClip id 1225439149, default branch main, SPDX MIT. LICENSE is the MIT license, copyright 2026 SwiftClip contributors. Root.tsx registers ProductLaunch at 1920 by 1080, 30 fps, 450 frames; CodeReveal at 1920 by 1080, 30 fps, 300 frames; DataViz at 1920 by 1080, 30 fps, 600 frames. The default-branch tree contains JPEG files under public/thumbnails and no mp4 or webm files. HEAD on 2026-10-29: product-launch.jpg 200 image/jpeg Content-Length 46320; code-reveal.jpg 29364; data-viz.jpg 30132. Each Range bytes 0-63 begins with a JPEG SOI marker. These thumbnails are not playable films. Remotion's runtime license is separate. Hotlink only. Not render-tested. Batch P on 2026-10-29 re-read Root.tsx: BrandReveal is 1920 by 1080, 30 fps, 180 frames; CelebrationBurst is 1080 by 1080, 30 fps, 180 frames. The default-branch tree still contains no mp4, webm, mov, or gif files. HEAD: brand-reveal.jpg HTTP 200 image/jpeg Content-Length 29261; celebration-burst.jpg Content-Length 23104. Range bytes 0-2 for each file begins with a JPEG SOI marker. These thumbnails are not playable films. Batch Q on 2026-10-30 re-read Root.tsx: MetricDashboard is 1920 by 1080, 30 fps, 240 frames; CountdownTimer is 1920 by 1080, 30 fps, 210 frames. The default-branch tree still contains no mp4, webm, mov, or gif files. HEAD: metric-dashboard.jpg HTTP 200 image/jpeg Content-Length 46055; countdown-timer.jpg Content-Length 29185. Range bytes 0-2 for each file begins with a JPEG SOI marker. These thumbnails are not playable films."
   },
   {
     "id": "S-CV-159",
@@ -2000,5 +2000,16 @@
     "reliability": "high",
     "checked_at": "2026-10-29",
     "notes": "Batch P on 2026-10-29 via raw.githubusercontent.com/nexu-io/open-design, not jsDelivr. HEAD HTTP 200 application/octet-stream and Range bytes 0-63 ftyp isom: frame-decision-tree/preview.mp4 Content-Length 394592, frame-vignelli 264909, frame-bold-signal 150640, frame-build-minimal 110826. templates/NOTICE.md lists frame-decision-tree and frame-vignelli as direct Apache-2.0 forks of heygen-com/hyperframes registry/examples/decision-tree and vignelli. Their template.html-video.yaml files set engine hyperframes and license.spdx Apache-2.0. Decision Tree defaults to 1920 by 1080 at 30 fps, duration 3 to 30 seconds (default 15). Vignelli defaults to 1080 by 1920 at 30 fps, duration 3 to 30 seconds (default 10). ffprobe of the linked preview.mp4 reported 1920 by 1080 and about 13.13 seconds. frame-bold-signal and frame-build-minimal are absent from NOTICE.md. Both yaml files set license.spdx Apache-2.0 and author nexu-io, and say the motion was rebuilt rather than copied verbatim. Bold Signal defaults to 1920 by 1080 at 60 fps, duration 3 to 6 seconds, and attributes the look to the frontend-slides Bold Signal preset by Zara Zhang (MIT). Build Minimal defaults to 1920 by 1080 at 60 fps, duration 4 to 7 seconds, and attributes the look to huashu-design by alchaincyf (MIT). frame-decision-tree and frame-vignelli contain composition files and a yaml spec. frame-bold-signal and frame-build-minimal also contain SKILL.md and example.md sample copy for the coding agent. That sample copy is not counted as a generative video prompt. Hotlink only. Not copied. Not a local render. Short preview loops are not finished films."
+  },
+  {
+    "id": "S-CV-162",
+    "project_id": "html-video",
+    "title": "html-video Batch Q frames — Open Design raw preview.mp4 files and yaml specs",
+    "url": "https://github.com/nexu-io/open-design/tree/main/plugins/_official/video-templates",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-30",
+    "notes": "Batch Q on 2026-10-30 via raw.githubusercontent.com/nexu-io/open-design, not jsDelivr. HEAD HTTP 200 application/octet-stream and Range bytes 0-63 ftyp isom: frame-play-mode/preview.mp4 Content-Length 546508, frame-takram-organic 316302, frame-product-promo 283047, frame-creative-voltage 144165, frame-electric-studio 96982. templates/NOTICE.md names frame-play-mode and frame-product-promo as direct Apache-2.0 forks of heygen-com/hyperframes registry/examples. Their template.html-video.yaml files set engine hyperframes and license.spdx Apache-2.0. frame-takram-organic, frame-creative-voltage, and frame-electric-studio are absent from NOTICE.md; their yaml files carry MIT via_skill provenance. Hotlink only. Not copied. Not a local render. Short loops are not finished films."
   }
 ]
