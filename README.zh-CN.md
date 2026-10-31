@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 316 个可复用单元：154 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 328 个可复用单元：154 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -284,6 +284,18 @@
 - [阅读年报视频模板](https://github.com/nexu-io/open-design/tree/main/skills/weread-year-in-review-video-template) - 竖屏 9:16 的 HyperFrames 技能，做年度阅读报告（模板视口 1080×1920；技能说明写的是 12 个场景）。视觉受阅读应用年报界面启发。它不是微信读书或 WeRead 的官方模板，也不表示存在合作关系。复用 skills/weread-year-in-review-video-template。仓库 LICENSE 为 Apache-2.0；技能没有打包字体文件（只点名 Songti SC、PingFang SC 等系统中文字体），也没有单独的素材许可，因此这些条款仍未知。目录预览只有 example.html（嵌入）。技能目录没有提交 MP4。2026-10-28 仅做源码审阅，没有本地渲染测试。
 
 - [Kinetic Tech](https://github.com/motiontemplates/385712/tree/main/template) - 金属字体、琥珀色光效与空间动效，适合科技讲解和产品发布。公开版 0.2.7-open-beta 为 1920 × 1080、60fps 横屏工程，提供可编辑源码、参数、动作音效和 Chrome/Playwright + FFmpeg 渲染入口；替换文字与素材，调整场景和节奏。公开版不同于官网新版及竖屏版，第三方素材许可需另行核对。
+- [动画文字：北极](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedtext/AnimatedText.tsx) - 用于动画文字动效的 Remotion 成片，列出的主预览变体是 Arctic。复用 AnimatedText.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [弹跳文字：北极](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bouncetext/BounceText.tsx) - 用于弹跳文字动效的 Remotion 成片，列出的主预览变体是 Arctic。复用 BounceText.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [气泡弹出文字：北极](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bubblepoptext/BubblePopText.tsx) - 用于气泡弹出文字动效的 Remotion 成片，列出的主预览变体是 Arctic。复用 BubblePopText.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [漂浮气泡：北极](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/floatingbubble/FloatingBubble.tsx) - 用于漂浮气泡动效的 Remotion 成片，列出的主预览变体是 Arctic。复用 FloatingBubble.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [故障文字：北极](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx) - 用于故障文字动效的 Remotion 成片，列出的主预览变体是 Arctic。复用 GlitchText.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [脉冲文字：北极](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pulsingtext/PulsingText.tsx) - 用于脉冲文字动效的 Remotion 成片，列出的主预览变体是 Arctic。复用 PulsingText.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [滑动文字：北极](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/slidetext/SlideText.tsx) - 用于滑动文字动效的 Remotion 成片，列出的主预览变体是 Arctic。复用 SlideText.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [活动：北极倒计时](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/event/Event.tsx#L396) - 用于活动主视觉、嘉宾卡片和倒计时的 Remotion 成片。复用 Event.tsx 的 Arctic 主题与 countdown 版式（CountdownLayout），列出的主预览变体是 Arctic Countdown。替换活动名称、日程和嘉宾。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [讲解：北极白板](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/explainer/Explainer.tsx#L148) - 用于产品走查和功能拆解的 Remotion 讲解成片。复用 Explainer.tsx 的 Arctic 主题与 whiteboard 版式（WhiteboardLayout），列出的主预览变体是 Arctic Whiteboard。替换步骤和文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [教程：北极卡片序列](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L218) - 用于编号步骤、卡片序列和分屏演示的 Remotion 教程成片。复用 Tutorial.tsx 的 Arctic 主题与 card-sequence 版式（CardSequenceLayout），列出的主预览变体是 Arctic Card Sequence。替换步骤和文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [案例：北极对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L185) - 用于前后对比和结果标注的 Remotion 案例成片。复用 CaseStudy.tsx 的 Arctic 主题与 comparison 版式（ComparisonLayout），列出的主预览变体是 Arctic Comparison。替换客户故事和指标。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [课程宣传：北极课程大纲](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L269) - 用于课程大纲、讲师和总览版式的 Remotion 成片。复用 CoursePromo.tsx 的 Arctic 主题与 curriculum 版式（CurriculumLayout），列出的主预览变体是 Arctic Curriculum。替换课程大纲和文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 
