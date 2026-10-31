@@ -2121,5 +2121,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AA on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes AnimatedText-Arctic, BounceText-Arctic, BubblePopText-Arctic, FloatingBubble-Arctic, GlitchText-Arctic, PulsingText-Arctic, SlideText-Arctic, Event-ArcticCountdown, Explainer-ArcticWhiteboard, Tutorial-ArcticCardSequence, CaseStudy-ArcticComparison, CoursePromo-ArcticCurriculum: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = Z defer new-family×7 (AnimatedText/BounceText/BubblePopText/FloatingBubble/GlitchText/PulsingText/SlideText) + same-family arctic variants×5 (Event/Explainer/Tutorial/CaseStudy/CoursePromo) with #L layout anchors for URL uniqueness. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
+  },
+  {
+    "id": "S-CV-173",
+    "project_id": "freelancer-templates",
+    "title": "Batch AB preview media — FT×12 heroes (0 RT; 0 SC)",
+    "url": "https://freelancer-templates.org/previews/hero/AffiliateReview-ArcticComparison.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AB on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes AffiliateReview-ArcticComparison, BehindTheScenes-ArcticTimeline, Listicle-ArcticReveal, Listicle-ArcticStack, Proposal-ArcticCreative, Recap-ArcticTimeline, Testimonial-ArcticCentered, Testimonial-ArcticEditorial, Testimonial-ArcticSplit, AestheticQuote-DarkMoody, AnimatedIcons-NeonOrbit, ProductReveal-LuxuryBlack: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = same-family arctic variants×9 (AffiliateReview/BehindTheScenes/Listicle×2/Proposal/Recap/Testimonial×3) with #L layout anchors for URL uniqueness + non-Arctic new-family×3 (AestheticQuote-DarkMoody/AnimatedIcons-NeonOrbit/ProductReveal-LuxuryBlack). Arctic same-family pool → 0. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
   }
 ]

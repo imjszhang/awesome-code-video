@@ -670,6 +670,76 @@
     "attribution": "explainroo"
   },
   {
+    "resource_id": "freelancer-aesthetic-quote-dark-moody",
+    "source_url": "https://freelancer-templates.org/previews/hero/AestheticQuote-DarkMoody.mp4",
+    "poster": "/previews/freelancer-aesthetic-quote-dark-moody.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "4471158d042853ebd2b0429db7a9ae26da4e8f7eb54e9af01b268900438e1459"
+      },
+      {
+        "start": 10711,
+        "end": 272854,
+        "sha256": "283b9de5567b4154f5c0131f96c8f4179a8149a9d1bfca5f5162c39567140838"
+      },
+      {
+        "start": 272855,
+        "end": 534998,
+        "sha256": "6199f0e49563ed7a63a07fea075cf748c94ef5b46e8447a2b19d968aed8f1e6e"
+      },
+      {
+        "start": 534999,
+        "end": 797142,
+        "sha256": "0599f54d15e756ad33986b0daa49239a853f31bbde4c0a9e9b91a7f53f20d66e"
+      },
+      {
+        "start": 797143,
+        "end": 1059286,
+        "sha256": "ada9bbf6fd204698d6e8f4807a999376cbd346be3e6417fb53d8311cb7194149"
+      },
+      {
+        "start": 1059287,
+        "end": 1140382,
+        "sha256": "53764309d8b863291aa1fbedcc6b5ff6b41d208ae772adaa89991ab6399590b6"
+      }
+    ],
+    "poster_sha256": "a3f3bf3f5bb2c13f97e284071492f92e06911a51e51f831e879302d11d8601e5",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-affiliate-review-arctic-comparison",
+    "source_url": "https://freelancer-templates.org/previews/hero/AffiliateReview-ArcticComparison.mp4",
+    "poster": "/previews/freelancer-affiliate-review-arctic-comparison.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "93d62c98c7e7037162782d33c3459d3cb93ec9a8927fda3c3ba337f01da1d632"
+      },
+      {
+        "start": 4083,
+        "end": 142588,
+        "sha256": "15f099be3391624a363b9279f812f2ea1cf669c0cf64a55e60065d3874ae0fd2"
+      }
+    ],
+    "poster_sha256": "2f3f115bce7f072a6cf4d42c82387abd31687de5de89e5b874e66ed84a6d1265",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-affiliate-review-dark-scorecard",
     "source_url": "https://freelancer-templates.org/previews/hero/AffiliateReview-DarkScorecard.mp4",
     "poster": "/previews/freelancer-affiliate-review-dark-scorecard.webp",
@@ -716,6 +786,51 @@
       }
     ],
     "poster_sha256": "17df4b7f461829cca2396f45e2e89c8000efe9063b399cc63f1e82541345ded9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-animated-icons-neon-orbit",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedIcons-NeonOrbit.mp4",
+    "poster": "/previews/freelancer-animated-icons-neon-orbit.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "923be0f76dceff89060f01dcc5c98cf7d1838931f7c9a38f16f6d436d8068055"
+      },
+      {
+        "start": 10719,
+        "end": 272862,
+        "sha256": "d49ccfdb7b3a0226eba01e54d8d23938bf1e9a5c58c43cd4975cb301d74f35d4"
+      },
+      {
+        "start": 272863,
+        "end": 535006,
+        "sha256": "10bdff94836108dc637fef9d0f9f41153cfaa374d14baba20c0046cfcce79323"
+      },
+      {
+        "start": 535007,
+        "end": 797150,
+        "sha256": "3364b4bf5ce3bdaeabe2b7e521caf80146fbb87511fc8ad8bb42a38d0a67e96d"
+      },
+      {
+        "start": 797151,
+        "end": 1059294,
+        "sha256": "38ff1b05d4ac3fb9d16b64ed79944f3937e155974d5f0dd96f33fca25b153e23"
+      },
+      {
+        "start": 1059295,
+        "end": 1137385,
+        "sha256": "149513a18f759ef98b6d04afb578c9a1d10c7f0d277f8e10ddca7b6c4aca082a"
+      }
+    ],
+    "poster_sha256": "a04bc14a84bdfe96ea8aced11d747266df9bb6f0fa3322bc0c3d3be1cbe0e783",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -783,6 +898,31 @@
     "source_sha256": "207a8d6d12ca6efb497d1fda56b656678c106e636ce553658377d77d201c34e2",
     "source_byte_ranges": null,
     "poster_sha256": "b545a81ff96eb7037c88a1c6c6adf4e2132a3aa56e9b127e5ab1711a7cc96164",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-behind-the-scenes-arctic-timeline",
+    "source_url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-ArcticTimeline.mp4",
+    "poster": "/previews/freelancer-behind-the-scenes-arctic-timeline.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "32c4243691339d931c06ca798ad2c94e6428c3b34e129b0c3760fbaf32d988d7"
+      },
+      {
+        "start": 4083,
+        "end": 138982,
+        "sha256": "dd6fda9a177e48303e379ccbfabe686b4fc4565470571a732ac56bcc1ccae091"
+      }
+    ],
+    "poster_sha256": "236e5e245fa6c748a71161b3d235980a0ab96d7561bbc58aed27277c1c6c734c",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1486,6 +1626,56 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listicle-arctic-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-ArcticReveal.mp4",
+    "poster": "/previews/freelancer-listicle-arctic-reveal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "9ee2d878cd2ea3250e1953ca214a32b5207b78dddd99ac3dab4ff95f055ffab1"
+      },
+      {
+        "start": 4095,
+        "end": 126314,
+        "sha256": "d73d213ad16d5c17bbdaff62621b8f2bc8334ab9f1bd3b13ef166afd133d6c9c"
+      }
+    ],
+    "poster_sha256": "2429c9d696a6f8725fbcb408b301395581b4f35c784e8e3fc4eea4dfb96b9003",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-arctic-stack",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-ArcticStack.mp4",
+    "poster": "/previews/freelancer-listicle-arctic-stack.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b2842cebe335fd4f6ad1ee639223a578fec9e90e76f960f67c4f9368c22904c7"
+      },
+      {
+        "start": 4043,
+        "end": 238864,
+        "sha256": "67054bd890e4691761ca58caf7e0acbee4de4f08220c278ef3e2a5b43eee0541"
+      }
+    ],
+    "poster_sha256": "d7c1516ab7a9abd9bd984927f65f2934e57e9e4004b7733fb8590ed8b77842d7",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-listing-arctic-feature-grid",
     "source_url": "https://freelancer-templates.org/previews/hero/Listing-ArcticFeatureGrid.mp4",
     "poster": "/previews/freelancer-listing-arctic-feature-grid.webp",
@@ -1735,6 +1925,46 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-product-reveal-luxury-black",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProductReveal-LuxuryBlack.mp4",
+    "poster": "/previews/freelancer-product-reveal-luxury-black.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ff52e053d5c7f8a9ca0c07dd1101875abeba23018fb7be0af50e7d2e4738b1db"
+      },
+      {
+        "start": 10703,
+        "end": 272846,
+        "sha256": "488de025272bf3bbadef6161654a404ce1f3a1ab9b550f71f8562ef473c3b4cc"
+      },
+      {
+        "start": 272847,
+        "end": 534990,
+        "sha256": "3587df8d1667cd6c5bb4a02917e5ad882fa6f159298b81432c1ba2ffbab46f01"
+      },
+      {
+        "start": 534991,
+        "end": 797134,
+        "sha256": "d044e31aabe558de04aa4b00a67e51177eeda168e00856d9690104efc93011d0"
+      },
+      {
+        "start": 797135,
+        "end": 936565,
+        "sha256": "057fd44c1ebcb41b407d0b1aa08686292772477eeb50daea1f50051521fdc939"
+      }
+    ],
+    "poster_sha256": "d6887412e76e09169d5b4e06d14af2890b7cb57116b714fd77d990063a080885",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-project-health-arctic-workstream-view",
     "source_url": "https://freelancer-templates.org/previews/hero/ProjectHealth-ArcticWorkstreamView.mp4",
     "poster": "/previews/freelancer-project-health-arctic-workstream-view.webp",
@@ -1765,6 +1995,31 @@
       }
     ],
     "poster_sha256": "b48203006feb32af517421f243f25856506c4d221a9ca4f5c06be509fdcad4e8",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-proposal-arctic-creative",
+    "source_url": "https://freelancer-templates.org/previews/hero/Proposal-ArcticCreative.mp4",
+    "poster": "/previews/freelancer-proposal-arctic-creative.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "66cabbeadfb96f4ece81fe1450e65f2a2fdec753c9ded3a92cf1a514ca910ad9"
+      },
+      {
+        "start": 4067,
+        "end": 235144,
+        "sha256": "6d25c16fe7022d101842f0f1e017112916f1b3c1e56135c97539016afc0eac28"
+      }
+    ],
+    "poster_sha256": "a34687192c9c410c6ddd653e611f98f202dbcfd3b72e36ac0d57eb767a19532d",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1893,6 +2148,31 @@
     "source_sha256": "742f0c6e4b8792519f3c06f36c175adae2221ff934d143d0287de09965b0afe2",
     "source_byte_ranges": [],
     "poster_sha256": "f932318a2e268630f7546f5f52f77860e29399f66a0b70478a1b5f086298a085",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-recap-arctic-timeline",
+    "source_url": "https://freelancer-templates.org/previews/hero/Recap-ArcticTimeline.mp4",
+    "poster": "/previews/freelancer-recap-arctic-timeline.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2c3d4bad3c3b6b0827b01a8c5825d5622b108e5db6d8f38c35c2ac668f6544b9"
+      },
+      {
+        "start": 4083,
+        "end": 145273,
+        "sha256": "aafca33ab3d08bd0bec359654f4fdd32424b10854493165f36e37f41959a4fa6"
+      }
+    ],
+    "poster_sha256": "a29fecfd2f6b440c1a059d66cf11dad8739e3de37abd8e3d7f7e030dd2bca5c0",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2140,6 +2420,81 @@
     "source_sha256": "abf002712bfbe364edaa9e18e0db2e5c5e529d008bf779bec24d7da9ed1ec273",
     "source_byte_ranges": [],
     "poster_sha256": "58b0f1753d84a369cf18e2e2d4037e2e0d2ef5b662923b0fda830117662df52b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-arctic-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-ArcticCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-arctic-centered.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a9a5b209655a990fde40fe154b1d08fa252efceb18875db7245202ca84f02bd7"
+      },
+      {
+        "start": 4099,
+        "end": 178260,
+        "sha256": "57bb2ee3a5c28d044238f134d060b805dafd246d031c88df2c859c3c8acac12b"
+      }
+    ],
+    "poster_sha256": "c30101d5fc49ae91f09decb711d2c184bcab32816b8a7d609061c994afc35bc3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-arctic-editorial",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-ArcticEditorial.mp4",
+    "poster": "/previews/freelancer-testimonial-arctic-editorial.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "c12bb465d0e1d4edde09db7064f509d4f5eb56e0b2daf057ed2c6d9e727ba8a2"
+      },
+      {
+        "start": 4059,
+        "end": 141097,
+        "sha256": "96f4d0eb361ce825b03cdd2faee4d2f6e696069bc393715b542d1cec0fd1429b"
+      }
+    ],
+    "poster_sha256": "fb4bbb48e4729a15c05ed9a4789a2da92419e10ee026b77543da696d6d9886bf",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-arctic-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-ArcticSplit.mp4",
+    "poster": "/previews/freelancer-testimonial-arctic-split.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "da5e9f780a396c6ecd0a389f60118521786a17664dbaa4f4f844f2da43117b39"
+      },
+      {
+        "start": 4075,
+        "end": 254302,
+        "sha256": "b0712ad1992281ad68878de1c024aa6c4cd0c14f1278aa3d9b4b3444dd7a717c"
+      }
+    ],
+    "poster_sha256": "1d2dce1fc474401374dcb6b76bf2f62611c9e39b72adfec1f0ede9a5719b544c",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
