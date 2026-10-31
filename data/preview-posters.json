@@ -715,6 +715,56 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-aesthetic-quote-minimal-cream",
+    "source_url": "https://freelancer-templates.org/previews/hero/AestheticQuote-MinimalCream.mp4",
+    "poster": "/previews/freelancer-aesthetic-quote-minimal-cream.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "0089ff5a33491f7c5af7b4e049f77530e55f7bddb8a4d72d75220d24e2483632"
+      },
+      {
+        "start": 10703,
+        "end": 272846,
+        "sha256": "983061368fdbb2aad36044942a5e5b26a26e69613f82f371a9d49457a3e21905"
+      },
+      {
+        "start": 272847,
+        "end": 534990,
+        "sha256": "0e2af3efe14484f7868b6367b6e4413add6873b0fcd3d6a5c404b05f312a2585"
+      },
+      {
+        "start": 534991,
+        "end": 797134,
+        "sha256": "584d1b654b9a122625540a1982984c7572d7893fdf33c90f941902bf2503891c"
+      },
+      {
+        "start": 797135,
+        "end": 1059278,
+        "sha256": "94942e59714767551efc40336d957b0cb9c333257edc2b403b73af56eb749d05"
+      },
+      {
+        "start": 1059279,
+        "end": 1321422,
+        "sha256": "a6d15f86b33a183323d8e0d8e37fec3125a0fc50e9f725a1a1e4095bb4b315e5"
+      },
+      {
+        "start": 1321423,
+        "end": 1408522,
+        "sha256": "bb30c7479bbf3b6f7d6ab02996356bc5c8cb39708f63ebcdc20b60838e15cb36"
+      }
+    ],
+    "poster_sha256": "99e84cdedacf2e61c21889fb7ca09e212d8d0a2fd2078b645a4a34575a2babca",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-affiliate-review-arctic-comparison",
     "source_url": "https://freelancer-templates.org/previews/hero/AffiliateReview-ArcticComparison.mp4",
     "poster": "/previews/freelancer-affiliate-review-arctic-comparison.webp",
@@ -786,6 +836,41 @@
       }
     ],
     "poster_sha256": "17df4b7f461829cca2396f45e2e89c8000efe9063b399cc63f1e82541345ded9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-animated-icons-minimal-flow",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedIcons-MinimalFlow.mp4",
+    "poster": "/previews/freelancer-animated-icons-minimal-flow.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2368971a40ab318c2de7a819cac44e0724e74903e3a5cf54a729aa935fee900b"
+      },
+      {
+        "start": 10687,
+        "end": 272830,
+        "sha256": "646f4442056f61637d626f7662041ca2aada1f2975991b61166531c225b1cd47"
+      },
+      {
+        "start": 272831,
+        "end": 534974,
+        "sha256": "b3cedc98db3de298472583be4449fcfccdb9b12707e61af809eedfc88bfd1f61"
+      },
+      {
+        "start": 534975,
+        "end": 761913,
+        "sha256": "e034a94baa1903617809f7ab616b65e15033141539993cc92b62f20b9f3db493"
+      }
+    ],
+    "poster_sha256": "df73ecf2308ec5d2d9e5b7659bad213bf4a7c08ba4a60e413c698ffeabec4d49",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -888,6 +973,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-announcement-charcoal-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Announcement-CharcoalMinimal.mp4",
+    "poster": "/previews/freelancer-announcement-charcoal-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "c6e353a6f37539fa9e00efc5466b54abce6747d58a57fefa0187d16c528c2c6c"
+      },
+      {
+        "start": 3949,
+        "end": 113110,
+        "sha256": "130b19c833110b50e87a30951c0adc0fad4a7a09f9b875bd92b2c9cc7f568c23"
+      }
+    ],
+    "poster_sha256": "772efd7308e6a5a4b415d40698e2a96f048dd68e4e893ddf3eb67f49abd0d037",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-before-after-arctic-reveal-wipe",
     "source_url": "https://freelancer-templates.org/previews/hero/BeforeAfter-ArcticRevealWipe.mp4",
     "poster": "/previews/freelancer-before-after-arctic-reveal-wipe.webp",
@@ -898,6 +1008,31 @@
     "source_sha256": "207a8d6d12ca6efb497d1fda56b656678c106e636ce553658377d77d201c34e2",
     "source_byte_ranges": null,
     "poster_sha256": "b545a81ff96eb7037c88a1c6c6adf4e2132a3aa56e9b127e5ab1711a7cc96164",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-before-after-dark-reveal-wipe",
+    "source_url": "https://freelancer-templates.org/previews/hero/BeforeAfter-DarkRevealWipe.mp4",
+    "poster": "/previews/freelancer-before-after-dark-reveal-wipe.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "327c04076defa380e8b68f1180fd609f6937521339a6c8b6300fd53ee7b47b58"
+      },
+      {
+        "start": 3947,
+        "end": 189260,
+        "sha256": "7e68a57f7190649b6d4bdfa1e7029be82187cee97e44f86e1ee156fb10ef5a3d"
+      }
+    ],
+    "poster_sha256": "d6d39c66d23145909fcb44b13a173d690731aeb0a19b00ea476c082935a40e94",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -973,6 +1108,26 @@
       }
     ],
     "poster_sha256": "3d5758425369f347f7dea6b4c3a98353f974dfddbb25b1680b1feb735333057a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-bts-creator-clean-studio",
+    "source_url": "https://freelancer-templates.org/previews/hero/BTSCreator-CleanStudio.mp4",
+    "poster": "/previews/freelancer-bts-creator-clean-studio.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "848d590b97f00a486ec7cf1b2001a88d2fa75efd469e041ec402531b333892aa"
+      }
+    ],
+    "poster_sha256": "2406057270ccc99fee468e163cb06145ab136e5faca57af1509a12e77565a1be",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1055,6 +1210,86 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-call-to-action-neon-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-NeonSplit.mp4",
+    "poster": "/previews/freelancer-call-to-action-neon-split.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "76d917f5638663d71284f8e5e407d28fd2d2480dac7d3278b9c7cc06c1f9a84d"
+      },
+      {
+        "start": 4021,
+        "end": 266164,
+        "sha256": "edcac234658054e8fbcf432bbce7ddd68fd6f39edaaee47dd4b305699a7d02d9"
+      },
+      {
+        "start": 266165,
+        "end": 528308,
+        "sha256": "5b2fdfa391c657dfd85704520c7503132209a885a2613d3e02d21712318296b3"
+      },
+      {
+        "start": 528309,
+        "end": 790452,
+        "sha256": "52b0d3ef0e5ec35d27da3818fb604e03a9175496d1eedac8860f7968c3945c78"
+      },
+      {
+        "start": 790453,
+        "end": 1052596,
+        "sha256": "d4e8b00c17ee5226a46dbcd039f0920955ad52866a5929ea01b330691490150f"
+      },
+      {
+        "start": 1052597,
+        "end": 1314740,
+        "sha256": "bfef1291e66356f90a218f742c28a7c29523a404169309975f5f936e05bd2c7a"
+      },
+      {
+        "start": 1314741,
+        "end": 1576884,
+        "sha256": "e4abe085a032f43b917c799efb143285de4ad2d44833ba6558a7f2e35b6fbc48"
+      },
+      {
+        "start": 1576885,
+        "end": 1839028,
+        "sha256": "4668b8aa657985237bdf4de119ff51eae5aba9592080b94d617266e79a461c0a"
+      },
+      {
+        "start": 1839029,
+        "end": 2101172,
+        "sha256": "78d47f158a9f05db70aa51f092878792eeaa1316857ebe8169aae16db9389f80"
+      },
+      {
+        "start": 2101173,
+        "end": 2363316,
+        "sha256": "1f6438977aacd81ca664048adf33b836ee248aa52b08b10a49797d294413688a"
+      },
+      {
+        "start": 2363317,
+        "end": 2625460,
+        "sha256": "c4063f90fcbf6ff5f6a0b42173189d928ea4a490a669b9b21a02474aef47c054"
+      },
+      {
+        "start": 2625461,
+        "end": 2887604,
+        "sha256": "57335d7ab6e6a7d76c510b29429902cb9bda5b8155e77cc1d77cab614568fd7a"
+      },
+      {
+        "start": 2887605,
+        "end": 3126148,
+        "sha256": "a836af9356d9d9895e712710bc5051643a95d260521e263bd7c2290aaacecbf6"
+      }
+    ],
+    "poster_sha256": "9c42472c7684a12cc57eddd6343619cd496c0aa26f31a53565796f0670b50862",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-card-flip-arctic",
     "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Arctic.mp4",
     "poster": "/previews/freelancer-card-flip-arctic.webp",
@@ -1117,6 +1352,26 @@
     "poster_sha256": "388f4e4a7eef39941d243ecba8381a4991a4feda10a2cb4e0dc59b9c18b21b82",
     "license": "CC-BY-NC-SA-4.0",
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
+  },
+  {
+    "resource_id": "freelancer-city-lights-neon-purple",
+    "source_url": "https://freelancer-templates.org/previews/hero/CityLights-NeonPurple.mp4",
+    "poster": "/previews/freelancer-city-lights-neon-purple.webp",
+    "timestamp_seconds": 3.165867,
+    "duration_seconds": 9.045333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2c4897d81a2d6fabd5d05b2b66490b7c9d89f9ce86dea87c81ca94fb680f682b"
+      }
+    ],
+    "poster_sha256": "9b883b9764dac31ee6bca983300da62d77800d2dea3623e3f76aa306ec114917",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
   },
   {
     "resource_id": "freelancer-client-pipeline-arctic-pipeline-board",
@@ -1182,6 +1437,26 @@
     "source_sha256": "9797c2493364dc3d45113f95977dbe3ac8f7b05ec0861fc5032129534572cb93",
     "source_byte_ranges": [],
     "poster_sha256": "afb25928b5c028a06745fbb2b86c3c263ab1718326ce26b973ad8b4e1e25cfe2",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-comic-strip-noir-classic",
+    "source_url": "https://freelancer-templates.org/previews/hero/ComicStrip-NoirClassic.mp4",
+    "poster": "/previews/freelancer-comic-strip-noir-classic.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "163e39f4dc4e85cb2afe14ee0086ff8416a238ae3a97eaa036e4aa4c43980a34"
+      }
+    ],
+    "poster_sha256": "2b20ab35af3384d14b547e35065b73ffc27457123c8635fe46d8ab81f78c2006",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1284,6 +1559,46 @@
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
   },
   {
+    "resource_id": "freelancer-creator-recap-reels",
+    "source_url": "https://freelancer-templates.org/previews/hero/CreatorRecap-Reels.mp4",
+    "poster": "/previews/freelancer-creator-recap-reels.webp",
+    "timestamp_seconds": 2.471467,
+    "duration_seconds": 7.061333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a43a168173feb380c6269db9391c2e7c8dcf69508d9ae367400ca76b214c4cd8"
+      }
+    ],
+    "poster_sha256": "3c919daf9e7b6ca0f1eae6da60b6b56dc0d96debb71fb5101807e346e1d461a6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-day-in-the-life-reels-cinematic",
+    "source_url": "https://freelancer-templates.org/previews/hero/DayInTheLife-ReelsCinematic.mp4",
+    "poster": "/previews/freelancer-day-in-the-life-reels-cinematic.webp",
+    "timestamp_seconds": 4.218667,
+    "duration_seconds": 12.053333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8951e62c7083eb7a3bb8a0c7be203d1927db6b2f5cb177a5811d37fb09604018"
+      }
+    ],
+    "poster_sha256": "e3d85eedd0f6943dcf4b202fcc95bd5aaf46bc931fd1aad66d53db67232fda2d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-deployment-status-arctic-pipeline-view",
     "source_url": "https://freelancer-templates.org/previews/hero/DeploymentStatus-ArcticPipelineView.mp4",
     "poster": "/previews/freelancer-deployment-status-arctic-pipeline-view.webp",
@@ -1339,6 +1654,31 @@
       }
     ],
     "poster_sha256": "8e05dd21f143d97a5519331e7300ea6345f51b0d6f7d619ae47e1e5e1cb0ee57",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-event-bold-countdown",
+    "source_url": "https://freelancer-templates.org/previews/hero/Event-BoldCountdown.mp4",
+    "poster": "/previews/freelancer-event-bold-countdown.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fb91bfe490ac0da4c4e6d39d7ba683c05f947594baf1c7a1fc95354afaa6288f"
+      },
+      {
+        "start": 4083,
+        "end": 147988,
+        "sha256": "e5da439fe9d611be7ede2d6ca48718e342a7297782687ccdd4e8a6fb60412e61"
+      }
+    ],
+    "poster_sha256": "1e48cd0b3ac018fa1726573f6c441db29257fe170a3ee330984334330acfc3d0",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1403,6 +1743,31 @@
       }
     ],
     "poster_sha256": "375b3c19aa16cb070acc9d0315383c80eb359601f45e763498213b1faefc65b8",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-explainer-bold-process",
+    "source_url": "https://freelancer-templates.org/previews/hero/Explainer-BoldProcess.mp4",
+    "poster": "/previews/freelancer-explainer-bold-process.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "7fa4bf5d45c917e9180a0497cf5731a8e9d9104420eedef2e39b3e0851578406"
+      },
+      {
+        "start": 4083,
+        "end": 217852,
+        "sha256": "fd4d870f561645a471a004566c51ee1030189cd501a74c76b66f7ba0fade959a"
+      }
+    ],
+    "poster_sha256": "2bd87159cd53ba3b638e914b7e728813cb8607d263ed284d7e232ccfcbf657c9",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1480,6 +1845,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-festival-lineup-neon-gradient",
+    "source_url": "https://freelancer-templates.org/previews/hero/FestivalLineup-NeonGradient.mp4",
+    "poster": "/previews/freelancer-festival-lineup-neon-gradient.webp",
+    "timestamp_seconds": 4.218667,
+    "duration_seconds": 12.053333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "858fb793bdaa981a691cc2f258c76d2d7d9ade035b4b201dd6c76e8cd2846a00"
+      }
+    ],
+    "poster_sha256": "f1709ed525b1d125e53a2e0fe9742dfd142b90d392d643653134dec95a78b19e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-fitness-routine-arctic-timer-focus",
     "source_url": "https://freelancer-templates.org/previews/hero/FitnessRoutine-ArcticTimerFocus.mp4",
     "poster": "/previews/freelancer-fitness-routine-arctic-timer-focus.webp",
@@ -1519,6 +1904,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-foodie-reel-warm-bistro",
+    "source_url": "https://freelancer-templates.org/previews/hero/FoodieReel-WarmBistro.mp4",
+    "poster": "/previews/freelancer-foodie-reel-warm-bistro.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f8cfc8319f6e938171a998ec37aa4254c260469ec0e8752419296f61cfc168e5"
+      }
+    ],
+    "poster_sha256": "84f4413ef223d07ea8d4f433dbc9de3981977997947d612d58f0e95e7c58f333",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-geometric-patterns-arctic",
     "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Arctic.mp4",
     "poster": "/previews/freelancer-geometric-patterns-arctic.webp",
@@ -1554,6 +1959,26 @@
       }
     ],
     "poster_sha256": "3ba38aad0bb6902448f83ea12306496d6679ee274a1c842ec522f0a38eeaffb5",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-grwm-reel-reels",
+    "source_url": "https://freelancer-templates.org/previews/hero/GRWMReel-Reels.mp4",
+    "poster": "/previews/freelancer-grwm-reel-reels.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a43dfb72f098c76f3061d7bed6864b37f4a976e06fbdbd2cfe9bf03f1a16d362"
+      }
+    ],
+    "poster_sha256": "5cda6a46616ed0135ee626f35e0c034a526eb6197c3caa2baaaff89d534006b7",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1743,6 +2168,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-mood-board-vibrant-mix",
+    "source_url": "https://freelancer-templates.org/previews/hero/MoodBoard-VibrantMix.mp4",
+    "poster": "/previews/freelancer-mood-board-vibrant-mix.webp",
+    "timestamp_seconds": 3.165867,
+    "duration_seconds": 9.045333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ef84e623bf62a9b082f34f7aef8687d6e8d62bdef9f2ce196b67613a46f43eeb"
+      }
+    ],
+    "poster_sha256": "fe207470f19ca8d8eaf38055e6df6909dd589ff1f680af5607c0bf02495cfb8f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-music-visualizer-arctic-radial",
     "source_url": "https://freelancer-templates.org/previews/hero/MusicVisualizer-ArcticRadial.mp4",
     "poster": "/previews/freelancer-music-visualizer-arctic-radial.webp",
@@ -1753,6 +2198,26 @@
     "source_sha256": "059055a906fe164d734181563163f12c38ec2519ec7ae0a51a20c86111dd4ed7",
     "source_byte_ranges": [],
     "poster_sha256": "2182b662415f6ed82fca19e8b44ed383061d56e51f255f857d8333973ac4006a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-nature-escape-ocean-sunset",
+    "source_url": "https://freelancer-templates.org/previews/hero/NatureEscape-OceanSunset.mp4",
+    "poster": "/previews/freelancer-nature-escape-ocean-sunset.webp",
+    "timestamp_seconds": 3.165867,
+    "duration_seconds": 9.045333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "153feefd81811898529e0edd7da0ee0366140e3f6ee168de7c43e1ad2767f207"
+      }
+    ],
+    "poster_sha256": "8ea627cde63b8966883fd7e9b537a03c3cfdc25fe03b413945f6118e2493c9ef",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1809,6 +2274,46 @@
     "source_sha256": "7da37ef0c02ee9fc98975d47af88c59778ec8ac361f51b3833158c0ee2bd7c6d",
     "source_byte_ranges": null,
     "poster_sha256": "62af71982a5f9780951ce29336669636f4be4e326d11fdacdba695cc9de8f7a6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-outfit-reveal-bold-neon",
+    "source_url": "https://freelancer-templates.org/previews/hero/OutfitReveal-BoldNeon.mp4",
+    "poster": "/previews/freelancer-outfit-reveal-bold-neon.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d206b825b9a6707a45064d0b076018a3f1181dcd8af2268111bb688669381e49"
+      },
+      {
+        "start": 10727,
+        "end": 272870,
+        "sha256": "593d1818d14bc13a080444a3c8878ebbc1f60090cc90e5add44e5a03a0ea1f5e"
+      },
+      {
+        "start": 272871,
+        "end": 535014,
+        "sha256": "2b02dd2f7ac78bf15c144d31fe5aad184cae5cd847bc2bcf06b81cc19b68a157"
+      },
+      {
+        "start": 535015,
+        "end": 797158,
+        "sha256": "d952ee5dadd34add2c6daed915112071f7b8dc6123095fe3e42d4ea4048dd959"
+      },
+      {
+        "start": 797159,
+        "end": 896739,
+        "sha256": "2e06a1042a05c85c5b791a7d6bdd8f527f9eabd923177b3c5c55acee289d21ae"
+      }
+    ],
+    "poster_sha256": "7a00184c369ee8d88934a076ff7ca3257175e2da85d1d9fd73525c73d847f3d7",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1961,6 +2466,46 @@
       }
     ],
     "poster_sha256": "d6887412e76e09169d5b4e06d14af2890b7cb57116b714fd77d990063a080885",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-product-reveal-playful-pastel",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProductReveal-PlayfulPastel.mp4",
+    "poster": "/previews/freelancer-product-reveal-playful-pastel.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "3b8393fbf9dca81ea66f1330550570c7bd8ecd14836b082e1a5b27be6856f9ee"
+      },
+      {
+        "start": 10679,
+        "end": 272822,
+        "sha256": "d74937048ca3dad6e5dd196a5e8480e763c2ec0653370497d43f8b2e190b4c17"
+      },
+      {
+        "start": 272823,
+        "end": 534966,
+        "sha256": "02d29db0e5d42aa2543bdc6d4cf7f639e3332e125d674a3a3b5c84b81c20a0b5"
+      },
+      {
+        "start": 534967,
+        "end": 797110,
+        "sha256": "bba0a380b8eda1be7095cf2aad9cb044ea6fa332f80b3fcc5509263f3e74af35"
+      },
+      {
+        "start": 797111,
+        "end": 1002347,
+        "sha256": "7c25b58a1e37a2e28ec5777ac04181a7bf18f3143d1b738c3e2ff7b09dbee192"
+      }
+    ],
+    "poster_sha256": "d963b6df6532ee7995ee1a842c80e44cc85673d3f41eeaa7cd43aacbaa7365ba",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2138,6 +2683,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-quote-card-dark-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/QuoteCard-DarkCentered.mp4",
+    "poster": "/previews/freelancer-quote-card-dark-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ea6f31b2a9188a42d173136fd97092cecbe6d78a1a2bed3420ebe9e3347f64df"
+      }
+    ],
+    "poster_sha256": "625d85c0d4078566f215cfd0d21bfae6c9982c4efa73af31ea592fa551705d18",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-rate-card-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/RateCard-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-rate-card-arctic-dashboard.webp",
@@ -2173,6 +2738,31 @@
       }
     ],
     "poster_sha256": "a29fecfd2f6b440c1a059d66cf11dad8739e3de37abd8e3d7f7e030dd2bca5c0",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-recap-bold-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/Recap-BoldCards.mp4",
+    "poster": "/previews/freelancer-recap-bold-cards.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f71486c7bcb801c3536e6544f35b699049cdfb95fea3154c2729798ffb00b467"
+      },
+      {
+        "start": 4011,
+        "end": 124483,
+        "sha256": "9d9d8fe4abf309fee2f58fe590daf27e7793351e02bc1a02310f2c7a29d120e3"
+      }
+    ],
+    "poster_sha256": "13c79b9aa8880b3d1f63378c6a65b854660a3b1aebb0c12d2763cf6acf59ffde",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2538,6 +3128,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-tip-of-the-day-neon-fullscreen",
+    "source_url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-NeonFullscreen.mp4",
+    "poster": "/previews/freelancer-tip-of-the-day-neon-fullscreen.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "e474202c8f114d090065a4bf8a09e863287dde0579513b280c708071018cefb2"
+      }
+    ],
+    "poster_sha256": "7b6e64f0416103ee4e237f006e857bb677d12333764c1b0da2672bc9ac86159d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-travel-itinerary-arctic-route-overview",
     "source_url": "https://freelancer-templates.org/previews/hero/TravelItinerary-ArcticRouteOverview.mp4",
     "poster": "/previews/freelancer-travel-itinerary-arctic-route-overview.webp",
@@ -2548,6 +3158,76 @@
     "source_sha256": "2767312a47366ce2404bfa53f15a19b04559f862a3370571c28fc07eab800224",
     "source_byte_ranges": [],
     "poster_sha256": "fd23c60e89da1989fe7046075eec9731704ae987310efdccde1ea972abe55bd6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-travel-montage-film-grain",
+    "source_url": "https://freelancer-templates.org/previews/hero/TravelMontage-FilmGrain.mp4",
+    "poster": "/previews/freelancer-travel-montage-film-grain.webp",
+    "timestamp_seconds": 3.868,
+    "duration_seconds": 11.050667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "b4241ed47f5d045a009fe2e110876eebb28b9e4f3b9f9e3d539d12b836cd22aa"
+      },
+      {
+        "start": 6606797,
+        "end": 6868940,
+        "sha256": "3ac59d94853a17339ae5c6e7b4d62a7667388640642a0c045df20a4d010be640"
+      },
+      {
+        "start": 6868941,
+        "end": 7131084,
+        "sha256": "fb8b43dc69d9d055834bba3395509a69974208603e5874a856f412413a28f57d"
+      },
+      {
+        "start": 7131085,
+        "end": 7393228,
+        "sha256": "5d911406ed4ff620028ce74226f4d155e1cefc31fdf66cd8d5870a730b259a28"
+      },
+      {
+        "start": 7393229,
+        "end": 7655372,
+        "sha256": "e049c176bfe1b30c91913e7f91ce45583cbff9417392d06119a8d4f4dd3312da"
+      },
+      {
+        "start": 7655373,
+        "end": 7917516,
+        "sha256": "7ac11aaf85ba4235a3ef9d9a406df008b17439180e5287650ec7b7551cd3156f"
+      },
+      {
+        "start": 7917517,
+        "end": 8179660,
+        "sha256": "3d88d3542ec5b7dcb9bd7f52c2d91a51ef26cc89d65d44ff096aec4c84c2b8bd"
+      },
+      {
+        "start": 8179661,
+        "end": 8441804,
+        "sha256": "179f403594bb30472e3f31d318094250aa6aae04ed73d16a1c97fbc2bd44ceec"
+      },
+      {
+        "start": 8441805,
+        "end": 8703948,
+        "sha256": "f84591e839fafe58446d12839a1183f56d2538780614e490b5c4c51d5e67c62c"
+      },
+      {
+        "start": 8703949,
+        "end": 8966092,
+        "sha256": "e66ee4f638891c6ec3d9424ab0756c2d5d939bc55a9f8093cf8f0efd83acf92d"
+      },
+      {
+        "start": 8966093,
+        "end": 9105676,
+        "sha256": "e9eae6157ad32575e86e8e2072339be3afd7c42bf66ff94f06d1f0fe89552717"
+      }
+    ],
+    "poster_sha256": "906c4d42bbbc89f2dc9e256096d486390ba8be1e5f185fed2d4feab8c23997f5",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2612,6 +3292,91 @@
     "source_sha256": "60e1081d28e78e1157188a12dd6001409a6356452c319b2134d61422d97a6b92",
     "source_byte_ranges": [],
     "poster_sha256": "2b4e7eab1746e23a82c2762bc7904b79f5131ce43287969e3f9129cfdb95cfb8",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-unboxing-moment-reels-editorial",
+    "source_url": "https://freelancer-templates.org/previews/hero/UnboxingMoment-ReelsEditorial.mp4",
+    "poster": "/previews/freelancer-unboxing-moment-reels-editorial.webp",
+    "timestamp_seconds": 2.815,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "efa01601199f2d9e75ef85a1e332c272f6f2f85ecef675d25a918ad3b45d0ead"
+      },
+      {
+        "start": 10167,
+        "end": 272310,
+        "sha256": "efd94bfed7474698e8af0765a0d7994ab0e5a80a74fc9e88b2274a53e33d98c5"
+      },
+      {
+        "start": 272311,
+        "end": 534454,
+        "sha256": "7d90bce8d4b60225e0f7a0b5142a3234fef14c318cb336ce1b21915706fce7fd"
+      },
+      {
+        "start": 534455,
+        "end": 796598,
+        "sha256": "a8db851d78c9765b483fdcf58de735cfeacf0974eff7e0ee542310978b314aa7"
+      },
+      {
+        "start": 796599,
+        "end": 1058742,
+        "sha256": "97133bd53d6253b6004b2649bc255807aa294f86b0fdaaa5618299962e948044"
+      },
+      {
+        "start": 1058743,
+        "end": 1320886,
+        "sha256": "fad989d89b62989572aa69b983cc3e02c6c93b0192561aa221797fe844a32c0b"
+      },
+      {
+        "start": 1320887,
+        "end": 1583030,
+        "sha256": "22e66fa2fc677defd73f86dcf1dea60c296dd9fe979eea28ba61485dcf1caf17"
+      },
+      {
+        "start": 1583031,
+        "end": 1845174,
+        "sha256": "b2381d0338ef0c6b7d719370620a6b2b382420924f70b9d1ce52c2b2b29a11f3"
+      },
+      {
+        "start": 1845175,
+        "end": 2107318,
+        "sha256": "09641c7a46563c5d533972c1bee6f906e49e1838b0f84d1939753dced3f5d3cf"
+      },
+      {
+        "start": 2107319,
+        "end": 2369462,
+        "sha256": "9971ab166ff86b6211f593f6c85c5e8406c54263c7e00a19f975973dbdb4e6a7"
+      },
+      {
+        "start": 2369463,
+        "end": 2631606,
+        "sha256": "739af668802564a4909cef601d9db89680a43ea21d29fea8bf21c34b21697872"
+      },
+      {
+        "start": 2631607,
+        "end": 2893750,
+        "sha256": "952fb90fda7f919f47856459f7a8c10535532e1297b1e66fcd6c44e3bbf09237"
+      },
+      {
+        "start": 2893751,
+        "end": 3155894,
+        "sha256": "3f9abce1e9b4d045334e173c3d396bd1596f74f8ea7390c24682f455c6acdd6d"
+      },
+      {
+        "start": 3155895,
+        "end": 3231633,
+        "sha256": "8777795ff3fac4a42554b0d53ced22ab63a7426a4a814f188c96c2fd0568a551"
+      }
+    ],
+    "poster_sha256": "1168345c64f24f2ef6257972a595792082bbd98032c146d2dbca989900422392",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2826,7 +3591,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "de51fd285f98ed41270095eb1bae9905982496a6b3d0be30dad01017739d7036",
     "license": "Apache-2.0 (via frontend-slides Creative Voltage preset, MIT)",
-    "attribution": "nexu-io / html-video \u00b7 via frontend-slides (see template provenance)"
+    "attribution": "nexu-io / html-video · via frontend-slides (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-data-chart-nyt",
@@ -2890,7 +3655,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "24f1bc0a104a51e9378e03ac9b9bc5e7ead4a3062266d3305f1a0f3313f9a931",
     "license": "Apache-2.0 (via frontend-slides Electric Studio preset, MIT)",
-    "attribution": "nexu-io / html-video \u00b7 via frontend-slides (see template provenance)"
+    "attribution": "nexu-io / html-video · via frontend-slides (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-glitch-title",
@@ -3034,7 +3799,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "e5b2ef6ef37491b20239ea9538f837d3041c60d307c6d9901bd81156a8b3d91d",
     "license": "Apache-2.0 (via huashu-design Pentagram showcase, MIT); L1 inspiration Pentagram/Bierut (not affiliation)",
-    "attribution": "nexu-io / html-video \u00b7 via huashu-design (see template provenance)"
+    "attribution": "nexu-io / html-video · via huashu-design (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-play-mode",
@@ -3101,7 +3866,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "68501918ad014a26579a846dfd1a11e3472ce0ea472275ffea6f42d65611d391",
     "license": "Apache-2.0 (via huashu-design MIT; L1 inspiration Takram, not affiliation)",
-    "attribution": "nexu-io / html-video \u00b7 via huashu-design (see template provenance)"
+    "attribution": "nexu-io / html-video · via huashu-design (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-vignelli",
@@ -3200,7 +3965,7 @@
       }
     ],
     "poster_sha256": "39a4267741d6956829a5ac5b2c884cab004eee054f231e4f1dfe83ca0582ac53",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3225,7 +3990,7 @@
       }
     ],
     "poster_sha256": "fe3a76c01c006ba42de4e6f87c626eec52cff267b824ec94275ce09172f058ef",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3250,7 +4015,7 @@
       }
     ],
     "poster_sha256": "1329e29659a8fe5731020e1117ab84133b3be725e154dd35c5ae562772ca42d3",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3275,7 +4040,7 @@
       }
     ],
     "poster_sha256": "45c624ee6a58cb47c7af1596aa093f9e47d84706f98d06e2cb1a0f8548b8d032",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3300,7 +4065,7 @@
       }
     ],
     "poster_sha256": "5a0cc7cececa2ca25c2612104a24652cf44acd19f73f4fbc7da6d4aa41c15b62",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3325,7 +4090,7 @@
       }
     ],
     "poster_sha256": "d2ef9c54e79145624325fc5bbd65923b0d27e99dd41a0425d33fa853cdcef547",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3350,7 +4115,7 @@
       }
     ],
     "poster_sha256": "86b822b182ae6ec54c588efee0c92983ecdffb4e5d85442972bfc3556bcc3776",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3375,7 +4140,7 @@
       }
     ],
     "poster_sha256": "d522c890945866abd757e4ef067a2ec4282229843e6cf0cf28780291cfa64920",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3400,7 +4165,7 @@
       }
     ],
     "poster_sha256": "2cbdc418cf9508fea10b7ba81f49a7854a2d0b141621debac8e71d5d36c60e43",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3425,7 +4190,7 @@
       }
     ],
     "poster_sha256": "c814732944549de1196d6e3e240493e5414f3a1679bf9bc93656aa7243264d8e",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3450,7 +4215,7 @@
       }
     ],
     "poster_sha256": "41bcf089044e187d1885e50edba924d4ad424ca504c9c3f4870abdb863f7dfb0",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -4638,7 +5403,7 @@
       }
     ],
     "poster_sha256": "fc52e64b1bf2d059aad4af3206a3fb61301be242c833a83b5fbeec4b59641698",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4652,7 +5417,7 @@
     "source_sha256": "ed61de9136ac21703a9ad68b0a818744fee3e1cb5e6056b7150be93cafd1b5e5",
     "source_byte_ranges": null,
     "poster_sha256": "56a9f348ab8fd079d4832ede13a01a830d31ae5185398c021dafaa1d84ad4a1b",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4677,7 +5442,7 @@
       }
     ],
     "poster_sha256": "97296f5e852f69a067f61c06adcce3d36983f3b60af834489e394a745ec5e758",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4702,7 +5467,7 @@
       }
     ],
     "poster_sha256": "4eb3b8808796b31afb06c55d377464647559fa9b65fb768b32d23136e4acbc3c",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4727,7 +5492,7 @@
       }
     ],
     "poster_sha256": "72b099a85000173e029bcb3add7dbb5f1c21cb27cd04379c48e19f8500e0985c",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4752,7 +5517,7 @@
       }
     ],
     "poster_sha256": "4b81341de1284f786429a012971e94c43d78e562c634802f57f9d2db706d0d0b",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4777,7 +5542,7 @@
       }
     ],
     "poster_sha256": "beba7f6cae9aed15dd190758f83baf4abcf88120aea8e95efc835d56d28b1db2",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4791,7 +5556,7 @@
     "source_sha256": "efdee7fa44e5619aff44a2c2e0501fdede25adee5aaa7dd454810672495093fc",
     "source_byte_ranges": null,
     "poster_sha256": "0dfb9537f4c1982d5b297bf76848c885fe691d510badffcfe806623955278634",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4816,7 +5581,7 @@
       }
     ],
     "poster_sha256": "0bc38e109a76fe91e1dcded6425b339bbbfb2cf0752a35d32be44424df5f159c",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4830,7 +5595,7 @@
     "source_sha256": "2750897791dcc0f448d87c84c188a8757aca4dc9c8df74fba66f8bad4ef1b4e5",
     "source_byte_ranges": null,
     "poster_sha256": "545f68110f30ce255f1b2696632ce60d0246bb2623a624321dd51da7050c854e",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4855,7 +5620,7 @@
       }
     ],
     "poster_sha256": "518c5b5dd56a7a1a1197cb16713d35071a9565cdea05fc6113479c54e86329b1",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4869,7 +5634,7 @@
     "source_sha256": "6429263489382fe17a5cfdeb1cdd301b4254c967e468f6db47baca1688cfef7b",
     "source_byte_ranges": null,
     "poster_sha256": "3aedb35e6fdba848004fcf71b7ca370ae857619631de7e85cb78d74af9dac15e",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4894,7 +5659,7 @@
       }
     ],
     "poster_sha256": "916505d17be72e83865f0c0efa622c2a270d1e1b1bc8480e55334d6f1f02b77d",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4919,7 +5684,7 @@
       }
     ],
     "poster_sha256": "1daaa4bfea9a8519d2a6a5c5f9969045eb2e179aa106b8dde2bd6b024d3e1fee",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4933,7 +5698,7 @@
     "source_sha256": "f9b31c303c9a913f8ab89403d19c284d26bd98f29ba9d99326dd52dd6324d496",
     "source_byte_ranges": null,
     "poster_sha256": "27d252432dbc853ff183c24ae2a8728d775aec20e9a14661b3fcd3ae4cc71785",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4958,7 +5723,7 @@
       }
     ],
     "poster_sha256": "0cc1ff7eaa0c345e3e43cddb898ee48f4222a618fca1ea2b3a6fdc0bb83df0cf",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4983,7 +5748,7 @@
       }
     ],
     "poster_sha256": "55990eb8d5aa4eed53c1bbc60fb69b79159f678064ae16f61675dba88e99e42b",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4997,7 +5762,7 @@
     "source_sha256": "176bf280856e1bb264c5bb2508ccc37aa53d7ac46547cc5bda9e2a17042549ec",
     "source_byte_ranges": null,
     "poster_sha256": "d11ac8ee421721ed2e4e3b5803d9d93c0c9d2cc45a4e3e4ee00cc11489a66775",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5022,7 +5787,7 @@
       }
     ],
     "poster_sha256": "c0ef384abaa63503f1fe939b14bd7fdf6103509ffc3483eab32d4243f287ee4a",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5036,7 +5801,7 @@
     "source_sha256": "444d2c00d17c0c40736be7b29799b793a6f0f2abd805aee97c6a34292c1dc85d",
     "source_byte_ranges": null,
     "poster_sha256": "8b0188d4021d10ba1e0c94d4f8716b76c4319fa431bd7343cc50d1aadd91e07e",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5061,7 +5826,7 @@
       }
     ],
     "poster_sha256": "c22ccad3f7178c4a8d5f944908eace100588b38ec9d40144fce059e6b78382e4",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5086,7 +5851,7 @@
       }
     ],
     "poster_sha256": "9da347864481726116632062a7cdf17a6c6bd47e06ff99e8022428bc2106a6aa",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5111,7 +5876,7 @@
       }
     ],
     "poster_sha256": "cc4463d89f3e9ab82ea4ca42a10c78f441d894f1a427f819755bb7c4d290a5be",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5125,7 +5890,7 @@
     "source_sha256": "ffa856d80417f15b0872f9c8e8260acf5a6fae6a0d4212c1c86854237ea49c5b",
     "source_byte_ranges": [],
     "poster_sha256": "9e8024bc173b0d3207390444ae41aca1ac7035cb009d995188dea5bce7d8a304",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5139,7 +5904,7 @@
     "source_sha256": "d026f4875e4f96eb71a69d85ae0ee5be5f3113fbf8ae6ffcedd824193438215f",
     "source_byte_ranges": [],
     "poster_sha256": "63cf2335089cc91a03361ae00840b2b475c3af640658cb2d81a591d50f7b8df1",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5153,7 +5918,7 @@
     "source_sha256": "547b016f9dc7f00eab8a4e39248d184c4484bdf9e89826d568f02cb1b760d7cd",
     "source_byte_ranges": [],
     "poster_sha256": "bffb696aec53cf1e89c19bacd4d626f018cab6f4fa3ac1dd3099228b08070f1a",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5167,7 +5932,7 @@
     "source_sha256": "538fe80400f48f82cb0454f51fc91bb8dafa165298922df37ec07a33590e3707",
     "source_byte_ranges": null,
     "poster_sha256": "550a270c4958fc2269d65267d8be5f825d89fd0e4aad0ac12905dbf045d0f13c",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5181,7 +5946,7 @@
     "source_sha256": "665e317335a955187df3ccaad14a9cb69117ed54b6f249fc657e9bbe9a95146f",
     "source_byte_ranges": [],
     "poster_sha256": "9239e184ec6ff663d30d06bc257c261c8f0d17793590f12d9f5aaf7997a4d337",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5195,7 +5960,7 @@
     "source_sha256": "374ce26ac473d510752f56b513f2d44bdaf907527649eae2d6b8dc7b698db16c",
     "source_byte_ranges": [],
     "poster_sha256": "8363cbfd4f23ee305471ad3b71324e48b47af798ae4caea0d39a64d96b6bcd6e",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5209,7 +5974,7 @@
     "source_sha256": "210e43b1062b8f5c77563447a5e8f49f6ca22b2820d31699bf8e746cc652ce03",
     "source_byte_ranges": [],
     "poster_sha256": "530560362d435ba394c1cef9b75a4707a3133e032f45bfb71ab722bd1e15e63d",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5223,7 +5988,7 @@
     "source_sha256": "373196154f84977ec1a8e12e2269c3920f77c98d285b14d6741df0d8ee91a309",
     "source_byte_ranges": [],
     "poster_sha256": "0a326565a37701c63ded9428d55a7be6724e6ae38a063a382d4ad8e42febdbc9",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5237,7 +6002,7 @@
     "source_sha256": "1c3d6fa96cedf3257a6aea576cab6e4328290e1fecf4048fbd3fe02a109c9068",
     "source_byte_ranges": null,
     "poster_sha256": "c3e009bec7cc7841d00ba14dd119b2975dfd28b019f7b5d4e7e493a3d6051041",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5251,7 +6016,7 @@
     "source_sha256": "9938559d6df4d5ae790ff7f52c4a11db8ba973eea5c06cce2dd8c3d8eac233c0",
     "source_byte_ranges": null,
     "poster_sha256": "9105f74f04208cf1c19c8705ce27e0f0b91756d60b868f638c8b5a47b5fb59cb",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5276,7 +6041,7 @@
       }
     ],
     "poster_sha256": "8652b72957c008b239e8f4eaae554159f0c364b3108e4e1ae44eb45bdce8c59f",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5306,7 +6071,7 @@
       }
     ],
     "poster_sha256": "348363da80d7225022326c800fed6fbacc52c7afe6bebe72e2cc9c243217a394",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5320,7 +6085,7 @@
     "source_sha256": "0ae8fc8adec6ac75a3c94d21e7904cf47ba1299a375e71941f471b1259e61327",
     "source_byte_ranges": null,
     "poster_sha256": "64ce114fa0cd91b21e4ec56d053582689c77933a5900e28f47d2d07fd5656b73",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5334,7 +6099,7 @@
     "source_sha256": "bbcf22170136bcc9828ec8814cee02c9a26a7ead6e31d1f2cb9d8d3ea9c454c9",
     "source_byte_ranges": [],
     "poster_sha256": "83709382d46c8b89b1935425bec192f39f4d18ca61eeaefa54e23cc2a7acf7a0",
-    "license": "\u5f85\u786e\u8ba4",
+    "license": "待确认",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -7093,245 +7858,5 @@
     "poster_sha256": "50c9dadc7255271b8b450da6483b4f4218fc4ff7e6c300c9e46c670c26be2e1d",
     "license": "MIT",
     "attribution": "SpecStory, Inc. (https://github.com/specstoryai/zero-to-product-video-hero)"
-  },
-  {
-    "resource_id": "freelancer-comic-strip-noir-classic",
-    "source_url": "https://freelancer-templates.org/previews/hero/ComicStrip-NoirClassic.mp4",
-    "poster": "/previews/freelancer-comic-strip-noir-classic.webp",
-    "timestamp_seconds": 2.814933,
-    "duration_seconds": 8.042667,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "163e39f4dc4e85cb2afe14ee0086ff8416a238ae3a97eaa036e4aa4c43980a34"
-      }
-    ],
-    "poster_sha256": "2b20ab35af3384d14b547e35065b73ffc27457123c8635fe46d8ab81f78c2006",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-mood-board-vibrant-mix",
-    "source_url": "https://freelancer-templates.org/previews/hero/MoodBoard-VibrantMix.mp4",
-    "poster": "/previews/freelancer-mood-board-vibrant-mix.webp",
-    "timestamp_seconds": 3.165867,
-    "duration_seconds": 9.045333,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "ef84e623bf62a9b082f34f7aef8687d6e8d62bdef9f2ce196b67613a46f43eeb"
-      }
-    ],
-    "poster_sha256": "fe207470f19ca8d8eaf38055e6df6909dd589ff1f680af5607c0bf02495cfb8f",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-city-lights-neon-purple",
-    "source_url": "https://freelancer-templates.org/previews/hero/CityLights-NeonPurple.mp4",
-    "poster": "/previews/freelancer-city-lights-neon-purple.webp",
-    "timestamp_seconds": 3.165867,
-    "duration_seconds": 9.045333,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "2c4897d81a2d6fabd5d05b2b66490b7c9d89f9ce86dea87c81ca94fb680f682b"
-      }
-    ],
-    "poster_sha256": "9b883b9764dac31ee6bca983300da62d77800d2dea3623e3f76aa306ec114917",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-quote-card-dark-centered",
-    "source_url": "https://freelancer-templates.org/previews/hero/QuoteCard-DarkCentered.mp4",
-    "poster": "/previews/freelancer-quote-card-dark-centered.webp",
-    "timestamp_seconds": 0.7168,
-    "duration_seconds": 2.048,
-    "source_width": 1080,
-    "source_height": 1080,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "ea6f31b2a9188a42d173136fd97092cecbe6d78a1a2bed3420ebe9e3347f64df"
-      }
-    ],
-    "poster_sha256": "625d85c0d4078566f215cfd0d21bfae6c9982c4efa73af31ea592fa551705d18",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-tip-of-the-day-neon-fullscreen",
-    "source_url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-NeonFullscreen.mp4",
-    "poster": "/previews/freelancer-tip-of-the-day-neon-fullscreen.webp",
-    "timestamp_seconds": 0.7168,
-    "duration_seconds": 2.048,
-    "source_width": 1080,
-    "source_height": 1080,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "e474202c8f114d090065a4bf8a09e863287dde0579513b280c708071018cefb2"
-      }
-    ],
-    "poster_sha256": "7b6e64f0416103ee4e237f006e857bb677d12333764c1b0da2672bc9ac86159d",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-bts-creator-clean-studio",
-    "source_url": "https://freelancer-templates.org/previews/hero/BTSCreator-CleanStudio.mp4",
-    "poster": "/previews/freelancer-bts-creator-clean-studio.webp",
-    "timestamp_seconds": 2.814933,
-    "duration_seconds": 8.042667,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "848d590b97f00a486ec7cf1b2001a88d2fa75efd469e041ec402531b333892aa"
-      }
-    ],
-    "poster_sha256": "2406057270ccc99fee468e163cb06145ab136e5faca57af1509a12e77565a1be",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-creator-recap-reels",
-    "source_url": "https://freelancer-templates.org/previews/hero/CreatorRecap-Reels.mp4",
-    "poster": "/previews/freelancer-creator-recap-reels.webp",
-    "timestamp_seconds": 2.471467,
-    "duration_seconds": 7.061333,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "a43a168173feb380c6269db9391c2e7c8dcf69508d9ae367400ca76b214c4cd8"
-      }
-    ],
-    "poster_sha256": "3c919daf9e7b6ca0f1eae6da60b6b56dc0d96debb71fb5101807e346e1d461a6",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-day-in-the-life-reels-cinematic",
-    "source_url": "https://freelancer-templates.org/previews/hero/DayInTheLife-ReelsCinematic.mp4",
-    "poster": "/previews/freelancer-day-in-the-life-reels-cinematic.webp",
-    "timestamp_seconds": 4.218667,
-    "duration_seconds": 12.053333,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "8951e62c7083eb7a3bb8a0c7be203d1927db6b2f5cb177a5811d37fb09604018"
-      }
-    ],
-    "poster_sha256": "e3d85eedd0f6943dcf4b202fcc95bd5aaf46bc931fd1aad66d53db67232fda2d",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-festival-lineup-neon-gradient",
-    "source_url": "https://freelancer-templates.org/previews/hero/FestivalLineup-NeonGradient.mp4",
-    "poster": "/previews/freelancer-festival-lineup-neon-gradient.webp",
-    "timestamp_seconds": 4.218667,
-    "duration_seconds": 12.053333,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "858fb793bdaa981a691cc2f258c76d2d7d9ade035b4b201dd6c76e8cd2846a00"
-      }
-    ],
-    "poster_sha256": "f1709ed525b1d125e53a2e0fe9742dfd142b90d392d643653134dec95a78b19e",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-foodie-reel-warm-bistro",
-    "source_url": "https://freelancer-templates.org/previews/hero/FoodieReel-WarmBistro.mp4",
-    "poster": "/previews/freelancer-foodie-reel-warm-bistro.webp",
-    "timestamp_seconds": 2.814933,
-    "duration_seconds": 8.042667,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "f8cfc8319f6e938171a998ec37aa4254c260469ec0e8752419296f61cfc168e5"
-      }
-    ],
-    "poster_sha256": "84f4413ef223d07ea8d4f433dbc9de3981977997947d612d58f0e95e7c58f333",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-grwm-reel-reels",
-    "source_url": "https://freelancer-templates.org/previews/hero/GRWMReel-Reels.mp4",
-    "poster": "/previews/freelancer-grwm-reel-reels.webp",
-    "timestamp_seconds": 2.814933,
-    "duration_seconds": 8.042667,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "a43dfb72f098c76f3061d7bed6864b37f4a976e06fbdbd2cfe9bf03f1a16d362"
-      }
-    ],
-    "poster_sha256": "5cda6a46616ed0135ee626f35e0c034a526eb6197c3caa2baaaff89d534006b7",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-nature-escape-ocean-sunset",
-    "source_url": "https://freelancer-templates.org/previews/hero/NatureEscape-OceanSunset.mp4",
-    "poster": "/previews/freelancer-nature-escape-ocean-sunset.webp",
-    "timestamp_seconds": 3.165867,
-    "duration_seconds": 9.045333,
-    "source_width": 1080,
-    "source_height": 1920,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "153feefd81811898529e0edd7da0ee0366140e3f6ee168de7c43e1ad2767f207"
-      }
-    ],
-    "poster_sha256": "8ea627cde63b8966883fd7e9b537a03c3cfdc25fe03b413945f6118e2493c9ef",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
   }
 ]
