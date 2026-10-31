@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 340 个可复用单元：154 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 352 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -308,6 +308,19 @@
 - [美学引言：深色忧郁](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/aestheticquote/AestheticQuote.tsx) - 用于美学引言展示的 Remotion 成片，列出的主预览变体是 Dark Moody。复用 AestheticQuote.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [动画图标：霓虹轨道](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedicons/AnimatedIcons.tsx) - 用于动画图标展示的 Remotion 成片，列出的主预览变体是 Neon Orbit。复用 AnimatedIcons.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [产品揭示：奢华黑](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productreveal/ProductReveal.tsx) - 用于产品揭示展示的 Remotion 成片，列出的主预览变体是 Luxury Black。复用 ProductReveal.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+
+- [连环漫画：黑色经典](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/comicstrip/ComicStrip.tsx) - 用于连环漫画展示的 Remotion 成片，列出的主预览变体是 Noir Classic。复用 ComicStrip.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [情绪板：活力混搭](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/moodboard/MoodBoard.tsx) - 用于情绪板展示的 Remotion 成片，列出的主预览变体是 Vibrant Mix。复用 MoodBoard.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [城市灯光：霓虹紫](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/citylights/CityLights.tsx) - 用于城市灯光展示的 Remotion 成片，列出的主预览变体是 Neon Purple。复用 CityLights.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [引言卡：深色居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx) - 用于引言卡展示的 Remotion 成片，列出的主预览变体是 Dark Centered。复用 QuoteCard.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [每日贴士：霓虹全屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx) - 用于每日贴士展示的 Remotion 成片，列出的主预览变体是 Neon Fullscreen。复用 TipOfTheDay.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [创作者幕后：干净棚拍](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/btscreator/BTSCreator.tsx) - 用于创作者幕后展示的 Remotion 成片，列出的主预览变体是 Clean Studio。复用 BTSCreator.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [创作者回顾：短视频](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/creatorrecap/CreatorRecap.tsx) - 用于创作者回顾展示的 Remotion 成片，列出的主预览变体是 Reels。复用 CreatorRecap.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [一日生活：电影短视频](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/dayinthelife/DayInTheLife.tsx) - 用于一日生活展示的 Remotion 成片，列出的主预览变体是 Reels Cinematic。复用 DayInTheLife.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [音乐节阵容：霓虹渐变](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/festivallineup/FestivalLineup.tsx) - 用于音乐节阵容展示的 Remotion 成片，列出的主预览变体是 Neon Gradient。复用 FestivalLineup.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [美食短视频：暖色小馆](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/foodiereel/FoodieReel.tsx) - 用于美食短视频展示的 Remotion 成片，列出的主预览变体是 Warm Bistro。复用 FoodieReel.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [梳妆短视频：Reels](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/grwmreel/GRWMReel.tsx) - 用于梳妆短视频展示的 Remotion 成片，列出的主预览变体是 Reels。复用 GRWMReel.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [自然逃离：海景日落](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/natureescape/NatureEscape.tsx) - 用于自然逃离展示的 Remotion 成片，列出的主预览变体是 Ocean Sunset。复用 NatureEscape.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 
