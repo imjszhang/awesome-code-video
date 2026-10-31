@@ -2143,5 +2143,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AC on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes ComicStrip-NoirClassic, MoodBoard-VibrantMix, CityLights-NeonPurple, QuoteCard-DarkCentered, TipOfTheDay-NeonFullscreen, BTSCreator-CleanStudio, CreatorRecap-Reels, DayInTheLife-ReelsCinematic, FestivalLineup-NeonGradient, FoodieReel-WarmBistro, GRWMReel-Reels, NatureEscape-OceanSunset: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = non-Arctic new-family×12 (ComicStrip-NoirClassic/MoodBoard-VibrantMix/CityLights-NeonPurple/QuoteCard-DarkCentered/TipOfTheDay-NeonFullscreen/BTSCreator-CleanStudio/CreatorRecap-Reels/DayInTheLife-ReelsCinematic/FestivalLineup-NeonGradient/FoodieReel-WarmBistro/GRWMReel-Reels/NatureEscape-OceanSunset). 0 same-family arctic fill. Arctic same-family pool → 0. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
+  },
+  {
+    "id": "S-CV-175",
+    "project_id": "freelancer-templates",
+    "title": "Batch AD preview media — FT×12 heroes (0 RT; 0 SC)",
+    "url": "https://freelancer-templates.org/previews/hero/OutfitReveal-BoldNeon.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AD on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes OutfitReveal-BoldNeon, TravelMontage-FilmGrain, UnboxingMoment-ReelsEditorial, AestheticQuote-MinimalCream, AnimatedIcons-MinimalFlow, ProductReveal-PlayfulPastel, Announcement-CharcoalMinimal, CallToAction-NeonSplit, BeforeAfter-DarkRevealWipe, Event-BoldCountdown, Explainer-BoldProcess, Recap-BoldCards: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = non-Arctic new-family×3 (OutfitReveal-BoldNeon/TravelMontage-FilmGrain/UnboxingMoment-ReelsEditorial) + same-family non-Arctic fill×9 (AestheticQuote-MinimalCream/AnimatedIcons-MinimalFlow/ProductReveal-PlayfulPastel/Announcement-CharcoalMinimal/CallToAction-NeonSplit/BeforeAfter-DarkRevealWipe/Event-BoldCountdown/Explainer-BoldProcess/Recap-BoldCards) with #L layout/style anchors for URL uniqueness on same-family×9. 0 arctic. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. LindaMohamed deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
   }
 ]
