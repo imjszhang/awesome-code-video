@@ -2154,5 +2154,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AD on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes OutfitReveal-BoldNeon, TravelMontage-FilmGrain, UnboxingMoment-ReelsEditorial, AestheticQuote-MinimalCream, AnimatedIcons-MinimalFlow, ProductReveal-PlayfulPastel, Announcement-CharcoalMinimal, CallToAction-NeonSplit, BeforeAfter-DarkRevealWipe, Event-BoldCountdown, Explainer-BoldProcess, Recap-BoldCards: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = non-Arctic new-family×3 (OutfitReveal-BoldNeon/TravelMontage-FilmGrain/UnboxingMoment-ReelsEditorial) + same-family non-Arctic fill×9 (AestheticQuote-MinimalCream/AnimatedIcons-MinimalFlow/ProductReveal-PlayfulPastel/Announcement-CharcoalMinimal/CallToAction-NeonSplit/BeforeAfter-DarkRevealWipe/Event-BoldCountdown/Explainer-BoldProcess/Recap-BoldCards) with #L layout/style anchors for URL uniqueness on same-family×9. 0 arctic. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. LindaMohamed deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
+  },
+  {
+    "id": "S-CV-176",
+    "project_id": "freelancer-templates",
+    "title": "Batch AE preview media — FT×12 heroes (0 RT; 0 SC)",
+    "url": "https://freelancer-templates.org/previews/hero/ComicStrip-ColorPop.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AE on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes ComicStrip-ColorPop, MoodBoard-EditorialGrid, CityLights-GoldenHour, Proposal-CleanCreative, QuoteCard-CharcoalMinimal, TipOfTheDay-CharcoalMinimal, BTSCreator-ChaoticCreator, FestivalLineup-SunsetWarm, FoodieReel-FreshVibes, NatureEscape-ForestMorning, OutfitReveal-PastelDream, TravelMontage-SunsetVibes: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = same-family non-Arctic fill×12 with #L layout/style anchors for URL uniqueness. 0 new-family (TSX pool exhausted after AD). 0 arctic. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. LindaMohamed deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
   }
 ]
