@@ -2242,5 +2242,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AL on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool 0); FT×12 same-family non-Arctic fill (QuoteCard-CreamMinimal, Invoice-MidnightProfessional, Pricing-EspressoComparison, RateCard-FinanceDashboard, Milestone-BoldCelebration, Onboarding-EspressoFriendly, ResultsShowcase-MidnightDashboard, ServiceOverview-CorporateDashboard, ClientReport-EspressoDashboard, FAQ-BoldInterview, SocialProof-GoldAchievement, Portfolio-BoldReel); 0 new-family (TSX pool exhausted after AD); 0 arctic; 0 thumb→video; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred; diversify vs AG creator & AH client-ops CleanDashboard & AI eng-delivery & AJ GTM/learning/event & AK local-commerce/QBR → finance/billing/commercial-ops + interview FAQ pack. HEAD+Range ftyp isom 12/12; redistributable:false; heroes hotlinked not mirrored."
+  },
+  {
+    "id": "S-CV-184",
+    "project_id": "freelancer-templates",
+    "title": "Batch AM preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/ClientPipeline-MidnightMetrics.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AM on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool 0); FT×12 same-family non-Arctic fill (ClientPipeline-MidnightMetrics, ClientWelcome-GoldDashboard, MeetingRecap-MidnightDashboard, ProjectTimeline-EspressoDashboard, ScopeChange-CorporateDashboard, Proposal-MidnightExecutive, QBRDashboard-MidnightComparison, Collaboration-MidnightStatsMerge, EffortTracking-GoldBreakdown, SprintRecap-ShippedListBold, ConceptPitch-GoldBoard, CallToAction-DarkCentered); 0 new-family (TSX pool exhausted after AD); 0 arctic; 0 thumb→video; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred; diversify vs AG creator & AH client-ops CleanDashboard & AI eng-delivery & AJ GTM/learning/event & AK local-commerce/QBR & AL finance/billing → client-ops midnight/gold + eng delivery fill. HEAD+Range ftyp isom 12/12; redistributable:false; heroes hotlinked not mirrored."
   }
 ]

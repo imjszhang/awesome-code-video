@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 460 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 472 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -438,6 +438,20 @@
 - [FAQ：大胆面试风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/faq/FAQ.tsx#L65) - 用于面试问答展示的 Remotion FAQ 成片。复用 FAQ.tsx 的 interview 版式（InterviewLayout）与 Bold 主题，列出的主预览变体是 Bold Interview。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [社交证明：金色成就](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/socialproof/SocialProof.tsx#L68) - 用于成就证明展示的 Remotion 社交证明成片。复用 SocialProof.tsx 的 achievement 版式（AchievementLayout）与 Gold 主题，列出的主预览变体是 Gold Achievement。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [作品集：大胆卷轴](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L89) - 用于作品卷轴展示的 Remotion 作品集成片。复用 Portfolio.tsx 的 reel 版式（ReelLayout）与 Bold 主题，列出的主预览变体是 Bold Reel。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [客户管道：午夜指标](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientpipeline/ClientPipeline.tsx#L36) - 用于客户管道指标展示的 Remotion 成片。复用 ClientPipeline.tsx 的 metrics 版式（PipelineShell）与 Midnight 主题，列出的主预览变体是 Midnight Metrics。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户欢迎：金色仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L92) - 用于客户欢迎仪表盘的 Remotion 成片。复用 ClientWelcome.tsx 的 dashboard 版式与 Gold 主题，列出的主预览变体是 Gold Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [会议回顾：午夜仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/meetingrecap/MeetingRecap.tsx#L68) - 用于会议回顾仪表盘的 Remotion 成片。复用 MeetingRecap.tsx 的 dashboard 版式与 Midnight 主题，列出的主预览变体是 Midnight Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [项目时间线：意式仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L89) - 用于项目时间线仪表盘的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Espresso 主题，列出的主预览变体是 Espresso Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [范围变更：企业仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/scopechange/ScopeChange.tsx#L79) - 用于范围变更仪表盘的 Remotion 成片。复用 ScopeChange.tsx 的 dashboard 版式与 Corporate 主题，列出的主预览变体是 Corporate Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [提案：午夜高管风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/Proposal.tsx#L95) - 用于范围、时间线与报价提案的 Remotion 成片。复用 Proposal.tsx 的 executive 版式（ExecutiveLayout）与 Midnight 主题，列出的主预览变体是 Midnight Executive。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [季报看板：午夜对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/qbrdashboard/QBRDashboard.tsx#L68) - 用于季度业务复盘对比看板的 Remotion 成片。复用 QBRDashboard.tsx 的 comparison 版式（ComparisonLayout）与 Midnight 主题，列出的主预览变体是 Midnight Comparison。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [协作：午夜指标合并](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L99) - 用于协作指标合并展示的 Remotion 成片。复用 Collaboration.tsx 的 stats-merge 版式（StatsMergeLayout）与 Midnight 主题，列出的主预览变体是 Midnight Stats Merge。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [工时跟踪：金色分解](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/efforttracking/EffortTracking.tsx#L60) - 用于工时分解展示的 Remotion 成片。复用 EffortTracking.tsx 的 breakdown 版式（BreakdownLayout）与 Gold 主题，列出的主预览变体是 Gold Breakdown。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [冲刺回顾：大胆交付清单](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintrecap/SprintRecap.tsx#L35) - 用于冲刺交付清单回顾的 Remotion 成片。复用 SprintRecap.tsx 的 shipped-list 版式（ShippedListLayout）与 Bold 主题，列出的主预览变体是 Shipped List Bold。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [概念路演：金色看板](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/conceptpitch/ConceptPitch.tsx#L683) - 用于概念路演看板的 Remotion 成片。复用 ConceptPitch.tsx 的 board 版式（BoardLayout）与 Gold 主题，列出的主预览变体是 Gold Board。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [行动号召：深色居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L174) - 用于居中行动号召的 Remotion 成片。复用 CallToAction.tsx 的 centered 版式（CenteredLayout）与 Dark 主题，列出的主预览变体是 Dark Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
 ## 参数化地图镜头
 
 以下示例来自 [map-motion](https://github.com/SpaceZephyr/map-motion)。复制 JSON 示例后修改坐标、路线、标签和时间配置，再按项目说明渲染。所选地图模式可能需要 API Key 或对应数据。
