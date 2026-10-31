@@ -9231,5 +9231,365 @@
       "source": "S-CV-158 https://raw.githubusercontent.com/zz41354899/SwiftClip/main/public/thumbnails/testimonial-card.jpg. HEAD on 2026-10-30: HTTP 200 image/jpeg Content-Length=37130. JPEG thumbnail only; SwiftClip publishes no MP4 hotlink for this scene. Not a playable film. Not a local render test.",
       "poster": "/previews/swiftclip-testimonial-card.webp"
     }
+  },
+  {
+    "id": "freelancer-component-inventory-arctic-dependency-map",
+    "project_id": "freelancer-templates",
+    "name": "Component Inventory Arctic Dependency Map",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/componentinventory/ComponentInventory.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion component-inventory composition. Reuse ComponentInventory.tsx and theme props; the listed hero variant is Arctic Dependency Map. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ComponentInventory-ArcticDependencyMap.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-component-inventory-arctic-dependency-map.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ComponentInventory-ArcticDependencyMap.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=195149, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-effort-tracking-arctic-capacity",
+    "project_id": "freelancer-templates",
+    "name": "Effort Tracking Arctic Capacity",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/efforttracking/EffortTracking.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion effort-tracking composition. Reuse EffortTracking.tsx and theme props; the listed hero variant is Arctic Capacity. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/EffortTracking-ArcticCapacity.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-effort-tracking-arctic-capacity.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/EffortTracking-ArcticCapacity.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=149494, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-podcast-audiogram-arctic-quote-card",
+    "project_id": "freelancer-templates",
+    "name": "Podcast Audiogram Arctic Quote Card",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion podcast-audiogram composition. Reuse PodcastAudiogram.tsx and theme props; the listed hero variant is Arctic Quote Card. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PodcastAudiogram-ArcticQuoteCard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-podcast-audiogram-arctic-quote-card.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/PodcastAudiogram-ArcticQuoteCard.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=304773, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-store-locator-arctic-directory",
+    "project_id": "freelancer-templates",
+    "name": "Store Locator Arctic Directory",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/storelocator/StoreLocator.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion store-locator composition. Reuse StoreLocator.tsx and theme props; the listed hero variant is Arctic Directory. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/StoreLocator-ArcticDirectory.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-store-locator-arctic-directory.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/StoreLocator-ArcticDirectory.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=220570, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-collaboration-arctic-announcement",
+    "project_id": "freelancer-templates",
+    "name": "Collaboration Arctic Announcement",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion collaboration composition. Reuse Collaboration.tsx and theme props; the listed hero variant is Arctic Announcement. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Collaboration-ArcticAnnouncement.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-collaboration-arctic-announcement.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Collaboration-ArcticAnnouncement.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=240594, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-office-directory-arctic-card-list",
+    "project_id": "freelancer-templates",
+    "name": "Office Directory Arctic Card List",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/officedirectory/OfficeDirectory.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion office-directory composition. Reuse OfficeDirectory.tsx and theme props; the listed hero variant is Arctic Card List. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/OfficeDirectory-ArcticCardList.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-office-directory-arctic-card-list.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/OfficeDirectory-ArcticCardList.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=214851, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-listing-arctic-feature-grid",
+    "project_id": "freelancer-templates",
+    "name": "Listing Arctic Feature Grid",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listing composition. Reuse Listing.tsx and theme props; the listed hero variant is Arctic Feature Grid. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listing-ArcticFeatureGrid.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-listing-arctic-feature-grid.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Listing-ArcticFeatureGrid.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=158132, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-poll-quiz-arctic-results-bar",
+    "project_id": "freelancer-templates",
+    "name": "Poll Quiz Arctic Results Bar",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion poll-quiz composition. Reuse PollQuiz.tsx and theme props; the listed hero variant is Arctic Results Bar. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PollQuiz-ArcticResultsBar.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-poll-quiz-arctic-results-bar.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/PollQuiz-ArcticResultsBar.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=186988, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-travel-itinerary-arctic-route-overview",
+    "project_id": "freelancer-templates",
+    "name": "Travel Itinerary Arctic Route Overview",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/travelitinerary/TravelItinerary.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion travel-itinerary composition. Reuse TravelItinerary.tsx and theme props; the listed hero variant is Arctic Route Overview. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TravelItinerary-ArcticRouteOverview.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-travel-itinerary-arctic-route-overview.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/TravelItinerary-ArcticRouteOverview.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=189561, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-event-venue-arctic-venue-cards",
+    "project_id": "freelancer-templates",
+    "name": "Event Venue Arctic Venue Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/eventvenue/EventVenue.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion event-venue composition. Reuse EventVenue.tsx and theme props; the listed hero variant is Arctic Venue Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/EventVenue-ArcticVenueCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-event-venue-arctic-venue-cards.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/EventVenue-ArcticVenueCards.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=163052, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-neighborhood-guide-arctic-highlights-reel",
+    "project_id": "freelancer-templates",
+    "name": "Neighborhood Guide Arctic Highlights Reel",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/neighborhoodguide/NeighborhoodGuide.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion neighborhood-guide composition. Reuse NeighborhoodGuide.tsx and theme props; the listed hero variant is Arctic Highlights Reel. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/NeighborhoodGuide-ArcticHighlightsReel.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-neighborhood-guide-arctic-highlights-reel.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/NeighborhoodGuide-ArcticHighlightsReel.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=209566, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-pin-collection-arctic-card-gallery",
+    "project_id": "freelancer-templates",
+    "name": "Pin Collection Arctic Card Gallery",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pincollection/PinCollection.tsx",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pin-collection composition. Reuse PinCollection.tsx and theme props; the listed hero variant is Arctic Card Gallery. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-170"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PinCollection-ArcticCardGallery.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-pin-collection-arctic-card-gallery.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/PinCollection-ArcticCardGallery.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=249769, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
   }
 ]
