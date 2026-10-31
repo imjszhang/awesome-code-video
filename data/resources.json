@@ -12111,5 +12111,365 @@
       "poster": "/previews/freelancer-affiliate-review-bold-scorecard.webp",
       "source": "S-CV-076 https://freelancer-templates.org/previews/hero/AffiliateReview-BoldScorecard.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=144493, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
     }
+  },
+  {
+    "id": "freelancer-testimonial-clean-centered",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Clean Centered",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L124",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the centered layout (CenteredLayout) and Clean theme; the listed hero variant is Clean Centered. Replace the quote, client, and call to action. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-CleanCentered.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-testimonial-clean-centered.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Testimonial-CleanCentered.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=179868, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-listicle-clean-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Clean Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L352",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout (CardsLayout) and Clean theme; the listed hero variant is Clean Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-CleanCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-listicle-clean-cards.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Listicle-CleanCards.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=269515, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-behind-the-scenes-dark-process-flow",
+    "project_id": "freelancer-templates",
+    "name": "Behind The Scenes Dark Process Flow",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx#L323",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion behind-the-scenes composition. Reuse BehindTheScenes.tsx with the process-flow layout (ProcessFlowLayout) and Dark theme; the listed hero variant is Dark Process Flow. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-DarkProcessFlow.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-behind-the-scenes-dark-process-flow.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/BehindTheScenes-DarkProcessFlow.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=208710, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-faq-clean-cards",
+    "project_id": "freelancer-templates",
+    "name": "FAQ Clean Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/faq/FAQ.tsx#L154",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion FAQ composition. Reuse FAQ.tsx with the cards layout (CardsLayout) and Clean theme; the listed hero variant is Clean Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FAQ-CleanCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-faq-clean-cards.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/FAQ-CleanCards.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=246024, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-portfolio-clean-case-study",
+    "project_id": "freelancer-templates",
+    "name": "Portfolio Clean Case Study",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L318",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion portfolio composition. Reuse Portfolio.tsx with the case-study layout (CaseStudyLayout) and Clean theme; the listed hero variant is Clean Case Study. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Portfolio-CleanCaseStudy.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-portfolio-clean-case-study.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Portfolio-CleanCaseStudy.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=152928, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-pricing-clean-comparison",
+    "project_id": "freelancer-templates",
+    "name": "Pricing Clean Comparison",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pricing/Pricing.tsx#L212",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pricing composition. Reuse Pricing.tsx with the comparison layout (ComparisonLayout) and Clean theme; the listed hero variant is Clean Comparison. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Pricing-CleanComparison.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-pricing-clean-comparison.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Pricing-CleanComparison.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=176119, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-product-launch-bold-countdown",
+    "project_id": "freelancer-templates",
+    "name": "Product Launch Bold Countdown",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productlaunch/ProductLaunch.tsx#L334",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion product-launch composition. Reuse ProductLaunch.tsx with the countdown layout (CountdownLayout) and Bold theme; the listed hero variant is Bold Countdown. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ProductLaunch-BoldCountdown.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-product-launch-bold-countdown.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ProductLaunch-BoldCountdown.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=197597, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-social-proof-clean-achievement",
+    "project_id": "freelancer-templates",
+    "name": "Social Proof Clean Achievement",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/socialproof/SocialProof.tsx#L195",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion social-proof composition. Reuse SocialProof.tsx with the achievement layout (AchievementLayout) and Clean theme; the listed hero variant is Clean Achievement. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SocialProof-CleanAchievement.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-social-proof-clean-achievement.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/SocialProof-CleanAchievement.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=150769, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-newsletter-promo-clean-issue-preview",
+    "project_id": "freelancer-templates",
+    "name": "Newsletter Promo Clean Issue Preview",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/newsletterpromo/NewsletterPromo.tsx#L233",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion newsletter-promo composition. Reuse NewsletterPromo.tsx with the issue-preview layout (IssuePreviewLayout) and Clean theme; the listed hero variant is Clean Issue Preview. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/NewsletterPromo-CleanIssuePreview.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-newsletter-promo-clean-issue-preview.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/NewsletterPromo-CleanIssuePreview.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=206434, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-podcast-audiogram-dark-episode-promo",
+    "project_id": "freelancer-templates",
+    "name": "Podcast Audiogram Dark Episode Promo",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx#L334",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion podcast-audiogram composition. Reuse PodcastAudiogram.tsx with the episode-promo layout (EpisodePromoLayout) and Dark theme; the listed hero variant is Dark Episode Promo. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PodcastAudiogram-DarkEpisodePromo.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-podcast-audiogram-dark-episode-promo.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/PodcastAudiogram-DarkEpisodePromo.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=326311, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-creator-recap-tiktok",
+    "project_id": "freelancer-templates",
+    "name": "Creator Recap TikTok",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/creatorrecap/CreatorRecap.tsx#L122",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion creator-recap composition. Reuse CreatorRecap.tsx with the tiktok_vertical platform branch; the listed hero variant is TikTok. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CreatorRecap-TikTok.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-creator-recap-tiktok.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/CreatorRecap-TikTok.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=2979755, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-recipe-step-clean-step-sequence",
+    "project_id": "freelancer-templates",
+    "name": "Recipe Step Clean Step Sequence",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recipestep/RecipeStep.tsx#L206",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion recipe-step composition. Reuse RecipeStep.tsx with the step-sequence layout (StepSequenceLayout) and Clean theme; the listed hero variant is Clean Step Sequence. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-178"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/RecipeStep-CleanStepSequence.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-recipe-step-clean-step-sequence.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/RecipeStep-CleanStepSequence.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=168630, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
   }
 ]

@@ -2176,5 +2176,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AF on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes UnboxingMoment-TikTokHype, Announcement-CoralMinimal, CallToAction-CharcoalCentered, BeforeAfter-DarkSplitScreen, Event-CleanSpeakers, Explainer-CleanWhiteboard, Recap-CleanTimeline, StatCounter-CoralGrid, CaseStudy-BoldSpotlight, CoursePromo-CleanOverview, Tutorial-CleanNumberedSteps, AffiliateReview-BoldScorecard: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = same-family non-Arctic fill×12 with #L layout/style anchors for URL uniqueness. 0 new-family (TSX pool exhausted after AD). 0 arctic. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. LindaMohamed deferred. UnboxingMoment-TikTokHype accepted (AE defer). 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
+  },
+  {
+    "id": "S-CV-178",
+    "project_id": "freelancer-templates",
+    "title": "Batch AG preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/Testimonial-CleanCentered.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AG on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes Testimonial-CleanCentered, Listicle-CleanCards, BehindTheScenes-DarkProcessFlow, FAQ-CleanCards, Portfolio-CleanCaseStudy, Pricing-CleanComparison, ProductLaunch-BoldCountdown, SocialProof-CleanAchievement, NewsletterPromo-CleanIssuePreview, PodcastAudiogram-DarkEpisodePromo, CreatorRecap-TikTok, RecipeStep-CleanStepSequence: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = same-family non-Arctic fill×12 with #L layout/style anchors for URL uniqueness. 0 new-family (TSX pool exhausted after AD). 0 arctic. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. LindaMohamed deferred. 0 lemo / RC / webreel / MotionGit. Incomplete (missing prompts). render_tested false. Hotlink only; not copied."
   }
 ]
