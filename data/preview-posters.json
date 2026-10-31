@@ -2826,7 +2826,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "de51fd285f98ed41270095eb1bae9905982496a6b3d0be30dad01017739d7036",
     "license": "Apache-2.0 (via frontend-slides Creative Voltage preset, MIT)",
-    "attribution": "nexu-io / html-video · via frontend-slides (see template provenance)"
+    "attribution": "nexu-io / html-video \u00b7 via frontend-slides (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-data-chart-nyt",
@@ -2890,7 +2890,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "24f1bc0a104a51e9378e03ac9b9bc5e7ead4a3062266d3305f1a0f3313f9a931",
     "license": "Apache-2.0 (via frontend-slides Electric Studio preset, MIT)",
-    "attribution": "nexu-io / html-video · via frontend-slides (see template provenance)"
+    "attribution": "nexu-io / html-video \u00b7 via frontend-slides (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-glitch-title",
@@ -3034,7 +3034,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "e5b2ef6ef37491b20239ea9538f837d3041c60d307c6d9901bd81156a8b3d91d",
     "license": "Apache-2.0 (via huashu-design Pentagram showcase, MIT); L1 inspiration Pentagram/Bierut (not affiliation)",
-    "attribution": "nexu-io / html-video · via huashu-design (see template provenance)"
+    "attribution": "nexu-io / html-video \u00b7 via huashu-design (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-play-mode",
@@ -3101,7 +3101,7 @@
     "source_byte_ranges": null,
     "poster_sha256": "68501918ad014a26579a846dfd1a11e3472ce0ea472275ffea6f42d65611d391",
     "license": "Apache-2.0 (via huashu-design MIT; L1 inspiration Takram, not affiliation)",
-    "attribution": "nexu-io / html-video · via huashu-design (see template provenance)"
+    "attribution": "nexu-io / html-video \u00b7 via huashu-design (see template provenance)"
   },
   {
     "resource_id": "html-video-frame-vignelli",
@@ -3200,7 +3200,7 @@
       }
     ],
     "poster_sha256": "39a4267741d6956829a5ac5b2c884cab004eee054f231e4f1dfe83ca0582ac53",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3225,7 +3225,7 @@
       }
     ],
     "poster_sha256": "fe3a76c01c006ba42de4e6f87c626eec52cff267b824ec94275ce09172f058ef",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3250,7 +3250,7 @@
       }
     ],
     "poster_sha256": "1329e29659a8fe5731020e1117ab84133b3be725e154dd35c5ae562772ca42d3",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3275,7 +3275,7 @@
       }
     ],
     "poster_sha256": "45c624ee6a58cb47c7af1596aa093f9e47d84706f98d06e2cb1a0f8548b8d032",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3300,7 +3300,7 @@
       }
     ],
     "poster_sha256": "5a0cc7cececa2ca25c2612104a24652cf44acd19f73f4fbc7da6d4aa41c15b62",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3325,7 +3325,7 @@
       }
     ],
     "poster_sha256": "d2ef9c54e79145624325fc5bbd65923b0d27e99dd41a0425d33fa853cdcef547",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3350,7 +3350,7 @@
       }
     ],
     "poster_sha256": "86b822b182ae6ec54c588efee0c92983ecdffb4e5d85442972bfc3556bcc3776",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3375,7 +3375,7 @@
       }
     ],
     "poster_sha256": "d522c890945866abd757e4ef067a2ec4282229843e6cf0cf28780291cfa64920",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3400,7 +3400,7 @@
       }
     ],
     "poster_sha256": "2cbdc418cf9508fea10b7ba81f49a7854a2d0b141621debac8e71d5d36c60e43",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3425,7 +3425,7 @@
       }
     ],
     "poster_sha256": "c814732944549de1196d6e3e240493e5414f3a1679bf9bc93656aa7243264d8e",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -3450,7 +3450,7 @@
       }
     ],
     "poster_sha256": "41bcf089044e187d1885e50edba924d4ad424ca504c9c3f4870abdb863f7dfb0",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "HeyGen / HyperFrames (https://github.com/heygen-com/hyperframes)"
   },
   {
@@ -4638,7 +4638,7 @@
       }
     ],
     "poster_sha256": "fc52e64b1bf2d059aad4af3206a3fb61301be242c833a83b5fbeec4b59641698",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4652,7 +4652,7 @@
     "source_sha256": "ed61de9136ac21703a9ad68b0a818744fee3e1cb5e6056b7150be93cafd1b5e5",
     "source_byte_ranges": null,
     "poster_sha256": "56a9f348ab8fd079d4832ede13a01a830d31ae5185398c021dafaa1d84ad4a1b",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4677,7 +4677,7 @@
       }
     ],
     "poster_sha256": "97296f5e852f69a067f61c06adcce3d36983f3b60af834489e394a745ec5e758",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4702,7 +4702,7 @@
       }
     ],
     "poster_sha256": "4eb3b8808796b31afb06c55d377464647559fa9b65fb768b32d23136e4acbc3c",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4727,7 +4727,7 @@
       }
     ],
     "poster_sha256": "72b099a85000173e029bcb3add7dbb5f1c21cb27cd04379c48e19f8500e0985c",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4752,7 +4752,7 @@
       }
     ],
     "poster_sha256": "4b81341de1284f786429a012971e94c43d78e562c634802f57f9d2db706d0d0b",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4777,7 +4777,7 @@
       }
     ],
     "poster_sha256": "beba7f6cae9aed15dd190758f83baf4abcf88120aea8e95efc835d56d28b1db2",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4791,7 +4791,7 @@
     "source_sha256": "efdee7fa44e5619aff44a2c2e0501fdede25adee5aaa7dd454810672495093fc",
     "source_byte_ranges": null,
     "poster_sha256": "0dfb9537f4c1982d5b297bf76848c885fe691d510badffcfe806623955278634",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4816,7 +4816,7 @@
       }
     ],
     "poster_sha256": "0bc38e109a76fe91e1dcded6425b339bbbfb2cf0752a35d32be44424df5f159c",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4830,7 +4830,7 @@
     "source_sha256": "2750897791dcc0f448d87c84c188a8757aca4dc9c8df74fba66f8bad4ef1b4e5",
     "source_byte_ranges": null,
     "poster_sha256": "545f68110f30ce255f1b2696632ce60d0246bb2623a624321dd51da7050c854e",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4855,7 +4855,7 @@
       }
     ],
     "poster_sha256": "518c5b5dd56a7a1a1197cb16713d35071a9565cdea05fc6113479c54e86329b1",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4869,7 +4869,7 @@
     "source_sha256": "6429263489382fe17a5cfdeb1cdd301b4254c967e468f6db47baca1688cfef7b",
     "source_byte_ranges": null,
     "poster_sha256": "3aedb35e6fdba848004fcf71b7ca370ae857619631de7e85cb78d74af9dac15e",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4894,7 +4894,7 @@
       }
     ],
     "poster_sha256": "916505d17be72e83865f0c0efa622c2a270d1e1b1bc8480e55334d6f1f02b77d",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4919,7 +4919,7 @@
       }
     ],
     "poster_sha256": "1daaa4bfea9a8519d2a6a5c5f9969045eb2e179aa106b8dde2bd6b024d3e1fee",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4933,7 +4933,7 @@
     "source_sha256": "f9b31c303c9a913f8ab89403d19c284d26bd98f29ba9d99326dd52dd6324d496",
     "source_byte_ranges": null,
     "poster_sha256": "27d252432dbc853ff183c24ae2a8728d775aec20e9a14661b3fcd3ae4cc71785",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4958,7 +4958,7 @@
       }
     ],
     "poster_sha256": "0cc1ff7eaa0c345e3e43cddb898ee48f4222a618fca1ea2b3a6fdc0bb83df0cf",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4983,7 +4983,7 @@
       }
     ],
     "poster_sha256": "55990eb8d5aa4eed53c1bbc60fb69b79159f678064ae16f61675dba88e99e42b",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -4997,7 +4997,7 @@
     "source_sha256": "176bf280856e1bb264c5bb2508ccc37aa53d7ac46547cc5bda9e2a17042549ec",
     "source_byte_ranges": null,
     "poster_sha256": "d11ac8ee421721ed2e4e3b5803d9d93c0c9d2cc45a4e3e4ee00cc11489a66775",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5022,7 +5022,7 @@
       }
     ],
     "poster_sha256": "c0ef384abaa63503f1fe939b14bd7fdf6103509ffc3483eab32d4243f287ee4a",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5036,7 +5036,7 @@
     "source_sha256": "444d2c00d17c0c40736be7b29799b793a6f0f2abd805aee97c6a34292c1dc85d",
     "source_byte_ranges": null,
     "poster_sha256": "8b0188d4021d10ba1e0c94d4f8716b76c4319fa431bd7343cc50d1aadd91e07e",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5061,7 +5061,7 @@
       }
     ],
     "poster_sha256": "c22ccad3f7178c4a8d5f944908eace100588b38ec9d40144fce059e6b78382e4",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5086,7 +5086,7 @@
       }
     ],
     "poster_sha256": "9da347864481726116632062a7cdf17a6c6bd47e06ff99e8022428bc2106a6aa",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5111,7 +5111,7 @@
       }
     ],
     "poster_sha256": "cc4463d89f3e9ab82ea4ca42a10c78f441d894f1a427f819755bb7c4d290a5be",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5125,7 +5125,7 @@
     "source_sha256": "ffa856d80417f15b0872f9c8e8260acf5a6fae6a0d4212c1c86854237ea49c5b",
     "source_byte_ranges": [],
     "poster_sha256": "9e8024bc173b0d3207390444ae41aca1ac7035cb009d995188dea5bce7d8a304",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5139,7 +5139,7 @@
     "source_sha256": "d026f4875e4f96eb71a69d85ae0ee5be5f3113fbf8ae6ffcedd824193438215f",
     "source_byte_ranges": [],
     "poster_sha256": "63cf2335089cc91a03361ae00840b2b475c3af640658cb2d81a591d50f7b8df1",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5153,7 +5153,7 @@
     "source_sha256": "547b016f9dc7f00eab8a4e39248d184c4484bdf9e89826d568f02cb1b760d7cd",
     "source_byte_ranges": [],
     "poster_sha256": "bffb696aec53cf1e89c19bacd4d626f018cab6f4fa3ac1dd3099228b08070f1a",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5167,7 +5167,7 @@
     "source_sha256": "538fe80400f48f82cb0454f51fc91bb8dafa165298922df37ec07a33590e3707",
     "source_byte_ranges": null,
     "poster_sha256": "550a270c4958fc2269d65267d8be5f825d89fd0e4aad0ac12905dbf045d0f13c",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5181,7 +5181,7 @@
     "source_sha256": "665e317335a955187df3ccaad14a9cb69117ed54b6f249fc657e9bbe9a95146f",
     "source_byte_ranges": [],
     "poster_sha256": "9239e184ec6ff663d30d06bc257c261c8f0d17793590f12d9f5aaf7997a4d337",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5195,7 +5195,7 @@
     "source_sha256": "374ce26ac473d510752f56b513f2d44bdaf907527649eae2d6b8dc7b698db16c",
     "source_byte_ranges": [],
     "poster_sha256": "8363cbfd4f23ee305471ad3b71324e48b47af798ae4caea0d39a64d96b6bcd6e",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5209,7 +5209,7 @@
     "source_sha256": "210e43b1062b8f5c77563447a5e8f49f6ca22b2820d31699bf8e746cc652ce03",
     "source_byte_ranges": [],
     "poster_sha256": "530560362d435ba394c1cef9b75a4707a3133e032f45bfb71ab722bd1e15e63d",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5223,7 +5223,7 @@
     "source_sha256": "373196154f84977ec1a8e12e2269c3920f77c98d285b14d6741df0d8ee91a309",
     "source_byte_ranges": [],
     "poster_sha256": "0a326565a37701c63ded9428d55a7be6724e6ae38a063a382d4ad8e42febdbc9",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5237,7 +5237,7 @@
     "source_sha256": "1c3d6fa96cedf3257a6aea576cab6e4328290e1fecf4048fbd3fe02a109c9068",
     "source_byte_ranges": null,
     "poster_sha256": "c3e009bec7cc7841d00ba14dd119b2975dfd28b019f7b5d4e7e493a3d6051041",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5251,7 +5251,7 @@
     "source_sha256": "9938559d6df4d5ae790ff7f52c4a11db8ba973eea5c06cce2dd8c3d8eac233c0",
     "source_byte_ranges": null,
     "poster_sha256": "9105f74f04208cf1c19c8705ce27e0f0b91756d60b868f638c8b5a47b5fb59cb",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5276,7 +5276,7 @@
       }
     ],
     "poster_sha256": "8652b72957c008b239e8f4eaae554159f0c364b3108e4e1ae44eb45bdce8c59f",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5306,7 +5306,7 @@
       }
     ],
     "poster_sha256": "348363da80d7225022326c800fed6fbacc52c7afe6bebe72e2cc9c243217a394",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5320,7 +5320,7 @@
     "source_sha256": "0ae8fc8adec6ac75a3c94d21e7904cf47ba1299a375e71941f471b1259e61327",
     "source_byte_ranges": null,
     "poster_sha256": "64ce114fa0cd91b21e4ec56d053582689c77933a5900e28f47d2d07fd5656b73",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -5334,7 +5334,7 @@
     "source_sha256": "bbcf22170136bcc9828ec8814cee02c9a26a7ead6e31d1f2cb9d8d3ea9c454c9",
     "source_byte_ranges": [],
     "poster_sha256": "83709382d46c8b89b1935425bec192f39f4d18ca61eeaefa54e23cc2a7acf7a0",
-    "license": "待确认",
+    "license": "\u5f85\u786e\u8ba4",
     "attribution": "ali-abassi / remotion-templates (https://github.com/ali-abassi/remotion-templates)"
   },
   {
@@ -7093,5 +7093,245 @@
     "poster_sha256": "50c9dadc7255271b8b450da6483b4f4218fc4ff7e6c300c9e46c670c26be2e1d",
     "license": "MIT",
     "attribution": "SpecStory, Inc. (https://github.com/specstoryai/zero-to-product-video-hero)"
+  },
+  {
+    "resource_id": "freelancer-comic-strip-noir-classic",
+    "source_url": "https://freelancer-templates.org/previews/hero/ComicStrip-NoirClassic.mp4",
+    "poster": "/previews/freelancer-comic-strip-noir-classic.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "163e39f4dc4e85cb2afe14ee0086ff8416a238ae3a97eaa036e4aa4c43980a34"
+      }
+    ],
+    "poster_sha256": "2b20ab35af3384d14b547e35065b73ffc27457123c8635fe46d8ab81f78c2006",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-mood-board-vibrant-mix",
+    "source_url": "https://freelancer-templates.org/previews/hero/MoodBoard-VibrantMix.mp4",
+    "poster": "/previews/freelancer-mood-board-vibrant-mix.webp",
+    "timestamp_seconds": 3.165867,
+    "duration_seconds": 9.045333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ef84e623bf62a9b082f34f7aef8687d6e8d62bdef9f2ce196b67613a46f43eeb"
+      }
+    ],
+    "poster_sha256": "fe207470f19ca8d8eaf38055e6df6909dd589ff1f680af5607c0bf02495cfb8f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-city-lights-neon-purple",
+    "source_url": "https://freelancer-templates.org/previews/hero/CityLights-NeonPurple.mp4",
+    "poster": "/previews/freelancer-city-lights-neon-purple.webp",
+    "timestamp_seconds": 3.165867,
+    "duration_seconds": 9.045333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2c4897d81a2d6fabd5d05b2b66490b7c9d89f9ce86dea87c81ca94fb680f682b"
+      }
+    ],
+    "poster_sha256": "9b883b9764dac31ee6bca983300da62d77800d2dea3623e3f76aa306ec114917",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-quote-card-dark-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/QuoteCard-DarkCentered.mp4",
+    "poster": "/previews/freelancer-quote-card-dark-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ea6f31b2a9188a42d173136fd97092cecbe6d78a1a2bed3420ebe9e3347f64df"
+      }
+    ],
+    "poster_sha256": "625d85c0d4078566f215cfd0d21bfae6c9982c4efa73af31ea592fa551705d18",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-tip-of-the-day-neon-fullscreen",
+    "source_url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-NeonFullscreen.mp4",
+    "poster": "/previews/freelancer-tip-of-the-day-neon-fullscreen.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "e474202c8f114d090065a4bf8a09e863287dde0579513b280c708071018cefb2"
+      }
+    ],
+    "poster_sha256": "7b6e64f0416103ee4e237f006e857bb677d12333764c1b0da2672bc9ac86159d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-bts-creator-clean-studio",
+    "source_url": "https://freelancer-templates.org/previews/hero/BTSCreator-CleanStudio.mp4",
+    "poster": "/previews/freelancer-bts-creator-clean-studio.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "848d590b97f00a486ec7cf1b2001a88d2fa75efd469e041ec402531b333892aa"
+      }
+    ],
+    "poster_sha256": "2406057270ccc99fee468e163cb06145ab136e5faca57af1509a12e77565a1be",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-creator-recap-reels",
+    "source_url": "https://freelancer-templates.org/previews/hero/CreatorRecap-Reels.mp4",
+    "poster": "/previews/freelancer-creator-recap-reels.webp",
+    "timestamp_seconds": 2.471467,
+    "duration_seconds": 7.061333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a43a168173feb380c6269db9391c2e7c8dcf69508d9ae367400ca76b214c4cd8"
+      }
+    ],
+    "poster_sha256": "3c919daf9e7b6ca0f1eae6da60b6b56dc0d96debb71fb5101807e346e1d461a6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-day-in-the-life-reels-cinematic",
+    "source_url": "https://freelancer-templates.org/previews/hero/DayInTheLife-ReelsCinematic.mp4",
+    "poster": "/previews/freelancer-day-in-the-life-reels-cinematic.webp",
+    "timestamp_seconds": 4.218667,
+    "duration_seconds": 12.053333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8951e62c7083eb7a3bb8a0c7be203d1927db6b2f5cb177a5811d37fb09604018"
+      }
+    ],
+    "poster_sha256": "e3d85eedd0f6943dcf4b202fcc95bd5aaf46bc931fd1aad66d53db67232fda2d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-festival-lineup-neon-gradient",
+    "source_url": "https://freelancer-templates.org/previews/hero/FestivalLineup-NeonGradient.mp4",
+    "poster": "/previews/freelancer-festival-lineup-neon-gradient.webp",
+    "timestamp_seconds": 4.218667,
+    "duration_seconds": 12.053333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "858fb793bdaa981a691cc2f258c76d2d7d9ade035b4b201dd6c76e8cd2846a00"
+      }
+    ],
+    "poster_sha256": "f1709ed525b1d125e53a2e0fe9742dfd142b90d392d643653134dec95a78b19e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-foodie-reel-warm-bistro",
+    "source_url": "https://freelancer-templates.org/previews/hero/FoodieReel-WarmBistro.mp4",
+    "poster": "/previews/freelancer-foodie-reel-warm-bistro.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f8cfc8319f6e938171a998ec37aa4254c260469ec0e8752419296f61cfc168e5"
+      }
+    ],
+    "poster_sha256": "84f4413ef223d07ea8d4f433dbc9de3981977997947d612d58f0e95e7c58f333",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-grwm-reel-reels",
+    "source_url": "https://freelancer-templates.org/previews/hero/GRWMReel-Reels.mp4",
+    "poster": "/previews/freelancer-grwm-reel-reels.webp",
+    "timestamp_seconds": 2.814933,
+    "duration_seconds": 8.042667,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a43dfb72f098c76f3061d7bed6864b37f4a976e06fbdbd2cfe9bf03f1a16d362"
+      }
+    ],
+    "poster_sha256": "5cda6a46616ed0135ee626f35e0c034a526eb6197c3caa2baaaff89d534006b7",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-nature-escape-ocean-sunset",
+    "source_url": "https://freelancer-templates.org/previews/hero/NatureEscape-OceanSunset.mp4",
+    "poster": "/previews/freelancer-nature-escape-ocean-sunset.webp",
+    "timestamp_seconds": 3.165867,
+    "duration_seconds": 9.045333,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "153feefd81811898529e0edd7da0ee0366140e3f6ee168de7c43e1ad2767f207"
+      }
+    ],
+    "poster_sha256": "8ea627cde63b8966883fd7e9b537a03c3cfdc25fe03b413945f6118e2493c9ef",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
   }
 ]

@@ -2132,5 +2132,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AB on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes AffiliateReview-ArcticComparison, BehindTheScenes-ArcticTimeline, Listicle-ArcticReveal, Listicle-ArcticStack, Proposal-ArcticCreative, Recap-ArcticTimeline, Testimonial-ArcticCentered, Testimonial-ArcticEditorial, Testimonial-ArcticSplit, AestheticQuote-DarkMoody, AnimatedIcons-NeonOrbit, ProductReveal-LuxuryBlack: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = same-family arctic variants×9 (AffiliateReview/BehindTheScenes/Listicle×2/Proposal/Recap/Testimonial×3) with #L layout anchors for URL uniqueness + non-Arctic new-family×3 (AestheticQuote-DarkMoody/AnimatedIcons-NeonOrbit/ProductReveal-LuxuryBlack). Arctic same-family pool → 0. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
+  },
+  {
+    "id": "S-CV-174",
+    "project_id": "freelancer-templates",
+    "title": "Batch AC preview media — FT×12 heroes (0 RT; 0 SC)",
+    "url": "https://freelancer-templates.org/previews/hero/ComicStrip-NoirClassic.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AC on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes ComicStrip-NoirClassic, MoodBoard-VibrantMix, CityLights-NeonPurple, QuoteCard-DarkCentered, TipOfTheDay-NeonFullscreen, BTSCreator-CleanStudio, CreatorRecap-Reels, DayInTheLife-ReelsCinematic, FestivalLineup-NeonGradient, FoodieReel-WarmBistro, GRWMReel-Reels, NatureEscape-OceanSunset: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = non-Arctic new-family×12 (ComicStrip-NoirClassic/MoodBoard-VibrantMix/CityLights-NeonPurple/QuoteCard-DarkCentered/TipOfTheDay-NeonFullscreen/BTSCreator-CleanStudio/CreatorRecap-Reels/DayInTheLife-ReelsCinematic/FestivalLineup-NeonGradient/FoodieReel-WarmBistro/GRWMReel-Reels/NatureEscape-OceanSunset). 0 same-family arctic fill. Arctic same-family pool → 0. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
   }
 ]
