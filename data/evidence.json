@@ -2253,5 +2253,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AM on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool 0); FT×12 same-family non-Arctic fill (ClientPipeline-MidnightMetrics, ClientWelcome-GoldDashboard, MeetingRecap-MidnightDashboard, ProjectTimeline-EspressoDashboard, ScopeChange-CorporateDashboard, Proposal-MidnightExecutive, QBRDashboard-MidnightComparison, Collaboration-MidnightStatsMerge, EffortTracking-GoldBreakdown, SprintRecap-ShippedListBold, ConceptPitch-GoldBoard, CallToAction-DarkCentered); 0 new-family (TSX pool exhausted after AD); 0 arctic; 0 thumb→video; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred; diversify vs AG creator & AH client-ops CleanDashboard & AI eng-delivery & AJ GTM/learning/event & AK local-commerce/QBR & AL finance/billing → client-ops midnight/gold + eng delivery fill. HEAD+Range ftyp isom 12/12; redistributable:false; heroes hotlinked not mirrored."
+  },
+  {
+    "id": "S-CV-185",
+    "project_id": "freelancer-templates",
+    "title": "Batch AN preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/ThoughtLeadership-OceanEditorial.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AN on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool 0); FT×12 same-family non-Arctic fill (ThoughtLeadership-OceanEditorial, CaseStudy-OceanNarrative, NewsletterPromo-OceanSubscribeCta, PodcastAudiogram-OceanWaveform, Explainer-OceanCinematic, CoursePromo-OceanOverview, AffiliateReview-OceanScorecard, BeforeAfter-OceanSplitScreen, PinCollection-OceanCardGallery, PollQuiz-OceanQuestionCard, BehindTheScenes-OceanSceneCards, Portfolio-OceanCaseStudy); 0 new-family; 0 arctic; LindaMohamed deferred. ThoughtLeadership #L716 collided with editorial-clean → used #L89 (EditorialLayout). Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076."
   }
 ]

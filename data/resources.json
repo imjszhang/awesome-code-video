@@ -14631,5 +14631,365 @@
       "poster": "/previews/freelancer-call-to-action-dark-centered.webp",
       "source": "S-CV-076 https://freelancer-templates.org/previews/hero/CallToAction-DarkCentered.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=172290, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
     }
+  },
+  {
+    "id": "freelancer-thought-leadership-ocean-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Thought Leadership Ocean Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/thoughtleadership/ThoughtLeadership.tsx#L89",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion thought-leadership composition. Reuse ThoughtLeadership.tsx with the editorial layout (EditorialLayout) and Ocean theme; the listed hero variant is Ocean Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ThoughtLeadership-OceanEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-thought-leadership-ocean-editorial.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/ThoughtLeadership-OceanEditorial.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=181347, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-case-study-ocean-narrative",
+    "project_id": "freelancer-templates",
+    "name": "Case Study Ocean Narrative",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L68",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion case-study composition. Reuse CaseStudy.tsx with the narrative layout (NarrativeLayout) and Ocean theme; the listed hero variant is Ocean Narrative. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CaseStudy-OceanNarrative.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-case-study-ocean-narrative.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/CaseStudy-OceanNarrative.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=364886, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-newsletter-promo-ocean-subscribe-cta",
+    "project_id": "freelancer-templates",
+    "name": "Newsletter Promo Ocean Subscribe Cta",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/newsletterpromo/NewsletterPromo.tsx#L62",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion newsletter-promo composition. Reuse NewsletterPromo.tsx with the subscribe-cta layout (SubscribeCtaLayout) and Ocean theme; the listed hero variant is Ocean Subscribe Cta. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/NewsletterPromo-OceanSubscribeCta.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-newsletter-promo-ocean-subscribe-cta.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/NewsletterPromo-OceanSubscribeCta.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=197550, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-podcast-audiogram-ocean-waveform",
+    "project_id": "freelancer-templates",
+    "name": "Podcast Audiogram Ocean Waveform",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx#L58",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion podcast-audiogram composition. Reuse PodcastAudiogram.tsx with the waveform layout (WaveformLayout) and Ocean theme; the listed hero variant is Ocean Waveform. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PodcastAudiogram-OceanWaveform.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-podcast-audiogram-ocean-waveform.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/PodcastAudiogram-OceanWaveform.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=259901, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-explainer-ocean-cinematic",
+    "project_id": "freelancer-templates",
+    "name": "Explainer Ocean Cinematic",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/explainer/Explainer.tsx#L100",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion explainer composition. Reuse Explainer.tsx with the cinematic layout (CinematicLayout) and Ocean theme; the listed hero variant is Ocean Cinematic. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Explainer-OceanCinematic.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-explainer-ocean-cinematic.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/Explainer-OceanCinematic.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=226678, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-course-promo-ocean-overview",
+    "project_id": "freelancer-templates",
+    "name": "Course Promo Ocean Overview",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L61",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion course-promo composition. Reuse CoursePromo.tsx with the overview layout (OverviewLayout) and Ocean theme; the listed hero variant is Ocean Overview. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CoursePromo-OceanOverview.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-course-promo-ocean-overview.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/CoursePromo-OceanOverview.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=183111, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-affiliate-review-ocean-scorecard",
+    "project_id": "freelancer-templates",
+    "name": "Affiliate Review Ocean Scorecard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx#L61",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion affiliate-review composition. Reuse AffiliateReview.tsx with the scorecard layout (ScorecardLayout) and Ocean theme; the listed hero variant is Ocean Scorecard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AffiliateReview-OceanScorecard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-affiliate-review-ocean-scorecard.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/AffiliateReview-OceanScorecard.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=147022, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-before-after-ocean-split-screen",
+    "project_id": "freelancer-templates",
+    "name": "Before After Ocean Split Screen",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/beforeafter/BeforeAfter.tsx#L59",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion before-after composition. Reuse BeforeAfter.tsx with the split-screen layout (SplitScreenLayout) and Ocean theme; the listed hero variant is Ocean Split Screen. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BeforeAfter-OceanSplitScreen.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-before-after-ocean-split-screen.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/BeforeAfter-OceanSplitScreen.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=182511, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-pin-collection-ocean-card-gallery",
+    "project_id": "freelancer-templates",
+    "name": "Pin Collection Ocean Card Gallery",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pincollection/PinCollection.tsx#L27",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pin-collection composition. Reuse PinCollection.tsx with the card-gallery layout (ListDetailShell) and Ocean theme; the listed hero variant is Ocean Card Gallery. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PinCollection-OceanCardGallery.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-pin-collection-ocean-card-gallery.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/PinCollection-OceanCardGallery.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=257212, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-poll-quiz-ocean-question-card",
+    "project_id": "freelancer-templates",
+    "name": "Poll Quiz Ocean Question Card",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L56",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion poll-quiz composition. Reuse PollQuiz.tsx with the question-card layout (QuestionCardLayout) and Ocean theme; the listed hero variant is Ocean Question Card. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PollQuiz-OceanQuestionCard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-poll-quiz-ocean-question-card.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/PollQuiz-OceanQuestionCard.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=192933, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-behind-the-scenes-ocean-scene-cards",
+    "project_id": "freelancer-templates",
+    "name": "Behind The Scenes Ocean Scene Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx#L55",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion behind-the-scenes composition. Reuse BehindTheScenes.tsx with the scene-cards layout (SceneCardsLayout) and Ocean theme; the listed hero variant is Ocean Scene Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-OceanSceneCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-behind-the-scenes-ocean-scene-cards.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/BehindTheScenes-OceanSceneCards.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=236010, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-portfolio-ocean-case-study",
+    "project_id": "freelancer-templates",
+    "name": "Portfolio Ocean Case Study",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L88",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion portfolio composition. Reuse Portfolio.tsx with the case-study layout (CaseStudyLayout) and Ocean theme; the listed hero variant is Ocean Case Study. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-185"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Portfolio-OceanCaseStudy.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-portfolio-ocean-case-study.webp",
+      "source": "S-CV-185 https://freelancer-templates.org/previews/hero/Portfolio-OceanCaseStudy.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=167016, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
