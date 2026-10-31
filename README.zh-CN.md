@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 424 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 436 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -399,6 +399,19 @@
 - [工时追踪：团队分配深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/efforttracking/EffortTracking.tsx#L94) - 用于团队工时分配的 Remotion 成片。复用 EffortTracking.tsx 的 team-allocation 版式（ContributorShell）与 Dark 主题，列出的主预览变体是 Team Allocation Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [平台总览：指挥中心深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/platformoverview/PlatformOverview.tsx#L86) - 用于平台指挥中心总览的 Remotion 成片。复用 PlatformOverview.tsx 的 command-center 版式（StatusBoardShell）与 Dark 主题，列出的主预览变体是 Command Center Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [概念提案：看板粗体](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/conceptpitch/ConceptPitch.tsx#L383) - 用于概念提案看板的 Remotion 成片。复用 ConceptPitch.tsx 的 board 版式（BoardLayout）与 Bold 主题，列出的主预览变体是 Board Bold。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+
+- [课程推广：干净课表](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L120) - 用于课程大纲推广的 Remotion 成片。复用 CoursePromo.tsx 的 curriculum 版式（CurriculumLayout）与 Clean 主题，列出的主预览变体是 Clean Curriculum。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [解说：极简流程](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/explainer/Explainer.tsx#L101) - 用于流程解说的 Remotion 成片。复用 Explainer.tsx 的 process 版式（ProcessLayout）与 Minimal 主题，列出的主预览变体是 Minimal Process。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [案例研究：深色叙事](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L86) - 用于案例叙事的 Remotion 成片。复用 CaseStudy.tsx 的 narrative 版式（NarrativeLayout）与 Dark 主题，列出的主预览变体是 Dark Narrative。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [活动：午夜倒计时](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/event/Event.tsx#L404) - 用于活动倒计时的 Remotion 成片。复用 Event.tsx 的 countdown 版式（CountdownLayout）与 Midnight 主题，列出的主预览变体是 Midnight Countdown。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [活动场地：场地卡片深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/eventvenue/EventVenue.tsx#L38) - 用于活动场地卡片的 Remotion 成片。复用 EventVenue.tsx 的 venue-cards 版式（CardGridShell）与 Dark 主题，列出的主预览变体是 Venue Cards Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [前后对比：暖色揭示擦除](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/beforeafter/BeforeAfter.tsx#L114) - 用于前后对比揭示擦除的 Remotion 成片。复用 BeforeAfter.tsx 的 reveal-wipe 版式（RevealWipeLayout）与 Warm 主题，列出的主预览变体是 Warm Reveal Wipe。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [联盟评测：粗体对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx#L113) - 用于联盟产品对比评测的 Remotion 成片。复用 AffiliateReview.tsx 的 comparison 版式（ComparisonLayout）与 Bold 主题，列出的主预览变体是 Bold Comparison。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [行动号召：薄荷绿极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L430) - 用于极简行动号召的 Remotion 成片。复用 CallToAction.tsx 的 minimal 版式（MinimalLayout）与 Mint 主题，列出的主预览变体是 Mint Minimal。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [公告：霓虹卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L353) - 用于霓虹卡片公告的 Remotion 成片。复用 Announcement.tsx 的 card 版式（CardLayout）与 Neon 主题，列出的主预览变体是 Neon Card。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [客户漏斗：日落漏斗](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientpipeline/ClientPipeline.tsx#L93) - 用于客户漏斗的 Remotion 成片。复用 ClientPipeline.tsx 的 funnel 版式（PipelineShell）与 Sunset 主题，列出的主预览变体是 Sunset Funnel。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [提案：浓缩咖啡高管风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L170) - 用于高管提案展示的 Remotion 成片。复用 ProposalShowcase.tsx 的 ProposalEspressoExecutive 组合（executive 版式）与 Espresso 主题，列出的主预览变体是 Espresso Executive。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [健身日程：粗体循环](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/fitnessroutine/FitnessRoutine.tsx#L219) - 用于健身循环日程的 Remotion 成片。复用 FitnessRoutine.tsx 的 circuit 版式（CircuitLayout）与 Bold 主题，列出的主预览变体是 Bold Circuit。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 

@@ -2209,5 +2209,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AI on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool exhausted); FT×12 same-family non-Arctic fill (FeatureRoadmap-GridClean, SprintRecap-HighlightCardsBold, DeploymentStatus-EnvironmentCardsDark, FeatureFlags-ExperimentBoardDark, BugTracker-SeverityMatrixBold, ProjectHealth-ExecutiveSummaryDark, ComponentInventory-ArchitectureGridClean, IntegrationStatus-StatusWallClean, Collaboration-BoldSplitScreen, EffortTracking-TeamAllocationDark, PlatformOverview-CommandCenterDark, ConceptPitch-BoardBold); 0 new-family (TSX pool exhausted after AD); 0 arctic; 0 thumb→video; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred. HEAD+Range ftyp isom 12/12 on write day; redistributable:false; heroes hotlinked not mirrored."
+  },
+  {
+    "id": "S-CV-181",
+    "project_id": "freelancer-templates",
+    "title": "Batch AJ preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/CoursePromo-CleanCurriculum.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AJ on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool exhausted); FT×12 same-family non-Arctic fill (CoursePromo-CleanCurriculum, Explainer-MinimalProcess, CaseStudy-DarkNarrative, Event-MidnightCountdown, EventVenue-VenueCardsDark, BeforeAfter-WarmRevealWipe, AffiliateReview-BoldComparison, CallToAction-MintMinimal, Announcement-NeonCard, ClientPipeline-SunsetFunnel, Proposal-EspressoExecutive, FitnessRoutine-BoldCircuit); 0 new-family; 0 arctic; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred. HEAD+Range ftyp isom 12/12; redistributable:false; heroes hotlinked not mirrored."
   }
 ]
