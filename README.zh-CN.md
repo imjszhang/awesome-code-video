@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 376 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 388 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -348,6 +348,19 @@
 - [自然逃离：森林清晨](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/natureescape/NatureEscape.tsx#L57) - 用于自然逃离展示的 Remotion 成片。复用 NatureEscape.tsx 的 forest 风格，列出的主预览变体是 Forest Morning。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [穿搭揭示：粉彩梦境](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/outfitreveal/OutfitReveal.tsx#L9) - 用于穿搭揭示展示的 Remotion 成片。复用 OutfitReveal.tsx 的 Pastel Dream 配色，列出的主预览变体是 Pastel Dream。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [旅行蒙太奇：日落氛围](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/travelmontage/TravelMontage.tsx#L78) - 用于旅行蒙太奇展示的 Remotion 成片。复用 TravelMontage.tsx 的 sunset 风格，列出的主预览变体是 Sunset Vibes。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+
+- [开箱时刻：TikTok 热度](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/unboxingmoment/UnboxingMoment.tsx#L96) - 用于开箱时刻展示的 Remotion 成片。复用 UnboxingMoment.tsx 的 hype 风格，列出的主预览变体是 TikTok Hype。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [公告：珊瑚极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L197) - 用于公告展示的 Remotion 成片。复用 Announcement.tsx 的 minimal 版式（MinimalLayout），列出的主预览变体是 Coral Minimal。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [行动号召：炭黑居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L197) - 用于行动号召展示的 Remotion 成片。复用 CallToAction.tsx 的 centered 版式（CenteredLayout），列出的主预览变体是 Charcoal Centered。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [前后对比：深色分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/beforeafter/BeforeAfter.tsx#L126) - 用于前后对比展示的 Remotion 成片。复用 BeforeAfter.tsx 的 split-screen 版式（SplitScreenLayout），列出的主预览变体是 Dark Split Screen。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [活动：干净嘉宾](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/event/Event.tsx#L294) - 用于活动嘉宾展示的 Remotion 成片。复用 Event.tsx 的 speakers 版式（SpeakersLayout），列出的主预览变体是 Clean Speakers。替换活动名称、日程与嘉宾。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [讲解：干净白板](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/explainer/Explainer.tsx#L99) - 用于产品走查和功能拆解的 Remotion 成片。复用 Explainer.tsx 的 whiteboard 版式，列出的主预览变体是 Clean Whiteboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [回顾：干净时间线](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recap/Recap.tsx#L127) - 用于仪表盘、卡片和项目时间线的 Remotion 成片。复用 Recap.tsx 的 timeline 版式，列出的主预览变体是 Clean Timeline。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [统计计数：珊瑚网格](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounterShowcase.tsx#L81) - 用于统计计数网格展示的 Remotion 成片。通过 StatCounterShowcase 的 StatCounterCoralGrid 导出复用，列出的主预览变体是 Coral Grid。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [案例：大胆聚焦](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L275) - 用于案例聚焦展示的 Remotion 成片。复用 CaseStudy.tsx 的 spotlight 版式（SpotlightLayout）与 Bold 主题，列出的主预览变体是 Bold Spotlight。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [课程宣传：干净总览](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L132) - 用于课程大纲与总览宣传的 Remotion 成片。复用 CoursePromo.tsx 的 overview 版式（OverviewLayout），列出的主预览变体是 Clean Overview。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [教程：干净编号步骤](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L116) - 用于编号步骤教程展示的 Remotion 成片。复用 Tutorial.tsx 的 numbered-steps 版式（NumberedStepsLayout），列出的主预览变体是 Clean Numbered Steps。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [联盟评测：大胆记分卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx#L125) - 用于联盟评测记分卡展示的 Remotion 成片。复用 AffiliateReview.tsx 的 scorecard 版式（ScorecardLayout）与 Bold 主题，列出的主预览变体是 Bold Scorecard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 
