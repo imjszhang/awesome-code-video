@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 328 个可复用单元：154 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 340 个可复用单元：154 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -296,6 +296,18 @@
 - [教程：北极卡片序列](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L218) - 用于编号步骤、卡片序列和分屏演示的 Remotion 教程成片。复用 Tutorial.tsx 的 Arctic 主题与 card-sequence 版式（CardSequenceLayout），列出的主预览变体是 Arctic Card Sequence。替换步骤和文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [案例：北极对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L185) - 用于前后对比和结果标注的 Remotion 案例成片。复用 CaseStudy.tsx 的 Arctic 主题与 comparison 版式（ComparisonLayout），列出的主预览变体是 Arctic Comparison。替换客户故事和指标。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 - [课程宣传：北极课程大纲](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L269) - 用于课程大纲、讲师和总览版式的 Remotion 成片。复用 CoursePromo.tsx 的 Arctic 主题与 curriculum 版式（CurriculumLayout），列出的主预览变体是 Arctic Curriculum。替换课程大纲和文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [联盟评测：北极对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx#L265) - 用于产品对比、记分卡和结论的 Remotion 联盟评测成片。复用 AffiliateReview.tsx 的 Arctic 主题与 comparison 版式（ComparisonLayout），列出的主预览变体是 Arctic Comparison。替换产品、分数和行动号召。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [幕后：北极时间线](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx#L220) - 用于过程走查和场景卡片的 Remotion 幕后成片。复用 BehindTheScenes.tsx 的 Arctic 主题与 timeline 版式（TimelineLayout），列出的主预览变体是 Arctic Timeline。替换场景与收尾文案。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [清单文：北极揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L460) - 用于排序揭示与卡片堆叠的 Remotion 清单文成片。复用 Listicle.tsx 的 Arctic 主题与 reveal 版式（RevealLayout），列出的主预览变体是 Arctic Reveal。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [清单文：北极堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L215) - 用于排序揭示与卡片堆叠的 Remotion 清单文成片。复用 Listicle.tsx 的 Arctic 主题与 stack 版式（StackLayout），列出的主预览变体是 Arctic Stack。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [提案：北极创意风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/Proposal.tsx#L360) - 用于范围、时间线和报价演示的 Remotion 提案成片。复用 Proposal.tsx 的 Arctic 主题与 creative 版式（CreativeLayout），列出的主预览变体是 Arctic Creative。替换提案文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [回顾：北极时间线](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recap/Recap.tsx#L310) - 用于仪表盘、卡片和项目时间线的 Remotion 回顾成片。复用 Recap.tsx 的 Arctic 主题与 timeline 版式（TimelineLayout），列出的主预览变体是 Arctic Timeline。替换里程碑和指标。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [客户证言：北极居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L129) - 可主题切换的 Remotion 客户证言成片，含居中、分屏和编辑排版。复用 Testimonial.tsx 的 Arctic 主题与 centered 版式（CenteredLayout），列出的主预览变体是 Arctic Centered。替换引言、客户与行动号召。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [客户证言：北极编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L355) - 可主题切换的 Remotion 客户证言成片，含居中、分屏和编辑排版。复用 Testimonial.tsx 的 Arctic 主题与 editorial 版式（EditorialLayout），列出的主预览变体是 Arctic Editorial。替换引言、客户与行动号召。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [客户证言：北极分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L247) - 可主题切换的 Remotion 客户证言成片，含居中、分屏和编辑排版。复用 Testimonial.tsx 的 Arctic 主题与 split 版式（SplitLayout），列出的主预览变体是 Arctic Split。替换引言、客户与行动号召。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [美学引言：深色忧郁](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/aestheticquote/AestheticQuote.tsx) - 用于美学引言展示的 Remotion 成片，列出的主预览变体是 Dark Moody。复用 AestheticQuote.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [动画图标：霓虹轨道](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedicons/AnimatedIcons.tsx) - 用于动画图标展示的 Remotion 成片，列出的主预览变体是 Neon Orbit。复用 AnimatedIcons.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
+- [产品揭示：奢华黑](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productreveal/ProductReveal.tsx) - 用于产品揭示展示的 Remotion 成片，列出的主预览变体是 Luxury Black。复用 ProductReveal.tsx 与主题 props，替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像；Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 
