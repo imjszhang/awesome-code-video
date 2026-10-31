@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 400 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 412 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -374,6 +374,18 @@
 - [播客音波图：深色单集宣传](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx#L334) - 用于播客单集宣传的 Remotion 成片。复用 PodcastAudiogram.tsx 的 episode-promo 版式（EpisodePromoLayout）与 Dark 主题，列出的主预览变体是 Dark Episode Promo。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [创作者回顾：TikTok](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/creatorrecap/CreatorRecap.tsx#L122) - 用于创作者回顾的 Remotion 成片。复用 CreatorRecap.tsx 的 tiktok_vertical 平台分支，列出的主预览变体是 TikTok。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [食谱步骤：干净步骤序列](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recipestep/RecipeStep.tsx#L206) - 用于食谱步骤序列的 Remotion 成片。复用 RecipeStep.tsx 的 step-sequence 版式（StepSequenceLayout）与 Clean 主题，列出的主预览变体是 Clean Step Sequence。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [客户报告：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L135) - 用于客户报告仪表盘展示的 Remotion 成片。复用 ClientReport.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [客户欢迎：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L115) - 用于客户欢迎仪表盘展示的 Remotion 成片。复用 ClientWelcome.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [会议纪要：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/meetingrecap/MeetingRecap.tsx#L90) - 用于会议纪要仪表盘展示的 Remotion 成片。复用 MeetingRecap.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [项目时间线：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L109) - 用于项目时间线仪表盘展示的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [报价卡：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L91) - 用于报价卡仪表盘展示的 Remotion 成片。复用 RateCard.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [成果展示：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/resultsshowcase/ResultsShowcase.tsx#L95) - 用于成果展示仪表盘的 Remotion 成片。复用 ResultsShowcase.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [范围变更：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/scopechange/ScopeChange.tsx#L103) - 用于范围变更仪表盘展示的 Remotion 成片。复用 ScopeChange.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [服务总览：干净仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/serviceoverview/ServiceOverview.tsx#L88) - 用于服务总览仪表盘展示的 Remotion 成片。复用 ServiceOverview.tsx 的 dashboard 版式与 Clean 主题，列出的主预览变体是 Clean Dashboard。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [发票：干净专业风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/invoice/Invoice.tsx#L319) - 用于专业账单版式的 Remotion 发票成片。复用 Invoice.tsx 的 professional 版式（ProfessionalLayout）与 Clean 主题，列出的主预览变体是 Clean Professional。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [里程碑：干净旅程](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/milestone/Milestone.tsx#L259) - 用于旅程时间线的 Remotion 里程碑成片。复用 Milestone.tsx 的 journey 版式（JourneyLayout）与 Clean 主题，列出的主预览变体是 Clean Journey。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [入职引导：干净专业风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx#L342) - 用于专业入职引导的 Remotion 成片。复用 Onboarding.tsx 的 professional 版式（ProfessionalLayout）与 Clean 主题，列出的主预览变体是 Clean Professional。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [发版说明：干净更新日志](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/releasenotes/ReleaseNotes.tsx#L101) - 用于更新日志时间线的 Remotion 发版说明成片。复用 ReleaseNotes.tsx 的 changelog 版式（TimelineShell）与 Clean 主题，列出的主预览变体是 Changelog Clean。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 
