@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 484 个可复用单元：178 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 496 个可复用单元：190 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -463,6 +463,18 @@
 - [投票问答：海洋问题卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L56) - 用于投票问答问题卡的 Remotion 成片。复用 PollQuiz.tsx 的 question-card 版式（QuestionCardLayout）与 Ocean 主题，列出的主预览变体是 Ocean Question Card。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [幕后：海洋场景卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx#L55) - 用于幕后场景卡展示的 Remotion 成片。复用 BehindTheScenes.tsx 的 scene-cards 版式（SceneCardsLayout）与 Ocean 主题，列出的主预览变体是 Ocean Scene Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [作品集：海洋案例](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L88) - 用于作品集案例展示的 Remotion 成片。复用 Portfolio.tsx 的 case-study 版式（CaseStudyLayout）与 Ocean 主题，列出的主预览变体是 Ocean Case Study。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [教程：绯红分步编号](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L110) - 用于分步编号教程成片的 Remotion 模板。复用 Tutorial.tsx 的 numbered-steps 版式（NumberedStepsLayout）与 Crimson 主题，列出的主预览变体是 Crimson Numbered Steps。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [旅行行程：绯红逐日](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/travelitinerary/TravelItinerary.tsx#L34) - 用于逐日行程展示的 Remotion 成片。复用 TravelItinerary.tsx 的 day-by-day 版式（DayByDayLayout）与 Crimson 主题，列出的主预览变体是 Crimson Day By Day。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [倒计时热场：绯红计时器](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L116) - 用于倒计时热场计时器的 Remotion 成片。复用 CountdownHype.tsx 的 timer 版式（TimerLayout）与 Crimson 主题，列出的主预览变体是 Crimson Timer。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [音乐可视化：绯红柱状](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/musicvisualizer/MusicVisualizer.tsx#L104) - 用于柱状音乐可视化的 Remotion 成片。复用 MusicVisualizer.tsx 的 bars 版式（BarsLayout）与 Crimson 主题，列出的主预览变体是 Crimson Bars。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [动画列表：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedlist/AnimatedList.tsx#L45) - 用于动画列表展示的 Remotion 成片。复用 AnimatedList.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [动画文字：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedtext/AnimatedText.tsx#L41) - 用于动画文字展示的 Remotion 成片。复用 AnimatedText.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [故障文字：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx#L39) - 用于故障文字效果的 Remotion 成片。复用 GlitchText.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [打字机字幕：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/typewritersubtitle/TypewriterSubtitle.tsx#L39) - 用于打字机字幕的 Remotion 成片。复用 TypewriterSubtitle.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [几何图案：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/geometricpatterns/GeometricPatterns.tsx#L41) - 用于几何图案背景的 Remotion 成片。复用 GeometricPatterns.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [液体波：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/liquidwave/LiquidWave.tsx#L41) - 用于液体波效果的 Remotion 成片。复用 LiquidWave.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [声波：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/soundwave/SoundWave.tsx#L41) - 用于声波可视化的 Remotion 成片。复用 SoundWave.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [粒子爆炸：绯红](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/particleexplosion/ParticleExplosion.tsx#L41) - 用于粒子爆炸效果的 Remotion 成片。复用 ParticleExplosion.tsx 与主题 props，列出的主预览变体是 Crimson。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
