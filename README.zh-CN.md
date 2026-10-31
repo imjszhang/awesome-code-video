@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 448 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 460 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -426,6 +426,18 @@
 - [投票问答：霓虹题卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L115) - 用于投票问答题卡的 Remotion 成片。复用 PollQuiz.tsx 的 question-card 版式（QuestionCardLayout）与 Neon 主题，列出的主预览变体是 Neon Question Card。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [钉选合集：暖色卡片画廊](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pincollection/PinCollection.tsx#L34) - 用于钉选地点合集的 Remotion 成片。复用 PinCollection.tsx 的 card-gallery 版式（ListDetailShell）与 Warm 主题，列出的主预览变体是 Card Gallery Warm。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 
+- [报价卡：奶油极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L84) - 用于极简引言展示的 Remotion 报价卡成片。复用 QuoteCard.tsx 的 minimal 版式（MinimalLayout）与 Cream 主题，列出的主预览变体是 Cream Minimal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [发票：午夜专业风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/invoice/Invoice.tsx#L101) - 用于专业账单版式的 Remotion 发票成片。复用 Invoice.tsx 的 professional 版式（ProfessionalLayout）与 Midnight 主题，列出的主预览变体是 Midnight Professional。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [定价：意式对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pricing/Pricing.tsx#L73) - 用于套餐对比的 Remotion 定价成片。复用 Pricing.tsx 的 comparison 版式（ComparisonLayout）与 Espresso 主题，列出的主预览变体是 Espresso Comparison。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [费率卡：财务仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L69) - 用于费率卡仪表盘展示的 Remotion 成片。复用 RateCard.tsx 的 dashboard 版式与 Finance 主题，列出的主预览变体是 Finance Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [里程碑：大胆庆贺](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/milestone/Milestone.tsx#L96) - 用于里程碑庆贺的 Remotion 成片。复用 Milestone.tsx 的 celebration 版式（CelebrationLayout）与 Bold 主题，列出的主预览变体是 Bold Celebration。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [入职：意式友好风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx#L96) - 用于友好入职引导的 Remotion 成片。复用 Onboarding.tsx 的 friendly 版式（FriendlyLayout）与 Espresso 主题，列出的主预览变体是 Espresso Friendly。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [成果展示：午夜仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/resultsshowcase/ResultsShowcase.tsx#L73) - 用于成果展示仪表盘的 Remotion 成片。复用 ResultsShowcase.tsx 的 dashboard 版式与 Midnight 主题，列出的主预览变体是 Midnight Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [服务总览：企业仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/serviceoverview/ServiceOverview.tsx#L66) - 用于服务总览仪表盘的 Remotion 成片。复用 ServiceOverview.tsx 的 dashboard 版式与 Corporate 主题，列出的主预览变体是 Corporate Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户报告：意式仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L115) - 用于客户报告仪表盘的 Remotion 成片。复用 ClientReport.tsx 的 dashboard 版式与 Espresso 主题，列出的主预览变体是 Espresso Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [FAQ：大胆面试风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/faq/FAQ.tsx#L65) - 用于面试问答展示的 Remotion FAQ 成片。复用 FAQ.tsx 的 interview 版式（InterviewLayout）与 Bold 主题，列出的主预览变体是 Bold Interview。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [社交证明：金色成就](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/socialproof/SocialProof.tsx#L68) - 用于成就证明展示的 Remotion 社交证明成片。复用 SocialProof.tsx 的 achievement 版式（AchievementLayout）与 Gold 主题，列出的主预览变体是 Gold Achievement。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [作品集：大胆卷轴](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L89) - 用于作品卷轴展示的 Remotion 作品集成片。复用 Portfolio.tsx 的 reel 版式（ReelLayout）与 Bold 主题，列出的主预览变体是 Bold Reel。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 ## 参数化地图镜头
 
 以下示例来自 [map-motion](https://github.com/SpaceZephyr/map-motion)。复制 JSON 示例后修改坐标、路线、标签和时间配置，再按项目说明渲染。所选地图模式可能需要 API Key 或对应数据。
