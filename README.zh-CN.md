@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 412 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 424 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -386,6 +386,19 @@
 - [里程碑：干净旅程](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/milestone/Milestone.tsx#L259) - 用于旅程时间线的 Remotion 里程碑成片。复用 Milestone.tsx 的 journey 版式（JourneyLayout）与 Clean 主题，列出的主预览变体是 Clean Journey。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [入职引导：干净专业风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx#L342) - 用于专业入职引导的 Remotion 成片。复用 Onboarding.tsx 的 professional 版式（ProfessionalLayout）与 Clean 主题，列出的主预览变体是 Clean Professional。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [发版说明：干净更新日志](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/releasenotes/ReleaseNotes.tsx#L101) - 用于更新日志时间线的 Remotion 发版说明成片。复用 ReleaseNotes.tsx 的 changelog 版式（TimelineShell）与 Clean 主题，列出的主预览变体是 Changelog Clean。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+
+- [功能路线图：网格干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureroadmap/FeatureRoadmap.tsx#L62) - 用于功能路线图网格展示的 Remotion 成片。复用 FeatureRoadmap.tsx 的 grid 版式（CardGridShell）与 Clean 主题，列出的主预览变体是 Grid Clean。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [冲刺复盘：高亮卡片粗体](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintrecap/SprintRecap.tsx#L39) - 用于冲刺复盘高亮卡片的 Remotion 成片。复用 SprintRecap.tsx 的 highlight-cards 版式（HeroStatShell）与 Bold 主题，列出的主预览变体是 Highlight Cards Bold。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [部署状态：环境卡片深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/deploymentstatus/DeploymentStatus.tsx#L78) - 用于部署环境卡片展示的 Remotion 成片。复用 DeploymentStatus.tsx 的 environment-cards 版式（ListDetailShell）与 Dark 主题，列出的主预览变体是 Environment Cards Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [特性开关：实验看板深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureflags/FeatureFlags.tsx#L81) - 用于特性开关实验看板的 Remotion 成片。复用 FeatureFlags.tsx 的 experiment-board 版式（CardGridShell）与 Dark 主题，列出的主预览变体是 Experiment Board Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [缺陷追踪：严重度矩阵粗体](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtracker/BugTracker.tsx#L93) - 用于缺陷严重度矩阵的 Remotion 成片。复用 BugTracker.tsx 的 severity-matrix 版式（StatusBoardShell）与 Bold 主题，列出的主预览变体是 Severity Matrix Bold。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [项目健康：高管摘要深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecthealth/ProjectHealth.tsx#L64) - 用于项目健康高管摘要的 Remotion 成片。复用 ProjectHealth.tsx 的 executive-summary 版式（StatusBoardShell）与 Dark 主题，列出的主预览变体是 Executive Summary Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [组件清单：架构网格干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/componentinventory/ComponentInventory.tsx#L86) - 用于组件架构网格清单的 Remotion 成片。复用 ComponentInventory.tsx 的 architecture-grid 版式（CardGridShell）与 Clean 主题，列出的主预览变体是 Architecture Grid Clean。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [集成状态：状态墙干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/integrationstatus/IntegrationStatus.tsx#L81) - 用于集成状态墙展示的 Remotion 成片。复用 IntegrationStatus.tsx 的 status-wall 版式（CardGridShell）与 Clean 主题，列出的主预览变体是 Status Wall Clean。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [协作：粗体分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L106) - 用于协作分屏展示的 Remotion 成片。复用 Collaboration.tsx 的 split-screen 版式（SplitScreenLayout）与 Bold 主题，列出的主预览变体是 Bold Split Screen。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [工时追踪：团队分配深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/efforttracking/EffortTracking.tsx#L94) - 用于团队工时分配的 Remotion 成片。复用 EffortTracking.tsx 的 team-allocation 版式（ContributorShell）与 Dark 主题，列出的主预览变体是 Team Allocation Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [平台总览：指挥中心深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/platformoverview/PlatformOverview.tsx#L86) - 用于平台指挥中心总览的 Remotion 成片。复用 PlatformOverview.tsx 的 command-center 版式（StatusBoardShell）与 Dark 主题，列出的主预览变体是 Command Center Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [概念提案：看板粗体](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/conceptpitch/ConceptPitch.tsx#L383) - 用于概念提案看板的 Remotion 成片。复用 ConceptPitch.tsx 的 board 版式（BoardLayout）与 Bold 主题，列出的主预览变体是 Board Bold。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 
