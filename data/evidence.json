@@ -2198,5 +2198,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AH on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes ClientReport-CleanDashboard, ClientWelcome-CleanDashboard, MeetingRecap-CleanDashboard, ProjectTimeline-CleanDashboard, RateCard-CleanDashboard, ResultsShowcase-CleanDashboard, ScopeChange-CleanDashboard, ServiceOverview-CleanDashboard, Invoice-CleanProfessional, Milestone-CleanJourney, Onboarding-CleanProfessional, ReleaseNotes-ChangelogClean. Each: HEAD HTTP 200 video/mp4, ftyp isom, redistributable:false (site CC-BY-NC-SA 4.0; GH license empty). Hotlink only; not mirrored; render_tested:false. Same-family non-Arctic fill ×12; 0 new-family (TSX pool exhausted after AD); 0 arctic. Reuse S-CV-074 (license) and S-CV-076 (preview media pattern). LindaMohamed-* deferred; HV nyt-graph / product-promo-30s deferred."
+  },
+  {
+    "id": "S-CV-180",
+    "project_id": "freelancer-templates",
+    "title": "Batch AI preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/FeatureRoadmap-GridClean.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AI on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool exhausted); FT×12 same-family non-Arctic fill (FeatureRoadmap-GridClean, SprintRecap-HighlightCardsBold, DeploymentStatus-EnvironmentCardsDark, FeatureFlags-ExperimentBoardDark, BugTracker-SeverityMatrixBold, ProjectHealth-ExecutiveSummaryDark, ComponentInventory-ArchitectureGridClean, IntegrationStatus-StatusWallClean, Collaboration-BoldSplitScreen, EffortTracking-TeamAllocationDark, PlatformOverview-CommandCenterDark, ConceptPitch-BoardBold); 0 new-family (TSX pool exhausted after AD); 0 arctic; 0 thumb→video; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred. HEAD+Range ftyp isom 12/12 on write day; redistributable:false; heroes hotlinked not mirrored."
   }
 ]
