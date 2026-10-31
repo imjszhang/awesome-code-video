@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 472 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 484 个可复用单元：178 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -451,6 +451,18 @@
 - [冲刺回顾：大胆交付清单](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintrecap/SprintRecap.tsx#L35) - 用于冲刺交付清单回顾的 Remotion 成片。复用 SprintRecap.tsx 的 shipped-list 版式（ShippedListLayout）与 Bold 主题，列出的主预览变体是 Shipped List Bold。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [概念路演：金色看板](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/conceptpitch/ConceptPitch.tsx#L683) - 用于概念路演看板的 Remotion 成片。复用 ConceptPitch.tsx 的 board 版式（BoardLayout）与 Gold 主题，列出的主预览变体是 Gold Board。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [行动号召：深色居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L174) - 用于居中行动号召的 Remotion 成片。复用 CallToAction.tsx 的 centered 版式（CenteredLayout）与 Dark 主题，列出的主预览变体是 Dark Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [思想领导力：海洋社论](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/thoughtleadership/ThoughtLeadership.tsx#L89) - 用于思想领导力社论成片的 Remotion 模板。复用 ThoughtLeadership.tsx 的 editorial 版式（EditorialLayout）与 Ocean 主题，列出的主预览变体是 Ocean Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [案例研究：海洋叙事](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L68) - 用于案例叙事成片的 Remotion 模板。复用 CaseStudy.tsx 的 narrative 版式（NarrativeLayout）与 Ocean 主题，列出的主预览变体是 Ocean Narrative。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [通讯推广：海洋订阅号召](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/newsletterpromo/NewsletterPromo.tsx#L62) - 用于通讯订阅号召的 Remotion 成片。复用 NewsletterPromo.tsx 的 subscribe-cta 版式（SubscribeCtaLayout）与 Ocean 主题，列出的主预览变体是 Ocean Subscribe Cta。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [播客波形：海洋波形](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx#L58) - 用于播客波形视听图的 Remotion 成片。复用 PodcastAudiogram.tsx 的 waveform 版式（WaveformLayout）与 Ocean 主题，列出的主预览变体是 Ocean Waveform。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [解说：海洋电影感](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/explainer/Explainer.tsx#L100) - 用于电影感解说成片的 Remotion 模板。复用 Explainer.tsx 的 cinematic 版式（CinematicLayout）与 Ocean 主题，列出的主预览变体是 Ocean Cinematic。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [课程推广：海洋概览](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L61) - 用于课程概览推广的 Remotion 成片。复用 CoursePromo.tsx 的 overview 版式（OverviewLayout）与 Ocean 主题，列出的主预览变体是 Ocean Overview。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [联盟评测：海洋记分卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx#L61) - 用于联盟评测记分卡的 Remotion 成片。复用 AffiliateReview.tsx 的 scorecard 版式（ScorecardLayout）与 Ocean 主题，列出的主预览变体是 Ocean Scorecard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [前后对比：海洋分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/beforeafter/BeforeAfter.tsx#L59) - 用于前后对比分屏的 Remotion 成片。复用 BeforeAfter.tsx 的 split-screen 版式（SplitScreenLayout）与 Ocean 主题，列出的主预览变体是 Ocean Split Screen。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [收藏合集：海洋卡片廊](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pincollection/PinCollection.tsx#L27) - 用于收藏卡片廊展示的 Remotion 成片。复用 PinCollection.tsx 的 card-gallery 版式（ListDetailShell）与 Ocean 主题，列出的主预览变体是 Ocean Card Gallery。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [投票问答：海洋问题卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L56) - 用于投票问答问题卡的 Remotion 成片。复用 PollQuiz.tsx 的 question-card 版式（QuestionCardLayout）与 Ocean 主题，列出的主预览变体是 Ocean Question Card。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [幕后：海洋场景卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/behindthescenes/BehindTheScenes.tsx#L55) - 用于幕后场景卡展示的 Remotion 成片。复用 BehindTheScenes.tsx 的 scene-cards 版式（SceneCardsLayout）与 Ocean 主题，列出的主预览变体是 Ocean Scene Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [作品集：海洋案例](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L88) - 用于作品集案例展示的 Remotion 成片。复用 Portfolio.tsx 的 case-study 版式（CaseStudyLayout）与 Ocean 主题，列出的主预览变体是 Ocean Case Study。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
