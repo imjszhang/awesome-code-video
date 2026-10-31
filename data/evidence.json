@@ -2099,5 +2099,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch Y on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). freelancer-templates heroes ComponentInventory-ArcticDependencyMap, EffortTracking-ArcticCapacity, PodcastAudiogram-ArcticQuoteCard, StoreLocator-ArcticDirectory, Collaboration-ArcticAnnouncement, OfficeDirectory-ArcticCardList, Listing-ArcticFeatureGrid, PollQuiz-ArcticResultsBar, TravelItinerary-ArcticRouteOverview, EventVenue-ArcticVenueCards, NeighborhoodGuide-ArcticHighlightsReel, PinCollection-ArcticCardGallery: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. SwiftClip JPG+TSX pool exhausted after Batch X → FT×4 sc_pool_substitute. 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
+  },
+  {
+    "id": "S-CV-171",
+    "project_id": "freelancer-templates",
+    "title": "Batch Z preview media — FT×12 heroes (0 RT; 0 SC)",
+    "url": "https://freelancer-templates.org/previews/hero/CountdownHype-ArcticTeaser.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch Z on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB new-family relax). 0 SC (JPG+TSX pool exhausted after Batch X). freelancer-templates heroes CountdownHype-ArcticTeaser, RecipeStep-ArcticStepSequence, MusicVisualizer-ArcticRadial, FitnessRoutine-ArcticTimerFocus, CardFlip-Arctic, AnimatedList-Arctic, GeometricPatterns-Arctic, MatrixRain-Arctic, SoundWave-Arctic, LiquidWave-Arctic, ParticleExplosion-Arctic, TypewriterSubtitle-Arctic: site hero MP4 HEAD 200 video/mp4 ftyp isom; CC-BY-NC-SA 4.0 (S-CV-074) redistributable false. FT×12 = Y defer×4 (CountdownHype/RecipeStep/MusicVisualizer/FitnessRoutine) + new-family×8 (CardFlip/AnimatedList/GeometricPatterns/MatrixRain/SoundWave/LiquidWave/ParticleExplosion/TypewriterSubtitle). 0 thumb→video upgrades. HV nyt-graph and product-promo-30s deferred. 0 lemo/RC/webreel/MotionGit. Posters WebP only; render_tested remains false."
   }
 ]
