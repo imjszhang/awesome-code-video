@@ -2220,5 +2220,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AJ on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool exhausted); FT×12 same-family non-Arctic fill (CoursePromo-CleanCurriculum, Explainer-MinimalProcess, CaseStudy-DarkNarrative, Event-MidnightCountdown, EventVenue-VenueCardsDark, BeforeAfter-WarmRevealWipe, AffiliateReview-BoldComparison, CallToAction-MintMinimal, Announcement-NeonCard, ClientPipeline-SunsetFunnel, Proposal-EspressoExecutive, FitnessRoutine-BoldCircuit); 0 new-family; 0 arctic; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred. HEAD+Range ftyp isom 12/12; redistributable:false; heroes hotlinked not mirrored."
+  },
+  {
+    "id": "S-CV-182",
+    "project_id": "freelancer-templates",
+    "title": "Batch AK preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/QBRDashboard-SunsetExecutive.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-10-31",
+    "notes": "Batch AK on 2026-10-31. 0 RT (same-family ≥80KB pool exhausted; no <65KB relax); 0 SC (JPG+TSX pool 0); FT×12 same-family non-Arctic fill (QBRDashboard-SunsetExecutive, OfficeDirectory-EspressoCardList, StoreLocator-MidnightDirectory, NeighborhoodGuide-ExplorerWarm, Listing-CleanShowcase, ThoughtLeadership-EditorialClean, AgentDashboard-ControlPanelDark, StatCounter-MintProgress, Recap-SunsetCards, TipOfTheDay-MintMinimal, PollQuiz-NeonQuestionCard, PinCollection-CardGalleryWarm); 0 new-family (TSX pool exhausted after AD); 0 arctic; 0 thumb→video; 0 HV/RC/webreel/MotionGit/lemo; LindaMohamed deferred; diversify vs AG creator & AH client-ops & AI eng-delivery & AJ GTM/learning/event → local-commerce/store/QBR/content-outreach. HEAD+Range ftyp isom 12/12; redistributable:false; heroes hotlinked not mirrored."
   }
 ]

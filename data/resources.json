@@ -13551,5 +13551,365 @@
       "poster": "/previews/freelancer-fitness-routine-bold-circuit.webp",
       "source": "S-CV-076 https://freelancer-templates.org/previews/hero/FitnessRoutine-BoldCircuit.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=141370, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
     }
+  },
+  {
+    "id": "freelancer-qbr-dashboard-sunset-executive",
+    "project_id": "freelancer-templates",
+    "name": "QBR Dashboard Sunset Executive",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/qbrdashboard/QBRDashboard.tsx#L36",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion qbr-dashboard composition. Reuse QBRDashboard.tsx with the executive layout (HeroStatShell) and Sunset theme; the listed hero variant is Sunset Executive. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/QBRDashboard-SunsetExecutive.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-qbr-dashboard-sunset-executive.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/QBRDashboard-SunsetExecutive.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=175614, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-office-directory-espresso-card-list",
+    "project_id": "freelancer-templates",
+    "name": "Office Directory Espresso Card List",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/officedirectory/OfficeDirectory.tsx#L35",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion office-directory composition. Reuse OfficeDirectory.tsx with the card-list layout (ListDetailShell) and Espresso theme; the listed hero variant is Espresso Card List. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/OfficeDirectory-EspressoCardList.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-office-directory-espresso-card-list.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/OfficeDirectory-EspressoCardList.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=218220, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-store-locator-midnight-directory",
+    "project_id": "freelancer-templates",
+    "name": "Store Locator Midnight Directory",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/storelocator/StoreLocator.tsx#L55",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion store-locator composition. Reuse StoreLocator.tsx with the directory layout (CategoryGroupShell) and Midnight theme; the listed hero variant is Midnight Directory. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/StoreLocator-MidnightDirectory.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-store-locator-midnight-directory.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/StoreLocator-MidnightDirectory.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=220048, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-neighborhood-guide-explorer-warm",
+    "project_id": "freelancer-templates",
+    "name": "Neighborhood Guide Explorer Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/neighborhoodguide/NeighborhoodGuide.tsx#L34",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion neighborhood-guide composition. Reuse NeighborhoodGuide.tsx with the explorer layout (CategoryGroupShell) and Warm theme; the listed hero variant is Explorer Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/NeighborhoodGuide-ExplorerWarm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-neighborhood-guide-explorer-warm.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/NeighborhoodGuide-ExplorerWarm.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=238454, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-listing-clean-showcase",
+    "project_id": "freelancer-templates",
+    "name": "Listing Clean Showcase",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx#L115",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listing composition. Reuse Listing.tsx with the showcase layout (ShowcaseLayout) and Clean theme; the listed hero variant is Clean Showcase. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listing-CleanShowcase.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-listing-clean-showcase.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Listing-CleanShowcase.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=162507, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-thought-leadership-editorial-clean",
+    "project_id": "freelancer-templates",
+    "name": "Thought Leadership Editorial Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/thoughtleadership/ThoughtLeadership.tsx#L716",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion thought-leadership composition. Reuse ThoughtLeadership.tsx with the editorial layout (EditorialLayout) and Clean theme; the listed hero variant is Editorial Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ThoughtLeadership-EditorialClean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-thought-leadership-editorial-clean.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ThoughtLeadership-EditorialClean.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=170203, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-agent-dashboard-control-panel-dark",
+    "project_id": "freelancer-templates",
+    "name": "Agent Dashboard Control Panel Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/agentdashboard/AgentDashboard.tsx#L32",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion agent-dashboard composition. Reuse AgentDashboard.tsx with the control-panel layout (CardGridShell) and Dark theme; the listed hero variant is Control Panel Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AgentDashboard-ControlPanelDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-agent-dashboard-control-panel-dark.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/AgentDashboard-ControlPanelDark.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=157686, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-stat-counter-mint-progress",
+    "project_id": "freelancer-templates",
+    "name": "Stat Counter Mint Progress",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L213",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion stat-counter composition. Reuse StatCounter.tsx with the progress layout (ProgressLayout) and Mint theme; the listed hero variant is Mint Progress. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/StatCounter-MintProgress.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-stat-counter-mint-progress.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/StatCounter-MintProgress.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=155034, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-recap-sunset-cards",
+    "project_id": "freelancer-templates",
+    "name": "Recap Sunset Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recap/Recap.tsx#L130",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion recap composition. Reuse Recap.tsx with the cards layout (CardsLayout) and Sunset theme; the listed hero variant is Sunset Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Recap-SunsetCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-recap-sunset-cards.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Recap-SunsetCards.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=149437, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-tip-of-the-day-mint-minimal",
+    "project_id": "freelancer-templates",
+    "name": "Tip Of The Day Mint Minimal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L167",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion tip-of-the-day composition. Reuse TipOfTheDay.tsx with the minimal layout (MinimalLayout) and Mint theme; the listed hero variant is Mint Minimal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-MintMinimal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-tip-of-the-day-mint-minimal.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/TipOfTheDay-MintMinimal.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=179242, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-poll-quiz-neon-question-card",
+    "project_id": "freelancer-templates",
+    "name": "Poll Quiz Neon Question Card",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L115",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion poll-quiz composition. Reuse PollQuiz.tsx with the question-card layout (QuestionCardLayout) and Neon theme; the listed hero variant is Neon Question Card. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PollQuiz-NeonQuestionCard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-poll-quiz-neon-question-card.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/PollQuiz-NeonQuestionCard.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=178392, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-pin-collection-card-gallery-warm",
+    "project_id": "freelancer-templates",
+    "name": "Pin Collection Card Gallery Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pincollection/PinCollection.tsx#L34",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pin-collection composition. Reuse PinCollection.tsx with the card-gallery layout (ListDetailShell) and Warm theme; the listed hero variant is Card Gallery Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-182"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PinCollection-CardGalleryWarm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-pin-collection-card-gallery-warm.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/PinCollection-CardGalleryWarm.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=265179, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
   }
 ]

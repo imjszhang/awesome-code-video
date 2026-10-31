@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 436 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 448 个可复用单元：166 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -412,6 +412,19 @@
 - [客户漏斗：日落漏斗](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientpipeline/ClientPipeline.tsx#L93) - 用于客户漏斗的 Remotion 成片。复用 ClientPipeline.tsx 的 funnel 版式（PipelineShell）与 Sunset 主题，列出的主预览变体是 Sunset Funnel。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [提案：浓缩咖啡高管风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/ProposalShowcase.tsx#L170) - 用于高管提案展示的 Remotion 成片。复用 ProposalShowcase.tsx 的 ProposalEspressoExecutive 组合（executive 版式）与 Espresso 主题，列出的主预览变体是 Espresso Executive。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 - [健身日程：粗体循环](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/fitnessroutine/FitnessRoutine.tsx#L219) - 用于健身循环日程的 Remotion 成片。复用 FitnessRoutine.tsx 的 circuit 版式（CircuitLayout）与 Bold 主题，列出的主预览变体是 Bold Circuit。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+
+- [季报看板：日落高管风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/qbrdashboard/QBRDashboard.tsx#L36) - 用于季度业务复盘看板的 Remotion 成片。复用 QBRDashboard.tsx 的 executive 版式（HeroStatShell）与 Sunset 主题，列出的主预览变体是 Sunset Executive。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [办公通讯录：浓缩咖啡卡片列表](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/officedirectory/OfficeDirectory.tsx#L35) - 用于办公点通讯录的 Remotion 成片。复用 OfficeDirectory.tsx 的 card-list 版式（ListDetailShell）与 Espresso 主题，列出的主预览变体是 Espresso Card List。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [门店定位：午夜名录](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/storelocator/StoreLocator.tsx#L55) - 用于门店定位名录的 Remotion 成片。复用 StoreLocator.tsx 的 directory 版式（CategoryGroupShell）与 Midnight 主题，列出的主预览变体是 Midnight Directory。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [街区指南：暖色探索](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/neighborhoodguide/NeighborhoodGuide.tsx#L34) - 用于街区探索指南的 Remotion 成片。复用 NeighborhoodGuide.tsx 的 explorer 版式（CategoryGroupShell）与 Warm 主题，列出的主预览变体是 Explorer Warm。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [房源展示：干净橱窗](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx#L115) - 用于房源橱窗展示的 Remotion 成片。复用 Listing.tsx 的 showcase 版式（ShowcaseLayout）与 Clean 主题，列出的主预览变体是 Clean Showcase。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [思想领导力：干净社论](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/thoughtleadership/ThoughtLeadership.tsx#L716) - 用于思想领导力社论成片的 Remotion 模板。复用 ThoughtLeadership.tsx 的 editorial 版式（EditorialLayout）与 Clean 主题，列出的主预览变体是 Editorial Clean。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [座席面板：深色控制台](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/agentdashboard/AgentDashboard.tsx#L32) - 用于座席控制面板的 Remotion 成片。复用 AgentDashboard.tsx 的 control-panel 版式（CardGridShell）与 Dark 主题，列出的主预览变体是 Control Panel Dark。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [数据计数：薄荷绿进度](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L213) - 用于进度式数据计数的 Remotion 成片。复用 StatCounter.tsx 的 progress 版式（ProgressLayout）与 Mint 主题，列出的主预览变体是 Mint Progress。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [复盘：日落卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recap/Recap.tsx#L130) - 用于复盘卡片墙的 Remotion 成片。复用 Recap.tsx 的 cards 版式（CardsLayout）与 Sunset 主题，列出的主预览变体是 Sunset Cards。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [每日贴士：薄荷绿极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L167) - 用于每日贴士极简揭示的 Remotion 成片。复用 TipOfTheDay.tsx 的 minimal 版式（MinimalLayout）与 Mint 主题，列出的主预览变体是 Mint Minimal。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [投票问答：霓虹题卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L115) - 用于投票问答题卡的 Remotion 成片。复用 PollQuiz.tsx 的 question-card 版式（QuestionCardLayout）与 Neon 主题，列出的主预览变体是 Neon Question Card。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
+- [钉选合集：暖色卡片画廊](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pincollection/PinCollection.tsx#L34) - 用于钉选地点合集的 Remotion 成片。复用 PinCollection.tsx 的 card-gallery 版式（ListDetailShell）与 Warm 主题，列出的主预览变体是 Card Gallery Warm。替换文案与数字。站点标明 CC-BY-NC-SA 4.0，GitHub 许可字段为空，主预览 MP4 不得镜像。Remotion 运行时许可另行适用。
 
 ## 参数化地图镜头
 
