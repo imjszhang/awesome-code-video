@@ -12831,5 +12831,365 @@
       "poster": "/previews/freelancer-release-notes-changelog-clean.webp",
       "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ReleaseNotes-ChangelogClean.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=202864, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
     }
+  },
+  {
+    "id": "freelancer-feature-roadmap-grid-clean",
+    "project_id": "freelancer-templates",
+    "name": "Feature Roadmap Grid Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureroadmap/FeatureRoadmap.tsx#L62",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion feature-roadmap composition. Reuse FeatureRoadmap.tsx with the grid layout (CardGridShell) and Clean theme; the listed hero variant is Grid Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FeatureRoadmap-GridClean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-feature-roadmap-grid-clean.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/FeatureRoadmap-GridClean.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=146748, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-sprint-recap-highlight-cards-bold",
+    "project_id": "freelancer-templates",
+    "name": "Sprint Recap Highlight Cards Bold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintrecap/SprintRecap.tsx#L39",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion sprint-recap composition. Reuse SprintRecap.tsx with the highlight-cards layout (HeroStatShell) and Bold theme; the listed hero variant is Highlight Cards Bold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SprintRecap-HighlightCardsBold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-sprint-recap-highlight-cards-bold.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/SprintRecap-HighlightCardsBold.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=156789, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-deployment-status-environment-cards-dark",
+    "project_id": "freelancer-templates",
+    "name": "Deployment Status Environment Cards Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/deploymentstatus/DeploymentStatus.tsx#L78",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion deployment-status composition. Reuse DeploymentStatus.tsx with the environment-cards layout (ListDetailShell) and Dark theme; the listed hero variant is Environment Cards Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/DeploymentStatus-EnvironmentCardsDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-deployment-status-environment-cards-dark.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/DeploymentStatus-EnvironmentCardsDark.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=215496, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-feature-flags-experiment-board-dark",
+    "project_id": "freelancer-templates",
+    "name": "Feature Flags Experiment Board Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureflags/FeatureFlags.tsx#L81",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion feature-flags composition. Reuse FeatureFlags.tsx with the experiment-board layout (CardGridShell) and Dark theme; the listed hero variant is Experiment Board Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FeatureFlags-ExperimentBoardDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-feature-flags-experiment-board-dark.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/FeatureFlags-ExperimentBoardDark.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=148361, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-bug-tracker-severity-matrix-bold",
+    "project_id": "freelancer-templates",
+    "name": "Bug Tracker Severity Matrix Bold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtracker/BugTracker.tsx#L93",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bug-tracker composition. Reuse BugTracker.tsx with the severity-matrix layout (StatusBoardShell) and Bold theme; the listed hero variant is Severity Matrix Bold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BugTracker-SeverityMatrixBold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-bug-tracker-severity-matrix-bold.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/BugTracker-SeverityMatrixBold.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=162677, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-project-health-executive-summary-dark",
+    "project_id": "freelancer-templates",
+    "name": "Project Health Executive Summary Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecthealth/ProjectHealth.tsx#L64",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion project-health composition. Reuse ProjectHealth.tsx with the executive-summary layout (StatusBoardShell) and Dark theme; the listed hero variant is Executive Summary Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ProjectHealth-ExecutiveSummaryDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-project-health-executive-summary-dark.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ProjectHealth-ExecutiveSummaryDark.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=174039, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-component-inventory-architecture-grid-clean",
+    "project_id": "freelancer-templates",
+    "name": "Component Inventory Architecture Grid Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/componentinventory/ComponentInventory.tsx#L86",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion component-inventory composition. Reuse ComponentInventory.tsx with the architecture-grid layout (CardGridShell) and Clean theme; the listed hero variant is Architecture Grid Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ComponentInventory-ArchitectureGridClean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-component-inventory-architecture-grid-clean.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ComponentInventory-ArchitectureGridClean.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=158693, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-integration-status-status-wall-clean",
+    "project_id": "freelancer-templates",
+    "name": "Integration Status Status Wall Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/integrationstatus/IntegrationStatus.tsx#L81",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion integration-status composition. Reuse IntegrationStatus.tsx with the status-wall layout (CardGridShell) and Clean theme; the listed hero variant is Status Wall Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/IntegrationStatus-StatusWallClean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-integration-status-status-wall-clean.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/IntegrationStatus-StatusWallClean.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=157014, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-collaboration-bold-split-screen",
+    "project_id": "freelancer-templates",
+    "name": "Collaboration Bold Split Screen",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L106",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion collaboration composition. Reuse Collaboration.tsx with the split-screen layout (SplitScreenLayout) and Bold theme; the listed hero variant is Bold Split Screen. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Collaboration-BoldSplitScreen.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-collaboration-bold-split-screen.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/Collaboration-BoldSplitScreen.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=165683, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-effort-tracking-team-allocation-dark",
+    "project_id": "freelancer-templates",
+    "name": "Effort Tracking Team Allocation Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/efforttracking/EffortTracking.tsx#L94",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion effort-tracking composition. Reuse EffortTracking.tsx with the team-allocation layout (ContributorShell) and Dark theme; the listed hero variant is Team Allocation Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/EffortTracking-TeamAllocationDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-effort-tracking-team-allocation-dark.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/EffortTracking-TeamAllocationDark.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=167759, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-platform-overview-command-center-dark",
+    "project_id": "freelancer-templates",
+    "name": "Platform Overview Command Center Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/platformoverview/PlatformOverview.tsx#L86",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion platform-overview composition. Reuse PlatformOverview.tsx with the command-center layout (StatusBoardShell) and Dark theme; the listed hero variant is Command Center Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PlatformOverview-CommandCenterDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-platform-overview-command-center-dark.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/PlatformOverview-CommandCenterDark.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=179708, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
+  },
+  {
+    "id": "freelancer-concept-pitch-board-bold",
+    "project_id": "freelancer-templates",
+    "name": "Concept Pitch Board Bold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/conceptpitch/ConceptPitch.tsx#L383",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion concept-pitch composition. Reuse ConceptPitch.tsx with the board layout (BoardLayout) and Bold theme; the listed hero variant is Board Bold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-180"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-10-31",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ConceptPitch-BoardBold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-10-31",
+      "poster": "/previews/freelancer-concept-pitch-board-bold.webp",
+      "source": "S-CV-076 https://freelancer-templates.org/previews/hero/ConceptPitch-BoardBold.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=208963, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hotlink only; not copied; not a local render test."
+    }
   }
 ]
