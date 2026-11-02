@@ -16431,5 +16431,365 @@
       "poster": "/previews/freelancer-geometric-patterns-rose.webp",
       "source": "S-CV-189 https://freelancer-templates.org/previews/hero/GeometricPatterns-Rose.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=821576, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-bounce-text-gold",
+    "project_id": "freelancer-templates",
+    "name": "Bounce Text Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bouncetext/BounceText.tsx#L44",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bounce-text composition. Reuse BounceText.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BounceText-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bounce-text-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/BounceText-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=255863, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-bubble-pop-text-gold",
+    "project_id": "freelancer-templates",
+    "name": "Bubble Pop Text Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bubblepoptext/BubblePopText.tsx#L42",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bubble-pop-text composition. Reuse BubblePopText.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BubblePopText-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bubble-pop-text-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/BubblePopText-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=150735, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-card-flip-gold",
+    "project_id": "freelancer-templates",
+    "name": "Card Flip Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/cardflip/CardFlip.tsx#L44",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion card-flip composition. Reuse CardFlip.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CardFlip-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-card-flip-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/CardFlip-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=172349, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-floating-bubble-gold",
+    "project_id": "freelancer-templates",
+    "name": "Floating Bubble Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/floatingbubble/FloatingBubble.tsx#L44",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion floating-bubble composition. Reuse FloatingBubble.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-floating-bubble-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/FloatingBubble-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=235990, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-pulsing-text-gold",
+    "project_id": "freelancer-templates",
+    "name": "Pulsing Text Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pulsingtext/PulsingText.tsx#L42",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pulsing-text composition. Reuse PulsingText.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PulsingText-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-pulsing-text-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/PulsingText-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=181191, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-slide-text-gold",
+    "project_id": "freelancer-templates",
+    "name": "Slide Text Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/slidetext/SlideText.tsx#L44",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion slide-text composition. Reuse SlideText.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SlideText-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-slide-text-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/SlideText-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=193698, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-matrix-rain-gold",
+    "project_id": "freelancer-templates",
+    "name": "Matrix Rain Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/matrixrain/MatrixRain.tsx#L44",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion matrix-rain composition. Reuse MatrixRain.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MatrixRain-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-matrix-rain-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/MatrixRain-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=476021, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-list-gold",
+    "project_id": "freelancer-templates",
+    "name": "Animated List Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedlist/AnimatedList.tsx#L53",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-list composition. Reuse AnimatedList.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedList-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-list-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/AnimatedList-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=196967, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-text-gold",
+    "project_id": "freelancer-templates",
+    "name": "Animated Text Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedtext/AnimatedText.tsx#L50",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-text composition. Reuse AnimatedText.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedText-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-text-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/AnimatedText-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=152266, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-glitch-text-gold",
+    "project_id": "freelancer-templates",
+    "name": "Glitch Text Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion glitch-text composition. Reuse GlitchText.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GlitchText-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-glitch-text-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/GlitchText-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=224544, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-typewriter-subtitle-gold",
+    "project_id": "freelancer-templates",
+    "name": "Typewriter Subtitle Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/typewritersubtitle/TypewriterSubtitle.tsx#L48",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion typewriter-subtitle composition. Reuse TypewriterSubtitle.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-typewriter-subtitle-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=141912, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-geometric-patterns-gold",
+    "project_id": "freelancer-templates",
+    "name": "Geometric Patterns Gold",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/geometricpatterns/GeometricPatterns.tsx#L56",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion geometric-patterns composition. Reuse GeometricPatterns.tsx and theme props; the listed hero variant is Gold. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-190"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Gold.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-geometric-patterns-gold.webp",
+      "source": "S-CV-190 https://freelancer-templates.org/previews/hero/GeometricPatterns-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=1040630, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
