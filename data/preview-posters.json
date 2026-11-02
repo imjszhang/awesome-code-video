@@ -996,6 +996,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-animated-list-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Bold.mp4",
+    "poster": "/previews/freelancer-animated-list-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "594ebda18872caa68f61f4e2c89fe39c85b77d66f18ab40495e47cb5a38d066c"
+      },
+      {
+        "start": 4091,
+        "end": 174640,
+        "sha256": "b99fb4564c6a14a6f1b93905d5163140ab5f8c1623506339b626b6d3a1870cd7"
+      }
+    ],
+    "poster_sha256": "b8b68a2d4c4817e4f4797c02d34fc6b2bec62672c03378534dca5ba2e11da4df",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-animated-list-crimson",
     "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Crimson.mp4",
     "poster": "/previews/freelancer-animated-list-crimson.webp",
@@ -1133,6 +1158,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-animated-list-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Warm.mp4",
+    "poster": "/previews/freelancer-animated-list-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ed5052326abb9bc37f3d913d08a5f388e9bf49de021f4f2b8a202b2a6404fa2e",
+    "source_byte_ranges": [],
+    "poster_sha256": "db8d20f61c30f6d6ed69512b4e5298dee59dd5d99ec7ca021391dc2520c1fb98",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-animated-text-arctic",
     "source_url": "https://freelancer-templates.org/previews/hero/AnimatedText-Arctic.mp4",
     "poster": "/previews/freelancer-animated-text-arctic.webp",
@@ -1154,6 +1193,31 @@
       }
     ],
     "poster_sha256": "30a24c270abb81fcd93719d599292d4493ac6282ccf76bd5b3376f540f622d3e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-animated-text-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedText-Bold.mp4",
+    "poster": "/previews/freelancer-animated-text-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "cd8d0e429aaf5b156936dd4620d7ecebc3e0bea0b0d2e9541d8331797753c222"
+      },
+      {
+        "start": 4099,
+        "end": 129919,
+        "sha256": "3afca66e475ba39632692584c7603c13824f6abc6c51560b33a97389908cf3a2"
+      }
+    ],
+    "poster_sha256": "e3eedff8da2a32cad6c48f59a656a7ced1bb2c2806e1baebb3b0429f2ffd1abe",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1291,6 +1355,20 @@
       }
     ],
     "poster_sha256": "a4aa89b7c62663a604a0d4c79f4638f0729435678b19022756fa2f932304e04e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-animated-text-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedText-Warm.mp4",
+    "poster": "/previews/freelancer-animated-text-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "6cd0f5f0857e8e61dd4c533582a3b01e82a5a83a4dae840ceb0f3f6937696110",
+    "source_byte_ranges": [],
+    "poster_sha256": "23fbc36209d6e0acca1e86454db75423c57f3a6741fb228d61540bfd72d83b9f",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1558,6 +1636,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bounce-text-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Bold.mp4",
+    "poster": "/previews/freelancer-bounce-text-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a5d97a7a72995b0f289c50dbf9a678cfe36820cf8d33fe6759f65feb5f509ba0"
+      },
+      {
+        "start": 4051,
+        "end": 226651,
+        "sha256": "8bff5832407ddb3e22743ab6417ffd823e6ec1218e9c1b1c45bd8219db925efb"
+      }
+    ],
+    "poster_sha256": "ee8ada348d72a56e9b1f24b10e8a26968605b8fcecd39037c4d910c434a02310",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-bounce-text-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Espresso.mp4",
     "poster": "/previews/freelancer-bounce-text-espresso.webp",
@@ -1681,6 +1784,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bounce-text-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Warm.mp4",
+    "poster": "/previews/freelancer-bounce-text-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "e9cad3863d4a71ed5cc392e319da82ae2d04a5444638f59e0a49238acfac8b17",
+    "source_byte_ranges": [],
+    "poster_sha256": "9a40a9a87ade7b095405e06b3388b60f8096b64b632816cde119df79d9abdb0b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-bts-creator-chaotic-creator",
     "source_url": "https://freelancer-templates.org/previews/hero/BTSCreator-ChaoticCreator.mp4",
     "poster": "/previews/freelancer-bts-creator-chaotic-creator.webp",
@@ -1747,6 +1864,31 @@
       }
     ],
     "poster_sha256": "b279a0ff8ec8a54fee87fba6eb938f8e1434991de15bb597ad50be6d496f9ff9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-bubble-pop-text-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/BubblePopText-Bold.mp4",
+    "poster": "/previews/freelancer-bubble-pop-text-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "86b91441ff0d9fb68a4facbaa593566bf2eba3f6eaae5dc5f5c0a9d331837159"
+      },
+      {
+        "start": 4107,
+        "end": 127006,
+        "sha256": "d5b3449f8889f4a2612828e2570d09d69b26c002b8d7ca65e84b6e9fe0994244"
+      }
+    ],
+    "poster_sha256": "69ec3ae97fd3ffbee0d941b20bbc63dcc39387ed3cbe8ec150ec53b0944cf9a4",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1870,6 +2012,20 @@
       }
     ],
     "poster_sha256": "0b8bb8aa6e7a5b5e4d4805c81512bf64e0b3c13dbb1f0845367fdf180b780a2c",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-bubble-pop-text-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/BubblePopText-Warm.mp4",
+    "poster": "/previews/freelancer-bubble-pop-text-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "6438399d5caa7eceb59a6a637a520f316d2527abb2e208ba5d0266a9d5484904",
+    "source_byte_ranges": [],
+    "poster_sha256": "caec53375dc7c5c9fffce3f5e8096bc77235895add68c46bc7632c812cfbfdf7",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2083,6 +2239,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-card-flip-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Bold.mp4",
+    "poster": "/previews/freelancer-card-flip-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "dd37e1da7c0d933595f3e144993532e09a0c4d31a4d7e5b2c25910f1ba0df10f"
+      },
+      {
+        "start": 4067,
+        "end": 153975,
+        "sha256": "0261069941250f53f254dffb64901692b9db3fc9b688e908f057878edc611e04"
+      }
+    ],
+    "poster_sha256": "eba85941806f92f8e6bd87a635b7a2723f366b3fd7ca107804894760b3e8e5bd",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-card-flip-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Espresso.mp4",
     "poster": "/previews/freelancer-card-flip-espresso.webp",
@@ -2202,6 +2383,20 @@
       }
     ],
     "poster_sha256": "f80df529a43d7c3be1e56c7fc9e7833902a00be3903aadc49fe7f72aa768d32e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-card-flip-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Warm.mp4",
+    "poster": "/previews/freelancer-card-flip-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "77571f50f73660f63cfd39c8040231b922d39d9b415fcf35b8744cc42eb0d5fe",
+    "source_byte_ranges": [],
+    "poster_sha256": "9673c57e1aadf07868f9582231e26b820ab041db592bbd0c3c0420a9e4a7c7bc",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3367,6 +3562,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-floating-bubble-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Bold.mp4",
+    "poster": "/previews/freelancer-floating-bubble-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "49440487686b31cf59be2ee8899be6eb6e3a7e3f958115e399577b76d0bc4786"
+      },
+      {
+        "start": 4059,
+        "end": 204955,
+        "sha256": "867f9e789449d60190d1e531c1808d76e6d599dd56121db6c93039827c418e06"
+      }
+    ],
+    "poster_sha256": "dc18cf0d534d71a3377e3247bca4ef33e3952c009c65215b6730fd094a1a1446",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-floating-bubble-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Espresso.mp4",
     "poster": "/previews/freelancer-floating-bubble-espresso.webp",
@@ -3490,6 +3710,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-floating-bubble-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Warm.mp4",
+    "poster": "/previews/freelancer-floating-bubble-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "11fec2cc57e20f89ff49dc502b8b9985a730fd5985ccdaa76cbadf1769ee9246",
+    "source_byte_ranges": [],
+    "poster_sha256": "5632b25cd1f5a92b9967098e1d21d911e6c6ce80907026d022dd64599d9c7892",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-foodie-reel-fresh-vibes",
     "source_url": "https://freelancer-templates.org/previews/hero/FoodieReel-FreshVibes.mp4",
     "poster": "/previews/freelancer-foodie-reel-fresh-vibes.webp",
@@ -3545,6 +3779,41 @@
     "source_sha256": "a134884c7f024a63356ccd3c57296f0c505fee84db1e6e5933afaeaa290a79fb",
     "source_byte_ranges": [],
     "poster_sha256": "599dc6bf67e8e44873d4911e266c171da5cb93b941f959ff2550090f1ff3ec19",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-geometric-patterns-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Bold.mp4",
+    "poster": "/previews/freelancer-geometric-patterns-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "8e304dc7b8313985d03dc92e02b33b08b665b2f70d4034f4e1c88e10361ec607"
+      },
+      {
+        "start": 3971,
+        "end": 266114,
+        "sha256": "91ec0611279843e49399d19c25843238b52722ba5f3ecc0a9b5369f2eebdf546"
+      },
+      {
+        "start": 266115,
+        "end": 528258,
+        "sha256": "1deb9a7721555d10eb03e053b79ad9e6e9fa37b2a02b072e0b2c2a040f53cbda"
+      },
+      {
+        "start": 528259,
+        "end": 754432,
+        "sha256": "1c24d4ab66b26af320c86cfc4ee5a43f29f5e8a8ced2f77705cfe09ec1342790"
+      }
+    ],
+    "poster_sha256": "ac0c1a852eb2645e95caee0fbddab6a9447fab82c84b946db9d0b2f036cf3494",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3696,6 +3965,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-geometric-patterns-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Warm.mp4",
+    "poster": "/previews/freelancer-geometric-patterns-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "101e86daa6da0b00585694328f6bc88f7c5b510c93eec717909b9ede656900ea",
+    "source_byte_ranges": [],
+    "poster_sha256": "dc3af80af1f184f1c64cdacd8cbc1c24cef58cc4ec2c16895d34384ffb4c1ac6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-glitch-text-arctic",
     "source_url": "https://freelancer-templates.org/previews/hero/GlitchText-Arctic.mp4",
     "poster": "/previews/freelancer-glitch-text-arctic.webp",
@@ -3717,6 +4000,31 @@
       }
     ],
     "poster_sha256": "3ba38aad0bb6902448f83ea12306496d6679ee274a1c842ec522f0a38eeaffb5",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-glitch-text-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/GlitchText-Bold.mp4",
+    "poster": "/previews/freelancer-glitch-text-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "e93529b0f80247033035ee50e7b986a5820479e273c5e43e91dae19ab63613dc"
+      },
+      {
+        "start": 4059,
+        "end": 184174,
+        "sha256": "cab93e7ac9ed0f9ae5d65828dcce0e51dc7d8a3e927a54c44c60cd176ff24c76"
+      }
+    ],
+    "poster_sha256": "333b0fdc763f70d2bca8fc347ed28bac6726d0dc5a74698982ccdbe4f3243c09",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3854,6 +4162,20 @@
       }
     ],
     "poster_sha256": "5d775544388c65e6bef492bc570a1ff004724d740cf594d23c783560c0c0febe",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-glitch-text-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/GlitchText-Warm.mp4",
+    "poster": "/previews/freelancer-glitch-text-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "0017075c8360d6c2189ee6a2ac186fc7051ebf9b64028e66eee0345fb1bac35f",
+    "source_byte_ranges": [],
+    "poster_sha256": "5be8a54fae1bf0263e96a7a3267438c912dcb3dd581d1a278cbd863fbb1243df",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -4108,6 +4430,36 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-matrix-rain-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Bold.mp4",
+    "poster": "/previews/freelancer-matrix-rain-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "621df31e9f8cded0d1af0547ab1dfcd2e210af7d47d55f922b72ab4412484a99"
+      },
+      {
+        "start": 4059,
+        "end": 266202,
+        "sha256": "186910d3dc804b5949c162db8f26032e76134da18c17511ab50474ad3669b0c9"
+      },
+      {
+        "start": 266203,
+        "end": 351072,
+        "sha256": "55f4d54185eb9d07804caada1c22ac149937c66ade0e7eecfeb74b1a878fe497"
+      }
+    ],
+    "poster_sha256": "5f1ee8971009fedf29bd7e51b001846a3319302e37610e687548bf6397454bb3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-matrix-rain-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Espresso.mp4",
     "poster": "/previews/freelancer-matrix-rain-espresso.webp",
@@ -4232,6 +4584,20 @@
       }
     ],
     "poster_sha256": "f5b21f58862fa1a338e59338954883f58134fa3ba530b0a1040b6b75b68d1e32",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-matrix-rain-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Warm.mp4",
+    "poster": "/previews/freelancer-matrix-rain-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "2f44c281228a0e9fcb652ea6c4468a06e4b045479390746eb6c7c994903d753c",
+    "source_byte_ranges": [],
+    "poster_sha256": "cec809738a72ceb1fdabe1dcf65947f86451a74c30e56a8d23593f591815dc24",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -5296,6 +5662,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-pulsing-text-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Bold.mp4",
+    "poster": "/previews/freelancer-pulsing-text-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "68d1b233a42cf6832ae60c7df7c4d4ab8b78dadf62471c44be3f0469ce68b6ac"
+      },
+      {
+        "start": 4107,
+        "end": 139955,
+        "sha256": "ed64ed26ecd5a870707456bbe5779a9b24b5dbc643a53e87b6c4083ccce92b7a"
+      }
+    ],
+    "poster_sha256": "e41bccc384b75537d0c50aff456051397f062e8e9ac7e1b465e07deca7376eaf",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-pulsing-text-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Espresso.mp4",
     "poster": "/previews/freelancer-pulsing-text-espresso.webp",
@@ -5415,6 +5806,20 @@
       }
     ],
     "poster_sha256": "7106880753e8c08e8796fe529e425aee0e9c7d8d708b2f7dd638e7a2c28d4d6c",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-pulsing-text-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Warm.mp4",
+    "poster": "/previews/freelancer-pulsing-text-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ba7e06c1660169325376546752abff59fbf56361809b7e198927bc5f36bff69f",
+    "source_byte_ranges": [],
+    "poster_sha256": "df486c8beff940aca8fd18125d68da82c25ae797095325bdaad3b961981bcc4e",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -5890,6 +6295,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-slide-text-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/SlideText-Bold.mp4",
+    "poster": "/previews/freelancer-slide-text-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "70e340a9f3a17306a8221df7a3b55296e19bae04c9841e0a9433ea729836cf32"
+      },
+      {
+        "start": 4011,
+        "end": 165411,
+        "sha256": "31b25c3b6abb1584c3dc6de622d7a5f5750d2e660a10ad6ea1f98a4e7ddef6e7"
+      }
+    ],
+    "poster_sha256": "998ab836e5c67bd1e897ee44e369edccd06db5eb42a38693016093458817ba6f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-slide-text-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/SlideText-Espresso.mp4",
     "poster": "/previews/freelancer-slide-text-espresso.webp",
@@ -6009,6 +6439,20 @@
       }
     ],
     "poster_sha256": "95a5b113456c1444a3c75e8877a24f7034f9c6358c3304b5c48787d5e3b5ffd9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-slide-text-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/SlideText-Warm.mp4",
+    "poster": "/previews/freelancer-slide-text-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "a5660594a57803237f077f61396a65d88935617fdf503c4b47485fc18212635f",
+    "source_byte_ranges": [],
+    "poster_sha256": "74990f1ba0fc33609cde125755436c865bff84c7c89c52760244ee41c4be62df",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -6682,6 +7126,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-typewriter-subtitle-bold",
+    "source_url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Bold.mp4",
+    "poster": "/previews/freelancer-typewriter-subtitle-bold.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "5900afcbaaac7182dd29f5aff124393c8ea181ef0be96989018e31b09f1271d3"
+      },
+      {
+        "start": 4043,
+        "end": 116224,
+        "sha256": "5eaffd06e98d9535d1633309230774b3fe91966e77c9bc8c7e3fbdbdeb129b54"
+      }
+    ],
+    "poster_sha256": "4e96b11260e96a4a23ad385cb46d6f6f9046ff169f870c7d15c1c5d13ec8c7e6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-typewriter-subtitle-crimson",
     "source_url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Crimson.mp4",
     "poster": "/previews/freelancer-typewriter-subtitle-crimson.webp",
@@ -6815,6 +7284,20 @@
       }
     ],
     "poster_sha256": "2365ab4d69946649f859257557ad2a7a654ac7e480681dd5793a44fc473b7357",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-typewriter-subtitle-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Warm.mp4",
+    "poster": "/previews/freelancer-typewriter-subtitle-warm.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "574854958378ecc7560bbcd2f38ae3410962b5f5ac8e2912469281b7198c2722",
+    "source_byte_ranges": [],
+    "poster_sha256": "b0bfd08249b83bb9a865f7d78377944eb23d7a78675ee6398a87a4cd5fa26aae",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7485,6 +7968,91 @@
     "poster_sha256": "41e3f8e9eb852a598e4a53d6b7f28b6a8ca8137ac543e703e0bdb6c6b4f7b01c",
     "license": "Apache-2.0",
     "attribution": "nexu-io / Open Design (html-video templates mirrored in open-design)"
+  },
+  {
+    "resource_id": "huashu-art-motion",
+    "source_url": "https://github.com/alchaincyf/huashu-art-motion/releases/download/v1.0.0/art-motion-35-styles.mp4",
+    "poster": "/previews/huashu-art-motion.webp",
+    "timestamp_seconds": 14.437,
+    "duration_seconds": 41.25,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6ab9ed8ab24f225f65c4a2445152299794bf65a579bc611995a281420e780491"
+      },
+      {
+        "start": 19091541,
+        "end": 19353684,
+        "sha256": "7249bfa15b5dcc2fce0d2c343f9aa4efc212e6f7367f68f30eae6e6a100a3bff"
+      },
+      {
+        "start": 19353685,
+        "end": 19615828,
+        "sha256": "6a71551874d9f9c6875851318beebd0c8f60fccae87434ad1e0a65f718ecd759"
+      },
+      {
+        "start": 19615829,
+        "end": 19877972,
+        "sha256": "72394ad2e32f3dc3e8b193b1d2f12a96904b424939a5cf8f6fe9c997f2d5b8cd"
+      },
+      {
+        "start": 19877973,
+        "end": 20140116,
+        "sha256": "d8ea619a73229f574f2feb2d44829ed4077b928832ed511aaa4cd618b64ada8d"
+      },
+      {
+        "start": 20140117,
+        "end": 20402260,
+        "sha256": "cd61d906f492eff7f094f8c43cc2b258a52233d700bd5008bf57c4559ff10381"
+      },
+      {
+        "start": 20402261,
+        "end": 20664404,
+        "sha256": "7e9ca2a0a9051c767d42a3725303d562d727712888a51b0dd82003c92eb514da"
+      },
+      {
+        "start": 20664405,
+        "end": 20926548,
+        "sha256": "933d267d251bdbb34839d57d130eeb352ca6af72b061c6c498459320b074499e"
+      },
+      {
+        "start": 20926549,
+        "end": 21188692,
+        "sha256": "97f858354ca0ff2fe5877f5d13cb0922748da794be873e5cb377311de2c95b32"
+      },
+      {
+        "start": 21188693,
+        "end": 21450836,
+        "sha256": "00c8acd6180b83659aa633995596de84bd2f4da9024c8214d7d42f03abe0ee8a"
+      },
+      {
+        "start": 21450837,
+        "end": 21712980,
+        "sha256": "50b570fa24895fd1ba8c7866f7e9c7cc43f110b116f1d56674caefd8d97a00e0"
+      },
+      {
+        "start": 21712981,
+        "end": 21975124,
+        "sha256": "954be17dafd4bfcd12d2eeac5eddad754fe2e82c09fe609c71422a54811565cc"
+      },
+      {
+        "start": 21975125,
+        "end": 22237268,
+        "sha256": "ddd94b675fb52bdefb7e2e8d930a4b4092454af47a1c12dbda3ca2311ecae2ee"
+      },
+      {
+        "start": 22237269,
+        "end": 22411679,
+        "sha256": "ad827063a703b5615af750bfe18113861c1290d801f4990e2732f4cef32e95a5"
+      }
+    ],
+    "poster_sha256": "ee7dfac4c20fb1eff109d784ba7152c9255d7ccbaaa9b894f26d8e75b6fabdeb",
+    "license": "MIT",
+    "attribution": "alchaincyf / 花叔 (https://github.com/alchaincyf/huashu-art-motion) — release asset art-motion-35-styles.mp4 (v1.0.0); silent 35-style sample reel"
   },
   {
     "resource_id": "hyperframes",
@@ -10756,6 +11324,101 @@
     "attribution": "midrender / ReVideo (https://github.com/midrender/revideo)"
   },
   {
+    "resource_id": "story-to-handdrawn-video",
+    "source_url": "https://github.com/gnipbao/story-to-handdrawn-video/raw/refs/heads/main/examples/style-showcase/handdrawn-styles-75-page-flip-45s-bgm.mp4",
+    "poster": "/previews/story-to-handdrawn-video.webp",
+    "timestamp_seconds": 15.75,
+    "duration_seconds": 45.0,
+    "source_width": 1080,
+    "source_height": 1440,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "37115d189687dbc4802ca96477120e552977bb189dbe39d943e2b0f0611f76ed"
+      },
+      {
+        "start": 3534484,
+        "end": 3796627,
+        "sha256": "5ccf04491a73806cf9bebbcc7bed70c89fed1f0aa566369705310ff2538629e8"
+      },
+      {
+        "start": 3796628,
+        "end": 4058771,
+        "sha256": "b9751087c94bafa4fbd8df7a7803b78d0d0cf55b4b843f725d34b5792a8b1625"
+      },
+      {
+        "start": 4058772,
+        "end": 4320915,
+        "sha256": "35e05231a0630283deff81a49689fd2ac85adb171ac8483f0f3ef6f6895d8cc5"
+      },
+      {
+        "start": 4320916,
+        "end": 4583059,
+        "sha256": "3ce40aea542928653bc7aeb56ac4afcd8a51be76bd14e60cb751fc3e55d20dd6"
+      },
+      {
+        "start": 4583060,
+        "end": 4845203,
+        "sha256": "f33ec837beb86ed860a13ba1c42ae156f290c0571ca92559fca032804f3970bd"
+      },
+      {
+        "start": 4845204,
+        "end": 5107347,
+        "sha256": "d048cffb6e2d59d47a769f5241d1bbc3ba6a80e02b66c88b740b70d83b2c5d01"
+      },
+      {
+        "start": 5107348,
+        "end": 5369491,
+        "sha256": "35539e718cf954f78cd6504818cb76f56a9f93690c9d61df0cc79c7887703e4a"
+      },
+      {
+        "start": 5369492,
+        "end": 5631635,
+        "sha256": "d9f3f552b4a6857cb5ded8329c6d200539b1200342aa789c6c51b9201554bd79"
+      },
+      {
+        "start": 5631636,
+        "end": 5893779,
+        "sha256": "0dffc1cd6ae214826d52816bc61fc76f3fd44b1784d765b4f497f6e716f24f54"
+      },
+      {
+        "start": 5893780,
+        "end": 6155923,
+        "sha256": "fd3bf4be75ae21324269c2218614fce7f2792fe1a3c3e854e7fb49be75a95c09"
+      },
+      {
+        "start": 6155924,
+        "end": 6418067,
+        "sha256": "acf9c85047bc23cb8891be3b46a978fdf05281e2d0809c5356bc963d201e02df"
+      },
+      {
+        "start": 6418068,
+        "end": 6680211,
+        "sha256": "7298d35a14a160a4db7990f72588ccb0e03b553d38d2cde35677cd646527f1f7"
+      },
+      {
+        "start": 6680212,
+        "end": 6942355,
+        "sha256": "debff9a7ae855ec946262eee1bf2eeba2cc5d7c76164966e82a5933a06b37aa3"
+      },
+      {
+        "start": 6942356,
+        "end": 7204499,
+        "sha256": "9bde9078a232669dd186163236a58868d9d418e888359763ae3816cac9179fb8"
+      },
+      {
+        "start": 7204500,
+        "end": 7354429,
+        "sha256": "de74f9fb59142f1c630cacfd32c2a6fc05465478e4a8cb711d344a33b92e8244"
+      }
+    ],
+    "poster_sha256": "9eabc0e1114007a70312038da4def9e833b904269d0216bc90b04aa7a00bd450",
+    "license": "MIT (picture track) + CC-BY-4.0 (BGM)",
+    "attribution": "gnipbao / story-to-handdrawn-video (https://github.com/gnipbao/story-to-handdrawn-video); BGM “Carefree” — Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0 License https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
     "resource_id": "video-shotcraft-carousel-3d",
     "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/carousel-3d.mp4",
     "poster": "/previews/video-shotcraft-carousel-3d.webp",
@@ -11401,353 +12064,5 @@
     "poster_sha256": "50c9dadc7255271b8b450da6483b4f4218fc4ff7e6c300c9e46c670c26be2e1d",
     "license": "MIT",
     "attribution": "SpecStory, Inc. (https://github.com/specstoryai/zero-to-product-video-hero)"
-  },
-  {
-    "resource_id": "huashu-art-motion",
-    "source_url": "https://github.com/alchaincyf/huashu-art-motion/releases/download/v1.0.0/art-motion-35-styles.mp4",
-    "poster": "/previews/huashu-art-motion.webp",
-    "timestamp_seconds": 14.437,
-    "duration_seconds": 41.25,
-    "source_width": 1920,
-    "source_height": 1080,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "6ab9ed8ab24f225f65c4a2445152299794bf65a579bc611995a281420e780491"
-      },
-      {
-        "start": 19091541,
-        "end": 19353684,
-        "sha256": "7249bfa15b5dcc2fce0d2c343f9aa4efc212e6f7367f68f30eae6e6a100a3bff"
-      },
-      {
-        "start": 19353685,
-        "end": 19615828,
-        "sha256": "6a71551874d9f9c6875851318beebd0c8f60fccae87434ad1e0a65f718ecd759"
-      },
-      {
-        "start": 19615829,
-        "end": 19877972,
-        "sha256": "72394ad2e32f3dc3e8b193b1d2f12a96904b424939a5cf8f6fe9c997f2d5b8cd"
-      },
-      {
-        "start": 19877973,
-        "end": 20140116,
-        "sha256": "d8ea619a73229f574f2feb2d44829ed4077b928832ed511aaa4cd618b64ada8d"
-      },
-      {
-        "start": 20140117,
-        "end": 20402260,
-        "sha256": "cd61d906f492eff7f094f8c43cc2b258a52233d700bd5008bf57c4559ff10381"
-      },
-      {
-        "start": 20402261,
-        "end": 20664404,
-        "sha256": "7e9ca2a0a9051c767d42a3725303d562d727712888a51b0dd82003c92eb514da"
-      },
-      {
-        "start": 20664405,
-        "end": 20926548,
-        "sha256": "933d267d251bdbb34839d57d130eeb352ca6af72b061c6c498459320b074499e"
-      },
-      {
-        "start": 20926549,
-        "end": 21188692,
-        "sha256": "97f858354ca0ff2fe5877f5d13cb0922748da794be873e5cb377311de2c95b32"
-      },
-      {
-        "start": 21188693,
-        "end": 21450836,
-        "sha256": "00c8acd6180b83659aa633995596de84bd2f4da9024c8214d7d42f03abe0ee8a"
-      },
-      {
-        "start": 21450837,
-        "end": 21712980,
-        "sha256": "50b570fa24895fd1ba8c7866f7e9c7cc43f110b116f1d56674caefd8d97a00e0"
-      },
-      {
-        "start": 21712981,
-        "end": 21975124,
-        "sha256": "954be17dafd4bfcd12d2eeac5eddad754fe2e82c09fe609c71422a54811565cc"
-      },
-      {
-        "start": 21975125,
-        "end": 22237268,
-        "sha256": "ddd94b675fb52bdefb7e2e8d930a4b4092454af47a1c12dbda3ca2311ecae2ee"
-      },
-      {
-        "start": 22237269,
-        "end": 22411679,
-        "sha256": "ad827063a703b5615af750bfe18113861c1290d801f4990e2732f4cef32e95a5"
-      }
-    ],
-    "poster_sha256": "ee7dfac4c20fb1eff109d784ba7152c9255d7ccbaaa9b894f26d8e75b6fabdeb",
-    "license": "MIT",
-    "attribution": "alchaincyf / 花叔 (https://github.com/alchaincyf/huashu-art-motion) — release asset art-motion-35-styles.mp4 (v1.0.0); silent 35-style sample reel"
-  },
-  {
-    "resource_id": "story-to-handdrawn-video",
-    "source_url": "https://github.com/gnipbao/story-to-handdrawn-video/raw/refs/heads/main/examples/style-showcase/handdrawn-styles-75-page-flip-45s-bgm.mp4",
-    "poster": "/previews/story-to-handdrawn-video.webp",
-    "timestamp_seconds": 15.75,
-    "duration_seconds": 45.0,
-    "source_width": 1080,
-    "source_height": 1440,
-    "source_sha256": null,
-    "source_byte_ranges": [
-      {
-        "start": 0,
-        "end": 65535,
-        "sha256": "37115d189687dbc4802ca96477120e552977bb189dbe39d943e2b0f0611f76ed"
-      },
-      {
-        "start": 3534484,
-        "end": 3796627,
-        "sha256": "5ccf04491a73806cf9bebbcc7bed70c89fed1f0aa566369705310ff2538629e8"
-      },
-      {
-        "start": 3796628,
-        "end": 4058771,
-        "sha256": "b9751087c94bafa4fbd8df7a7803b78d0d0cf55b4b843f725d34b5792a8b1625"
-      },
-      {
-        "start": 4058772,
-        "end": 4320915,
-        "sha256": "35e05231a0630283deff81a49689fd2ac85adb171ac8483f0f3ef6f6895d8cc5"
-      },
-      {
-        "start": 4320916,
-        "end": 4583059,
-        "sha256": "3ce40aea542928653bc7aeb56ac4afcd8a51be76bd14e60cb751fc3e55d20dd6"
-      },
-      {
-        "start": 4583060,
-        "end": 4845203,
-        "sha256": "f33ec837beb86ed860a13ba1c42ae156f290c0571ca92559fca032804f3970bd"
-      },
-      {
-        "start": 4845204,
-        "end": 5107347,
-        "sha256": "d048cffb6e2d59d47a769f5241d1bbc3ba6a80e02b66c88b740b70d83b2c5d01"
-      },
-      {
-        "start": 5107348,
-        "end": 5369491,
-        "sha256": "35539e718cf954f78cd6504818cb76f56a9f93690c9d61df0cc79c7887703e4a"
-      },
-      {
-        "start": 5369492,
-        "end": 5631635,
-        "sha256": "d9f3f552b4a6857cb5ded8329c6d200539b1200342aa789c6c51b9201554bd79"
-      },
-      {
-        "start": 5631636,
-        "end": 5893779,
-        "sha256": "0dffc1cd6ae214826d52816bc61fc76f3fd44b1784d765b4f497f6e716f24f54"
-      },
-      {
-        "start": 5893780,
-        "end": 6155923,
-        "sha256": "fd3bf4be75ae21324269c2218614fce7f2792fe1a3c3e854e7fb49be75a95c09"
-      },
-      {
-        "start": 6155924,
-        "end": 6418067,
-        "sha256": "acf9c85047bc23cb8891be3b46a978fdf05281e2d0809c5356bc963d201e02df"
-      },
-      {
-        "start": 6418068,
-        "end": 6680211,
-        "sha256": "7298d35a14a160a4db7990f72588ccb0e03b553d38d2cde35677cd646527f1f7"
-      },
-      {
-        "start": 6680212,
-        "end": 6942355,
-        "sha256": "debff9a7ae855ec946262eee1bf2eeba2cc5d7c76164966e82a5933a06b37aa3"
-      },
-      {
-        "start": 6942356,
-        "end": 7204499,
-        "sha256": "9bde9078a232669dd186163236a58868d9d418e888359763ae3816cac9179fb8"
-      },
-      {
-        "start": 7204500,
-        "end": 7354429,
-        "sha256": "de74f9fb59142f1c630cacfd32c2a6fc05465478e4a8cb711d344a33b92e8244"
-      }
-    ],
-    "poster_sha256": "9eabc0e1114007a70312038da4def9e833b904269d0216bc90b04aa7a00bd450",
-    "license": "MIT (picture track) + CC-BY-4.0 (BGM)",
-    "attribution": "gnipbao / story-to-handdrawn-video (https://github.com/gnipbao/story-to-handdrawn-video); BGM “Carefree” — Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0 License https://creativecommons.org/licenses/by/4.0/"
-  },
-  {
-    "resource_id": "freelancer-bounce-text-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Warm.mp4",
-    "poster": "/previews/freelancer-bounce-text-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "e9cad3863d4a71ed5cc392e319da82ae2d04a5444638f59e0a49238acfac8b17",
-    "source_byte_ranges": [],
-    "poster_sha256": "9a40a9a87ade7b095405e06b3388b60f8096b64b632816cde119df79d9abdb0b",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-bubble-pop-text-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/BubblePopText-Warm.mp4",
-    "poster": "/previews/freelancer-bubble-pop-text-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "6438399d5caa7eceb59a6a637a520f316d2527abb2e208ba5d0266a9d5484904",
-    "source_byte_ranges": [],
-    "poster_sha256": "caec53375dc7c5c9fffce3f5e8096bc77235895add68c46bc7632c812cfbfdf7",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-card-flip-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Warm.mp4",
-    "poster": "/previews/freelancer-card-flip-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "77571f50f73660f63cfd39c8040231b922d39d9b415fcf35b8744cc42eb0d5fe",
-    "source_byte_ranges": [],
-    "poster_sha256": "9673c57e1aadf07868f9582231e26b820ab041db592bbd0c3c0420a9e4a7c7bc",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-floating-bubble-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Warm.mp4",
-    "poster": "/previews/freelancer-floating-bubble-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "11fec2cc57e20f89ff49dc502b8b9985a730fd5985ccdaa76cbadf1769ee9246",
-    "source_byte_ranges": [],
-    "poster_sha256": "5632b25cd1f5a92b9967098e1d21d911e6c6ce80907026d022dd64599d9c7892",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-pulsing-text-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Warm.mp4",
-    "poster": "/previews/freelancer-pulsing-text-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "ba7e06c1660169325376546752abff59fbf56361809b7e198927bc5f36bff69f",
-    "source_byte_ranges": [],
-    "poster_sha256": "df486c8beff940aca8fd18125d68da82c25ae797095325bdaad3b961981bcc4e",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-slide-text-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/SlideText-Warm.mp4",
-    "poster": "/previews/freelancer-slide-text-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "a5660594a57803237f077f61396a65d88935617fdf503c4b47485fc18212635f",
-    "source_byte_ranges": [],
-    "poster_sha256": "74990f1ba0fc33609cde125755436c865bff84c7c89c52760244ee41c4be62df",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-matrix-rain-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Warm.mp4",
-    "poster": "/previews/freelancer-matrix-rain-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "2f44c281228a0e9fcb652ea6c4468a06e4b045479390746eb6c7c994903d753c",
-    "source_byte_ranges": [],
-    "poster_sha256": "cec809738a72ceb1fdabe1dcf65947f86451a74c30e56a8d23593f591815dc24",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-animated-list-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Warm.mp4",
-    "poster": "/previews/freelancer-animated-list-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "ed5052326abb9bc37f3d913d08a5f388e9bf49de021f4f2b8a202b2a6404fa2e",
-    "source_byte_ranges": [],
-    "poster_sha256": "db8d20f61c30f6d6ed69512b4e5298dee59dd5d99ec7ca021391dc2520c1fb98",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-animated-text-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedText-Warm.mp4",
-    "poster": "/previews/freelancer-animated-text-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "6cd0f5f0857e8e61dd4c533582a3b01e82a5a83a4dae840ceb0f3f6937696110",
-    "source_byte_ranges": [],
-    "poster_sha256": "23fbc36209d6e0acca1e86454db75423c57f3a6741fb228d61540bfd72d83b9f",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-glitch-text-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/GlitchText-Warm.mp4",
-    "poster": "/previews/freelancer-glitch-text-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "0017075c8360d6c2189ee6a2ac186fc7051ebf9b64028e66eee0345fb1bac35f",
-    "source_byte_ranges": [],
-    "poster_sha256": "5be8a54fae1bf0263e96a7a3267438c912dcb3dd581d1a278cbd863fbb1243df",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-typewriter-subtitle-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Warm.mp4",
-    "poster": "/previews/freelancer-typewriter-subtitle-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "574854958378ecc7560bbcd2f38ae3410962b5f5ac8e2912469281b7198c2722",
-    "source_byte_ranges": [],
-    "poster_sha256": "b0bfd08249b83bb9a865f7d78377944eb23d7a78675ee6398a87a4cd5fa26aae",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
-  },
-  {
-    "resource_id": "freelancer-geometric-patterns-warm",
-    "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Warm.mp4",
-    "poster": "/previews/freelancer-geometric-patterns-warm.webp",
-    "timestamp_seconds": 0.717,
-    "duration_seconds": 2.048,
-    "source_width": 1280,
-    "source_height": 720,
-    "source_sha256": "101e86daa6da0b00585694328f6bc88f7c5b510c93eec717909b9ede656900ea",
-    "source_byte_ranges": [],
-    "poster_sha256": "dc3af80af1f184f1c64cdacd8cbc1c24cef58cc4ec2c16895d34384ffb4c1ac6",
-    "license": "CC-BY-NC-SA",
-    "attribution": "freelancer-templates.org"
   }
 ]
