@@ -2275,5 +2275,16 @@
     "reliability": "medium",
     "checked_at": "2026-10-31",
     "notes": "Batch AO on 2026-10-31. 0 RT; 0 SC; FT×12 same-family non-Arctic Crimson fill (Tutorial-CrimsonNumberedSteps, TravelItinerary-CrimsonDayByDay, CountdownHype-CrimsonTimer, MusicVisualizer-CrimsonBars, AnimatedList-Crimson, AnimatedText-Crimson, GlitchText-Crimson, TypewriterSubtitle-Crimson, GeometricPatterns-Crimson, LiquidWave-Crimson, SoundWave-Crimson, ParticleExplosion-Crimson); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. All prescribed #L collision-free."
+  },
+  {
+    "id": "S-CV-187",
+    "project_id": "freelancer-templates",
+    "title": "Batch AP preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Forest.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch AP on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Forest fill (BounceText-Forest, BubblePopText-Forest, CardFlip-Forest, FloatingBubble-Forest, PulsingText-Forest, SlideText-Forest, MatrixRain-Forest, AnimatedList-Forest, AnimatedText-Forest, GlitchText-Forest, TypewriterSubtitle-Forest, GeometricPatterns-Forest); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. All prescribed #L collision-free."
   }
 ]
