@@ -2330,5 +2330,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch AT on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Neon fill (BounceText-Neon, BubblePopText-Neon, CardFlip-Neon, FloatingBubble-Neon, PulsingText-Neon, SlideText-Neon, MatrixRain-Neon, AnimatedList-Neon, AnimatedText-Neon, GlitchText-Neon, TypewriterSubtitle-Neon, GeometricPatterns-Neon); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +3 (L45/L43/L45/L45/L43/L45/L45/L54/L51/L50/L49/L57), free vs Forest/Crimson/Lavender/Rose/Gold."
+  },
+  {
+    "id": "S-CV-192",
+    "project_id": "freelancer-templates",
+    "title": "Batch AU preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Midnight.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch AU on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Midnight fill (BounceText-Midnight, BubblePopText-Midnight, CardFlip-Midnight, FloatingBubble-Midnight, PulsingText-Midnight, SlideText-Midnight, MatrixRain-Midnight, AnimatedList-Midnight, AnimatedText-Midnight, GlitchText-Midnight, TypewriterSubtitle-Midnight, GeometricPatterns-Midnight); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +4 (L46/L44/L46/L46/L44/L46/L46/L55/L52/L51/L50/L58), free vs Forest/Crimson/Lavender/Rose/Gold/Neon."
   }
 ]
