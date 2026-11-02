@@ -19035,5 +19035,365 @@
       "poster": "/previews/freelancer-geometric-patterns-bold.webp",
       "source": "S-CV-199 https://freelancer-templates.org/previews/hero/GeometricPatterns-Bold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=913330, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-bounce-text-clean",
+    "project_id": "freelancer-templates",
+    "name": "Bounce Text Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bouncetext/BounceText.tsx#L51",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bounce-text composition. Reuse BounceText.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BounceText-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bounce-text-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/BounceText-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=209655, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-bubble-pop-text-clean",
+    "project_id": "freelancer-templates",
+    "name": "Bubble Pop Text Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bubblepoptext/BubblePopText.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bubble-pop-text composition. Reuse BubblePopText.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BubblePopText-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bubble-pop-text-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/BubblePopText-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=141660, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-card-flip-clean",
+    "project_id": "freelancer-templates",
+    "name": "Card Flip Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/cardflip/CardFlip.tsx#L51",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion card-flip composition. Reuse CardFlip.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CardFlip-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-card-flip-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/CardFlip-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=161788, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-floating-bubble-clean",
+    "project_id": "freelancer-templates",
+    "name": "Floating Bubble Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/floatingbubble/FloatingBubble.tsx#L51",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion floating-bubble composition. Reuse FloatingBubble.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-floating-bubble-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/FloatingBubble-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=212926, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-pulsing-text-clean",
+    "project_id": "freelancer-templates",
+    "name": "Pulsing Text Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pulsingtext/PulsingText.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pulsing-text composition. Reuse PulsingText.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PulsingText-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-pulsing-text-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/PulsingText-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=173143, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-slide-text-clean",
+    "project_id": "freelancer-templates",
+    "name": "Slide Text Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/slidetext/SlideText.tsx#L51",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion slide-text composition. Reuse SlideText.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SlideText-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-slide-text-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/SlideText-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=177027, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-matrix-rain-clean",
+    "project_id": "freelancer-templates",
+    "name": "Matrix Rain Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/matrixrain/MatrixRain.tsx#L51",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion matrix-rain composition. Reuse MatrixRain.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MatrixRain-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-matrix-rain-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/MatrixRain-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=478168, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-list-clean",
+    "project_id": "freelancer-templates",
+    "name": "Animated List Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedlist/AnimatedList.tsx#L60",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-list composition. Reuse AnimatedList.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedList-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-list-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/AnimatedList-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=190078, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-text-clean",
+    "project_id": "freelancer-templates",
+    "name": "Animated Text Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedtext/AnimatedText.tsx#L57",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-text composition. Reuse AnimatedText.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedText-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-text-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/AnimatedText-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=146689, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-glitch-text-clean",
+    "project_id": "freelancer-templates",
+    "name": "Glitch Text Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx#L56",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion glitch-text composition. Reuse GlitchText.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GlitchText-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-glitch-text-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/GlitchText-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=96085, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-typewriter-subtitle-clean",
+    "project_id": "freelancer-templates",
+    "name": "Typewriter Subtitle Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/typewritersubtitle/TypewriterSubtitle.tsx#L55",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion typewriter-subtitle composition. Reuse TypewriterSubtitle.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-typewriter-subtitle-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=139451, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-geometric-patterns-clean",
+    "project_id": "freelancer-templates",
+    "name": "Geometric Patterns Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/geometricpatterns/GeometricPatterns.tsx#L63",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion geometric-patterns composition. Reuse GeometricPatterns.tsx and theme props; the listed hero variant is Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-200"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Clean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-geometric-patterns-clean.webp",
+      "source": "S-CV-200 https://freelancer-templates.org/previews/hero/GeometricPatterns-Clean.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=769418, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
