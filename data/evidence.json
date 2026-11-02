@@ -2429,5 +2429,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch AZ on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Clean fill (BounceText-Clean, BubblePopText-Clean, CardFlip-Clean, FloatingBubble-Clean, PulsingText-Clean, SlideText-Clean, MatrixRain-Clean, AnimatedList-Clean, AnimatedText-Clean, GlitchText-Clean, TypewriterSubtitle-Clean, GeometricPatterns-Clean); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +9 / AY Bold +1 (L51/L49/L51/L51/L49/L51/L51/L60/L57/L56/L55/L63), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso/Warm/Bold."
+  },
+  {
+    "id": "S-CV-201",
+    "project_id": "freelancer-templates",
+    "title": "Batch BA preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Dark.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch BA on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Dark fill (BounceText-Dark, BubblePopText-Dark, CardFlip-Dark, FloatingBubble-Dark, PulsingText-Dark, SlideText-Dark, MatrixRain-Dark, AnimatedList-Dark, AnimatedText-Dark, GlitchText-Dark, TypewriterSubtitle-Dark, GeometricPatterns-Dark); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +10 / AZ Clean +1 (L52/L50/L52/L52/L50/L52/L52/L61/L58/L57/L56/L64), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso/Warm/Bold/Clean."
   }
 ]

@@ -1060,6 +1060,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-animated-list-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Dark.mp4",
+    "poster": "/previews/freelancer-animated-list-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "e720531d6b6d7b3fc9e6573ba0ff7bc3c6c9dd401591b16a7b6729e83d5044da"
+      },
+      {
+        "start": 4075,
+        "end": 172369,
+        "sha256": "d09b397f5cbc6ddd8e2b285188f351ddd955b4e1cdb5c9852ecf8550e5d9491a"
+      }
+    ],
+    "poster_sha256": "7a8feaf82684ae6495a17c8a1aa492a3f1783c6262fbf3f5cccdb682df78ad39",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-animated-list-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Espresso.mp4",
     "poster": "/previews/freelancer-animated-list-espresso.webp",
@@ -1282,6 +1307,31 @@
     "source_sha256": "c2567bbe056aae5bfa5c90076b28626763aaa99a00e09c32069557a4cf108c79",
     "source_byte_ranges": [],
     "poster_sha256": "89c3d73f3a3b67806668ebfb1e0841c3703db08e072601cc69f374ccfb430f59",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-animated-text-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedText-Dark.mp4",
+    "poster": "/previews/freelancer-animated-text-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "4c6ea88b01670cce588d3722ef3dcc2bb6b39073d690726157a580bc85400dfc"
+      },
+      {
+        "start": 4099,
+        "end": 124463,
+        "sha256": "01fc9d16748b666756dfdc7d8bbd8f43c89bfddf0c3ae112f6e7b467a950bea4"
+      }
+    ],
+    "poster_sha256": "6298aba9540f79846aee0a5c2f073961b08275994d3697c271f523cef4f69949",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1725,6 +1775,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bounce-text-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Dark.mp4",
+    "poster": "/previews/freelancer-bounce-text-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "68674ea2a6eed058eb13d42d3ac1bc2bf41a0536bdb0c504cc48ce574c7d82fe"
+      },
+      {
+        "start": 4051,
+        "end": 225675,
+        "sha256": "8d4cffa13e2c06505e5c1ab21d9464110721a69e45905207e570e777abbcc0e1"
+      }
+    ],
+    "poster_sha256": "cda08cf33dc4a01cfd70c4245e6abf89f82918acceba91e60fe306d4841d515a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-bounce-text-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Espresso.mp4",
     "poster": "/previews/freelancer-bounce-text-espresso.webp",
@@ -1978,6 +2053,31 @@
       }
     ],
     "poster_sha256": "7ef41fb23230a0be9a9edd45dca0b75fa3de22aceb96495b5f0053a249cff97b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-bubble-pop-text-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/BubblePopText-Dark.mp4",
+    "poster": "/previews/freelancer-bubble-pop-text-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "1c9e053d77d68817f7ed023c03b8957bbbb2ff96f6b6a86e9fab6243293bef92"
+      },
+      {
+        "start": 4107,
+        "end": 121750,
+        "sha256": "07c37a6d5c5d3e772456a53974baa112197e041b73b84f084b84884914ec94fd"
+      }
+    ],
+    "poster_sha256": "de256661a1fc77a677fc20a0cca76ba7082bbdbf300e3cc0f021b11e01314c5f",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2374,6 +2474,31 @@
       }
     ],
     "poster_sha256": "297edca990005c00bb44c4885ac2018fdcf435793f3f704949e673cab3204192",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-card-flip-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Dark.mp4",
+    "poster": "/previews/freelancer-card-flip-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "4719fb0d3b57b0b463623a4b50136ee0fabe7912dfa58347b61bdb26bbe5e105"
+      },
+      {
+        "start": 4067,
+        "end": 157759,
+        "sha256": "fc6d793937d39d3968c3e73009c02b302cc71b7bda0abce13affe178dd4e39d2"
+      }
+    ],
+    "poster_sha256": "56f5c175a4c5f9127581ff20389d20db32529208016165d4182cea4ebae7c272",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3726,6 +3851,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-floating-bubble-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Dark.mp4",
+    "poster": "/previews/freelancer-floating-bubble-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "26f4a130339d1610a3a98d6c2afda3d11ebe4b241288382c75eb86cf7d4cb809"
+      },
+      {
+        "start": 4067,
+        "end": 185212,
+        "sha256": "d8b7c727dba530de68a28c5403feafcbb4af5275888ee191c25bed305f99ab7a"
+      }
+    ],
+    "poster_sha256": "79b7231b7e06c7ed1a56411a8ed799ff01fd0e92dd55129ca2a5ec484391e09a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-floating-bubble-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Espresso.mp4",
     "poster": "/previews/freelancer-floating-bubble-espresso.webp",
@@ -4006,6 +4156,41 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-geometric-patterns-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Dark.mp4",
+    "poster": "/previews/freelancer-geometric-patterns-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6bcc9cbb3c56ef12cc30e89170446ef529f5bf1af594702c3f1dfd0a413bdf2e"
+      },
+      {
+        "start": 3971,
+        "end": 266114,
+        "sha256": "838c06083567544d5c002b7666399daa7d105798ce3c9fdf56dfc0dc4ebdb049"
+      },
+      {
+        "start": 266115,
+        "end": 528258,
+        "sha256": "b07a63934c8d9638c3063d733dcbc6c92d0c57769a25fa52061d90850fa078dc"
+      },
+      {
+        "start": 528259,
+        "end": 701435,
+        "sha256": "4cad4cee434ed0ca28675ac3414a440736b36c0c89e22d017dd06d31243b5d10"
+      }
+    ],
+    "poster_sha256": "b76d5f2fba4c48c69acc6c6a7bf750602c9b7ef58f3d6ba2b529625ca9cd4f3d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-geometric-patterns-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Espresso.mp4",
     "poster": "/previews/freelancer-geometric-patterns-espresso.webp",
@@ -4227,6 +4412,31 @@
     "source_sha256": "0f76551197d3ed32c7d839bf7b5b19b192b0cf461b6b9bdaca3a32d69506bc56",
     "source_byte_ranges": [],
     "poster_sha256": "bc282f19518cf43abf0fe6f77f14919ab0e9f084e22c6e1d5c1dcc1b4cdc2541",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-glitch-text-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/GlitchText-Dark.mp4",
+    "poster": "/previews/freelancer-glitch-text-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "09951a7868374eeed1f3f6e6ee72017e981c426015d8d16ae7c537d7aaa8da52"
+      },
+      {
+        "start": 4083,
+        "end": 182664,
+        "sha256": "a1b680e6ad49b0dbbef781f3b1fe40adf0f14ff8ad1283e08cd2ccf318ff7d15"
+      }
+    ],
+    "poster_sha256": "033b06c1802e1d49471fad888d5c7d21f328d9412af1c6bd60b82c73283d0c5e",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -4674,6 +4884,36 @@
       }
     ],
     "poster_sha256": "9b92d8b88e8ce96f2de9c11acc5df6da49ff06ef032b0ad6dbf09875b88082c1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-matrix-rain-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Dark.mp4",
+    "poster": "/previews/freelancer-matrix-rain-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "ceecee1792d7ed577caf0bfb2e238cabaaf1f63afe935fda1ae57a0af718357a"
+      },
+      {
+        "start": 4059,
+        "end": 266202,
+        "sha256": "6d34dfe946033171e15cb02b1b0e029a029f1a1ed96dc3a4dc21e7bbcb3166ea"
+      },
+      {
+        "start": 266203,
+        "end": 359490,
+        "sha256": "993f6550619f69a3e037e776f1f2125ce27d7c8dd4e7dfbac5882b4a55a4b0a0"
+      }
+    ],
+    "poster_sha256": "ab6552e2a99b255d0d81baf115ad1a9074d919f3f59e5ea65b0593e0150003a5",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -5930,6 +6170,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-pulsing-text-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Dark.mp4",
+    "poster": "/previews/freelancer-pulsing-text-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d4c82f39fd115a869661c215c3c354ea5408152d28aae3eb95f6de2544cb31e7"
+      },
+      {
+        "start": 4107,
+        "end": 142851,
+        "sha256": "db17c0232919f43b499a0806e595f96b859857cf541c8da539d56ec39f457686"
+      }
+    ],
+    "poster_sha256": "4ce3c8f966629340e80d1b1b69dc33530e37c27d3e8c204f6b803243605eb020",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-pulsing-text-espresso",
     "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Espresso.mp4",
     "poster": "/previews/freelancer-pulsing-text-espresso.webp",
@@ -6584,6 +6849,31 @@
       }
     ],
     "poster_sha256": "63888cb3f0e9e00fad3c752c12d8983ed439eb869932cd59b4d4e6ac9a6a4a72",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-slide-text-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/SlideText-Dark.mp4",
+    "poster": "/previews/freelancer-slide-text-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d033cc0858f27e8eece7b2b41470f72923eee0e428ec838f6c6a04c6ba36c2ce"
+      },
+      {
+        "start": 3995,
+        "end": 156903,
+        "sha256": "e970cb9fadc022b7d8db15a07289f0c416ecef95c68b5008be09eafb991f1db0"
+      }
+    ],
+    "poster_sha256": "94b44d8c75116929434d0377849a78c4cf7f098a8fa45207db342a8e7c83a866",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7443,6 +7733,31 @@
     "source_sha256": "fa0c7708bcf23fbee9e34e69667d20b7ac565773112926d417272d575b318706",
     "source_byte_ranges": [],
     "poster_sha256": "e016818938ed8c830786eb3af27e768334100596f47fbbe0cc1d5ee25892837a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-typewriter-subtitle-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Dark.mp4",
+    "poster": "/previews/freelancer-typewriter-subtitle-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "87ba40f487721f3d0af680128217a085a280fe948e4bf2ada1273f76fc5b7b8b"
+      },
+      {
+        "start": 4035,
+        "end": 115456,
+        "sha256": "fa1be68dbfacd9d16aae9288dee0aee694a2ac0db377261ff2936b4c0c8de645"
+      }
+    ],
+    "poster_sha256": "2fd28eb7935342dd66f363801ba83e41c02a11df3b754efac97f3156d8a76e6b",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
