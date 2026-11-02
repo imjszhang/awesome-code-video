@@ -11233,5 +11233,185 @@
     "poster_sha256": "50c9dadc7255271b8b450da6483b4f4218fc4ff7e6c300c9e46c670c26be2e1d",
     "license": "MIT",
     "attribution": "SpecStory, Inc. (https://github.com/specstoryai/zero-to-product-video-hero)"
+  },
+  {
+    "resource_id": "huashu-art-motion",
+    "source_url": "https://github.com/alchaincyf/huashu-art-motion/releases/download/v1.0.0/art-motion-35-styles.mp4",
+    "poster": "/previews/huashu-art-motion.webp",
+    "timestamp_seconds": 14.437,
+    "duration_seconds": 41.25,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6ab9ed8ab24f225f65c4a2445152299794bf65a579bc611995a281420e780491"
+      },
+      {
+        "start": 19091541,
+        "end": 19353684,
+        "sha256": "7249bfa15b5dcc2fce0d2c343f9aa4efc212e6f7367f68f30eae6e6a100a3bff"
+      },
+      {
+        "start": 19353685,
+        "end": 19615828,
+        "sha256": "6a71551874d9f9c6875851318beebd0c8f60fccae87434ad1e0a65f718ecd759"
+      },
+      {
+        "start": 19615829,
+        "end": 19877972,
+        "sha256": "72394ad2e32f3dc3e8b193b1d2f12a96904b424939a5cf8f6fe9c997f2d5b8cd"
+      },
+      {
+        "start": 19877973,
+        "end": 20140116,
+        "sha256": "d8ea619a73229f574f2feb2d44829ed4077b928832ed511aaa4cd618b64ada8d"
+      },
+      {
+        "start": 20140117,
+        "end": 20402260,
+        "sha256": "cd61d906f492eff7f094f8c43cc2b258a52233d700bd5008bf57c4559ff10381"
+      },
+      {
+        "start": 20402261,
+        "end": 20664404,
+        "sha256": "7e9ca2a0a9051c767d42a3725303d562d727712888a51b0dd82003c92eb514da"
+      },
+      {
+        "start": 20664405,
+        "end": 20926548,
+        "sha256": "933d267d251bdbb34839d57d130eeb352ca6af72b061c6c498459320b074499e"
+      },
+      {
+        "start": 20926549,
+        "end": 21188692,
+        "sha256": "97f858354ca0ff2fe5877f5d13cb0922748da794be873e5cb377311de2c95b32"
+      },
+      {
+        "start": 21188693,
+        "end": 21450836,
+        "sha256": "00c8acd6180b83659aa633995596de84bd2f4da9024c8214d7d42f03abe0ee8a"
+      },
+      {
+        "start": 21450837,
+        "end": 21712980,
+        "sha256": "50b570fa24895fd1ba8c7866f7e9c7cc43f110b116f1d56674caefd8d97a00e0"
+      },
+      {
+        "start": 21712981,
+        "end": 21975124,
+        "sha256": "954be17dafd4bfcd12d2eeac5eddad754fe2e82c09fe609c71422a54811565cc"
+      },
+      {
+        "start": 21975125,
+        "end": 22237268,
+        "sha256": "ddd94b675fb52bdefb7e2e8d930a4b4092454af47a1c12dbda3ca2311ecae2ee"
+      },
+      {
+        "start": 22237269,
+        "end": 22411679,
+        "sha256": "ad827063a703b5615af750bfe18113861c1290d801f4990e2732f4cef32e95a5"
+      }
+    ],
+    "poster_sha256": "ee7dfac4c20fb1eff109d784ba7152c9255d7ccbaaa9b894f26d8e75b6fabdeb",
+    "license": "MIT",
+    "attribution": "alchaincyf / 花叔 (https://github.com/alchaincyf/huashu-art-motion) — release asset art-motion-35-styles.mp4 (v1.0.0); silent 35-style sample reel"
+  },
+  {
+    "resource_id": "story-to-handdrawn-video",
+    "source_url": "https://github.com/gnipbao/story-to-handdrawn-video/raw/refs/heads/main/examples/style-showcase/handdrawn-styles-75-page-flip-45s-bgm.mp4",
+    "poster": "/previews/story-to-handdrawn-video.webp",
+    "timestamp_seconds": 15.75,
+    "duration_seconds": 45.0,
+    "source_width": 1080,
+    "source_height": 1440,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "37115d189687dbc4802ca96477120e552977bb189dbe39d943e2b0f0611f76ed"
+      },
+      {
+        "start": 3534484,
+        "end": 3796627,
+        "sha256": "5ccf04491a73806cf9bebbcc7bed70c89fed1f0aa566369705310ff2538629e8"
+      },
+      {
+        "start": 3796628,
+        "end": 4058771,
+        "sha256": "b9751087c94bafa4fbd8df7a7803b78d0d0cf55b4b843f725d34b5792a8b1625"
+      },
+      {
+        "start": 4058772,
+        "end": 4320915,
+        "sha256": "35e05231a0630283deff81a49689fd2ac85adb171ac8483f0f3ef6f6895d8cc5"
+      },
+      {
+        "start": 4320916,
+        "end": 4583059,
+        "sha256": "3ce40aea542928653bc7aeb56ac4afcd8a51be76bd14e60cb751fc3e55d20dd6"
+      },
+      {
+        "start": 4583060,
+        "end": 4845203,
+        "sha256": "f33ec837beb86ed860a13ba1c42ae156f290c0571ca92559fca032804f3970bd"
+      },
+      {
+        "start": 4845204,
+        "end": 5107347,
+        "sha256": "d048cffb6e2d59d47a769f5241d1bbc3ba6a80e02b66c88b740b70d83b2c5d01"
+      },
+      {
+        "start": 5107348,
+        "end": 5369491,
+        "sha256": "35539e718cf954f78cd6504818cb76f56a9f93690c9d61df0cc79c7887703e4a"
+      },
+      {
+        "start": 5369492,
+        "end": 5631635,
+        "sha256": "d9f3f552b4a6857cb5ded8329c6d200539b1200342aa789c6c51b9201554bd79"
+      },
+      {
+        "start": 5631636,
+        "end": 5893779,
+        "sha256": "0dffc1cd6ae214826d52816bc61fc76f3fd44b1784d765b4f497f6e716f24f54"
+      },
+      {
+        "start": 5893780,
+        "end": 6155923,
+        "sha256": "fd3bf4be75ae21324269c2218614fce7f2792fe1a3c3e854e7fb49be75a95c09"
+      },
+      {
+        "start": 6155924,
+        "end": 6418067,
+        "sha256": "acf9c85047bc23cb8891be3b46a978fdf05281e2d0809c5356bc963d201e02df"
+      },
+      {
+        "start": 6418068,
+        "end": 6680211,
+        "sha256": "7298d35a14a160a4db7990f72588ccb0e03b553d38d2cde35677cd646527f1f7"
+      },
+      {
+        "start": 6680212,
+        "end": 6942355,
+        "sha256": "debff9a7ae855ec946262eee1bf2eeba2cc5d7c76164966e82a5933a06b37aa3"
+      },
+      {
+        "start": 6942356,
+        "end": 7204499,
+        "sha256": "9bde9078a232669dd186163236a58868d9d418e888359763ae3816cac9179fb8"
+      },
+      {
+        "start": 7204500,
+        "end": 7354429,
+        "sha256": "de74f9fb59142f1c630cacfd32c2a6fc05465478e4a8cb711d344a33b92e8244"
+      }
+    ],
+    "poster_sha256": "9eabc0e1114007a70312038da4def9e833b904269d0216bc90b04aa7a00bd450",
+    "license": "MIT (picture track) + CC-BY-4.0 (BGM)",
+    "attribution": "gnipbao / story-to-handdrawn-video (https://github.com/gnipbao/story-to-handdrawn-video); BGM “Carefree” — Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0 License https://creativecommons.org/licenses/by/4.0/"
   }
 ]

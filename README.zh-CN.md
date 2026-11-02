@@ -711,6 +711,9 @@
 - [llm-explain](https://github.com/Gohanwu42/llm-explain) - 讲解工作流，附 Python 与 FFmpeg 合成脚本，将本地静态图片、旁白和字幕合成 MP4 与同步 SRT，适合旁白驱动的概念图解。图片与音频需自行准备，再调整分镜清单。
 - [Remotion Agent Skills](https://github.com/remotion-dev/skills) - 官方编程助手指南，覆盖 Remotion 视频创建、预览与渲染，并提供字幕、地图和多媒体专项参考。适合自建 React 视频制作流程；视觉方向需自行设计，许可按 Remotion 条款核对。
 - [六层视频制作母提示词](https://mp.weixin.qq.com/s/Ridr4JQc6eWOoYfkNfPAgQ) - 中文文章提供完整制作提示词，覆盖交付物、创作权限、制作参数、视觉规则、核心创意和审片迭代。适合用编程助手制作科普或产品影片时拟定任务；替换主题、规格与创意方向。它是制作指令，不是固定画风或可执行成片工程。
+- [edulab](https://github.com/wy51ai/edulab) - 教育向 Agent skill 包：把题目做成可交互课件页与旁白讲解视频（数学/物理/化学视频技能先浏览器预览，可选 Playwright + FFmpeg 导出 MP4）。当前目录预览为立体几何课件动图，视频技能尚无稳定可链 MP4。
+- [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) - 艺术风格运动与讲解语法的 Agent skill：风格配方卡、参数化片段规格、长滚动演示，以及把代码绘制场景（可加 AI 角色帧）组装成片的质检/交付脚本。适合需要可复用艺术运动/旁白片段工作流，而不是单一 Remotion 模板的场景。
+- [story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) - Agent skill + Remotion 渲染器：把中文故事文案或有序图片做成 3:4 静音手绘日记漫画画面轨（翻页或分层描线）。含大量风格库与可选托管风格画廊。
 
 ## 生成式视频提示词
 

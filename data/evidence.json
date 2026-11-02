@@ -2352,5 +2352,38 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch AV on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Sunset fill (BounceText-Sunset, BubblePopText-Sunset, CardFlip-Sunset, FloatingBubble-Sunset, PulsingText-Sunset, SlideText-Sunset, MatrixRain-Sunset, AnimatedList-Sunset, AnimatedText-Sunset, GlitchText-Sunset, TypewriterSubtitle-Sunset, GeometricPatterns-Sunset); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +5 (L47/L45/L47/L47/L45/L47/L47/L56/L53/L52/L51/L59), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight."
+  },
+  {
+    "id": "S-CV-193",
+    "project_id": "huashu-art-motion",
+    "title": "huashu-art-motion — source-reviewed + preview pin (JKC create×3)",
+    "url": "https://github.com/alchaincyf/huashu-art-motion/blob/main/SKILL.md",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-11-02",
+    "notes": "Repo is an Agent skill + Canvas/script motion engine (not a Remotion template pack). Preview pinned to release v1.0.0 art-motion-35-styles.mp4; HEAD 200 + ftyp isom on 2026-11-02 Asia/Shanghai; silent style reel under MIT. Character frames may include AI-generated art; catalog entry is source-reviewed only — not a local successful render. Upstream mentions an adapted skill under nexu-io/open-design; keep that relationship in evidence only — do not name OD in public README blurb per PM selection. Preview URL: https://github.com/alchaincyf/huashu-art-motion/releases/download/v1.0.0/art-motion-35-styles.mp4 (HEAD 200 on 2026-11-02 Asia/Shanghai). Hotlink only; not mirrored. render_tested=false."
+  },
+  {
+    "id": "S-CV-194",
+    "project_id": "story-to-handdrawn-video",
+    "title": "story-to-handdrawn-video — source-reviewed + preview pin (JKC create×3)",
+    "url": "https://github.com/gnipbao/story-to-handdrawn-video/blob/main/skill-package/story-to-handdrawn-video/SKILL.md",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-11-02",
+    "notes": "Remotion 4.x renderer + Agent skill + style library. Preview MP4 HEAD 200 + ftyp isom on 2026-11-02 Asia/Shanghai. BGM Carefree / Kevin MacLeod CC-BY-4.0 — attribution required; see examples/style-showcase/BGM_CREDITS.md. Do not mirror media into this catalog repo. Default product output is a silent picture track; BGM is showcase post-processing. Preview URL: https://github.com/gnipbao/story-to-handdrawn-video/raw/refs/heads/main/examples/style-showcase/handdrawn-styles-75-page-flip-45s-bgm.mp4 (HEAD 200 on 2026-11-02 Asia/Shanghai). Hotlink only; not mirrored. render_tested=false."
+  },
+  {
+    "id": "S-CV-195",
+    "project_id": "edulab",
+    "title": "edulab — source-reviewed + preview pin (JKC create×3)",
+    "url": "https://github.com/wy51ai/edulab/blob/master/skills/edu-solid-geometry/SKILL.md",
+    "type": "source-code",
+    "status": "reviewed",
+    "reliability": "high",
+    "checked_at": "2026-11-02",
+    "notes": "Pack mixes interactive HTML lesson skills and Playwright+FFmpeg explainer-video skills. No stable redistributable MP4 for video skills at write time; catalog preview uses edu-solid-geometry.gif (HEAD 200, GIF89a) as motion still — kind=thumb_link (catalog rule: GIF previews use thumb_link, not image/video). edu-chem-reaction.gif referenced in README but 404 — do not link. TTS depends on user-supplied keys; not render-tested here. Catalog correction vs curator pack: preview.kind set to thumb_link (not image) so npm run check passes. Preview URL: https://raw.githubusercontent.com/wy51ai/edulab/master/edu-solid-geometry.gif (HEAD 200 on 2026-11-02 Asia/Shanghai). Hotlink only; not mirrored. render_tested=false."
   }
 ]

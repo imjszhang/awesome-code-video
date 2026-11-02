@@ -17871,5 +17871,89 @@
       "poster": "/previews/freelancer-geometric-patterns-sunset.webp",
       "source": "S-CV-196 https://freelancer-templates.org/previews/hero/GeometricPatterns-Sunset.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=880171, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "huashu-art-motion",
+    "project_id": "huashu-art-motion",
+    "name": "huashu-art-motion",
+    "kind": "workflow",
+    "url": "https://github.com/alchaincyf/huashu-art-motion",
+    "section": "Production Workflows",
+    "description": "Agent skill for art-style motion and explainer grammars: style recipe cards, parameterized clip specs, long-scroll demos, and QA/delivery scripts that assemble code-drawn scenes (plus optional AI character frames). Useful when you need reusable art-motion / narration-clip workflows rather than a single Remotion template.",
+    "evidence_ids": [
+      "S-CV-193"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/alchaincyf/huashu-art-motion/releases/download/v1.0.0/art-motion-35-styles.mp4",
+      "license": "MIT",
+      "attribution": "alchaincyf / 花叔 (https://github.com/alchaincyf/huashu-art-motion) — release asset art-motion-35-styles.mp4 (v1.0.0); silent 35-style sample reel",
+      "redistributable": true,
+      "source": "S-CV-193 https://github.com/alchaincyf/huashu-art-motion/releases/download/v1.0.0/art-motion-35-styles.mp4. Releases v1.0.0 art-motion-35-styles.mp4; HEAD follow→200 + ftyp isom on 2026-11-02 Asia/Shanghai; Content-Length=52372805. MIT (repo SPDX); silent 35-style sample reel. Hotlink only; not copied into this repository. Not a local render test. Upstream OD/open-design relationship recorded only in S-CV-193 notes — not in public README blurb.",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/huashu-art-motion.webp"
+    }
+  },
+  {
+    "id": "story-to-handdrawn-video",
+    "project_id": "story-to-handdrawn-video",
+    "name": "story-to-handdrawn-video",
+    "kind": "workflow",
+    "url": "https://github.com/gnipbao/story-to-handdrawn-video",
+    "section": "Production Workflows",
+    "description": "Agent skill plus Remotion renderer that turns Chinese story copy or ordered images into a 3:4 silent hand-drawn diary-comic picture track (page-flip or layered draw-on). Includes a large style library and optional hosted style gallery.",
+    "evidence_ids": [
+      "S-CV-194"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/gnipbao/story-to-handdrawn-video/raw/refs/heads/main/examples/style-showcase/handdrawn-styles-75-page-flip-45s-bgm.mp4",
+      "license": "MIT (picture track) + CC-BY-4.0 (BGM)",
+      "attribution": "gnipbao / story-to-handdrawn-video (https://github.com/gnipbao/story-to-handdrawn-video); BGM “Carefree” — Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0 License https://creativecommons.org/licenses/by/4.0/",
+      "redistributable": true,
+      "source": "S-CV-194 https://github.com/gnipbao/story-to-handdrawn-video/raw/refs/heads/main/examples/style-showcase/handdrawn-styles-75-page-flip-45s-bgm.mp4. HEAD follow→200 + ftyp isom on 2026-11-02 Asia/Shanghai; Content-Length=19838667. Picture track MIT; BGM “Carefree” — Kevin MacLeod, CC BY 4.0 (see examples/style-showcase/BGM_CREDITS.md). Hotlink only; not copied. Not a local render test.",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/story-to-handdrawn-video.webp"
+    }
+  },
+  {
+    "id": "edulab",
+    "project_id": "edulab",
+    "name": "edulab",
+    "kind": "workflow",
+    "url": "https://github.com/wy51ai/edulab",
+    "section": "Production Workflows",
+    "description": "Education agent-skill pack that turns academic problems into interactive lesson pages and narrated explainer videos (math / physics / chemistry video skills with browser preview first, optional MP4 export via Playwright + FFmpeg).",
+    "evidence_ids": [
+      "S-CV-195"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/wy51ai/edulab/master/edu-solid-geometry.gif",
+      "license": "Apache-2.0",
+      "attribution": "wy51ai / edulab (https://github.com/wy51ai/edulab)",
+      "redistributable": true,
+      "source": "S-CV-195 https://raw.githubusercontent.com/wy51ai/edulab/master/edu-solid-geometry.gif. HEAD 200 GIF89a on 2026-11-02 Asia/Shanghai; Content-Length=11382687. Apache-2.0. Motion GIF for edu-solid-geometry lesson skill; no stable redistributable MP4 for video skills at write time. Do not use edu-chem-reaction.gif (404). kind=thumb_link (GIF rule). Hotlink only; not copied. Not a local render test.",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/edulab.webp"
+    }
   }
 ]

@@ -666,5 +666,44 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-10-29"
+  },
+  {
+    "id": "huashu-art-motion",
+    "name": "huashu-art-motion",
+    "url": "https://github.com/alchaincyf/huashu-art-motion",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1406706284,
+      "full_name": "alchaincyf/huashu-art-motion",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-02"
+  },
+  {
+    "id": "story-to-handdrawn-video",
+    "name": "story-to-handdrawn-video",
+    "url": "https://github.com/gnipbao/story-to-handdrawn-video",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1307486190,
+      "full_name": "gnipbao/story-to-handdrawn-video",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-02"
+  },
+  {
+    "id": "edulab",
+    "name": "edulab",
+    "url": "https://github.com/wy51ai/edulab",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1259071744,
+      "full_name": "wy51ai/edulab",
+      "default_branch": "master"
+    },
+    "identity_checked_at": "2026-11-02"
   }
 ]
