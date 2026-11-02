@@ -1,5 +1,16 @@
 [
   {
+    "resource_id": "edulab",
+    "source_url": "https://raw.githubusercontent.com/wy51ai/edulab/master/edu-solid-geometry.gif",
+    "poster": "/previews/edulab.webp",
+    "source_sha256": "0712c1fd0d237a8c00343098cf19603e727d82436a3003dcacb664edab2a41d2",
+    "frame_index": 106,
+    "frame_count": 266,
+    "poster_sha256": "6173d877300ba978dbad3222c45081f61010e01355100e4fbb2c9c7dd666cb81",
+    "license": "Apache-2.0",
+    "attribution": "wy51ai / edulab (https://github.com/wy51ai/edulab)"
+  },
+  {
     "resource_id": "gvp-anim-transfer-cam-track",
     "source_url": "https://customer-qs6wnyfuv0gcybzj.cloudflarestream.com/089e7cd70d20131d6d1b44741520eaee/thumbnails/thumbnail.jpg",
     "poster": "/previews/gvp-anim-transfer-cam-track.webp",
