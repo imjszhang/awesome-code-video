@@ -2396,5 +2396,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch AW on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Espresso fill (BounceText-Espresso, BubblePopText-Espresso, CardFlip-Espresso, FloatingBubble-Espresso, PulsingText-Espresso, SlideText-Espresso, MatrixRain-Espresso, AnimatedList-Espresso, AnimatedText-Espresso, GlitchText-Espresso, TypewriterSubtitle-Espresso, GeometricPatterns-Espresso); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +6 (L48/L46/L48/L48/L46/L48/L48/L57/L54/L53/L52/L60), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean."
+  },
+  {
+    "id": "S-CV-198",
+    "project_id": "freelancer-templates",
+    "title": "Batch AX preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Warm.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch AX on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Warm fill (BounceText-Warm, BubblePopText-Warm, CardFlip-Warm, FloatingBubble-Warm, PulsingText-Warm, SlideText-Warm, MatrixRain-Warm, AnimatedList-Warm, AnimatedText-Warm, GlitchText-Warm, TypewriterSubtitle-Warm, GeometricPatterns-Warm); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +7 / AW Espresso +1 (L49/L47/L49/L49/L47/L49/L49/L58/L55/L54/L53/L61), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso."
   }
 ]
