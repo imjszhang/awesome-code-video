@@ -2308,5 +2308,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch AR on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Rose fill (BounceText-Rose, BubblePopText-Rose, CardFlip-Rose, FloatingBubble-Rose, PulsingText-Rose, SlideText-Rose, MatrixRain-Rose, AnimatedList-Rose, AnimatedText-Rose, GlitchText-Rose, TypewriterSubtitle-Rose, GeometricPatterns-Rose); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. Prescribed #L collided with AQ Lavender; used free anchors L43/L41/L43/L43/L41/L43/L43/L52/L49/L48/L47/L55."
+  },
+  {
+    "id": "S-CV-190",
+    "project_id": "freelancer-templates",
+    "title": "Batch AS preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Gold.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch AS on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Gold fill (BounceText-Gold, BubblePopText-Gold, CardFlip-Gold, FloatingBubble-Gold, PulsingText-Gold, SlideText-Gold, MatrixRain-Gold, AnimatedList-Gold, AnimatedText-Gold, GlitchText-Gold, TypewriterSubtitle-Gold, GeometricPatterns-Gold); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +2 (L44/L42/L44/L44/L42/L44/L44/L53/L50/L49/L48/L56), free vs Forest/Crimson/Lavender/Rose."
   }
 ]
