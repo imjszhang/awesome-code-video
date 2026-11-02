@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 664 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 676 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -647,6 +647,19 @@
 - [速率图：柱状图干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/velocitychart/VelocityChart.tsx#L81) - 用于速率柱状图展示的 Remotion 成片。复用 VelocityChart.tsx 的 bar-chart 版式与 Clean 主题，列出的主预览变体是 Bar Chart Clean。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [缺陷分诊：绯红优先级列](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtriage/BugTriage.tsx#L34) - 用于缺陷优先级分列的 Remotion 成片。复用 BugTriage.tsx 的 priority-columns 版式（PriorityColumns）与 Crimson 主题，列出的主预览变体是 Crimson Priority Columns。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [功能路线图：网格深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureroadmap/FeatureRoadmap.tsx#L63) - 用于功能路线图网格展示的 Remotion 成片。复用 FeatureRoadmap.tsx 的 grid 版式（CardGridShell）与 Dark 主题，列出的主预览变体是 Grid Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [发布说明：变更日志深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/releasenotes/ReleaseNotes.tsx#L21) - 用于发布说明变更日志展示的 Remotion 成片。复用 ReleaseNotes.tsx 的 changelog 版式（TimelineShell）与 Dark 主题，列出的主预览变体是 Changelog Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [组件清单：架构网格深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/componentinventory/ComponentInventory.tsx#L19) - 用于组件架构网格清单的 Remotion 成片。复用 ComponentInventory.tsx 的 architecture-grid 版式（CardGridShell）与 Dark 主题，列出的主预览变体是 Architecture Grid Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [部署状态：环境卡片霓虹](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/deploymentstatus/DeploymentStatus.tsx#L17) - 用于部署环境卡片展示的 Remotion 成片。复用 DeploymentStatus.tsx 的 environment-cards 版式（ListDetailShell）与 Neon 主题，列出的主预览变体是 Environment Cards Neon。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [速率图：摘要深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/velocitychart/VelocityChart.tsx#L24) - 用于速率摘要展示的 Remotion 成片。复用 VelocityChart.tsx 的 summary 版式与 Dark 主题，列出的主预览变体是 Summary Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户报告：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L179) - 用于客户报告仪表盘展示的 Remotion 成片。复用 ClientReport.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [会议回顾：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/meetingrecap/MeetingRecap.tsx#L51) - 用于会议回顾仪表盘展示的 Remotion 成片。复用 MeetingRecap.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [项目时间线：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L51) - 用于项目时间线仪表盘展示的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [费率卡：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L49) - 用于费率卡仪表盘展示的 Remotion 成片。复用 RateCard.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：Bauhaus 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L368) - 用于清单卡片展示的 Remotion 成片。复用 Listicle.tsx 的 cards 版式（CardsLayout）与 Bauhaus 主题，列出的主预览变体是 Bauhaus Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Bauhaus 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L369) - 用于客户证言居中展示的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式（CenteredLayout）与 Bauhaus 主题，列出的主预览变体是 Bauhaus Centered。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [缺陷分诊：摘要仪表盘深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtriage/BugTriage.tsx#L24) - 用于缺陷摘要仪表盘展示的 Remotion 成片。复用 BugTriage.tsx 的 summary-dashboard 版式与 Dark 主题，列出的主预览变体是 Summary Dashboard Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [项目健康：健康记分卡深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecthealth/ProjectHealth.tsx#L26) - 用于项目健康记分卡展示的 Remotion 成片。复用 ProjectHealth.tsx 的 health-scorecard 版式与 Dark 主题，列出的主预览变体是 Health Scorecard Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
