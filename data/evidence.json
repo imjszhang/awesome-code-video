@@ -2407,5 +2407,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch AX on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Warm fill (BounceText-Warm, BubblePopText-Warm, CardFlip-Warm, FloatingBubble-Warm, PulsingText-Warm, SlideText-Warm, MatrixRain-Warm, AnimatedList-Warm, AnimatedText-Warm, GlitchText-Warm, TypewriterSubtitle-Warm, GeometricPatterns-Warm); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +7 / AW Espresso +1 (L49/L47/L49/L49/L47/L49/L49/L58/L55/L54/L53/L61), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso."
+  },
+  {
+    "id": "S-CV-199",
+    "project_id": "freelancer-templates",
+    "title": "Batch AY preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Bold.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch AY on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Bold fill (BounceText-Bold, BubblePopText-Bold, CardFlip-Bold, FloatingBubble-Bold, PulsingText-Bold, SlideText-Bold, MatrixRain-Bold, AnimatedList-Bold, AnimatedText-Bold, GlitchText-Bold, TypewriterSubtitle-Bold, GeometricPatterns-Bold); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +8 / AX Warm +1 (L50/L48/L50/L50/L48/L50/L50/L59/L56/L55/L54/L62), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso/Warm."
   }
 ]
