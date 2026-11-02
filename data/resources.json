@@ -18315,5 +18315,365 @@
       "poster": "/previews/freelancer-geometric-patterns-espresso.webp",
       "source": "S-CV-197 https://freelancer-templates.org/previews/hero/GeometricPatterns-Espresso.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=894697, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-bounce-text-warm",
+    "project_id": "freelancer-templates",
+    "name": "Bounce Text Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bouncetext/BounceText.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bounce-text composition. Reuse BounceText.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BounceText-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bounce-text-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/BounceText-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=255367, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-bubble-pop-text-warm",
+    "project_id": "freelancer-templates",
+    "name": "Bubble Pop Text Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bubblepoptext/BubblePopText.tsx#L47",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bubble-pop-text composition. Reuse BubblePopText.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BubblePopText-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bubble-pop-text-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/BubblePopText-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=148952, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-card-flip-warm",
+    "project_id": "freelancer-templates",
+    "name": "Card Flip Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/cardflip/CardFlip.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion card-flip composition. Reuse CardFlip.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CardFlip-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-card-flip-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/CardFlip-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=169109, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-floating-bubble-warm",
+    "project_id": "freelancer-templates",
+    "name": "Floating Bubble Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/floatingbubble/FloatingBubble.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion floating-bubble composition. Reuse FloatingBubble.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-floating-bubble-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/FloatingBubble-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=233766, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-pulsing-text-warm",
+    "project_id": "freelancer-templates",
+    "name": "Pulsing Text Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pulsingtext/PulsingText.tsx#L47",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pulsing-text composition. Reuse PulsingText.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PulsingText-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-pulsing-text-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/PulsingText-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=181387, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-slide-text-warm",
+    "project_id": "freelancer-templates",
+    "name": "Slide Text Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/slidetext/SlideText.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion slide-text composition. Reuse SlideText.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SlideText-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-slide-text-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/SlideText-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=199195, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-matrix-rain-warm",
+    "project_id": "freelancer-templates",
+    "name": "Matrix Rain Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/matrixrain/MatrixRain.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion matrix-rain composition. Reuse MatrixRain.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MatrixRain-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-matrix-rain-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/MatrixRain-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=506741, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-list-warm",
+    "project_id": "freelancer-templates",
+    "name": "Animated List Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedlist/AnimatedList.tsx#L58",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-list composition. Reuse AnimatedList.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedList-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-list-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/AnimatedList-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=200057, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-text-warm",
+    "project_id": "freelancer-templates",
+    "name": "Animated Text Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedtext/AnimatedText.tsx#L55",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-text composition. Reuse AnimatedText.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedText-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-text-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/AnimatedText-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=155344, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-glitch-text-warm",
+    "project_id": "freelancer-templates",
+    "name": "Glitch Text Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx#L54",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion glitch-text composition. Reuse GlitchText.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GlitchText-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-glitch-text-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/GlitchText-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=227455, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-typewriter-subtitle-warm",
+    "project_id": "freelancer-templates",
+    "name": "Typewriter Subtitle Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/typewritersubtitle/TypewriterSubtitle.tsx#L53",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion typewriter-subtitle composition. Reuse TypewriterSubtitle.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-typewriter-subtitle-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=153807, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-geometric-patterns-warm",
+    "project_id": "freelancer-templates",
+    "name": "Geometric Patterns Warm",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/geometricpatterns/GeometricPatterns.tsx#L61",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion geometric-patterns composition. Reuse GeometricPatterns.tsx and theme props; the listed hero variant is Warm. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-198"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Warm.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-geometric-patterns-warm.webp",
+      "source": "S-CV-198 https://freelancer-templates.org/previews/hero/GeometricPatterns-Warm.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=962150, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
