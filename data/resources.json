@@ -16791,5 +16791,365 @@
       "poster": "/previews/freelancer-geometric-patterns-gold.webp",
       "source": "S-CV-190 https://freelancer-templates.org/previews/hero/GeometricPatterns-Gold.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=1040630, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-bounce-text-neon",
+    "project_id": "freelancer-templates",
+    "name": "Bounce Text Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bouncetext/BounceText.tsx#L45",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bounce-text composition. Reuse BounceText.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BounceText-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bounce-text-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/BounceText-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=261581, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-bubble-pop-text-neon",
+    "project_id": "freelancer-templates",
+    "name": "Bubble Pop Text Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bubblepoptext/BubblePopText.tsx#L43",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bubble-pop-text composition. Reuse BubblePopText.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BubblePopText-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bubble-pop-text-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/BubblePopText-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=152546, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-card-flip-neon",
+    "project_id": "freelancer-templates",
+    "name": "Card Flip Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/cardflip/CardFlip.tsx#L45",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion card-flip composition. Reuse CardFlip.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CardFlip-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-card-flip-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/CardFlip-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=177298, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-floating-bubble-neon",
+    "project_id": "freelancer-templates",
+    "name": "Floating Bubble Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/floatingbubble/FloatingBubble.tsx#L45",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion floating-bubble composition. Reuse FloatingBubble.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-floating-bubble-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/FloatingBubble-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=240379, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-pulsing-text-neon",
+    "project_id": "freelancer-templates",
+    "name": "Pulsing Text Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pulsingtext/PulsingText.tsx#L43",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pulsing-text composition. Reuse PulsingText.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PulsingText-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-pulsing-text-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/PulsingText-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=182080, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-slide-text-neon",
+    "project_id": "freelancer-templates",
+    "name": "Slide Text Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/slidetext/SlideText.tsx#L45",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion slide-text composition. Reuse SlideText.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SlideText-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-slide-text-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/SlideText-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=200357, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-matrix-rain-neon",
+    "project_id": "freelancer-templates",
+    "name": "Matrix Rain Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/matrixrain/MatrixRain.tsx#L45",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion matrix-rain composition. Reuse MatrixRain.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MatrixRain-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-matrix-rain-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/MatrixRain-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=525606, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-list-neon",
+    "project_id": "freelancer-templates",
+    "name": "Animated List Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedlist/AnimatedList.tsx#L54",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-list composition. Reuse AnimatedList.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedList-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-list-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/AnimatedList-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=200026, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-text-neon",
+    "project_id": "freelancer-templates",
+    "name": "Animated Text Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedtext/AnimatedText.tsx#L51",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-text composition. Reuse AnimatedText.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedText-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-text-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/AnimatedText-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=152598, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-glitch-text-neon",
+    "project_id": "freelancer-templates",
+    "name": "Glitch Text Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx#L50",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion glitch-text composition. Reuse GlitchText.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GlitchText-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-glitch-text-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/GlitchText-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=233105, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-typewriter-subtitle-neon",
+    "project_id": "freelancer-templates",
+    "name": "Typewriter Subtitle Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/typewritersubtitle/TypewriterSubtitle.tsx#L49",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion typewriter-subtitle composition. Reuse TypewriterSubtitle.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-typewriter-subtitle-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=148418, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-geometric-patterns-neon",
+    "project_id": "freelancer-templates",
+    "name": "Geometric Patterns Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/geometricpatterns/GeometricPatterns.tsx#L57",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion geometric-patterns composition. Reuse GeometricPatterns.tsx and theme props; the listed hero variant is Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-191"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Neon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-geometric-patterns-neon.webp",
+      "source": "S-CV-191 https://freelancer-templates.org/previews/hero/GeometricPatterns-Neon.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=961124, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
