@@ -2440,5 +2440,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch BA on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Dark fill (BounceText-Dark, BubblePopText-Dark, CardFlip-Dark, FloatingBubble-Dark, PulsingText-Dark, SlideText-Dark, MatrixRain-Dark, AnimatedList-Dark, AnimatedText-Dark, GlitchText-Dark, TypewriterSubtitle-Dark, GeometricPatterns-Dark); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +10 / AZ Clean +1 (L52/L50/L52/L52/L50/L52/L52/L61/L58/L57/L56/L64), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso/Warm/Bold/Clean."
+  },
+  {
+    "id": "S-CV-202",
+    "project_id": "freelancer-templates",
+    "title": "Batch BB preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Minimal.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch BB on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Minimal fill (BounceText-Minimal, BubblePopText-Minimal, CardFlip-Minimal, FloatingBubble-Minimal, PulsingText-Minimal, SlideText-Minimal, MatrixRain-Minimal, AnimatedList-Minimal, AnimatedText-Minimal, GlitchText-Minimal, TypewriterSubtitle-Minimal, GeometricPatterns-Minimal); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +11 / BA Dark +1 (L53/L51/L53/L53/L51/L53/L53/L62/L59/L58/L57/L65), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso/Warm/Bold/Clean/Dark."
   }
 ]

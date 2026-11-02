@@ -1155,6 +1155,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-animated-list-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Minimal.mp4",
+    "poster": "/previews/freelancer-animated-list-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2dab209ab94567d1ce17aeb518983fc2528808882952e3ae3640cbb535eb75a8"
+      },
+      {
+        "start": 65536,
+        "end": 177788,
+        "sha256": "bbe83fb04ec95c2842de4ceff65bf0a869b6430bd0c344af9054115f1d8366bf"
+      }
+    ],
+    "poster_sha256": "8bb3110ae129c85e956a0906cb96474c65335dd3978d9656b52e81c49618704f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-animated-list-neon",
     "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Neon.mp4",
     "poster": "/previews/freelancer-animated-list-neon.webp",
@@ -1402,6 +1427,31 @@
     "source_sha256": "387ca98d793c7d8114e4c79e061cd6a38d06d74235432cd947da6ba7351be8ec",
     "source_byte_ranges": [],
     "poster_sha256": "622b0fb3d54b361fb2a6d2417fa6279a3ea73b13d2bd78118e644b1f280f8b18",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-animated-text-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedText-Minimal.mp4",
+    "poster": "/previews/freelancer-animated-text-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "dc6c2ced77bde3aa27af60a5f31dc8df79fe0cc228b4a6f3d4d1b4bb5093b599"
+      },
+      {
+        "start": 65536,
+        "end": 144733,
+        "sha256": "c64bcc9505fcdee20e7bc8ff49a4738420db4d1663c3ada6adde35d112eda4cf"
+      }
+    ],
+    "poster_sha256": "832e592cbd77de9c9dd6f5b25f70631ed30ee9aedf32d28523e1f577dd17778d",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1870,6 +1920,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bounce-text-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Minimal.mp4",
+    "poster": "/previews/freelancer-bounce-text-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "5bb426eecfceb306995b547ee3ff68dc205d534124a91f0032b8ab5be8fd75bf"
+      },
+      {
+        "start": 65536,
+        "end": 161130,
+        "sha256": "6cb031dd758566766e25701def324f8ce3447972f53cef10e30bd89312e1342f"
+      }
+    ],
+    "poster_sha256": "7c424422762b7e3974ec894547bd7bcc570d942daa43dcae13901181bb316d99",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-bounce-text-neon",
     "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Neon.mp4",
     "poster": "/previews/freelancer-bounce-text-neon.webp",
@@ -2148,6 +2223,31 @@
     "source_sha256": "72768235171694d8e5552d4af28dbe09fa9166f4fc4e482073d4bc4601f8b409",
     "source_byte_ranges": [],
     "poster_sha256": "09d06f55d9275a0f5fed323f1b03329bcede606cab2768535f5ba626d27fd141",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-bubble-pop-text-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/BubblePopText-Minimal.mp4",
+    "poster": "/previews/freelancer-bubble-pop-text-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "089390927868db82fd97da51ab18e60e5ab69337503deaa75b066c799505d476"
+      },
+      {
+        "start": 65536,
+        "end": 126307,
+        "sha256": "0a7451dca8f3c0bb3660a600b1af7acca51b327a670b3de7685c2f7a48a49472"
+      }
+    ],
+    "poster_sha256": "d91235c6407ded47e05e97c8e60792325355f4581d41f977f645d9d1b1c31176",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2569,6 +2669,31 @@
     "source_sha256": "22708e5287ddfe76893cb21a0d4cc2570b8ee1e9a3ec429aad1650480eabef90",
     "source_byte_ranges": [],
     "poster_sha256": "d51a3c17a14ca68371d8312af8bd086f1580e80cd156b8c1d08cf9e9285953e6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-card-flip-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Minimal.mp4",
+    "poster": "/previews/freelancer-card-flip-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "0e1c1a341387a78ceed112b42b2f6deb13119aadb40f2fe18240767889753949"
+      },
+      {
+        "start": 65536,
+        "end": 138157,
+        "sha256": "3052d32bd5392c12f55f239b582c8da0325cd805f24308caf56c3a9898c045ba"
+      }
+    ],
+    "poster_sha256": "f1463de86bca544440e0ae8c228a8c4bddfc2c2ccdede5ae98fd399d85eee5b3",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3946,6 +4071,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-floating-bubble-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Minimal.mp4",
+    "poster": "/previews/freelancer-floating-bubble-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "a512f5a1152aba3ebc939af69f411fa9d73cab50f0b5779918e635b99b27f65e"
+      },
+      {
+        "start": 65536,
+        "end": 168133,
+        "sha256": "3669f24b65407759c2ffcfd5293ec8f395e164245e88c9cf5a0895696c3ac2f0"
+      }
+    ],
+    "poster_sha256": "89b4b7af6bd34c66e4b02c4967d682262b5eff9252e4ee3c70401663d845f7c8",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-floating-bubble-neon",
     "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Neon.mp4",
     "poster": "/previews/freelancer-floating-bubble-neon.webp",
@@ -4261,6 +4411,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-geometric-patterns-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Minimal.mp4",
+    "poster": "/previews/freelancer-geometric-patterns-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "6139f832425a25dfc533c7960cf828019b011a46cb94161a343f8741dfe7433b"
+      },
+      {
+        "start": 65536,
+        "end": 618535,
+        "sha256": "0d0cc48bef7e6a0cffa805c80b10723e5e7ddb21746b651819a64dc7016ad533"
+      }
+    ],
+    "poster_sha256": "48648ac3436e55022b6e7181117c0eb5ed781c3f6eb6bca9c5c353647a3092fb",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-geometric-patterns-neon",
     "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Neon.mp4",
     "poster": "/previews/freelancer-geometric-patterns-neon.webp",
@@ -4507,6 +4682,31 @@
     "source_sha256": "b61594f901d069d71ef22113f23c054ced614f7f00d502a3aaa53dc5964b9235",
     "source_byte_ranges": [],
     "poster_sha256": "d80bffdd51c82b55145bbae7b0f4f65c1b73f183869d7a86efccb67641811f72",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-glitch-text-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/GlitchText-Minimal.mp4",
+    "poster": "/previews/freelancer-glitch-text-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "22f6fef28db867b49f6d62341f2f5c81240b764c1abcf7bfbef1c65ec053e0b1"
+      },
+      {
+        "start": 65536,
+        "end": 95552,
+        "sha256": "e9ad7c30686bc0983b213bd97519acdd1d5afe75512ea6af0fb801441d6ff6ce"
+      }
+    ],
+    "poster_sha256": "dca7c3c89472201911fc4875340cf0ea302e155646f98b6c54103f6cc7f97e0c",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -4984,6 +5184,31 @@
     "source_sha256": "ccccffaec356a1d59928d07161c08afb85b6b7ae7c15b0b6b4aa7b47bbac0328",
     "source_byte_ranges": [],
     "poster_sha256": "bbb4c4591bec60f50c86c3a7092e5da3a0d80f4a01ffe6cf5c424aa4b5f278e1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-matrix-rain-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Minimal.mp4",
+    "poster": "/previews/freelancer-matrix-rain-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "9dcf9fa641edcfb858cda0c1ba22eb5c947923ca2653192d36336fd471a98bfc"
+      },
+      {
+        "start": 65536,
+        "end": 376683,
+        "sha256": "b4924adb39242a8b343387417d03e8c4e5b89688466b2c3cd83a19688bf64013"
+      }
+    ],
+    "poster_sha256": "e255eae009a5d8c0fca29bdde6e55d25dd6a91d06997cfe3f02d65456a060155",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -6265,6 +6490,31 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-pulsing-text-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Minimal.mp4",
+    "poster": "/previews/freelancer-pulsing-text-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "c29c6ef31504b10fbf8b50959145158cb4d56a74503942746d0513880af7ce3b"
+      },
+      {
+        "start": 65536,
+        "end": 156011,
+        "sha256": "289192503cf821273a93d504bd614c3fc164fc25ebc6cad19345b1c9639e8d5c"
+      }
+    ],
+    "poster_sha256": "0f42cb7cdfad560dd279c3b97a7eae0cceff4e06b3cef4751101833a433b8595",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-pulsing-text-neon",
     "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Neon.mp4",
     "poster": "/previews/freelancer-pulsing-text-neon.webp",
@@ -6944,6 +7194,31 @@
     "source_sha256": "e51bf60ce4c73b70171cb1131849a597bb6f20f99d684a2f8fc3befae9b6d0d2",
     "source_byte_ranges": [],
     "poster_sha256": "b7ef987f6a323f03c1abf93add38b4ec23b563391cc7205cb233103fdf31e8f2",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-slide-text-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/SlideText-Minimal.mp4",
+    "poster": "/previews/freelancer-slide-text-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "1f783ee34e885da06f81cfc923049c62e363ecdd8a7c7f9ad81b3857d2bc4b8a"
+      },
+      {
+        "start": 65536,
+        "end": 175304,
+        "sha256": "a972016f0a8601e1b7a5da4aca5d42d551fb5d5a453ab8a9eb452c7c2fdf2100"
+      }
+    ],
+    "poster_sha256": "ff89648608beaf835294408b7d959efb1d0ce7906b11a9ed9c019a9948dc0b48",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7828,6 +8103,31 @@
     "source_sha256": "386af3fbec9c3aeb734ac61e8d08ca63d9e88c1f2613a7492c53fea586f638f2",
     "source_byte_ranges": [],
     "poster_sha256": "adf2d6dd0e427f78ec04f0b3fe60dfe7817c8414da7f68af2d19efcfb5969b58",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-typewriter-subtitle-minimal",
+    "source_url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Minimal.mp4",
+    "poster": "/previews/freelancer-typewriter-subtitle-minimal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2123dfdad8f02d53b713d81674a3bd58973c01c5e60156f5ce0693dd528fddf6"
+      },
+      {
+        "start": 65536,
+        "end": 137447,
+        "sha256": "86a96ffed331b43bfbea4681f97205129b2e06bbc0329db0125e8425e7a75c9d"
+      }
+    ],
+    "poster_sha256": "827acff81419130f77fccc2b5700b460c6a4298d93d3b2c9674b0ac70a71beca",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
