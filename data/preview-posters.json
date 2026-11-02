@@ -1010,6 +1010,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-animated-list-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Espresso.mp4",
+    "poster": "/previews/freelancer-animated-list-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "eeee1b27ac90fe047a699ceb15f5cae3bc32d0792c43642c03fb4e7680349d3e",
+    "source_byte_ranges": [],
+    "poster_sha256": "819861c1b1ef5bbcc00943c2a212cb0bb0964fcda9ebada738d925060293e4ad",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-animated-list-forest",
     "source_url": "https://freelancer-templates.org/previews/hero/AnimatedList-Forest.mp4",
     "poster": "/previews/freelancer-animated-list-forest.webp",
@@ -1154,6 +1168,20 @@
     "source_sha256": "c2567bbe056aae5bfa5c90076b28626763aaa99a00e09c32069557a4cf108c79",
     "source_byte_ranges": [],
     "poster_sha256": "89c3d73f3a3b67806668ebfb1e0841c3703db08e072601cc69f374ccfb430f59",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-animated-text-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/AnimatedText-Espresso.mp4",
+    "poster": "/previews/freelancer-animated-text-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ed87b2b8d665ade0da3b18b3f071abd781ba14335ce7c071557e6bef2271a802",
+    "source_byte_ranges": [],
+    "poster_sha256": "16000fddd1ef3cd1635f69d3f91bd9e164fb9ba4b387917399e8623d4fb61d49",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -1530,6 +1558,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bounce-text-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Espresso.mp4",
+    "poster": "/previews/freelancer-bounce-text-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "214d45c12138243a6aaf341e3885704f2ac10ab966d433f51cf3b371b557b21d",
+    "source_byte_ranges": [],
+    "poster_sha256": "5616d2dd624cfaa3af3be9d3a3425ce36b2fa4b57ef44762e2e0b8697addcd5d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-bounce-text-forest",
     "source_url": "https://freelancer-templates.org/previews/hero/BounceText-Forest.mp4",
     "poster": "/previews/freelancer-bounce-text-forest.webp",
@@ -1705,6 +1747,20 @@
       }
     ],
     "poster_sha256": "b279a0ff8ec8a54fee87fba6eb938f8e1434991de15bb597ad50be6d496f9ff9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-bubble-pop-text-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/BubblePopText-Espresso.mp4",
+    "poster": "/previews/freelancer-bubble-pop-text-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "103d9d7dab65ade9de9efd9aa8944ac1d73944252a5b2b55db56c2da69a230ac",
+    "source_byte_ranges": [],
+    "poster_sha256": "13bda63baf145c2282e0defe5a10d9cb7611cfe5d289c1125e2912df557d4d0b",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -2023,6 +2079,20 @@
     "source_sha256": "c9d14d55f26d6bef4d73731b1490db8996414dc509e76c0970abbd3f7f93d89b",
     "source_byte_ranges": [],
     "poster_sha256": "7bfcb2bb6a979cf29404d367eb2746191e0164dc1993fdcadc026d33ff4a9339",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-card-flip-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/CardFlip-Espresso.mp4",
+    "poster": "/previews/freelancer-card-flip-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "56b49fe9db3684aea7b5a0f93e5d687fe95a870e5e7c971b27c90230c0ded492",
+    "source_byte_ranges": [],
+    "poster_sha256": "6fe0e5ba9a69a1cac8e0d7527ffc15df38083dc6d7cedffeac89006df054c044",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3297,6 +3367,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-floating-bubble-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Espresso.mp4",
+    "poster": "/previews/freelancer-floating-bubble-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "312ab00cab60152d9e6c46e00e0b7d3e6cb226ab6b814df999decb78d5c30afb",
+    "source_byte_ranges": [],
+    "poster_sha256": "0d6b8571023b8f91bda744fee13df4975bb09cb37a3813ef73831e6a13b3f9f3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-floating-bubble-forest",
     "source_url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Forest.mp4",
     "poster": "/previews/freelancer-floating-bubble-forest.webp",
@@ -3479,6 +3563,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-geometric-patterns-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Espresso.mp4",
+    "poster": "/previews/freelancer-geometric-patterns-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "d759e04b6bd5c6134a24c9e3cc4cb944fec1bd0123367a4e9523bbdcc26f0470",
+    "source_byte_ranges": [],
+    "poster_sha256": "ec33cf42b7bae2eac1456e4199c1ad3de23d215bf4e55daf05c8912ce175dee3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-geometric-patterns-forest",
     "source_url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Forest.mp4",
     "poster": "/previews/freelancer-geometric-patterns-forest.webp",
@@ -3633,6 +3731,20 @@
     "source_sha256": "0f76551197d3ed32c7d839bf7b5b19b192b0cf461b6b9bdaca3a32d69506bc56",
     "source_byte_ranges": [],
     "poster_sha256": "bc282f19518cf43abf0fe6f77f14919ab0e9f084e22c6e1d5c1dcc1b4cdc2541",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-glitch-text-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/GlitchText-Espresso.mp4",
+    "poster": "/previews/freelancer-glitch-text-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ad5314c13addca6eb99e891b78cd7f114ee504c6e048af2683b9bdf5abd944eb",
+    "source_byte_ranges": [],
+    "poster_sha256": "eab7a8d1b8ad2687ccca350ef9d5795586eba062d7d222e72c17fae2fc7b258e",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3992,6 +4104,20 @@
     "source_sha256": "0b5ce926727e5e432498eb3e7c9cebe3c39b5ec18c3d4458ccb2c53378818c7c",
     "source_byte_ranges": [],
     "poster_sha256": "df7c0ed1079cf84fd83af12b7790af4a7794daa7f3105810b2e6564949762cc7",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-matrix-rain-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Espresso.mp4",
+    "poster": "/previews/freelancer-matrix-rain-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "41977e88907edb02faacecb48b22e579f617b1efd4ca51aa0d6ca06baa7a476b",
+    "source_byte_ranges": [],
+    "poster_sha256": "9d756a5192c0906f317ffc413b1191041eaa6f7a69bff45a14acbfe49d15b13b",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -5170,6 +5296,20 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-pulsing-text-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Espresso.mp4",
+    "poster": "/previews/freelancer-pulsing-text-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "4658dc0b4cc2bc1d01afa7e09e6097dbda4de8c89f4ffee9fa45480e462590ee",
+    "source_byte_ranges": [],
+    "poster_sha256": "811db78b05a5781fa8e724219ab02e6cbe4284dc47b7593a1c3a7026d6a121c1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-pulsing-text-forest",
     "source_url": "https://freelancer-templates.org/previews/hero/PulsingText-Forest.mp4",
     "poster": "/previews/freelancer-pulsing-text-forest.webp",
@@ -5746,6 +5886,20 @@
       }
     ],
     "poster_sha256": "382d4da5664764e34051d675fa349a98549072e7e15119a8a059366f2532eb6a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-slide-text-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/SlideText-Espresso.mp4",
+    "poster": "/previews/freelancer-slide-text-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "32f40c1dff5638cce3e4ef182961ac1f3714bef6c3d2cf6d3241aa1bf7bc627d",
+    "source_byte_ranges": [],
+    "poster_sha256": "fc4fa8c130b147e805d41d44126c7fdadf942fb4c204ec7b63404833cd869adc",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -6538,6 +6692,20 @@
     "source_sha256": "fa0c7708bcf23fbee9e34e69667d20b7ac565773112926d417272d575b318706",
     "source_byte_ranges": [],
     "poster_sha256": "e016818938ed8c830786eb3af27e768334100596f47fbbe0cc1d5ee25892837a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-typewriter-subtitle-espresso",
+    "source_url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Espresso.mp4",
+    "poster": "/previews/freelancer-typewriter-subtitle-espresso.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "d67313e557ee72c970a31fe1a6d9877b5f54dd5b9478e6de82f544ad6f783142",
+    "source_byte_ranges": [],
+    "poster_sha256": "a1cc0ba04df74fd5305c8c970f3d7ee8cc307895e6b18ffc2f5d208277f77857",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },

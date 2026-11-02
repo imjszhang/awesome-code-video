@@ -2385,5 +2385,16 @@
     "reliability": "high",
     "checked_at": "2026-11-02",
     "notes": "Pack mixes interactive HTML lesson skills and Playwright+FFmpeg explainer-video skills. No stable redistributable MP4 for video skills at write time; catalog preview uses edu-solid-geometry.gif (HEAD 200, GIF89a) as motion still — kind=thumb_link (catalog rule: GIF previews use thumb_link, not image/video). edu-chem-reaction.gif referenced in README but 404 — do not link. TTS depends on user-supplied keys; not render-tested here. Catalog correction vs curator pack: preview.kind set to thumb_link (not image) so npm run check passes. Preview URL: https://raw.githubusercontent.com/wy51ai/edulab/master/edu-solid-geometry.gif (HEAD 200 on 2026-11-02 Asia/Shanghai). Hotlink only; not mirrored. render_tested=false."
+  },
+  {
+    "id": "S-CV-197",
+    "project_id": "freelancer-templates",
+    "title": "Batch AW preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Espresso.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch AW on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Espresso fill (BounceText-Espresso, BubblePopText-Espresso, CardFlip-Espresso, FloatingBubble-Espresso, PulsingText-Espresso, SlideText-Espresso, MatrixRain-Espresso, AnimatedList-Espresso, AnimatedText-Espresso, GlitchText-Espresso, TypewriterSubtitle-Espresso, GeometricPatterns-Espresso); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +6 (L48/L46/L48/L48/L46/L48/L48/L57/L54/L53/L52/L60), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean."
   }
 ]
