@@ -2397,6 +2397,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-bug-triage-summary-dashboard-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/BugTriage-SummaryDashboardDark.mp4",
+    "poster": "/previews/freelancer-bug-triage-summary-dashboard-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "1e840efbf7c4d5c7f174cc725f4ab4541998197d6f4c98163b89250581918922",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 150320,
+        "sha256": "1e840efbf7c4d5c7f174cc725f4ab4541998197d6f4c98163b89250581918922"
+      }
+    ],
+    "poster_sha256": "80dd0f94f4f70d9e5a379dcaecb55548d40a9d5eaef22f0d95c72d4d66140881",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-call-to-action-candy-centered",
     "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-CandyCentered.mp4",
     "poster": "/previews/freelancer-call-to-action-candy-centered.webp",
@@ -2975,6 +2995,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-client-report-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ClientReport-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-client-report-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "753db66a1a7a0ce77beb0bb15d8213b8c4577e5d0c9d86ed494b894f6a36cadf",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 240698,
+        "sha256": "753db66a1a7a0ce77beb0bb15d8213b8c4577e5d0c9d86ed494b894f6a36cadf"
+      }
+    ],
+    "poster_sha256": "7a4c08269f40e2aedda538ce15178f0bf6e6161d54986abda816e8bd441b6214",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-client-report-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ClientReport-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-client-report-arctic-dashboard.webp",
@@ -3167,6 +3207,26 @@
     "source_sha256": "9f3f4512eee5edc6a1c0648b8ac8b5cfbf9b030acbda06b3ea27a10bd3c1bb57",
     "source_byte_ranges": [],
     "poster_sha256": "0dbd158cd1d9cc0e599f16d4656ccc5ea45b8f959bc11d8b53d5bda63cdd4e8e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-component-inventory-architecture-grid-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/ComponentInventory-ArchitectureGridDark.mp4",
+    "poster": "/previews/freelancer-component-inventory-architecture-grid-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ab36c89323c8691b0279f454a8c5e78dd7f2845a74848cff7e189a81b1f96037",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 168592,
+        "sha256": "ab36c89323c8691b0279f454a8c5e78dd7f2845a74848cff7e189a81b1f96037"
+      }
+    ],
+    "poster_sha256": "4e83b2dea6cc66e9b8e57c88843c870b3d5ce85c3ec9d642fa34b95cbbec0a9c",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3443,6 +3503,26 @@
     "source_sha256": "37966e5e6502ed48547fb6c6582927162c5163110c07954a472c35021aaccb6d",
     "source_byte_ranges": [],
     "poster_sha256": "7b70c419f7db28f03744e0dd6269bf49f604425f7c5f88cf51cebbd5940e1a3e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-deployment-status-environment-cards-neon",
+    "source_url": "https://freelancer-templates.org/previews/hero/DeploymentStatus-EnvironmentCardsNeon.mp4",
+    "poster": "/previews/freelancer-deployment-status-environment-cards-neon.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "2b2ca8b0877cadfb7e296796a5cc8c09abcb88336eab7f444fe9b7cf66a0ce2a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 245541,
+        "sha256": "2b2ca8b0877cadfb7e296796a5cc8c09abcb88336eab7f444fe9b7cf66a0ce2a"
+      }
+    ],
+    "poster_sha256": "2b981c52c455a053a903f70664012216f7a40227319a0e2f3d8dc61bb535cb42",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -5036,6 +5116,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listicle-bauhaus-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-BauhausCards.mp4",
+    "poster": "/previews/freelancer-listicle-bauhaus-cards.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "df47044e1767838abf12a2f3a3886fa40b749e73062d3d9bfe8e527714188649",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 271028,
+        "sha256": "df47044e1767838abf12a2f3a3886fa40b749e73062d3d9bfe8e527714188649"
+      }
+    ],
+    "poster_sha256": "17b1de0f4d38cb5ca9b2f6feb3f78ca1b77e8fc6d0aeb338363495fbf4fe928a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-listicle-bauhaus-reveal",
     "source_url": "https://freelancer-templates.org/previews/hero/Listicle-BauhausReveal.mp4",
     "poster": "/previews/freelancer-listicle-bauhaus-reveal.webp",
@@ -5384,6 +5484,26 @@
     "source_sha256": "2f44c281228a0e9fcb652ea6c4468a06e4b045479390746eb6c7c994903d753c",
     "source_byte_ranges": [],
     "poster_sha256": "cec809738a72ceb1fdabe1dcf65947f86451a74c30e56a8d23593f591815dc24",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-meeting-recap-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/MeetingRecap-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-meeting-recap-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ec88e1d85989f599244ef7ec103159f0ec5a7051e53a7b1da97c3d6cd17766fc",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 266542,
+        "sha256": "ec88e1d85989f599244ef7ec103159f0ec5a7051e53a7b1da97c3d6cd17766fc"
+      }
+    ],
+    "poster_sha256": "7d428879504959858e25da2da038cd6e4c5f5766111daf852f34098a20895807",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -6222,6 +6342,46 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-project-health-health-scorecard-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProjectHealth-HealthScorecardDark.mp4",
+    "poster": "/previews/freelancer-project-health-health-scorecard-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "840930c48bb31c5bffd040c6a9b351a54d59d544be657c63e63d2697f4f07e25",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 170786,
+        "sha256": "840930c48bb31c5bffd040c6a9b351a54d59d544be657c63e63d2697f4f07e25"
+      }
+    ],
+    "poster_sha256": "fbff2621a83c9b82cfe108a392c4752c79f067deab352fe76438daeceb020f10",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-project-timeline-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProjectTimeline-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-project-timeline-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "9504375df30410da505bf40bd9df76f2de4f7948654aa5cbab818c59ae567e35",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 247442,
+        "sha256": "9504375df30410da505bf40bd9df76f2de4f7948654aa5cbab818c59ae567e35"
+      }
+    ],
+    "poster_sha256": "9cc02899663edcaccc40f55a408946f7329f1d335c8693bde3fc661fc41f6f9f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-project-timeline-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ProjectTimeline-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-project-timeline-arctic-dashboard.webp",
@@ -6786,6 +6946,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-rate-card-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/RateCard-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-rate-card-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "46cb18eb03644098a5470b49f996eb7116c0c7964002d76a12f9a88926fb90e9",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 226863,
+        "sha256": "46cb18eb03644098a5470b49f996eb7116c0c7964002d76a12f9a88926fb90e9"
+      }
+    ],
+    "poster_sha256": "c8bcfc6dcf61bdd7ad2513c0a45b74ab821fdfdcc4fd26a19107bfa37d592d91",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-rate-card-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/RateCard-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-rate-card-arctic-dashboard.webp",
@@ -6989,6 +7169,26 @@
     "source_sha256": "5fdf95bca8d77ee0f2b18ea302843caded72674318fb409c62d4a8f879995610",
     "source_byte_ranges": [],
     "poster_sha256": "cbca625eed967a8f40f821e7ee8a8884dede163817001f627e6ee64b4ef50a0b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-release-notes-changelog-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/ReleaseNotes-ChangelogDark.mp4",
+    "poster": "/previews/freelancer-release-notes-changelog-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "402c4168c8ee2675ddeb8cca8a16a7305ee7e8b2c0d6cb175ca3d4fe0b685b03",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 217535,
+        "sha256": "402c4168c8ee2675ddeb8cca8a16a7305ee7e8b2c0d6cb175ca3d4fe0b685b03"
+      }
+    ],
+    "poster_sha256": "6dd1433967f46faf842080f7c52fbe5f918a0c7f33c4d0c40f47c1b352abdd50",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7772,6 +7972,26 @@
       }
     ],
     "poster_sha256": "1d2dce1fc474401374dcb6b76bf2f62611c9e39b72adfec1f0ede9a5719b544c",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-bauhaus-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-BauhausCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-bauhaus-centered.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "49109cb4bbd81318e328f72a892e9cb971ec11beaf067f5dc35651d89d4760f1",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 181925,
+        "sha256": "49109cb4bbd81318e328f72a892e9cb971ec11beaf067f5dc35651d89d4760f1"
+      }
+    ],
+    "poster_sha256": "b5055dc0faaf6a43264afda59ea0e1f4662b64b2448e604f321c85c6f3847ddc",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -8567,6 +8787,26 @@
       }
     ],
     "poster_sha256": "e3022b3c1a0b0040fdaba57e93ed609712b73252bf9601d1a0eeafbdbc269c1f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-velocity-chart-summary-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/VelocityChart-SummaryDark.mp4",
+    "poster": "/previews/freelancer-velocity-chart-summary-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "9a945cf2b5151238ef6fefe7a3d63a939932b435ee63ce121f3507788c730205",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 172188,
+        "sha256": "9a945cf2b5151238ef6fefe7a3d63a939932b435ee63ce121f3507788c730205"
+      }
+    ],
+    "poster_sha256": "30f0a526f53d71f94c787aabe8d8723b356decb24a0c9f21b479149497cf23fc",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
