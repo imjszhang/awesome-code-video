@@ -15351,5 +15351,365 @@
       "poster": "/previews/freelancer-particle-explosion-crimson.webp",
       "source": "S-CV-186 https://freelancer-templates.org/previews/hero/ParticleExplosion-Crimson.mp4. HEAD on 2026-10-31: HTTP 200 video/mp4 Content-Length=245343, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-bounce-text-forest",
+    "project_id": "freelancer-templates",
+    "name": "Bounce Text Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bouncetext/BounceText.tsx#L41",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bounce-text composition. Reuse BounceText.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BounceText-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bounce-text-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/BounceText-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=240564, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-bubble-pop-text-forest",
+    "project_id": "freelancer-templates",
+    "name": "Bubble Pop Text Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bubblepoptext/BubblePopText.tsx#L39",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion bubble-pop-text composition. Reuse BubblePopText.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/BubblePopText-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-bubble-pop-text-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/BubblePopText-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=138292, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-card-flip-forest",
+    "project_id": "freelancer-templates",
+    "name": "Card Flip Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/cardflip/CardFlip.tsx#L41",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion card-flip composition. Reuse CardFlip.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CardFlip-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-card-flip-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/CardFlip-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=160032, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-floating-bubble-forest",
+    "project_id": "freelancer-templates",
+    "name": "Floating Bubble Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/floatingbubble/FloatingBubble.tsx#L41",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion floating-bubble composition. Reuse FloatingBubble.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FloatingBubble-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-floating-bubble-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/FloatingBubble-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=213995, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-pulsing-text-forest",
+    "project_id": "freelancer-templates",
+    "name": "Pulsing Text Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pulsingtext/PulsingText.tsx#L39",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion pulsing-text composition. Reuse PulsingText.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/PulsingText-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-pulsing-text-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/PulsingText-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=176769, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-slide-text-forest",
+    "project_id": "freelancer-templates",
+    "name": "Slide Text Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/slidetext/SlideText.tsx#L41",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion slide-text composition. Reuse SlideText.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/SlideText-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-slide-text-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/SlideText-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=188364, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-matrix-rain-forest",
+    "project_id": "freelancer-templates",
+    "name": "Matrix Rain Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/matrixrain/MatrixRain.tsx#L41",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion matrix-rain composition. Reuse MatrixRain.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MatrixRain-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-matrix-rain-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/MatrixRain-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=397778, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-list-forest",
+    "project_id": "freelancer-templates",
+    "name": "Animated List Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedlist/AnimatedList.tsx#L50",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-list composition. Reuse AnimatedList.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedList-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-list-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/AnimatedList-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=194909, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-animated-text-forest",
+    "project_id": "freelancer-templates",
+    "name": "Animated Text Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/animatedtext/AnimatedText.tsx#L47",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion animated-text composition. Reuse AnimatedText.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/AnimatedText-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-animated-text-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/AnimatedText-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=151286, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-glitch-text-forest",
+    "project_id": "freelancer-templates",
+    "name": "Glitch Text Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx#L46",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion glitch-text composition. Reuse GlitchText.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GlitchText-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-glitch-text-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/GlitchText-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=203508, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-typewriter-subtitle-forest",
+    "project_id": "freelancer-templates",
+    "name": "Typewriter Subtitle Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/typewritersubtitle/TypewriterSubtitle.tsx#L45",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion typewriter-subtitle composition. Reuse TypewriterSubtitle.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-typewriter-subtitle-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/TypewriterSubtitle-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=146694, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-geometric-patterns-forest",
+    "project_id": "freelancer-templates",
+    "name": "Geometric Patterns Forest",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/geometricpatterns/GeometricPatterns.tsx#L53",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion geometric-patterns composition. Reuse GeometricPatterns.tsx and theme props; the listed hero variant is Forest. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-187"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-02",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/GeometricPatterns-Forest.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-02",
+      "poster": "/previews/freelancer-geometric-patterns-forest.webp",
+      "source": "S-CV-187 https://freelancer-templates.org/previews/hero/GeometricPatterns-Forest.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=777999, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
