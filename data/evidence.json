@@ -2451,5 +2451,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch BB on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Minimal fill (BounceText-Minimal, BubblePopText-Minimal, CardFlip-Minimal, FloatingBubble-Minimal, PulsingText-Minimal, SlideText-Minimal, MatrixRain-Minimal, AnimatedList-Minimal, AnimatedText-Minimal, GlitchText-Minimal, TypewriterSubtitle-Minimal, GeometricPatterns-Minimal); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L = AQ recommended_L +11 / BA Dark +1 (L53/L51/L53/L53/L51/L53/L53/L62/L59/L58/L57/L65), free vs Forest/Crimson/Lavender/Rose/Gold/Neon/Midnight/Arctic/Sunset/Ocean/Espresso/Warm/Bold/Clean/Dark."
+  },
+  {
+    "id": "S-CV-203",
+    "project_id": "freelancer-templates",
+    "title": "Batch BC preview media — FT×12 heroes (YouTubeTutorial×1 + structure variants×11; 0 same-family color×12; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/YouTubeTutorial-VideoFlowPipeline.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch BC on 2026-11-02. Option A: create×12 = new-family YouTubeTutorial×1 + structure/design-system variants×11; 0 same-family color theme×12; 0 RT; 0 SC; 0 HV; 0 upgrade; LindaMohamed deferred; HV nyt-graph/product-promo-30s still deferred. Heroes: YouTubeTutorial-VideoFlowPipeline, Listicle-AlpineCards, Listicle-BauhausReveal, Listicle-BauhausStack, Testimonial-AlpineEditorial, Testimonial-BauhausSplit, Testimonial-BauhausEditorial, SprintDashboard-BurndownBold, SprintDashboard-KanbanDark, VelocityChart-BarChartClean, BugTriage-CrimsonPriorityColumns, FeatureRoadmap-GridDark. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L assigned by curator: none/L353/L461/L216/L356/L248/L357/L78/L104/L81/L34/L63 (upstream dir typo youtubetuorial kept as-is for YouTubeTutorial)."
   }
 ]

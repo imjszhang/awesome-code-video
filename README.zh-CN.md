@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 652 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 664 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -634,6 +634,19 @@
 - [故障文字：极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/glitchtext/GlitchText.tsx#L58) - 用于故障文字效果的 Remotion 成片。复用 GlitchText.tsx 与主题 props，列出的主预览变体是 Minimal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [打字机字幕：极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/typewritersubtitle/TypewriterSubtitle.tsx#L57) - 用于打字机字幕的 Remotion 成片。复用 TypewriterSubtitle.tsx 与主题 props，列出的主预览变体是 Minimal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [几何图案：极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/geometricpatterns/GeometricPatterns.tsx#L65) - 用于几何图案背景的 Remotion 成片。复用 GeometricPatterns.tsx 与主题 props，列出的主预览变体是 Minimal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [YouTube 教程：视频流管线](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/youtubetuorial/YouTubeTutorial.tsx) - 用于视频流管线讲解的 Remotion YouTube 教程成片。复用 YouTubeTutorial.tsx 与主题 props，列出的主预览变体是 Video Flow Pipeline。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：Alpine 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L353) - 用于清单卡片展示的 Remotion 成片。复用 Listicle.tsx 的 cards 版式（CardsLayout）与 Alpine 主题，列出的主预览变体是 Alpine Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：Bauhaus 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L461) - 用于排序揭示展示的 Remotion 清单文成片。复用 Listicle.tsx 的 reveal 版式（RevealLayout）与 Bauhaus 主题，列出的主预览变体是 Bauhaus Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：Bauhaus 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L216) - 用于卡片堆叠展示的 Remotion 清单文成片。复用 Listicle.tsx 的 stack 版式（StackLayout）与 Bauhaus 主题，列出的主预览变体是 Bauhaus Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Alpine 编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L356) - 用于客户证言展示的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式（EditorialLayout）与 Alpine 主题，列出的主预览变体是 Alpine Editorial。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Bauhaus 分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L248) - 用于客户证言分屏展示的 Remotion 成片。复用 Testimonial.tsx 的 split 版式（SplitLayout）与 Bauhaus 主题，列出的主预览变体是 Bauhaus Split。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Bauhaus 编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L357) - 用于客户证言编辑排版的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式（EditorialLayout）与 Bauhaus 主题，列出的主预览变体是 Bauhaus Editorial。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [冲刺仪表盘：燃尽粗体](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintdashboard/SprintDashboard.tsx#L78) - 用于冲刺燃尽指标的 Remotion 仪表盘成片。复用 SprintDashboard.tsx 的 burndown 版式与 Bold 主题，列出的主预览变体是 Burndown Bold。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [冲刺仪表盘：看板深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/sprintdashboard/SprintDashboard.tsx#L104) - 用于冲刺看板指标的 Remotion 仪表盘成片。复用 SprintDashboard.tsx 的 kanban 版式与 Dark 主题，列出的主预览变体是 Kanban Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [速率图：柱状图干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/velocitychart/VelocityChart.tsx#L81) - 用于速率柱状图展示的 Remotion 成片。复用 VelocityChart.tsx 的 bar-chart 版式与 Clean 主题，列出的主预览变体是 Bar Chart Clean。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [缺陷分诊：绯红优先级列](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtriage/BugTriage.tsx#L34) - 用于缺陷优先级分列的 Remotion 成片。复用 BugTriage.tsx 的 priority-columns 版式（PriorityColumns）与 Crimson 主题，列出的主预览变体是 Crimson Priority Columns。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [功能路线图：网格深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureroadmap/FeatureRoadmap.tsx#L63) - 用于功能路线图网格展示的 Remotion 成片。复用 FeatureRoadmap.tsx 的 grid 版式（CardGridShell）与 Dark 主题，列出的主预览变体是 Grid Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
