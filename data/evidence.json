@@ -2286,5 +2286,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch AP on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Forest fill (BounceText-Forest, BubblePopText-Forest, CardFlip-Forest, FloatingBubble-Forest, PulsingText-Forest, SlideText-Forest, MatrixRain-Forest, AnimatedList-Forest, AnimatedText-Forest, GlitchText-Forest, TypewriterSubtitle-Forest, GeometricPatterns-Forest); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. All prescribed #L collision-free."
+  },
+  {
+    "id": "S-CV-188",
+    "project_id": "freelancer-templates",
+    "title": "Batch AQ preview media — FT×12 heroes (0 RT; 0 SC; 0 new-family)",
+    "url": "https://freelancer-templates.org/previews/hero/BounceText-Lavender.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-02",
+    "notes": "Batch AQ on 2026-11-02. 0 RT; 0 SC; FT×12 same-family non-Arctic Lavender fill (BounceText-Lavender, BubblePopText-Lavender, CardFlip-Lavender, FloatingBubble-Lavender, PulsingText-Lavender, SlideText-Lavender, MatrixRain-Lavender, AnimatedList-Lavender, AnimatedText-Lavender, GlitchText-Lavender, TypewriterSubtitle-Lavender, GeometricPatterns-Lavender); 0 new-family; LindaMohamed deferred. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. All prescribed #L collision-free."
   }
 ]
