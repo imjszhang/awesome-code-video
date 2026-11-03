@@ -5540,25 +5540,26 @@
     "kind": "film",
     "url": "https://github.com/nexu-io/open-design/tree/main/skills/8-bit-orbit-video-template",
     "section": "Film and Scene Templates",
-    "description": "HyperFrames skill for a retro pixel, multi-scene HTML composition. The documented workflow keeps three short scenes, each held within 3 seconds, in assets/template.html. The repository is Apache-2.0. The catalog preview is only the in-repo example.html page (embed). That folder commits no MP4; example.html references a hosted showcase that was HEAD-checked and was not used as a playable catalog preview and was not render-tested. Named fonts are not vendored in the skill.",
+    "description": "HyperFrames skill for a retro pixel, multi-scene HTML composition. The documented workflow keeps three short scenes, each held within 3 seconds, in assets/template.html. The repository is Apache-2.0. The playable catalog preview is the hosted Open Design default-showcase.mp4 hotlink (not copied into this repository); the skill folder commits no MP4. Preview license remains 待确认, so redistributable is false. HEAD-checked on 2026-11-03; not render-tested. Named fonts are not vendored in the skill.",
     "evidence_ids": [
       "S-CV-127",
-      "S-CV-128"
+      "S-CV-128",
+      "S-CV-207"
     ],
     "review": {
       "level": "source-reviewed",
-      "reviewed_at": "2026-10-28",
+      "reviewed_at": "2026-11-03",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Catalog preview is the HTML example page. The hosted showcase MP4 is outside the git tree and is not a playable catalog preview.",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Catalog preview is the hosted showcase MP4 hotlink; license for that binary remains 待确认.",
     "preview": {
-      "kind": "embed",
-      "url": "https://github.com/nexu-io/open-design/blob/main/skills/8-bit-orbit-video-template/example.html",
+      "kind": "video",
+      "url": "https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4",
       "license": "待确认",
       "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)",
       "redistributable": false,
-      "source": "S-CV-128 https://github.com/nexu-io/open-design/blob/main/skills/8-bit-orbit-video-template/example.html. In-repo HTML page only. No committed MP4. Hosted showcase HEAD 200 was not adopted as a video preview. Not a local render test.",
-      "checked_at": "2026-10-28",
+      "source": "S-CV-207 https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4. Upgrade embed→video on 2026-11-03: HEAD 200 video/mp4, Content-Length 1745845, ftyp isom. Hosted showcase hotlink; not copied into this repository. Prior HTML embed evidence S-CV-128. Preview license 待确认 (S-CV-127 notes hosted binaries are not cleared by the Apache-2.0 repo LICENSE alone); redistributable false. Not a local render test.",
+      "checked_at": "2026-11-03",
       "poster": "/previews/od-8-bit-orbit-video-template.webp"
     }
   },
@@ -5569,25 +5570,26 @@
     "kind": "film",
     "url": "https://github.com/nexu-io/open-design/tree/main/skills/weread-year-in-review-video-template",
     "section": "Film and Scene Templates",
-    "description": "Vertical 9:16 HyperFrames skill for an annual reading report (template viewport 1080 by 1920; the skill text describes a 12-scene timeline). The look is inspired by reading-app year-in-review screens. It is not a WeChat Reading or WeRead official template and does not imply a partnership. Reuse skills/weread-year-in-review-video-template. The repository LICENSE is Apache-2.0; the skill does not vendor font files (it names system CJK faces such as Songti SC and PingFang SC) and ships no separate asset license, so those terms stay unknown. The catalog preview is only example.html (embed). The skill folder commits no MP4. Source-reviewed on 2026-10-28; not render-tested.",
+    "description": "Vertical 9:16 HyperFrames skill for an annual reading report (template viewport 1080 by 1920; the skill text describes a 12-scene timeline). The look is inspired by reading-app year-in-review screens. It is not a WeChat Reading or WeRead official template and does not imply a partnership. Reuse skills/weread-year-in-review-video-template. The repository LICENSE is Apache-2.0; the skill does not vendor font files (it names system CJK faces such as Songti SC and PingFang SC) and ships no separate asset license, so those terms stay unknown. The playable catalog preview is the hosted Open Design default-showcase.mp4 hotlink (not copied into this repository); the skill folder commits no MP4. Preview license remains 待确认, so redistributable is false. HEAD-checked on 2026-11-03; not render-tested.",
     "evidence_ids": [
       "S-CV-127",
-      "S-CV-129"
+      "S-CV-129",
+      "S-CV-207"
     ],
     "review": {
       "level": "source-reviewed",
-      "reviewed_at": "2026-10-28",
+      "reviewed_at": "2026-11-03",
       "render_tested": false
     },
-    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. No WeChat Reading or WeRead partnership is stated. Font files are not vendored and their terms are unknown.",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. No WeChat Reading or WeRead partnership is stated. Font files are not vendored and their terms are unknown. Catalog preview is the hosted showcase MP4 hotlink; license for that binary remains 待确认.",
     "preview": {
-      "kind": "embed",
-      "url": "https://github.com/nexu-io/open-design/blob/main/skills/weread-year-in-review-video-template/example.html",
+      "kind": "video",
+      "url": "https://repo-assets.open-design.ai/resources/videos/skills/weread-year-in-review-video-template/default-showcase.mp4",
       "license": "待确认",
       "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)",
       "redistributable": false,
-      "source": "S-CV-129 https://github.com/nexu-io/open-design/blob/main/skills/weread-year-in-review-video-template/example.html. In-repo HTML page only. No committed MP4. Hosted showcase HEAD 200 was not adopted as a video preview. Not a local render test.",
-      "checked_at": "2026-10-28",
+      "source": "S-CV-207 https://repo-assets.open-design.ai/resources/videos/skills/weread-year-in-review-video-template/default-showcase.mp4. Upgrade embed→video on 2026-11-03: HEAD 200 video/mp4, Content-Length 6075887, ftyp isom. Hosted showcase hotlink; not copied into this repository. Prior HTML embed evidence S-CV-129. Preview license 待确认 (S-CV-127 notes hosted binaries are not cleared by the Apache-2.0 repo LICENSE alone); redistributable false. Not a local render test.",
+      "checked_at": "2026-11-03",
       "poster": "/previews/od-weread-year-in-review-video-template.webp"
     }
   },
