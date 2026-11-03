@@ -2506,5 +2506,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-03",
     "notes": "Upgrade probe on 2026-11-03 (Asia/Shanghai). Accepted embed→video for od-8-bit-orbit-video-template and od-weread-year-in-review-video-template. URLs: https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4 (HEAD 200 video/mp4, Content-Length 1745845, ftyp isom) and https://repo-assets.open-design.ai/resources/videos/skills/weread-year-in-review-video-template/default-showcase.mp4 (HEAD 200 video/mp4, Content-Length 6075887, ftyp isom). Hosted showcase hotlinks only; MP4s are not copied into this repository. Preview license remains 待确认; redistributable false. Reuses S-CV-127 (repo Apache-2.0 does not clear hosted showcase binaries) and prior HTML embed notes S-CV-128/129. render_tested=false. #L N/A (not FT Showcase; resource URLs stay tree paths)."
+  },
+  {
+    "id": "S-CV-208",
+    "project_id": "freelancer-templates",
+    "title": "Batch BG preview media — FT×12 heroes (new layout structure×12; 0 same-family color×12; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/CountdownHype-NeonUrgency.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-03",
+    "notes": "Batch BG on 2026-11-03 (Asia/Shanghai). create×12 = new-layout structure variants (CountdownHype-NeonUrgency, PinCollection-CategoryGridClean, RecipeStep-CleanSummaryCard, BeforeAfter-DarkMetricsCompare, CoursePromo-CleanInstructor, EventVenue-EventOverviewDark, DeploymentStatus-HealthDashboardDark, MusicVisualizer-DarkLyrics, Listing-CleanComparison, NeighborhoodGuide-OverviewWarm, ConceptPitch-ArcDark, FeatureRoadmap-TimelineClean). 0 same-family color×12; 0 RT/SC/HV/upgrade; not merged with OD embed→video (S-CV-207). HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 2ea969b2 (725/717/646/65/6): 737/729/658/65/6."
   }
 ]
