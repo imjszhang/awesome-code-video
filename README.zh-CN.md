@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 676 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 688 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -660,6 +660,18 @@
 - [客户证言：Bauhaus 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L369) - 用于客户证言居中展示的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式（CenteredLayout）与 Bauhaus 主题，列出的主预览变体是 Bauhaus Centered。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [缺陷分诊：摘要仪表盘深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/bugtriage/BugTriage.tsx#L24) - 用于缺陷摘要仪表盘展示的 Remotion 成片。复用 BugTriage.tsx 的 summary-dashboard 版式与 Dark 主题，列出的主预览变体是 Summary Dashboard Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [项目健康：健康记分卡深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecthealth/ProjectHealth.tsx#L26) - 用于项目健康记分卡展示的 Remotion 成片。复用 ProjectHealth.tsx 的 health-scorecard 版式与 Dark 主题，列出的主预览变体是 Health Scorecard Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户欢迎：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L47) - 用于客户欢迎仪表盘展示的 Remotion 成片。复用 ClientWelcome.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [成果展示：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/resultsshowcase/ResultsShowcase.tsx#L47) - 用于成果展示仪表盘展示的 Remotion 成片。复用 ResultsShowcase.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [范围变更：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/scopechange/ScopeChange.tsx#L51) - 用于范围变更仪表盘展示的 Remotion 成片。复用 ScopeChange.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [服务概览：Alpine 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/serviceoverview/ServiceOverview.tsx#L61) - 用于服务概览仪表盘展示的 Remotion 成片。复用 ServiceOverview.tsx 的 dashboard 版式与 Alpine 主题，列出的主预览变体是 Alpine Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：Alpine 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L290) - 用于排序揭示展示的 Remotion 清单文成片。复用 Listicle.tsx 的 reveal 版式（RevealLayout）与 Alpine 主题，列出的主预览变体是 Alpine Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：Alpine 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L284) - 用于卡片堆叠展示的 Remotion 清单文成片。复用 Listicle.tsx 的 stack 版式（StackLayout）与 Alpine 主题，列出的主预览变体是 Alpine Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Alpine 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L288) - 用于客户证言居中展示的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式（CenteredLayout）与 Alpine 主题，列出的主预览变体是 Alpine Centered。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Alpine 分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L291) - 用于客户证言分屏展示的 Remotion 成片。复用 Testimonial.tsx 的 split 版式（SplitLayout）与 Alpine 主题，列出的主预览变体是 Alpine Split。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [组件清单：清单列表干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/componentinventory/ComponentInventory.tsx#L24) - 用于组件清单列表展示的 Remotion 成片。复用 ComponentInventory.tsx 的 inventory-list 版式与 Clean 主题，列出的主预览变体是 Inventory List Clean。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [集成状态：健康监视深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/integrationstatus/IntegrationStatus.tsx#L22) - 用于集成健康监视展示的 Remotion 成片。复用 IntegrationStatus.tsx 的 health-monitor 版式与 Dark 主题，列出的主预览变体是 Health Monitor Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [功能开关：推出跟踪霓虹](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureflags/FeatureFlags.tsx#L22) - 用于功能开关推出跟踪展示的 Remotion 成片。复用 FeatureFlags.tsx 的 rollout-tracker 版式与 Neon 主题，列出的主预览变体是 Rollout Tracker Neon。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [发布说明：版本对比深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/releasenotes/ReleaseNotes.tsx#L25) - 用于发布说明版本对比展示的 Remotion 成片。复用 ReleaseNotes.tsx 的 version-compare 版式与 Dark 主题，列出的主预览变体是 Version Compare Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 

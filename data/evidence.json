@@ -2473,5 +2473,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-02",
     "notes": "Batch BD on 2026-11-02. create×12 = BC spare structure variants×4 (ChangelogDark, ArchitectureGridDark, EnvironmentCardsNeon, Velocity SummaryDark) + Alpine Dashboard design-system×4 (ClientReport/MeetingRecap/ProjectTimeline/RateCard) + Bauhaus×2 (Listicle Cards, Testimonial Centered) + new-layout structure×2 (BugTriage SummaryDashboardDark, ProjectHealth HealthScorecardDark). 0 same-family color theme×12; 0 RT; 0 SC; 0 HV; 0 upgrade; LindaMohamed deferred. Heroes: ReleaseNotes-ChangelogDark, ComponentInventory-ArchitectureGridDark, DeploymentStatus-EnvironmentCardsNeon, VelocityChart-SummaryDark, ClientReport-AlpineDashboard, MeetingRecap-AlpineDashboard, ProjectTimeline-AlpineDashboard, RateCard-AlpineDashboard, Listicle-BauhausCards, Testimonial-BauhausCentered, BugTriage-SummaryDashboardDark, ProjectHealth-HealthScorecardDark. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L assigned by curator: 21/19/17/24/179/51/51/49/368/369/24/26."
+  },
+  {
+    "id": "S-CV-205",
+    "project_id": "freelancer-templates",
+    "title": "Batch BE preview media — FT×12 heroes (Alpine leftover DS×8 + new layout structure×4; 0 same-family color×12; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/ClientWelcome-AlpineDashboard.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-03",
+    "notes": "Batch BE on 2026-11-03. create×12 = Alpine leftover design-system×8 (ClientWelcome/ResultsShowcase/ScopeChange/ServiceOverview Alpine Dashboard; Listicle Alpine Reveal/Stack; Testimonial Alpine Centered/Split) + new-layout structure×4 (ComponentInventory InventoryListClean, IntegrationStatus HealthMonitorDark, FeatureFlags RolloutTrackerNeon, ReleaseNotes VersionCompareDark). 0 same-family color theme×12; 0 RT; 0 SC; 0 HV; 0 upgrade; LindaMohamed deferred. Heroes: ClientWelcome-AlpineDashboard, ResultsShowcase-AlpineDashboard, ScopeChange-AlpineDashboard, ServiceOverview-AlpineDashboard, Listicle-AlpineReveal, Listicle-AlpineStack, Testimonial-AlpineCentered, Testimonial-AlpineSplit, ComponentInventory-InventoryListClean, IntegrationStatus-HealthMonitorDark, FeatureFlags-RolloutTrackerNeon, ReleaseNotes-VersionCompareDark. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L assigned by curator: 47/47/51/61/290/284/288/291/24/22/22/25."
   }
 ]

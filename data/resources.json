@@ -20835,5 +20835,365 @@
       "poster": "/previews/freelancer-project-health-health-scorecard-dark.webp",
       "source": "S-CV-204 https://freelancer-templates.org/previews/hero/ProjectHealth-HealthScorecardDark.mp4. HEAD on 2026-11-02: HTTP 200 video/mp4 Content-Length=170787, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-client-welcome-alpine-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Client Welcome Alpine Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L47",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-welcome composition. Reuse ClientWelcome.tsx with the dashboard layout and Alpine theme; the listed hero variant is Alpine Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientWelcome-AlpineDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-client-welcome-alpine-dashboard.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/ClientWelcome-AlpineDashboard.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=266824, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-results-showcase-alpine-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Results Showcase Alpine Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/resultsshowcase/ResultsShowcase.tsx#L47",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion results-showcase composition. Reuse ResultsShowcase.tsx with the dashboard layout and Alpine theme; the listed hero variant is Alpine Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ResultsShowcase-AlpineDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-results-showcase-alpine-dashboard.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/ResultsShowcase-AlpineDashboard.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=216311, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-scope-change-alpine-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Scope Change Alpine Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/scopechange/ScopeChange.tsx#L51",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion scope-change composition. Reuse ScopeChange.tsx with the dashboard layout and Alpine theme; the listed hero variant is Alpine Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ScopeChange-AlpineDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-scope-change-alpine-dashboard.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/ScopeChange-AlpineDashboard.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=292992, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-service-overview-alpine-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Service Overview Alpine Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/serviceoverview/ServiceOverview.tsx#L61",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion service-overview composition. Reuse ServiceOverview.tsx with the dashboard layout and Alpine theme; the listed hero variant is Alpine Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ServiceOverview-AlpineDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-service-overview-alpine-dashboard.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/ServiceOverview-AlpineDashboard.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=278702, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-alpine-reveal",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Alpine Reveal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L290",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the reveal layout (RevealLayout) and Alpine theme; the listed hero variant is Alpine Reveal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-AlpineReveal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-listicle-alpine-reveal.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/Listicle-AlpineReveal.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=172030, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-alpine-stack",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Alpine Stack",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L284",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the stack layout (StackLayout) and Alpine theme; the listed hero variant is Alpine Stack. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-AlpineStack.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-listicle-alpine-stack.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/Listicle-AlpineStack.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=260716, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-alpine-centered",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Alpine Centered",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L288",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the centered layout (CenteredLayout) and Alpine theme; the listed hero variant is Alpine Centered. Replace the quote, client, and call to action. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-AlpineCentered.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-testimonial-alpine-centered.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/Testimonial-AlpineCentered.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=196666, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-alpine-split",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Alpine Split",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L291",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the split layout (SplitLayout) and Alpine theme; the listed hero variant is Alpine Split. Replace the quote, client, and call to action. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-AlpineSplit.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-testimonial-alpine-split.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/Testimonial-AlpineSplit.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=247936, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-component-inventory-inventory-list-clean",
+    "project_id": "freelancer-templates",
+    "name": "Component Inventory Inventory List Clean",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/componentinventory/ComponentInventory.tsx#L24",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion component-inventory composition. Reuse ComponentInventory.tsx with the inventory-list layout and Clean theme; the listed hero variant is Inventory List Clean. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ComponentInventory-InventoryListClean.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-component-inventory-inventory-list-clean.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/ComponentInventory-InventoryListClean.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=227630, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-integration-status-health-monitor-dark",
+    "project_id": "freelancer-templates",
+    "name": "Integration Status Health Monitor Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/integrationstatus/IntegrationStatus.tsx#L22",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion integration-status composition. Reuse IntegrationStatus.tsx with the health-monitor layout and Dark theme; the listed hero variant is Health Monitor Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/IntegrationStatus-HealthMonitorDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-integration-status-health-monitor-dark.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/IntegrationStatus-HealthMonitorDark.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=173586, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-feature-flags-rollout-tracker-neon",
+    "project_id": "freelancer-templates",
+    "name": "Feature Flags Rollout Tracker Neon",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureflags/FeatureFlags.tsx#L22",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion feature-flags composition. Reuse FeatureFlags.tsx with the rollout-tracker layout and Neon theme; the listed hero variant is Rollout Tracker Neon. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/FeatureFlags-RolloutTrackerNeon.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-feature-flags-rollout-tracker-neon.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/FeatureFlags-RolloutTrackerNeon.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=180030, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-release-notes-version-compare-dark",
+    "project_id": "freelancer-templates",
+    "name": "Release Notes Version Compare Dark",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/releasenotes/ReleaseNotes.tsx#L25",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion release-notes composition. Reuse ReleaseNotes.tsx with the version-compare layout and Dark theme; the listed hero variant is Version Compare Dark. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-205"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-03",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ReleaseNotes-VersionCompareDark.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-03",
+      "poster": "/previews/freelancer-release-notes-version-compare-dark.webp",
+      "source": "S-CV-205 https://freelancer-templates.org/previews/hero/ReleaseNotes-VersionCompareDark.mp4. HEAD on 2026-11-03: HTTP 200 video/mp4 Content-Length=366070, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]

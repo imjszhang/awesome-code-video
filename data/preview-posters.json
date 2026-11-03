@@ -3057,6 +3057,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-client-welcome-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ClientWelcome-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-client-welcome-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "828140bd6983a905de5f960869b6f76833477d8c2c511c44d3883c0cc5a01877",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 266823,
+        "sha256": "828140bd6983a905de5f960869b6f76833477d8c2c511c44d3883c0cc5a01877"
+      }
+    ],
+    "poster_sha256": "d1db5439a6d1b09b8917696a22d01e0380c8d6e1560809a90bdad2c1688597c2",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-client-welcome-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ClientWelcome-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-client-welcome-arctic-dashboard.webp",
@@ -3241,6 +3261,26 @@
     "source_sha256": "b177c50a4748c2f4b8f04504b482487eef1ea5e67545009d718a09931bf27192",
     "source_byte_ranges": [],
     "poster_sha256": "0931d501a116c886d2dcc699192edc24ada878e03147fe0455561bae03206733",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-component-inventory-inventory-list-clean",
+    "source_url": "https://freelancer-templates.org/previews/hero/ComponentInventory-InventoryListClean.mp4",
+    "poster": "/previews/freelancer-component-inventory-inventory-list-clean.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "dfb4ddd43f5ab1cdfdc7d269cbb0d777b0ecf5ff8d70babe9d59e32427a104ab",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 227629,
+        "sha256": "dfb4ddd43f5ab1cdfdc7d269cbb0d777b0ecf5ff8d70babe9d59e32427a104ab"
+      }
+    ],
+    "poster_sha256": "b3e695789f989db3d036024bed49e6706a17edf4241d2cac2dc5638d73ee229e",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -3901,6 +3941,26 @@
     "source_sha256": "3d32496e2428c88bbc4474f13f841fcc04808a5c719b82f4f0059864d3099654",
     "source_byte_ranges": [],
     "poster_sha256": "41f661cf5043146489200e711632e7d05929f6078ce4913bf250bdcea4c9e759",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-feature-flags-rollout-tracker-neon",
+    "source_url": "https://freelancer-templates.org/previews/hero/FeatureFlags-RolloutTrackerNeon.mp4",
+    "poster": "/previews/freelancer-feature-flags-rollout-tracker-neon.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "4ddfb5b5d32282e48a84e0fe5240b66e7ae503c149d9d025dae0f611f3446d4e",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 180029,
+        "sha256": "4ddfb5b5d32282e48a84e0fe5240b66e7ae503c149d9d025dae0f611f3446d4e"
+      }
+    ],
+    "poster_sha256": "41df0a544a5a2f8485cc2c3ee152c558cba141b41853c9a1d0d4a7aa0d0c8fb5",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -4937,6 +4997,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-integration-status-health-monitor-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/IntegrationStatus-HealthMonitorDark.mp4",
+    "poster": "/previews/freelancer-integration-status-health-monitor-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "77184a0b77d904b9a362373335308d625332c80729506d5ff545d4d8fbcf89a2",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 173585,
+        "sha256": "77184a0b77d904b9a362373335308d625332c80729506d5ff545d4d8fbcf89a2"
+      }
+    ],
+    "poster_sha256": "3acb688261c2b667ab942345493e5711af22905b10230d94a59d78609304cf48",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-integration-status-status-wall-clean",
     "source_url": "https://freelancer-templates.org/previews/hero/IntegrationStatus-StatusWallClean.mp4",
     "poster": "/previews/freelancer-integration-status-status-wall-clean.webp",
@@ -5042,6 +5122,46 @@
       }
     ],
     "poster_sha256": "73d13d719ef7ebada1e6767a37fef0c53e95f5b5a7ae1d7dad576efc44095695",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-alpine-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-AlpineReveal.mp4",
+    "poster": "/previews/freelancer-listicle-alpine-reveal.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "7cc09649269917d8bc54767eb3da5add0fa01c2a781bc6238ca5ff019a5cc443",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 172029,
+        "sha256": "7cc09649269917d8bc54767eb3da5add0fa01c2a781bc6238ca5ff019a5cc443"
+      }
+    ],
+    "poster_sha256": "fdfa179f1c3d3c8adce457588efb85b58a50ec920cd9500be94a0e271a38bff3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-alpine-stack",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-AlpineStack.mp4",
+    "poster": "/previews/freelancer-listicle-alpine-stack.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "76cca169e3720380577d557f5df2d0a00a77747b2ea9c07daa2fdebd511db5e9",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 260715,
+        "sha256": "76cca169e3720380577d557f5df2d0a00a77747b2ea9c07daa2fdebd511db5e9"
+      }
+    ],
+    "poster_sha256": "d766b40f7617e3ae7f1ac2b9e5daff1e28fad5877a55420dd8f58efd4d75a21b",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7193,6 +7313,46 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-release-notes-version-compare-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/ReleaseNotes-VersionCompareDark.mp4",
+    "poster": "/previews/freelancer-release-notes-version-compare-dark.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "c6124cca2138133d2bb30c1c20cf1066af463654e2c37a8394e96d56cfa96fdd",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 366069,
+        "sha256": "c6124cca2138133d2bb30c1c20cf1066af463654e2c37a8394e96d56cfa96fdd"
+      }
+    ],
+    "poster_sha256": "dbbb3d632f9dd233defc21d8336e175c07a4a522515072bdb962ccc686636280",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-results-showcase-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ResultsShowcase-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-results-showcase-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "897d3766fb8320ecbf1703890abd7710b82c5ce8d3d7aa5f93854f5506c9b550",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 216310,
+        "sha256": "897d3766fb8320ecbf1703890abd7710b82c5ce8d3d7aa5f93854f5506c9b550"
+      }
+    ],
+    "poster_sha256": "e84c6059919452dee0b59de53ca74a67b790f1a2b612e53693c04aef3c21e282",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-results-showcase-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ResultsShowcase-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-results-showcase-arctic-dashboard.webp",
@@ -7241,6 +7401,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-scope-change-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ScopeChange-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-scope-change-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "db3b89508e643597d39984a98ce9c8a9e25b8dcd50c2bac0e8887c6044299cee",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 292991,
+        "sha256": "db3b89508e643597d39984a98ce9c8a9e25b8dcd50c2bac0e8887c6044299cee"
+      }
+    ],
+    "poster_sha256": "31943f8b84427cd9fe891355a5ddd1b9010626f921d530eb68db5a45bbb19ad3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-scope-change-arctic-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ScopeChange-ArcticDashboard.mp4",
     "poster": "/previews/freelancer-scope-change-arctic-dashboard.webp",
@@ -7279,6 +7459,26 @@
     "source_sha256": "9c4cb00191c297a2f0af64c7904ea7de95be9303b3036b92d99ce26e13d799c4",
     "source_byte_ranges": [],
     "poster_sha256": "863a7e46728dfc1b1d4ceeb5bc1861823e6e7bb82dbbd3c9f9906b782a85d6d1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-service-overview-alpine-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ServiceOverview-AlpineDashboard.mp4",
+    "poster": "/previews/freelancer-service-overview-alpine-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "2e2261bcab9fb56785dd2205d2f486d0f79beabb91dcc77ccf5f1e7857e94dc4",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 278701,
+        "sha256": "2e2261bcab9fb56785dd2205d2f486d0f79beabb91dcc77ccf5f1e7857e94dc4"
+      }
+    ],
+    "poster_sha256": "3a30be3eb68f48df20ec3aa98f08ccdd7cd9e16bffdb5614f19ba7ee936ed107",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7876,6 +8076,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-testimonial-alpine-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-AlpineCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-alpine-centered.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "6edcb031215f8eb5c0a30ec5e3bf1a754f45e9a351e46e3273ce6df215d3842f",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 196665,
+        "sha256": "6edcb031215f8eb5c0a30ec5e3bf1a754f45e9a351e46e3273ce6df215d3842f"
+      }
+    ],
+    "poster_sha256": "a01b8b2aaec28870e9b076395fd458483ef2d62b82734b32e0787e1df20b5f74",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-testimonial-alpine-editorial",
     "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-AlpineEditorial.mp4",
     "poster": "/previews/freelancer-testimonial-alpine-editorial.webp",
@@ -7897,6 +8117,26 @@
       }
     ],
     "poster_sha256": "b80626a8f9dd3815e5ae87ce5aac711da67d8208bee63b1d000da6d4c4aabf3f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-alpine-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-AlpineSplit.mp4",
+    "poster": "/previews/freelancer-testimonial-alpine-split.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "95da9258b199e834d3bec908eb266170f750eb371849e07446fee4661d3503f6",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 247935,
+        "sha256": "95da9258b199e834d3bec908eb266170f750eb371849e07446fee4661d3503f6"
+      }
+    ],
+    "poster_sha256": "ecc2b314b036054677b602e50ada165e432edcff3cb1b21c129f5e3e9006e863",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
