@@ -2484,5 +2484,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-03",
     "notes": "Batch BE on 2026-11-03. create×12 = Alpine leftover design-system×8 (ClientWelcome/ResultsShowcase/ScopeChange/ServiceOverview Alpine Dashboard; Listicle Alpine Reveal/Stack; Testimonial Alpine Centered/Split) + new-layout structure×4 (ComponentInventory InventoryListClean, IntegrationStatus HealthMonitorDark, FeatureFlags RolloutTrackerNeon, ReleaseNotes VersionCompareDark). 0 same-family color theme×12; 0 RT; 0 SC; 0 HV; 0 upgrade; LindaMohamed deferred. Heroes: ClientWelcome-AlpineDashboard, ResultsShowcase-AlpineDashboard, ScopeChange-AlpineDashboard, ServiceOverview-AlpineDashboard, Listicle-AlpineReveal, Listicle-AlpineStack, Testimonial-AlpineCentered, Testimonial-AlpineSplit, ComponentInventory-InventoryListClean, IntegrationStatus-HealthMonitorDark, FeatureFlags-RolloutTrackerNeon, ReleaseNotes-VersionCompareDark. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L assigned by curator: 47/47/51/61/290/284/288/291/24/22/22/25."
+  },
+  {
+    "id": "S-CV-206",
+    "project_id": "freelancer-templates",
+    "title": "Batch BF preview media — FT×12 heroes (Corporate/Vienna DS×8 + ScheduleMap/WorldView/MapPins/ProductLaunch×4; 0 same-family color×12; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/ClientWelcome-CorporateDashboard.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-03",
+    "notes": "Batch BF on 2026-11-03. create×12 = Corporate/Vienna design-system×8 (ClientWelcome Corporate Dashboard; ResultsShowcase Vienna Dashboard; Listicle Corporate Cards/Vienna Stack; Testimonial Corporate Editorial/Vienna Split; MeetingRecap Corporate Dashboard; RateCard Vienna Dashboard) + new-layout structure×4 (EventVenue ScheduleMapDark, OfficeDirectory WorldViewDark, StoreLocator MapPinsClean, ProductLaunch DarkHeroReveal). 0 same-family color theme×12; 0 RT; 0 SC; 0 HV; 0 upgrade; LindaMohamed deferred. Heroes: ClientWelcome-CorporateDashboard, ResultsShowcase-ViennaDashboard, Listicle-CorporateCards, Listicle-ViennaStack, Testimonial-CorporateEditorial, Testimonial-ViennaSplit, MeetingRecap-CorporateDashboard, RateCard-ViennaDashboard, EventVenue-ScheduleMapDark, OfficeDirectory-WorldViewDark, StoreLocator-MapPinsClean, ProductLaunch-DarkHeroReveal. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L assigned by curator: 44/46/254/273/261/280/48/48/19/18/21/55."
   }
 ]

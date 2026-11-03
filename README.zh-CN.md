@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 688 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 700 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -672,6 +672,18 @@
 - [集成状态：健康监视深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/integrationstatus/IntegrationStatus.tsx#L22) - 用于集成健康监视展示的 Remotion 成片。复用 IntegrationStatus.tsx 的 health-monitor 版式与 Dark 主题，列出的主预览变体是 Health Monitor Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [功能开关：推出跟踪霓虹](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/featureflags/FeatureFlags.tsx#L22) - 用于功能开关推出跟踪展示的 Remotion 成片。复用 FeatureFlags.tsx 的 rollout-tracker 版式与 Neon 主题，列出的主预览变体是 Rollout Tracker Neon。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [发布说明：版本对比深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/releasenotes/ReleaseNotes.tsx#L25) - 用于发布说明版本对比展示的 Remotion 成片。复用 ReleaseNotes.tsx 的 version-compare 版式与 Dark 主题，列出的主预览变体是 Version Compare Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户欢迎：企业仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L44) - 用于客户欢迎仪表盘展示的 Remotion 成片。复用 ClientWelcome.tsx 的 dashboard 版式与 Corporate 主题，列出的主预览变体是 Corporate Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [成果展示：Vienna 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/resultsshowcase/ResultsShowcase.tsx#L46) - 用于成果展示仪表盘展示的 Remotion 成片。复用 ResultsShowcase.tsx 的 dashboard 版式与 Vienna 主题，列出的主预览变体是 Vienna Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：企业卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L254) - 用于清单卡片展示的 Remotion 成片。复用 Listicle.tsx 的 cards 版式（CardsLayout）与 Corporate 主题，列出的主预览变体是 Corporate Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [清单文：Vienna 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L273) - 用于卡片堆叠展示的 Remotion 清单文成片。复用 Listicle.tsx 的 stack 版式（StackLayout）与 Vienna 主题，列出的主预览变体是 Vienna Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：企业编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L261) - 用于客户证言展示的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式（EditorialLayout）与 Corporate 主题，列出的主预览变体是 Corporate Editorial。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Vienna 分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L280) - 用于客户证言分屏展示的 Remotion 成片。复用 Testimonial.tsx 的 split 版式（SplitLayout）与 Vienna 主题，列出的主预览变体是 Vienna Split。替换引言、客户与行动号召。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [会议回顾：企业仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/meetingrecap/MeetingRecap.tsx#L48) - 用于会议回顾仪表盘展示的 Remotion 成片。复用 MeetingRecap.tsx 的 dashboard 版式与 Corporate 主题，列出的主预览变体是 Corporate Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [报价单：Vienna 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L48) - 用于报价单仪表盘展示的 Remotion 成片。复用 RateCard.tsx 的 dashboard 版式与 Vienna 主题，列出的主预览变体是 Vienna Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [活动场地：日程地图深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/eventvenue/EventVenue.tsx#L19) - 用于活动场地日程地图展示的 Remotion 成片。复用 EventVenue.tsx 的 schedule-map 版式与 Dark 主题，列出的主预览变体是 Schedule Map Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [办公名录：世界视图深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/officedirectory/OfficeDirectory.tsx#L18) - 用于办公名录世界视图展示的 Remotion 成片。复用 OfficeDirectory.tsx 的 world-view 版式与 Dark 主题，列出的主预览变体是 World View Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [门店定位：地图钉干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/storelocator/StoreLocator.tsx#L21) - 用于门店定位地图钉展示的 Remotion 成片。复用 StoreLocator.tsx 的 map-pins 版式与 Clean 主题，列出的主预览变体是 Map Pins Clean。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [产品发布：深色主视觉揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productlaunch/ProductLaunch.tsx#L55) - 用于产品发布主视觉揭示展示的 Remotion 成片。复用 ProductLaunch.tsx 的 hero-reveal 版式与 Dark 主题，列出的主预览变体是 Dark Hero Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
