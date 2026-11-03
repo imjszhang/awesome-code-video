@@ -2495,5 +2495,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-03",
     "notes": "Batch BF on 2026-11-03. create×12 = Corporate/Vienna design-system×8 (ClientWelcome Corporate Dashboard; ResultsShowcase Vienna Dashboard; Listicle Corporate Cards/Vienna Stack; Testimonial Corporate Editorial/Vienna Split; MeetingRecap Corporate Dashboard; RateCard Vienna Dashboard) + new-layout structure×4 (EventVenue ScheduleMapDark, OfficeDirectory WorldViewDark, StoreLocator MapPinsClean, ProductLaunch DarkHeroReveal). 0 same-family color theme×12; 0 RT; 0 SC; 0 HV; 0 upgrade; LindaMohamed deferred. Heroes: ClientWelcome-CorporateDashboard, ResultsShowcase-ViennaDashboard, Listicle-CorporateCards, Listicle-ViennaStack, Testimonial-CorporateEditorial, Testimonial-ViennaSplit, MeetingRecap-CorporateDashboard, RateCard-ViennaDashboard, EventVenue-ScheduleMapDark, OfficeDirectory-WorldViewDark, StoreLocator-MapPinsClean, ProductLaunch-DarkHeroReveal. Heroes hotlinked redistributable:false CC-BY-NC-SA; render_tested false. Reuses S-CV-074/076. #L assigned by curator: 44/46/254/273/261/280/48/48/19/18/21/55."
+  },
+  {
+    "id": "S-CV-207",
+    "project_id": "open-design",
+    "title": "Open Design skill showcase upgrade — od-8-bit-orbit + od-weread embed→video (HEAD+ftyp)",
+    "url": "https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-03",
+    "notes": "Upgrade probe on 2026-11-03 (Asia/Shanghai). Accepted embed→video for od-8-bit-orbit-video-template and od-weread-year-in-review-video-template. URLs: https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4 (HEAD 200 video/mp4, Content-Length 1745845, ftyp isom) and https://repo-assets.open-design.ai/resources/videos/skills/weread-year-in-review-video-template/default-showcase.mp4 (HEAD 200 video/mp4, Content-Length 6075887, ftyp isom). Hosted showcase hotlinks only; MP4s are not copied into this repository. Preview license remains 待确认; redistributable false. Reuses S-CV-127 (repo Apache-2.0 does not clear hosted showcase binaries) and prior HTML embed notes S-CV-128/129. render_tested=false. #L N/A (not FT Showcase; resource URLs stay tree paths)."
   }
 ]

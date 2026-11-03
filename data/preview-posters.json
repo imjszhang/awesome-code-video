@@ -13959,5 +13959,45 @@
     "poster_sha256": "50c9dadc7255271b8b450da6483b4f4218fc4ff7e6c300c9e46c670c26be2e1d",
     "license": "MIT",
     "attribution": "SpecStory, Inc. (https://github.com/specstoryai/zero-to-product-video-hero)"
+  },
+  {
+    "resource_id": "od-8-bit-orbit-video-template",
+    "source_url": "https://repo-assets.open-design.ai/resources/videos/skills/8-bit-orbit-video-template/default-showcase.mp4",
+    "poster": "/previews/od-8-bit-orbit-video-template.webp",
+    "timestamp_seconds": 3.045,
+    "duration_seconds": 8.7,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "4b2d3479fffe15bde8bfa97967bba4ca9a3606e1254ca4d4e513d1450e384827",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "d23cb51e525c36c415b40d48c195db301672293b531a02138a338a1d0d50343a"
+      }
+    ],
+    "poster_sha256": "3120be6a96d27e608e052387f857743adbd4150574332a9ca1869489221805ba",
+    "license": "待确认",
+    "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)"
+  },
+  {
+    "resource_id": "od-weread-year-in-review-video-template",
+    "source_url": "https://repo-assets.open-design.ai/resources/videos/skills/weread-year-in-review-video-template/default-showcase.mp4",
+    "poster": "/previews/od-weread-year-in-review-video-template.webp",
+    "timestamp_seconds": 15.05,
+    "duration_seconds": 43.0,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "6ae794992f30ce052f3afd7889f8e974d329049b9813e02d9992bf3cf64ba62a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "fba655e79d4e9d18e942a2e455bd156b4eba02c5325048c3d09a654049b8e355"
+      }
+    ],
+    "poster_sha256": "17fe3af7b68be46820eed703ac90d37c0f3b3f4a3a94b39395dfcf068653667b",
+    "license": "待确认",
+    "attribution": "nexu-io / Open Design (https://github.com/nexu-io/open-design)"
   }
 ]
