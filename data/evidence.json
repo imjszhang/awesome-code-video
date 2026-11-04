@@ -2517,5 +2517,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-03",
     "notes": "Batch BG on 2026-11-03 (Asia/Shanghai). create×12 = new-layout structure variants (CountdownHype-NeonUrgency, PinCollection-CategoryGridClean, RecipeStep-CleanSummaryCard, BeforeAfter-DarkMetricsCompare, CoursePromo-CleanInstructor, EventVenue-EventOverviewDark, DeploymentStatus-HealthDashboardDark, MusicVisualizer-DarkLyrics, Listing-CleanComparison, NeighborhoodGuide-OverviewWarm, ConceptPitch-ArcDark, FeatureRoadmap-TimelineClean). 0 same-family color×12; 0 RT/SC/HV/upgrade; not merged with OD embed→video (S-CV-207). HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 2ea969b2 (725/717/646/65/6): 737/729/658/65/6."
+  },
+  {
+    "id": "S-CV-209",
+    "project_id": "freelancer-templates",
+    "title": "Batch BH preview media — FT×12 heroes (new layout×7 + Corporate/Vienna DS×5; 0 same-family color; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Invoice-NeonUrgent.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-04",
+    "notes": "Batch BH on 2026-11-04 (Asia/Shanghai). create×12 = new-layout structure×7 + Corporate/Vienna design-system×5 (Invoice-NeonUrgent, Milestone-WarmGratitude, AffiliateReview-DarkVerdict, AgentDashboard-MatrixDark, BugTracker-OverviewDark, FitnessRoutine-NeonExerciseList, Event-DarkHero, ClientReport-CorporateDashboard, ClientReport-ViennaDashboard, ClientWelcome-ViennaDashboard, Listicle-CorporateReveal, Listicle-ViennaCards). 0 same-family color; 0 RT/SC/HV/upgrade; ClientReport Corporate+Vienna dual-DS allowed (PM). HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 1c751cf1 (737/729/658/65/6): 749/741/670/65/6."
   }
 ]
