@@ -2565,6 +2565,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-call-to-action-dark-centered-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-DarkCenteredVertical.mp4",
+    "poster": "/previews/freelancer-call-to-action-dark-centered-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "9aeaa56918dd478894b2965bef360b57fbecee362b899403fcc95acdc3ec22d0",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 176050,
+        "sha256": "9aeaa56918dd478894b2965bef360b57fbecee362b899403fcc95acdc3ec22d0"
+      }
+    ],
+    "poster_sha256": "ad12ba855aaee9b80d0a5fb256501b7d0a3345669024be9a42cca8a02c100f9b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-call-to-action-mint-minimal",
     "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-MintMinimal.mp4",
     "poster": "/previews/freelancer-call-to-action-mint-minimal.webp",
@@ -5829,6 +5849,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listicle-vienna-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-ViennaReveal.mp4",
+    "poster": "/previews/freelancer-listicle-vienna-reveal.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "5ba81059413d65c328d22ac6b3f090edd66dae084f74e20e078160ef256a3fd0",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 155163,
+        "sha256": "5ba81059413d65c328d22ac6b3f090edd66dae084f74e20e078160ef256a3fd0"
+      }
+    ],
+    "poster_sha256": "e16641ad1a6e1fb56be744f665f59915f91204d6121f343ab358cb696f8696d3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-listicle-vienna-stack",
     "source_url": "https://freelancer-templates.org/previews/hero/Listicle-ViennaStack.mp4",
     "poster": "/previews/freelancer-listicle-vienna-stack.webp",
@@ -6673,6 +6713,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-onboarding-bold-creative",
+    "source_url": "https://freelancer-templates.org/previews/hero/Onboarding-BoldCreative.mp4",
+    "poster": "/previews/freelancer-onboarding-bold-creative.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "3fdfb2cb9790a21144366f7c2d58fb95b5ac714dee4e2ef626a31de6cfb5a755",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 379726,
+        "sha256": "3fdfb2cb9790a21144366f7c2d58fb95b5ac714dee4e2ef626a31de6cfb5a755"
+      }
+    ],
+    "poster_sha256": "6c0a0756bface54c784ddb2b07ca8663067329261e8f1293f6eb247c777d003a",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-onboarding-clean-professional",
     "source_url": "https://freelancer-templates.org/previews/hero/Onboarding-CleanProfessional.mp4",
     "poster": "/previews/freelancer-onboarding-clean-professional.webp",
@@ -6842,6 +6902,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-pin-collection-map-list-clean",
+    "source_url": "https://freelancer-templates.org/previews/hero/PinCollection-MapListClean.mp4",
+    "poster": "/previews/freelancer-pin-collection-map-list-clean.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ecdbbc49d38297a9301e8e2b49a035435eca9d6a17c1de7f310c1a05aa8b9225",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 184780,
+        "sha256": "ecdbbc49d38297a9301e8e2b49a035435eca9d6a17c1de7f310c1a05aa8b9225"
+      }
+    ],
+    "poster_sha256": "910182f25f4a74691d8086e22e2e82388dffc72e418e32dd0b0d6178bb0deaa1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-pin-collection-ocean-card-gallery",
     "source_url": "https://freelancer-templates.org/previews/hero/PinCollection-OceanCardGallery.mp4",
     "poster": "/previews/freelancer-pin-collection-ocean-card-gallery.webp",
@@ -6960,6 +7040,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-poll-quiz-dark-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/PollQuiz-DarkReveal.mp4",
+    "poster": "/previews/freelancer-poll-quiz-dark-reveal.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "5b16e03c213ee4b0c53dde9e3eb7f7f33094c5ab097c437869a021fcca463d00",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 231283,
+        "sha256": "5b16e03c213ee4b0c53dde9e3eb7f7f33094c5ab097c437869a021fcca463d00"
+      }
+    ],
+    "poster_sha256": "944b4599c93dd8c489fc5bfb0e76e6d59d90f989ac122ed03422ea1c80620bf7",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-poll-quiz-neon-question-card",
     "source_url": "https://freelancer-templates.org/previews/hero/PollQuiz-NeonQuestionCard.mp4",
     "poster": "/previews/freelancer-poll-quiz-neon-question-card.webp",
@@ -7074,6 +7174,26 @@
     "source_sha256": "ed9c7ffcbd3e1eb3c4075efd7e868c6c3502ebd43db6746b4988c7ff1e2cac7b",
     "source_byte_ranges": null,
     "poster_sha256": "ba6d14cda1241168d067245ef30bf3585bd24ca34228cbf568dbabf126d9cc8e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-pricing-bold-spotlight",
+    "source_url": "https://freelancer-templates.org/previews/hero/Pricing-BoldSpotlight.mp4",
+    "poster": "/previews/freelancer-pricing-bold-spotlight.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "bd34f9fbe59ff2fab89452d48e001a78a122460b1aba7f96b85d1294ef861518",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 287088,
+        "sha256": "bd34f9fbe59ff2fab89452d48e001a78a122460b1aba7f96b85d1294ef861518"
+      }
+    ],
+    "poster_sha256": "74b8d3c32b363f7bdbb3be24f9408e41fe21380b473de6c9ed104babf291ca22",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7332,6 +7452,26 @@
     "source_sha256": "627889b7eebb5172fc6ef64a74eee9c14ccc8f6d60e738193ce615f73ad700d4",
     "source_byte_ranges": [],
     "poster_sha256": "7a8c66878c434ad2c7f2aed6b230493e0a373bac47a2c042210949ad699f911b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-project-timeline-corporate-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProjectTimeline-CorporateDashboard.mp4",
+    "poster": "/previews/freelancer-project-timeline-corporate-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "de60d909786e60416f1b11c856be196d65bd878a0544d175ce4fb17cff80af5d",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 248649,
+        "sha256": "de60d909786e60416f1b11c856be196d65bd878a0544d175ce4fb17cff80af5d"
+      }
+    ],
+    "poster_sha256": "d8ac332b2b0f7baf5287e870c5f10517ea5c16748da554e60a660181b21d9334",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7886,6 +8026,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-quote-card-dark-centered-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/QuoteCard-DarkCenteredVertical.mp4",
+    "poster": "/previews/freelancer-quote-card-dark-centered-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "b37f4502c3adc6f1412c1f2109e97bde2aa1d35c4eaf7d6e4290f7a9ebec3f57",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 178647,
+        "sha256": "b37f4502c3adc6f1412c1f2109e97bde2aa1d35c4eaf7d6e4290f7a9ebec3f57"
+      }
+    ],
+    "poster_sha256": "cba12a8f82168195e69a4c2712c5a3225f55b69e9d71cd88ffcd030e7887a677",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-rate-card-alpine-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/RateCard-AlpineDashboard.mp4",
     "poster": "/previews/freelancer-rate-card-alpine-dashboard.webp",
@@ -8058,6 +8218,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-recap-dark-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/Recap-DarkDashboard.mp4",
+    "poster": "/previews/freelancer-recap-dark-dashboard.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 3.051,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "18d4441056d005024720b07bcde1bfd92c7071d3b2cff6f7f9911813a21ac1d7",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 169038,
+        "sha256": "18d4441056d005024720b07bcde1bfd92c7071d3b2cff6f7f9911813a21ac1d7"
+      }
+    ],
+    "poster_sha256": "848393ef28802aa8845d8a1dd2f3dbeb50f3d7b2058e77867b915cfbf5c2b4a8",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-recap-neon-timeline",
     "source_url": "https://freelancer-templates.org/previews/hero/Recap-NeonTimeline.mp4",
     "poster": "/previews/freelancer-recap-neon-timeline.webp",
@@ -8107,6 +8287,26 @@
     "source_sha256": "9f2a3d6d360c55f632b671aee438c08a4a77da9fae7524454736e34b858299d1",
     "source_byte_ranges": [],
     "poster_sha256": "66d0d9027c895c2f0b1f2eaf008541ed1c596977b980f4f73e3c6b5955d190f4",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-recipe-step-clean-ingredient-list",
+    "source_url": "https://freelancer-templates.org/previews/hero/RecipeStep-CleanIngredientList.mp4",
+    "poster": "/previews/freelancer-recipe-step-clean-ingredient-list.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "0a48afd66a7d579d4a746dda41b3ee7c948fff896e66e0bb0431453f1cedeecd",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 159034,
+        "sha256": "0a48afd66a7d579d4a746dda41b3ee7c948fff896e66e0bb0431453f1cedeecd"
+      }
+    ],
+    "poster_sha256": "d1365afc340c8c5393d18229090a5ef3694a069ce9321e5c05e997e83eee3e99",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -9425,6 +9625,26 @@
     "attribution": "Linda Mohamed / freelancer-templates.org (https://freelancer-templates.org)"
   },
   {
+    "resource_id": "freelancer-testimonial-vienna-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-ViennaCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-vienna-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "eea94c1d22edd4b667f133c9e79a14c32972b2e411f7fd9b503cb27433a95164",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 185262,
+        "sha256": "eea94c1d22edd4b667f133c9e79a14c32972b2e411f7fd9b503cb27433a95164"
+      }
+    ],
+    "poster_sha256": "1818b534630cfa10d82b3526fdfb477354363500a3a10fdc891a68384e829814",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-testimonial-vienna-split",
     "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-ViennaSplit.mp4",
     "poster": "/previews/freelancer-testimonial-vienna-split.webp",
@@ -9548,6 +9768,26 @@
       }
     ],
     "poster_sha256": "0898784de8a274c33bb218cdfb6c2a5e0449dff2a2ca3fcdb313e3aaad8fb5a1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-tip-of-the-day-dark-card-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-DarkCardVertical.mp4",
+    "poster": "/previews/freelancer-tip-of-the-day-dark-card-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "de659b020d1c9cdd2f0fbcda0beb21fc474c48f944a562c269c8e924f90d3620",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 254239,
+        "sha256": "de659b020d1c9cdd2f0fbcda0beb21fc474c48f944a562c269c8e924f90d3620"
+      }
+    ],
+    "poster_sha256": "e3ee00db41011ebe9812340fff3833ab56137ae0db0ca178b6c55cccf23798df",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },

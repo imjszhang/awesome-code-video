@@ -2550,5 +2550,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-04",
     "notes": "Batch BJ on 2026-11-04 (Asia/Shanghai). create×12 = BI spare new-layout×4 + BI spare DS×5 + FT new layout stems×3 (SprintRecap-TeamContributionsDark, TravelItinerary-HighlightsWarm, SocialProof-NeonAnnouncement, TipOfTheDay-DarkCard, ProjectTimeline-ViennaDashboard, ScopeChange-ViennaDashboard, ServiceOverview-ViennaDashboard, RateCard-CorporateDashboard, ResultsShowcase-CorporateDashboard, PlatformOverview-StackDark, Announcement-DarkBannerVertical, Portfolio-DarkGallery). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip b88d99f3 (761/753/682/65/6): 773/765/694/65/6."
+  },
+  {
+    "id": "S-CV-212",
+    "project_id": "freelancer-templates",
+    "title": "Batch BK preview media — FT×12 heroes (BJ spare new layout×9 + BJ spare DS×3; 0 same-family color; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/CallToAction-DarkCenteredVertical.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-04",
+    "notes": "Batch BK on 2026-11-04 (Asia/Shanghai). create×12 = BJ spare new-layout×9 + BJ spare DS×3 (CallToAction-DarkCenteredVertical, RecipeStep-CleanIngredientList, PinCollection-MapListClean, PollQuiz-DarkReveal, Recap-DarkDashboard, Pricing-BoldSpotlight, Onboarding-BoldCreative, TipOfTheDay-DarkCardVertical, QuoteCard-DarkCenteredVertical, ProjectTimeline-CorporateDashboard, Listicle-ViennaReveal, Testimonial-ViennaCentered). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 4070f51f (773/765/694/65/6): 785/777/706/65/6."
   }
 ]
