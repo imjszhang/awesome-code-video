@@ -1622,6 +1622,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-announcement-dark-banner-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/Announcement-DarkBannerVertical.mp4",
+    "poster": "/previews/freelancer-announcement-dark-banner-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "e9af8b6390bf3c7205bd4fe0e05ddb82f2c2de21307eea3024912b892a59ef95",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 206980,
+        "sha256": "e9af8b6390bf3c7205bd4fe0e05ddb82f2c2de21307eea3024912b892a59ef95"
+      }
+    ],
+    "poster_sha256": "a6b8cba7768735147f1d718690572341ec5f3bb1563a461b2e3c6511fef12e33",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-announcement-neon-card",
     "source_url": "https://freelancer-templates.org/previews/hero/Announcement-NeonCard.mp4",
     "poster": "/previews/freelancer-announcement-neon-card.webp",
@@ -6864,6 +6884,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-platform-overview-stack-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/PlatformOverview-StackDark.mp4",
+    "poster": "/previews/freelancer-platform-overview-stack-dark.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "7d2c673293d1e30412f399f75c41e465c1270d2db28406d8ff61350d1f72935d",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 209624,
+        "sha256": "7d2c673293d1e30412f399f75c41e465c1270d2db28406d8ff61350d1f72935d"
+      }
+    ],
+    "poster_sha256": "80db1269aa8f277488aab4ad79820f1e8ec5d4bdb8b0792bd4f5f7c672a918dd",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-podcast-audiogram-arctic-quote-card",
     "source_url": "https://freelancer-templates.org/previews/hero/PodcastAudiogram-ArcticQuoteCard.mp4",
     "poster": "/previews/freelancer-podcast-audiogram-arctic-quote-card.webp",
@@ -6986,6 +7026,26 @@
     "source_sha256": "607e1e11fc31a05df37499d46430528d794cf23e00d0f5cf2fad4897938c9de7",
     "source_byte_ranges": [],
     "poster_sha256": "3cddac76aa7479f84f5609273444b03c30b92b96d99753d18cfa1bd3879977c6",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-portfolio-dark-gallery",
+    "source_url": "https://freelancer-templates.org/previews/hero/Portfolio-DarkGallery.mp4",
+    "poster": "/previews/freelancer-portfolio-dark-gallery.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "62f98b182f28353ac705970807a32341ab060cff5146123ad73e380a454e40a6",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 165080,
+        "sha256": "62f98b182f28353ac705970807a32341ab060cff5146123ad73e380a454e40a6"
+      }
+    ],
+    "poster_sha256": "66aae448e74756d351a4012c4f371e0613c8b91a7380aea6b5729b6ef7f5b830",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7286,6 +7346,26 @@
     "source_sha256": "5bab7abab6a0f474417d8bfe12157b2cfaf39da64dc870bfa9366cc03cf9643d",
     "source_byte_ranges": [],
     "poster_sha256": "db22cc3a2512ca592e75f1fe29cc1023eb696cda0beae3e63c98021af54fccc2",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-project-timeline-vienna-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ProjectTimeline-ViennaDashboard.mp4",
+    "poster": "/previews/freelancer-project-timeline-vienna-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "8f2f099449c48398fadee70066369dbef632618c7a5d63cb024be930e3dbe4d1",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 270730,
+        "sha256": "8f2f099449c48398fadee70066369dbef632618c7a5d63cb024be930e3dbe4d1"
+      }
+    ],
+    "poster_sha256": "2131b1bd265a27b4fdee4c3907c1f255d05d38b4f5be35d2cb07309d83d11c27",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7854,6 +7934,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-rate-card-corporate-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/RateCard-CorporateDashboard.mp4",
+    "poster": "/previews/freelancer-rate-card-corporate-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "1ab7538ce8d40e31610e873f520b98f515a40d4d469dbf2c00badd3006cae7ad",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 233907,
+        "sha256": "1ab7538ce8d40e31610e873f520b98f515a40d4d469dbf2c00badd3006cae7ad"
+      }
+    ],
+    "poster_sha256": "ffc560d45571a8cc56f5714f2307222f0d65371cd7e2b8bfb41e713257529e5e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-rate-card-finance-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/RateCard-FinanceDashboard.mp4",
     "poster": "/previews/freelancer-rate-card-finance-dashboard.webp",
@@ -8187,6 +8287,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-results-showcase-corporate-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ResultsShowcase-CorporateDashboard.mp4",
+    "poster": "/previews/freelancer-results-showcase-corporate-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "558a92f70419b121156ddefceea3942cd0cc1abf7019d95a5c4a845a3b9d637b",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 212878,
+        "sha256": "558a92f70419b121156ddefceea3942cd0cc1abf7019d95a5c4a845a3b9d637b"
+      }
+    ],
+    "poster_sha256": "ed516fb6628105df9e91bf697db7df80401f21e15255f88a9c6f5f630f66b4d0",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-results-showcase-midnight-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ResultsShowcase-MidnightDashboard.mp4",
     "poster": "/previews/freelancer-results-showcase-midnight-dashboard.webp",
@@ -8283,6 +8403,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-scope-change-vienna-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ScopeChange-ViennaDashboard.mp4",
+    "poster": "/previews/freelancer-scope-change-vienna-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "e7257df8309bd340eeaf91b9bb247cc4fdf39379d140850bff8b711efe93f88f",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 311866,
+        "sha256": "e7257df8309bd340eeaf91b9bb247cc4fdf39379d140850bff8b711efe93f88f"
+      }
+    ],
+    "poster_sha256": "b9b5bdca4ea890358aad55ac89b0d87d20ff7a2270e955e23fd29d58b476289e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-service-overview-alpine-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ServiceOverview-AlpineDashboard.mp4",
     "poster": "/previews/freelancer-service-overview-alpine-dashboard.webp",
@@ -8347,6 +8487,26 @@
     "source_sha256": "39d9f1c2154ade6a736bea5f76ca30b483ecac8d35a508ec928578f8404051be",
     "source_byte_ranges": [],
     "poster_sha256": "4d350b1c2ebff77e0a2b6298b2f49652975443112e922829b97c68bf88846ef5",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-service-overview-vienna-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ServiceOverview-ViennaDashboard.mp4",
+    "poster": "/previews/freelancer-service-overview-vienna-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "bc50ecf717a86c91ead4c0eae17bed2e7f1e63eeb1cd4e136a833b302758eae4",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 298673,
+        "sha256": "bc50ecf717a86c91ead4c0eae17bed2e7f1e63eeb1cd4e136a833b302758eae4"
+      }
+    ],
+    "poster_sha256": "633f3e47d1bbfb939d944f75fcf5409956c4b982efe542ce879904919eeb12db",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -8675,6 +8835,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-social-proof-neon-announcement",
+    "source_url": "https://freelancer-templates.org/previews/hero/SocialProof-NeonAnnouncement.mp4",
+    "poster": "/previews/freelancer-social-proof-neon-announcement.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 3.051,
+    "source_width": 640,
+    "source_height": 360,
+    "source_sha256": "2e2e449dd730272eaabb185b3b362fb4af411c9cd34c3cd46e8ae5929ecc1f25",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 211859,
+        "sha256": "2e2e449dd730272eaabb185b3b362fb4af411c9cd34c3cd46e8ae5929ecc1f25"
+      }
+    ],
+    "poster_sha256": "acd65168f04e811399d5ea440bbe7e2e72775f64f848ef5955ca3134a95f1971",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-sound-wave-arctic",
     "source_url": "https://freelancer-templates.org/previews/hero/SoundWave-Arctic.mp4",
     "poster": "/previews/freelancer-sound-wave-arctic.webp",
@@ -8816,6 +8996,26 @@
     "source_sha256": "46200ed6b6fbaafbe754e73159f69706b9066ffffedf4efb9f84f48c2aaaef7b",
     "source_byte_ranges": [],
     "poster_sha256": "2670a957b6f9e2e2ace722587c90274dc97955c44f044cce7a9396f39e7f3ad2",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-sprint-recap-team-contributions-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/SprintRecap-TeamContributionsDark.mp4",
+    "poster": "/previews/freelancer-sprint-recap-team-contributions-dark.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "ef119e57d722cffdc60c82bce8b2e5f570a64d4cb2285d4f0cd08dc275896154",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 204438,
+        "sha256": "ef119e57d722cffdc60c82bce8b2e5f570a64d4cb2285d4f0cd08dc275896154"
+      }
+    ],
+    "poster_sha256": "ebe2184182b5ed0ffde8239950b26c820ac348b31800bc991efcb38a136ec942",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -9332,6 +9532,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-tip-of-the-day-dark-card",
+    "source_url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-DarkCard.mp4",
+    "poster": "/previews/freelancer-tip-of-the-day-dark-card.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1080,
+    "source_sha256": "5ecaef3c5f0354fd9f32961035bdb51e928c4ff2cc99862e875bc4eb8fecd24d",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 224898,
+        "sha256": "5ecaef3c5f0354fd9f32961035bdb51e928c4ff2cc99862e875bc4eb8fecd24d"
+      }
+    ],
+    "poster_sha256": "0898784de8a274c33bb218cdfb6c2a5e0449dff2a2ca3fcdb313e3aaad8fb5a1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-tip-of-the-day-mint-minimal",
     "source_url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-MintMinimal.mp4",
     "poster": "/previews/freelancer-tip-of-the-day-mint-minimal.webp",
@@ -9390,6 +9610,26 @@
     "source_sha256": "bb11522db57baee118bf39996b3da28551dd45cefb937c5b210b7a9429f6661a",
     "source_byte_ranges": [],
     "poster_sha256": "b951ebcf35bda310ae4e9719e5aeeadf20f474d0290c7c2db7d83507dc2d8046",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-travel-itinerary-highlights-warm",
+    "source_url": "https://freelancer-templates.org/previews/hero/TravelItinerary-HighlightsWarm.mp4",
+    "poster": "/previews/freelancer-travel-itinerary-highlights-warm.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "618dd0d7d5e1b5168ac92986ae5ecf2a9b840dbde1e33973af81dfcaa9b50961",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 165438,
+        "sha256": "618dd0d7d5e1b5168ac92986ae5ecf2a9b840dbde1e33973af81dfcaa9b50961"
+      }
+    ],
+    "poster_sha256": "88063b946d98ff8c1d03ef6f7b37167b7c5e62685e32e40c95d221d3ed069ba6",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
