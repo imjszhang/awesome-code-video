@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 748 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 760 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -736,6 +736,19 @@
 - [平台概览：堆叠深色](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/platformoverview/PlatformOverview.tsx#L27) - 用于平台概览堆叠的 Remotion 成片。复用 PlatformOverview.tsx 的 stack 版式与 Dark 主题，列出的主预览变体是 Stack Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [公告：深色竖幅](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L100) - 用于公告深色竖幅的 Remotion 成片。复用 Announcement.tsx 的 banner-vertical 版式与 Dark 主题，列出的主预览变体是 Dark Banner Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [作品集：深色画廊](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L108) - 用于作品集深色画廊的 Remotion 成片。复用 Portfolio.tsx 的 gallery 版式与 Dark 主题，列出的主预览变体是 Dark Gallery。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [行动号召：深色居中竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L105) - 用于行动号召深色居中竖版的 Remotion 成片。复用 CallToAction.tsx 的 centered-vertical 版式与 Dark 主题，列出的主预览变体是 Dark Centered Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [食谱步骤：干净配料清单](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recipestep/RecipeStep.tsx#L49) - 用于食谱配料清单的 Remotion 成片。复用 RecipeStep.tsx 的 ingredient-list 版式与 Clean 主题，列出的主预览变体是 Clean Ingredient List。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [图钉合集：地图列表干净风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pincollection/PinCollection.tsx#L23) - 用于图钉合集地图列表的 Remotion 成片。复用 PinCollection.tsx 的 map-list 版式与 Clean 主题，列出的主预览变体是 Map List Clean。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [投票测验：深色揭晓](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L71) - 用于投票测验深色揭晓的 Remotion 成片。复用 PollQuiz.tsx 的 reveal 版式与 Dark 主题，列出的主预览变体是 Dark Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [回顾：深色仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recap/Recap.tsx#L88) - 用于回顾深色仪表盘的 Remotion 成片。复用 Recap.tsx 的 dashboard 版式与 Dark 主题，列出的主预览变体是 Dark Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [定价：大胆聚光](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pricing/Pricing.tsx#L83) - 用于定价大胆聚光的 Remotion 成片。复用 Pricing.tsx 的 spotlight 版式与 Bold 主题，列出的主预览变体是 Bold Spotlight。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [入职引导：大胆创意](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx#L91) - 用于入职引导大胆创意的 Remotion 成片。复用 Onboarding.tsx 的 creative 版式与 Bold 主题，列出的主预览变体是 Bold Creative。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [每日贴士：深色竖卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L88) - 用于每日贴士深色竖卡的 Remotion 成片。复用 TipOfTheDay.tsx 的 card-vertical 版式与 Dark 主题，列出的主预览变体是 Dark Card Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [引用卡：深色居中竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L80) - 用于引用卡深色居中竖版的 Remotion 成片。复用 QuoteCard.tsx 的 centered-vertical 版式与 Dark 主题，列出的主预览变体是 Dark Centered Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [项目时间线：Corporate 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L48) - 用于项目时间线仪表盘的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Corporate 主题，列出的主预览变体是 Corporate Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Vienna 揭晓](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L279) - 用于列表文揭晓的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Vienna 主题，列出的主预览变体是 Vienna Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Vienna 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L277) - 用于客户证言居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 Vienna 主题，列出的主预览变体是 Vienna Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
