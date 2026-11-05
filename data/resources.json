@@ -24437,5 +24437,365 @@
       "poster": "/previews/freelancer-testimonial-blueprint-editorial.webp",
       "source": "S-CV-215 https://freelancer-templates.org/previews/hero/Testimonial-BlueprintEditorial.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=175030, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-testimonial-charcoal-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Charcoal Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L490",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and Charcoal theme; the listed hero variant is Charcoal Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-CharcoalEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-testimonial-charcoal-editorial.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Testimonial-CharcoalEditorial.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=151813, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-charcoal-split",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Charcoal Split",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L487",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the split layout and Charcoal theme; the listed hero variant is Charcoal Split. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-CharcoalSplit.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-testimonial-charcoal-split.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Testimonial-CharcoalSplit.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=270202, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-industrial-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Industrial Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L272",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and Industrial theme; the listed hero variant is Industrial Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-IndustrialEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-testimonial-industrial-editorial.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Testimonial-IndustrialEditorial.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=150917, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-swiss-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Swiss Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L364",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and Swiss theme; the listed hero variant is Swiss Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-SwissEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-testimonial-swiss-editorial.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Testimonial-SwissEditorial.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=149548, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-charcoal-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Charcoal Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L482",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout and Charcoal theme; the listed hero variant is Charcoal Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-CharcoalCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-listicle-charcoal-cards.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Listicle-CharcoalCards.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=282707, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-charcoal-reveal",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Charcoal Reveal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L485",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the reveal layout and Charcoal theme; the listed hero variant is Charcoal Reveal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-CharcoalReveal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-listicle-charcoal-reveal.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Listicle-CharcoalReveal.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=146911, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-industrial-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Industrial Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L265",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout and Industrial theme; the listed hero variant is Industrial Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-IndustrialCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-listicle-industrial-cards.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Listicle-IndustrialCards.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=287353, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-swiss-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Swiss Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L357",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout and Swiss theme; the listed hero variant is Swiss Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-SwissCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-listicle-swiss-cards.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Listicle-SwissCards.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=242571, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-blueprint-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Blueprint Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L412",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout and Blueprint theme; the listed hero variant is Blueprint Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-BlueprintCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-listicle-blueprint-cards.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/Listicle-BlueprintCards.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=320759, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-client-report-industrial-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Client Report Industrial Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L171",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-report composition. Reuse ClientReport.tsx with the dashboard layout and Industrial theme; the listed hero variant is Industrial Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientReport-IndustrialDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-client-report-industrial-dashboard.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/ClientReport-IndustrialDashboard.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=229979, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-client-welcome-finance-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Client Welcome Finance Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L48",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-welcome composition. Reuse ClientWelcome.tsx with the dashboard layout and Finance theme; the listed hero variant is Finance Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientWelcome-FinanceDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-client-welcome-finance-dashboard.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/ClientWelcome-FinanceDashboard.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=312825, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-rate-card-industrial-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Rate Card Industrial Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L47",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion rate-card composition. Reuse RateCard.tsx with the dashboard layout and Industrial theme; the listed hero variant is Industrial Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-216"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/RateCard-IndustrialDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-rate-card-industrial-dashboard.webp",
+      "source": "S-CV-216 https://freelancer-templates.org/previews/hero/RateCard-IndustrialDashboard.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=225002, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]

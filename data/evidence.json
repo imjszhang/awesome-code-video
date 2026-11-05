@@ -2594,5 +2594,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-05",
     "notes": "Batch BN on 2026-11-05 (Asia/Shanghai). create×12 = BM spare structure vertical×6 + Finance/Editorial DS×6 (CallToAction-CandyMinimalVertical, CallToAction-ElectricSplitVertical, QuoteCard-GrapeBoldVertical, StatCounter-PeachSingleVertical, TipOfTheDay-ElectricFullscreenVertical, TipOfTheDay-PeachMinimalVertical, ClientReport-FinanceDashboard, Listicle-FinanceCards, Listicle-FinanceReveal, Testimonial-FinanceEditorial, Testimonial-FinanceSplit, Testimonial-BlueprintEditorial). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip ae3da607 (809/801/730/65/6): 821/813/742/65/6."
+  },
+  {
+    "id": "S-CV-216",
+    "project_id": "freelancer-templates",
+    "title": "Batch BO preview media — FT×12 heroes (BN spare CharcoalEditorial×1 + new dig other_ds×11; 0 same-family color; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Testimonial-CharcoalEditorial.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-05",
+    "notes": "Batch BO on 2026-11-05 (Asia/Shanghai). create×12 = BN spare CharcoalEditorial×1 + new dig other_ds×11 (Testimonial-CharcoalEditorial, Testimonial-CharcoalSplit, Testimonial-IndustrialEditorial, Testimonial-SwissEditorial, Listicle-CharcoalCards, Listicle-CharcoalReveal, Listicle-IndustrialCards, Listicle-SwissCards, Listicle-BlueprintCards, ClientReport-IndustrialDashboard, ClientWelcome-FinanceDashboard, RateCard-IndustrialDashboard). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip b0e4ab32 (821/813/742/65/6): 833/825/754/65/6."
   }
 ]
