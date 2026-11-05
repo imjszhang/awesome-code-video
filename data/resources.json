@@ -24077,5 +24077,365 @@
       "poster": "/previews/freelancer-listicle-finance-stack.webp",
       "source": "S-CV-214 https://freelancer-templates.org/previews/hero/Listicle-FinanceStack.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=277583, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-call-to-action-candy-minimal-vertical",
+    "project_id": "freelancer-templates",
+    "name": "Call To Action Candy Minimal Vertical",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L113",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion call-to-action composition. Reuse CallToAction.tsx with the minimal-vertical layout and Candy theme; the listed hero variant is Candy Minimal Vertical. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CallToAction-CandyMinimalVertical.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-call-to-action-candy-minimal-vertical.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/CallToAction-CandyMinimalVertical.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=144347, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-call-to-action-electric-split-vertical",
+    "project_id": "freelancer-templates",
+    "name": "Call To Action Electric Split Vertical",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L121",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion call-to-action composition. Reuse CallToAction.tsx with the split-vertical layout and Electric theme; the listed hero variant is Electric Split Vertical. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CallToAction-ElectricSplitVertical.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-call-to-action-electric-split-vertical.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/CallToAction-ElectricSplitVertical.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=3114834, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-quote-card-grape-bold-vertical",
+    "project_id": "freelancer-templates",
+    "name": "Quote Card Grape Bold Vertical",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L88",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion quote-card composition. Reuse QuoteCard.tsx with the bold-vertical layout and Grape theme; the listed hero variant is Grape Bold Vertical. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/QuoteCard-GrapeBoldVertical.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-quote-card-grape-bold-vertical.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/QuoteCard-GrapeBoldVertical.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=169309, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-stat-counter-peach-single-vertical",
+    "project_id": "freelancer-templates",
+    "name": "Stat Counter Peach Single Vertical",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L119",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion stat-counter composition. Reuse StatCounter.tsx with the single-vertical layout and Peach theme; the listed hero variant is Peach Single Vertical. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/StatCounter-PeachSingleVertical.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-stat-counter-peach-single-vertical.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/StatCounter-PeachSingleVertical.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=232605, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-tip-of-the-day-electric-fullscreen-vertical",
+    "project_id": "freelancer-templates",
+    "name": "Tip Of The Day Electric Fullscreen Vertical",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L104",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion tip-of-the-day composition. Reuse TipOfTheDay.tsx with the fullscreen-vertical layout and Electric theme; the listed hero variant is Electric Fullscreen Vertical. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-ElectricFullscreenVertical.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-tip-of-the-day-electric-fullscreen-vertical.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/TipOfTheDay-ElectricFullscreenVertical.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=258841, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-tip-of-the-day-peach-minimal-vertical",
+    "project_id": "freelancer-templates",
+    "name": "Tip Of The Day Peach Minimal Vertical",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L100",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion tip-of-the-day composition. Reuse TipOfTheDay.tsx with the minimal-vertical layout and Peach theme; the listed hero variant is Peach Minimal Vertical. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-PeachMinimalVertical.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-tip-of-the-day-peach-minimal-vertical.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/TipOfTheDay-PeachMinimalVertical.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=172556, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-client-report-finance-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Client Report Finance Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L183",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-report composition. Reuse ClientReport.tsx with the dashboard layout and Finance theme; the listed hero variant is Finance Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientReport-FinanceDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-client-report-finance-dashboard.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/ClientReport-FinanceDashboard.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=247292, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-finance-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Finance Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L298",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout and Finance theme; the listed hero variant is Finance Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-FinanceCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-listicle-finance-cards.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/Listicle-FinanceCards.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=286203, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-finance-reveal",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Finance Reveal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L301",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the reveal layout and Finance theme; the listed hero variant is Finance Reveal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-FinanceReveal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-listicle-finance-reveal.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/Listicle-FinanceReveal.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=163416, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-finance-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Finance Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L305",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and Finance theme; the listed hero variant is Finance Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-FinanceEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-testimonial-finance-editorial.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/Testimonial-FinanceEditorial.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=151915, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-finance-split",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Finance Split",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L302",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the split layout and Finance theme; the listed hero variant is Finance Split. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-FinanceSplit.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-testimonial-finance-split.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/Testimonial-FinanceSplit.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=273359, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-blueprint-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Blueprint Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L419",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and Blueprint theme; the listed hero variant is Blueprint Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-215"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-05",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-BlueprintEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-05",
+      "poster": "/previews/freelancer-testimonial-blueprint-editorial.webp",
+      "source": "S-CV-215 https://freelancer-templates.org/previews/hero/Testimonial-BlueprintEditorial.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=175030, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
