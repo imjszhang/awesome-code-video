@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 784 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 796 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -775,6 +775,19 @@
 - [成果展示：Finance 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/resultsshowcase/ResultsShowcase.tsx#L48) - 用于成果展示仪表盘的 Remotion 成片。复用 ResultsShowcase.tsx 的 dashboard 版式与 Finance 主题，列出的主预览变体是 Finance Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [客户证言：Finance 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L299) - 用于客户证言居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 Finance 主题，列出的主预览变体是 Finance Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [列表文：Finance 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L295) - 用于列表文堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Finance 主题，列出的主预览变体是 Finance Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [行动号召：Candy 极简竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L113) - 用于行动号召 Candy 极简竖版的 Remotion 成片。复用 CallToAction.tsx 的 minimal-vertical 版式与 Candy 主题，列出的主预览变体是 Candy Minimal Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [行动号召：Electric 分栏竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L121) - 用于行动号召 Electric 分栏竖版的 Remotion 成片。复用 CallToAction.tsx 的 split-vertical 版式与 Electric 主题，列出的主预览变体是 Electric Split Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [引用卡：Grape 加粗竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L88) - 用于引用卡 Grape 加粗竖版的 Remotion 成片。复用 QuoteCard.tsx 的 bold-vertical 版式与 Grape 主题，列出的主预览变体是 Grape Bold Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [数据计数：Peach 单数竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L119) - 用于数据计数 Peach 单数竖版的 Remotion 成片。复用 StatCounter.tsx 的 single-vertical 版式与 Peach 主题，列出的主预览变体是 Peach Single Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [每日贴士：Electric 全屏竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L104) - 用于每日贴士 Electric 全屏竖版的 Remotion 成片。复用 TipOfTheDay.tsx 的 fullscreen-vertical 版式与 Electric 主题，列出的主预览变体是 Electric Fullscreen Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [每日贴士：Peach 极简竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L100) - 用于每日贴士 Peach 极简竖版的 Remotion 成片。复用 TipOfTheDay.tsx 的 minimal-vertical 版式与 Peach 主题，列出的主预览变体是 Peach Minimal Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户报告：Finance 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L183) - 用于客户报告仪表盘的 Remotion 成片。复用 ClientReport.tsx 的 dashboard 版式与 Finance 主题，列出的主预览变体是 Finance Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Finance 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L298) - 用于列表文卡片的 Remotion 成片。复用 Listicle.tsx 的 cards 版式与 Finance 主题，列出的主预览变体是 Finance Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Finance 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L301) - 用于列表文揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Finance 主题，列出的主预览变体是 Finance Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Finance 编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L305) - 用于客户证言编辑风的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 Finance 主题，列出的主预览变体是 Finance Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Finance 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L302) - 用于客户证言分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Finance 主题，列出的主预览变体是 Finance Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Blueprint 编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L419) - 用于客户证言 Blueprint 编辑风的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 Blueprint 主题，列出的主预览变体是 Blueprint Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 

@@ -2583,5 +2583,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-05",
     "notes": "Batch BM on 2026-11-05 (Asia/Shanghai). create×12 = BL spare structure vertical×5 + StatCounter CandyProgressVertical×1 + Finance DS×6 (Announcement-PeachMinimalVertical, CallToAction-NeonSplitVertical, CallToAction-PeachCenteredVertical, QuoteCard-CharcoalMinimalVertical, TipOfTheDay-CandyCardVertical, StatCounter-CandyProgressVertical, MeetingRecap-FinanceDashboard, ServiceOverview-FinanceDashboard, ScopeChange-FinanceDashboard, ResultsShowcase-FinanceDashboard, Testimonial-FinanceCentered, Listicle-FinanceStack). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip fdd49810 (797/789/718/65/6): 809/801/730/65/6."
+  },
+  {
+    "id": "S-CV-215",
+    "project_id": "freelancer-templates",
+    "title": "Batch BN preview media — FT×12 heroes (BM spare structure vertical×6 + Finance/Editorial DS×6; 0 same-family color; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/CallToAction-CandyMinimalVertical.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-05",
+    "notes": "Batch BN on 2026-11-05 (Asia/Shanghai). create×12 = BM spare structure vertical×6 + Finance/Editorial DS×6 (CallToAction-CandyMinimalVertical, CallToAction-ElectricSplitVertical, QuoteCard-GrapeBoldVertical, StatCounter-PeachSingleVertical, TipOfTheDay-ElectricFullscreenVertical, TipOfTheDay-PeachMinimalVertical, ClientReport-FinanceDashboard, Listicle-FinanceCards, Listicle-FinanceReveal, Testimonial-FinanceEditorial, Testimonial-FinanceSplit, Testimonial-BlueprintEditorial). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip ae3da607 (809/801/730/65/6): 821/813/742/65/6."
   }
 ]
