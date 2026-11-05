@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 760 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 772 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -749,6 +749,19 @@
 - [项目时间线：Corporate 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L48) - 用于项目时间线仪表盘的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Corporate 主题，列出的主预览变体是 Corporate Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [列表文：Vienna 揭晓](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L279) - 用于列表文揭晓的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Vienna 主题，列出的主预览变体是 Vienna Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [客户证言：Vienna 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L277) - 用于客户证言居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 Vienna 主题，列出的主预览变体是 Vienna Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [客户证言：Corporate 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L255) - 用于客户证言居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 Corporate 主题，列出的主预览变体是 Corporate Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Corporate 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L258) - 用于客户证言分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Corporate 主题，列出的主预览变体是 Corporate Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Vienna 编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L283) - 用于客户证言编辑风的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 Vienna 主题，列出的主预览变体是 Vienna Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Corporate 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L251) - 用于列表文堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Corporate 主题，列出的主预览变体是 Corporate Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [项目时间线：Finance 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L52) - 用于项目时间线仪表盘的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Finance 主题，列出的主预览变体是 Finance Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [公告：霓虹竖卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L104) - 用于公告霓虹竖卡的 Remotion 成片。复用 Announcement.tsx 的 card-vertical 版式与 Neon 主题，列出的主预览变体是 Neon Card Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [公告：糖果竖幅](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L108) - 用于公告糖果竖幅的 Remotion 成片。复用 Announcement.tsx 的 banner-vertical 版式与 Candy 主题，列出的主预览变体是 Candy Banner Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [公告：电光竖幅](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L116) - 用于公告电光竖幅的 Remotion 成片。复用 Announcement.tsx 的 banner-vertical 版式与 Electric 主题，列出的主预览变体是 Electric Banner Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [数据计数：深色单指标竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L107) - 用于数据计数深色单指标竖版的 Remotion 成片。复用 StatCounter.tsx 的 single-vertical 版式与 Dark 主题，列出的主预览变体是 Dark Single Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [数据计数：霓虹网格竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L111) - 用于数据计数霓虹网格竖版的 Remotion 成片。复用 StatCounter.tsx 的 grid-vertical 版式与 Neon 主题，列出的主预览变体是 Neon Grid Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [数据计数：电光网格竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L123) - 用于数据计数电光网格竖版的 Remotion 成片。复用 StatCounter.tsx 的 grid-vertical 版式与 Electric 主题，列出的主预览变体是 Electric Grid Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [每日贴士：霓虹全屏竖版](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L92) - 用于每日贴士霓虹全屏竖版的 Remotion 成片。复用 TipOfTheDay.tsx 的 fullscreen-vertical 版式与 Neon 主题，列出的主预览变体是 Neon Fullscreen Vertical。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
