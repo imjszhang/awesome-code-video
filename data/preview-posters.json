@@ -1716,6 +1716,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-announcement-peach-minimal-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/Announcement-PeachMinimalVertical.mp4",
+    "poster": "/previews/freelancer-announcement-peach-minimal-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "9bc7294eb809511affe1f139bf101c7448477ed09841f5c5d9452d64008d0d3f",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 134546,
+        "sha256": "9bc7294eb809511affe1f139bf101c7448477ed09841f5c5d9452d64008d0d3f"
+      }
+    ],
+    "poster_sha256": "338f0376f1778ba03499ece2007bf87f3a74eccfa4f2b37db84f8f1e41d86c0f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-before-after-arctic-reveal-wipe",
     "source_url": "https://freelancer-templates.org/previews/hero/BeforeAfter-ArcticRevealWipe.mp4",
     "poster": "/previews/freelancer-before-after-arctic-reveal-wipe.webp",
@@ -2735,6 +2755,46 @@
       }
     ],
     "poster_sha256": "9c42472c7684a12cc57eddd6343619cd496c0aa26f31a53565796f0670b50862",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-call-to-action-neon-split-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-NeonSplitVertical.mp4",
+    "poster": "/previews/freelancer-call-to-action-neon-split-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "a64022d48498a0a5618ecb87bb57e6011aea63b5718fae7d3b32c1b278a108b0",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 1746923,
+        "sha256": "a64022d48498a0a5618ecb87bb57e6011aea63b5718fae7d3b32c1b278a108b0"
+      }
+    ],
+    "poster_sha256": "d1da5ba43ed722ac83cf310727f86f35dea2751fc1d194e9a8857195fccb82c7",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-call-to-action-peach-centered-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/CallToAction-PeachCenteredVertical.mp4",
+    "poster": "/previews/freelancer-call-to-action-peach-centered-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "c393b2685f0d5e720a5d072893de6e9e5915f0604b9f7c72286a6e76dd69c192",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 147426,
+        "sha256": "c393b2685f0d5e720a5d072893de6e9e5915f0604b9f7c72286a6e76dd69c192"
+      }
+    ],
+    "poster_sha256": "621feda30309df6a627f7bf55530d2ae0023813aa3117ff23bcb114df374a12d",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -5909,6 +5969,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listicle-finance-stack",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-FinanceStack.mp4",
+    "poster": "/previews/freelancer-listicle-finance-stack.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "ed9b84ef79bb7b39061e195af4b46691d2e4ce0a81ed123577da96ede7ebaad3",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 277582,
+        "sha256": "ed9b84ef79bb7b39061e195af4b46691d2e4ce0a81ed123577da96ede7ebaad3"
+      }
+    ],
+    "poster_sha256": "eb68ba3e8f94215188d3891a8e274c32bd622832ef4c96f2b80c74d849e2bcc4",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-listicle-vienna-cards",
     "source_url": "https://freelancer-templates.org/previews/hero/Listicle-ViennaCards.mp4",
     "poster": "/previews/freelancer-listicle-vienna-cards.webp",
@@ -6363,6 +6443,26 @@
       }
     ],
     "poster_sha256": "b140e2da3360fd7f5bd71096a5ab768215e04aed16ae68993b20538f34c30759",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-meeting-recap-finance-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/MeetingRecap-FinanceDashboard.mp4",
+    "poster": "/previews/freelancer-meeting-recap-finance-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "f1c6147b9cf1683d0129018bf81f41bce97a46ce6746c66b3add50928aeea95b",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 283139,
+        "sha256": "f1c6147b9cf1683d0129018bf81f41bce97a46ce6746c66b3add50928aeea95b"
+      }
+    ],
+    "poster_sha256": "f0438c62aef93a505158741bc98542cd0c1b2924bba8fbbec929ad383d3722f7",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -8092,6 +8192,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-quote-card-charcoal-minimal-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/QuoteCard-CharcoalMinimalVertical.mp4",
+    "poster": "/previews/freelancer-quote-card-charcoal-minimal-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "e90583df2e59f68b3487a4754009832c8f500bb86badacb17891b24891310180",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 135900,
+        "sha256": "e90583df2e59f68b3487a4754009832c8f500bb86badacb17891b24891310180"
+      }
+    ],
+    "poster_sha256": "6c29681f8ed77b47871d299d22acc8566a690c6a42a3bf9956a5e1071e16155c",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-quote-card-cream-minimal",
     "source_url": "https://freelancer-templates.org/previews/hero/QuoteCard-CreamMinimal.mp4",
     "poster": "/previews/freelancer-quote-card-cream-minimal.webp",
@@ -8607,6 +8727,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-results-showcase-finance-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ResultsShowcase-FinanceDashboard.mp4",
+    "poster": "/previews/freelancer-results-showcase-finance-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "52d810c98436a7a5c0d69605d47cc13e81550f68aacd5939ed6f157f415a5c6e",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 239613,
+        "sha256": "52d810c98436a7a5c0d69605d47cc13e81550f68aacd5939ed6f157f415a5c6e"
+      }
+    ],
+    "poster_sha256": "a60428894e02b8cd7e3e9c33a409328090e241102e7697cd89d71fa855803599",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-results-showcase-midnight-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ResultsShowcase-MidnightDashboard.mp4",
     "poster": "/previews/freelancer-results-showcase-midnight-dashboard.webp",
@@ -8703,6 +8843,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-scope-change-finance-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ScopeChange-FinanceDashboard.mp4",
+    "poster": "/previews/freelancer-scope-change-finance-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "8a9058c95550754d0a613b0f46292460b87ccf38657641cfc6faacb6311d4818",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 344668,
+        "sha256": "8a9058c95550754d0a613b0f46292460b87ccf38657641cfc6faacb6311d4818"
+      }
+    ],
+    "poster_sha256": "d273877f5b3f9d3d95e0b23d27e7d5b10a23ee31ab852879370bd7c1d8e1ea9b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-scope-change-vienna-dashboard",
     "source_url": "https://freelancer-templates.org/previews/hero/ScopeChange-ViennaDashboard.mp4",
     "poster": "/previews/freelancer-scope-change-vienna-dashboard.webp",
@@ -8787,6 +8947,26 @@
     "source_sha256": "39d9f1c2154ade6a736bea5f76ca30b483ecac8d35a508ec928578f8404051be",
     "source_byte_ranges": [],
     "poster_sha256": "4d350b1c2ebff77e0a2b6298b2f49652975443112e922829b97c68bf88846ef5",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-service-overview-finance-dashboard",
+    "source_url": "https://freelancer-templates.org/previews/hero/ServiceOverview-FinanceDashboard.mp4",
+    "poster": "/previews/freelancer-service-overview-finance-dashboard.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "8a6a2181cee7680e9c4a9ed48bd434cf1fcfb40b29586b46527f83aeda0fcc80",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 319172,
+        "sha256": "8a6a2181cee7680e9c4a9ed48bd434cf1fcfb40b29586b46527f83aeda0fcc80"
+      }
+    ],
+    "poster_sha256": "e088df72b89865c75826dfa4f12e6d18d805dc468a4c2eab19a5a71c2b5153ce",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -9320,6 +9500,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-stat-counter-candy-progress-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/StatCounter-CandyProgressVertical.mp4",
+    "poster": "/previews/freelancer-stat-counter-candy-progress-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "615d626019ba02485bd2e60199032c1ed2f4962f4a51fc9008efb626df9b9b0a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 164115,
+        "sha256": "615d626019ba02485bd2e60199032c1ed2f4962f4a51fc9008efb626df9b9b0a"
+      }
+    ],
+    "poster_sha256": "1f3ec6882aa6956294f84618fff5226fba84323d36be099eebf6bec1831c053d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-stat-counter-charcoal-grid",
     "source_url": "https://freelancer-templates.org/previews/hero/StatCounter-CharcoalGrid.mp4",
     "poster": "/previews/freelancer-stat-counter-charcoal-grid.webp",
@@ -9800,6 +10000,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-testimonial-finance-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-FinanceCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-finance-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "831b43603f38b505b1b35ca12632410fd25b06ea65c45fdc62b2aca5b132761c",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 184815,
+        "sha256": "831b43603f38b505b1b35ca12632410fd25b06ea65c45fdc62b2aca5b132761c"
+      }
+    ],
+    "poster_sha256": "74a198c3e5079007eadc0cbaf87fa19373ea283df0ee0ee87646fc47c2856f30",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-testimonial-neon-split",
     "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-NeonSplit.mp4",
     "poster": "/previews/freelancer-testimonial-neon-split.webp",
@@ -9943,6 +10163,26 @@
     "source_sha256": "413599f0710a7e05c01e31c96d8edcfc89422b1821113abf1ee7316b2cff7a8c",
     "source_byte_ranges": [],
     "poster_sha256": "d48586f7afaf9de5da1dd2ffd9290595598645894e1c14fdad9320b48292735f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-tip-of-the-day-candy-card-vertical",
+    "source_url": "https://freelancer-templates.org/previews/hero/TipOfTheDay-CandyCardVertical.mp4",
+    "poster": "/previews/freelancer-tip-of-the-day-candy-card-vertical.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "5491bbd3b311fe2f077a8760b62feb1117651a00b72bd79484a23df67f9f4fdf",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 229146,
+        "sha256": "5491bbd3b311fe2f077a8760b62feb1117651a00b72bd79484a23df67f9f4fdf"
+      }
+    ],
+    "poster_sha256": "a1ecc2c6abc471509bbbe8d814288a1d0041c08f62f0adcf295ee902b0899f6d",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
