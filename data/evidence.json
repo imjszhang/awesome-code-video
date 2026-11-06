@@ -2605,5 +2605,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-05",
     "notes": "Batch BO on 2026-11-05 (Asia/Shanghai). create×12 = BN spare CharcoalEditorial×1 + new dig other_ds×11 (Testimonial-CharcoalEditorial, Testimonial-CharcoalSplit, Testimonial-IndustrialEditorial, Testimonial-SwissEditorial, Listicle-CharcoalCards, Listicle-CharcoalReveal, Listicle-IndustrialCards, Listicle-SwissCards, Listicle-BlueprintCards, ClientReport-IndustrialDashboard, ClientWelcome-FinanceDashboard, RateCard-IndustrialDashboard). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip b0e4ab32 (821/813/742/65/6): 833/825/754/65/6."
+  },
+  {
+    "id": "S-CV-217",
+    "project_id": "freelancer-templates",
+    "title": "Batch BP preview media — FT×12 heroes (IndustrialDashboard×6 + Quote/Testimonial/Listicle non-color×6; 0 same-family color; 0 RT/SC/HV/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/MeetingRecap-IndustrialDashboard.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-05",
+    "notes": "Batch BP on 2026-11-05 (Asia/Shanghai). create×12 = IndustrialDashboard×6 + QuoteCard×2 + Testimonial×2 + Listicle×2 (MeetingRecap-IndustrialDashboard, ProjectTimeline-IndustrialDashboard, ResultsShowcase-IndustrialDashboard, ServiceOverview-IndustrialDashboard, ScopeChange-IndustrialDashboard, ClientWelcome-IndustrialDashboard, QuoteCard-SwissCentered, QuoteCard-PaperMinimal, Testimonial-MonoEditorial, Testimonial-BlueprintSplit, Listicle-BlueprintStack, Listicle-MonoReveal). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 1c2e97a4 (833/825/754/65/6): 845/837/766/65/6."
   }
 ]
