@@ -25157,5 +25157,455 @@
       "poster": "/previews/freelancer-listicle-mono-reveal.webp",
       "source": "S-CV-217 https://freelancer-templates.org/previews/hero/Listicle-MonoReveal.mp4. HEAD on 2026-11-05: HTTP 200 video/mp4 Content-Length=145174, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (memphis diorama; Four Seasons in Pomelo Town). Demo film CC BY 4.0 via web release; credit LemoLab. styles/memphis-diorama/STYLE.md; not render-tested.",
+    "name": "Memphis Diorama",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/memphis-diorama/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-memphis-diorama",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/memphis-diorama.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/memphis-diorama.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-memphis-diorama.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (transit map; 6 Kilometres). Demo film CC BY 4.0 via web release; credit LemoLab. styles/transit-map/STYLE.md; not render-tested.",
+    "name": "Transit Map",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/transit-map/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-transit-map",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/transit-map.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/transit-map.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-transit-map.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (isometric picture book; Seventy-Two Seats). Demo film CC BY 4.0 via web release; credit LemoLab. styles/isometric-picture-book/STYLE.md; not render-tested.",
+    "name": "Isometric Picture Book",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/isometric-picture-book/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-isometric-picture-book",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/isometric-picture-book.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/isometric-picture-book.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-isometric-picture-book.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (printed long take; Thirty-Three Cranes). Demo film CC BY 4.0 via web release; credit LemoLab. styles/printed-long-take/STYLE.md; not render-tested.",
+    "name": "Printed Long Take",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/printed-long-take/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-printed-long-take",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/printed-long-take.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/printed-long-take.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-printed-long-take.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (desktop flythrough; Before the Ding). Demo film CC BY 4.0 via web release; credit LemoLab. styles/desktop-flythrough/STYLE.md; not render-tested.",
+    "name": "Desktop Flythrough",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/desktop-flythrough/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-desktop-flythrough",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/desktop-flythrough.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/desktop-flythrough.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-desktop-flythrough.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (live countdown split-screen; Counting Itself Down). Demo film CC BY 4.0 via web release; credit LemoLab. styles/countdown/STYLE.md; not render-tested.",
+    "name": "Live Countdown Split-screen",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/countdown/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-countdown",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/countdown.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/countdown.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-countdown.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (time-lapse symphony; One Day in New York). Demo film CC BY 4.0 via web release; credit LemoLab. styles/city-symphony/STYLE.md; not render-tested.",
+    "name": "Time-lapse Symphony",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/city-symphony/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-city-symphony",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/city-symphony.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/city-symphony.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-city-symphony.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (visual investigation; The Hindenburg: Four Minutes, 32 Seconds). Demo film CC BY 4.0 via web release; credit LemoLab. styles/visual-investigation/STYLE.md; not render-tested.",
+    "name": "Visual Investigation",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/visual-investigation/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-visual-investigation",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/visual-investigation.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/visual-investigation.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-visual-investigation.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (constructivist montage; 410 Days). Demo film CC BY 4.0 via web release; credit LemoLab. styles/kino-montage/STYLE.md; not render-tested.",
+    "name": "Constructivist Montage",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/kino-montage/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-kino-montage",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/kino-montage.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/kino-montage.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-kino-montage.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (sports telestrator; Freeze Frame). Demo film CC BY 4.0 via web release; credit LemoLab. styles/telestrator/STYLE.md; not render-tested.",
+    "name": "Sports Telestrator",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/telestrator/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-telestrator",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/telestrator.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/telestrator.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-telestrator.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (satellite briefing; The Map Still Says Sea). Demo film CC BY 4.0 via web release; credit LemoLab. styles/satellite-briefing/STYLE.md; not render-tested.",
+    "name": "Satellite Briefing",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/satellite-briefing/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-satellite-briefing",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/satellite-briefing.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/satellite-briefing.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-satellite-briefing.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (LiDAR survey; The Fields Under the Forest). Demo film CC BY 4.0 via web release; credit LemoLab. styles/lidar-survey/STYLE.md; not render-tested.",
+    "name": "LiDAR Survey",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/lidar-survey/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-lidar-survey",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/lidar-survey.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/lidar-survey.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-lidar-survey.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (projection on white model; How a Flattened City Grew Back). Demo film CC BY 4.0 via web release; credit LemoLab. styles/white-model/STYLE.md; not render-tested.",
+    "name": "Projection on White Model",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/white-model/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-white-model",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/white-model.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/white-model.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-white-model.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (data physicalization; Two Spirals). Demo film CC BY 4.0 via web release; credit LemoLab. styles/data-physical/STYLE.md; not render-tested.",
+    "name": "Data Physicalization",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/data-physical/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-data-physical",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/data-physical.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/data-physical.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-data-physical.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
+  },
+  {
+    "kind": "style",
+    "description": "Lemo-Opuscar visual style (microscope story; Measured Blue). Demo film CC BY 4.0 via web release; credit LemoLab. styles/microscope/STYLE.md; not render-tested.",
+    "name": "Microscope Story",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/microscope/STYLE.md",
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "project_id": "lemo-opuscar",
+    "evidence_ids": [
+      "S-CV-218",
+      "S-CV-066",
+      "S-CV-054"
+    ],
+    "id": "lemo-opuscar-microscope",
+    "section": "Visual Style Templates",
+    "preview": {
+      "source": "S-CV-218 https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/microscope.mp4",
+      "kind": "video",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/microscope.mp4",
+      "checked_at": "2026-11-06",
+      "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+      "license": "CC BY 4.0",
+      "redistributable": true,
+      "poster": "/previews/lemo-opuscar-microscope.webp"
+    },
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    }
   }
 ]

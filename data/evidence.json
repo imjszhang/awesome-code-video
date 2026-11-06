@@ -2616,5 +2616,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-05",
     "notes": "Batch BP on 2026-11-05 (Asia/Shanghai). create×12 = IndustrialDashboard×6 + QuoteCard×2 + Testimonial×2 + Listicle×2 (MeetingRecap-IndustrialDashboard, ProjectTimeline-IndustrialDashboard, ResultsShowcase-IndustrialDashboard, ServiceOverview-IndustrialDashboard, ScopeChange-IndustrialDashboard, ClientWelcome-IndustrialDashboard, QuoteCard-SwissCentered, QuoteCard-PaperMinimal, Testimonial-MonoEditorial, Testimonial-BlueprintSplit, Listicle-BlueprintStack, Listicle-MonoReveal). 0 same-family color; 0 RT/SC/HV/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 1c2e97a4 (833/825/754/65/6): 845/837/766/65/6."
+  },
+  {
+    "id": "S-CV-218",
+    "project_id": "lemo-opuscar",
+    "title": "lemo-opuscar gap create×15 — STYLE.md + web mp4 probes (post-BP tip bc80b7ad)",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/releases/tag/web",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Source review of 15 STYLE.md folders plus HEAD/ftyp probes on Releases web/*.mp4 (15/15 PASS, 2026-11-06 Asia/Shanghai). render_tested=false; media linked not copied. Cross-ref S-CV-066 and S-CV-054. Claim delta +15 video → 860/852/781/65/6."
   }
 ]
