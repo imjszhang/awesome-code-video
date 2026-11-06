@@ -2638,5 +2638,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Batch BQ on 2026-11-06 (Asia/Shanghai). create×12 = Cream dig×4 (Announcement/TipOfTheDay/StatCounter/CallToAction) + BP spare Testimonial×4 + Listicle×4 (Announcement-CreamCard, TipOfTheDay-CreamCard, StatCounter-CreamProgress, CallToAction-CreamSplit, Testimonial-CharcoalCentered, Testimonial-IndustrialSplit, Testimonial-BlueprintCentered, Testimonial-PaperEditorial, Listicle-CharcoalStack, Listicle-MonoCards, Listicle-SwissReveal, Listicle-PaperCards). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip eb1b0a79 (860/852/781/65/6): 872/864/793/65/6."
+  },
+  {
+    "id": "S-CV-220",
+    "project_id": "freelancer-templates",
+    "title": "Batch BR preview media — FT×12 heroes (BQ spare Testimonial×6 + Listicle×6 non-color; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Testimonial-IndustrialCentered.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Batch BR on 2026-11-06 (Asia/Shanghai). create×12 = BQ spare Testimonial×6 + Listicle×6 (Testimonial-IndustrialCentered, Testimonial-SwissCentered, Testimonial-SwissSplit, Testimonial-MonoCentered, Testimonial-MonoSplit, Testimonial-PaperCentered, Listicle-IndustrialReveal, Listicle-BlueprintReveal, Listicle-IndustrialStack, Listicle-SwissStack, Listicle-MonoStack, Listicle-PaperStack). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 3e968b8d (872/864/793/65/6): 884/876/805/65/6."
   }
 ]
