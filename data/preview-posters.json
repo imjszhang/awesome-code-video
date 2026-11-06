@@ -16604,6 +16604,66 @@
     "attribution": "gnipbao / story-to-handdrawn-video (https://github.com/gnipbao/story-to-handdrawn-video); BGM “Carefree” — Kevin MacLeod (incompetech.com), Licensed under Creative Commons: By Attribution 4.0 License https://creativecommons.org/licenses/by/4.0/"
   },
   {
+    "resource_id": "video-shotcraft-beat-cut-moves",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/paparazzi-flash.mp4",
+    "poster": "/previews/video-shotcraft-beat-cut-moves.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 4.395,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "62e2b8a90418a454610d58d9e1fde78106d0723c512293ea4960d2af17e005ee",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 478871,
+        "sha256": "62e2b8a90418a454610d58d9e1fde78106d0723c512293ea4960d2af17e005ee"
+      }
+    ],
+    "poster_sha256": "0103a29b8d1aeeaafba21e9b72f28e77eba36b69638b78b73fe60de65b1512c5",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-card-flock-tumble",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/card-flock-tumble.mp4",
+    "poster": "/previews/video-shotcraft-card-flock-tumble.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 4.395,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "a358216b4ad5b7c65816975931c70996199305afdb79f899a6e2b1eb9b01389b",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 2898665,
+        "sha256": "a358216b4ad5b7c65816975931c70996199305afdb79f899a6e2b1eb9b01389b"
+      }
+    ],
+    "poster_sha256": "b0ffe3f53b9667bb056ccb7d00fe533f25fbcb6fcd24c479590c6d783f112086",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-card-stack",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/card-stack.mp4",
+    "poster": "/previews/video-shotcraft-card-stack.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 4.7,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "5e9781b31afd5e219b3401d253ab791912974741bf85db4518a4908ff21dd16d",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 518428,
+        "sha256": "5e9781b31afd5e219b3401d253ab791912974741bf85db4518a4908ff21dd16d"
+      }
+    ],
+    "poster_sha256": "fd078c232134fc5f1f18ffb1f27e82cfc82d40284c6e8b293722c09213d36d23",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
     "resource_id": "video-shotcraft-carousel-3d",
     "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/carousel-3d.mp4",
     "poster": "/previews/video-shotcraft-carousel-3d.webp",
@@ -16653,6 +16713,26 @@
     "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
   },
   {
+    "resource_id": "video-shotcraft-cursor-flyover",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/cursor-flyover.mp4",
+    "poster": "/previews/video-shotcraft-cursor-flyover.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 6.5,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "1b99520ae1b495ad31d63e73fb33e5b34287fff6ad046624cacd37a6ceb2eebc",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 699018,
+        "sha256": "1b99520ae1b495ad31d63e73fb33e5b34287fff6ad046624cacd37a6ceb2eebc"
+      }
+    ],
+    "poster_sha256": "0a7509cd70a2625fa0f18fc9afc20a7cc14551d166b39665a84a13f5eaafa154",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
     "resource_id": "video-shotcraft-deck-deal-fly-in",
     "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/deck-deal-flyin.mp4",
     "poster": "/previews/video-shotcraft-deck-deal-fly-in.webp",
@@ -16692,6 +16772,86 @@
     "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
   },
   {
+    "resource_id": "video-shotcraft-flying-words",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/flying-words.mp4",
+    "poster": "/previews/video-shotcraft-flying-words.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 6.5,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "36655e3378867de7aa8dcc1019a6f4c6295803889502b1e51646f10df0bc1737",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 2883665,
+        "sha256": "36655e3378867de7aa8dcc1019a6f4c6295803889502b1e51646f10df0bc1737"
+      }
+    ],
+    "poster_sha256": "cb6272324521237b17eec7d65586078a83f119666ea289d512ee1c71b47ee897",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-fracture",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/fracture.mp4",
+    "poster": "/previews/video-shotcraft-fracture.webp",
+    "timestamp_seconds": 3.135,
+    "duration_seconds": 5.7,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "84747a193c5ff51269de70fd7101cfb9c6cded00f2e443b83b606bbf44ee0309",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 642071,
+        "sha256": "84747a193c5ff51269de70fd7101cfb9c6cded00f2e443b83b606bbf44ee0309"
+      }
+    ],
+    "poster_sha256": "3957da5d0bb2f7a5a015df33ba3c84ac8133ee4a3ee4a2ce1d73fa54e4b2c4eb",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-graze-face-tour",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/graze-face-tour.mp4",
+    "poster": "/previews/video-shotcraft-graze-face-tour.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 5.0,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "c1c8b50d0af0441c2af68d01cb5b13d7b0c82efbce248a2a9b651b84b82b30b2",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 1190477,
+        "sha256": "c1c8b50d0af0441c2af68d01cb5b13d7b0c82efbce248a2a9b651b84b82b30b2"
+      }
+    ],
+    "poster_sha256": "3f992ed0476499d317ce1aaf5403ec48c41cd8dd47baf7416efb71c46822d4b7",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-logo-shrink-wordmark-lockup",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/logo-shrink-wordmark-lockup.mp4",
+    "poster": "/previews/video-shotcraft-logo-shrink-wordmark-lockup.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 4.9,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "4d2dc7472248f1ba3443ff2ea4e545696584efc38e2de351e282d68d762af8bb",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 151994,
+        "sha256": "4d2dc7472248f1ba3443ff2ea4e545696584efc38e2de351e282d68d762af8bb"
+      }
+    ],
+    "poster_sha256": "461b7c4861084213cbf89ce93cdc709b5535f848f8c85f979558d8c08d7550eb",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
     "resource_id": "video-shotcraft-paper-title-card",
     "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/paper-title-card.mp4",
     "poster": "/previews/video-shotcraft-paper-title-card.webp",
@@ -16702,6 +16862,26 @@
     "source_sha256": "96cf09acb0348c043c48e0df059e5fa3cf8fa1f694471c68760674134025bf92",
     "source_byte_ranges": [],
     "poster_sha256": "939aff9a9325f63a0335bcf7a59d72a6605de7c9b1a2a811ae2a8a8534179625",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-product-card-progressive-assemble",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/product-card-progressive-assemble.mp4",
+    "poster": "/previews/video-shotcraft-product-card-progressive-assemble.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 5.5,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "8feed455903d3d596a1c84cd9dce226472101eb798519a041e9906019a7f0225",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 486764,
+        "sha256": "8feed455903d3d596a1c84cd9dce226472101eb798519a041e9906019a7f0225"
+      }
+    ],
+    "poster_sha256": "7e95212c99d8c3b917b1d1994f7a9ab4872daa7079230895fb4a16c8fae68361",
     "license": "Apache-2.0",
     "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
   },
@@ -16741,6 +16921,26 @@
     "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
   },
   {
+    "resource_id": "video-shotcraft-row-embed",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/row-embed.mp4",
+    "poster": "/previews/video-shotcraft-row-embed.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 3.333,
+    "source_width": 960,
+    "source_height": 540,
+    "source_sha256": "6bbf9be7faef244dc6434b21abc89c154d7ddcd5f777d7551af4d94388f0bc86",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 326809,
+        "sha256": "6bbf9be7faef244dc6434b21abc89c154d7ddcd5f777d7551af4d94388f0bc86"
+      }
+    ],
+    "poster_sha256": "25fe31225c619e6e9992690602f6e8079b5cebef2204ade8cc3f473a7966f77d",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
     "resource_id": "video-shotcraft-space-camera-moves",
     "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/exploded-view.mp4",
     "poster": "/previews/video-shotcraft-space-camera-moves.webp",
@@ -16751,6 +16951,26 @@
     "source_sha256": "c09f9cce7966341c93ec9508392ca176e911e42c3bc652ff9f88498a62dba478",
     "source_byte_ranges": [],
     "poster_sha256": "d2626bfdb20b1c2b50661b282e1d061dce3ac3ae866fd70ded0f5f3d9d42c864",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-spotlight-hero-card",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/spotlight-hero-card.mp4",
+    "poster": "/previews/video-shotcraft-spotlight-hero-card.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 5.333,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "79aabe034a24546a2404b49046e0386149c77f5238707be090be429fb95fd205",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 984600,
+        "sha256": "79aabe034a24546a2404b49046e0386149c77f5238707be090be429fb95fd205"
+      }
+    ],
+    "poster_sha256": "1a0d57834649f64eaac1902851cbc5d195e10ca9b7c2b131a6e08a9b0e460e25",
     "license": "Apache-2.0",
     "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
   },
@@ -16800,6 +17020,26 @@
     "source_sha256": "149301bddf5ae79929b8416040a10f4305ca77bfdc4b53d240272339a854fced",
     "source_byte_ranges": [],
     "poster_sha256": "9f905024609798a4ebc538aa1f1e14affb24529b7183ad3ba8ec7379358d6124",
+    "license": "Apache-2.0",
+    "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
+  },
+  {
+    "resource_id": "video-shotcraft-theme-switch-moves",
+    "source_url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/palette-theme-ripple.mp4",
+    "poster": "/previews/video-shotcraft-theme-switch-moves.webp",
+    "timestamp_seconds": 0.717,
+    "duration_seconds": 5.717,
+    "source_width": 1920,
+    "source_height": 1080,
+    "source_sha256": "62d3b3f29b6e285bd6e8ab1b00959ebe6cab5fd42b897f85fbd0386c84defe1b",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 406344,
+        "sha256": "62d3b3f29b6e285bd6e8ab1b00959ebe6cab5fd42b897f85fbd0386c84defe1b"
+      }
+    ],
+    "poster_sha256": "cbd1a66fe79d3d43e16eb1995e20c3b344690c7496ca12c846f918aac258935b",
     "license": "Apache-2.0",
     "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)"
   },
