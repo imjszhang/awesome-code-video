@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 820 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 835 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -943,6 +943,21 @@
 | [新闻片](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/newsreel/STYLE.md) | 1920 年代末新闻片：放映片门、探照灯片头、旋转报纸，以及档案素材上的播音。STYLE.md 是风格提示词，不是可分叉的成片或构图包；演示片 CC BY 4.0，署名 LemoLab | 档案与叙事短片 |
 | [新闻包装](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/news-package/STYLE.md) | 广播新闻包装：片头、提要、下三分之一条与全幅图表。STYLE.md 是风格提示词，不是可分叉的成片或构图包；演示片 CC BY 4.0，署名 LemoLab | 新闻与资讯短片 |
 | [档案灯箱](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/archive-lighttable/STYLE.md) | 档案灯箱：玻璃底片、放大镜特写与冷背光目录。STYLE.md 是风格提示词，不是可分叉的成片或构图包；演示片 CC BY 4.0，署名 LemoLab | 档案与叙事短片 |
+| [孟菲斯立体布景](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/memphis-diorama/STYLE.md) | 孟菲斯立体布景视觉风格（四季节柚子镇）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 风格短片与叙事 |
+| [公交地图](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/transit-map/STYLE.md) | 公交地图视觉风格（六公里）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 路线与城市讲解 |
+| [等距图画书](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/isometric-picture-book/STYLE.md) | 等距图画书视觉风格（七十二席）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 儿童与场景叙事 |
+| [印刷长镜头](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/printed-long-take/STYLE.md) | 印刷长镜头视觉风格（三十三只鹤）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 印刷与长镜头叙事 |
+| [桌面穿梭](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/desktop-flythrough/STYLE.md) | 桌面穿梭视觉风格（铃响之前）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 桌面与工作流短片 |
+| [直播倒计时分屏](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/countdown/STYLE.md) | 直播倒计时分屏视觉风格（自倒数）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 活动与直播包装 |
+| [延时交响](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/city-symphony/STYLE.md) | 延时交响视觉风格（纽约一日）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 城市与延时短片 |
+| [视觉调查](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/visual-investigation/STYLE.md) | 视觉调查风格（兴登堡：四分三十二秒）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 调查与档案短片 |
+| [构成主义蒙太奇](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/kino-montage/STYLE.md) | 构成主义蒙太奇视觉风格（四百一十天）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 蒙太奇与实验短片 |
+| [体育画线解说](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/telestrator/STYLE.md) | 体育画线解说视觉风格（定格画面）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 体育分析短片 |
+| [卫星简报](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/satellite-briefing/STYLE.md) | 卫星简报视觉风格（地图仍写着海）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 地理与情报讲解 |
+| [激光雷达勘测](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/lidar-survey/STYLE.md) | 激光雷达勘测视觉风格（林下的田野）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 测绘与空间数据短片 |
+| [白模投影](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/white-model/STYLE.md) | 白模投影视觉风格（压平的城市如何长回）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 建筑与城市演变讲解 |
+| [数据物化](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/data-physical/STYLE.md) | 数据物化视觉风格（双螺旋）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 数据雕塑与科普 |
+| [显微镜故事](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/microscope/STYLE.md) | 显微镜故事视觉风格（测得的蓝）；演示片 CC BY 4.0，署名 LemoLab；STYLE.md 源码审阅，未实测渲染 | 科学显微短片 |
 
 ## 视频制作框架
 

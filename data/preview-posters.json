@@ -12994,6 +12994,55 @@
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
   {
+    "resource_id": "lemo-opuscar-city-symphony",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/city-symphony.mp4",
+    "poster": "/previews/lemo-opuscar-city-symphony.webp",
+    "timestamp_seconds": 18.203,
+    "duration_seconds": 52.01,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2e6ec3d6eb7cc8bf5f60f4950035dd8837db9603d01aaa5e5219aa3db0356e49"
+      },
+      {
+        "start": 4383958,
+        "end": 4646101,
+        "sha256": "4a7d2a58387691f8036c2cda05e3ab5ba8e85fd2447a920bcc0972d14c394131"
+      },
+      {
+        "start": 4646102,
+        "end": 4908245,
+        "sha256": "f82ef775e778d0732a531e300856ea641afc58b18692481f2f3845dd7300e147"
+      },
+      {
+        "start": 4908246,
+        "end": 5151077,
+        "sha256": "e87549926da903548c9f0d5c1c00f46ad117cab3a9b4353c0bb3217f44d2f538"
+      }
+    ],
+    "poster_sha256": "2b99f913ab8054fa918c9f8a21c1010121bae765719a54697a32f19d37659bcb",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-countdown",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/countdown.mp4",
+    "poster": "/previews/lemo-opuscar-countdown.webp",
+    "timestamp_seconds": 20.832,
+    "duration_seconds": 59.52,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "b2e5383e66a420dec5d5550ee16898bdcae9b67c0d04f108688ec3d3aa780edb",
+    "source_byte_ranges": [],
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+    "poster_sha256": "a63f644012272fb94763ea1cf7cc7609369f426ff9ecd49c8fcb0d62d4e8e7c2"
+  },
+  {
     "resource_id": "lemo-opuscar-dark-tech-keynote",
     "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/dark-keynote.mp4",
     "poster": "/previews/lemo-opuscar-dark-tech-keynote.webp",
@@ -13015,6 +13064,51 @@
       }
     ],
     "poster_sha256": "7de17ddd794da51b5dd2fb8c3b17ca536fe6540128ff2260e303ed842160cf68",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-data-physical",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/data-physical.mp4",
+    "poster": "/previews/lemo-opuscar-data-physical.webp",
+    "timestamp_seconds": 13.783,
+    "duration_seconds": 39.381,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "47b16eb8abf4a7835a1a475b97353bc3e3515b19b42f38d45a6ca2477e030b58"
+      },
+      {
+        "start": 1651019,
+        "end": 1913162,
+        "sha256": "8c8c3d2c0ff7d8ee8a3b605a8dc41fd640751d0ce06b98d747ae868345b3f4c7"
+      },
+      {
+        "start": 1913163,
+        "end": 2175306,
+        "sha256": "c9cd3e9dde409bf48a5c0643c519309849463fefe9e5d137d38411eb59abbea4"
+      },
+      {
+        "start": 2175307,
+        "end": 2437450,
+        "sha256": "3940f5cf728c52095c52001fc6aa4c4e83c13a88067dfd50b9c7218d54d9064e"
+      },
+      {
+        "start": 2437451,
+        "end": 2699594,
+        "sha256": "7b901f80927046a10d83d6f465737f3e223ef4328da047911f0612255940e62f"
+      },
+      {
+        "start": 2699595,
+        "end": 2781092,
+        "sha256": "6c97887cf6f800c2cf5a2a9b22cd068d41cf1348f415303ede259e9c915d7f16"
+      }
+    ],
+    "poster_sha256": "8a19b0acbc6c5df965455a2f5a4664f13b4784116586f70bc870d76ab85b446e",
     "license": "CC BY 4.0",
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
@@ -13042,6 +13136,20 @@
     "poster_sha256": "0b3096bb40e67dfda1750a059b12b9b284bd931a069d24817d75e69a3ad6fb9a",
     "license": "CC BY 4.0",
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-desktop-flythrough",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/desktop-flythrough.mp4",
+    "poster": "/previews/lemo-opuscar-desktop-flythrough.webp",
+    "timestamp_seconds": 20.988,
+    "duration_seconds": 59.966667,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "a855994627212b2a2bcb016a42d7bccdf43058a626ec2a49e3d540261342caef",
+    "source_byte_ranges": [],
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+    "poster_sha256": "6f7ecf5c06fd32fd9f3ee6face2ca46cf67f8288031707621a69274cf4b74e1a"
   },
   {
     "resource_id": "lemo-opuscar-glass-product",
@@ -13170,6 +13278,184 @@
       }
     ],
     "poster_sha256": "aef57a2f8e9bd9748c4a33d66fdbbfdf5413c4854c4da51839b35f8408b0ac9f",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-isometric-picture-book",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/isometric-picture-book.mp4",
+    "poster": "/previews/lemo-opuscar-isometric-picture-book.webp",
+    "timestamp_seconds": 20.942,
+    "duration_seconds": 59.833333,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "3f3d1dda0007b6a5cbb669559932b7a7331de8242ba538d9ed86a29c92ed913f",
+    "source_byte_ranges": [],
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+    "poster_sha256": "84393ff82102a85450b87b53a26f55760d87c5844fa044e374d10356ac1a1c5b"
+  },
+  {
+    "resource_id": "lemo-opuscar-kino-montage",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/kino-montage.mp4",
+    "poster": "/previews/lemo-opuscar-kino-montage.webp",
+    "timestamp_seconds": 21.0,
+    "duration_seconds": 60.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "f869717a07c8ca18b71faa4e8eef9ab62a2f5f0e3b46a8e6df5c27442a106244"
+      },
+      {
+        "start": 4042648,
+        "end": 4304791,
+        "sha256": "8acddd86145f1afdcbc104d1b0684d97466810a53f15769664e3e87cd836f86b"
+      },
+      {
+        "start": 4304792,
+        "end": 4566935,
+        "sha256": "11c5d1a228e837999582df31a23b29c4ab9de35352f2d3210e20efb5f4ec0cce"
+      },
+      {
+        "start": 4566936,
+        "end": 4829079,
+        "sha256": "2b2f56f0cdf58ae6369408f89b030258e86745514c5ba688fba16623ae6be267"
+      },
+      {
+        "start": 4829080,
+        "end": 4978831,
+        "sha256": "e9f90ecb20cd4d27ee81419b4a33f5c588983598eb865500efa0449e5ac3919c"
+      }
+    ],
+    "poster_sha256": "c6b5668d91433ba3bf95148846945c89752d02e3aab9df90291314a488306b3e",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-lidar-survey",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/lidar-survey.mp4",
+    "poster": "/previews/lemo-opuscar-lidar-survey.webp",
+    "timestamp_seconds": 14.0,
+    "duration_seconds": 40.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "078d2ca0065febc50a495cf1e078bfdc1508ca489fb7174bfda9cd236c582863",
+    "source_byte_ranges": [],
+    "poster_sha256": "b871372481f212d4d3662bd577168b0c0a7b201b065eabd0438a5e7d8ea15649",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-memphis-diorama",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/memphis-diorama.mp4",
+    "poster": "/previews/lemo-opuscar-memphis-diorama.webp",
+    "timestamp_seconds": 15.755,
+    "duration_seconds": 45.013,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "2400d53325cf7851e3425d7c2b9dc0a9ca5b88e05271972c4cb6fae2c842d120"
+      },
+      {
+        "start": 32,
+        "end": 70770,
+        "sha256": "fd1848f40c3c9002a8559e50fd3c1373606c0b3a86f5680bacbd2a61a3971216"
+      },
+      {
+        "start": 70771,
+        "end": 70786,
+        "sha256": "32d20cb2bf569538e3ac68d590a79d66051e853bfa97bbcd52ec3456a1e17c9b"
+      },
+      {
+        "start": 70771,
+        "end": 70778,
+        "sha256": "682c8224fbe33872b9478aa45480091d833f099209d319a3f3216c7db13979ef"
+      },
+      {
+        "start": 70779,
+        "end": 70794,
+        "sha256": "14ed04d1daf2684d30761f5e55f0b88843ce37227198f839d14582db11647ac0"
+      },
+      {
+        "start": 3436862,
+        "end": 3699005,
+        "sha256": "477a9910363fa8b6d9cf0eac65fae87e014aac3b6b59a0462e7364004292a1bc"
+      },
+      {
+        "start": 3699006,
+        "end": 3961149,
+        "sha256": "4d63ef25701012414e8b51017c3619f5e490b849e227ab948487c0976b5f0b6a"
+      },
+      {
+        "start": 3961150,
+        "end": 4223293,
+        "sha256": "0ffc73a069ed4bc3c369fd3789cddffc9100bfac378a7cdd021f86d367ce8c99"
+      },
+      {
+        "start": 4223294,
+        "end": 4485437,
+        "sha256": "72900b4089a9cb739da6659cbd26e5ae97c794e3535cacf061e4f8f183823728"
+      },
+      {
+        "start": 4485438,
+        "end": 4671453,
+        "sha256": "6b8577dcf7b984a9efc0eddecb44c14f061eded96ce4514dc78a64fe68dfc018"
+      }
+    ],
+    "poster_sha256": "af2fd6d28550f0a9b13120ea49fb3a364c93b5049afaa4082b1432b6f3b7e799",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-microscope",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/microscope.mp4",
+    "poster": "/previews/lemo-opuscar-microscope.webp",
+    "timestamp_seconds": 13.828,
+    "duration_seconds": 39.509,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": null,
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "sha256": "57326e60ad4daf271aab3081db5b1e5f978ceb91732827180d0fde55c2d9eee0"
+      },
+      {
+        "start": 1529859,
+        "end": 1792002,
+        "sha256": "6b4e1ddb23f24f32469f9d6b7d3d885d8fdebdb80a6d13ac55b23b5003f1c615"
+      },
+      {
+        "start": 1792003,
+        "end": 2054146,
+        "sha256": "b8334bd4f67ef34cfef145f7870d275052c08ecca57b3576cf1638b813cba896"
+      },
+      {
+        "start": 2054147,
+        "end": 2316290,
+        "sha256": "a49c4747d91733cb73f97bd5f880e42cedb140ae151b92345844b2125ac450e6"
+      },
+      {
+        "start": 2316291,
+        "end": 2578434,
+        "sha256": "cd26c10850a0456a10ff117a3874f93d5d428df4e10a4e63a298dcbef8baccdd"
+      },
+      {
+        "start": 2578435,
+        "end": 2709681,
+        "sha256": "57251f23faed5c7dff5827cd7833a42e3ef30c4e3f42bca7b4be65211a834fcf"
+      }
+    ],
+    "poster_sha256": "ff9f6840f30fd65f3478cad167951abaee4f64cadc585b7b68b074416bc94169",
     "license": "CC BY 4.0",
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
@@ -13358,6 +13644,20 @@
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
   {
+    "resource_id": "lemo-opuscar-printed-long-take",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/printed-long-take.mp4",
+    "poster": "/previews/lemo-opuscar-printed-long-take.webp",
+    "timestamp_seconds": 21.003,
+    "duration_seconds": 60.01,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "5b181c70efd83aa266f345ea77259c61493e00894d8951887df0c940b8d38cbd",
+    "source_byte_ranges": [],
+    "poster_sha256": "65c520eb83742fc46893f112f8df664fbb3800014521dba79b3bcfdf1366a89e",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
     "resource_id": "lemo-opuscar-risograph",
     "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/risograph.mp4",
     "poster": "/previews/lemo-opuscar-risograph.webp",
@@ -13414,6 +13714,20 @@
       }
     ],
     "poster_sha256": "da40f0f90ec4dd73a1e6f86a0c0e0f724aca812648df8684b44cc28b8c29664c",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-satellite-briefing",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/satellite-briefing.mp4",
+    "poster": "/previews/lemo-opuscar-satellite-briefing.webp",
+    "timestamp_seconds": 13.227,
+    "duration_seconds": 37.791667,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "b84ce6a3e42591d4f1428cc35769d4478b5bccc61f986f71f4ba7dcce49a8091",
+    "source_byte_ranges": [],
+    "poster_sha256": "9236524a0a714abaddd56dd7a12acd81a2e227e1b65623d3479f9aa86dcc2024",
     "license": "CC BY 4.0",
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
@@ -13498,6 +13812,34 @@
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
   {
+    "resource_id": "lemo-opuscar-telestrator",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/telestrator.mp4",
+    "poster": "/previews/lemo-opuscar-telestrator.webp",
+    "timestamp_seconds": 19.04,
+    "duration_seconds": 54.4,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "7bd11603e354a90e9edaa0b06febe1f808c4fb6b6d67f699e04b5359a2627987",
+    "source_byte_ranges": [],
+    "poster_sha256": "fe9c0ba47ecaf355cb26193c5da98f43489e079336ee8dc10eacedba6a162695",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-transit-map",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/transit-map.mp4",
+    "poster": "/previews/lemo-opuscar-transit-map.webp",
+    "timestamp_seconds": 16.456,
+    "duration_seconds": 47.018,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "a6e82079180cfecdb20a6a028a06b5d5dd6815c8afc002afa6c3340f5be94b46",
+    "source_byte_ranges": [],
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)",
+    "poster_sha256": "e8e01bec589e0492fab0a031965c262d418ecab20327d95672a3e589ea17410b"
+  },
+  {
     "resource_id": "lemo-opuscar-ukiyoe",
     "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/ukiyoe.mp4",
     "poster": "/previews/lemo-opuscar-ukiyoe.webp",
@@ -13549,6 +13891,34 @@
       }
     ],
     "poster_sha256": "4f2d5a409b024b5676f0a6530c0253531c5906ffc191fc7602a9848eb23cd099",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-visual-investigation",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/visual-investigation.mp4",
+    "poster": "/previews/lemo-opuscar-visual-investigation.webp",
+    "timestamp_seconds": 21.003,
+    "duration_seconds": 60.01,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "49e6a50190f9ecaefa24222a9a4aa8b89e10852345e0494a77fdfac127d51cfe",
+    "source_byte_ranges": [],
+    "poster_sha256": "9a7ca33a5b5f13464d1d8b8f638aca96fdf242a5b8438c84ecbfc65e65df5ce9",
+    "license": "CC BY 4.0",
+    "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
+  },
+  {
+    "resource_id": "lemo-opuscar-white-model",
+    "source_url": "https://github.com/lemomo-ai/lemo-opuscar/releases/download/web/white-model.mp4",
+    "poster": "/previews/lemo-opuscar-white-model.webp",
+    "timestamp_seconds": 14.0,
+    "duration_seconds": 40.0,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "6c8453ed8be6bc16380af3f5599cf91b79d8f0ce7e5d3dffb4b8c9ec74eb93a0",
+    "source_byte_ranges": [],
+    "poster_sha256": "dea42bea9e9cef2a9b6f4d31c9fa81427b0f5423cd8f8003f743c45749814e41",
     "license": "CC BY 4.0",
     "attribution": "LemoLab (https://github.com/lemomo-ai/lemo-opuscar)"
   },
