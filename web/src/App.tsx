@@ -1,10 +1,10 @@
 import React,{useCallback,useEffect,useRef,useState} from 'react';
 import {HeroMotion} from './HeroMotion';
 import {PrivacyChoices} from './PrivacyChoices';
-import {getAnalyticsConsent,subscribeAnalytics,trackEvent} from './analytics';
+import {getAnalyticsConsent,subscribeAnalytics,trackEvent,type AnalyticsPlacement} from './analytics';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
-import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
+import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,featuredGalleryItems,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 export type SiteMeasurement={trackEvent:typeof trackEvent;getAnalyticsConsent:typeof getAnalyticsConsent;subscribeAnalytics:typeof subscribeAnalytics};
 const defaultMeasurement:SiteMeasurement={trackEvent,getAnalyticsConsent,subscribeAnalytics};
@@ -38,24 +38,27 @@ export function navigationAction(href:string,origin:string,base='/',resourceId?:
  return {event:'outbound_click' as const,resource,destination_domain:target.hostname};
 }
 
-export function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPlayback,onVideo,measurement=defaultMeasurement}:{resource:Resource,href:(path?:string)=>string,saved:boolean,onSave:(id:string)=>void,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void,measurement?:SiteMeasurement}){
+export function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggle,onPlayback,onVideo,measurement=defaultMeasurement,placement='home_gallery'}:{resource:Resource,href:(path?:string)=>string,saved:boolean,onSave:(id:string)=>void,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void,measurement?:SiteMeasurement,placement?:AnalyticsPlacement}){
  const {trackEvent}=measurement;
  const preview=resolvePreview(resource);
  const poster=preview.poster?.startsWith('/previews/')?href(preview.poster.slice(1)):preview.poster;
  const still=poster||preview.url;
  const canPlay=Boolean(preview.playable&&preview.url);
- const previewDomId=`preview-${resource.id.replaceAll('-','_')}`;
- const armed=canPlay&&activeId===resource.id;
+ // Scope the playback session by placement so Featured and the browse gallery can
+ // host the same resource without sharing one <video> registry key.
+ const playbackId=`${placement}:${resource.id}`;
+ const previewDomId=`preview-${placement}-${resource.id.replaceAll('-','_')}`;
+ const armed=canPlay&&activeId===playbackId;
  const showPause=armed&&playing;
  const previewStarted=useRef(false);
  useEffect(()=>{if(!armed)previewStarted.current=false;},[armed]);
- function previewPlaying(){onPlayback(resource.id,true);if(armed&&!previewStarted.current){previewStarted.current=true;trackEvent('preview_start',{...resourceParams(resource),placement:'home_gallery'});}}
- function previewEnded(){onPlayback(resource.id,false);if(previewStarted.current){trackEvent('preview_complete',{...resourceParams(resource),placement:'home_gallery'});previewStarted.current=false;}}
- const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(resource.id,node,preview.url);},[onVideo,resource.id,preview.url]);
+ function previewPlaying(){onPlayback(playbackId,true);if(armed&&!previewStarted.current){previewStarted.current=true;trackEvent('preview_start',{...resourceParams(resource),placement});}}
+ function previewEnded(){onPlayback(playbackId,false);if(previewStarted.current){trackEvent('preview_complete',{...resourceParams(resource),placement});previewStarted.current=false;}}
+ const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(playbackId,node,preview.url);},[onVideo,playbackId,preview.url]);
  const media=canPlay?<>
-  <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} upstream demo: ${resource.name}`} onClick={()=>onToggle(resource.id)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
+  <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} upstream demo: ${resource.name}`} onClick={()=>onToggle(playbackId)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
   {poster?<img className="preview-media preview-poster" src={poster} alt="" loading="lazy" decoding="async"/>:<Visual resource={resource}/>}
-  <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={poster||undefined} playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(resource.id,true)} onPlaying={previewPlaying} onEnded={previewEnded} onEmptied={()=>{previewStarted.current=false;}} onPause={()=>onPlayback(resource.id,false)}/>
+  <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={poster||undefined} playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={previewPlaying} onEnded={previewEnded} onEmptied={()=>{previewStarted.current=false;}} onPause={()=>onPlayback(playbackId,false)}/>
  </>:!preview.degraded&&preview.mode==='thumb_link'&&still?<img className="preview-media preview-poster" src={still} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'&&poster?<img className="preview-media preview-poster" src={poster} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'?<div className="preview-embed"><span>UPSTREAM PAGE</span><b>Open the source page.</b></div>:<Visual resource={resource}/>;
  const upstreamLabel=canPlay?'Upstream file':isYouTubePreview(resource)?'Watch on YouTube':preview.mode==='thumb_link'?'Upstream image':'Upstream page';
  const frame=canPlay?<div className="art-link">{media}</div>:<a className="art-link" href={preview.url||href(`resources/${resource.id}/`)} target={preview.url?'_blank':undefined} rel={preview.url?'noopener noreferrer':undefined} aria-label={`Open ${preview.mode==='embed'?'source page':'upstream preview'}: ${resource.name}`}>{media}</a>;
@@ -82,15 +85,17 @@ export function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggl
   </div>
  </article>;
 }
-function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement}){
- const {trackEvent}=measurement;
+type HomePlaybackControls={
+ playback:GalleryPlaybackState;
+ onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void;
+ onPlayback:(id:string,playing:boolean)=>void;
+ toggle:(id:string)=>void;
+ resetPlayback:()=>void;
+};
+
+function useHomePlayback():HomePlaybackControls{
  const videos=useRef(new Map<string,HTMLVideoElement>());
  const sources=useRef(new Map<string,string>());
- const tabs=useRef(new Map<GalleryCategory,HTMLButtonElement>());
- const grid=useRef<HTMLDivElement>(null);
- const revealIndex=useRef<number|null>(null);
- const [browse,setBrowse]=useState(createGalleryBrowseState);
- const [orientation,setOrientation]=useState<VideoOrientation>('landscape');
  const [playback,setPlayback]=useState<GalleryPlaybackState>({activeId:null,playing:false});
  const playbackRef=useRef(playback);
  const playRequest=useRef(0);
@@ -109,13 +114,12 @@ function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>strin
   playbackRef.current=next;
   setPlayback(next);
  },[]);
- function toggle(id:string){
+ const toggle=useCallback((id:string)=>{
   const request=++playRequest.current;
   const result=toggleGalleryPlayback(playbackRef.current,id,videos.current,sources.current);
   playbackRef.current=result.state;
   setPlayback(result.state);
   void result.play?.catch(()=>{
-   // An old media request must not clear a newer playback session after a tab switch.
    if(request!==playRequest.current)return;
    const next=abandonGalleryPlayback(playbackRef.current,id);
    playbackRef.current=next;
@@ -123,17 +127,49 @@ function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>strin
    const video=videos.current.get(id);
    if(video&&next.activeId!==id)resetPreview(video);
   });
- }
- const activate=useCallback((category:GalleryCategory)=>{
+ },[]);
+ const resetPlayback=useCallback(()=>{
   ++playRequest.current;
   const previousId=playbackRef.current.activeId;
   const idle={activeId:null,playing:false};
   playbackRef.current=idle;
   setPlayback(idle);
   if(previousId){const previous=videos.current.get(previousId);if(previous)resetPreview(previous);}
+ },[]);
+ return {playback,onVideo,onPlayback,toggle,resetPlayback};
+}
+
+function FeaturedGallery({href,saved,onSave,measurement,playback}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement,playback:HomePlaybackControls}){
+ const items=featuredGalleryItems();
+ if(!items.length)return null;
+ return <section className="featured-gallery" id="featured" aria-labelledby="featured-title">
+  <header className="featured-heading">
+   <div>
+    <p className="eyebrow">FEATURED</p>
+    <h2 id="featured-title">Look this cool. Steal the recipe.</h2>
+    <p className="featured-lead">A short reel of standout demos. Play one, pause another, then open the source.</p>
+   </div>
+   <a href="#explore">Browse the full index <Arrow/></a>
+  </header>
+  <div className="featured-track" role="list">
+   {items.map(resource=><div key={resource.id} className="featured-item" role="listitem"><GalleryCard resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo} measurement={measurement} placement="home_featured"/></div>)}
+  </div>
+ </section>;
+}
+
+function HomeGallery({href,saved,onSave,measurement,playback}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement,playback:HomePlaybackControls}){
+ const {trackEvent}=measurement;
+ const {resetPlayback,playback:playbackState,onVideo,onPlayback,toggle}=playback;
+ const tabs=useRef(new Map<GalleryCategory,HTMLButtonElement>());
+ const grid=useRef<HTMLDivElement>(null);
+ const revealIndex=useRef<number|null>(null);
+ const [browse,setBrowse]=useState(createGalleryBrowseState);
+ const [orientation,setOrientation]=useState<VideoOrientation>('landscape');
+ const activate=useCallback((category:GalleryCategory)=>{
+  resetPlayback();
   revealIndex.current=null;
   setBrowse(current=>selectGalleryCategory(current,category));
- },[]);
+ },[resetPlayback]);
  useEffect(()=>{
   function syncHash(){
    const category=GALLERY_CATEGORY_IDS.find(id=>`#${id}`===window.location.hash);
@@ -185,7 +221,7 @@ function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>strin
     {active&&<>
      {section.id==='video-gallery'&&<div className="gallery-orientations" role="group" aria-label="Video orientation">{orientations.filter(option=>groups.videos.some(resource=>videoOrientation(resource)===option.id)).map(option=><button key={option.id} type="button" aria-pressed={orientation===option.id} onClick={()=>{activate('video-gallery');setOrientation(option.id);setBrowse(current=>({...current,visibleCounts:{...current.visibleCounts,'video-gallery':GALLERY_BATCH_SIZE}}));}}>{option.label} <span>{groups.videos.filter(resource=>videoOrientation(resource)===option.id).length}</span></button>)}</div>}
      <div className="gallery-context"><p className="gallery-lead">{section.description}</p><span className="gallery-format">{section.format}</span></div>
-     <div className={`card-grid ${section.id==='video-gallery'?`gallery-${orientation}`:''}`} ref={grid}>{visible.map(resource=><GalleryCard key={resource.id} resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.activeId} playing={playback.playing} onToggle={toggle} onPlayback={onPlayback} onVideo={onVideo} measurement={measurement}/>)}</div>
+     <div className={`card-grid ${section.id==='video-gallery'?`gallery-${orientation}`:''}`} ref={grid}>{visible.map(resource=><GalleryCard key={resource.id} resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playbackState.activeId} playing={playbackState.playing} onToggle={toggle} onPlayback={onPlayback} onVideo={onVideo} measurement={measurement} placement="home_gallery"/>)}</div>
      <div className="gallery-pagination">
       <p className="gallery-progress" role="status" aria-live="polite" aria-atomic="true">Showing {visible.length} of {section.items.length} {section.unit}</p>
       {remaining>0?<button type="button" className="button gallery-load-more" onClick={()=>{revealIndex.current=visible.length;setBrowse(current=>loadMoreGalleryItems(current,section.items.length));trackEvent('gallery_load_more',{category:section.id,visible_count:Math.min(visible.length+GALLERY_BATCH_SIZE,section.items.length),placement:'home_gallery'});}}>Load {Math.min(GALLERY_BATCH_SIZE,remaining)} more <span aria-hidden="true">↓</span></button>:<p className="gallery-complete">All {section.items.length} {section.unit} shown</p>}
@@ -196,6 +232,18 @@ function HomeGallery({href,saved,onSave,measurement}:{href:(path?:string)=>strin
   <noscript><p className="gallery-lead">Enable JavaScript to switch categories and load more previews, or <a href={href('library/')}>browse all {resources.length} resources in the library</a>.</p></noscript>
  </>;
 }
+
+function HomeMediaSections({href,saved,onSave,measurement}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement}){
+ const playback=useHomePlayback();
+ return <>
+  <FeaturedGallery href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
+  <section className="motion-index" id="explore" aria-labelledby="index-title">
+   <header className="index-heading"><div><p className="eyebrow">THE MOTION INDEX</p><h2 id="index-title">Find a frame. Make it yours.</h2></div><a href={href('library/')}>All {resources.length} resources <Arrow/></a></header>
+   <HomeGallery href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
+  </section>
+ </>;
+}
+
 export function App({path,base='/',measurement=defaultMeasurement}:{path:string,base?:string,measurement?:SiteMeasurement}){
  const {trackEvent,getAnalyticsConsent,subscribeAnalytics}=measurement;
  const route=routeForPath(path,base);const href=(s='')=>base+s;
@@ -270,10 +318,7 @@ export function App({path,base='/',measurement=defaultMeasurement}:{path:string,
     <div><b>{collections.length.toString().padStart(2,'0')}</b><span>creative directions</span></div>
    </div>
   </section>
-  <section className="motion-index" id="explore" aria-labelledby="index-title">
-   <header className="index-heading"><div><p className="eyebrow">THE MOTION INDEX</p><h2 id="index-title">Find a frame. Make it yours.</h2></div><a href={href('library/')}>All {resources.length} resources <Arrow/></a></header>
-   <HomeGallery href={href} saved={saved} onSave={toggleSave} measurement={measurement}/>
-  </section>
+  <HomeMediaSections href={href} saved={saved} onSave={toggleSave} measurement={measurement}/>
   <section className="use-case-band" aria-labelledby="use-case-title">
    <div className="use-case-intro"><div><p className="eyebrow">A DIRECTION FOR EVERY IDEA</p><h2 id="use-case-title">Start with a story.</h2></div><p>A launch, an explanation, a journey.<br/>Find the right tools for the thing you want to say.</p></div>
    <CollectionCards/>
@@ -297,7 +342,7 @@ else if(route.type==='library')content=<Library/>;
   if(event.defaultPrevented||(event.type==='click'?event.button!==0:event.button!==1))return;
   const anchor=(event.target as Element).closest<HTMLAnchorElement>('a[href]');
   if(!anchor)return;
-  const placement=anchor.closest('header')?'header':anchor.closest('footer')?'footer':anchor.closest('.brand-hero')?'hero':anchor.closest('#sources')?'review_sources':anchor.closest('.source-panel')?'source_panel':anchor.closest('.preview-details')?'gallery_preview':route.type==='home'?'home_gallery':route.type==='resource'?'resource_detail':route.type==='collection'?'collection':route.type==='project'?'project':route.type==='saved'?'saved':route.type==='about'?'about':'library';
+  const placement=anchor.closest('header')?'header':anchor.closest('footer')?'footer':anchor.closest('.brand-hero')?'hero':anchor.closest('#sources')?'review_sources':anchor.closest('.source-panel')?'source_panel':anchor.closest('.preview-details')?'gallery_preview':anchor.closest('.featured-gallery')?'home_featured':route.type==='home'?'home_gallery':route.type==='resource'?'resource_detail':route.type==='collection'?'collection':route.type==='project'?'project':route.type==='saved'?'saved':route.type==='about'?'about':'library';
   const action=navigationAction(anchor.href,window.location.origin,base,anchor.closest<HTMLElement>('[data-resource-id]')?.dataset.resourceId,anchor.dataset.primaryResource);
   if(!action)return;
   if(action.event==='open_resource'){trackEvent('open_resource',{...resourceParams(action.resource),destination_domain:action.destination_domain,placement});return;}

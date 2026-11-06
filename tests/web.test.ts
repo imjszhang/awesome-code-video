@@ -5,7 +5,7 @@ import {renderToString} from 'react-dom/server';
 import {App,GalleryCard} from '../web/src/App';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems} from '../web/src/galleryBrowsing';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
 
 function renderGalleryCard(resource:Resource,base='/') {
  return renderToString(React.createElement(GalleryCard,{
@@ -99,6 +99,16 @@ test('incomplete or unsafe previews degrade without exposing a url',()=>{
  assert.equal(resolvePreview(thumb).playable,false);
  assert.equal(previewPoster({preview:{...thumb.preview,poster:thumb.preview!.url}}),thumb.preview!.url);
 });
+test('featured gallery resolves curator ids to playable video only, in order',()=>{
+ const items=featuredGalleryItems();
+ assert.equal(featuredGalleryIds.length,8);
+ assert.deepEqual(items.map(resource=>resource.id),featuredGalleryIds);
+ assert.equal(items.every(resource=>resolvePreview(resource).playable),true);
+ assert.equal(items.every(resource=>resolvePreview(resource).mode==='video'),true);
+ // featuredIds remains the no-preview fallback ranking and must stay independent.
+ assert.notDeepEqual(featuredGalleryIds,featuredIds);
+});
+
 test('gallery cards retain complete previews and featured covers without autoplay',()=>{
  const items=homePreviewItems();
  const ids=items.map(r=>r.id);
@@ -165,7 +175,7 @@ test('gallery cards retain complete previews and featured covers without autopla
   }
   assert.match(resourceHtml,new RegExp(`href="${esc(preview.url!)}" class="preview-source"`));
   if(preview.playable){
-   assert.match(resourceHtml,new RegExp(`<video\\b[^>]*id="preview-${resource.id.replaceAll('-','_')}"`));
+   assert.match(resourceHtml,new RegExp(`<video\\b[^>]*id="preview-home_gallery-${resource.id.replaceAll('-','_')}"`));
    assert.doesNotMatch(resourceHtml,new RegExp(`<(?:video|img|source)\\b[^>]*src="${esc(preview.url!)}"`));
    if(preview.poster)assert.match(resourceHtml,new RegExp(`<img\\b[^>]*src="${esc(preview.poster)}"`));
   }
@@ -230,7 +240,7 @@ test('playable gallery cards can start muted and other preview kinds stay unchan
   const preview=resolvePreview(resource);
   if(preview.playable){
    assert.match(card,new RegExp(`aria-label="Play upstream demo: ${esc(escapeHtml(resource.name))}"`));
-   assert.match(card,new RegExp(`aria-controls="preview-${resource.id.replaceAll('-','_')}"`));
+   assert.match(card,new RegExp(`aria-controls="preview-home_gallery-${resource.id.replaceAll('-','_')}"`));
    assert.match(card,/<button\b[^>]*class="preview-play"/);
    assert.match(card,/<div class="art-link">/);
    assert.doesNotMatch(card,/<a\b[^>]*class="art-link"/);
@@ -402,7 +412,7 @@ test('GIF previews render as lazy images without video players or Play buttons',
   assert.equal(preview.mode,'thumb_link',resource.id);
   assert.equal(preview.playable,false,resource.id);
   assert(html.includes(`src="${resource.preview!.poster||resource.preview!.url}"`),resource.id);
-  assert(!html.includes(`id="preview-${resource.id.replaceAll('-','_')}"`),resource.id);
+  assert(!html.includes(`id="preview-home_gallery-${resource.id.replaceAll('-','_')}"`),resource.id);
  }
  for(const resource of gifs){
   assert(resource.preview!.poster?.startsWith('/previews/'),resource.id);
@@ -435,7 +445,12 @@ test('homepage hero has a code-only static fallback and stays separate from reso
   const home=renderToString(React.createElement(App,{path:base,base}));
   assert.match(home,/class="[^"]*\bhome-site\b[^"]*"/);
   assert.match(home,/id="explore"/);
+  assert.match(home,/id="featured"/);
   assert.match(home,/href="(?:\/gallery\/)?#explore"/);
+  const signalAt=home.indexOf('collection-signal');
+  const featuredAt=home.indexOf('id="featured"');
+  const exploreAt=home.indexOf('id="explore"');
+  assert.ok(signalAt>=0 && featuredAt>signalAt && exploreAt>featuredAt,'featured sits between collection-signal and #explore');
   const hero=home.match(/<section\b[^>]*class="brand-hero"[^>]*>([\s\S]*?)<\/section>/)?.[1];
   assert.ok(hero,'homepage includes its hero');
   const canvas=hero.match(/<canvas\b[^>]*>/)?.[0];
@@ -493,7 +508,11 @@ test('homepage tabs expose totals and mount only the first video batch',()=>{
    assert.doesNotMatch(panel[2],/<(?:article|video|img)\b/);
   }
  }
- for(const resource of resources)assert.equal(html.includes(`href="/resources/${resource.id}/"`),firstIds.has(resource.id),resource.id);
+ const featuredOnHome=new Set(featuredGalleryItems().map(resource=>resource.id));
+ for(const resource of resources)assert.equal(html.includes(`href="/resources/${resource.id}/"`),firstIds.has(resource.id)||featuredOnHome.has(resource.id),resource.id);
+ assert.match(html,/id="featured"/);
+ assert.match(html,/Look this cool\. Steal the recipe\./);
+ assert.equal([...html.matchAll(/class="resource-card gallery-card"/g)].length,firstBatch.length+featuredGalleryItems().length);
  assert.match(html.replace(/<!--[\s\S]*?-->/g,''),new RegExp(`Showing ${firstBatch.length} of ${landscape.length} videos`));
  assert.match(html.replace(/<!--[\s\S]*?-->/g,''),/Load 12 more/);
  assert.match(html,/<noscript>[\s\S]*href="\/library\/"[\s\S]*<\/noscript>/);

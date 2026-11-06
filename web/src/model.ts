@@ -42,6 +42,32 @@ export const collections = [
  {id:'retro-and-playful',name:'Retro & playful',caption:'A little nostalgia. A lot of character.',description:'Pixel-world storytelling and terminal-inspired art direction for game narratives and playful technical films.',ids:['claude-quest','lemo-opuscar-16-bit-pixel-rpg','lemo-opuscar-ascii-crt-terminal','remotion-code-hike'],symbol:'⌘'}
 ];
 export const featuredIds = ['ink-press','paper-cut-five-layer-motion','map-motion-globe-to-location','lemo-opuscar-swiss-motion-graphics','claude-quest','hyperframes-data-chart'];
+/**
+ * Homepage Featured showcase (independent of featuredIds fallback ranking).
+ * Curated id order; featuredGalleryItems() keeps only playable video previews.
+ */
+export const featuredGalleryIds = [
+ 'paper-cut-five-layer-motion',
+ 'remotion-templates-3d-device-stages-macro',
+ 'claude-quest',
+ 'lemo-opuscar-swiss-motion-graphics',
+ 'lemo-opuscar-transit-map',
+ 'hyperframes-data-chart',
+ 'video-shotcraft-text-as-mask',
+ 'video-shotcraft-ui-to-brand-morph',
+];
+/** Resolve Featured cards: playable video only, preserve featuredGalleryIds order. */
+export function featuredGalleryItems(list: readonly Resource[] = resources): Resource[] {
+ const byId = new Map(list.map(resource => [resource.id, resource]));
+ const items: Resource[] = [];
+ for (const id of featuredGalleryIds) {
+  const resource = byId.get(id);
+  if (!resource) continue;
+  const preview = resolvePreview(resource);
+  if (preview.playable && preview.mode === 'video') items.push(resource);
+ }
+ return items;
+}
 /** Homepage grid: every complete preview, plus featured resources that have none. Playable files come first. */
 export function homePreviewItems(list: readonly Resource[] = resources): Resource[] {
  const featured = new Set(featuredIds);
