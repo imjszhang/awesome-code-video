@@ -2682,5 +2682,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Batch BT on 2026-11-06 (Asia/Shanghai). create×12 = Paper×2 + FlatNavy×6 + MaterialDark×4 Testimonial/Listicle (Testimonial-PaperSplit, Listicle-PaperReveal, Testimonial-FlatNavyCentered, Testimonial-FlatNavySplit, Testimonial-FlatNavyEditorial, Listicle-FlatNavyStack, Listicle-FlatNavyCards, Listicle-FlatNavyReveal, Testimonial-MaterialDarkCentered, Testimonial-MaterialDarkSplit, Testimonial-MaterialDarkEditorial, Listicle-MaterialDarkStack). FlatNavy/MaterialDark treated as neutral non-color themes. 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 9033cbe3 (908/900/829/65/6): 920/912/841/65/6."
+  },
+  {
+    "id": "S-CV-224",
+    "project_id": "freelancer-templates",
+    "title": "Batch BU preview media — FT×12 heroes (MaterialDark×2 + Dark T/L×6 + Minimal T×3+Stack×1; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Listicle-MaterialDarkCards.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Batch BU on 2026-11-06 (Asia/Shanghai). create×12 = MaterialDark×2 + Dark T/L×6 + Minimal T×3+Stack×1 (Listicle-MaterialDarkCards, Listicle-MaterialDarkReveal, Testimonial-DarkCentered, Testimonial-DarkSplit, Testimonial-DarkEditorial, Listicle-DarkStack, Listicle-DarkCards, Listicle-DarkReveal, Testimonial-MinimalCentered, Testimonial-MinimalSplit, Testimonial-MinimalEditorial, Listicle-MinimalStack). Dark/Minimal treated as Original neutral non-color themes (BA/BB precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 4ba6d84e (920/912/841/65/6): 932/924/853/65/6."
   }
 ]
