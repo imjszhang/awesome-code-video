@@ -2627,5 +2627,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Source review of 15 STYLE.md folders plus HEAD/ftyp probes on Releases web/*.mp4 (15/15 PASS, 2026-11-06 Asia/Shanghai). render_tested=false; media linked not copied. Cross-ref S-CV-066 and S-CV-054. Claim delta +15 video → 860/852/781/65/6."
+  },
+  {
+    "id": "S-CV-219",
+    "project_id": "freelancer-templates",
+    "title": "Batch BQ preview media — FT×12 heroes (Cream dig×4 + Testimonial×4 + Listicle×4 non-color; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Announcement-CreamCard.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Batch BQ on 2026-11-06 (Asia/Shanghai). create×12 = Cream dig×4 (Announcement/TipOfTheDay/StatCounter/CallToAction) + BP spare Testimonial×4 + Listicle×4 (Announcement-CreamCard, TipOfTheDay-CreamCard, StatCounter-CreamProgress, CallToAction-CreamSplit, Testimonial-CharcoalCentered, Testimonial-IndustrialSplit, Testimonial-BlueprintCentered, Testimonial-PaperEditorial, Listicle-CharcoalStack, Listicle-MonoCards, Listicle-SwissReveal, Listicle-PaperCards). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip eb1b0a79 (860/852/781/65/6): 872/864/793/65/6."
   }
 ]
