@@ -27755,5 +27755,365 @@
       "poster": "/previews/freelancer-listicle-minimal-stack.webp",
       "source": "S-CV-224 https://freelancer-templates.org/previews/hero/Listicle-MinimalStack.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=258167, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-listicle-minimal-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Minimal Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L102",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout and Minimal theme; the listed hero variant is Minimal Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-MinimalCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-minimal-cards.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Listicle-MinimalCards.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=268560, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-minimal-reveal",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Minimal Reveal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L105",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the reveal layout and Minimal theme; the listed hero variant is Minimal Reveal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-MinimalReveal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-minimal-reveal.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Listicle-MinimalReveal.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=152859, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-clean-split",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Clean Split",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L73",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the split layout and Clean theme; the listed hero variant is Clean Split. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-CleanSplit.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-clean-split.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Testimonial-CleanSplit.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=238946, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-clean-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Clean Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L76",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and Clean theme; the listed hero variant is Clean Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-CleanEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-clean-editorial.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Testimonial-CleanEditorial.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=148867, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-clean-stack",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Clean Stack",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L66",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the stack layout and Clean theme; the listed hero variant is Clean Stack. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-CleanStack.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-clean-stack.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Listicle-CleanStack.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=255607, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-clean-reveal",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Clean Reveal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L72",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the reveal layout and Clean theme; the listed hero variant is Clean Reveal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-CleanReveal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-clean-reveal.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Listicle-CleanReveal.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=159566, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-announcement-dark-banner",
+    "project_id": "freelancer-templates",
+    "name": "Announcement Dark Banner",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L58",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion announcement composition. Reuse Announcement.tsx with the banner layout and Dark theme; the listed hero variant is Dark Banner. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Announcement-DarkBanner.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-announcement-dark-banner.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Announcement-DarkBanner.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=196028, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-quote-card-minimal-minimal",
+    "project_id": "freelancer-templates",
+    "name": "Quote Card Minimal Minimal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L42",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion quote-card composition. Reuse QuoteCard.tsx with the minimal layout and Minimal theme; the listed hero variant is Minimal Minimal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/QuoteCard-MinimalMinimal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-quote-card-minimal-minimal.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/QuoteCard-MinimalMinimal.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=127846, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-case-study-clean-comparison",
+    "project_id": "freelancer-templates",
+    "name": "Case Study Clean Comparison",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L56",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion case-study composition. Reuse CaseStudy.tsx with the comparison layout and Clean theme; the listed hero variant is Clean Comparison. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CaseStudy-CleanComparison.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-case-study-clean-comparison.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/CaseStudy-CleanComparison.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=225917, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-tutorial-clean-card-sequence",
+    "project_id": "freelancer-templates",
+    "name": "Tutorial Clean Card Sequence",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L65",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion tutorial composition. Reuse Tutorial.tsx with the card-sequence layout and Clean theme; the listed hero variant is Clean Card Sequence. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Tutorial-CleanCardSequence.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-tutorial-clean-card-sequence.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Tutorial-CleanCardSequence.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=182562, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-tutorial-clean-split-demo",
+    "project_id": "freelancer-templates",
+    "name": "Tutorial Clean Split Demo",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L75",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion tutorial composition. Reuse Tutorial.tsx with the split-demo layout and Clean theme; the listed hero variant is Clean Split Demo. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Tutorial-CleanSplitDemo.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-tutorial-clean-split-demo.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Tutorial-CleanSplitDemo.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=165142, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listing-clean-feature-grid",
+    "project_id": "freelancer-templates",
+    "name": "Listing Clean Feature Grid",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx#L43",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listing composition. Reuse Listing.tsx with the feature-grid layout and Clean theme; the listed hero variant is Clean Feature Grid. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-225",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listing-CleanFeatureGrid.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listing-clean-feature-grid.webp",
+      "source": "S-CV-225 https://freelancer-templates.org/previews/hero/Listing-CleanFeatureGrid.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=153617, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]
