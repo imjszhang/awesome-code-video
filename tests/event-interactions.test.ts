@@ -88,7 +88,7 @@ test('search hydrates silently, commits once, and cancels pending work on withdr
 
 test('native video counts actual playing and completion, not play attempts or resumes',async()=>{
  const resource=resources.find(resource=>resource.preview?.kind==='video')!;
- const h=await mount('/',measurement=>React.createElement(GalleryCard,{resource,href:(path='')=>'/'+path,saved:false,onSave:()=>{},activeId:resource.id,playing:true,onToggle:()=>{},onPlayback:()=>{},onVideo:()=>{},measurement}));
+ const h=await mount('/',measurement=>React.createElement(GalleryCard,{resource,href:(path='')=>'/'+path,saved:false,onSave:()=>{},activeId:`home_gallery:${resource.id}`,playing:true,onToggle:()=>{},onPlayback:()=>{},onVideo:()=>{},measurement}));
  try{
   const video=h.dom.window.document.querySelector('video')!;
   const dispatch=async(name:string)=>{await act(async()=>{video.dispatchEvent(new h.dom.window.Event(name,{bubbles:true}));});};
