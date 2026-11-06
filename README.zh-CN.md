@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 883 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 895 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -853,6 +853,19 @@
 - [列表文：Slate 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L398) - 用于列表文 Slate 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Slate 主题，列出的主预览变体是 Slate Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [列表文：Slate 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L401) - 用于列表文 Slate 卡片的 Remotion 成片。复用 Listicle.tsx 的 cards 版式与 Slate 主题，列出的主预览变体是 Slate Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [列表文：Slate 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L404) - 用于列表文 Slate 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Slate 主题，列出的主预览变体是 Slate Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [客户证言：Paper 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L394) - 用于客户证言 Paper 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Paper 主题，列出的主预览变体是 Paper Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Paper 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L393) - 用于列表文 Paper 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Paper 主题，列出的主预览变体是 Paper Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：FlatNavy 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L347) - 用于客户证言 FlatNavy 居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 FlatNavy 主题，列出的主预览变体是 FlatNavy Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：FlatNavy 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L350) - 用于客户证言 FlatNavy 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 FlatNavy 主题，列出的主预览变体是 FlatNavy Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：FlatNavy 编辑](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L353) - 用于客户证言 FlatNavy 编辑的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 FlatNavy 主题，列出的主预览变体是 FlatNavy Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：FlatNavy 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L343) - 用于列表文 FlatNavy 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 FlatNavy 主题，列出的主预览变体是 FlatNavy Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：FlatNavy 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L346) - 用于列表文 FlatNavy 卡片的 Remotion 成片。复用 Listicle.tsx 的 cards 版式与 FlatNavy 主题，列出的主预览变体是 FlatNavy Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：FlatNavy 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L349) - 用于列表文 FlatNavy 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 FlatNavy 主题，列出的主预览变体是 FlatNavy Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：MaterialDark 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L325) - 用于客户证言 MaterialDark 居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 MaterialDark 主题，列出的主预览变体是 MaterialDark Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：MaterialDark 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L328) - 用于客户证言 MaterialDark 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 MaterialDark 主题，列出的主预览变体是 MaterialDark Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：MaterialDark 编辑](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L331) - 用于客户证言 MaterialDark 编辑的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 MaterialDark 主题，列出的主预览变体是 MaterialDark Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：MaterialDark 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L321) - 用于列表文 MaterialDark 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 MaterialDark 主题，列出的主预览变体是 MaterialDark Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
