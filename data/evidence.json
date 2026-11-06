@@ -2660,5 +2660,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Source review of 12 recipe .md cards plus HEAD/ftyp probes on Releases gallery-media/*.mp4 (12/12 PASS; tip-rebase spot-check 3/3, 2026-11-06 Asia/Shanghai). render_tested=false; redistributable=true (Apache-2.0); media linked not copied. Cross-ref S-CV-070. Claim delta +12 video → 896/888/817/65/6."
+  },
+  {
+    "id": "S-CV-222",
+    "project_id": "freelancer-templates",
+    "title": "Batch BS preview media — FT×12 heroes (BR spare Cream×6 + Slate×6 Testimonial/Listicle; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Testimonial-CreamCentered.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Batch BS on 2026-11-06 (Asia/Shanghai). create×12 = BR spare Cream×6 + Slate×6 Testimonial/Listicle (Testimonial-CreamCentered, Testimonial-CreamSplit, Testimonial-CreamEditorial, Testimonial-SlateCentered, Testimonial-SlateSplit, Testimonial-SlateEditorial, Listicle-CreamStack, Listicle-CreamCards, Listicle-CreamReveal, Listicle-SlateStack, Listicle-SlateCards, Listicle-SlateReveal). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 83292dba (896/888/817/65/6): 908/900/829/65/6."
   }
 ]
