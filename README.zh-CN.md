@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 835 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 847 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -814,6 +814,19 @@
 - [客户证言：Blueprint 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L416) - 用于客户证言 Blueprint 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Blueprint 主题，列出的主预览变体是 Blueprint Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [列表文：Blueprint 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L409) - 用于列表文 Blueprint 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Blueprint 主题，列出的主预览变体是 Blueprint Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [列表文：Mono 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L382) - 用于列表文 Mono 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Mono 主题，列出的主预览变体是 Mono Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [公告：Cream 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L90) - 用于公告 Cream 卡片的 Remotion 成片。复用 Announcement.tsx 的 card 版式与 Cream 主题，列出的主预览变体是 Cream Card。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [每日贴士：Cream 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tipoftheday/TipOfTheDay.tsx#L78) - 用于每日贴士 Cream 卡片的 Remotion 成片。复用 TipOfTheDay.tsx 的 card 版式与 Cream 主题，列出的主预览变体是 Cream Card。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [数据计数：Cream 进度](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/statcounter/StatCounter.tsx#L97) - 用于数据计数 Cream 进度的 Remotion 成片。复用 StatCounter.tsx 的 progress 版式与 Cream 主题，列出的主预览变体是 Cream Progress。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [行动号召：Cream 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/calltoaction/CallToAction.tsx#L95) - 用于行动号召 Cream 分栏的 Remotion 成片。复用 CallToAction.tsx 的 split 版式与 Cream 主题，列出的主预览变体是 Cream Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Charcoal 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L484) - 用于客户证言 Charcoal 居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 Charcoal 主题，列出的主预览变体是 Charcoal Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Industrial 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L269) - 用于客户证言 Industrial 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Industrial 主题，列出的主预览变体是 Industrial Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Blueprint 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L413) - 用于客户证言 Blueprint 居中的 Remotion 成片。复用 Testimonial.tsx 的 centered 版式与 Blueprint 主题，列出的主预览变体是 Blueprint Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Paper 编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L397) - 用于客户证言 Paper 编辑风的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 Paper 主题，列出的主预览变体是 Paper Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Charcoal 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L479) - 用于列表文 Charcoal 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Charcoal 主题，列出的主预览变体是 Charcoal Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Mono 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L379) - 用于列表文 Mono 卡片的 Remotion 成片。复用 Listicle.tsx 的 cards 版式与 Mono 主题，列出的主预览变体是 Mono Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Swiss 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L360) - 用于列表文 Swiss 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Swiss 主题，列出的主预览变体是 Swiss Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Paper 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L390) - 用于列表文 Paper 卡片的 Remotion 成片。复用 Listicle.tsx 的 cards 版式与 Paper 主题，列出的主预览变体是 Paper Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
