@@ -6309,6 +6309,66 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listicle-dark-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-DarkCards.mp4",
+    "poster": "/previews/freelancer-listicle-dark-cards.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "566609fba6e0dca058ddf9760b5249e1759714b365182bfc17158ddb16621d12",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 275068,
+        "sha256": "566609fba6e0dca058ddf9760b5249e1759714b365182bfc17158ddb16621d12"
+      }
+    ],
+    "poster_sha256": "d50efbc581c98c72fa4130b9ee59466fd9394d18fc84e1d9c40e3fdd419b7f63",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-dark-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-DarkReveal.mp4",
+    "poster": "/previews/freelancer-listicle-dark-reveal.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "d40962b147c931ba9a9333119764bb87510fcd0b170e798f3265137d65ddc587",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 154330,
+        "sha256": "d40962b147c931ba9a9333119764bb87510fcd0b170e798f3265137d65ddc587"
+      }
+    ],
+    "poster_sha256": "d10ef7e5337e09340d986c41bd5d210cb974141b8c27355af1c403313486b9b3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-dark-stack",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-DarkStack.mp4",
+    "poster": "/previews/freelancer-listicle-dark-stack.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "d14b2f4b8d3333a128f74f2f9e24d61d8994142ce0c6037512b739a3bbe9c536",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 259090,
+        "sha256": "d14b2f4b8d3333a128f74f2f9e24d61d8994142ce0c6037512b739a3bbe9c536"
+      }
+    ],
+    "poster_sha256": "117203770585f89488d137ce315279e62e73a4ecb463a1b0c0b4637ddf43a6f1",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-listicle-finance-cards",
     "source_url": "https://freelancer-templates.org/previews/hero/Listicle-FinanceCards.mp4",
     "poster": "/previews/freelancer-listicle-finance-cards.webp",
@@ -6489,6 +6549,46 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listicle-material-dark-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-MaterialDarkCards.mp4",
+    "poster": "/previews/freelancer-listicle-material-dark-cards.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "da2529e05ea8a3afafc41862125c6d62a1b92844075a4fb486372a430227c2a7",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 274527,
+        "sha256": "da2529e05ea8a3afafc41862125c6d62a1b92844075a4fb486372a430227c2a7"
+      }
+    ],
+    "poster_sha256": "4ed8204fc51be7bc473fecb69b1ba6368dbb5a7a030422c17eff3fe72e0043e5",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-material-dark-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-MaterialDarkReveal.mp4",
+    "poster": "/previews/freelancer-listicle-material-dark-reveal.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "72ac820051c05d557ec0ab7b4dabd872c7cc7fb06c347f870abd99185755934a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 153316,
+        "sha256": "72ac820051c05d557ec0ab7b4dabd872c7cc7fb06c347f870abd99185755934a"
+      }
+    ],
+    "poster_sha256": "8ae4e974d2a2bd7c8b4f84303c342c563fdfdfed4103fe0334fdd8d2789f1b91",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-listicle-material-dark-stack",
     "source_url": "https://freelancer-templates.org/previews/hero/Listicle-MaterialDarkStack.mp4",
     "poster": "/previews/freelancer-listicle-material-dark-stack.webp",
@@ -6505,6 +6605,26 @@
       }
     ],
     "poster_sha256": "728fb71bbcaf416765e23fa0a08da1c65e99dc939b7a1055dc0f8781e57b82fd",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-minimal-stack",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-MinimalStack.mp4",
+    "poster": "/previews/freelancer-listicle-minimal-stack.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "6f109d1986c8b3bcad01a0e35ce9cf17dfc78575cf00d53a805cdf5204baf599",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 258166,
+        "sha256": "6f109d1986c8b3bcad01a0e35ce9cf17dfc78575cf00d53a805cdf5204baf599"
+      }
+    ],
+    "poster_sha256": "100bd9c1059d4bd1bf77c08587197cb413413d04718045f0dbc2804c1d2f25e3",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -11160,6 +11280,66 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-testimonial-dark-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-DarkCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-dark-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "d95f421d3ac602fd45cbc9997897dc8eb4bc9e708537518e639e263cc0d705ba",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 184853,
+        "sha256": "d95f421d3ac602fd45cbc9997897dc8eb4bc9e708537518e639e263cc0d705ba"
+      }
+    ],
+    "poster_sha256": "182df8607df47475f25771f78e24e1623f2b249a0a9ea4a0bc33197ff5c65da4",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-dark-editorial",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-DarkEditorial.mp4",
+    "poster": "/previews/freelancer-testimonial-dark-editorial.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "58b82d0597c765e944525f620ccb239ccdd58595b55f4f01bdf87df88701ac1e",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 154255,
+        "sha256": "58b82d0597c765e944525f620ccb239ccdd58595b55f4f01bdf87df88701ac1e"
+      }
+    ],
+    "poster_sha256": "922cbdd3653c5fcc9d8faaecbdbb7171a1279adf9f85df498782e25769bb310f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-dark-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-DarkSplit.mp4",
+    "poster": "/previews/freelancer-testimonial-dark-split.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "8149d1484843b3cfdc3f73a41282b3a844f56240bac65b6af0d5eebcac7230b0",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 268715,
+        "sha256": "8149d1484843b3cfdc3f73a41282b3a844f56240bac65b6af0d5eebcac7230b0"
+      }
+    ],
+    "poster_sha256": "cfea32e7fef7c4e95c71f0d35743ca563f66975d8e2e801d528a032efc5f3ec7",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-testimonial-finance-centered",
     "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-FinanceCentered.mp4",
     "poster": "/previews/freelancer-testimonial-finance-centered.webp",
@@ -11396,6 +11576,66 @@
       }
     ],
     "poster_sha256": "266180a62aef7718d58809cf493fffafb4de85f0c779533bd63b7bdbf3149137",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-minimal-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-MinimalCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-minimal-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "62828da583ddc7215988613b71ced135f816c69381e592d0eb94396ba605deff",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 181286,
+        "sha256": "62828da583ddc7215988613b71ced135f816c69381e592d0eb94396ba605deff"
+      }
+    ],
+    "poster_sha256": "96233158a036773194723b12d08f7152a9d5218783b91d76cc7e0861ce7781f7",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-minimal-editorial",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-MinimalEditorial.mp4",
+    "poster": "/previews/freelancer-testimonial-minimal-editorial.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "63ab3f654fecaec4189124ec975a8f26068ca1a6b8aa41aa95dbe3ec650f4810",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 154657,
+        "sha256": "63ab3f654fecaec4189124ec975a8f26068ca1a6b8aa41aa95dbe3ec650f4810"
+      }
+    ],
+    "poster_sha256": "5c85761fb40fd6a7c661e1b4a6e77ad0074b58fb68064946b51e531de91f9066",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-minimal-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-MinimalSplit.mp4",
+    "poster": "/previews/freelancer-testimonial-minimal-split.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "7b20161cedb14f2d26550e05ead028217d5f13ed448c2dfe9c6b8370a50e2f38",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 253077,
+        "sha256": "7b20161cedb14f2d26550e05ead028217d5f13ed448c2dfe9c6b8370a50e2f38"
+      }
+    ],
+    "poster_sha256": "07e07783f6797433650c2f2ad378c4c2914a57c7a6bbe9b6cc6f51d7ec6bf0c9",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
