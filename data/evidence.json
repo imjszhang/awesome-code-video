@@ -2649,5 +2649,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Batch BR on 2026-11-06 (Asia/Shanghai). create×12 = BQ spare Testimonial×6 + Listicle×6 (Testimonial-IndustrialCentered, Testimonial-SwissCentered, Testimonial-SwissSplit, Testimonial-MonoCentered, Testimonial-MonoSplit, Testimonial-PaperCentered, Listicle-IndustrialReveal, Listicle-BlueprintReveal, Listicle-IndustrialStack, Listicle-SwissStack, Listicle-MonoStack, Listicle-PaperStack). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 3e968b8d (872/864/793/65/6): 884/876/805/65/6."
+  },
+  {
+    "id": "S-CV-221",
+    "project_id": "video-shotcraft",
+    "title": "video-shotcraft gap create×12 — recipe.md + gallery-media mp4 probes (post-BR tip 0eefad0a)",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/tag/gallery-media",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Source review of 12 recipe .md cards plus HEAD/ftyp probes on Releases gallery-media/*.mp4 (12/12 PASS; tip-rebase spot-check 3/3, 2026-11-06 Asia/Shanghai). render_tested=false; redistributable=true (Apache-2.0); media linked not copied. Cross-ref S-CV-070. Claim delta +12 video → 896/888/817/65/6."
   }
 ]

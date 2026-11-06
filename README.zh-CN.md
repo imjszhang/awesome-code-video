@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 859 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 871 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -869,6 +869,19 @@
 - [三维旋转木马](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/carousel-3d.md) - Video-shotcraft 画廊配方 carousel-3d，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
 - [三维终端](https://github.com/Vincentwei1021/video-shotcraft/blob/main/gallery/source/terminal-3d.md) - Video-shotcraft 画廊配方 terminal-3d，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
 - [径向波纹](https://github.com/Vincentwei1021/video-shotcraft/blob/main/gallery/source/radial-wave.md) - Video-shotcraft 画廊配方 radial-wave，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+
+- [聚光灯英雄卡](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/opening/spotlight-hero-card.md) - 聚光灯选中一张卡片，镜头斜推，卡片抬起并走过两道描边，再落回页面。Video-shotcraft 画廊配方 spotlight-hero-card，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [碎裂开场](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/opening/fracture.md) - 二十五块 3D 瓷砖从散点飞入并涟漪锁成海报，停顿后向外加速散出。Video-shotcraft 画廊配方 fracture，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [飞字排版](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/typography/flying-words.md) - 关键词在透视隧道深处生成，沿 z 轴掠过镜头并按生命周期淡入淡出，两段无缝循环。Video-shotcraft 画廊配方 flying-words，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [卡片堆叠](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/card-stack.md) - 八张卡片依次从画面下方弹起叠成一摞，再扇成 3D 弧并各自旋转侧移。Video-shotcraft 画廊配方 card-stack，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [产品卡渐进拼装](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/product-card-progressive-assemble.md) - 产品卡按字段逐步拼装：图、标题与标签弹出，旧价划掉、新价弹跳，高亮块扫过。Video-shotcraft 画廊配方 product-card-progressive-assemble，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [行嵌入入场](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/row-embed.md) - 内容行带透视落下、压平进页面，插入瞬间闪一道细琥珀色接缝。Video-shotcraft 画廊配方 row-embed，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [主题切换动效](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/interaction/theme-switch-moves.md) - 两种换主题手法：斜向扫过就地换色，以及命令面板涟漪的因果切换。Video-shotcraft 画廊配方 theme-switch-moves，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [掠面环绕运镜](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/camera/graze-face-tour.md) - 镜头贴近界面表面掠过，页面文字浮在 UI 上方，随运镜落下归位。Video-shotcraft 画廊配方 graze-face-tour，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [节拍切镜](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/rhythm/beat-cut-moves.md) - 三闪冻结蒙太奇：白闪硬切同一主体的不同裁切，最后定格在关键数字。Video-shotcraft 画廊配方 beat-cut-moves，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [卡片群翻滚](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/transition/card-flock-tumble.md) - 三张 UI 卡从侧立翻滚成阶梯编队，缓慢自转后内收并在大字下炸成烟环。Video-shotcraft 画廊配方 card-flock-tumble，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [Logo 收束字标](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/outro/logo-shrink-wordmark-lockup.md) - 霓虹细环快速收成实心白 O 并过冲刹停，左移让位，字母错落入场，口号淡入。Video-shotcraft 画廊配方 logo-shrink-wordmark-lockup，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
+- [光标飞掠](https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/camera/cursor-flyover.md) - 总览淡入后镜头依次飞向四角，SVG 光标随行指向并留下点击涟漪。Video-shotcraft 画廊配方 cursor-flyover，附 gallery-media 发行版 MP4。Apache-2.0，可再分发（需保留署名）。热链发行资源，不复制进目录。不是本地渲染测试。
 
 以下 Webreel 示例通过脚本录制浏览器操作，均附本地演示页面和可编辑配置；用于新产品时需要同时适配页面与操作脚本。
 

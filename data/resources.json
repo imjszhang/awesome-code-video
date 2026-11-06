@@ -26327,5 +26327,353 @@
       "poster": "/previews/freelancer-listicle-paper-stack.webp",
       "source": "S-CV-220 https://freelancer-templates.org/previews/hero/Listicle-PaperStack.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=270535, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "video-shotcraft-spotlight-hero-card",
+    "project_id": "video-shotcraft",
+    "name": "Spotlight Hero Card",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/opening/spotlight-hero-card.md",
+    "section": "Shot Recipes",
+    "description": "A spotlight selects one card, the camera pushes diagonally, the card lifts for two outline passes, then returns to the page. Video-shotcraft shot recipe `spotlight-hero-card` with gallery-media `spotlight-hero-card.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/spotlight-hero-card.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/spotlight-hero-card.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-spotlight-hero-card.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-fracture",
+    "project_id": "video-shotcraft",
+    "name": "Fracture",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/opening/fracture.md",
+    "section": "Shot Recipes",
+    "description": "Twenty-five 3D tiles fly in from scattered space and lock into a poster in a center-out ripple, hold for a beat, then accelerate outward off-screen in all directions. Video-shotcraft shot recipe `fracture` with gallery-media `fracture.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/fracture.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/fracture.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-fracture.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-flying-words",
+    "project_id": "video-shotcraft",
+    "name": "Flying Words",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/typography/flying-words.md",
+    "section": "Shot Recipes",
+    "description": "Keywords spawn deep in a perspective tunnel and rush past the camera along the z axis, fading in and out on a lifecycle curve across two seamless loops. Video-shotcraft shot recipe `flying-words` with gallery-media `flying-words.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/flying-words.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/flying-words.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-flying-words.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-card-stack",
+    "project_id": "video-shotcraft",
+    "name": "Card Stack",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/card-stack.md",
+    "section": "Shot Recipes",
+    "description": "Eight cards spring up from below the frame one after another and pile into a single stack, then the whole pile fans out into a 3D arc as each card rotates, slides sideways and steps back in depth. Video-shotcraft shot recipe `card-stack` with gallery-media `card-stack.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/card-stack.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/card-stack.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-card-stack.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-product-card-progressive-assemble",
+    "project_id": "video-shotcraft",
+    "name": "Product Card Progressive Assemble",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/product-card-progressive-assemble.md",
+    "section": "Shot Recipes",
+    "description": "A product card builds itself field by field as image, title and pills pop in, the old price gets struck through while an accent new price springs out, and highlighter blocks sweep across the copy. Video-shotcraft shot recipe `product-card-progressive-assemble` with gallery-media `product-card-progressive-assemble.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/product-card-progressive-assemble.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/product-card-progressive-assemble.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-product-card-progressive-assemble.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-row-embed",
+    "project_id": "video-shotcraft",
+    "name": "Row Embed",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/ui-entrance/row-embed.md",
+    "section": "Shot Recipes",
+    "description": "Content rows descend with perspective, flatten into the page, and flash a thin amber seam at the moment of insertion. Video-shotcraft shot recipe `row-embed` with gallery-media `row-embed.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/row-embed.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/row-embed.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-row-embed.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-theme-switch-moves",
+    "project_id": "video-shotcraft",
+    "name": "Theme Switch Moves",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/interaction/theme-switch-moves.md",
+    "section": "Shot Recipes",
+    "description": "Two theme-change patterns: a diagonal sweep that recolors content in place, and a command-palette ripple with a clear cause and effect. Video-shotcraft shot recipe `theme-switch-moves` with gallery-media `palette-theme-ripple.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/palette-theme-ripple.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/palette-theme-ripple.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-theme-switch-moves.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-graze-face-tour",
+    "project_id": "video-shotcraft",
+    "name": "Graze Face Tour",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/camera/graze-face-tour.md",
+    "section": "Shot Recipes",
+    "description": "The camera skims low across the UI surface like terrain while page text hovers above the interface and settles down as the shot advances. Video-shotcraft shot recipe `graze-face-tour` with gallery-media `graze-face-tour.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/graze-face-tour.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/graze-face-tour.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-graze-face-tour.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-beat-cut-moves",
+    "project_id": "video-shotcraft",
+    "name": "Beat Cut Moves",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/rhythm/beat-cut-moves.md",
+    "section": "Shot Recipes",
+    "description": "A three-flash freeze montage: white flashes hard-cut through different crops of the same subject and settle on the key number. Video-shotcraft shot recipe `beat-cut-moves` with gallery-media `paparazzi-flash.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/paparazzi-flash.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/paparazzi-flash.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-beat-cut-moves.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-card-flock-tumble",
+    "project_id": "video-shotcraft",
+    "name": "Card Flock Tumble",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/transition/card-flock-tumble.md",
+    "section": "Shot Recipes",
+    "description": "Three UI cards tumble in 3D from edge-on to a stepped formation, keep slowly rotating, then collapse inward and burst into a smoke ring under a giant word. Video-shotcraft shot recipe `card-flock-tumble` with gallery-media `card-flock-tumble.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/card-flock-tumble.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/card-flock-tumble.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-card-flock-tumble.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-logo-shrink-wordmark-lockup",
+    "project_id": "video-shotcraft",
+    "name": "Logo Shrink Wordmark Lockup",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/outro/logo-shrink-wordmark-lockup.md",
+    "section": "Shot Recipes",
+    "description": "A neon slit ring shrinks fast into a solid white O with an overshoot brake, slides left to make room, letters stagger in one by one, and an accent slogan fades in below. Video-shotcraft shot recipe `logo-shrink-wordmark-lockup` with gallery-media `logo-shrink-wordmark-lockup.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/logo-shrink-wordmark-lockup.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/logo-shrink-wordmark-lockup.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-logo-shrink-wordmark-lockup.webp"
+    }
+  },
+  {
+    "id": "video-shotcraft-cursor-flyover",
+    "project_id": "video-shotcraft",
+    "name": "Cursor Flyover",
+    "kind": "shot",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/main/references/shots/camera/cursor-flyover.md",
+    "section": "Shot Recipes",
+    "description": "After an overview fade-in the camera flies to each of four screen corners in turn while an SVG cursor arrives with it, pointing and leaving a click ripple at every stop. Video-shotcraft shot recipe `cursor-flyover` with gallery-media `cursor-flyover.mp4`. Apache-2.0; redistributable true (retain attribution). Hotlink release asset; not copied into catalog. Not a local render test.",
+    "evidence_ids": [
+      "S-CV-221",
+      "S-CV-070"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/cursor-flyover.mp4",
+      "license": "Apache-2.0",
+      "attribution": "Wei Yihao / Vincentwei1021 (https://github.com/Vincentwei1021/video-shotcraft)",
+      "redistributable": true,
+      "source": "S-CV-221 https://github.com/Vincentwei1021/video-shotcraft/releases/download/gallery-media/cursor-flyover.mp4. Repository LICENSE is Apache-2.0 (Copyright 2026 Wei Yihao). gallery-media release asset HEAD/ftyp checked on 2026-11-06; a byte-range request returned an MP4 ftyp header. Media was not copied into this repository. This is not a local render test.",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/video-shotcraft-cursor-flyover.webp"
+    }
   }
 ]
