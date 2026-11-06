@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 808 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 820 个可复用单元：322 个成片或场景工程、6 个地图镜头、53 个镜头配方、31 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -801,6 +801,19 @@
 - [客户报告：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L171) - 用于客户报告仪表盘的 Remotion 成片。复用 ClientReport.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [客户欢迎：Finance 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L48) - 用于客户欢迎仪表盘的 Remotion 成片。复用 ClientWelcome.tsx 的 dashboard 版式与 Finance 主题，列出的主预览变体是 Finance Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [价目卡：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L47) - 用于价目卡仪表盘的 Remotion 成片。复用 RateCard.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [会议回顾：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/meetingrecap/MeetingRecap.tsx#L49) - 用于会议回顾仪表盘的 Remotion 成片。复用 MeetingRecap.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [项目时间线：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L49) - 用于项目时间线仪表盘的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [成果展示：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/resultsshowcase/ResultsShowcase.tsx#L45) - 用于成果展示仪表盘的 Remotion 成片。复用 ResultsShowcase.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [服务概览：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/serviceoverview/ServiceOverview.tsx#L59) - 用于服务概览仪表盘的 Remotion 成片。复用 ServiceOverview.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [范围变更：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/scopechange/ScopeChange.tsx#L49) - 用于范围变更仪表盘的 Remotion 成片。复用 ScopeChange.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户欢迎：Industrial 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientwelcome/ClientWelcome.tsx#L45) - 用于客户欢迎仪表盘的 Remotion 成片。复用 ClientWelcome.tsx 的 dashboard 版式与 Industrial 主题，列出的主预览变体是 Industrial Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [引用卡：Swiss 居中](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L74) - 用于引用卡 Swiss 居中的 Remotion 成片。复用 QuoteCard.tsx 的 centered 版式与 Swiss 主题，列出的主预览变体是 Swiss Centered。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [引用卡：Paper 极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L70) - 用于引用卡 Paper 极简的 Remotion 成片。复用 QuoteCard.tsx 的 minimal 版式与 Paper 主题，列出的主预览变体是 Paper Minimal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Mono 编辑风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L386) - 用于客户证言 Mono 编辑风的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 Mono 主题，列出的主预览变体是 Mono Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Blueprint 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L416) - 用于客户证言 Blueprint 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Blueprint 主题，列出的主预览变体是 Blueprint Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Blueprint 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L409) - 用于列表文 Blueprint 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Blueprint 主题，列出的主预览变体是 Blueprint Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Mono 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L382) - 用于列表文 Mono 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Mono 主题，列出的主预览变体是 Mono Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
