@@ -2671,5 +2671,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Batch BS on 2026-11-06 (Asia/Shanghai). create×12 = BR spare Cream×6 + Slate×6 Testimonial/Listicle (Testimonial-CreamCentered, Testimonial-CreamSplit, Testimonial-CreamEditorial, Testimonial-SlateCentered, Testimonial-SlateSplit, Testimonial-SlateEditorial, Listicle-CreamStack, Listicle-CreamCards, Listicle-CreamReveal, Listicle-SlateStack, Listicle-SlateCards, Listicle-SlateReveal). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 83292dba (896/888/817/65/6): 908/900/829/65/6."
+  },
+  {
+    "id": "S-CV-223",
+    "project_id": "freelancer-templates",
+    "title": "Batch BT preview media — FT×12 heroes (Paper×2 + FlatNavy×6 + MaterialDark×4 Testimonial/Listicle; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Testimonial-PaperSplit.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Batch BT on 2026-11-06 (Asia/Shanghai). create×12 = Paper×2 + FlatNavy×6 + MaterialDark×4 Testimonial/Listicle (Testimonial-PaperSplit, Listicle-PaperReveal, Testimonial-FlatNavyCentered, Testimonial-FlatNavySplit, Testimonial-FlatNavyEditorial, Listicle-FlatNavyStack, Listicle-FlatNavyCards, Listicle-FlatNavyReveal, Testimonial-MaterialDarkCentered, Testimonial-MaterialDarkSplit, Testimonial-MaterialDarkEditorial, Listicle-MaterialDarkStack). FlatNavy/MaterialDark treated as neutral non-color themes. 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 9033cbe3 (908/900/829/65/6): 920/912/841/65/6."
   }
 ]

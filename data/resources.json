@@ -27035,5 +27035,365 @@
       "poster": "/previews/freelancer-listicle-slate-reveal.webp",
       "source": "S-CV-222 https://freelancer-templates.org/previews/hero/Listicle-SlateReveal.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=148921, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-testimonial-paper-split",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial Paper Split",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L394",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the split layout and Paper theme; the listed hero variant is Paper Split. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-PaperSplit.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-paper-split.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Testimonial-PaperSplit.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=276702, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-paper-reveal",
+    "project_id": "freelancer-templates",
+    "name": "Listicle Paper Reveal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L393",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the reveal layout and Paper theme; the listed hero variant is Paper Reveal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-PaperReveal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-paper-reveal.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Listicle-PaperReveal.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=166652, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-flat-navy-centered",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial FlatNavy Centered",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L347",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the centered layout and FlatNavy theme; the listed hero variant is FlatNavy Centered. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-FlatNavyCentered.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-flat-navy-centered.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Testimonial-FlatNavyCentered.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=181810, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-flat-navy-split",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial FlatNavy Split",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L350",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the split layout and FlatNavy theme; the listed hero variant is FlatNavy Split. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-FlatNavySplit.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-flat-navy-split.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Testimonial-FlatNavySplit.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=244453, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-flat-navy-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial FlatNavy Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L353",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and FlatNavy theme; the listed hero variant is FlatNavy Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-FlatNavyEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-flat-navy-editorial.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Testimonial-FlatNavyEditorial.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=156951, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-flat-navy-stack",
+    "project_id": "freelancer-templates",
+    "name": "Listicle FlatNavy Stack",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L343",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the stack layout and FlatNavy theme; the listed hero variant is FlatNavy Stack. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-FlatNavyStack.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-flat-navy-stack.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Listicle-FlatNavyStack.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=257163, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-flat-navy-cards",
+    "project_id": "freelancer-templates",
+    "name": "Listicle FlatNavy Cards",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L346",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the cards layout and FlatNavy theme; the listed hero variant is FlatNavy Cards. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-FlatNavyCards.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-flat-navy-cards.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Listicle-FlatNavyCards.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=267693, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-flat-navy-reveal",
+    "project_id": "freelancer-templates",
+    "name": "Listicle FlatNavy Reveal",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L349",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the reveal layout and FlatNavy theme; the listed hero variant is FlatNavy Reveal. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-FlatNavyReveal.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-flat-navy-reveal.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Listicle-FlatNavyReveal.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=163213, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-material-dark-centered",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial MaterialDark Centered",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L325",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the centered layout and MaterialDark theme; the listed hero variant is MaterialDark Centered. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkCentered.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-material-dark-centered.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkCentered.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=205827, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-material-dark-split",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial MaterialDark Split",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L328",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the split layout and MaterialDark theme; the listed hero variant is MaterialDark Split. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkSplit.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-material-dark-split.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkSplit.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=270451, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-testimonial-material-dark-editorial",
+    "project_id": "freelancer-templates",
+    "name": "Testimonial MaterialDark Editorial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L331",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion testimonial composition. Reuse Testimonial.tsx with the editorial layout and MaterialDark theme; the listed hero variant is MaterialDark Editorial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkEditorial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-testimonial-material-dark-editorial.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkEditorial.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=151669, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-listicle-material-dark-stack",
+    "project_id": "freelancer-templates",
+    "name": "Listicle MaterialDark Stack",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L321",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion listicle composition. Reuse Listicle.tsx with the stack layout and MaterialDark theme; the listed hero variant is MaterialDark Stack. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-074",
+      "S-CV-076",
+      "S-CV-223"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-06",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Listicle-MaterialDarkStack.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-06",
+      "poster": "/previews/freelancer-listicle-material-dark-stack.webp",
+      "source": "S-CV-223 https://freelancer-templates.org/previews/hero/Listicle-MaterialDarkStack.mp4. HEAD on 2026-11-06: HTTP 200 video/mp4 Content-Length=252415, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]

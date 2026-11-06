@@ -6369,6 +6369,66 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listicle-flat-navy-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-FlatNavyCards.mp4",
+    "poster": "/previews/freelancer-listicle-flat-navy-cards.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "38b27719e63068001ca5db379df3472be0ca95907a6fb2a0b822afc93a290d6a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 267692,
+        "sha256": "38b27719e63068001ca5db379df3472be0ca95907a6fb2a0b822afc93a290d6a"
+      }
+    ],
+    "poster_sha256": "ceda1455992a8fbc627f908744dae236df30a5e2e34ec65d723b7258fed81e2e",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-flat-navy-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-FlatNavyReveal.mp4",
+    "poster": "/previews/freelancer-listicle-flat-navy-reveal.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "7ffae11854f862297c9522b705346cab1214d9cb2cba854b9a705751c5253a2a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 163212,
+        "sha256": "7ffae11854f862297c9522b705346cab1214d9cb2cba854b9a705751c5253a2a"
+      }
+    ],
+    "poster_sha256": "d802124d6e85240584a3db3a53fe160767913b1e419e9f3fb5329249e77cbcc4",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-flat-navy-stack",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-FlatNavyStack.mp4",
+    "poster": "/previews/freelancer-listicle-flat-navy-stack.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "a0953e729625685a2e5bb638722e44cb1f21354a1a53156bbb7e40b9c0629fef",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 257162,
+        "sha256": "a0953e729625685a2e5bb638722e44cb1f21354a1a53156bbb7e40b9c0629fef"
+      }
+    ],
+    "poster_sha256": "d0b71d1334ef182fcfeddf2e9fb94fcd0fbf1a1e3212624ae19a6d88d90de887",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-listicle-industrial-cards",
     "source_url": "https://freelancer-templates.org/previews/hero/Listicle-IndustrialCards.mp4",
     "poster": "/previews/freelancer-listicle-industrial-cards.webp",
@@ -6425,6 +6485,26 @@
       }
     ],
     "poster_sha256": "4930755d2eb8b84da6262a6f64527ef6ae7bbbf06a88eda139e6f11392e11a10",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-material-dark-stack",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-MaterialDarkStack.mp4",
+    "poster": "/previews/freelancer-listicle-material-dark-stack.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "69d4057b1af7b6dd9e4489a079dece4a2e69dc79ecab883ff77967d97faf79bb",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 252414,
+        "sha256": "69d4057b1af7b6dd9e4489a079dece4a2e69dc79ecab883ff77967d97faf79bb"
+      }
+    ],
+    "poster_sha256": "728fb71bbcaf416765e23fa0a08da1c65e99dc939b7a1055dc0f8781e57b82fd",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -6505,6 +6585,26 @@
       }
     ],
     "poster_sha256": "537056a4a823455e497a250286d08ec3a7ceb904f4b1df231c4b22bb78438592",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listicle-paper-reveal",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listicle-PaperReveal.mp4",
+    "poster": "/previews/freelancer-listicle-paper-reveal.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1080,
+    "source_height": 1920,
+    "source_sha256": "14edde20d4a3bdffd1960d5051a9617f46c6f737c87ed8f1bb6781e2df7e71b6",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 166651,
+        "sha256": "14edde20d4a3bdffd1960d5051a9617f46c6f737c87ed8f1bb6781e2df7e71b6"
+      }
+    ],
+    "poster_sha256": "833ab8d937580bd9b3b0d0979ca0c36ce1c398bf6521a6124d17aaee4c324393",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -11120,6 +11220,66 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-testimonial-flat-navy-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-FlatNavyCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-flat-navy-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "306b0b3c2e14ab5544dff3a45e30014b901780eee7d925eb67fd093803816392",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 181809,
+        "sha256": "306b0b3c2e14ab5544dff3a45e30014b901780eee7d925eb67fd093803816392"
+      }
+    ],
+    "poster_sha256": "9347e5f7626911f20de258e23558083b77315ff98e713f1331907a61b3534483",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-flat-navy-editorial",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-FlatNavyEditorial.mp4",
+    "poster": "/previews/freelancer-testimonial-flat-navy-editorial.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "d4ee8852e22bb760e1a95dbe51353d779288df78f40ca8d68c3ee328e8b6c7a1",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 156950,
+        "sha256": "d4ee8852e22bb760e1a95dbe51353d779288df78f40ca8d68c3ee328e8b6c7a1"
+      }
+    ],
+    "poster_sha256": "6ccdae8d90df3f29a16f01fbae12ca1dc5daed323f156118a36899efb8b4bb47",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-flat-navy-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-FlatNavySplit.mp4",
+    "poster": "/previews/freelancer-testimonial-flat-navy-split.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "b27e7af63791b1c2aeb08bac2dff495292da05b751c3ff4495609eb847bcdb2a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 244452,
+        "sha256": "b27e7af63791b1c2aeb08bac2dff495292da05b751c3ff4495609eb847bcdb2a"
+      }
+    ],
+    "poster_sha256": "bc12e8899f038bad082e23d1c38d8f106514727bbb93e6f4adbd1bf66913a4b0",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-testimonial-industrial-centered",
     "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-IndustrialCentered.mp4",
     "poster": "/previews/freelancer-testimonial-industrial-centered.webp",
@@ -11176,6 +11336,66 @@
       }
     ],
     "poster_sha256": "f95ba30944073960cce7dcb3fd8addb50dc6e83130dc04c3d3fceb24b8b425f3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-material-dark-centered",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkCentered.mp4",
+    "poster": "/previews/freelancer-testimonial-material-dark-centered.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "d94137984945774142872867a000d41acd0c4414575220250d0dc61cfe195396",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 205826,
+        "sha256": "d94137984945774142872867a000d41acd0c4414575220250d0dc61cfe195396"
+      }
+    ],
+    "poster_sha256": "d44d583d0f804c5bd937d9c9e780c4750b36de60d5505bbafaed97eb5e181ec9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-material-dark-editorial",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkEditorial.mp4",
+    "poster": "/previews/freelancer-testimonial-material-dark-editorial.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "239580a779201aad143416d51b93335bb96fd112d1506cae07ecf909e10aea56",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 151668,
+        "sha256": "239580a779201aad143416d51b93335bb96fd112d1506cae07ecf909e10aea56"
+      }
+    ],
+    "poster_sha256": "b77ed40901bb5aac614539d7fb4b95ac093e01af1ccc58e828c7cda09bc101a9",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-material-dark-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-MaterialDarkSplit.mp4",
+    "poster": "/previews/freelancer-testimonial-material-dark-split.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "e977222f465fc9553f402c3841658cc2c6c2d74b2344a9b26e0fda603ed98964",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 270450,
+        "sha256": "e977222f465fc9553f402c3841658cc2c6c2d74b2344a9b26e0fda603ed98964"
+      }
+    ],
+    "poster_sha256": "266180a62aef7718d58809cf493fffafb4de85f0c779533bd63b7bdbf3149137",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -11301,6 +11521,26 @@
       }
     ],
     "poster_sha256": "27ca81b0b79e2a97ecf0d762f7f2186828bde7767afd39050138693273575cff",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-testimonial-paper-split",
+    "source_url": "https://freelancer-templates.org/previews/hero/Testimonial-PaperSplit.mp4",
+    "poster": "/previews/freelancer-testimonial-paper-split.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "5e31d52d0eaa49c2527611c43df2c9fdba719cc8d9df72a5a099b8c73685f8f0",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 276701,
+        "sha256": "5e31d52d0eaa49c2527611c43df2c9fdba719cc8d9df72a5a099b8c73685f8f0"
+      }
+    ],
+    "poster_sha256": "b2a87a840d5366d5307b0c66645669a557e39e51e801653099c0608466d52d14",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
