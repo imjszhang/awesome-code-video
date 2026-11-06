@@ -1947,6 +1947,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-behind-the-scenes-dark-timeline",
+    "source_url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-DarkTimeline.mp4",
+    "poster": "/previews/freelancer-behind-the-scenes-dark-timeline.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "e60ac3ba6ed607af1da4a79c3b2a2955dcb7c39e1c56843bd97b9865cec3af2a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 163205,
+        "sha256": "e60ac3ba6ed607af1da4a79c3b2a2955dcb7c39e1c56843bd97b9865cec3af2a"
+      }
+    ],
+    "poster_sha256": "d04d0161b0b94350e30cb1200102f66052b4245043ac6efb277c7d6dd2310bce",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-behind-the-scenes-ocean-scene-cards",
     "source_url": "https://freelancer-templates.org/previews/hero/BehindTheScenes-OceanSceneCards.mp4",
     "poster": "/previews/freelancer-behind-the-scenes-ocean-scene-cards.webp",
@@ -3225,6 +3245,26 @@
     "source_sha256": "6547b7a7fcd47aa8a4324fbdda84ee6c79a3c43af9fd77cae385b03538e58659",
     "source_byte_ranges": [],
     "poster_sha256": "f30c0804b746073c2171da128d9532466a69729bff6bb9cf460346c958d06e2f",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-case-study-minimal-comparison",
+    "source_url": "https://freelancer-templates.org/previews/hero/CaseStudy-MinimalComparison.mp4",
+    "poster": "/previews/freelancer-case-study-minimal-comparison.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "5a28965f284d807da53483c68ddd3a223406b52eadc6cc13ed20400110e5b00a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 208221,
+        "sha256": "5a28965f284d807da53483c68ddd3a223406b52eadc6cc13ed20400110e5b00a"
+      }
+    ],
+    "poster_sha256": "aa8151f020fc9af665c4fa247f1ad95cac37448323bb312258549480d348c7ab",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -4587,6 +4627,46 @@
     "source_sha256": "1e2fdb4776695e32f4d8205a875c853555eca1ed6a9abd9e46c61c3022a3d5fb",
     "source_byte_ranges": [],
     "poster_sha256": "fd93cc4cd64307485a7e1e74210e397f7ad40b5a152b4bd6b5641a342d3b21db",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-faq-dark-accordion",
+    "source_url": "https://freelancer-templates.org/previews/hero/FAQ-DarkAccordion.mp4",
+    "poster": "/previews/freelancer-faq-dark-accordion.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "3022bed1da8fa927ca368c573eadedc24553c8fece7938a85dc5e2abb5197f1a",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 256942,
+        "sha256": "3022bed1da8fa927ca368c573eadedc24553c8fece7938a85dc5e2abb5197f1a"
+      }
+    ],
+    "poster_sha256": "fa02e8c04db9852e02cb51dc4af3b438dcd37c86eeb0c41a17244bdafc5ebe22",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-faq-minimal-cards",
+    "source_url": "https://freelancer-templates.org/previews/hero/FAQ-MinimalCards.mp4",
+    "poster": "/previews/freelancer-faq-minimal-cards.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "6022031706481603bf4e37479d7110035858f2d072d52db679762dd6544e6660",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 186631,
+        "sha256": "6022031706481603bf4e37479d7110035858f2d072d52db679762dd6544e6660"
+      }
+    ],
+    "poster_sha256": "852bd7d5e26b5625312ffd7b144ddc942a56452ebc9c58d6621e525e5ae94849",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -7117,6 +7197,46 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-listing-minimal-comparison",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listing-MinimalComparison.mp4",
+    "poster": "/previews/freelancer-listing-minimal-comparison.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "18d71b61a01d895b26c311bcb7f7862422bb982f3766266750bb2a2187a80c3d",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 146235,
+        "sha256": "18d71b61a01d895b26c311bcb7f7862422bb982f3766266750bb2a2187a80c3d"
+      }
+    ],
+    "poster_sha256": "1d32ac5173b489143946c6222ab36439191fb5bffb920ea7eee9d3e6669b6916",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-listing-minimal-feature-grid",
+    "source_url": "https://freelancer-templates.org/previews/hero/Listing-MinimalFeatureGrid.mp4",
+    "poster": "/previews/freelancer-listing-minimal-feature-grid.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "fd73dcad188698386f73f7fd9f6cc87ddf9344da9d6956a7ca669e374de5b23d",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 144122,
+        "sha256": "fd73dcad188698386f73f7fd9f6cc87ddf9344da9d6956a7ca669e374de5b23d"
+      }
+    ],
+    "poster_sha256": "0ad32fa8f53ca4eab53fc3f8ece4eebd5772c9090655179bc892212237ff1721",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-matrix-rain-arctic",
     "source_url": "https://freelancer-templates.org/previews/hero/MatrixRain-Arctic.mp4",
     "poster": "/previews/freelancer-matrix-rain-arctic.webp",
@@ -7583,6 +7703,46 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-milestone-dark-celebration",
+    "source_url": "https://freelancer-templates.org/previews/hero/Milestone-DarkCelebration.mp4",
+    "poster": "/previews/freelancer-milestone-dark-celebration.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "4428678bba6af2d24905de9b39d0cb975f23892ef01d919835c534fdc360781d",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 239352,
+        "sha256": "4428678bba6af2d24905de9b39d0cb975f23892ef01d919835c534fdc360781d"
+      }
+    ],
+    "poster_sha256": "d73eb16653b112d2b0cd2eb3a662da15c4e132b67a9fd2e17b9b2ce03031af32",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-milestone-minimal-journey",
+    "source_url": "https://freelancer-templates.org/previews/hero/Milestone-MinimalJourney.mp4",
+    "poster": "/previews/freelancer-milestone-minimal-journey.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "837a3695d1368c65a297e5ee0d504d55c83068a5cd6b47dda734dad420a50d32",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 187228,
+        "sha256": "837a3695d1368c65a297e5ee0d504d55c83068a5cd6b47dda734dad420a50d32"
+      }
+    ],
+    "poster_sha256": "d751ecc25b5e2ecb98ea58e39bc189a46a298735e344228d3e01182e1bcdda6d",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-milestone-warm-gratitude",
     "source_url": "https://freelancer-templates.org/previews/hero/Milestone-WarmGratitude.mp4",
     "poster": "/previews/freelancer-milestone-warm-gratitude.webp",
@@ -7813,6 +7973,46 @@
     "source_sha256": "eb36527729536328f4e7049a5d926d2f52af3b78064a341cdd078553b5ebd5e9",
     "source_byte_ranges": [],
     "poster_sha256": "9dac529ededa83b2a80bdb55eebc0244bf19a6af7ce49953638e9d68ae20426b",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-newsletter-promo-clean-subscribe-cta",
+    "source_url": "https://freelancer-templates.org/previews/hero/NewsletterPromo-CleanSubscribeCta.mp4",
+    "poster": "/previews/freelancer-newsletter-promo-clean-subscribe-cta.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "9b1f546db28858fa65ef82a467e4db8c704b48cdffb7cc67aa037726f2c134f9",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 178380,
+        "sha256": "9b1f546db28858fa65ef82a467e4db8c704b48cdffb7cc67aa037726f2c134f9"
+      }
+    ],
+    "poster_sha256": "b23244d1e3cadfa3a8117f62de2a9137f9ccaea9aa91ce4c51c988a9fe807bb3",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-newsletter-promo-clean-testimonial-blend",
+    "source_url": "https://freelancer-templates.org/previews/hero/NewsletterPromo-CleanTestimonialBlend.mp4",
+    "poster": "/previews/freelancer-newsletter-promo-clean-testimonial-blend.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "d0faf68b5dd142addb8a1a9255ba4a3f3889de7083b434d7bf659bbc335c6793",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 200351,
+        "sha256": "d0faf68b5dd142addb8a1a9255ba4a3f3889de7083b434d7bf659bbc335c6793"
+      }
+    ],
+    "poster_sha256": "1377091dc402780a00e37ad29e11d218ad1201f3715e77f7ce274c24afea2bba",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
@@ -12193,6 +12393,26 @@
     "attribution": "freelancer-templates.org"
   },
   {
+    "resource_id": "freelancer-thought-leadership-editorial-dark",
+    "source_url": "https://freelancer-templates.org/previews/hero/ThoughtLeadership-EditorialDark.mp4",
+    "poster": "/previews/freelancer-thought-leadership-editorial-dark.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "bcb0dbd5e6fa04fed957a36253feb3e6e73b5ab02303b47d28b80a47e3f5e4df",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 170363,
+        "sha256": "bcb0dbd5e6fa04fed957a36253feb3e6e73b5ab02303b47d28b80a47e3f5e4df"
+      }
+    ],
+    "poster_sha256": "5049f9cfb8082fef135665635f0ba9508cf8420942b259d170ac874dd21f8cc8",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
     "resource_id": "freelancer-thought-leadership-narrative-dark",
     "source_url": "https://freelancer-templates.org/previews/hero/ThoughtLeadership-NarrativeDark.mp4",
     "poster": "/previews/freelancer-thought-leadership-narrative-dark.webp",
@@ -12664,6 +12884,26 @@
     "source_sha256": "0c0cfb77b05a05902854f70a13cd0c02aac7a25d1e51e802789c61feae872814",
     "source_byte_ranges": [],
     "poster_sha256": "80c9fb22075f86ddf6715c2abae45c2a37de22b5ca83078c4e955f0e1a49d3cd",
+    "license": "CC-BY-NC-SA",
+    "attribution": "freelancer-templates.org"
+  },
+  {
+    "resource_id": "freelancer-tutorial-dark-card-sequence",
+    "source_url": "https://freelancer-templates.org/previews/hero/Tutorial-DarkCardSequence.mp4",
+    "poster": "/previews/freelancer-tutorial-dark-card-sequence.webp",
+    "timestamp_seconds": 0.7168,
+    "duration_seconds": 2.048,
+    "source_width": 1280,
+    "source_height": 720,
+    "source_sha256": "b389407b4c13d4279cadee6a499b41ada963b9c63326c607c9b032f38c62de4f",
+    "source_byte_ranges": [
+      {
+        "start": 0,
+        "end": 199945,
+        "sha256": "b389407b4c13d4279cadee6a499b41ada963b9c63326c607c9b032f38c62de4f"
+      }
+    ],
+    "poster_sha256": "4d88a14a433287bb2d3ff4fb3a4ee42509ab3a8dc4f120cbf734a95eb93709df",
     "license": "CC-BY-NC-SA",
     "attribution": "freelancer-templates.org"
   },
