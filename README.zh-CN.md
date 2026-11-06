@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 907 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 919 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -879,6 +879,19 @@
 - [客户证言：Minimal 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L106) - 用于客户证言 Minimal 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Minimal 主题，列出的主预览变体是 Minimal Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [客户证言：Minimal 编辑](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L109) - 用于客户证言 Minimal 编辑的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 Minimal 主题，列出的主预览变体是 Minimal Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [列表文：Minimal 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L99) - 用于列表文 Minimal 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Minimal 主题，列出的主预览变体是 Minimal Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [列表文：Minimal 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L102) - 用于列表文 Minimal 卡片的 Remotion 成片。复用 Listicle.tsx 的 cards 版式与 Minimal 主题，列出的主预览变体是 Minimal Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Minimal 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L105) - 用于列表文 Minimal 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Minimal 主题，列出的主预览变体是 Minimal Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Clean 分栏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L73) - 用于客户证言 Clean 分栏的 Remotion 成片。复用 Testimonial.tsx 的 split 版式与 Clean 主题，列出的主预览变体是 Clean Split。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户证言：Clean 编辑](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/testimonial/Testimonial.tsx#L76) - 用于客户证言 Clean 编辑的 Remotion 成片。复用 Testimonial.tsx 的 editorial 版式与 Clean 主题，列出的主预览变体是 Clean Editorial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Clean 堆叠](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L66) - 用于列表文 Clean 堆叠的 Remotion 成片。复用 Listicle.tsx 的 stack 版式与 Clean 主题，列出的主预览变体是 Clean Stack。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [列表文：Clean 揭示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listicle/Listicle.tsx#L72) - 用于列表文 Clean 揭示的 Remotion 成片。复用 Listicle.tsx 的 reveal 版式与 Clean 主题，列出的主预览变体是 Clean Reveal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [公告：Dark 横幅](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/announcement/Announcement.tsx#L58) - 用于公告 Dark 横幅的 Remotion 成片。复用 Announcement.tsx 的 banner 版式与 Dark 主题，列出的主预览变体是 Dark Banner。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [引用卡：Minimal 极简](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/quotecard/QuoteCard.tsx#L42) - 用于引用卡 Minimal 极简的 Remotion 成片。复用 QuoteCard.tsx 的 minimal 版式与 Minimal 主题，列出的主预览变体是 Minimal Minimal。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [案例研究：Clean 对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/casestudy/CaseStudy.tsx#L56) - 用于案例研究 Clean 对比的 Remotion 成片。复用 CaseStudy.tsx 的 comparison 版式与 Clean 主题，列出的主预览变体是 Clean Comparison。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [教程：Clean 卡片序列](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L65) - 用于教程 Clean 卡片序列的 Remotion 成片。复用 Tutorial.tsx 的 card-sequence 版式与 Clean 主题，列出的主预览变体是 Clean Card Sequence。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [教程：Clean 分栏演示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/tutorial/Tutorial.tsx#L75) - 用于教程 Clean 分栏演示的 Remotion 成片。复用 Tutorial.tsx 的 split-demo 版式与 Clean 主题，列出的主预览变体是 Clean Split Demo。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [房源展示：Clean 功能网格](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx#L43) - 用于房源展示 Clean 功能网格的 Remotion 成片。复用 Listing.tsx 的 feature-grid 版式与 Clean 主题，列出的主预览变体是 Clean Feature Grid。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 

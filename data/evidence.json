@@ -2693,5 +2693,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Batch BU on 2026-11-06 (Asia/Shanghai). create×12 = MaterialDark×2 + Dark T/L×6 + Minimal T×3+Stack×1 (Listicle-MaterialDarkCards, Listicle-MaterialDarkReveal, Testimonial-DarkCentered, Testimonial-DarkSplit, Testimonial-DarkEditorial, Listicle-DarkStack, Listicle-DarkCards, Listicle-DarkReveal, Testimonial-MinimalCentered, Testimonial-MinimalSplit, Testimonial-MinimalEditorial, Listicle-MinimalStack). Dark/Minimal treated as Original neutral non-color themes (BA/BB precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 4ba6d84e (920/912/841/65/6): 932/924/853/65/6."
+  },
+  {
+    "id": "S-CV-225",
+    "project_id": "freelancer-templates",
+    "title": "Batch BV preview media — FT×12 heroes (BU spare Minimal L×2 + Clean T/L×4 + Announcement-DarkBanner + QuoteCard-MinimalMinimal + Clean CaseStudy/Tutorial×2/Listing; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Listicle-MinimalCards.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-06",
+    "notes": "Batch BV on 2026-11-06 (Asia/Shanghai). create×12 = BU spare Minimal L×2 + Clean T/L×4 + Announcement-DarkBanner + QuoteCard-MinimalMinimal + new dig Clean CaseStudy/Tutorial×2/Listing (Listicle-MinimalCards, Listicle-MinimalReveal, Testimonial-CleanSplit, Testimonial-CleanEditorial, Listicle-CleanStack, Listicle-CleanReveal, Announcement-DarkBanner, QuoteCard-MinimalMinimal, CaseStudy-CleanComparison, Tutorial-CleanCardSequence, Tutorial-CleanSplitDemo, Listing-CleanFeatureGrid). Minimal/Clean/Dark treated as Original neutral non-color themes (BA/BB/BU precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 75f406f4 (932/924/853/65/6): 944/936/865/65/6."
   }
 ]
