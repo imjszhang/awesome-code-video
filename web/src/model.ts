@@ -47,14 +47,14 @@ export const featuredIds = ['ink-press','paper-cut-five-layer-motion','map-motio
  * Curated id order; featuredGalleryItems() keeps only playable video previews.
  */
 export const featuredGalleryIds = [
- 'paper-cut-five-layer-motion',
  'remotion-templates-3d-device-stages-macro',
+ 'lemo-teardown',
  'claude-quest',
- 'lemo-opuscar-swiss-motion-graphics',
+ 'remotion-templates-abstract-geometry-orbital-rings',
+ 'video-shotcraft-fracture',
  'lemo-opuscar-transit-map',
+ 'paper-cut-five-layer-motion',
  'hyperframes-data-chart',
- 'video-shotcraft-text-as-mask',
- 'video-shotcraft-ui-to-brand-morph',
 ];
 /** Resolve Featured cards: playable video only, preserve featuredGalleryIds order. */
 export function featuredGalleryItems(list: readonly Resource[] = resources): Resource[] {
