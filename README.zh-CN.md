@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 943 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 955 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -918,6 +918,19 @@
 - [入职引导：Minimal Professional](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx#L101) - 用于入职引导 Minimal Professional的 Remotion 成片。复用 Onboarding.tsx 的 professional 版式与 Minimal 主题，列出的主预览变体是 Minimal Professional。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [定价：Minimal 对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pricing/Pricing.tsx#L106) - 用于定价 Minimal 对比的 Remotion 成片。复用 Pricing.tsx 的 comparison 版式与 Minimal 主题，列出的主预览变体是 Minimal Comparison。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [产品发布：Dark 倒计时](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productlaunch/ProductLaunch.tsx#L75) - 用于产品发布 Dark 倒计时的 Remotion 成片。复用 ProductLaunch.tsx 的 countdown 版式与 Dark 主题，列出的主预览变体是 Dark Countdown。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [产品发布：Dark 功能网格](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productlaunch/ProductLaunch.tsx#L65) - 用于产品发布 Dark 功能网格的 Remotion 成片。复用 ProductLaunch.tsx 的 feature-grid 版式与 Dark 主题，列出的主预览变体是 Dark Feature Grid。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [联盟评测：Dark 对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/affiliatereview/AffiliateReview.tsx#L77) - 用于联盟评测 Dark 对比的 Remotion 成片。复用 AffiliateReview.tsx 的 comparison 版式与 Dark 主题，列出的主预览变体是 Dark Comparison。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [活动：Minimal 嘉宾](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/event/Event.tsx#L85) - 用于活动 Minimal 嘉宾的 Remotion 成片。复用 Event.tsx 的 speakers 版式与 Minimal 主题，列出的主预览变体是 Minimal Speakers。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [房源展示：Minimal 橱窗](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx#L40) - 用于房源展示 Minimal 橱窗的 Remotion 成片。复用 Listing.tsx 的 showcase 版式与 Minimal 主题，列出的主预览变体是 Minimal Showcase。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [作品集：Minimal 案例研究](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/portfolio/Portfolio.tsx#L128) - 用于作品集 Minimal 案例研究的 Remotion 成片。复用 Portfolio.tsx 的 case-study 版式与 Minimal 主题，列出的主预览变体是 Minimal Case Study。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [提案：Minimal 创意风](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/proposal/Proposal.tsx#L123) - 用于提案 Minimal 创意风的 Remotion 成片。复用 Proposal.tsx 的 creative 版式与 Minimal 主题，列出的主预览变体是 Minimal Creative。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [回顾：Minimal 卡片](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/recap/Recap.tsx#L108) - 用于回顾 Minimal 卡片的 Remotion 成片。复用 Recap.tsx 的 cards 版式与 Minimal 主题，列出的主预览变体是 Minimal Cards。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [社会证明：Minimal 成就](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/socialproof/SocialProof.tsx#L94) - 用于社会证明 Minimal 成就的 Remotion 成片。复用 SocialProof.tsx 的 achievement 版式与 Minimal 主题，列出的主预览变体是 Minimal Achievement。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [播客音波图：Dark 引用卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx#L56) - 用于播客音波图 Dark 引用卡的 Remotion 成片。复用 PodcastAudiogram.tsx 的 quote-card 版式与 Dark 主题，列出的主预览变体是 Dark Quote Card。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [播客音波图：Dark 波形](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx#L46) - 用于播客音波图 Dark 波形的 Remotion 成片。复用 PodcastAudiogram.tsx 的 waveform 版式与 Dark 主题，列出的主预览变体是 Dark Waveform。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [投票测验：Dark 问题卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L51) - 用于投票测验 Dark 问题卡的 Remotion 成片。复用 PollQuiz.tsx 的 question-card 版式与 Dark 主题，列出的主预览变体是 Dark Question Card。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [投票测验：Dark 结果柱](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L61) - 用于投票测验 Dark 结果柱的 Remotion 成片。复用 PollQuiz.tsx 的 results-bar 版式与 Dark 主题，列出的主预览变体是 Dark Results Bar。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
