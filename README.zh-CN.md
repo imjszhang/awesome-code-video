@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 931 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 943 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -905,6 +905,19 @@
 - [里程碑：Minimal 旅程](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/milestone/Milestone.tsx#L99) - 用于里程碑 Minimal 旅程的 Remotion 成片。复用 Milestone.tsx 的 journey 版式与 Minimal 主题，列出的主预览变体是 Minimal Journey。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [房源展示：Minimal 对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx#L52) - 用于房源展示 Minimal 对比的 Remotion 成片。复用 Listing.tsx 的 comparison 版式与 Minimal 主题，列出的主预览变体是 Minimal Comparison。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [房源展示：Minimal 功能网格](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/listing/Listing.tsx#L46) - 用于房源展示 Minimal 功能网格的 Remotion 成片。复用 Listing.tsx 的 feature-grid 版式与 Minimal 主题，列出的主预览变体是 Minimal Feature Grid。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [Newsletter Promo：Dark 期次预览](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/newsletterpromo/NewsletterPromo.tsx#L66) - 用于Newsletter Promo Dark 期次预览的 Remotion 成片。复用 NewsletterPromo.tsx 的 issue-preview 版式与 Dark 主题，列出的主预览变体是 Dark Issue Preview。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [Newsletter Promo：Dark 订阅 CTA](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/newsletterpromo/NewsletterPromo.tsx#L56) - 用于Newsletter Promo Dark 订阅 CTA的 Remotion 成片。复用 NewsletterPromo.tsx 的 subscribe-cta 版式与 Dark 主题，列出的主预览变体是 Dark Subscribe Cta。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [思想领导力：Keynote Dark](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/thoughtleadership/ThoughtLeadership.tsx#L83) - 用于思想领导力 Keynote Dark的 Remotion 成片。复用 ThoughtLeadership.tsx 的 keynote 版式与 Dark 主题，列出的主预览变体是 Keynote Dark。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [思想领导力：Narrative Clean](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/thoughtleadership/ThoughtLeadership.tsx#L77) - 用于思想领导力 Narrative Clean的 Remotion 成片。复用 ThoughtLeadership.tsx 的 narrative 版式与 Clean 主题，列出的主预览变体是 Narrative Clean。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [课程推广：Dark 课纲](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L71) - 用于课程推广 Dark 课纲的 Remotion 成片。复用 CoursePromo.tsx 的 curriculum 版式与 Dark 主题，列出的主预览变体是 Dark Curriculum。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [课程推广：Dark 讲师](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/coursepromo/CoursePromo.tsx#L81) - 用于课程推广 Dark 讲师的 Remotion 成片。复用 CoursePromo.tsx 的 instructor 版式与 Dark 主题，列出的主预览变体是 Dark Instructor。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [发票：Dark Professional](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/invoice/Invoice.tsx#L78) - 用于发票 Dark Professional的 Remotion 成片。复用 Invoice.tsx 的 professional 版式与 Dark 主题，列出的主预览变体是 Dark Professional。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [发票：Minimal Professional](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/invoice/Invoice.tsx#L98) - 用于发票 Minimal Professional的 Remotion 成片。复用 Invoice.tsx 的 professional 版式与 Minimal 主题，列出的主预览变体是 Minimal Professional。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [入职引导：Dark Professional](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx#L81) - 用于入职引导 Dark Professional的 Remotion 成片。复用 Onboarding.tsx 的 professional 版式与 Dark 主题，列出的主预览变体是 Dark Professional。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [入职引导：Minimal Professional](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/onboarding/Onboarding.tsx#L101) - 用于入职引导 Minimal Professional的 Remotion 成片。复用 Onboarding.tsx 的 professional 版式与 Minimal 主题，列出的主预览变体是 Minimal Professional。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [定价：Minimal 对比](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pricing/Pricing.tsx#L106) - 用于定价 Minimal 对比的 Remotion 成片。复用 Pricing.tsx 的 comparison 版式与 Minimal 主题，列出的主预览变体是 Minimal Comparison。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [产品发布：Dark 倒计时](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/productlaunch/ProductLaunch.tsx#L75) - 用于产品发布 Dark 倒计时的 Remotion 成片。复用 ProductLaunch.tsx 的 countdown 版式与 Dark 主题，列出的主预览变体是 Dark Countdown。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 
