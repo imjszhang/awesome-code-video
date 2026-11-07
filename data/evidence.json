@@ -2726,5 +2726,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-07",
     "notes": "Batch BX on 2026-11-07 (Asia/Shanghai). create×12 = BW spare non-color full eat (NewsletterPromo-DarkIssuePreview, NewsletterPromo-DarkSubscribeCta, ThoughtLeadership-KeynoteDark, ThoughtLeadership-NarrativeClean, CoursePromo-DarkCurriculum, CoursePromo-DarkInstructor, Invoice-DarkProfessional, Invoice-MinimalProfessional, Onboarding-DarkProfessional, Onboarding-MinimalProfessional, Pricing-MinimalComparison, ProductLaunch-DarkCountdown). Minimal/Clean/Dark treated as Original neutral non-color themes (BA/BB/BU/BV/BW precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip ae16b78c (956/948/877/65/6): 968/960/889/65/6."
+  },
+  {
+    "id": "S-CV-228",
+    "project_id": "freelancer-templates",
+    "title": "Batch BY preview media — FT×12 heroes (BX spare non-color ProductLaunch/AffiliateReview/Event/Listing/Portfolio/Proposal/Recap/SocialProof/PodcastAudiogram×2/PollQuiz×2; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/ProductLaunch-DarkFeatureGrid.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-07",
+    "notes": "Batch BY on 2026-11-07 (Asia/Shanghai). create×12 = BX spare non-color overflow first 12 (ProductLaunch-DarkFeatureGrid, AffiliateReview-DarkComparison, Event-MinimalSpeakers, Listing-MinimalShowcase, Portfolio-MinimalCaseStudy, Proposal-MinimalCreative, Recap-MinimalCards, SocialProof-MinimalAchievement, PodcastAudiogram-DarkQuoteCard, PodcastAudiogram-DarkWaveform, PollQuiz-DarkQuestionCard, PollQuiz-DarkResultsBar). Minimal/Dark treated as Original neutral non-color themes (BA/BB/BU/BV/BW/BX precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 05b25936 (968/960/889/65/6): 980/972/901/65/6."
   }
 ]
