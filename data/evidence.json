@@ -2715,5 +2715,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-06",
     "notes": "Batch BW on 2026-11-06 (Asia/Shanghai). create×12 = BV spare NewsletterPromo-Clean×2 + Dark/Minimal cross-family×10 (NewsletterPromo-CleanSubscribeCta, NewsletterPromo-CleanTestimonialBlend, BehindTheScenes-DarkTimeline, Tutorial-DarkCardSequence, ThoughtLeadership-EditorialDark, FAQ-DarkAccordion, FAQ-MinimalCards, CaseStudy-MinimalComparison, Milestone-DarkCelebration, Milestone-MinimalJourney, Listing-MinimalComparison, Listing-MinimalFeatureGrid). FAQ resource ids are freelancer-faq-* (not f-a-q). Minimal/Clean/Dark treated as Original neutral non-color themes (BA/BB/BU/BV precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip de2549d4 (944/936/865/65/6): 956/948/877/65/6."
+  },
+  {
+    "id": "S-CV-227",
+    "project_id": "freelancer-templates",
+    "title": "Batch BX preview media — FT×12 heroes (BW spare non-color NewsletterPromo-Dark×2 + ThoughtLeadership/CoursePromo/Invoice/Onboarding/Pricing/ProductLaunch; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/NewsletterPromo-DarkIssuePreview.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-07",
+    "notes": "Batch BX on 2026-11-07 (Asia/Shanghai). create×12 = BW spare non-color full eat (NewsletterPromo-DarkIssuePreview, NewsletterPromo-DarkSubscribeCta, ThoughtLeadership-KeynoteDark, ThoughtLeadership-NarrativeClean, CoursePromo-DarkCurriculum, CoursePromo-DarkInstructor, Invoice-DarkProfessional, Invoice-MinimalProfessional, Onboarding-DarkProfessional, Onboarding-MinimalProfessional, Pricing-MinimalComparison, ProductLaunch-DarkCountdown). Minimal/Clean/Dark treated as Original neutral non-color themes (BA/BB/BU/BV/BW precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip ae16b78c (956/948/877/65/6): 968/960/889/65/6."
   }
 ]
