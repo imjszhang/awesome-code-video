@@ -29201,7 +29201,7 @@
     "project_id": "freelancer-templates",
     "name": "Collaboration Dark Announcement",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L30",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/collaboration/CollaborationShowcase.tsx#L30",
     "section": "Film and Scene Templates",
     "description": "A Remotion collaboration composition. Reuse Collaboration.tsx with the announcement layout and Dark theme; the listed hero variant is Dark Announcement. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29231,7 +29231,7 @@
     "project_id": "freelancer-templates",
     "name": "Collaboration Dark Split Screen",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L24",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/collaboration/CollaborationShowcase.tsx#L24",
     "section": "Film and Scene Templates",
     "description": "A Remotion collaboration composition. Reuse Collaboration.tsx with the split-screen layout and Dark theme; the listed hero variant is Dark Split Screen. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29261,7 +29261,7 @@
     "project_id": "freelancer-templates",
     "name": "Collaboration Dark Stats Merge",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L36",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/collaboration/CollaborationShowcase.tsx#L36",
     "section": "Film and Scene Templates",
     "description": "A Remotion collaboration composition. Reuse Collaboration.tsx with the stats-merge layout and Dark theme; the listed hero variant is Dark Stats Merge. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29291,7 +29291,7 @@
     "project_id": "freelancer-templates",
     "name": "Countdown Hype Dark Teaser",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L56",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/countdownhype/CountdownHypeShowcase.tsx#L56",
     "section": "Film and Scene Templates",
     "description": "A Remotion countdown-hype composition. Reuse CountdownHype.tsx with the teaser layout and Dark theme; the listed hero variant is Dark Teaser. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29321,7 +29321,7 @@
     "project_id": "freelancer-templates",
     "name": "Countdown Hype Dark Timer",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L46",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/countdownhype/CountdownHypeShowcase.tsx#L46",
     "section": "Film and Scene Templates",
     "description": "A Remotion countdown-hype composition. Reuse CountdownHype.tsx with the timer layout and Dark theme; the listed hero variant is Dark Timer. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29351,7 +29351,7 @@
     "project_id": "freelancer-templates",
     "name": "Countdown Hype Dark Urgency",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L66",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/countdownhype/CountdownHypeShowcase.tsx#L66",
     "section": "Film and Scene Templates",
     "description": "A Remotion countdown-hype composition. Reuse CountdownHype.tsx with the urgency layout and Dark theme; the listed hero variant is Dark Urgency. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29381,7 +29381,7 @@
     "project_id": "freelancer-templates",
     "name": "Music Visualizer Dark Bars",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/musicvisualizer/MusicVisualizer.tsx#L28",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/musicvisualizer/MusicVisualizerShowcase.tsx#L28",
     "section": "Film and Scene Templates",
     "description": "A Remotion music-visualizer composition. Reuse MusicVisualizer.tsx with the bars layout and Dark theme; the listed hero variant is Dark Bars. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29411,7 +29411,7 @@
     "project_id": "freelancer-templates",
     "name": "Music Visualizer Dark Radial",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/musicvisualizer/MusicVisualizer.tsx#L34",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/musicvisualizer/MusicVisualizerShowcase.tsx#L34",
     "section": "Film and Scene Templates",
     "description": "A Remotion music-visualizer composition. Reuse MusicVisualizer.tsx with the radial layout and Dark theme; the listed hero variant is Dark Radial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29441,7 +29441,7 @@
     "project_id": "freelancer-templates",
     "name": "Client Report Dark Dashboard",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L100",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/clientreport/ClientReportShowcase.tsx#L100",
     "section": "Film and Scene Templates",
     "description": "A Remotion client-report composition. Reuse ClientReport.tsx with the dashboard layout and Dark theme; the listed hero variant is Dark Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29471,7 +29471,7 @@
     "project_id": "freelancer-templates",
     "name": "Project Timeline Dark Dashboard",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L32",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/projecttimeline/ProjectTimelineShowcase.tsx#L32",
     "section": "Film and Scene Templates",
     "description": "A Remotion project-timeline composition. Reuse ProjectTimeline.tsx with the dashboard layout and Dark theme; the listed hero variant is Dark Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29501,7 +29501,7 @@
     "project_id": "freelancer-templates",
     "name": "Rate Card Dark Dashboard",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L28",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/ratecard/RateCardShowcase.tsx#L28",
     "section": "Film and Scene Templates",
     "description": "A Remotion rate-card composition. Reuse RateCard.tsx with the dashboard layout and Dark theme; the listed hero variant is Dark Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
@@ -29531,7 +29531,7 @@
     "project_id": "freelancer-templates",
     "name": "Client Report Minimal Dashboard",
     "kind": "film",
-    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L119",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/19ecbfe7633960881e86abff0fb8223fb228139d/src/remotion/templates/clientreport/ClientReportShowcase.tsx#L119",
     "section": "Film and Scene Templates",
     "description": "A Remotion client-report composition. Reuse ClientReport.tsx with the dashboard layout and Minimal theme; the listed hero variant is Minimal Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
     "evidence_ids": [
