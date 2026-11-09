@@ -29195,5 +29195,365 @@
       "poster": "/previews/freelancer-poll-quiz-dark-results-bar.webp",
       "source": "S-CV-228 https://freelancer-templates.org/previews/hero/PollQuiz-DarkResultsBar.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=189924, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "freelancer-collaboration-dark-announcement",
+    "project_id": "freelancer-templates",
+    "name": "Collaboration Dark Announcement",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L30",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion collaboration composition. Reuse Collaboration.tsx with the announcement layout and Dark theme; the listed hero variant is Dark Announcement. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Collaboration-DarkAnnouncement.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-collaboration-dark-announcement.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/Collaboration-DarkAnnouncement.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=210993, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-collaboration-dark-split-screen",
+    "project_id": "freelancer-templates",
+    "name": "Collaboration Dark Split Screen",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L24",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion collaboration composition. Reuse Collaboration.tsx with the split-screen layout and Dark theme; the listed hero variant is Dark Split Screen. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Collaboration-DarkSplitScreen.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-collaboration-dark-split-screen.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/Collaboration-DarkSplitScreen.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=195749, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-collaboration-dark-stats-merge",
+    "project_id": "freelancer-templates",
+    "name": "Collaboration Dark Stats Merge",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L36",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion collaboration composition. Reuse Collaboration.tsx with the stats-merge layout and Dark theme; the listed hero variant is Dark Stats Merge. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/Collaboration-DarkStatsMerge.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-collaboration-dark-stats-merge.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/Collaboration-DarkStatsMerge.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=140934, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-countdown-hype-dark-teaser",
+    "project_id": "freelancer-templates",
+    "name": "Countdown Hype Dark Teaser",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L56",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion countdown-hype composition. Reuse CountdownHype.tsx with the teaser layout and Dark theme; the listed hero variant is Dark Teaser. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CountdownHype-DarkTeaser.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-countdown-hype-dark-teaser.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/CountdownHype-DarkTeaser.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=233579, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-countdown-hype-dark-timer",
+    "project_id": "freelancer-templates",
+    "name": "Countdown Hype Dark Timer",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L46",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion countdown-hype composition. Reuse CountdownHype.tsx with the timer layout and Dark theme; the listed hero variant is Dark Timer. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CountdownHype-DarkTimer.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-countdown-hype-dark-timer.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/CountdownHype-DarkTimer.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=158245, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-countdown-hype-dark-urgency",
+    "project_id": "freelancer-templates",
+    "name": "Countdown Hype Dark Urgency",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L66",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion countdown-hype composition. Reuse CountdownHype.tsx with the urgency layout and Dark theme; the listed hero variant is Dark Urgency. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/CountdownHype-DarkUrgency.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-countdown-hype-dark-urgency.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/CountdownHype-DarkUrgency.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=175554, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-music-visualizer-dark-bars",
+    "project_id": "freelancer-templates",
+    "name": "Music Visualizer Dark Bars",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/musicvisualizer/MusicVisualizer.tsx#L28",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion music-visualizer composition. Reuse MusicVisualizer.tsx with the bars layout and Dark theme; the listed hero variant is Dark Bars. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MusicVisualizer-DarkBars.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-music-visualizer-dark-bars.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/MusicVisualizer-DarkBars.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=144579, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-music-visualizer-dark-radial",
+    "project_id": "freelancer-templates",
+    "name": "Music Visualizer Dark Radial",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/musicvisualizer/MusicVisualizer.tsx#L34",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion music-visualizer composition. Reuse MusicVisualizer.tsx with the radial layout and Dark theme; the listed hero variant is Dark Radial. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/MusicVisualizer-DarkRadial.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-music-visualizer-dark-radial.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/MusicVisualizer-DarkRadial.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=215982, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-client-report-dark-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Client Report Dark Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L100",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-report composition. Reuse ClientReport.tsx with the dashboard layout and Dark theme; the listed hero variant is Dark Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientReport-DarkDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-client-report-dark-dashboard.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/ClientReport-DarkDashboard.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=225341, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-project-timeline-dark-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Project Timeline Dark Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L32",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion project-timeline composition. Reuse ProjectTimeline.tsx with the dashboard layout and Dark theme; the listed hero variant is Dark Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ProjectTimeline-DarkDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-project-timeline-dark-dashboard.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/ProjectTimeline-DarkDashboard.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=246232, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-rate-card-dark-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Rate Card Dark Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L28",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion rate-card composition. Reuse RateCard.tsx with the dashboard layout and Dark theme; the listed hero variant is Dark Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/RateCard-DarkDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-rate-card-dark-dashboard.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/RateCard-DarkDashboard.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=235589, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "freelancer-client-report-minimal-dashboard",
+    "project_id": "freelancer-templates",
+    "name": "Client Report Minimal Dashboard",
+    "kind": "film",
+    "url": "https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L119",
+    "section": "Film and Scene Templates",
+    "description": "A Remotion client-report composition. Reuse ClientReport.tsx with the dashboard layout and Minimal theme; the listed hero variant is Minimal Dashboard. Replace the copy and figures. The site states CC-BY-NC-SA 4.0, the GitHub license field is empty, and the hero MP4 must not be mirrored. Remotion's runtime license is separate.",
+    "evidence_ids": [
+      "S-CV-229",
+      "S-CV-074",
+      "S-CV-076"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-07",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
+    "preview": {
+      "kind": "video",
+      "url": "https://freelancer-templates.org/previews/hero/ClientReport-MinimalDashboard.mp4",
+      "redistributable": false,
+      "license": "CC-BY-NC-SA",
+      "attribution": "freelancer-templates.org",
+      "checked_at": "2026-11-07",
+      "poster": "/previews/freelancer-client-report-minimal-dashboard.webp",
+      "source": "S-CV-229 https://freelancer-templates.org/previews/hero/ClientReport-MinimalDashboard.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=219307, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
   }
 ]

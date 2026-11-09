@@ -10,7 +10,7 @@
 
 面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
 
-英文版是主版本。本版覆盖首批 955 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
+英文版是主版本。本版覆盖首批 967 个可复用单元：322 个成片或场景工程、6 个地图镜头、65 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
@@ -931,6 +931,19 @@
 - [播客音波图：Dark 波形](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/podcastaudiogram/PodcastAudiogram.tsx#L46) - 用于播客音波图 Dark 波形的 Remotion 成片。复用 PodcastAudiogram.tsx 的 waveform 版式与 Dark 主题，列出的主预览变体是 Dark Waveform。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [投票测验：Dark 问题卡](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L51) - 用于投票测验 Dark 问题卡的 Remotion 成片。复用 PollQuiz.tsx 的 question-card 版式与 Dark 主题，列出的主预览变体是 Dark Question Card。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 - [投票测验：Dark 结果柱](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/pollquiz/PollQuiz.tsx#L61) - 用于投票测验 Dark 结果柱的 Remotion 成片。复用 PollQuiz.tsx 的 results-bar 版式与 Dark 主题，列出的主预览变体是 Dark Results Bar。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+
+- [合作公告：Dark 公告](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L30) - 用于合作公告：Dark 公告的 Remotion 成片。复用 Collaboration.tsx 的 announcement 版式与 Dark 主题，列出的主预览变体是 Dark Announcement。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [合作公告：Dark 分屏](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L24) - 用于合作公告：Dark 分屏的 Remotion 成片。复用 Collaboration.tsx 的 split-screen 版式与 Dark 主题，列出的主预览变体是 Dark Split Screen。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [合作公告：Dark 数据合并](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/collaboration/Collaboration.tsx#L36) - 用于合作公告：Dark 数据合并的 Remotion 成片。复用 Collaboration.tsx 的 stats-merge 版式与 Dark 主题，列出的主预览变体是 Dark Stats Merge。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [倒计时预热：Dark 预告](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L56) - 用于倒计时预热：Dark 预告的 Remotion 成片。复用 CountdownHype.tsx 的 teaser 版式与 Dark 主题，列出的主预览变体是 Dark Teaser。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [倒计时预热：Dark 计时器](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L46) - 用于倒计时预热：Dark 计时器的 Remotion 成片。复用 CountdownHype.tsx 的 timer 版式与 Dark 主题，列出的主预览变体是 Dark Timer。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [倒计时预热：Dark 紧迫提示](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/countdownhype/CountdownHype.tsx#L66) - 用于倒计时预热：Dark 紧迫提示的 Remotion 成片。复用 CountdownHype.tsx 的 urgency 版式与 Dark 主题，列出的主预览变体是 Dark Urgency。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [音乐可视化：Dark 柱形](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/musicvisualizer/MusicVisualizer.tsx#L28) - 用于音乐可视化：Dark 柱形的 Remotion 成片。复用 MusicVisualizer.tsx 的 bars 版式与 Dark 主题，列出的主预览变体是 Dark Bars。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [音乐可视化：Dark 径向](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/musicvisualizer/MusicVisualizer.tsx#L34) - 用于音乐可视化：Dark 径向的 Remotion 成片。复用 MusicVisualizer.tsx 的 radial 版式与 Dark 主题，列出的主预览变体是 Dark Radial。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户报告：Dark 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L100) - 用于客户报告：Dark 仪表盘的 Remotion 成片。复用 ClientReport.tsx 的 dashboard 版式与 Dark 主题，列出的主预览变体是 Dark Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [项目时间线：Dark 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/projecttimeline/ProjectTimeline.tsx#L32) - 用于项目时间线：Dark 仪表盘的 Remotion 成片。复用 ProjectTimeline.tsx 的 dashboard 版式与 Dark 主题，列出的主预览变体是 Dark Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [报价卡：Dark 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/ratecard/RateCard.tsx#L28) - 用于报价卡：Dark 仪表盘的 Remotion 成片。复用 RateCard.tsx 的 dashboard 版式与 Dark 主题，列出的主预览变体是 Dark Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
+- [客户报告：Minimal 仪表盘](https://github.com/linda-mhmd/freelancer-templates.org/blob/main/src/remotion/templates/clientreport/ClientReport.tsx#L119) - 用于客户报告：Minimal 仪表盘的 Remotion 成片。复用 ClientReport.tsx 的 dashboard 版式与 Minimal 主题，列出的主预览变体是 Minimal Dashboard。替换文案与数字。站点声明 CC-BY-NC-SA 4.0，GitHub license 字段为空，主预览 MP4 不可镜像。Remotion 运行时许可另计。
 
 ## 参数化地图镜头
 

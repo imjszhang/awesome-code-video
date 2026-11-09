@@ -2737,5 +2737,16 @@
     "reliability": "medium",
     "checked_at": "2026-11-07",
     "notes": "Batch BY on 2026-11-07 (Asia/Shanghai). create×12 = BX spare non-color overflow first 12 (ProductLaunch-DarkFeatureGrid, AffiliateReview-DarkComparison, Event-MinimalSpeakers, Listing-MinimalShowcase, Portfolio-MinimalCaseStudy, Proposal-MinimalCreative, Recap-MinimalCards, SocialProof-MinimalAchievement, PodcastAudiogram-DarkQuoteCard, PodcastAudiogram-DarkWaveform, PollQuiz-DarkQuestionCard, PollQuiz-DarkResultsBar). Minimal/Dark treated as Original neutral non-color themes (BA/BB/BU/BV/BW/BX precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 05b25936 (968/960/889/65/6): 980/972/901/65/6."
+  },
+  {
+    "id": "S-CV-229",
+    "project_id": "freelancer-templates",
+    "title": "Batch BZ preview media — FT×12 heroes (BY overflow non-color Collaboration×3/CountdownHype×3/MusicVisualizer×2 + Dashboard Dark/Minimal×4; 0 same-family color; 0 RT/SC/HV/lemo/upgrade)",
+    "url": "https://freelancer-templates.org/previews/hero/Collaboration-DarkAnnouncement.mp4",
+    "type": "preview-media",
+    "status": "reviewed",
+    "reliability": "medium",
+    "checked_at": "2026-11-07",
+    "notes": "Batch BZ on 2026-11-07 (Asia/Shanghai). create×12 = BY non-color overflow×8 plus Dashboard Dark/Minimal×4 (Collaboration-DarkAnnouncement, Collaboration-DarkSplitScreen, Collaboration-DarkStatsMerge, CountdownHype-DarkTeaser, CountdownHype-DarkTimer, CountdownHype-DarkUrgency, MusicVisualizer-DarkBars, MusicVisualizer-DarkRadial, ClientReport-DarkDashboard, ProjectTimeline-DarkDashboard, RateCard-DarkDashboard, ClientReport-MinimalDashboard). Minimal/Dark treated as Original neutral non-color themes (BA/BB/BU/BV/BW/BX precedent). 0 same-family color; 0 RT/SC/HV/lemo/upgrade; LindaMohamed deferred. HEAD+ftyp PASS for all 12 (isom). Site CC-BY-NC-SA 4.0 (S-CV-074); hero MP4 must not be mirrored (S-CV-076). redistributable=false; render_tested=false. Claim after tip 2b8c9a28 (980/972/901/65/6): 992/984/913/65/6."
   }
 ]
