@@ -5,7 +5,10 @@ import {renderToString} from 'react-dom/server';
 import {App,GalleryCard} from '../web/src/App';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems} from '../web/src/galleryBrowsing';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
+import resourceData from '../data/resources.json';
+import projectData from '../data/projects.json';
+import {isolationRule} from '../scripts/lib/public-display.mjs';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,isolatedProjectId,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
 
 function renderGalleryCard(resource:Resource,base='/') {
  return renderToString(React.createElement(GalleryCard,{
@@ -20,6 +23,61 @@ function escapeHtml(value:string) {
  const entities:Record<string,string>={'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#x27;'};
  return value.replace(/[&<>"']/g,char=>entities[char]);
 }
+
+const FEATURED_GALLERY = ['remotion-templates-3d-device-stages-macro','lemo-teardown','claude-quest','remotion-templates-abstract-geometry-orbital-rings','video-shotcraft-fracture','lemo-opuscar-transit-map','paper-cut-five-layer-motion','hyperframes-data-chart'];
+const FEATURED_FALLBACK = ['ink-press','paper-cut-five-layer-motion','map-motion-globe-to-location','lemo-opuscar-swiss-motion-graphics','claude-quest','hyperframes-data-chart'];
+const COLLECTION_ORDER: Record<string,string[]> = {
+ 'product-demos':['kinetic-tech','ink-press','video-shotcraft-type-and-filter','video-shotcraft-space-camera-moves','webreel-custom-theme','webreel-drag-and-drop','webreel-mobile-viewport','guizang-product-video-skill'],
+ 'explainers':['paper-cut-five-layer-motion','butterfly-life','anatomy-ripple-tank','lemo-opuscar-whiteboard-explainer','lemo-opuscar-isometric-infographic','llm-explain','lemo-watercolor','lemo-teardown'],
+ 'maps-and-travel':['map-motion-globe-to-location','map-motion-night-location','map-motion-hiking-elevation','map-motion-road-trip','map-motion-flight-routes','map-motion-radial-coverage'],
+ 'data-stories':['hyperframes-data-chart','video-shotcraft-chart-live-moves','lemo-opuscar-data-storytelling','lemo-opuscar-blueprint','lemo-briefing-board'],
+ 'type-and-captions':['pretext','video-shotcraft-text-as-mask','video-shotcraft-paper-title-card','video-shotcraft-document-typewriter-reveal','amicro-line-reveal','remotion-tiktok','remotion-audiogram','hyperframes-yt-lower-third','lemo-opuscar-caption-news'],
+ 'retro-and-playful':['claude-quest','lemo-opuscar-16-bit-pixel-rpg','lemo-opuscar-ascii-crt-terminal','remotion-code-hike'],
+};
+
+test('public surfaces omit the isolated freelancer-templates inventory',()=>{
+ const isolated=resourceData.filter(resource=>resource.project_id===isolationRule.resource_project_id);
+ assert.equal(isolationRule.resource_project_id,isolatedProjectId);
+ assert.equal(isolated.length,688);
+ assert.equal(resourceData.length,980);
+ assert.equal(resources.length,292);
+ assert.equal(resources.filter(resource=>resource.preview).length,284);
+ assert.equal(resources.filter(resource=>resource.preview?.kind==='video').length,213);
+ assert.equal(resources.filter(resource=>resource.preview?.kind==='thumb_link').length,65);
+ assert.equal(resources.filter(resource=>resource.preview?.kind==='embed').length,6);
+ assert.equal(coreCount,267);
+ assert.equal(projectData.some(project=>project.id===isolatedProjectId),true);
+ assert.equal(projects.some(project=>project.id===isolatedProjectId),false);
+ assert.equal(resources.some(resource=>resource.project_id===isolatedProjectId||resource.id.startsWith('freelancer-')),false);
+ const sample=isolated[0];
+ assert.equal(filterResources({q:sample.name}).some(resource=>resource.id===sample.id),false);
+ assert.equal(filterResources({q:'freelancer'}).length,0);
+ assert.equal(filterResources({project:isolatedProjectId}).length,0);
+ assert.equal(routeForPath(`/resources/${sample.id}/`).type,'notfound');
+ assert.equal(routeForPath(`/projects/${isolatedProjectId}/`).type,'notfound');
+ const paths=allPaths();
+ assert.equal(paths.some(path=>path.includes('freelancer-')),false);
+ assert.equal(paths.filter(path=>path!=='saved/').some(path=>isolated.some(resource=>path===`resources/${resource.id}/`)),false);
+ assert.deepEqual([...featuredGalleryIds],FEATURED_GALLERY);
+ assert.deepEqual([...featuredIds],FEATURED_FALLBACK);
+ assert.equal(collections.length,6);
+ for(const collection of collections)assert.deepEqual(collection.ids,COLLECTION_ORDER[collection.id]);
+ const home=renderToString(React.createElement(App,{path:'/'}));
+ const library=renderToString(React.createElement(App,{path:'/library/'}));
+ const projectIndex=renderToString(React.createElement(App,{path:'/projects/'}));
+ const direct=renderToString(React.createElement(App,{path:`/resources/${sample.id}/`}));
+ const project=renderToString(React.createElement(App,{path:`/projects/${isolatedProjectId}/`}));
+ for(const html of [home,library,projectIndex,direct,project]){
+  assert.equal(html.includes(sample.id),false);
+  assert.equal(html.includes('freelancer-templates.org'),false);
+  assert.equal(html.includes('linda-mhmd/freelancer-templates'),false);
+ }
+ assert.match(home,/<b>292<\/b><span>curated resources<\/span>/);
+ assert.match(home,/<b>33<\/b><span>source projects<\/span>/);
+ assert.match(library,/<b>292<\/b> resources/);
+ assert.equal(direct.includes(sample.name),false);
+ assert.equal(project.includes('Freelancer Templates'),false);
+});
 
 test('every public resource and project has exactly one stable route',()=>{
  const paths=allPaths();assert.equal(new Set(paths).size,paths.length);

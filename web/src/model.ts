@@ -7,18 +7,28 @@ import imagePosters from '../../data/image-preview-posters.json';
 import MiniSearch from 'minisearch';
 import { isCompletePreview, resolvePreview, type ResourcePreview } from './preview';
 
+/**
+ * Public-display isolation. Must match data/public-display-isolation.json.
+ * The inventory files stay complete; public pages, search, and routes use the filtered lists.
+ */
+export const isolatedProjectId = 'freelancer-templates';
+const isIsolatedRecord = (record: {project_id?: string}) => record.project_id === isolatedProjectId;
+const publicResourceData = resourceData.filter(record => !isIsolatedRecord(record));
+const isolatedResourceIds = new Set(resourceData.filter(isIsolatedRecord).map(record => record.id));
+const publicVideoPosters = videoPosters.filter(poster => !isolatedResourceIds.has(poster.resource_id));
+
 export type { PreviewCaption, PreviewKind, ResolvedPreview, ResourcePreview } from './preview';
 export { previewCaption, previewMode, previewPlayable, previewPoster, previewUrl, resolvePreview } from './preview';
 
-export const projects = projectData.filter(project => resourceData.some(resource => resource.project_id === project.id));
+export const projects = projectData.filter(project => project.id !== isolatedProjectId && publicResourceData.some(resource => resource.project_id === project.id));
 type CatalogResource = Omit<(typeof resourceData)[number], 'preview'>;
 export type Resource = CatalogResource & { preview?: ResourcePreview };
 function readResource(record: (typeof resourceData)[number]): Resource {
  const { preview, ...rest } = record;
  return isCompletePreview(preview) ? { ...rest, preview } : rest;
 }
-export const resources: Resource[] = resourceData.map(readResource);
-export const evidence = evidenceData;
+export const resources: Resource[] = publicResourceData.map(readResource);
+export const evidence = evidenceData.filter(item => item.project_id !== isolatedProjectId);
 export const repo = 'https://github.com/imjszhang/awesome-code-video';
 export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',tool:'Motion design tool',workflow:'Workflow',collection:'Related list',generative_prompt:'Generative prompt'};
 export const kindGuides: Record<string, string> = {
@@ -169,7 +179,7 @@ export function pageMeta(route:Route){
 export type VideoOrientation = 'landscape' | 'portrait' | 'square' | 'unknown';
 /** Match the measured media URL so replaced previews cannot inherit stale dimensions. */
 export function videoOrientation(resource: Resource): VideoOrientation {
- const metadata = videoPosters.find(p => p.resource_id === resource.id && p.source_url === resource.preview?.url);
+ const metadata = publicVideoPosters.find(p => p.resource_id === resource.id && p.source_url === resource.preview?.url);
  const evidence = videoFormatEvidence.find(p => p.resource_id === resource.id && p.preview_url === resource.preview?.url);
  const width = metadata?.source_width ?? evidence?.composition_width;
  const height = metadata?.source_height ?? evidence?.composition_height;

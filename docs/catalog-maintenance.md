@@ -98,6 +98,12 @@ A resource may include an optional `preview` object when an upstream file or pag
 
 `kind` `generative_prompt` belongs in the README section Generative Video Prompts (生成式视频提示词), after Production Workflows and before Related Lists. Required fields are `prompt` and `suggestedModels`. `prompt` is the full text when `prompt_policy` is `full`, and a verbatim excerpt when it is `summary_link` or `collection_link`. `suggestedModels` is a nonempty string array of models named by the source file. Do not add models the source does not name. Optional fields are `negativePrompt`, `aspectRatio`, and `durationHint`. `prompt_policy` is `full`, `summary_link`, or `collection_link`. `license` and `attribution` are required. `review.render_tested` stays false until a later review records a real local render. An upstream sample is not that test. Evidence IDs for this section use `S-GVP-NNN` and stay stable. YouMind OpenLab mirrors need attribution and a link to the LICENSE file. Check that file at write time. A GitHub SPDX value of `NOASSERTION` does not replace the LICENSE text.
 
+## Public display isolation
+
+`data/public-display-isolation.json` records a public-display rule, not a change to the inclusion policy in [Selection and Review Notes](selection.md). A resource is isolated when its `project_id` is `freelancer-templates`, the catalog project for `linda-mhmd/freelancer-templates.org` and `https://freelancer-templates.org/`. On the 2026-11-10 inventory that rule is 688 film resources. Their records, evidence, and derived WebP posters stay in `data/` and `web/public/previews/`.
+
+Public READMEs, the website, search, resource routes, the project page `/projects/freelancer-templates/`, the sitemap, and `dist/data/catalog.json` use the remaining public index. The build deletes those poster files from `dist` after Vite copies `web/public`. Introductory counts use the public core set (film, scene, preset, shot, and style). The Chinese introduction also states the public film/scene, map-preset, shot, and style counts. `readme:check` compares both READMEs with that public index and still requires every public resource to be listed. It does not require isolated records to appear, and it rejects a README entry for an isolated resource.
+
 ## Checks
 
 ```sh
@@ -107,7 +113,7 @@ npm run check
 This runs the following:
 
 - `catalog:check`: Required fields, project/resource/evidence relationships, duplicate identities, candidate consistency, and optional `preview` media when a resource includes it. A missing `preview` is valid. The check does not download media.
-- `readme:check`: English names, descriptions, links, categories, and counts against the catalog; Chinese resource coverage, categories, and counts. It does not verify translation meaning.
+- `readme:check`: English names, descriptions, links, categories, and counts against the public index; Chinese resource coverage, categories, and counts. Isolated records stay in the inventory and are excluded from both READMEs. It does not verify translation meaning.
 - `traceability:check`: Actual `js-traceability@0.1.0` reference checks, plus the catalog's stricter review-status and project-boundary rules.
 - `test`: Regression tests for matching, candidate decisions, reference validation, and README drift.
 - `lint`: The existing Awesome formatting check.
