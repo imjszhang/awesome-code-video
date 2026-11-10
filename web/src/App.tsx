@@ -4,12 +4,14 @@ import {PrivacyChoices} from './PrivacyChoices';
 import {getAnalyticsConsent,subscribeAnalytics,trackEvent,type AnalyticsPlacement} from './analytics';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
-import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,featuredGalleryItems,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
+import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,featuredGalleryItems,previewSpecs,kindCount,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 export type SiteMeasurement={trackEvent:typeof trackEvent;getAnalyticsConsent:typeof getAnalyticsConsent;subscribeAnalytics:typeof subscribeAnalytics};
 const defaultMeasurement:SiteMeasurement={trackEvent,getAnalyticsConsent,subscribeAnalytics};
 
 function Arrow(){return <span aria-hidden="true">↗</span>}
+/** The code-brackets-and-play mark, drawn inline so the homepage needs no icon font. */
+function BrandMark(){return <svg className="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="13" fill="#fcd228"/><path d="m23 19.5-10.5 12.5 10.5 12.5m18-25 10.5 12.5-10.5 12.5" fill="none" stroke="#111" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/><path d="m28 23 12 9-12 9z" fill="#111"/></svg>}
 function Visual({resource,hero=false}:{resource:Resource,hero?:boolean}){
  const theme=palette(resource);
  return <div className={`visual visual-${theme} ${hero?'visual-hero':''}`} aria-hidden="true">
@@ -66,7 +68,7 @@ export function GalleryCard({resource,href,saved,onSave,activeId,playing,onToggl
   <div className="art-frame">{frame}<span className="art-caption">{preview.caption}</span></div>
   <div className="card-body">
    <div className="card-kicker">
-    <span>{kindNames[resource.kind]}</span>
+    <span className="card-meta"><span>{kindNames[resource.kind]}</span>{previewSpecs(resource).map(spec=><span className="card-spec" key={spec}>{spec}</span>)}</span>
     <button className={`save-button ${saved?'is-saved':''}`} aria-label={`${saved?'Unsave':'Save'} ${resource.name}`} aria-pressed={saved} onClick={()=>onSave(resource.id)}>{saved?'★':'☆'}</button>
    </div>
    <h3><a href={href(`resources/${resource.id}/`)}>{resource.name}<Arrow/></a></h3>
@@ -141,17 +143,30 @@ function useHomePlayback():HomePlaybackControls{
 
 function FeaturedGallery({href,saved,onSave,measurement,playback}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement,playback:HomePlaybackControls}){
  const items=featuredGalleryItems();
+ const track=useRef<HTMLDivElement>(null);
  if(!items.length)return null;
+ function step(direction:1|-1){
+  const node=track.current;
+  if(!node)return;
+  const first=node.firstElementChild?.getBoundingClientRect().width;
+  const calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  node.scrollBy({left:direction*(first?(first+24)*2:node.clientWidth*.8),behavior:calm?'auto':'smooth'});
+ }
  return <section className="featured-gallery" id="featured" aria-labelledby="featured-title">
   <header className="featured-heading">
    <div>
-    <p className="eyebrow">FEATURED</p>
+    <p className="eyebrow">Featured</p>
     <h2 id="featured-title">Look this cool. Steal the recipe.</h2>
-    <p className="featured-lead">A short reel of standout demos. Play one, pause another, then open the source.</p>
    </div>
-   <a href="#explore">Browse the full index <Arrow/></a>
+   <div className="featured-tools">
+    <a href="#explore">Browse the full index <Arrow/></a>
+    <div className="featured-steps">
+     <button type="button" aria-label="Scroll featured demos back" onClick={()=>step(-1)}><span aria-hidden="true">←</span></button>
+     <button type="button" aria-label="Scroll featured demos forward" onClick={()=>step(1)}><span aria-hidden="true">→</span></button>
+    </div>
+   </div>
   </header>
-  <div className="featured-track" role="list">
+  <div className="featured-track" role="list" ref={track}>
    {items.map(resource=><div key={resource.id} className="featured-item" role="listitem"><GalleryCard resource={resource} href={href} saved={saved.includes(resource.id)} onSave={onSave} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo} measurement={measurement} placement="home_featured"/></div>)}
   </div>
  </section>;
@@ -233,12 +248,38 @@ function HomeGallery({href,saved,onSave,measurement,playback}:{href:(path?:strin
  </>;
 }
 
+/** The catalog's three kinds of starting point, and how much of the film each one already builds. */
+const startPaths=[
+ {id:'film',name:'Films & scenes',title:'Start from a finished cut.',text:'A complete, editable project. Story, scene code and timing already work. Bring your own copy, assets and brand.',built:[true,true,true,true,true],status:'Timeline: complete',links:[{kind:'film',unit:'films'},{kind:'scene',unit:'scenes'}]},
+ {id:'shot',name:'Shot recipes',title:'Drop in one good move.',text:'A single shot or motion: a reveal, a camera push, a chart that draws itself. Wire it into the timeline you already have.',built:[false,false,true,false,false],status:'Timeline: one shot',links:[{kind:'shot',unit:'shot recipes'},{kind:'preset',unit:'map presets'}]},
+ {id:'style',name:'Visual styles',title:'Hand over the art direction.',text:'A written specification for a look: palette, type and motion rules. Give it to your coding agent, then build the scenes to match.',built:[false,false,false,false,false],status:'Timeline: yours to build',links:[{kind:'style',unit:'visual styles'}]},
+];
+function StartPaths({href}:{href:(path?:string)=>string}){
+ return <section className="start-paths" aria-labelledby="start-title">
+  <header className="start-heading">
+   <div><p className="eyebrow">Three ways to start</p><h2 id="start-title">Pick how much is already built.</h2></div>
+   <p>Every entry is one of three kinds of starting point. They look alike in a gallery, and ask for very different amounts of work.</p>
+  </header>
+  <ol className="start-grid">
+   {startPaths.map((path,index)=><li key={path.id} className="start-card">
+    <p className="start-kind"><span>{String(index+1).padStart(2,'0')}</span>{path.name}</p>
+    <svg className="start-timeline" viewBox="0 0 220 22" aria-hidden="true" focusable="false">{path.built.map((built,at)=><rect key={at} className={built?'is-built':undefined} x={at*45+.75} y=".75" width="38.5" height="20.5" rx="3"/>)}</svg>
+    <p className="start-status">{path.status}</p>
+    <h3>{path.title}</h3>
+    <p className="start-text">{path.text}</p>
+    <p className="start-links">{path.links.map(link=><a key={link.kind} href={href(`library/?kind=${link.kind}`)}>{kindCount(link.kind)} {link.unit} <Arrow/></a>)}</p>
+   </li>)}
+  </ol>
+ </section>;
+}
+
 function HomeMediaSections({href,saved,onSave,measurement}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement}){
  const playback=useHomePlayback();
  return <>
   <FeaturedGallery href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
+  <StartPaths href={href}/>
   <section className="motion-index" id="explore" aria-labelledby="index-title">
-   <header className="index-heading"><div><p className="eyebrow">THE MOTION INDEX</p><h2 id="index-title">Find a frame. Make it yours.</h2></div><a href={href('library/')}>All {resources.length} resources <Arrow/></a></header>
+   <header className="index-heading"><div><p className="eyebrow">The motion index</p><h2 id="index-title">Find a frame. Make it yours.</h2></div><a href={href('library/')}>Search all {resources.length} resources <Arrow/></a></header>
    <HomeGallery href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
   </section>
  </>;
@@ -295,37 +336,41 @@ export function App({path,base='/',measurement=defaultMeasurement}:{path:string,
  if(route.type==='home')content=<>
   <section className="brand-hero" aria-labelledby="home-title">
    <div className="brand-hero-copy">
-    <p className="eyebrow">A FIELD GUIDE TO CODE-DRIVEN VIDEO</p>
-    <h1 id="home-title"><span>Good code.</span><span>Great video.</span></h1>
-    <p className="brand-hero-description">Explore films, motion studies and reusable ideas.<br/>{' '}Find your next visual language. Make it yours.</p>
+    <p className="eyebrow">A field guide to code-driven video</p>
+    <h1 id="home-title"><span className="hero-code">Good code<i>.</i></span><span className="hero-video">Great video.</span></h1>
+    <p className="brand-hero-description">A curated index of {resources.length} resources for making video with code: editable films, shot recipes and visual styles. Watch the result, open the source, see what you can reuse.</p>
     <div className="hero-actions">
-     <a className="button primary" href="#explore">Explore the work <span aria-hidden="true">↓</span></a>
+     <a className="button primary" href="#explore">Browse the index <span aria-hidden="true">↓</span></a>
      <External className="button secondary" href={repo}>View on GitHub</External>
     </div>
    </div>
    <figure className="brand-hero-art">
     <HeroMotion/>
-    <figcaption>CODE <span aria-hidden="true">→</span> FRAME <span aria-hidden="true">→</span> MOTION</figcaption>
+    <figcaption>A six-second loop, drawn in your browser one frame at a time. No video file. Drag the playhead.</figcaption>
    </figure>
-   <a className="hero-scroll" href="#explore">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
   </section>
   <div className="home-content">
-  <section className="collection-signal" aria-label="About the collection">
-   <p>An open collection.<br/>A new starting point.</p>
-   <div className="signal-stats">
-    <div><b>{resources.length}</b><span>curated resources</span></div>
-    <div><b>{projects.length}</b><span>source projects</span></div>
-    <div><b>{collections.length.toString().padStart(2,'0')}</b><span>creative directions</span></div>
-   </div>
+  <section className="collection-signal" aria-label="The collection in numbers">
+   <ul className="signal-stats">
+    <li><b>{resources.length}</b><span>curated resources</span></li>
+    <li><b>{kindCount('film','scene')}</b><span>films &amp; scenes</span></li>
+    <li><b>{kindCount('shot','preset')}</b><span>shots &amp; presets</span></li>
+    <li><b>{kindCount('style')}</b><span>visual styles</span></li>
+    <li><b>{projects.length}</b><span>source projects</span></li>
+   </ul>
   </section>
   <HomeMediaSections href={href} saved={saved} onSave={toggleSave} measurement={measurement}/>
   <section className="use-case-band" aria-labelledby="use-case-title">
-   <div className="use-case-intro"><div><p className="eyebrow">A DIRECTION FOR EVERY IDEA</p><h2 id="use-case-title">Start with a story.</h2></div><p>A launch, an explanation, a journey.<br/>Find the right tools for the thing you want to say.</p></div>
+   <div className="use-case-intro"><div><p className="eyebrow">A direction for every idea</p><h2 id="use-case-title">Start with a story.</h2></div><p>A launch, an explanation, a journey. Find the right tools for the thing you want to say.</p></div>
    <CollectionCards/>
   </section>
   <section className="editorial-note" aria-labelledby="editorial-title">
-   <div><p className="eyebrow">CURATED, WITH CONTEXT</p><h2 id="editorial-title">Borrow a technique.<br/>Build something new.</h2></div>
-   <div><p>Every entry leads to a specific source, with practical reuse notes and an honest review status. The starting point is here. The next frame is yours.</p><a href={href('about/')}>Our selection standard <Arrow/></a></div>
+   <div className="editorial-lead"><p className="eyebrow">Curated, with context</p><h2 id="editorial-title">Borrow a technique.<br/>Build something new.</h2><a href={href('about/')}>Our selection standard <Arrow/></a></div>
+   <ol className="editorial-points">
+    <li><b>A source you can open</b><p>Each entry points at the thing itself, whether a project folder, a scene, a recipe or a style file, and at the people who made it.</p></li>
+    <li><b>Plain reuse notes</b><p>What it looks like, what it suits, and which parts you will need to replace or rebuild yourself.</p></li>
+    <li><b>An honest status</b><p>Sources and licenses are reviewed and dated. A preview is not a render test, and we say so.</p></li>
+   </ol>
   </section>
   </div>
  </>;
@@ -354,9 +399,8 @@ else if(route.type==='library')content=<Library/>;
   <a className="skip-link" href="#main">Skip to content</a>
   <header className="site-header">
    <a className="brand" href={href()} aria-label="Awesome Code Video home">
-    {route.type==='home'?<span className="brand-wordmark">AWESOME CODE VIDEO</span>:<><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></>}
+    {route.type==='home'?<><BrandMark/><span className="brand-wordmark">Awesome Code Video</span></>:<><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></>}
    </a>
-   {route.type==='home'&&<span className="brand-note">CODE × MOTION × POSSIBILITY</span>}
    <button className="menu-toggle" aria-expanded={menu} aria-controls="site-navigation" onClick={()=>setMenu(!menu)}>Menu {menu?'−':'+'}</button>
    <nav id="site-navigation" className={menu?'open':''} aria-label="Main navigation">
     <a aria-current={route.type==='library'?'page':undefined} href={href('library/')}>Library</a>
@@ -373,7 +417,7 @@ else if(route.type==='library')content=<Library/>;
   <main id="main" className={`main ${route.type==='home'?'home-main':''}`}>{content}</main>
   <footer className="footer">
    <div className="footer-top">
-    <a className="brand" href={href()}>{route.type==='home'?<span className="brand-wordmark">AWESOME<br/>CODE VIDEO</span>:<><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></>}</a>
+    <a className="brand" href={href()}>{route.type==='home'?<><BrandMark/><span className="brand-wordmark">Awesome Code Video</span></>:<><span className="brand-icon">{'<▶>'}</span><span>AWESOME<br/><b>CODE VIDEO</b></span></>}</a>
     <p>For people who make<br/>videos with code.</p>
     <div><a href={href('about/')}>Selection standard ↗</a><External href={`${repo}/issues/new/choose`}>Suggest a resource</External><External href={`${repo}/blob/main/README.zh-CN.md`}>中文清单</External></div>
    </div>

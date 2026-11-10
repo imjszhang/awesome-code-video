@@ -5,7 +5,7 @@ import {renderToString} from 'react-dom/server';
 import {App,GalleryCard} from '../web/src/App';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems} from '../web/src/galleryBrowsing';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,previewSpecs,kindCount,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
 
 function renderGalleryCard(resource:Resource,base='/') {
  return renderToString(React.createElement(GalleryCard,{
@@ -466,6 +466,58 @@ test('homepage hero has a code-only static fallback and stays separate from reso
   const library=renderToString(React.createElement(App,{path:`${base}library/`,base}));
   assert.doesNotMatch(library,/\bhome-site\b|hero-motion|art\/code-in-motion\.webp/);
  }
+});
+
+test('homepage reel is server-rendered at rest with labelled, initially disabled controls',()=>{
+ const home=renderToString(React.createElement(App,{path:'/'}));
+ const hero=home.match(/<section\b[^>]*class="brand-hero"[^>]*>([\s\S]*?)<\/section>/)![1];
+ assert.match(hero,/<h1 id="home-title">/);
+ assert.match(hero,/class="hero-motion" data-state="loading" data-shot="title"/);
+ const toggle=hero.match(/<button\b[^>]*class="hero-motion-toggle"[^>]*>/)![0];
+ assert.match(toggle,/type="button"/);
+ assert.match(toggle,/\bdisabled\b/);
+ assert.match(toggle,/aria-label="Play hero animation"/,'a still poster offers Play, not Pause');
+ const scrubber=hero.match(/<input\b[^>]*class="reel-scrubber"[^>]*>/)![0];
+ assert.match(scrubber,/type="range"/);
+ assert.match(scrubber,/min="0"/);
+ assert.match(scrubber,/max="179"/);
+ assert.match(scrubber,/\bdisabled\b/);
+ assert.match(scrubber,/aria-label="[^"]+"/);
+ // The listing is a decorative sketch; assistive technology gets the heading and controls instead.
+ assert.match(hero,/<div class="reel-code" aria-hidden="true">/);
+});
+
+test('homepage explains the three starting points with live catalog counts',()=>{
+ for(const base of ['/','/gallery/']){
+  const home=renderToString(React.createElement(App,{path:base,base})).replace(/<!--[\s\S]*?-->/g,'');
+  const section=home.match(/<section\b[^>]*class="start-paths"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+  assert.ok(section,'ways to start section');
+  assert.ok(home.indexOf('class="start-paths"')>home.indexOf('id="featured"')&&home.indexOf('class="start-paths"')<home.indexOf('id="explore"'));
+  assert.equal([...section.matchAll(/<li\b[^>]*class="start-card"/g)].length,3);
+  for(const kind of ['film','scene','shot','preset','style']){
+   const count=resources.filter(r=>r.kind===kind).length;
+   assert.ok(count>0,kind);
+   assert.equal(kindCount(kind),count);
+   assert.match(section,new RegExp(`<a href="${base}library/\\?kind=${kind}">${count} `),kind);
+  }
+  assert.equal(kindCount('film','scene'),kindCount('film')+kindCount('scene'));
+  const signal=home.match(/<section\b[^>]*class="collection-signal"[^>]*>([\s\S]*?)<\/section>/)![1];
+  for(const count of [resources.length,kindCount('film','scene'),kindCount('shot','preset'),kindCount('style'),projects.length])assert.match(signal,new RegExp(`<b>${count}</b>`));
+ }
+});
+
+test('gallery cards show measured running time and frame size only for the measured file',()=>{
+ const ink=resources.find(r=>r.id==='ink-press')!;
+ assert.deepEqual(previewSpecs(ink),['0:36','1280×720']);
+ const html=renderGalleryCard(ink);
+ assert.match(html,/<span class="card-spec">0:36<\/span><span class="card-spec">1280×720<\/span>/);
+ assert.deepEqual(previewSpecs(resources.find(r=>r.id==='claude-quest')!),['1:00','1280×720']);
+ // A replaced preview URL must not inherit the old file's measurements.
+ assert.deepEqual(previewSpecs({...ink,preview:{...ink.preview!,url:'https://example.com/replaced.mp4'}}),[]);
+ assert.deepEqual(previewSpecs({...ink,preview:undefined}),[]);
+ const unmeasured=homePreviewItems().find(r=>resolvePreview(r).mode==='thumb_link')!;
+ assert.deepEqual(previewSpecs(unmeasured),[]);
+ assert.doesNotMatch(renderGalleryCard(unmeasured),/card-spec/);
 });
 
 test('homepage tabs expose totals and mount only the first video batch',()=>{
