@@ -23,7 +23,7 @@ await writeFile('dist/app-entry.json',JSON.stringify({file:entry.file}));
 const paths=allPaths();
 for(const path of [...paths,'404.html']){
  const route=routeForPath(base+path,base);
- const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${pageSeoHead(route,{site,base,path,indexable})}${release?`<meta name="site-release" content="${release}">`:''}<link rel="modulepreload" href="${base}${entry.file}"><meta name="theme-color" content="#fcd228"><link rel="icon" type="image/svg+xml" href="${base}favicon.svg">${entry.css.map((f:string)=>`<link rel="stylesheet" href="${base}${f}">`).join('')}</head><body><div id="root">${renderToString(React.createElement(App,{path:base+path,base}))}</div><script type="module">${appBootstrap(entry.file,base)}</script></body></html>`;
+ const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${pageSeoHead(route,{site,base,path,indexable})}${release?`<meta name="site-release" content="${release}">`:''}<link rel="modulepreload" href="${base}${entry.file}"><meta name="theme-color" content="#0b0b0c"><link rel="icon" type="image/svg+xml" href="${base}favicon.svg">${entry.css.map((f:string)=>`<link rel="stylesheet" href="${base}${f}">`).join('')}</head><body><div id="root">${renderToString(React.createElement(App,{path:base+path,base}))}</div><script type="module">${appBootstrap(entry.file,base)}</script></body></html>`;
  const file=path==='404.html'?'dist/404.html':join('dist',path,'index.html');
  await mkdir(join(file,'..'),{recursive:true});await writeFile(file,html);
 }

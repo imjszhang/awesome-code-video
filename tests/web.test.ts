@@ -468,6 +468,29 @@ test('homepage hero has a code-only static fallback and stays separate from reso
  }
 });
 
+test('every page shares one shell: the same header, a marked current section and no theme switch',()=>{
+ const pages:[string,string|null][]=[['/',null],['/library/','Library'],['/resources/ink-press/','Library'],['/collections/','Use cases'],['/collections/explainers/','Use cases'],['/projects/','Projects'],['/projects/video-shotcraft/','Projects'],['/about/','About'],['/saved/',null],['/missing/',null]];
+ for(const [path,current] of pages){
+  const html=renderToString(React.createElement(App,{path}));
+  const header=html.match(/<header class="site-header">([\s\S]*?)<\/header>/)?.[1];
+  assert.ok(header,path);
+  assert.match(header,/<svg class="brand-mark"[^>]*aria-hidden="true"/,path);
+  assert.match(header,/<span class="brand-wordmark">Awesome Code Video<\/span>/,path);
+  assert.doesNotMatch(html,/theme-toggle|brand-icon/,path);
+  const marked=[...header.matchAll(/<a aria-current="(page|true)" href="[^"]*">([^<]+)<\/a>/g)].map(match=>match[2]);
+  assert.deepEqual(marked,current?[current]:[],path);
+  // The exact page says "page"; a page beneath a section marks that section without claiming to be it.
+  if(current)assert.match(header,new RegExp(`aria-current="${['/library/','/collections/','/projects/','/about/'].includes(path)?'page':'true'}"`),path);
+  assert.equal(/class="saved-nav" aria-current="page"/.test(header),path==='/saved/',path);
+  assert.equal(/\bhome-site\b/.test(html),path==='/',path);
+ }
+ const library=renderToString(React.createElement(App,{path:'/library/'}));
+ assert.equal([...library.matchAll(/<div class="art-frame"><a class="art-link"[^>]*tabindex="-1" aria-hidden="true">/g)].length,resources.length,'library covers are decorative links inside the shared frame');
+ const projectsPage=renderToString(React.createElement(App,{path:'/projects/'})).replace(/<!--[\s\S]*?-->/g,'');
+ assert.doesNotMatch(projectsPage,/>1 resources</);
+ assert.match(projectsPage,/>1 resource</);
+});
+
 test('homepage reel is server-rendered at rest with labelled, initially disabled controls',()=>{
  const home=renderToString(React.createElement(App,{path:'/'}));
  const hero=home.match(/<section\b[^>]*class="brand-hero"[^>]*>([\s\S]*?)<\/section>/)![1];
