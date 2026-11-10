@@ -1,0 +1,5 @@
+{
+  "purpose": "public-display-isolation",
+  "resource_project_id": "freelancer-templates",
+  "selection_rule": "Isolate every catalog resource whose project_id is freelancer-templates. That project is the catalog record for https://github.com/linda-mhmd/freelancer-templates.org (GitHub repository id 1190396994) and https://freelancer-templates.org/. On main 2b8c9a282f1ecf947675ee5aee997f2a7db76c5b the rule matches 688 resources: kind film, preview.kind video, preview.redistributable false, preview.license CC-BY-NC-SA (680) or CC-BY-NC-SA-4.0 (8), no top-level license, and a derived WebP poster at /previews/<id>.webp. The project page /projects/freelancer-templates/ is omitted because that project then has no publicly displayed resource. Records, evidence, and poster files stay in the repository. This is display isolation, not deletion, and it does not change the catalog inclusion policy."
+}

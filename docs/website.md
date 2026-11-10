@@ -73,6 +73,8 @@ Run `python3 scripts/generate-preview-posters.py` with curl, ffprobe, and ffmpeg
 
 `data/preview-posters.json` records each source URL, capture time, duration, source dimensions, downloaded source-byte-range hashes (or a complete-source SHA-256 when available), poster SHA-256, license, and attribution. Posters are upstream video stills, not locally rendered reproductions. They retain the source material's terms and do not alter its redistribution flag. Gallery image paths respect `SITE_BASE`; images load lazily and MP4 URLs remain unassigned until Play.
 
+Resources isolated from public display keep their poster files in this repository. The production build copies `web/public` and then removes those isolated posters from `dist/previews`, so the deployed site does not serve them. The same build omits their detail pages, project page, search entries, sitemap URLs, and rows in `dist/data/catalog.json`. See [Catalog maintenance](catalog-maintenance.md#public-display-isolation).
+
 ## Image and page covers
 
 `python3 scripts/generate-image-posters.py` (Pillow and curl required) bundles static stills for image/animation previews. `data/image-preview-posters.json` records source hashes and frame selection. Page covers are recorded in `data/page-preview-posters.json`: YouTube oEmbed thumbnails must match the video ID and official title; website covers must come from the linked site's own metadata. See [the preview audit](preview-audit.md) for scope and the removed incorrect pairing.

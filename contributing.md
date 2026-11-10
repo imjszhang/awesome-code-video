@@ -43,7 +43,7 @@ npm ci --ignore-scripts
 npm run check
 ```
 
-The checks validate catalog identities, evidence references, candidate decisions, README consistency, regression tests, and the unmodified `awesome-lint` 2.3.0 rules. See the [catalog maintenance guide](docs/catalog-maintenance.md) for commands and the project/resource/evidence model. Update `data/resources.json` together with the README; record upstream evidence in `data/evidence.json` and reuse an existing project record when adding another template from the same repository.
+The checks validate catalog identities, evidence references, candidate decisions, README consistency, regression tests, and the unmodified `awesome-lint` 2.3.0 rules. See the [catalog maintenance guide](docs/catalog-maintenance.md) for commands and the project/resource/evidence model. Update `data/resources.json` together with the public README; record upstream evidence in `data/evidence.json` and reuse an existing project record when adding another template from the same repository. Records isolated from public display stay in `data/` and are left out of both READMEs. Do not delete them to satisfy the README check.
 
 Passing lint does not imply acceptance into the main Awesome index. That index has its own submission requirements and review process.
 
