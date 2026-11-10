@@ -176,3 +176,16 @@ export function videoOrientation(resource: Resource): VideoOrientation {
  if (!width || !height || width <= 0 || height <= 0) return 'unknown';
  return width > height ? 'landscape' : width < height ? 'portrait' : 'square';
 }
+
+/** Measured facts about a playable preview file: running time and frame size. Empty when unmeasured. */
+export function previewSpecs(resource: Resource): string[] {
+ const metadata = videoPosters.find(p => p.resource_id === resource.id && p.source_url === resource.preview?.url);
+ if (!metadata) return [];
+ const specs: string[] = [];
+ const seconds = Math.round(metadata.duration_seconds);
+ if (seconds > 0) specs.push(`${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`);
+ if (metadata.source_width > 0 && metadata.source_height > 0) specs.push(`${metadata.source_width}×${metadata.source_height}`);
+ return specs;
+}
+/** Resources of the given kinds, for the homepage's "ways to start" totals. */
+export const kindCount = (...kinds: string[]) => resources.filter(r => kinds.includes(r.kind)).length;

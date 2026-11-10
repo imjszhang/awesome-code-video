@@ -1,43 +1,43 @@
-# Code in motion — homepage visual
+# The homepage reel
 
-The full-width hero is a procedural Canvas 2D film behind a centered HTML heading and buttons. Its story is “code becomes video”: scrolling code generates screens along a curved arc; those screens fold into the concept’s hollow PLAY triangle; the triangle turns once, shrinks to a point, and that point opens into the final moving video. The black/gold palette, arc gallery and monumental triangle follow `work_dir/hero-play/concept.png`. No bitmap or video file is loaded by the live scene.
+The hero's proof is a small player beside the heading: a code listing, a 16:9 stage and a timeline. The stage plays a six-second title sequence drawn on a Canvas 2D context. Nothing is recorded: each frame is computed from its frame number alone, which is the idea behind every resource in the catalog. No bitmap or video file is loaded.
 
-The 30-second loop shares its timing and geometry through `heroModel.ts`:
+## Four shots, 45 frames each
 
-- **0–2 s**: source columns scroll in while empty screen slots appear on the arc.
-- **2–9 s**: each source row highlights before its characters detach, leaving real gaps. Readable characters follow curved paths to a screen; landing pixels, a brief rim pulse and an upward scan reveal its moving image.
-- **9–11 s**: the completed gallery holds, showing what the code generated.
-- **11–14 s**: panels carry their imagery as they shrink, turn and flatten into separate strips along three edges of the still PLAY triangle; every panel has landed by 14 s. Its outline traces in from 12.2 s. No stack of enlarged screens covers the headline.
-- **14–17 s**: the assembled, hollow triangle, with the concept’s parallel gold rails, turns exactly one full revolution clockwise about its centre. The turn eases in and out (quintic, zero speed and acceleration at both ends) and never reverses. The strips ride it and fade into the clean outline from 15.9 s. The triangle is equilateral and sized so its circumcircle stays 12 px inside the viewport, so the turn fits on phones.
-- **17–18.3 s**: the triangle shrinks with one uniform scale about the same centre until it is a single point.
-- **18.3–18.6 s**: the point holds as a brief pale core with a soft gold glow.
-- **18.6–20.5 s**: the widescreen frame grows out of that point from the same centre, at a fixed 16:9 proportion. The triangle is never stretched into the rectangle. The moving image is clipped to the growing frame.
-- **20.5–26 s**: procedural shots keep playing around the central copy, with subtle film-edge ticks and progress along the bottom rim.
-- **26–30 s**: layers dissolve back to the opening; the frame at 30 seconds matches 0 seconds.
+The loop runs at 30 frames per second for 180 frames. Shots cut hard, as in an edit.
 
-Below 760 px, four corner panels use the nearest top or bottom code band. `HeroMotion.tsx` retains pause/play and offscreen suspension. Reduced motion always selects the composed 22-second frame, including when the preference changes during playback. The static SVG fallback combines a subdued triangle with the final frame. This is decorative brand artwork, not an upstream resource preview.
+| Frames | Shot | What is drawn |
+| --- | --- | --- |
+| 0–44 | `type` | “Good code.” typed in JetBrains Mono, one character every two frames, behind a yellow caret that blinks once the line is complete. |
+| 45–89 | `chart` | A paper-coloured frame. A counter eases up to 980 while five bars spring in, staggered by three frames; the tallest is yellow with an ink outline. |
+| 90–134 | `route` | A dotted grid, a dashed flight path from SFO to HND, a yellow line that traces it with an ease-in-out, and a distance counter. The arrival pin springs open at the end. |
+| 135–179 | `title` | “Great video.” rises from behind its baseline; a yellow bar under it fills like playback progress until the loop restarts. |
 
-## Text remains the subject
+The four shots stand in for the catalog's use cases: type and captions, data stories, maps and travel, and title cards.
 
-`HeroMotion.tsx` measures actual headline spans, paragraph lines, eyebrow text and individual buttons as canvas-relative CSS-pixel rectangles. These are cached after font readiness and layout changes using ResizeObserver; no DOM measurement occurs in the animation loop.
+## How it is built
 
-The bright scene layer has no hard exclusions. `drawCopyHalo` runs after the scene and typography and draws a cached feathered veil: a quarter-resolution black alpha mask where each measured text line or button contributes a smooth distance falloff (up to 120px around the headline), merged multiplicatively and capped at 84% dimming. The bilinear upscale of that coarse mask is the feather, so there are no rectangular edges or solid fills. The mask is rebuilt only when the viewport or measured rects change; each frame only draws it, with opacity rising slightly as the film brightens. A warm ring still frames the headline. Motion keeps flowing, subdued, behind the copy. The whole 920px copy container is never used as one large region.
+`web/src/heroReel.ts` holds everything about the film: frame rate, shot lengths, easing curves, the listing and one draw function per shot. `drawReelFrame(ctx, frame)` keeps no state between calls, so playing, looping, pausing and scrubbing all draw the same image for the same frame. It draws in a fixed 960 × 540 space; the caller sets the transform for the canvas's real size.
 
-## Scrolling code columns
+`web/src/HeroMotion.tsx` owns the lifecycle. It waits for the two canvas fonts (with a 2.5 second limit), advances a clock with `requestAnimationFrame`, redraws only when the frame number changes, and mirrors that frame onto three things outside the canvas: the highlighted line in the listing, the playhead and shot label on the timeline, and the timecode. Those updates set one data attribute, one custom property and two values directly; React state changes only for play, pause and readiness.
 
-`heroTypography.ts` draws source-code excerpts with indentation, line numbers and gold/ivory syntax colours. Lines physically scroll upward and wrap; new lines type in at the bottom and fade at the column edges.
+The timeline is a native range input over the track, so it works with a pointer, touch and the arrow keys. Changing it holds that frame until Play is chosen.
 
-- Desktop: 12.5 px main columns; at ≥1100 px, dimmer outer strips scroll more slowly for depth.
-- Below 760 px: short top and bottom bands leave the central copy clear.
-- Characters are selected only if their cells are visible at release, accounting for clipping, typing and feathering. Each flight starts at the real glyph center and lands using the panel’s pixel-space shear and rotation.
-- Columns dim to 22% as the gallery folds, then recede over 24–28 seconds. Source gaps refill only after the code has disappeared.
-- All layers use the same elapsed clock. Tokens and glyph metrics are prepared once; fragment metadata is rebuilt only on viewport changes. Pretext is unnecessary for these fixed-width code columns.
+## What the listing is
 
-Reference: `work_dir/hero-play/concept.png`, with the [Cyber-Taoist](https://cyber-taoist.ai/) black/yellow identity.
+The code beside the stage is a ten-line sketch of the module: one call per shot, in playback order, with the real frame rate, length, text and chart values. It is not the literal source and is hidden from assistive technology, which gets the heading, the two controls and the caption instead.
+
+## Rest states
+
+- Before the canvas is ready, and when JavaScript or Canvas is unavailable, a server-rendered SVG shows the finished title at frame 165.
+- With a reduced-motion preference the reel starts paused on that same frame, including when the preference changes during playback. The viewer can still press Play.
+- Playback stops when the hero leaves the viewport or the tab is hidden.
+
+This is decorative brand material. It is not an upstream resource preview, a screenshot, or evidence that any catalog resource renders.
 
 ## Archived illustration
 
-The original illustration was generated with the built-in imagegen tool on 2026-10-28 and encoded as WebP without changing the composition. It belongs to the earlier enso-and-film design and is kept only as an archive; the current scene's reference is `work_dir/hero-play/concept.png`.
+The original illustration was generated with the built-in imagegen tool on 2026-10-28 and encoded as WebP without changing the composition. It belongs to the earlier enso-and-film design and is kept only as an archive; the homepage does not load it.
 
 - Archived asset: `web/public/art/code-in-motion.webp` (1536 × 1024).
 - Visual reference: [Cyber-Taoist](https://cyber-taoist.ai/), black and gold ink artwork, precise geometric guides, and organic brush textures.
@@ -54,8 +54,3 @@ Composition/framing: landscape 3:2, hero subject centered and occupies 80% with 
 Color palette: pure black #000000 background (must match black website seamlessly); golden yellow #FCD228; small warm gray highlights only. No other colors. Flat yellow ink, not shiny metallic gradients.
 Constraints: no people, no letters, no words, no numbers, no logo, no watermark, no interface, no mockup, no border. This is a brand illustration, not a resource screenshot. Crisp detail at large size.
 ```
-
-
-## Gallery depth refinement
-
-Foreground panels retain the concept’s larger scale, shaded voxel faces, warm illumination and crisp edges. The merged video uses denser procedural imagery, a three-arm galaxy and a lighter central falloff so the moving image stays visible behind the page’s existing text veil. All visuals are generated by code.
