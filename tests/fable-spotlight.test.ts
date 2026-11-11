@@ -54,7 +54,7 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
   for (const item of items) assert.equal(posters.some(name => name.includes(item.id)), false, item.id);
 });
 
-test('homepage spotlight shows the latest 12 posts between the stats row and Featured', () => {
+test('homepage spotlight shows the latest 24 posts between the stats row and Featured', () => {
   const home = renderToString(React.createElement(App, {path: '/'}));
   const heroAt = home.indexOf('brand-hero');
   const signalAt = home.indexOf('collection-signal');
@@ -74,9 +74,11 @@ test('homepage spotlight shows the latest 12 posts between the stats row and Fea
   assert.doesNotMatch(section, /Render tested|Source reviewed|Editorial cover|reuse brief/i);
   const cards = [...section.matchAll(/data-spotlight-id="(\d+)"/g)].map(match => match[1]);
   const latest = fableSpotlightHomeItems();
-  assert.equal(homeLimit, 12);
+  assert.equal(homeLimit, 24);
   assert.deepEqual(cards, latest.map(item => item.id));
-  assert.equal(cards.includes(fableSpotlightItems()[12].id), false);
+  assert.equal(cards.includes(fableSpotlightItems()[24].id), false);
+  assert.match(section, /class="fable-spotlight-grid"/);
+  assert.doesNotMatch(section, /featured-track|Scroll Fable 5\.2 posts/);
   for (const item of latest) {
     const card = section.slice(section.indexOf(`data-spotlight-id="${item.id}"`), section.indexOf(`data-spotlight-id="${item.id}"`) + 2500);
     assert.equal(card.includes(`href="${item.url}"`), true, item.id);
@@ -91,9 +93,11 @@ test('homepage spotlight shows the latest 12 posts between the stats row and Fea
     const attrs = video.replace(/\s(?:src|poster)="[^"]*"/gi, '');
     assert.doesNotMatch(attrs, /\b(?:autoplay|controls|muted|loop)\b/i);
     assert.match(card, /class="preview-play"/);
-    assert.match(card, /aspect-ratio|preview-poster/);
+    assert.match(card, new RegExp(`data-frame="${spotlightFrame(item)}"`));
   }
-  assert.equal([...section.matchAll(/<video\b/g)].length, 12);
+  assert.equal([...section.matchAll(/<video\b/g)].length, 24);
+  assert.ok(latest.some(item => spotlightFrame(item) === 'portrait'));
+  assert.ok(latest.some(item => spotlightFrame(item) === 'landscape'));
   assert.doesNotMatch(section, /\/previews\//);
   const signal = home.match(/<section\b[^>]*class="collection-signal"[^>]*>([\s\S]*?)<\/section>/)![1];
   const inventory = JSON.parse(read('data/resources.json')) as {id: string}[];
@@ -165,7 +169,7 @@ test('spotlight play loads the original file muted and does not autoplay', async
     await act(async () => {root.render(React.createElement(App, {path: '/'}));});
     const section = dom.window.document.querySelector('.fable-spotlight')!;
     const videos = [...section.querySelectorAll('video')];
-    assert.equal(videos.length, 12);
+    assert.equal(videos.length, 24);
     for (const video of videos) {
       assert.equal(video.getAttribute('src'), null);
       assert.equal(video.preload, 'none');

@@ -125,10 +125,16 @@
 .home-site .editorial-lead a:hover,
 .home-site .start-links a:hover { border-bottom-color: var(--playhead); }
 
-/* Fable 5.2: the same horizontal contact sheet as Featured, in a 16:9 frame. */
+/* Fable 5.2: a dense grid. Each card keeps the post's landscape, portrait, or square frame. */
 .home-site .fable-spotlight { margin-top: 72px; }
 .home-site .fable-spotlight-copy { max-width: 46em; margin: 14px 0 0; color: var(--soft); font-size: 16px; line-height: 1.6; text-wrap: pretty; }
-.home-site .fable-spotlight .preview-poster { aspect-ratio: 16 / 9; }
+.home-site .fable-spotlight-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px 14px; align-items: start; }
+.home-site .fable-spotlight-grid .card-body { padding-top: 10px; }
+.home-site .fable-spotlight-grid .card-body h3 { margin: 6px 0 4px; font-size: 15px; }
+.home-site .fable-spotlight-grid .card-body > p { margin-bottom: 8px; font-size: 13px; -webkit-line-clamp: 2; }
+.home-site .fable-spotlight .spotlight-card[data-frame='landscape'] .preview-poster { aspect-ratio: 16 / 9; }
+.home-site .fable-spotlight .spotlight-card[data-frame='portrait'] .preview-poster { aspect-ratio: 9 / 16; }
+.home-site .fable-spotlight .spotlight-card[data-frame='square'] .preview-poster { aspect-ratio: 1; }
 
 /* Featured: a contact sheet you can play. */
 .home-site .featured-gallery { margin-top: 72px; }
@@ -226,6 +232,7 @@
 
 
 @media (max-width: 1180px) {
+  .home-site .fable-spotlight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .home-site .brand-hero { gap: 44px; padding-block: 56px; }
   .home-site .signal-stats li { flex-direction: column; gap: 8px; padding-left: 20px; }
   .home-site .signal-stats b { font-size: 30px; }
@@ -266,6 +273,7 @@
   .home-site .reel-scrubber::-webkit-slider-thumb { height: 44px; }
   .home-site .fable-spotlight,
   .home-site .featured-gallery { margin-top: 60px; }
+  .home-site .fable-spotlight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 12px; }
   .home-site .featured-track { grid-auto-columns: 82vw; gap: 16px; }
   .home-site .gallery-navigation { gap: 18px; overflow-x: auto; scrollbar-width: none; }
   .home-site .gallery-navigation button { flex-shrink: 0; font-size: 15px; white-space: nowrap; }

@@ -38,8 +38,8 @@ export type FableSpotlightCollection = {
 export const fableSpotlight = gallery as FableSpotlightCollection;
 export const FABLE_SPOTLIGHT_ID = 'fable-5-2';
 export const FABLE_SPOTLIGHT_PATH = `spotlight/${FABLE_SPOTLIGHT_ID}/`;
-/** Homepage horizontal row. The full index lives at FABLE_SPOTLIGHT_PATH. */
-export const FABLE_SPOTLIGHT_HOME_LIMIT = 12;
+/** Homepage grid. The full index lives at FABLE_SPOTLIGHT_PATH. */
+export const FABLE_SPOTLIGHT_HOME_LIMIT = 24;
 
 export type SpotlightFrame = 'landscape' | 'portrait' | 'square';
 
