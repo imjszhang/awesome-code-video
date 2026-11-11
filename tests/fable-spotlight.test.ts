@@ -97,9 +97,15 @@ test('homepage spotlight shows the latest 24 posts between the stats row and Fea
     assert.match(block.frame === 'landscape' ? section : section, new RegExp(`>${block.frame === 'landscape' ? 'Landscape' : block.frame === 'portrait' ? 'Portrait' : 'Square'}<`));
   }
   const css = read('web/src/styles.css');
-  assert.match(css, /\.fable-frame\[data-frame='landscape'\] \.preview-poster \{ aspect-ratio: 16 \/ 9; \}/);
-  assert.match(css, /\.fable-frame\[data-frame='portrait'\] \.preview-poster \{ aspect-ratio: 9 \/ 16; \}/);
-  assert.match(css, /\.fable-frame\[data-frame='square'\] \.preview-poster \{ aspect-ratio: 1; \}/);
+  assert.match(css, /\.fable-frame\[data-frame='landscape'\] \.art-link \{ aspect-ratio: 16 \/ 9; \}/);
+  assert.match(css, /\.fable-frame\[data-frame='portrait'\] \.art-link \{ aspect-ratio: 9 \/ 16; \}/);
+  assert.match(css, /\.fable-frame\[data-frame='square'\] \.art-link \{ aspect-ratio: 1 \/ 1; \}/);
+  assert.match(css, /\.fable-frame \.preview-poster,\s*\.fable-frame \.preview-player \{[^}]*object-fit: cover;/);
+  assert.doesNotMatch(css, /\.fable-frame[^{]*\{[^}]*object-fit:\s*fill/);
+  assert.match(css, /\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(4, minmax\(0, 1fr\)\); \}/);
+  assert.match(css, /\.fable-frame\[data-frame='portrait'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='square'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(6, minmax\(0, 1fr\)\); \}/);
+  assert.match(css, /@media \(max-width: 1180px\) \{[\s\S]*\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(3, minmax\(0, 1fr\)\); \}/);
+  assert.match(css, /@media \(max-width: 640px\) \{[\s\S]*?\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='portrait'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='square'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(2, minmax\(0, 1fr\)\);/);
   const mixed = fableSpotlightItems().slice(0, 2).map((item, index) => ({...item, video_url: index === 0 ? 'https://video.twimg.com/vid/avc1/1920x1080/a.mp4' : 'https://video.twimg.com/vid/avc1/1080x1920/a.mp4'}));
   assert.deepEqual(fableSpotlightBlocks(mixed).map(block => block.frame), ['landscape', 'portrait']);
   for (const item of latest) {

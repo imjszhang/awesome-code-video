@@ -228,7 +228,6 @@
 
 
 @media (max-width: 1180px) {
-  .home-site .fable-spotlight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .home-site .brand-hero { gap: 44px; padding-block: 56px; }
   .home-site .signal-stats li { flex-direction: column; gap: 8px; padding-left: 20px; }
   .home-site .signal-stats b { font-size: 30px; }
@@ -269,7 +268,6 @@
   .home-site .reel-scrubber::-webkit-slider-thumb { height: 44px; }
   .home-site .fable-spotlight,
   .home-site .featured-gallery { margin-top: 60px; }
-  .home-site .fable-spotlight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 12px; }
   .home-site .featured-track { grid-auto-columns: 82vw; gap: 16px; }
   .home-site .gallery-navigation { gap: 18px; overflow-x: auto; scrollbar-width: none; }
   .home-site .gallery-navigation button { flex-shrink: 0; font-size: 15px; white-space: nowrap; }
