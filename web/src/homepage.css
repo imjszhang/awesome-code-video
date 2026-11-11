@@ -125,6 +125,11 @@
 .home-site .editorial-lead a:hover,
 .home-site .start-links a:hover { border-bottom-color: var(--playhead); }
 
+/* Fable 5.2: the same horizontal contact sheet as Featured, in a 16:9 frame. */
+.home-site .fable-spotlight { margin-top: 72px; }
+.home-site .fable-spotlight-copy { max-width: 46em; margin: 14px 0 0; color: var(--soft); font-size: 16px; line-height: 1.6; text-wrap: pretty; }
+.home-site .fable-spotlight .preview-poster { aspect-ratio: 16 / 9; }
+
 /* Featured: a contact sheet you can play. */
 .home-site .featured-gallery { margin-top: 72px; }
 .home-site .featured-tools { display: flex; align-items: center; gap: 24px; flex-shrink: 0; }
@@ -259,6 +264,7 @@
   .home-site .reel-track { height: 44px; }
   .home-site .reel-shots span { line-height: 44px; }
   .home-site .reel-scrubber::-webkit-slider-thumb { height: 44px; }
+  .home-site .fable-spotlight,
   .home-site .featured-gallery { margin-top: 60px; }
   .home-site .featured-track { grid-auto-columns: 82vw; gap: 16px; }
   .home-site .gallery-navigation { gap: 18px; overflow-x: auto; scrollbar-width: none; }

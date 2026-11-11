@@ -5,6 +5,7 @@ import videoFormatEvidence from '../../data/video-format-evidence.json';
 import videoPosters from '../../data/preview-posters.json';
 import imagePosters from '../../data/image-preview-posters.json';
 import MiniSearch from 'minisearch';
+import { FABLE_SPOTLIGHT_ID, FABLE_SPOTLIGHT_PATH, fableSpotlight } from './fableSpotlight';
 import { isCompletePreview, resolvePreview, type ResourcePreview } from './preview';
 
 /**
@@ -144,7 +145,7 @@ export function filterResources({q='',kind='',project='',use='',sort='curated'}:
  else if(matches) out=[...out].sort((a,b)=>scores.get(a.id)!-scores.get(b.id)!);
  return out;
 }
-export type Route = {type:'home'|'library'|'projects'|'collections'|'about'|'saved'|'notfound'} | {type:'resource'|'project'|'collection',id:string};
+export type Route = {type:'home'|'library'|'projects'|'collections'|'about'|'saved'|'notfound'} | {type:'resource'|'project'|'collection'|'spotlight',id:string};
 export function routeForPath(path:string,base='/'):Route {
  if(!path.startsWith(base)) return {type:'notfound'};
  const parts=path.slice(base.length).replace(/^\/+|\/+$/g,'').split('/').filter(Boolean);
@@ -155,14 +156,16 @@ export function routeForPath(path:string,base='/'):Route {
   if(section==='resources' && resources.some(r=>r.id===id))return {type:'resource',id};
   if(section==='projects' && projects.some(p=>p.id===id))return {type:'project',id};
   if(section==='collections' && collections.some(c=>c.id===id))return {type:'collection',id};
+  if(section==='spotlight' && id===FABLE_SPOTLIGHT_ID)return {type:'spotlight',id};
  }
  return {type:'notfound'};
 }
-export function allPaths(){return ['','library/','projects/','collections/','about/','saved/',...resources.map(r=>`resources/${r.id}/`),...projects.map(p=>`projects/${p.id}/`),...collections.map(c=>`collections/${c.id}/`)];}
+export function allPaths(){return ['','library/','projects/','collections/','about/','saved/',FABLE_SPOTLIGHT_PATH,...resources.map(r=>`resources/${r.id}/`),...projects.map(p=>`projects/${p.id}/`),...collections.map(c=>`collections/${c.id}/`)];}
 export function pageMeta(route:Route){
  if(route.type==='resource'){const r=resources.find(r=>r.id===route.id)!;return {title:`${r.name} — ${kindNames[r.kind]} | Awesome Code Video`,description:r.description};}
  if(route.type==='project'){const p=projects.find(p=>p.id===route.id)!;return {title:`${p.name} Resources | Awesome Code Video`,description:`Explore selected ${p.name} resources, reuse notes, and reviewed source links for making videos with code.`};}
  if(route.type==='collection'){const c=collections.find(c=>c.id===route.id)!;return {title:`${c.name} for Videos Made with Code | Awesome Code Video`,description:c.description};}
+ if(route.type==='spotlight')return {title:`${fableSpotlight.title} | Awesome Code Video`,description:fableSpotlight.description};
  const names:Record<string,string>={home:'Awesome Code Video — Styles, Shots & Templates',library:'Explore the Library | Awesome Code Video',projects:'Source Projects | Awesome Code Video',collections:'Video Use Cases | Awesome Code Video',about:'How We Curate | Awesome Code Video',saved:'Your Saved Resources | Awesome Code Video',notfound:'Page Not Found | Awesome Code Video'};
  const descriptions:Record<string,string>={
   home:'Discover curated video templates, visual styles, shot recipes, and workflows for making videos with code. Find the source and understand what to reuse.',

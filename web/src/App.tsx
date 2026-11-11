@@ -4,6 +4,7 @@ import {PrivacyChoices} from './PrivacyChoices';
 import {getAnalyticsConsent,subscribeAnalytics,trackEvent,type AnalyticsPlacement} from './analytics';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
+import {fableSpotlight,fableSpotlightHomeItems,fableSpotlightItems,spotlightDuration,spotlightExcerpt,spotlightFrame,FABLE_SPOTLIGHT_PATH,type FableSpotlightItem} from './fableSpotlight';
 import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,featuredGalleryItems,previewSpecs,kindCount,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 export type SiteMeasurement={trackEvent:typeof trackEvent;getAnalyticsConsent:typeof getAnalyticsConsent;subscribeAnalytics:typeof subscribeAnalytics};
@@ -187,6 +188,77 @@ function FeaturedGallery({href,saved,onSave,measurement,playback}:{href:(path?:s
  </section>;
 }
 
+function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo}:{item:FableSpotlightItem,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void}){
+ const playbackId=`spotlight:${item.id}`;
+ const previewDomId=`preview-spotlight-${item.id}`;
+ const armed=activeId===playbackId;
+ const showPause=armed&&playing;
+ const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(playbackId,node,item.video_url);},[onVideo,playbackId,item.video_url]);
+ const clock=spotlightDuration(item.duration_ms);
+ const excerpt=spotlightExcerpt(item.text);
+ return <article className="spotlight-card" data-spotlight-id={item.id} data-frame={spotlightFrame(item)}>
+  <div className="art-frame">
+   <div className="art-link">
+    <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} public post: ${item.author_name}`} onClick={()=>onToggle(playbackId)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
+    <img className="preview-media preview-poster" src={item.preview} alt="" loading="lazy" decoding="async"/>
+    <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={item.preview} playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={()=>onPlayback(playbackId,true)} onEnded={()=>onPlayback(playbackId,false)} onPause={()=>onPlayback(playbackId,false)}/>
+   </div>
+   <span className="art-caption">Public post</span>
+  </div>
+  <div className="card-body">
+   <p className="card-kicker"><span className="card-meta"><span>{`@${item.author}`}</span>{clock?<span className="card-spec">{clock}</span>:null}</span></p>
+   <h3><a href={item.url} target="_blank" rel="noopener noreferrer">{item.author_name}<Arrow/></a></h3>
+   {excerpt?<p>{excerpt}</p>:null}
+   <p className="card-foot"><a href={item.url} target="_blank" rel="noopener noreferrer">Original post</a></p>
+  </div>
+ </article>;
+}
+
+function FableSpotlightStrip({href,playback}:{href:(path?:string)=>string,playback:HomePlaybackControls}){
+ const items=fableSpotlightHomeItems();
+ const track=useRef<HTMLDivElement>(null);
+ if(!items.length)return null;
+ function step(direction:1|-1){
+  const node=track.current;
+  if(!node)return;
+  const first=node.firstElementChild?.getBoundingClientRect().width;
+  const calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  node.scrollBy({left:direction*(first?(first+24)*2:node.clientWidth*.8),behavior:calm?'auto':'smooth'});
+ }
+ return <section className="fable-spotlight" id="fable-5-2" aria-labelledby="fable-spotlight-title">
+  <header className="featured-heading">
+   <div>
+    <p className="eyebrow">{fableSpotlight.eyebrow}</p>
+    <h2 id="fable-spotlight-title">{fableSpotlight.title}</h2>
+    <p className="fable-spotlight-copy">{fableSpotlight.description}</p>
+   </div>
+   <div className="featured-tools">
+    <a href={href(FABLE_SPOTLIGHT_PATH)}>{`All ${fableSpotlightItems().length} posts `}<Arrow/></a>
+    <div className="featured-steps">
+     <button type="button" aria-label="Scroll Fable 5.2 posts back" onClick={()=>step(-1)}><span aria-hidden="true">←</span></button>
+     <button type="button" aria-label="Scroll Fable 5.2 posts forward" onClick={()=>step(1)}><span aria-hidden="true">→</span></button>
+    </div>
+   </div>
+  </header>
+  <div className="featured-track" role="list" ref={track}>
+   {items.map(item=><div key={item.id} className="featured-item" role="listitem"><SpotlightCard item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/></div>)}
+  </div>
+ </section>;
+}
+
+function FableSpotlightPage({href}:{href:(path?:string)=>string}){
+ const playback=useHomePlayback();
+ const items=fableSpotlightItems();
+ return <>
+  <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href()}>Home</a><span>/</span><span>{fableSpotlight.title}</span></nav>
+  <Intro label={fableSpotlight.eyebrow} title={fableSpotlight.title} text={fableSpotlight.description}/>
+  <section className="spotlight-index" aria-label={fableSpotlight.title}>
+   <p className="spotlight-count">{`${items.length} public posts, newest first`}</p>
+   <div className="card-grid">{items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/>)}</div>
+  </section>
+ </>;
+}
+
 function HomeGallery({href,saved,onSave,measurement,playback}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement,playback:HomePlaybackControls}){
  const {trackEvent}=measurement;
  const {resetPlayback,playback:playbackState,onVideo,onPlayback,toggle}=playback;
@@ -288,8 +360,7 @@ function StartPaths({href}:{href:(path?:string)=>string}){
  </section>;
 }
 
-function HomeMediaSections({href,saved,onSave,measurement}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement}){
- const playback=useHomePlayback();
+function HomeMediaSections({href,saved,onSave,measurement,playback}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement,playback:HomePlaybackControls}){
  return <>
   <FeaturedGallery href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
   <StartPaths href={href}/>
@@ -297,6 +368,14 @@ function HomeMediaSections({href,saved,onSave,measurement}:{href:(path?:string)=
    <header className="index-heading"><div><p className="eyebrow">The motion index</p><h2 id="index-title">Find a frame. Make it yours.</h2></div><a href={href('library/')}>Search all {resources.length} resources <Arrow/></a></header>
    <HomeGallery href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
   </section>
+ </>;
+}
+
+function HomeSpotlightAndMedia({href,saved,onSave,measurement}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement}){
+ const playback=useHomePlayback();
+ return <>
+  <FableSpotlightStrip href={href} playback={playback}/>
+  <HomeMediaSections href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
  </>;
 }
 
@@ -394,7 +473,7 @@ export function App({path,base='/',measurement=defaultMeasurement}:{path:string,
     <li><b>{projects.length}</b><span>source projects</span></li>
    </ul>
   </section>
-  <HomeMediaSections href={href} saved={saved} onSave={toggleSave} measurement={measurement}/>
+  <HomeSpotlightAndMedia href={href} saved={saved} onSave={toggleSave} measurement={measurement}/>
   <section className="use-case-band" aria-labelledby="use-case-title">
    <div className="use-case-intro"><div><p className="eyebrow">A direction for every idea</p><h2 id="use-case-title">Start with a story.</h2></div><p>A launch, an explanation, a journey. Find the right tools for the thing you want to say.</p></div>
    <CollectionCards/>
@@ -415,6 +494,7 @@ else if(route.type==='library')content=<Library {...page}/>;
  else if(route.type==='project'){const p=projects.find(p=>p.id===route.id)!;content=<><nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href('projects/')}>Projects</a><span>/</span><span>{p.name}</span></nav><Intro label="SOURCE PROJECT" title={p.name} text="Selected reusable resources from this project, with specific artifact links and review notes."/><div className="page-actions"><External href={p.url} className="button primary">Visit original project</External><a href={href('projects/')}>All projects →</a></div><CardGrid {...cards} items={resources.filter(r=>r.project_id===p.id)}/></>}
  else if(route.type==='collections')content=<><Intro label="START WITH YOUR STORY" title="A direction for every idea." text="Curated paths through the library. Pick the kind of video you want to make, then find a useful starting point."/><CollectionCards/></>;
  else if(route.type==='collection'){const c=collections.find(c=>c.id===route.id)!;content=<><nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href('collections/')}>Use cases</a><span>/</span><span>{c.name}</span></nav><Intro label="CURATED USE CASE" title={c.name} text={c.description}/><div className="collection-banner"><span>{c.symbol}</span><p>{c.caption}</p><b>{c.ids.length} starting points</b></div><CardGrid {...cards} items={c.ids.map(id=>resources.find(r=>r.id===id)!)}/></>}
+ else if(route.type==='spotlight')content=<FableSpotlightPage href={href}/>;
  else if(route.type==='about')content=<About/>;
  else if(route.type==='saved')content=<><Intro label="YOUR SHORTLIST" title="Keep the good stuff." text="Resources you saved in this browser. No account required; clearing browser storage removes this list."/>{saved.length?<CardGrid {...cards} items={resources.filter(r=>saved.includes(r.id))}/>:<div className="empty"><strong>Your next idea is out there.</strong><p>Use the star on a resource to save it here.</p><a className="button primary" href={href('library/')}>Explore the library ↗</a></div>}</>;
  else content=<><Intro label="404 / FRAME NOT FOUND" title="This shot is missing." text="The page may have moved, or the address may be incorrect."/><a className="button primary" href={href('library/')}>Back to the library ↗</a></>;
@@ -422,7 +502,7 @@ else if(route.type==='library')content=<Library {...page}/>;
   if(event.defaultPrevented||(event.type==='click'?event.button!==0:event.button!==1))return;
   const anchor=(event.target as Element).closest<HTMLAnchorElement>('a[href]');
   if(!anchor)return;
-  const placement=anchor.closest('header')?'header':anchor.closest('footer')?'footer':anchor.closest('.brand-hero')?'hero':anchor.closest('#sources')?'review_sources':anchor.closest('.source-panel')?'source_panel':anchor.closest('.preview-details')?'gallery_preview':anchor.closest('.featured-gallery')?'home_featured':route.type==='home'?'home_gallery':route.type==='resource'?'resource_detail':route.type==='collection'?'collection':route.type==='project'?'project':route.type==='saved'?'saved':route.type==='about'?'about':'library';
+  const placement=anchor.closest('header')?'header':anchor.closest('footer')?'footer':anchor.closest('.brand-hero')?'hero':anchor.closest('#sources')?'review_sources':anchor.closest('.source-panel')?'source_panel':anchor.closest('.preview-details')?'gallery_preview':anchor.closest('.fable-spotlight')?'home_spotlight':anchor.closest('.spotlight-index')?'spotlight':anchor.closest('.featured-gallery')?'home_featured':route.type==='home'?'home_gallery':route.type==='spotlight'?'spotlight':route.type==='resource'?'resource_detail':route.type==='collection'?'collection':route.type==='project'?'project':route.type==='saved'?'saved':route.type==='about'?'about':'library';
   const action=navigationAction(anchor.href,window.location.origin,base,anchor.closest<HTMLElement>('[data-resource-id]')?.dataset.resourceId,anchor.dataset.primaryResource);
   if(!action)return;
   if(action.event==='open_resource'){trackEvent('open_resource',{...resourceParams(action.resource),destination_domain:action.destination_domain,placement});return;}
