@@ -5,7 +5,7 @@ import React,{act} from 'react';
 import {JSDOM} from 'jsdom';
 import {renderToString} from 'react-dom/server';
 import {App} from '../web/src/App';
-import {FABLE_SPOTLIGHT_HOME_LIMIT,FABLE_SPOTLIGHT_PATH,fableSpotlight,fableSpotlightHomeItems,fableSpotlightItems,spotlightFrame} from '../web/src/fableSpotlight';
+import {FABLE_SPOTLIGHT_HOME_LIMIT,FABLE_SPOTLIGHT_PATH,fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,spotlightFrame} from '../web/src/fableSpotlight';
 import {allPaths,kindCount,pageMeta,projects,resources,routeForPath} from '../web/src/model';
 
 const forbiddenCopy = /已渲染实测|we rendered this|verified render/i;
@@ -13,6 +13,14 @@ const homeLimit = FABLE_SPOTLIGHT_HOME_LIMIT;
 
 function read(path: string) {
   return readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
+}
+
+function frameSections(html: string) {
+  return [...html.matchAll(/<section\b(?=[^>]*\bclass="fable-frame\b")(?=[^>]*\bdata-frame="(landscape|portrait|square)")[^>]*>([\s\S]*?)<\/section>/g)].map(match => ({
+    frame: match[1],
+    ids: [...match[2].matchAll(/data-spotlight-id="(\d+)"/g)].map(item => item[1]),
+    frames: [...match[2].matchAll(/data-frame="([^"]+)"/g)].map(item => item[1]),
+  }));
 }
 
 function spotlightSection(html: string) {
@@ -75,10 +83,25 @@ test('homepage spotlight shows the latest 24 posts between the stats row and Fea
   const cards = [...section.matchAll(/data-spotlight-id="(\d+)"/g)].map(match => match[1]);
   const latest = fableSpotlightHomeItems();
   assert.equal(homeLimit, 24);
-  assert.deepEqual(cards, latest.map(item => item.id));
+  const blocks = fableSpotlightBlocks(latest);
+  assert.deepEqual(cards, blocks.flatMap(block => block.items.map(item => item.id)));
   assert.equal(cards.includes(fableSpotlightItems()[24].id), false);
+  assert.equal(cards.length, latest.length);
   assert.match(section, /class="fable-spotlight-grid"/);
   assert.doesNotMatch(section, /featured-track|Scroll Fable 5\.2 posts/);
+  const rendered = frameSections(section);
+  assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
+  for (const block of rendered) {
+    assert.equal(block.ids.length, blocks.find(item => item.frame === block.frame)!.items.length);
+    assert.ok(block.frames.every(frame => frame === block.frame), block.frame);
+    assert.match(block.frame === 'landscape' ? section : section, new RegExp(`>${block.frame === 'landscape' ? 'Landscape' : block.frame === 'portrait' ? 'Portrait' : 'Square'}<`));
+  }
+  const css = read('web/src/styles.css');
+  assert.match(css, /\.fable-frame\[data-frame='landscape'\] \.preview-poster \{ aspect-ratio: 16 \/ 9; \}/);
+  assert.match(css, /\.fable-frame\[data-frame='portrait'\] \.preview-poster \{ aspect-ratio: 9 \/ 16; \}/);
+  assert.match(css, /\.fable-frame\[data-frame='square'\] \.preview-poster \{ aspect-ratio: 1; \}/);
+  const mixed = fableSpotlightItems().slice(0, 2).map((item, index) => ({...item, video_url: index === 0 ? 'https://video.twimg.com/vid/avc1/1920x1080/a.mp4' : 'https://video.twimg.com/vid/avc1/1080x1920/a.mp4'}));
+  assert.deepEqual(fableSpotlightBlocks(mixed).map(block => block.frame), ['landscape', 'portrait']);
   for (const item of latest) {
     const card = section.slice(section.indexOf(`data-spotlight-id="${item.id}"`), section.indexOf(`data-spotlight-id="${item.id}"`) + 2500);
     assert.equal(card.includes(`href="${item.url}"`), true, item.id);
@@ -139,7 +162,13 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   assert.match(html, /<h1>Fable 5\.2<\/h1>/);
   assert.match(html, new RegExp(`${items.length} public posts, newest first`));
   const cards = [...html.matchAll(/data-spotlight-id="(\d+)"/g)].map(match => match[1]);
-  assert.deepEqual(cards, items.map(item => item.id));
+  const blocks = fableSpotlightBlocks(items);
+  assert.deepEqual(cards, blocks.flatMap(block => block.items.map(item => item.id)));
+  assert.equal(cards.length, 118);
+  const rendered = frameSections(html);
+  assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
+  for (const block of rendered) assert.ok(block.frames.every(frame => frame === block.frame));
+  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 118);
   for (const item of items) assert.equal(html.includes(`href="${item.url}"`), true, item.id);
   assert.equal([...html.matchAll(/<video\b/g)].length, items.length);
   assert.equal([...html.matchAll(/\bautoplay\b/gi)].length, 0);

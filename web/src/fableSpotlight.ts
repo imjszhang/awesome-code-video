@@ -56,6 +56,27 @@ export function fableSpotlightHomeItems(items: readonly FableSpotlightItem[] = f
   return fableSpotlightItems(items).slice(0, FABLE_SPOTLIGHT_HOME_LIMIT);
 }
 
+export const spotlightFrameOrder = ['landscape', 'portrait', 'square'] as const;
+
+const spotlightFrameLabels: Record<SpotlightFrame, string> = {
+  landscape: 'Landscape',
+  portrait: 'Portrait',
+  square: 'Square',
+};
+
+/** Keep the incoming order, which is original-post time descending. */
+export function fableSpotlightGroups(items: readonly FableSpotlightItem[]): Record<SpotlightFrame, FableSpotlightItem[]> {
+  const groups: Record<SpotlightFrame, FableSpotlightItem[]> = {landscape: [], portrait: [], square: []};
+  for (const item of items) groups[spotlightFrame(item)].push(item);
+  return groups;
+}
+
+/** Non-empty frame blocks, landscape then portrait then square. */
+export function fableSpotlightBlocks(items: readonly FableSpotlightItem[]): {frame: SpotlightFrame; label: string; items: FableSpotlightItem[]}[] {
+  const groups = fableSpotlightGroups(items);
+  return spotlightFrameOrder.flatMap(frame => groups[frame].length ? [{frame, label: spotlightFrameLabels[frame], items: groups[frame]}] : []);
+}
+
 /** Frame size encoded in the original host path, when the URL includes one. */
 export function spotlightFrame(item: Pick<FableSpotlightItem, 'video_url'>): SpotlightFrame {
   const match = item.video_url.match(/(\d{2,5})x(\d{2,5})/);
