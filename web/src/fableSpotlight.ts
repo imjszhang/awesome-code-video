@@ -1,11 +1,14 @@
 import gallery from '../../data/fable-52-gallery.json';
+import posters from '../../data/fable-52-posters.json';
 
 /**
  * Public Fable 5.2 posts, kept outside the curated catalog.
  * Append new posts to data/fable-52-gallery.json only. Do not merge this
  * file into data/resources.json, data/evidence.json, data/projects.json,
  * data/collections.json, or the README index, and do not add these posts
- * to catalog counts.
+ * to catalog counts. Cards use a bundled still from
+ * data/fable-52-posters.json. The video stays on the original post and is
+ * not copied into this repository.
  */
 export type FableSpotlightItem = {
   id: string;
@@ -46,7 +49,25 @@ export const FABLE_SPOTLIGHT_PAGE_TITLE = 'Claude Fable 5.2 Code Videos | Awesom
  * Search description for the dedicated page.
  * These posts stay outside the curated main index.
  */
-export const FABLE_SPOTLIGHT_PAGE_DESCRIPTION = 'Claude Fable 5.2 code videos from public posts, especially code, HTML, and Blender pipelines. These posts are not yet in the curated main index. Each card links to the original post; previews play from the original host.';
+export const FABLE_SPOTLIGHT_PAGE_DESCRIPTION = 'Claude Fable 5.2 code videos from public posts, especially code, HTML, and Blender pipelines. These posts are not yet in the curated main index. Stills stay on this site; the video plays on the original post.';
+
+export type FableSpotlightPoster = {
+  id: string;
+  source_url: string;
+  source_sha256: string;
+  poster: string;
+  poster_sha256: string;
+};
+
+export const fableSpotlightPosters = posters as FableSpotlightPoster[];
+const posterById = new Map(fableSpotlightPosters.map(record => [record.id, record]));
+
+/** Bundled still when one has been generated; otherwise the upstream preview. */
+export function spotlightStill(item: Pick<FableSpotlightItem, 'id' | 'preview'>, href: (path?: string) => string = path => path ?? ''): string {
+  const record = posterById.get(item.id);
+  if (!record?.poster.startsWith('/spotlight/')) return item.preview;
+  return href(record.poster.slice(1));
+}
 /** Homepage grid. The full index lives at FABLE_SPOTLIGHT_PATH. */
 export const FABLE_SPOTLIGHT_HOME_LIMIT = 24;
 
