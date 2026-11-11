@@ -1,7 +1,7 @@
 import {allPaths,collections,evidence,galleryLinks,kindNames,pageMeta,projects,repo,resources,routeForPath} from './model';
 
 export type AnalyticsConsent = 'unknown' | 'granted' | 'denied';
-export type AnalyticsPlacement = 'home_gallery' | 'home_featured' | 'library' | 'collection' | 'project' | 'saved' | 'resource_detail' | 'header' | 'footer' | 'about' | 'hero' | 'source_panel' | 'review_sources' | 'gallery_preview';
+export type AnalyticsPlacement = 'home_gallery' | 'home_featured' | 'home_spotlight' | 'spotlight' | 'library' | 'collection' | 'project' | 'saved' | 'resource_detail' | 'header' | 'footer' | 'about' | 'hero' | 'source_panel' | 'review_sources' | 'gallery_preview';
 type Category = 'video-gallery' | 'animated-examples' | 'other-resources';
 type ResourceParameters = {resource_id:string;resource_kind?:string;project_id?:string;placement?:AnalyticsPlacement;destination_domain?:string};
 export interface AnalyticsEvents {
@@ -23,7 +23,7 @@ export type AnalyticsAvailability = {available:boolean;reason:'ready'|'disabled'
 export const ANALYTICS_CONSENT_KEY = 'acv:analytics-consent';
 export const ANALYTICS_DENIED_COOKIE = 'acv_analytics_denied';
 const defaultOrigin = 'https://awesomecodevideo.com';
-const placements = new Set<AnalyticsPlacement>(['home_gallery','home_featured','library','collection','project','saved','resource_detail','header','footer','about','hero','source_panel','review_sources','gallery_preview']);
+const placements = new Set<AnalyticsPlacement>(['home_gallery','home_featured','home_spotlight','spotlight','library','collection','project','saved','resource_detail','header','footer','about','hero','source_panel','review_sources','gallery_preview']);
 const categories = new Set<Category>(['video-gallery','animated-examples','other-resources']);
 const resourceById = new Map(resources.map(resource=>[resource.id,resource]));
 const projectIds = new Set(projects.map(project=>project.id));

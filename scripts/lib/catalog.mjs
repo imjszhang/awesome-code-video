@@ -120,6 +120,8 @@ export function urlIdentity(input, projects = []) {
 }
 
 export async function loadCatalog(root) {
+  // data/fable-52-gallery.json is a standalone spotlight. Append posts only
+  // there. Do not load it into projects, resources, evidence, or candidates.
   const files = { projects: 'data/projects.json', resources: 'data/resources.json', evidence: 'data/evidence.json', candidates: 'research/candidates.json' };
   const catalog = {};
   await Promise.all(Object.entries(files).map(async ([key, file]) => {

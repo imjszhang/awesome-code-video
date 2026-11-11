@@ -13,6 +13,8 @@ The public READMEs remain manually curated. A small local catalog makes prior re
 | `data/evidence.json` | `S-CV-NNN` or `S-GVP-NNN` | A source URL, what was inspected, review date, source status, and limitations. Generative video prompts use `S-GVP-NNN`. |
 | `research/candidates.json` | Generated candidate ID | Discovery URLs, optional resolved resource URLs, and prior decisions, including rejected and deferred candidates. |
 
+`data/fable-52-gallery.json` is not one of these layers. It feeds the public Fable 5.2 spotlight only. Append posts to that file. Do not copy them into the project, resource, or evidence files, and do not add them to either README or to catalog counts. `npm run check` does not require those posts to appear in the index.
+
 The initial migration contains 13 projects, 38 listed resources, and 40 evidence records. Thirty resources are the main reusable examples; four frameworks, two workflows, and two related lists are supporting entries. The candidate queue starts empty rather than inventing a research history for existing entries.
 
 Projects and resources are different identities. Ink Press and several shot cards belong to video-shotcraft; recording the repository once must not prevent its individual templates from being listed. Multiple resources can cite the same evidence. The current adapter requires each reference to belong to the resource's own project; evidence for a dependency can be recorded separately under that dependency.

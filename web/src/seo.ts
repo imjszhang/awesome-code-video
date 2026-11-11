@@ -1,3 +1,4 @@
+import {fableSpotlight} from './fableSpotlight';
 import {collections,pageMeta,projects,resources,type Route} from './model';
 
 type StructuredNode = Record<string,unknown>;
@@ -27,6 +28,12 @@ export function pageStructuredData(route:Route,site:URL,base='/'):StructuredNode
  if(route.type==='project'){
   const project=projects.find(item=>item.id===route.id)!;
   return [breadcrumbs([{name:'Projects',path:'projects/'},{name:project.name,path:`projects/${project.id}/`}])];
+ }
+ if(route.type==='spotlight'){
+  return [breadcrumbs([
+   {name:'Home',path:''},
+   {name:fableSpotlight.title,path:`spotlight/${route.id}/`}
+  ])];
  }
  if(route.type==='collection'){
   const collection=collections.find(item=>item.id===route.id)!;

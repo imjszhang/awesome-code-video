@@ -126,6 +126,12 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 
 /* Cards: picture first, measured facts second, provenance on demand. */
 .card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 28px; align-items: start; }
+.spotlight-count { margin: -12px 0 32px; color: var(--dim); font: 12px/1.5 var(--mono); letter-spacing: .04em; text-transform: uppercase; }
+.spotlight-card .preview-poster { aspect-ratio: 16 / 9; }
+.spotlight-index .spotlight-card[data-frame='portrait'] .preview-poster { aspect-ratio: 9 / 16; }
+.spotlight-index .spotlight-card[data-frame='square'] .preview-poster { aspect-ratio: 1; }
+.spotlight-card .card-foot a { color: var(--text); text-decoration: underline; text-decoration-color: var(--hair-strong); text-underline-offset: 3px; }
+.spotlight-card .card-foot a:hover { text-decoration-color: var(--playhead); }
 .resource-card { min-width: 0; scroll-margin-top: calc(var(--header) + 24px); }
 .art-frame { position: relative; overflow: hidden; border: 1px solid var(--hair); border-radius: 10px; background: #111113; transition: border-color .2s; }
 .resource-card:hover .art-frame { border-color: var(--hair-strong); }

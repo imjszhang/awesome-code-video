@@ -1,0 +1,2350 @@
+{
+  "id": "fable-5-2",
+  "title": "Fable 5.2",
+  "eyebrow": "Now trending",
+  "description": "Public posts of code videos made with Claude Fable 5.2, especially code, HTML, and Blender pipelines. These are not yet in the curated main index. Each card links to the original post; previews play from the original host.",
+  "updated_at_shanghai": "2026-11-11 15:57 (Asia/Shanghai)",
+  "item_count": 118,
+  "source": "Standalone Fable 5.2 collection from public X search. Append new posts to this file only. Do not write these items into data/resources.json, data/evidence.json, data/projects.json, data/collections.json, or the README index, and do not add them to catalog counts.",
+  "items": [
+    {
+      "id": "2120423521801380297",
+      "url": "https://x.com/FFBuncho/status/2120423521801380297",
+      "author": "FFBuncho",
+      "author_name": "ふくぶん",
+      "created_at_utc": "2026-11-11T07:48:57.000Z",
+      "created_at_shanghai": "2026-11-11 15:48 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "『 Claude Fable5.2の本気 』とういテーマでモーショングラフィックスを作ってもらいました。\n\n「Fable5.2のプライド」というものが感じられる動画です。ぜひ最後までご覧ください。\n\n【Claude Codeにて、生成までの工程】\n\n1️⃣新しいプロジェクト立ち上げる。\n2️⃣最初のプロンプト https://t.co/pwRW6M0e7Y",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120420263074676736/vid/avc1/1920x1080/R8FGALl09b4QkERF.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120420263074676736/img/G0OS8SGqff93K-sf.jpg",
+      "duration_ms": 128000,
+      "why": "作者以「Claude Fable 5.2 的本気」为主题，用 Claude Code 流程让它做了运动图形成片，并写了从新建项目到第一段提示词的步骤。",
+      "tags": [
+        "claude-code",
+        "motion-graphics"
+      ]
+    },
+    {
+      "id": "2120422471497314810",
+      "url": "https://x.com/imjustnewatai/status/2120422471497314810",
+      "author": "imjustnewatai",
+      "author_name": "imjustnewatai",
+      "created_at_utc": "2026-11-11T07:44:47.000Z",
+      "created_at_shanghai": "2026-11-11 15:44 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "I asked fable 5.2 for a video of Alexander’s charge at gaugamela.\n\nEverything you see is code. https://t.co/oC5cbx1B1i",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120422350281666560/vid/avc1/1920x1080/WOtJ8I85l1YAYkLg.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120422350281666560/img/UZN1qbupELX9vodr.jpg",
+      "duration_ms": 84000,
+      "why": "作者让 Fable 5.2 做亚历山大大帝在高加米拉冲锋的视频，并写明画面全部由代码生成。",
+      "tags": [
+        "pure-code"
+      ]
+    },
+    {
+      "id": "2120421205996171740",
+      "url": "https://x.com/super_bonochin/status/2120421205996171740",
+      "author": "super_bonochin",
+      "author_name": "炎鎮🔥 - ₿onochin -",
+      "created_at_utc": "2026-11-11T07:39:45.000Z",
+      "created_at_shanghai": "2026-11-11 15:39 (Asia/Shanghai)",
+      "likes": 13,
+      "text": "Fable 5.2 を駆使してかっこよくなるように頑張ったので音ありで観てくださいm(__)m\n---\n『Singularity』 https://t.co/iNgZvfZhED",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120420296394178560/vid/avc1/1920x1080/Pf4dRWjrmIpsk9Mh.mp4",
+      "preview": "https://pbs.twimg.com/media/HW0_XXqakAAN1xu.jpg",
+      "duration_ms": 77000,
+      "why": "作者写明用 Fable 5.2 做出成片《Singularity》，并请人开声音观看。未写明是否代码成片。",
+      "tags": [
+        "method-less-explicit"
+      ]
+    },
+    {
+      "id": "2120418752663609397",
+      "url": "https://x.com/DevNotorious_/status/2120418752663609397",
+      "author": "DevNotorious_",
+      "author_name": "The Notorious",
+      "created_at_utc": "2026-11-11T07:30:00.000Z",
+      "created_at_shanghai": "2026-11-11 15:30 (Asia/Shanghai)",
+      "likes": 11,
+      "text": "Opus 5.5 vs Fable 5.2: a 3D treasure island, built only in code.\n\nNo models, no textures. Three.js, same prompt, 1 run each.\n\nOpus on the left, Fable on the right. This round goes to Opus.\n\n#claude #threejs #robloxdev https://t.co/Iar0fUF3oh",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120411592185585664/vid/avc1/1920x1080/QJCPzwfHZuQy_fEh.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120411592185585664/img/mRvI0wA6D2a2GAkr.jpg",
+      "duration_ms": 14100,
+      "why": "作者用同一提示词、各跑一轮，分别让 Opus 5.5 和 Fable 5.2 只用代码（Three.js，无模型无贴图）做同一座 3D 金银岛，原帖带对照视频。",
+      "tags": [
+        "threejs",
+        "pure-code",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120418641212747820",
+      "url": "https://x.com/Ayu_AI_0912/status/2120418641212747820",
+      "author": "Ayu_AI_0912",
+      "author_name": "アユネオ",
+      "created_at_utc": "2026-11-11T07:29:34.000Z",
+      "created_at_shanghai": "2026-11-11 15:29 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "なんじゃこりゃｗｗ\nClaude Fable 5.2で作らせたんだが…。\n\nななまがり？ｗ https://t.co/XDp7Xk4Ju1",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120418354875990016/vid/avc1/1920x1080/N87f_dpZWpTIAMfC.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120418354875990016/img/B7a5tpnGhiAqVwTC.jpg",
+      "duration_ms": 40000,
+      "why": "作者写明这是让 Claude Fable 5.2 做出来的成片。未写明是否代码成片。",
+      "tags": [
+        "method-less-explicit"
+      ]
+    },
+    {
+      "id": "2120412392198901898",
+      "url": "https://x.com/harsh_techx/status/2120412392198901898",
+      "author": "harsh_techx",
+      "author_name": "Harsh Agarwal",
+      "created_at_utc": "2026-11-11T07:04:44.000Z",
+      "created_at_shanghai": "2026-11-11 15:04 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "A lonely pixel looking for its place.\n\nA 27-second 3D short, made entirely in code with Claude Fable 5.2.\n\nIt wrote the story, animated it in 3D, and composed the music. All in code.\n\nEvery design is waiting for its last pixel. https://t.co/wK2ZTppR7U",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120411922604732416/vid/avc1/1080x1350/tzazHOnpTd_ddny7.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120411922604732416/img/o6zJP-d-YUBwlaCJ.jpg",
+      "duration_ms": 27136,
+      "why": "作者用 Claude Fable 5.2 做了一部约 27 秒的 3D 短片，并写明故事、三维动画和配乐全部用代码完成。",
+      "tags": [
+        "pure-code",
+        "short-film"
+      ]
+    },
+    {
+      "id": "2120411217173057620",
+      "url": "https://x.com/aicreataro/status/2120411217173057620",
+      "author": "aicreataro",
+      "author_name": "aicreataro",
+      "created_at_utc": "2026-11-11T07:00:04.000Z",
+      "created_at_shanghai": "2026-11-11 15:00 (Asia/Shanghai)",
+      "likes": 8,
+      "text": "Fable 5.2 × Three.js\n「あの夜消した、すき」\n\n■素材\n・映像：Three.js（全コマをブラウザで描画）\n・チャット画面：HTML／CSS\n・音楽：Lyria\n・効果音：Pythonで合成\n\n消した言葉って、どこに行くんだろう。\n言えなかった「すき」が、届きますように。 https://t.co/YXfikiK0Lx",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120410464631091200/vid/avc1/1920x1080/ySO8b3qL7OzwKxxl.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120410464631091200/img/a96aqqBn-IkfNlio.jpg",
+      "duration_ms": 38000,
+      "why": "作者用 Fable 5.2 与 Three.js 做了《あの夜消した、すき》：画面由 Three.js 在浏览器里逐帧绘制，聊天界面是 HTML/CSS，效果音用 Python 合成。",
+      "tags": [
+        "threejs",
+        "html-css",
+        "python"
+      ]
+    },
+    {
+      "id": "2120410044600815892",
+      "url": "https://x.com/Christos_antono/status/2120410044600815892",
+      "author": "Christos_antono",
+      "author_name": "Christos Antonopoulos",
+      "created_at_utc": "2026-11-11T06:55:24.000Z",
+      "created_at_shanghai": "2026-11-11 14:55 (Asia/Shanghai)",
+      "likes": 6,
+      "text": "built a small western town with Fable 5.2 and @startvoyager's vork.\n\nblender builds it from python, board by board, and notes how much weather each board takes: sheltered under an eave, or out in the sun and rain.\n\nvork ray-traces it  ages the wood to match. under the eaves the https://t.co/UHAFpTij3Y",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120404450204676096/vid/avc1/1280x720/8PfJ1MCta2Ux6kOm.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120404450204676096/img/i7jiG2B_KFKsx859.jpg",
+      "duration_ms": 20000,
+      "why": "作者用 Fable 5.2 和 vork 做一座西部小镇：Blender 用 Python 一块块木板搭建，并按日照风雨给木板做风化，再由 vork 光线追踪渲染。",
+      "tags": [
+        "blender",
+        "python"
+      ]
+    },
+    {
+      "id": "2120409826895499638",
+      "url": "https://x.com/bieimagin/status/2120409826895499638",
+      "author": "bieimagin",
+      "author_name": "Robby Kie",
+      "created_at_utc": "2026-11-11T06:54:32.000Z",
+      "created_at_shanghai": "2026-11-11 14:54 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "15 seconds of anime, made with fable 5.2 and pure code. no image model, no video model. just art direction 🐋 https://t.co/HerRt66gwx",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120408904995930112/vid/avc1/1920x1080/SjB4BNSJTM940AkY.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120408904995930112/img/2cYiGdnzFnD5YlFe.jpg",
+      "duration_ms": 15000,
+      "why": "作者用 Fable 5.2 做了 15 秒动漫成片，并写明纯代码、没有图像模型或视频模型。",
+      "tags": [
+        "pure-code",
+        "anime"
+      ]
+    },
+    {
+      "id": "2120405636299333749",
+      "url": "https://x.com/i441441/status/2120405636299333749",
+      "author": "i441441",
+      "author_name": "楼台窗口",
+      "created_at_utc": "2026-11-11T06:37:53.000Z",
+      "created_at_shanghai": "2026-11-11 14:37 (Asia/Shanghai)",
+      "likes": 7,
+      "text": "一句话让Fable5.2画完4万年艺术史 https://t.co/wNiPmRX8Oj",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120405542212673536/vid/avc1/1080x1920/stotV4Q9PX5NoHfL.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120405542212673536/img/TFm_BH7Bt_Ucd1lP.jpg",
+      "duration_ms": 15018,
+      "why": "作者称一句话让 Fable 5.2 画完 4 万年艺术史，原帖带成片。未写明是否代码成片。",
+      "tags": [
+        "method-less-explicit"
+      ]
+    },
+    {
+      "id": "2120402463220265471",
+      "url": "https://x.com/hx831126/status/2120402463220265471",
+      "author": "hx831126",
+      "author_name": "虎小象",
+      "created_at_utc": "2026-11-11T06:25:17.000Z",
+      "created_at_shanghai": "2026-11-11 14:25 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "fable5.2 做了这个👇\n\n这是一个真实可交互的网页应用。\n\n·模型输出“教案”而不是文字答案：让 Claude 按固定格式返回 JSON。每一步包含讲解词和一组绘图指令（在哪个坐标写什么字、画线、箭头、圆、删除线、用什么颜色）。\n\n·前端把指令画出来：用 SVG https://t.co/FUf5VMAEY0",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120399680274341888/vid/avc1/2274x2160/2aVf7UrQFShmqnmY.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120399680274341888/img/G9-zY42kpDm1zVb5.jpg",
+      "duration_ms": 265280,
+      "why": "作者用 Fable 5.2 做了一个可交互网页：模型按固定格式输出含绘图指令的 JSON 教案，前端再用 SVG 把讲解和图形画出来。",
+      "tags": [
+        "svg",
+        "html",
+        "interactive-web"
+      ]
+    },
+    {
+      "id": "2120396189598093357",
+      "url": "https://x.com/Stargridcompass/status/2120396189598093357",
+      "author": "Stargridcompass",
+      "author_name": "高运通",
+      "created_at_utc": "2026-11-11T06:00:21.000Z",
+      "created_at_shanghai": "2026-11-11 14:00 (Asia/Shanghai)",
+      "likes": 8,
+      "text": "之前用GPT-6.2 Sol做过一个3D地球，当时我觉得不错，认为6.2 Sol的审美能力大幅提升。\n\n今天让Fable 5.2从零重做一遍，\n再回头看，之前那个显得很过时。\n\nfable5.2是真的权威啊，同样的提示词，效果差这么大。\n每一次震撼都是fable带来的。 https://t.co/NGYp57f0Ua https://t.co/Ck9RYVGSEM",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120393360435191808/vid/avc1/2370x1080/MzDtNgEWbg7Ex_iw.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120393360435191808/img/RVZwWK7g93j3nHXM.jpg",
+      "duration_ms": 99433,
+      "why": "作者先前用 GPT-6.2 Sol 做过 3D 地球，这次让 Fable 5.2 从零重做同一主题，原帖带对照成片。未写明是否代码成片。",
+      "tags": [
+        "method-less-explicit",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120391274872320126",
+      "url": "https://x.com/iHarnoorSingh/status/2120391274872320126",
+      "author": "iHarnoorSingh",
+      "author_name": "Harnoor Singh",
+      "created_at_utc": "2026-11-11T05:40:49.000Z",
+      "created_at_shanghai": "2026-11-11 13:40 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "my 10 years in USA in 23 seconds with Fable 5.2 and Blender https://t.co/WQ4j8FuTh5",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120391145692008448/vid/avc1/1920x1080/SqPxu0LBJf93WRe0.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120391145692008448/img/KGDgy3G7dZgULKwk.jpg",
+      "duration_ms": 24000,
+      "why": "作者用 Fable 5.2 和 Blender，把在美国的 10 年压成一条 23 秒成片。",
+      "tags": [
+        "blender",
+        "short-film"
+      ]
+    },
+    {
+      "id": "2120388548411179102",
+      "url": "https://x.com/trungkts29/status/2120388548411179102",
+      "author": "trungkts29",
+      "author_name": "Trungkts",
+      "created_at_utc": "2026-11-11T05:29:59.000Z",
+      "created_at_shanghai": "2026-11-11 13:29 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Fable 5.2 làm game 3D cỡ này thì Unreal, Unity hay Blender chắc cũng phải rén! 🫠\n\nĐiên nhất là mọi thứ đều được tạo hoàn toàn bằng code, từ mô hình 3D, render cho tới tương tác.\n\nNếu AI tiếp tục tiến hóa với tốc độ này, cả ngành phát triển game truyền https://t.co/1d21zDAxj4",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120387933203292160/vid/avc1/2550x1300/Ss_QVVP0oHNtBdRF.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120387933203292160/img/u-l3dpbudm9xq6Ar.jpg",
+      "duration_ms": 36766,
+      "why": "作者称这个 3D 游戏从模型、渲染到交互都完全用代码生成，由 Fable 5.2 做出。",
+      "tags": [
+        "pure-code",
+        "game",
+        "all-code"
+      ]
+    },
+    {
+      "id": "2120383540361920635",
+      "url": "https://x.com/MoSuvo/status/2120383540361920635",
+      "author": "MoSuvo",
+      "author_name": "Mo Suvo",
+      "created_at_utc": "2026-11-11T05:10:05.000Z",
+      "created_at_shanghai": "2026-11-11 13:10 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Claude Fable 5.2 made this 60 second film for me. All code. No footage, no stock, no image models.\n\nIt never watched it once. It judged every frame from stills and measurements.\n\nWhat do you think?\n\n#ClaudeCode #Claude #buildinginpublic #Fable52 https://t.co/naHBahOAJ9",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120376406433804288/vid/avc1/1080x1920/D2b8RPk7xNYG4jxV.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120376406433804288/img/GqxefO4wnHPofSS2.jpg",
+      "duration_ms": 60000,
+      "why": "作者称 Claude Fable 5.2 为自己做了这条 60 秒短片，全部用代码，没有实拍、素材或图像模型，并且是按静帧和测量判断每一帧。",
+      "tags": [
+        "pure-code",
+        "short-film",
+        "no-assets",
+        "no-video-model"
+      ]
+    },
+    {
+      "id": "2120383332722905400",
+      "url": "https://x.com/wquguru/status/2120383332722905400",
+      "author": "wquguru",
+      "author_name": "WquGuru",
+      "created_at_utc": "2026-11-11T05:09:15.000Z",
+      "created_at_shanghai": "2026-11-11 13:09 (Asia/Shanghai)",
+      "likes": 10,
+      "text": "卧槽，Fable5.2独立完成模型、声音、贴图全流程，一切皆代码，方法论+源代码全开源！！！\n\n仓库地址：https://t.co/Ok96DQ7um2\n在线试玩：https://t.co/KOLKM2Ebfy https://t.co/PEmfg6MRjz https://t.co/MLnHSJLt8v",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120382863388590080/vid/avc1/720x1080/e1jp6XnSJ5Ia2UVw.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120382863388590080/img/vw-KeTzG6l4jfueo.jpg",
+      "duration_ms": 15000,
+      "why": "作者称 Fable 5.2 独立完成模型、声音和贴图，一切皆代码，并开源了方法和源码；这是作者引用自己稍早一条链接帖后补上的成片视频。",
+      "tags": [
+        "pure-code",
+        "open-source",
+        "all-code"
+      ]
+    },
+    {
+      "id": "2120382619082727604",
+      "url": "https://x.com/DeryaTR_/status/2120382619082727604",
+      "author": "DeryaTR_",
+      "author_name": "Derya Unutmaz, MD",
+      "created_at_utc": "2026-11-11T05:06:25.000Z",
+      "created_at_shanghai": "2026-11-11 13:06 (Asia/Shanghai)",
+      "likes": 85,
+      "text": "I asked Fable 5.2 for a film about the life of a T cell, immune cells I study. It wrote the script, fact-checked the immunology, built every cell in Blender, rendered 12,480 frames & added the narration & score!\n\nI am stunned by the beauty of this 8 minutes 40 seconds video!🥹😍 https://t.co/L3T3CZMOXI",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120382215389351937/vid/avc1/1920x1080/VM5bg1IM15zpC-zw.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120382215389351937/img/E6ZZTSD4c1AF5co5.jpg",
+      "duration_ms": 520000,
+      "why": "作者让 Fable 5.2 做一部关于 T 细胞生命的片子，并写明它写了脚本、核对了免疫学事实，在 Blender 里建了每个细胞，渲染了 12,480 帧，还配了旁白和配乐，成片约 8 分 40 秒。",
+      "tags": [
+        "blender",
+        "short-film",
+        "computed-frames",
+        "science-explainer"
+      ]
+    },
+    {
+      "id": "2120378493729222700",
+      "url": "https://x.com/aniketjart/status/2120378493729222700",
+      "author": "aniketjart",
+      "author_name": "Aniket J",
+      "created_at_utc": "2026-11-11T04:50:02.000Z",
+      "created_at_shanghai": "2026-11-11 12:50 (Asia/Shanghai)",
+      "likes": 17,
+      "text": "Built with flying quest game - Skywake! The jump in game dev quality with fable is insane. Created w/ using Fable 5.2, Opus 5.5, Crayon and threejs.\n\nPlay here: https://t.co/INTsck4NH7 https://t.co/BKLeQpKSEX",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120376389518217219/vid/avc1/3498x2160/x0TScQqdIJ2fNl7K.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120376389518217219/img/rJKc_ncENG8pq8Jq.jpg",
+      "duration_ms": 52650,
+      "why": "作者展示用 Fable 5.2、Opus 5.5、Crayon 和 three.js 做的飞行任务游戏 Skywake，原帖带可玩链接和视频。",
+      "tags": [
+        "threejs",
+        "game",
+        "mixed-models"
+      ]
+    },
+    {
+      "id": "2120378126740095273",
+      "url": "https://x.com/kloss_xyz/status/2120378126740095273",
+      "author": "kloss_xyz",
+      "author_name": "klöss",
+      "created_at_utc": "2026-11-11T04:48:34.000Z",
+      "created_at_shanghai": "2026-11-11 12:48 (Asia/Shanghai)",
+      "likes": 22,
+      "text": "I asked Claude Fable 5.2 to make a three.js site you'd leave open in a browser tab to look at.\n\nIt built a photo-real ocean in under 27 minutes. It goes from sunset to sunrise within 10 minutes of visiting, and the waves glow at night.\n\nPrompt I used in the reply below.\nFeel free https://t.co/xwGe5XGYXz",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120378028446691329/vid/avc1/1080x1920/qTNDKvxEMuPaDyQV.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120378028446691329/img/eFCYP6V1EUCeJkZD.jpg",
+      "duration_ms": 26000,
+      "why": "作者让 Fable 5.2 用 three.js 做一个可以一直开在浏览器标签页里看的海洋站点，约 27 分钟做出，会从日落转到日出。这是该作者本轮另一条新作品，和已收藏的那条不是同一条视频。",
+      "tags": [
+        "threejs",
+        "web-animation",
+        "one-prompt"
+      ]
+    },
+    {
+      "id": "2120375372172677631",
+      "url": "https://x.com/ann_nnng/status/2120375372172677631",
+      "author": "ann_nnng",
+      "author_name": "Ann Nguyen",
+      "created_at_utc": "2026-11-11T04:37:38.000Z",
+      "created_at_shanghai": "2026-11-11 12:37 (Asia/Shanghai)",
+      "likes": 14,
+      "text": "tested this forest stream in Three.js with Gemini 4 Carbon, GPT 6 Astra, and Claude Fable 5.2.\n\nGemini 4 Carbon is cheap, yet it hit around 80% of what the other two models could do, which is great https://t.co/oE4jQ2CBeM",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120374722466811904/vid/avc1/1920x870/hen4PZRypKoTwatw.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120374722466811904/img/S9IvxYl0UbZbwpIU.jpg",
+      "duration_ms": 9424,
+      "why": "作者用 Three.js 做同一条森林溪流，对比 Gemini 4 Carbon、GPT 6 Astra 和 Claude Fable 5.2，原帖带对照视频。",
+      "tags": [
+        "threejs",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120374208043876422",
+      "url": "https://x.com/positronx_/status/2120374208043876422",
+      "author": "positronx_",
+      "author_name": "Shubhu",
+      "created_at_utc": "2026-11-11T04:33:00.000Z",
+      "created_at_shanghai": "2026-11-11 12:33 (Asia/Shanghai)",
+      "likes": 27,
+      "text": "i asked Fable 5.2 for a game. it painted one.\n\nno engine. no sprites. no image model. every frame is brushed in code, sumi ink on paper\n\n> the boss ERASES the level as you fight it\n> your sword is a paintbrush, every hit leaves ink\n> parry, ink waves, a 3-phase boss\n> the final https://t.co/X2RmLRvCdq",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120373808574152704/vid/avc1/1920x1080/rsL1Bp_w-PKG7_Ya.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120373808574152704/img/chDaqlI3QO5-IhXS.jpg",
+      "duration_ms": 65683,
+      "why": "作者让 Fable 5.2 做一款游戏，并写明没有引擎、精灵图或图像模型，每一帧都是代码画出来的水墨。",
+      "tags": [
+        "pure-code",
+        "every-frame-from-code",
+        "game",
+        "sumi-ink"
+      ]
+    },
+    {
+      "id": "2120370408755196142",
+      "url": "https://x.com/Dr1090a/status/2120370408755196142",
+      "author": "Dr1090a",
+      "author_name": "月上零韻🎑賈巴沃克Θώθ系Vtuber｜🔖圖書館員",
+      "created_at_utc": "2026-11-11T04:17:54.000Z",
+      "created_at_shanghai": "2026-11-11 12:17 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "我：兔兔！（舉高雙手）\nFable 5.2：兔兔！（舉高雙手）\n\n※影片由 Claude Fable 5.2 全程製作，運用 Blender\n＆現在我有麻糬兔兔 3D 模型跟一堆在燒我顯示卡的小兔子。 https://t.co/l3BR7wTCDO",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120370144702767104/vid/avc1/1280x720/sicDjpSrXLUnG9vW.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120370144702767104/img/5BR5RfDuWionbDbF.jpg",
+      "duration_ms": 13000,
+      "why": "作者写明影片由 Claude Fable 5.2 全程制作、使用 Blender，做出了麻糬兔兔 3D 模型和一堆小兔子。",
+      "tags": [
+        "blender",
+        "from-scratch"
+      ]
+    },
+    {
+      "id": "2120369588357779837",
+      "url": "https://x.com/yanliudesign/status/2120369588357779837",
+      "author": "yanliudesign",
+      "author_name": "Yan Liu",
+      "created_at_utc": "2026-11-11T04:14:39.000Z",
+      "created_at_shanghai": "2026-11-11 12:14 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Built this dreamy, interactive 3D infinity in Claude using Fable 5.2. Amazed by what a little imagination and Fabel 5.2 can create. ￼￼￼\n\n100% code. A few prompts turned my idea into a holographic, liquid-glass infinity. I can drag it around, flick to spin, orbit, or pinch to https://t.co/HuPrYKxTVw",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120369417599303681/vid/avc1/3456x2160/J7OYbjjiJAJCBNYF.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120369417599303681/img/BDnF9NqbW2pjIILX.jpg",
+      "duration_ms": 15370,
+      "why": "作者用 Fable 5.2 做了可交互的 3D 无限空间，写明 100% 用代码，几句提示就做出全息液态玻璃效果。",
+      "tags": [
+        "pure-code",
+        "interactive",
+        "all-code"
+      ]
+    },
+    {
+      "id": "2120368974634324124",
+      "url": "https://x.com/RUSH6825/status/2120368974634324124",
+      "author": "RUSH6825",
+      "author_name": "RUSH",
+      "created_at_utc": "2026-11-11T04:12:12.000Z",
+      "created_at_shanghai": "2026-11-11 12:12 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "Fable 5.2 isn't a video model. I asked how it can make videos.\n\nIt answered by making this.\n\nClaude made this video. He can't watch it.\nHe can only look at still frames.\n\nHe wrote 13,121 lines of code across 55 files. They compute all 10,080 frames and the soundtrack.\n\nHe has https://t.co/2vzTyDKx0g https://t.co/E6DoRP6Jxo",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120368876848320512/vid/avc1/1280x720/u2Z6jHIQmIWcO26_.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120368876848320512/img/UWEE1w3s15QlgApQ.jpg",
+      "duration_ms": 168000,
+      "why": "作者问 Fable 5.2 如何做视频，它用代码作答：写了 13,121 行、55 个文件，计算出全部 10,080 帧和配乐。作者强调它不是视频模型，只能看静帧。",
+      "tags": [
+        "pure-code",
+        "computed-frames",
+        "every-frame-from-code",
+        "sound-from-code"
+      ]
+    },
+    {
+      "id": "2120355412021231795",
+      "url": "https://x.com/_MaxBlade/status/2120355412021231795",
+      "author": "_MaxBlade",
+      "author_name": "Max Blade",
+      "created_at_utc": "2026-11-11T03:18:19.000Z",
+      "created_at_shanghai": "2026-11-11 11:18 (Asia/Shanghai)",
+      "likes": 22,
+      "text": "fable 5.2 vs Gemini 4 carbon\n\nSame prompt -> Google was 103x cheap and 5.3x faster but claudes graphical fidelity is in another galaxy. \n\nthis the by the far the best gemini model we have seen in comparison to what is available at the time. \n\nWhich do you prefer? https://t.co/6NKfNk21IP",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120354622246195201/vid/avc1/1920x1080/QuMD6avDCUwsNu_h.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120354622246195201/img/RnuMfCrZiMW34uGS.jpg",
+      "duration_ms": 52000,
+      "why": "作者用同一提示比较 Fable 5.2 和 Gemini 4 Carbon，原帖带对照视频。未写是否代码成片，但成片是本帖新上传，互动较高。",
+      "tags": [
+        "model-comparison",
+        "method-less-explicit"
+      ]
+    },
+    {
+      "id": "2120353501910024621",
+      "url": "https://x.com/Kashiko_AIart/status/2120353501910024621",
+      "author": "Kashiko_AIart",
+      "author_name": "かし子🍩",
+      "created_at_utc": "2026-11-11T03:10:43.000Z",
+      "created_at_shanghai": "2026-11-11 11:10 (Asia/Shanghai)",
+      "likes": 19,
+      "text": "Fable5.2で作った『玉おとしメーカー』✨\n\n好きな絵を入れると、色つきの玉が降ってきて、その絵になります✨\n\n✅玉の動きは物理の計算そのまま\n✅できたら指でぐちゃぐちゃに。ボタンで元どおり\n✅mp4で保存・シェア\n\n絵は手元ブラウザの中だけで使うので、サーバーには送りません👇 https://t.co/8TPI3RAjfZ",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120353352794148865/vid/avc1/1080x1920/13scypXw1wi3ed05.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120353352794148865/img/R5H3_q7gZtDoDx8C.jpg",
+      "duration_ms": 35000,
+      "why": "作者用 Fable 5.2 做了「玉落しメーカー」：把画放进去，色珠按物理计算落下组成那张画，可在浏览器里玩并导出 mp4。",
+      "tags": [
+        "physics",
+        "browser",
+        "interactive"
+      ]
+    },
+    {
+      "id": "2120353383370625126",
+      "url": "https://x.com/toritoke_pr/status/2120353383370625126",
+      "author": "toritoke_pr",
+      "author_name": "つばき｜ AI組織デザイン",
+      "created_at_utc": "2026-11-11T03:10:15.000Z",
+      "created_at_shanghai": "2026-11-11 11:10 (Asia/Shanghai)",
+      "likes": 5,
+      "text": "びっくりです‼️これ、ぜんぶコードです。\nClaude Fable 5.2さすが✨\n\n画像生成も動画生成も音楽生成も使わずに\n体も、不思議な生き物も、背景も、曲も、ぜんぶコードです🎥\n\n歌はコードだけで動画作りを頑張る人の応援歌みたいになっちゃいました😋\n\n作り方\n↓ https://t.co/KuJeVfL04C",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120353214726049792/vid/avc1/1920x1080/WjH_8g5BWzDLXcsE.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120353214726049792/img/O5DIbSV6fw-G08NV.jpg",
+      "duration_ms": 60800,
+      "why": "作者写明身体、生物、背景和音乐全部用代码做成，没有用图像、视频或音乐生成模型。",
+      "tags": [
+        "pure-code",
+        "no-assets",
+        "sound-from-code"
+      ]
+    },
+    {
+      "id": "2120349707142860942",
+      "url": "https://x.com/kloss_xyz/status/2120349707142860942",
+      "author": "kloss_xyz",
+      "author_name": "klöss",
+      "created_at_utc": "2026-11-11T02:55:39.000Z",
+      "created_at_shanghai": "2026-11-11 10:55 (Asia/Shanghai)",
+      "likes": 13,
+      "text": "Fable 5.2, recreate this motion design. https://t.co/zlz4X9NRDK https://t.co/Kw9vLyz2XB",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120349682568450048/vid/avc1/1080x1080/m6wal9-DF1WlI-jy.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120349682568450048/img/e9OUDoYT4BGPCs0L.jpg",
+      "duration_ms": 16000,
+      "why": "作者引用一条动态设计，让 Fable 5.2 复刻，并附上本帖新上传的成片。未写引擎。",
+      "tags": [
+        "motion-design",
+        "method-less-explicit"
+      ]
+    },
+    {
+      "id": "2120344835429392788",
+      "url": "https://x.com/TYC_Yama/status/2120344835429392788",
+      "author": "TYC_Yama",
+      "author_name": "山下　智",
+      "created_at_utc": "2026-11-11T02:36:17.000Z",
+      "created_at_shanghai": "2026-11-11 10:36 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "Claude Fable 5.2に「今の実力を見せつける最強の動画を見せて」とだけ頼んだら、これが返ってきました。\n個人的にはちょっとダサいと思ってます🤔\n撮影なし、ストック素材なし、動画生成AIなし。\n映像1,080フレームも音楽も、Python 1,115行で全部計算して作っている。\n\n#Claude #Fable52 #生成AI https://t.co/ocpJjoflHf",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120344655569240064/vid/avc1/720x1280/uu775B2Eaa7EzXZ6.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120344655569240064/img/FJ7z65t9LNwJrHH3.jpg",
+      "duration_ms": 36000,
+      "why": "作者只让 Fable 5.2 展示最强实力，并写明没用实拍、素材或视频生成模型，1080 帧画面和音乐都由 1115 行 Python 计算出来。",
+      "tags": [
+        "python",
+        "pure-code",
+        "computed-frames"
+      ]
+    },
+    {
+      "id": "2120342453807157720",
+      "url": "https://x.com/MrTacticalX/status/2120342453807157720",
+      "author": "MrTacticalX",
+      "author_name": "Mr Tactical",
+      "created_at_utc": "2026-11-11T02:26:49.000Z",
+      "created_at_shanghai": "2026-11-11 10:26 (Asia/Shanghai)",
+      "likes": 39,
+      "text": "I asked Claude Fable 5.2 to build a mechanical keyboard from scratch and then type on it…\n\nMade in Blender:\n⏱2 hr 55 min\n💰$90.78 https://t.co/hWREnAUcdE",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120342368729567232/vid/avc1/1080x1350/g2RZt-_d6V8CWtPu.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120342368729567232/img/vwtFaVjBcCIo9GFL.jpg",
+      "duration_ms": 21400,
+      "why": "作者让 Fable 5.2 从零做一个机械键盘并在上面打字，写明在 Blender 里完成，耗时 2 小时 55 分、花费 90.78 美元。",
+      "tags": [
+        "blender"
+      ]
+    },
+    {
+      "id": "2120341962314150207",
+      "url": "https://x.com/quxiaoyin/status/2120341962314150207",
+      "author": "quxiaoyin",
+      "author_name": "Xiaoyin Qu",
+      "created_at_utc": "2026-11-11T02:24:52.000Z",
+      "created_at_shanghai": "2026-11-11 10:24 (Asia/Shanghai)",
+      "likes": 17,
+      "text": "I asked Claude Fable 5.2 to make a 3D film about AgentSky.\n\nI rejected the first three versions.\n\nThe fourth: 600,000 points of light, each one an agent, forming a company that works while you sleep.\n\nNo video model. Blender and code, in 4K. https://t.co/lGrZQz0HQT",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2120341512093401089/pu/vid/avc1/1718x720/UZbhWdesDPrcACVQ.mp4?tag=12",
+      "preview": "https://pbs.twimg.com/ext_tw_video_thumb/2120341512093401089/pu/img/teFPIv7QuM-VPUqw.jpg",
+      "duration_ms": 54791,
+      "why": "作者让 Fable 5.2 做一部关于 AgentSky 的 3D 短片，第四版有 60 万个光点；并写明没用视频模型，是 Blender 和代码做的 4K 成片。",
+      "tags": [
+        "blender",
+        "pure-code"
+      ]
+    },
+    {
+      "id": "2120335509105082554",
+      "url": "https://x.com/studio_oneroom/status/2120335509105082554",
+      "author": "studio_oneroom",
+      "author_name": "AIスタジオワンルーム（AIアニメ、動画、漫画）",
+      "created_at_utc": "2026-11-11T01:59:13.000Z",
+      "created_at_shanghai": "2026-11-11 09:59 (Asia/Shanghai)",
+      "likes": 28,
+      "text": "Fable5.2で『桃太郎』を作りました。\n\nこれ、凄くないですか？\n生成AIじゃないです、全部JavaScriptで書かれています。\n\nもう、コードだけで絵が描けるんです。\nWEBページですよこれ・・・\n（音声は動画ファイルにしたときに合成しているので、音声なしですけど） https://t.co/aYgHvZEpmZ",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120328092753555456/vid/avc1/1920x1080/0E3bmH5gpRP7OLs9.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120328092753555456/img/CSQ_ufKfYODPN-YF.jpg",
+      "duration_ms": 108700,
+      "why": "作者用 Fable 5.2 做了《桃太郎》，并写明不是生成式视频，全部用 JavaScript 写成，是可以打开的网页成片。",
+      "tags": [
+        "javascript",
+        "pure-code",
+        "html"
+      ]
+    },
+    {
+      "id": "2120331599283954137",
+      "url": "https://x.com/venturetwins/status/2120331599283954137",
+      "author": "venturetwins",
+      "author_name": "Justine Moore",
+      "created_at_utc": "2026-11-11T01:43:41.000Z",
+      "created_at_shanghai": "2026-11-11 09:43 (Asia/Shanghai)",
+      "likes": 15,
+      "text": "I asked Fable 5.2 to make a masterpiece.\n\n94 minutes and 11,066 brush strokes later, it was finished.\n\nClaude also generated a song for the timelapse, and wrote an artist statement for me to share ⬇️\n\nDusk, Reloaded  \nDigital, brush tool in a browser clone of MS Paint. 1200 × 690 https://t.co/OlJWnv3SFM",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120331464747446272/vid/avc1/1920x1200/HlO1Z3z2HACc-wxs.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120331464747446272/img/393G35hrZ6N6HXyO.jpg",
+      "duration_ms": 45666,
+      "why": "作者让 Fable 5.2 做一幅杰作，94 分钟、11066 笔刷，在浏览器版画图工具里完成，还配了时延摄影歌曲和艺术家陈述。",
+      "tags": [
+        "browser-paint",
+        "timelapse"
+      ]
+    },
+    {
+      "id": "2120322640048959503",
+      "url": "https://x.com/EvanMilenko/status/2120322640048959503",
+      "author": "EvanMilenko",
+      "author_name": "Evan",
+      "created_at_utc": "2026-11-11T01:08:05.000Z",
+      "created_at_shanghai": "2026-11-11 09:08 (Asia/Shanghai)",
+      "likes": 14,
+      "text": "Fable 5.2 is insane\n\nI used it to create this dragon game from scratch in Three.js https://t.co/bNe8JLVsv1",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120322603168452608/vid/avc1/1264x624/k-tOmMOLG8Vr2Fn6.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120322603168452608/img/lmtIUo5krz235RAe.jpg",
+      "duration_ms": 32446,
+      "why": "作者用 Fable 5.2 从零用 Three.js 做了这条龙主题游戏，并附视频。",
+      "tags": [
+        "threejs",
+        "game"
+      ]
+    },
+    {
+      "id": "2120321086231613707",
+      "url": "https://x.com/builtbydimi/status/2120321086231613707",
+      "author": "builtbydimi",
+      "author_name": "Dimi",
+      "created_at_utc": "2026-11-11T01:01:55.000Z",
+      "created_at_shanghai": "2026-11-11 09:01 (Asia/Shanghai)",
+      "likes": 66,
+      "text": "Real-time multiplayer was the one thing my F1 game was missing. \n\nFable 5.2 built it.\n\n8 cars, full contact, 60 updates a second, peer-to-peer. \n\nOn a good connection & car speed of 330 km/h, your rival is drawn within 19 cm (!!) of where they really are.\n\nTry it now, link below https://t.co/FS3B2xMX1r",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120320803497459712/vid/avc1/1920x1080/VoOqxqW25fI8xqa7.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120320803497459712/img/5jnS8mDnph_3YBIh.jpg",
+      "duration_ms": 28202,
+      "why": "作者称 Fable 5.2 给自己的 F1 游戏补上了实时多人：8 辆车、身体接触、每秒 60 次同步。原帖带视频，互动很高。",
+      "tags": [
+        "game",
+        "multiplayer",
+        "method-less-explicit",
+        "high-engagement"
+      ]
+    },
+    {
+      "id": "2120321047652192563",
+      "url": "https://x.com/gokayfem/status/2120321047652192563",
+      "author": "gokayfem",
+      "author_name": "gokaygokay",
+      "created_at_utc": "2026-11-11T01:01:46.000Z",
+      "created_at_shanghai": "2026-11-11 09:01 (Asia/Shanghai)",
+      "likes": 10,
+      "text": "I asked Fable 5.2 and Opus 5.5 to turn art and architecture references into one world I could walk through.\n\n18 connected spaces. Rain falling through a dome, thousands of red threads, a glacier cathedral, rooms full of stars.\n\nBuilt in Three.js https://t.co/v0DAXtJMCG",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120320466984316928/vid/avc1/1920x1080/eI73aDQ0Ro98VEij.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120320466984316928/img/oBGfo_gqEbaF1vir.jpg",
+      "duration_ms": 590525,
+      "why": "作者让 Fable 5.2 和 Opus 5.5 把艺术与建筑参考做成可走入的世界，18 个连通空间，写明用 Three.js 做成。",
+      "tags": [
+        "threejs",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120316269043802219",
+      "url": "https://x.com/Shiva4TDP/status/2120316269043802219",
+      "author": "Shiva4TDP",
+      "author_name": "𝗦𝗵𝗶𝘃𝘂𝗱𝘂",
+      "created_at_utc": "2026-11-11T00:42:46.000Z",
+      "created_at_shanghai": "2026-11-11 08:42 (Asia/Shanghai)",
+      "likes": 464,
+      "text": "పసుపు - శుభం \nఇల్లు - స్వచ్ఛమైన జీవితం \nనాగలి - రైతు పచ్చగా ఉండాలి \nకర్షక చక్రం - కష్టించే ప్రతి మనిషి బాగుపడాలి\n\nఇది మన జండా, ఇదే మన ఎజెండా 🔥🔥🔥\n\nTook 4 hrs to get this output… Thanks to Fable 5.2 https://t.co/9Zlh0EZq77",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120316181588373504/vid/avc1/3840x2116/nI0xeHxKebkMMDDG.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120316181588373504/img/StziOseidnezdTOs.jpg",
+      "duration_ms": 27956,
+      "why": "作者写明用 Fable 5.2 花了 4 小时做出这条成片，并致谢。未写引擎，但原帖带视频，本轮互动最高（464 赞）。",
+      "tags": [
+        "method-less-explicit",
+        "high-engagement"
+      ]
+    },
+    {
+      "id": "2120316203738829180",
+      "url": "https://x.com/MengTo/status/2120316203738829180",
+      "author": "MengTo",
+      "author_name": "Meng To",
+      "created_at_utc": "2026-11-11T00:42:31.000Z",
+      "created_at_shanghai": "2026-11-11 08:42 (Asia/Shanghai)",
+      "likes": 41,
+      "text": "I recreated my three.js apartment in Blender with Fable 5.2\n\nJust mind-blowing. I was already obsessed with Opus 5.5, but this model is something else. Faster, more accurate and token efficient. https://t.co/6s365GEykQ https://t.co/CG9qkbUCPL",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120315007900819456/vid/avc1/1920x1080/GZkLFadi9AtkYzAJ.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120315007900819456/img/gYeyL1mEFS3yExVT.jpg",
+      "duration_ms": 52000,
+      "why": "作者用 Fable 5.2 在 Blender 里重做了自己以前的 Three.js 公寓场景。这是明确的 Blender 成片，互动也高。",
+      "tags": [
+        "blender",
+        "threejs"
+      ]
+    },
+    {
+      "id": "2120314459793355262",
+      "url": "https://x.com/BlendiByl/status/2120314459793355262",
+      "author": "BlendiByl",
+      "author_name": "Blendi",
+      "created_at_utc": "2026-11-11T00:35:35.000Z",
+      "created_at_shanghai": "2026-11-11 08:35 (Asia/Shanghai)",
+      "likes": 22,
+      "text": "used fable 5.2 to make this trippy \"impossible spaces\" experience\n\nopen-source too! https://t.co/0nl4tIGcxJ https://t.co/yxPPWXFe2G",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120313933710159872/vid/avc1/2560x1440/PKe7dLlC4bVyp-Y-.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120313933710159872/img/USkfntG2jnRsfkAU.jpg",
+      "duration_ms": 53266,
+      "why": "作者用 Fable 5.2 做了「不可能空间」体验，并提供开源。未写具体引擎，但原帖带视频，互动也较高。",
+      "tags": [
+        "interactive",
+        "open-source",
+        "method-less-explicit"
+      ]
+    },
+    {
+      "id": "2120314418517115178",
+      "url": "https://x.com/foxnet2000/status/2120314418517115178",
+      "author": "foxnet2000",
+      "author_name": "Fox | Building with AI",
+      "created_at_utc": "2026-11-11T00:35:25.000Z",
+      "created_at_shanghai": "2026-11-11 08:35 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Fable5.2 杀疯了，这是他根据我的一句提示词生成的25 秒竖屏短片。\n\n画面和配乐全部是现写的 Python 算出来的，没有用任何图片、视频或音频素材。\n\n整个耗时5分30秒。 https://t.co/V1jD1Q08LR",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120314376209235968/vid/avc1/1080x1920/wYL4PaRo8TGkeaGF.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120314376209235968/img/UkHemZkntNhnTwtF.jpg",
+      "duration_ms": 25000,
+      "why": "作者用一句提示让 Fable 5.2 做了 25 秒竖屏短片，并写明画面和配乐都是现写 Python 算出来的，没用任何图片、视频或音频素材，耗时 5 分 30 秒。",
+      "tags": [
+        "python",
+        "pure-code",
+        "vertical"
+      ]
+    },
+    {
+      "id": "2120314016375427276",
+      "url": "https://x.com/Izkimar/status/2120314016375427276",
+      "author": "Izkimar",
+      "author_name": "Izkimar",
+      "created_at_utc": "2026-11-11T00:33:49.000Z",
+      "created_at_shanghai": "2026-11-11 08:33 (Asia/Shanghai)",
+      "likes": 43,
+      "text": "You guys thought I was shitposting, but Fable 5.2 literally put the whole fucking universe inside of that cube. https://t.co/4ueD3KevPU https://t.co/LbHTnlweWy",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120313546537840640/vid/avc1/1920x1080/0e8PIeeN-SBT6WCj.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120313546537840640/img/4vGOSGBwCxrQX0jD.jpg",
+      "duration_ms": 32879,
+      "why": "作者称 Fable 5.2 把整个宇宙装进了那个立方体。未写引擎，但原帖带视频，互动较高。",
+      "tags": [
+        "method-less-explicit",
+        "high-engagement"
+      ]
+    },
+    {
+      "id": "2120312766544437738",
+      "url": "https://x.com/theojaffee/status/2120312766544437738",
+      "author": "theojaffee",
+      "author_name": "Theo Jaffee",
+      "created_at_utc": "2026-11-11T00:28:51.000Z",
+      "created_at_shanghai": "2026-11-11 08:28 (Asia/Shanghai)",
+      "likes": 112,
+      "text": "I used Fable 5.2 to simulate the Bay Area through 250 years of history.\n\nZoom to any city or neighborhood, select any year back to 1769, and see what it looked like.\n\nhttps://t.co/a3kl1UD7I9 https://t.co/qGvDddBTqq",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120309793521074176/vid/avc1/3024x1590/AI4JHsH3UdoxpUpG.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120309793521074176/img/IasJnb1YZt-rmbuY.jpg",
+      "duration_ms": 33346,
+      "why": "作者用 Fable 5.2 做了湾区 250 年历史模拟，可放大到城市或街区、选年到 1769 年。未写引擎，但是可交互的模拟，互动很高。",
+      "tags": [
+        "interactive-sim",
+        "method-less-explicit",
+        "high-engagement"
+      ]
+    },
+    {
+      "id": "2120311646933680355",
+      "url": "https://x.com/ICO_AIvideo/status/2120311646933680355",
+      "author": "ICO_AIvideo",
+      "author_name": "ICO",
+      "created_at_utc": "2026-11-11T00:24:24.000Z",
+      "created_at_shanghai": "2026-11-11 08:24 (Asia/Shanghai)",
+      "likes": 27,
+      "text": "Fable 5.2 × Blender\n\n引用はFable 5.2がコードのみで作った動画。今度は同じような指示で、Blenderを使って作ってもらった。ループします。 https://t.co/huF9DVlfWG https://t.co/EYusMyM3R3",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120311299917873153/vid/avc1/1280x720/XX6AfZsYEyGyUmg8.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120311299917873153/img/_2IOlTIwNDjvdn7v.jpg",
+      "duration_ms": 21958,
+      "why": "作者先引用一条纯代码成片，再用类似提示让 Fable 5.2 在 Blender 里做了这条循环动画。这是明确的 Blender 成片。",
+      "tags": [
+        "blender"
+      ]
+    },
+    {
+      "id": "2120310249857126431",
+      "url": "https://x.com/MrTacticalX/status/2120310249857126431",
+      "author": "MrTacticalX",
+      "author_name": "Mr Tactical",
+      "created_at_utc": "2026-11-11T00:18:51.000Z",
+      "created_at_shanghai": "2026-11-11 08:18 (Asia/Shanghai)",
+      "likes": 11,
+      "text": "I asked Claude Fable 5.2 to animate a motherboard…\n\nMade in Blender:\n⏱3 hr 34 min\n💰$48.34 https://t.co/3TkEF5swwV",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120310074597933056/vid/avc1/1080x1350/XOiQcL9zNfUrh2FI.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120310074597933056/img/tAgXMI5MCJ8vjU_p.jpg",
+      "duration_ms": 30600,
+      "why": "作者让 Fable 5.2 给一块主板做动画，写明在 Blender 里完成，耗时 3 小时 34 分、花费 48.34 美元。",
+      "tags": [
+        "blender"
+      ]
+    },
+    {
+      "id": "2120309394399494150",
+      "url": "https://x.com/Iroha_ai_japan/status/2120309394399494150",
+      "author": "Iroha_ai_japan",
+      "author_name": "Iroha 🌸 Samurai Art",
+      "created_at_utc": "2026-11-11T00:15:27.000Z",
+      "created_at_shanghai": "2026-11-11 08:15 (Asia/Shanghai)",
+      "likes": 170,
+      "text": "彩刃 Iroha — color, and blade.\n色は匂へど 散りぬるを\nColors bloom, only to scatter. And yet —\nWhich frame stayed with you?\n\nby fable5.2 https://t.co/AF63J3QQRj",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120309062382637056/vid/avc1/1080x1620/Wp44dqVWWF4zU18G.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120309062382637056/img/9-Sf8Ij6-DahtAvr.jpg",
+      "duration_ms": 40000,
+      "why": "作者展示彩刃短片，署名 by fable5.2。未写引擎，但原帖带视频，本轮互动最高（170 赞）。",
+      "tags": [
+        "method-less-explicit",
+        "high-engagement"
+      ]
+    },
+    {
+      "id": "2120308118127309173",
+      "url": "https://x.com/kevin_t_ngo/status/2120308118127309173",
+      "author": "kevin_t_ngo",
+      "author_name": "Kevin Ngo",
+      "created_at_utc": "2026-11-11T00:10:23.000Z",
+      "created_at_shanghai": "2026-11-11 08:10 (Asia/Shanghai)",
+      "likes": 146,
+      "text": "Thanks for the feature, @claudeai!\n\nFable 5.2 made this '90s cereal commercial, all drawn in code https://t.co/X2jjvEyQWT https://t.co/58zlbn34Z4",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120306941243314176/vid/avc1/1080x1080/pz2C3rnTYJ4qnu3O.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120306941243314176/img/ukK6tbrQTbLUqyZj.jpg",
+      "duration_ms": 64000,
+      "why": "作者写明这条 90 年代麦片广告是 Fable 5.2 全部用代码画出来的，还被官方转发。原帖带视频，本轮互动很高。",
+      "tags": [
+        "pure-code",
+        "commercial",
+        "official-feature"
+      ]
+    },
+    {
+      "id": "2120306434575392793",
+      "url": "https://x.com/JaydenDavisNC/status/2120306434575392793",
+      "author": "JaydenDavisNC",
+      "author_name": "Jayden Davis",
+      "created_at_utc": "2026-11-11T00:03:42.000Z",
+      "created_at_shanghai": "2026-11-11 08:03 (Asia/Shanghai)",
+      "likes": 30,
+      "text": "Claude Fable 5.2 designed and created a beautiful First Person Shooter game all in Three.JS.\n\nThere were no external assets or animations used.\n\nAll was done with Claude Fable 5.2\n\nWe are in a new era. https://t.co/g5OXQx2Bx1",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120305794600124416/vid/avc1/1920x1080/C4Zgi10HepyStAQI.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120305794600124416/img/AbgdlQKcYpX5cwbn.jpg",
+      "duration_ms": 225700,
+      "why": "作者称 Fable 5.2 用 Three.js 做了整个第一人称射击游戏，没有用外部素材和现成动画。",
+      "tags": [
+        "threejs",
+        "game",
+        "no-external-assets"
+      ]
+    },
+    {
+      "id": "2120305506195849688",
+      "url": "https://x.com/yibaili530/status/2120305506195849688",
+      "author": "yibaili530",
+      "author_name": "Li Yibai",
+      "created_at_utc": "2026-11-11T00:00:00.000Z",
+      "created_at_shanghai": "2026-11-11 08:00 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Asked Claude Fable 5.2 to level up my old ocean demo, so now it has foam and a shoreline 🏖️ \nMade with Fable 5.2 in WebGPU and WGSL https://t.co/MBhwxBAiGz",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120283937394364416/vid/avc1/3734x2100/QiL-kiJp4iEdc6w2.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120283937394364416/img/Vkz2-_WvIvNR0nf-.jpg",
+      "duration_ms": 32600,
+      "why": "作者让 Fable 5.2 升级自己以前的海洋演示，补上泡沫和岸线，并写明用 WebGPU 和 WGSL 做成。帖子是 08:00 整点发出，视频约 86 分钟前上传，像是定时发布；这条视频链接此前没进收藏，按作者本人原作收录。",
+      "tags": [
+        "webgpu",
+        "wgsl",
+        "ocean-demo",
+        "scheduled-post"
+      ]
+    },
+    {
+      "id": "2120305208563765408",
+      "url": "https://x.com/bketck/status/2120305208563765408",
+      "author": "bketck",
+      "author_name": "Station Cat",
+      "created_at_utc": "2026-11-10T23:58:49.000Z",
+      "created_at_shanghai": "2026-11-11 07:58 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "之前我不相信 AGI 通用人工智能会诞生，现在不得不信了。。。。\n下面这段视频是让 Fable5.2 制作的我的专辑中一首歌曲的片段视频。\n\n全程用代码生成，歌词时间轴完美匹配。。。。\n\n我提示词就很简单:怎么好看，怎么来，风格你自己决定。\n\n今天是 2026年 11月 https://t.co/AOa8S5rdsR",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120304571075756032/vid/avc1/1920x1080/4q02clDjc7GVx02p.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120304571075756032/img/pt42yQKsoht4mFtd.jpg",
+      "duration_ms": 40000,
+      "why": "作者让 Fable 5.2 为自己专辑里的一首歌做片段视频，并写明全程用代码生成，歌词时间轴也能对上。这是明确的代码成片。",
+      "tags": [
+        "pure-code",
+        "music-video",
+        "lyrics-sync"
+      ]
+    },
+    {
+      "id": "2120305006385549448",
+      "url": "https://x.com/_nnathenn_/status/2120305006385549448",
+      "author": "_nnathenn_",
+      "author_name": "Nathen",
+      "created_at_utc": "2026-11-10T23:58:01.000Z",
+      "created_at_shanghai": "2026-11-11 07:58 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "clawd goes outside! made with fable 5.2 🦀\n\nmodeled, animated, and rendered in blender, dropped into real macro footage. all done with code, no keyframes https://t.co/qQXuRwU9B3 https://t.co/yXvMqLHR5s",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120303189807292416/vid/avc1/1440x1440/6lvhkdBBelgNVJh9.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120303189807292416/img/oBqpSHjFgSJsbUY7.jpg",
+      "duration_ms": 21916,
+      "why": "作者让 Clawd 走到室外微距实拍里，写明用 Fable 5.2 在 Blender 里建模、动画和渲染，全部用代码完成、没有手K关键帧。引用了官方发布帖，但成片媒体是本帖新上传。",
+      "tags": [
+        "blender",
+        "all-code",
+        "no-keyframes",
+        "macro-composite"
+      ]
+    },
+    {
+      "id": "2120304490595357120",
+      "url": "https://x.com/trebelloffline/status/2120304490595357120",
+      "author": "trebelloffline",
+      "author_name": "Trebell",
+      "created_at_utc": "2026-11-10T23:55:58.000Z",
+      "created_at_shanghai": "2026-11-11 07:55 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Fable 5.2 output... its so over for video and image model🤯 \n\nTHIS IS PURE CODE\n\none shotted this video holy shit , how this is more beautiful than ai video models. \n\nP.S. I do agree that sfx could be much better. https://t.co/bYIOsvO1MO",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120302806842445824/vid/avc1/1920x1080/r_rjgRF7F1W0G-F3.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120302806842445824/img/7N1_I6k4409oiG6S.jpg",
+      "duration_ms": 60000,
+      "why": "作者写明这是 Fable 5.2 一次出片，而且是纯代码生成，并拿它和视频生成模型对比。这是明确的代码成片。",
+      "tags": [
+        "pure-code",
+        "one-shot"
+      ]
+    },
+    {
+      "id": "2120301360105292004",
+      "url": "https://x.com/datawebot/status/2120301360105292004",
+      "author": "datawebot",
+      "author_name": "datawebot.",
+      "created_at_utc": "2026-11-10T23:43:32.000Z",
+      "created_at_shanghai": "2026-11-11 07:43 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "we gave claude fable 5.2 and opus 5.5 the same prompt, twice: build a 25-second animated explainer in one html file. opus was faster and cheaper both runs, $0.61 vs $2.75 at api prices. fable made the more readable animations and checked its own work once. https://t.co/1VwfMOuHFw",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120301234292969472/vid/avc1/1280x720/hpTbg8ys0gZp5Er3.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120301234292969472/img/RYIQYa-6TZmRmypE.jpg",
+      "duration_ms": 58250,
+      "why": "作者用同一提示让 Fable 5.2 和 Opus 5.5 各做两次：用一份 HTML 做出 25 秒解说动画，并公布花费和观感对比。这是明确的单文件 HTML 成片对比。",
+      "tags": [
+        "one-html",
+        "explainer",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120300591238783128",
+      "url": "https://x.com/D_D_12741/status/2120300591238783128",
+      "author": "D_D_12741",
+      "author_name": "DGC ArchCode",
+      "created_at_utc": "2026-11-10T23:40:28.000Z",
+      "created_at_shanghai": "2026-11-11 07:40 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "I asked Fable 5.2 to put a Lamborghini Aventador in a Tron-style showroom.\n\nModeled and rendered in Blender, with an original score.\n\n6.5 hours later, this is what I got. https://t.co/PacSxjSifS",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120296397740412929/vid/avc1/1920x1080/FaptfQkL0QSTXS4Y.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120296397740412929/img/94-zgB888GprOzLs.jpg",
+      "duration_ms": 71583,
+      "why": "作者让 Fable 5.2 把兰博基尼 Aventador 放进创战纪风格展厅，写明在 Blender 里建模渲染，并配了原创作曲，约 6.5 小时后出片。这是明确的 Blender 成片。",
+      "tags": [
+        "blender",
+        "showroom",
+        "original-score"
+      ]
+    },
+    {
+      "id": "2120300500692418650",
+      "url": "https://x.com/iamrahulinc/status/2120300500692418650",
+      "author": "iamrahulinc",
+      "author_name": "Rahul K",
+      "created_at_utc": "2026-11-10T23:40:07.000Z",
+      "created_at_shanghai": "2026-11-11 07:40 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "One prompt. One shot. Claude Fable 5.2 built me a full 3D stealth shooter.\n\n3 missions. Drones, mechs, a rogue AI boss.\nZero assets — every model, texture & sound is code.\n\nTrailer 👇 Play it:\nhttps://t.co/zNR0Sfe6NH\n\n@claudeai @AnthropicAI #AI #Claude #GenAI https://t.co/ds5pDJqxSi",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120300389610524672/vid/avc1/1920x1080/K1gnJaazZ5HLl7yG.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120300389610524672/img/Y8CH3_-F1pI8MhEr.jpg",
+      "duration_ms": 94737,
+      "why": "作者称一条提示、一次出片，Fable 5.2 做了完整的 3D 潜行射击游戏，并写明没有现成素材，模型、贴图和声音全部是代码。这是明确的全代码成片。帖里带标签，但不影响原作成片主张。",
+      "tags": [
+        "all-code",
+        "game",
+        "one-shot",
+        "zero-assets"
+      ]
+    },
+    {
+      "id": "2120299387314422012",
+      "url": "https://x.com/serhandesign/status/2120299387314422012",
+      "author": "serhandesign",
+      "author_name": "Serhan Baydı",
+      "created_at_utc": "2026-11-10T23:35:41.000Z",
+      "created_at_shanghai": "2026-11-11 07:35 (Asia/Shanghai)",
+      "likes": 5,
+      "text": "What if buying a Super Bowl ticket felt like this?\n\nPick a section, fly to your seat, see the show before you pay.\n\nbuilt in three.js with Claude Fable 5.2 https://t.co/GXRSt5AP0c",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120298744537030658/vid/avc1/1772x2070/ijfSLLgv-fTkomF4.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120298744537030658/img/UnzKzNDOLka4Ei0F.jpg",
+      "duration_ms": 58153,
+      "why": "作者展示选区、飞到座位再看场地的超级碗购票体验，并写明是用 Claude Fable 5.2 和 Three.js 做成的。这是明确的 Three.js 成片，原帖带视频，本轮互动也相对更高。",
+      "tags": [
+        "threejs",
+        "interactive",
+        "code"
+      ]
+    },
+    {
+      "id": "2120298088485056597",
+      "url": "https://x.com/leohuanfang/status/2120298088485056597",
+      "author": "leohuanfang",
+      "author_name": "Leohuan",
+      "created_at_utc": "2026-11-10T23:30:32.000Z",
+      "created_at_shanghai": "2026-11-11 07:30 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Gave Fable 5.2 @rileybrown's exact Blender prompt: a room, a laptop building insane things, Clawd, \"as if it was an anthropic ad\", render on RunPod.\n\nI had no RunPod key, so it rendered all 900 frames on my Mac's CPU.\n\n4h28m · 77 turns · $8.48 at API prices\n\nSound on. https://t.co/lfsz4l8puY",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2120298016967979009/pu/vid/avc1/1718x720/YztELay70vjwvLcA.mp4",
+      "preview": "https://pbs.twimg.com/ext_tw_video_thumb/2120298016967979009/pu/img/UcO8X8gUVqIldE68.jpg",
+      "duration_ms": 42000,
+      "why": "作者拿 Riley Brown 的同一条 Blender 提示交给 Fable 5.2，自己没有 RunPod 密钥，就在 Mac 的 CPU 上渲染了全部 900 帧，并公布耗时、轮次和花费。提示来自他人，但渲染和成片是作者自己完成的。",
+      "tags": [
+        "blender",
+        "900-frames",
+        "local-render"
+      ]
+    },
+    {
+      "id": "2120297954229522844",
+      "url": "https://x.com/Strongin_/status/2120297954229522844",
+      "author": "Strongin_",
+      "author_name": "Daniel Strongin",
+      "created_at_utc": "2026-11-10T23:30:00.000Z",
+      "created_at_shanghai": "2026-11-11 07:30 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Asked Fable 5.2 to explain how a manual car works by just building one\n\nOne HTML. 4 cylinder engine firing, clutch pedal, 5 speed H pattern stick you drag, diff where the outer wheel actually spins faster in corners. \n\n> One prompt\n> 1h 17m to build \n> cost $30 in API pricing https://t.co/LCg2v1Zvw0",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120229627633549312/vid/avc1/1920x1080/ZNPB7jv6-X8IxXZc.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120229627633549312/img/IsM8BTxu3fBj5Hq9.jpg",
+      "duration_ms": 40000,
+      "why": "作者让 Fable 5.2 直接做出一辆手动挡汽车来讲解原理，并写明只有一份 HTML：四缸点火、离合器、五速 H 档，差速器在转弯时外侧轮转得更快。一条提示、耗时 1 小时 17 分。帖子是 07:30 整点发出，视频约 4.5 小时前上传，像是定时发布；这条视频链接此前没进收藏，按作者本人原作收录。",
+      "tags": [
+        "one-html",
+        "interactive",
+        "car-engine",
+        "scheduled-post"
+      ]
+    },
+    {
+      "id": "2120297280997933435",
+      "url": "https://x.com/shun_cmdouga/status/2120297280997933435",
+      "author": "shun_cmdouga",
+      "author_name": "しゅん｜AI×企業CM動画制作",
+      "created_at_utc": "2026-11-10T23:27:19.000Z",
+      "created_at_shanghai": "2026-11-11 07:27 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "Fable 5.2 × Blender\n架空の毛布のCM\n\nFable 5.2でどんなことができるのか色々試しみたが\nかなりクリエイティブなこともできるようになった気がする！\n\n企画・構成：Fable 5.2\nアニメーション：Blender\nBGM：Artlist\n\n※AIで作った架空の商品です https://t.co/GALwLOMPFH",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120296746597367808/vid/avc1/1920x1080/nBbdm0MVWCjO_d_G.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120296746597367808/img/m6HENIXMUGhIzHxu.jpg",
+      "duration_ms": 20010,
+      "why": "作者用 Fable 5.2 做策划和构成，用 Blender 做动画，拍了一条虚构毛毯广告。背景音乐来自 Artlist，但成片本身是 Fable + Blender。同一条稍后改过文案，已并入本条。",
+      "tags": [
+        "blender",
+        "commercial",
+        "fable-plus-blender"
+      ]
+    },
+    {
+      "id": "2120274979614851145",
+      "url": "https://x.com/jpschroeder/status/2120274979614851145",
+      "author": "jpschroeder",
+      "author_name": "Justin Schroeder",
+      "created_at_utc": "2026-11-10T21:58:42.000Z",
+      "created_at_shanghai": "2026-11-11 05:58 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Fable 5.2 made this without blender, without CAD software, without a game engine, without music files or models, without external assets, all from a single prompt. A true one-shot.\n\nI think zen garden is saturated. https://t.co/Ad687yrsyS",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120274361063964672/vid/avc1/2208x1232/MGymGTy2uK8ZYX4z.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120274361063964672/img/CPIJU4M8pQg2xlEv.jpg",
+      "duration_ms": 89226,
+      "why": "作者称 Fable 5.2 不用 Blender、不用 CAD、不用游戏引擎、不用现成音乐、模型和外部素材，只靠一条提示一次性做成本片。这是明确的无素材代码成片。",
+      "tags": [
+        "one-shot",
+        "no-assets",
+        "no-engine",
+        "built-in-code"
+      ]
+    },
+    {
+      "id": "2120273183563788334",
+      "url": "https://x.com/hello_yannandre/status/2120273183563788334",
+      "author": "hello_yannandre",
+      "author_name": "Yann André",
+      "created_at_utc": "2026-11-10T21:51:34.000Z",
+      "created_at_shanghai": "2026-11-11 05:51 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Dans mon canapé en train de mater @KohLantaTF1.\n5mns plus tard avec un iPhone dans la main et @claudeai Fable 5.2, tu construis un Spirograph.\nJuste un fichier html de 44 ko. https://t.co/a3FyoExMP3",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120273043926773760/vid/avc1/1320x2868/Q4aTT36cB3-7NbpY.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120273043926773760/img/40TPVCYKxWi6RlTp.jpg",
+      "duration_ms": 56838,
+      "why": "作者称用手机和 Fable 5.2 在约 5 分钟内做出万花尺（Spirograph），并写明只有一份 44 KB 的 HTML。这是明确的单文件 HTML 成片。",
+      "tags": [
+        "single-html-file",
+        "spirograph",
+        "one-html"
+      ]
+    },
+    {
+      "id": "2120271154866765954",
+      "url": "https://x.com/colerepo/status/2120271154866765954",
+      "author": "colerepo",
+      "author_name": "Cole👽",
+      "created_at_utc": "2026-11-10T21:43:30.000Z",
+      "created_at_shanghai": "2026-11-11 05:43 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Fable 5.2 vs Opus 5.5. Same prompt: build a 1960s film camera in Blender from scratch.\n\nOne run each. Zero edits.\n\nOpus 5.5: 33m 38s · $7.47 est.\nFable 5.2: 51m 21s · $8.10 est.\n\nTop: Fable. Glossy, straight out of an ad. It wrote \"FABLE\" on the top plate.\nBottom: Opus. Warm https://t.co/1i2ybUEGiF",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120268236981673984/vid/avc1/1080x1350/TNPwTph2EjpRleof.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120268236981673984/img/JNb60xLyL_znmMuZ.jpg",
+      "duration_ms": 20000,
+      "why": "作者用同一提示比较 Fable 5.2 和 Opus 5.5 在 Blender 里从零做一台 1960 年代胶片相机，各跑一次、自己没改，并公布耗时和花费。这是明确的 Blender 成片对比。",
+      "tags": [
+        "blender",
+        "from-scratch",
+        "model-comparison",
+        "timed-cost"
+      ]
+    },
+    {
+      "id": "2120269858503803261",
+      "url": "https://x.com/TheMarloweFile/status/2120269858503803261",
+      "author": "TheMarloweFile",
+      "author_name": "Marlowe",
+      "created_at_utc": "2026-11-10T21:38:21.000Z",
+      "created_at_shanghai": "2026-11-11 05:38 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Claude Fable 5.2 vs Claude Opus 5.5\n\nSame prompt. Lighthouse in a storm.\nOne HTML file. No libraries. Raw WebGL. One try, no edits.\n\nFable 5.2: about 8 min\nOpus 5.5: about 10 min\n\nThey didn't just draw it differently. They built it differently.\n\nFable built a real 3D world: a https://t.co/LPvhUWORUh",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120269631277375488/vid/avc1/1080x1350/EiBj-sXM1OGXAyUX.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120269631277375488/img/EDNpnPE0WkzUi5Dn.jpg",
+      "duration_ms": 13000,
+      "why": "作者用同一提示比较 Fable 5.2 和 Opus 5.5 的风暴灯塔：各一份 HTML、不引用库、只用原生 WebGL，一次出片不改，并公布耗时（Fable 约 8 分钟，Opus 约 10 分钟）。这是明确的 HTML/WebGL 成片对比。",
+      "tags": [
+        "single-html-file",
+        "webgl",
+        "model-comparison",
+        "one-shot"
+      ]
+    },
+    {
+      "id": "2120269395373048226",
+      "url": "https://x.com/IAenCrudo/status/2120269395373048226",
+      "author": "IAenCrudo",
+      "author_name": "IA en Crudo",
+      "created_at_utc": "2026-11-10T21:36:31.000Z",
+      "created_at_shanghai": "2026-11-11 05:36 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "el aviso de cookies, pero la cookie es de verdad. hecho con fable 5.2\n\nsin three.js, sin librerías, un solo archivo html. hasta el crujido de los mordiscos lo genera el navegador https://t.co/XS0FsZf1Dq",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120268939280142336/vid/avc1/1920x1080/0lAXC8eRK_E-vsZX.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120268939280142336/img/Yh-B_WLXRXn9pEqB.jpg",
+      "duration_ms": 14400,
+      "why": "作者展示一份真正能咬的「Cookie 同意」提示，并写明由 Fable 5.2 做成：不用 Three.js、不引用库、只有一份 HTML，连咬饼干的声音也由浏览器生成。这是明确的单文件 HTML 成片。",
+      "tags": [
+        "single-html-file",
+        "no-libraries",
+        "sound-from-code"
+      ]
+    },
+    {
+      "id": "2120268733360779645",
+      "url": "https://x.com/0xApexAi/status/2120268733360779645",
+      "author": "0xApexAi",
+      "author_name": "Apex",
+      "created_at_utc": "2026-11-10T21:33:53.000Z",
+      "created_at_shanghai": "2026-11-11 05:33 (Asia/Shanghai)",
+      "likes": 11,
+      "text": "Fable 5.2 took a raw Tripo model and turned it into a fully rigged game character inside Blender from a single prompt.\n\nSo I ran the same test against my Opus 5.5 setup.\n\nBoth started from one Tripo generation costing roughly $0.60.\n\nFable 5.2\n→ mesh cleanup → 25-bone rig → https://t.co/OsbXsQYPUd https://t.co/4BflPW424f",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120267796810473472/vid/avc1/1920x1080/KSmjuhKzCxmnfnXo.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120267796810473472/img/AMVkgjZWYEXBd_CJ.jpg",
+      "duration_ms": 28053,
+      "why": "作者用同一份约 0.60 美元的 Tripo 模型，比较 Fable 5.2 和自己的 Opus 5.5 流程：Fable 从单提示做了网格清理、25 骨绑定，并在 Blender 里变成可绑定游戏角色。这是明确的 Blender 成片对比。引用了相关帖，但成片媒体是本帖新上传。",
+      "tags": [
+        "blender",
+        "character-rig",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120266583826182317",
+      "url": "https://x.com/itsluneri/status/2120266583826182317",
+      "author": "itsluneri",
+      "author_name": "Luneri",
+      "created_at_utc": "2026-11-10T21:25:20.000Z",
+      "created_at_shanghai": "2026-11-11 05:25 (Asia/Shanghai)",
+      "likes": 6,
+      "text": "Fable 5.2 created this rainy greenhouse at night, all from code https://t.co/sQl762j4ZV",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120266429807083520/vid/avc1/1280x536/cqqPa-Wwvx0eJotG.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120266429807083520/img/iPkp40AmQyzT4v9l.jpg",
+      "duration_ms": 28000,
+      "why": "作者展示 Fable 5.2 做出的夜间雨中温室，并写明全部由代码生成。这是明确的代码成片。",
+      "tags": [
+        "built-in-code",
+        "all-from-code"
+      ]
+    },
+    {
+      "id": "2120265921390621058",
+      "url": "https://x.com/untitled_sys/status/2120265921390621058",
+      "author": "untitled_sys",
+      "author_name": "maggie",
+      "created_at_utc": "2026-11-10T21:22:42.000Z",
+      "created_at_shanghai": "2026-11-11 05:22 (Asia/Shanghai)",
+      "likes": 7,
+      "text": "Fable 5.2 basically built this entire short video in Blender from one prompt\n\nI only used a few follow-up prompts to tone down some sounds I didn't like in the music, and to render it out at the end\n\nSome visuals could definitely be improved over time - the look of the monstera https://t.co/TdSsBp47bB",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120265887135715328/vid/avc1/1920x1080/6M8UYJ2wXkM5cgJM.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120265887135715328/img/MicomaI0vZuM57oM.jpg",
+      "duration_ms": 20480,
+      "why": "作者称 Fable 5.2 基本用一条提示就在 Blender 里做出整条短片，自己只补了几句提示去调音乐，最后再渲染导出。这是明确的 Blender 成片。",
+      "tags": [
+        "blender",
+        "one-prompt",
+        "short-film"
+      ]
+    },
+    {
+      "id": "2120264513224392712",
+      "url": "https://x.com/Iamshankhadeep/status/2120264513224392712",
+      "author": "Iamshankhadeep",
+      "author_name": "Shankhadeep Dey",
+      "created_at_utc": "2026-11-10T21:17:07.000Z",
+      "created_at_shanghai": "2026-11-11 05:17 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "i asked fable 5.2 to make a video in blender showing what it can do.\n\nit built the waterfall, the laptop, the keyboard, clawd, the camera moves, the score, and the edit. all in code. https://t.co/mKtAlQpRBr https://t.co/mIi70e7UCb",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120264070083620864/vid/avc1/1920x1080/80xVsB3rl4Bxzo30.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120264070083620864/img/rek3lV-p7Mz3j-1a.jpg",
+      "duration_ms": 54000,
+      "why": "作者让 Fable 5.2 在 Blender 里做一条展示片，并写明瀑布、笔记本、键盘、Clawd、运镜、配乐和剪辑都由它用代码完成。这是明确的 Blender 代码成片。同内容另有一条较早帖，已并入本条。",
+      "tags": [
+        "blender",
+        "all-in-code",
+        "built-in-code"
+      ]
+    },
+    {
+      "id": "2120264413651571170",
+      "url": "https://x.com/xhenrikkvamme/status/2120264413651571170",
+      "author": "xhenrikkvamme",
+      "author_name": "Henrik Kvamme",
+      "created_at_utc": "2026-11-10T21:16:43.000Z",
+      "created_at_shanghai": "2026-11-11 05:16 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "\"visually stunning simulation of the universe\"\n\nOne-shot prompt to Fable 5.2\n\nProceeds to simulate the entire universe in HTML https://t.co/GlfdSuJwLv",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120264070100029440/vid/avc1/1920x1080/wfERHdlEYawlLLbJ.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120264070100029440/img/DpXp7n7ILcfCX4d9.jpg",
+      "duration_ms": 31982,
+      "why": "作者只给 Fable 5.2 一句提示，让它用 HTML 模拟整个宇宙。这是明确的 HTML 成片。",
+      "tags": [
+        "one-shot",
+        "html",
+        "universe-sim"
+      ]
+    },
+    {
+      "id": "2120262045849567640",
+      "url": "https://x.com/mickeyxfriedman/status/2120262045849567640",
+      "author": "mickeyxfriedman",
+      "author_name": "mickey friedman",
+      "created_at_utc": "2026-11-10T21:07:18.000Z",
+      "created_at_shanghai": "2026-11-11 05:07 (Asia/Shanghai)",
+      "likes": 36,
+      "text": "one quirk of using fable 5.2 to generate videos with code is that javascript doesn’t seem to have nudity filters https://t.co/fTMt1AiWuc",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120253826477514752/vid/avc1/1080x1080/_kBag6Xyen6EiTI1.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120253826477514752/img/U_k9NuiOJtadWSnv.jpg",
+      "duration_ms": 16000,
+      "why": "作者写明自己在用 Fable 5.2 用代码生成视频，并提到 JavaScript 没有裸露过滤。这是明确的代码成片。作者也提到了内容尺度问题，按原文收录。",
+      "tags": [
+        "built-in-code",
+        "javascript",
+        "code-generated-video"
+      ]
+    },
+    {
+      "id": "2120239401821487149",
+      "url": "https://x.com/aecyydesign/status/2120239401821487149",
+      "author": "aecyydesign",
+      "author_name": "Szymon",
+      "created_at_utc": "2026-11-10T19:37:20.000Z",
+      "created_at_shanghai": "2026-11-11 03:37 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "Animation made with Blender and Fable 5.2 https://t.co/bAxtXB21yz",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120239272632446976/vid/avc1/3840x2160/cCVjSrAMmLTwHIcZ.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120239272632446976/img/dPfuYk7mnm4BFt1M.jpg",
+      "duration_ms": 10000,
+      "why": "作者展示用 Blender 和 Fable 5.2 做的动画，原帖带 4K 视频。说明较简，但是明确的 Blender 成片。",
+      "tags": [
+        "blender",
+        "animation"
+      ]
+    },
+    {
+      "id": "2120239202344595743",
+      "url": "https://x.com/KrzysztofLomon/status/2120239202344595743",
+      "author": "KrzysztofLomon",
+      "author_name": "Krzysztof Łomonkiewicz",
+      "created_at_utc": "2026-11-10T19:36:32.000Z",
+      "created_at_shanghai": "2026-11-11 03:36 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "I asked Claude Fable 5.2 for one story in 13 animation styles, with every frame drawn in code. No image or video models.\n\nPicture book, comic, pixel art, liquid chrome, ASCII, Bauhaus, anime and more.\n\nIn my opinion it beats Opus 5.5.\n\n#Fable  #ClaudeCode #motionGraphics https://t.co/mkWPJotnNH",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120238227923546113/vid/avc1/720x1280/oPlSrjTsq75TxmWN.mp4?tag=14",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120238227923546113/img/ibbK6oBSFMbXhLUW.jpg",
+      "duration_ms": 179200,
+      "why": "作者让 Fable 5.2 用 13 种动画风格讲同一个故事，并写明每一帧都用代码画成，没有用图像或视频模型。这是明确的代码成片。",
+      "tags": [
+        "every-frame-from-code",
+        "multi-style",
+        "no-video-model"
+      ]
+    },
+    {
+      "id": "2120238844754923874",
+      "url": "https://x.com/kevin_t_ngo/status/2120238844754923874",
+      "author": "kevin_t_ngo",
+      "author_name": "Kevin Ngo",
+      "created_at_utc": "2026-11-10T19:35:07.000Z",
+      "created_at_shanghai": "2026-11-11 03:35 (Asia/Shanghai)",
+      "likes": 332,
+      "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a dark fantasy souls-like boss fight https://t.co/9l0x4rPnTr",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120233931744391168/vid/avc1/1920x1080/qbytKTQjkq4MuaXz.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120233931744391168/img/Fzk7dWEfYuOgywxF.jpg",
+      "duration_ms": 137983,
+      "why": "作者展示 Fable 5.2 做的可在浏览器玩的黑暗奇幻魂类 Boss 战，并附上演示视频。这是 Fable 做成的互动演示，偏游戏，但原帖带视频且互动很高。",
+      "tags": [
+        "browser-game",
+        "souls-like",
+        "high-engagement"
+      ]
+    },
+    {
+      "id": "2120238479988740542",
+      "url": "https://x.com/LukeTsiaras/status/2120238479988740542",
+      "author": "LukeTsiaras",
+      "author_name": "Luke Tsiaras",
+      "created_at_utc": "2026-11-10T19:33:40.000Z",
+      "created_at_shanghai": "2026-11-11 03:33 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "In my opinion, for 99% of daily tasks, Fable 5.2 feels like the unnecessarly bougie perfectionist version of Opus 5.5\n\nThese are two videos generated entirely out of code, which I believe is currently one of the strongest ways to simultaneously test a model's capability and https://t.co/XCDj8n5hxv",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120237294376407040/vid/avc1/1920x2160/YUYTtUazdghrwiGU.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120237294376407040/img/vqXl2Jk-5XVGdob-.jpg",
+      "duration_ms": 9968,
+      "why": "作者认为日常任务里 Fable 5.2 像更讲究的 Opus 5.5，并附上两段完全用代码生成的视频，用来同时测试模型能力。这是明确的代码成片。",
+      "tags": [
+        "entirely-from-code",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120232518721163754",
+      "url": "https://x.com/lenny_enderle/status/2120232518721163754",
+      "author": "lenny_enderle",
+      "author_name": "Lenny Enderle",
+      "created_at_utc": "2026-11-10T19:09:59.000Z",
+      "created_at_shanghai": "2026-11-11 03:09 (Asia/Shanghai)",
+      "likes": 12,
+      "text": "I asked Fable 5.2 for a launch video.\n\nIt built a room by the sea in code, wrote the music in code, and Cuttle rendered it. 88 seconds, 2,640 frames, no camera.\n\nAGI is near! 👇 https://t.co/8vhi4hmyvZ",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120231743269621760/vid/avc1/1920x1080/43oPa-xi9T9y64RV.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120231743269621760/img/l3Ugjr1lY1h0N3dj.jpg",
+      "duration_ms": 88000,
+      "why": "作者向 Fable 5.2 要一条发布片：房间和海边场景用代码搭，配乐也用代码写，再交给 Cuttle 渲染，片长 88 秒、共 2640 帧，没有实拍摄像机。这是明确的代码成片。",
+      "tags": [
+        "launch-video",
+        "code-and-music",
+        "cuttle-render"
+      ]
+    },
+    {
+      "id": "2120230885077246433",
+      "url": "https://x.com/benzyfun/status/2120230885077246433",
+      "author": "benzyfun",
+      "author_name": "benzy",
+      "created_at_utc": "2026-11-10T19:03:29.000Z",
+      "created_at_shanghai": "2026-11-11 03:03 (Asia/Shanghai)",
+      "likes": 6,
+      "text": "fable 5.2 just made this short film about a paperclip and a sticker in only 1 hour.\n\nthis is simply amazing!\n\nevery frame here is a piece of code that was written while i was making coffee. https://t.co/f7gXOWePIG https://t.co/JgwL8zXMJR",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120229445231312896/vid/avc1/1080x1080/5xJprOS8EKX2jFHO.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120229445231312896/img/ykSUWrs6dH9gDfiH.jpg",
+      "duration_ms": 59626,
+      "why": "作者称 Fable 5.2 在约 1 小时内做出回形针和贴纸短片，并写明每一帧都是代码，当时自己在泡咖啡。引用了较早帖，但成片媒体是本帖新上传。",
+      "tags": [
+        "every-frame-from-code",
+        "short-film"
+      ]
+    },
+    {
+      "id": "2120228998454325655",
+      "url": "https://x.com/meow2149/status/2120228998454325655",
+      "author": "meow2149",
+      "author_name": "meow",
+      "created_at_utc": "2026-11-10T18:55:59.000Z",
+      "created_at_shanghai": "2026-11-11 02:55 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "同一个鹈鹕测试，Fable 这次花了 Carbon 的 20 倍。\n\n我用 Pi 给两个模型发了同一条提示词，让它们各做一段 HTML 动画，思考都开到各自最高档。\n\nClaude Fable 5.2（max）$12.077\nGemini 4 Carbon（high）$0.595\n\n两版放一起了，你更喜欢哪一个？ https://t.co/Rwhftxmxuk",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120228838869524480/vid/avc1/2648x1396/yRb8UH3rccEIkGSF.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120228838869524480/img/3HeCEn6iUFZG3R6j.jpg",
+      "duration_ms": 11905,
+      "why": "作者用同一条提示、最高思考档，让 Fable 5.2 max 和 Gemini 4 Carbon high 各做一段 HTML 动画（鹈鹕测试），并公布花费：Fable 12.077 美元，Carbon 0.595 美元。这是明确的 HTML 成片对比。",
+      "tags": [
+        "html-animation",
+        "model-comparison",
+        "pelican"
+      ]
+    },
+    {
+      "id": "2120225154613801451",
+      "url": "https://x.com/DanielZambrini/status/2120225154613801451",
+      "author": "DanielZambrini",
+      "author_name": "Daniel Zambrini",
+      "created_at_utc": "2026-11-10T18:40:43.000Z",
+      "created_at_shanghai": "2026-11-11 02:40 (Asia/Shanghai)",
+      "likes": 13,
+      "text": "Gemini Carbon 4 Vs Fable 5.2 - Stickman Fight\n\nI know I am not comparing apples to apples here, but since both models are the current top tiers it is worth it.\n\nDespite carbon being much better than its predecessors, it is still nowhere near Fable 5.2 (or even Opus 5.5) for https://t.co/qQcQDA6prF",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120223520022044672/vid/avc1/1152x1296/k9GEwKdjbKyvE3N3.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120223520022044672/img/AuwiBQ0NZ5BmkqY8.jpg",
+      "duration_ms": 15000,
+      "why": "作者用同一题材比较 Gemini Carbon 4 和 Fable 5.2 的火柴人对打，原帖带视频、互动较高。可见文案没有写明是否纯代码渲染，先收入并标注待确认。",
+      "tags": [
+        "model-comparison",
+        "stickman",
+        "pipeline-unclear"
+      ]
+    },
+    {
+      "id": "2120223040768451047",
+      "url": "https://x.com/0xVibeDino/status/2120223040768451047",
+      "author": "0xVibeDino",
+      "author_name": "VibeDino",
+      "created_at_utc": "2026-11-10T18:32:19.000Z",
+      "created_at_shanghai": "2026-11-11 02:32 (Asia/Shanghai)",
+      "likes": 14,
+      "text": "CLAUDE FABLE 5.2 VS OPUS 5.5: TOURBILLON WATCH\n\nsame prompt. same 35 min cap.\nthree.js from scratch. zero assets. no GPU.\n\nFable 5.2\n\n&gt; 34m 54s\n&gt; 197K tokens\n&gt; 17 steps\n&gt; 551K triangles per frame\n\nOpus 5.5\n\n&gt; 33m 22s\n&gt; 206K tokens\n&gt; 34 steps\n&gt; 249K triangles per frame\n\nboth wrote https://t.co/U7D6NiRqC5",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120222927442350080/vid/avc1/1080x1350/bfWWTFvSFImcUKLl.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120222927442350080/img/hcKbpKV7nPy1Yfkx.jpg",
+      "duration_ms": 20000,
+      "why": "作者用同一提示、同样 35 分钟上限，比较 Fable 5.2 和 Opus 5.5 从零写 Three.js 陀飞轮手表：不引用素材、不用 GPU，并公布了耗时、步数和每帧三角面数。这是明确的代码成片对比。",
+      "tags": [
+        "threejs",
+        "model-comparison",
+        "tourbillon"
+      ]
+    },
+    {
+      "id": "2120220121985958190",
+      "url": "https://x.com/wenbozhu0328/status/2120220121985958190",
+      "author": "wenbozhu0328",
+      "author_name": "Wenbo Zhu",
+      "created_at_utc": "2026-11-10T18:20:43.000Z",
+      "created_at_shanghai": "2026-11-11 02:20 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "We gave Fable 5.2 the hardest challenge: recreate real motion design 1:1 in code.\n\nAcross our hardest cases it beat Opus 5.5 every time. But here's its worst one : (reference / Fable 5.2 / Opus 5.5)\n\nEven though it's the best model we've tested, it scores just 0.15 out of 1 in https://t.co/I5MDDjIEo9",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120220089211658240/vid/avc1/680x1572/k4cLYGW5Em_De3fB.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120220089211658240/img/KpD6jVEbHqaLdYyB.jpg",
+      "duration_ms": 37500,
+      "why": "作者团队让 Fable 5.2 用代码 1:1 还原真实动态设计，并称在最难案例里都超过了 Opus 5.5；本帖放出它表现最差的一条（参考 / Fable / Opus 对照）。这是明确的代码运动设计测试。",
+      "tags": [
+        "motion-design",
+        "recreate-in-code",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2120219010860019977",
+      "url": "https://x.com/miki_code/status/2120219010860019977",
+      "author": "miki_code",
+      "author_name": "miki ⋆｡°✩",
+      "created_at_utc": "2026-11-10T18:16:18.000Z",
+      "created_at_shanghai": "2026-11-11 02:16 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "I asked Claude Fable 5.2 to build a 3D animation of an ASML EUV machine printing a wafer. One prompt, one HTML file, no 3D assets every part is generated in code with three.js. https://t.co/EBJlPlimHb",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120217984568381440/vid/avc1/1920x1080/AAOQPmf__6M2zkFO.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120217984568381440/img/XOTTVqcsY5jayA-R.jpg",
+      "duration_ms": 101000,
+      "why": "作者只用一句提示、一份 HTML，让 Fable 5.2 用 Three.js 纯代码做出光刻机（ASML EUV）在晶圆上曝光的 3D 动画，不引用现成 3D 素材。这是明确的 HTML/Three.js 成片。",
+      "tags": [
+        "one-html",
+        "threejs",
+        "asml-euv"
+      ]
+    },
+    {
+      "id": "2120218994682581295",
+      "url": "https://x.com/KenGrayAI/status/2120218994682581295",
+      "author": "KenGrayAI",
+      "author_name": "Ken Gray",
+      "created_at_utc": "2026-11-10T18:16:14.000Z",
+      "created_at_shanghai": "2026-11-11 02:16 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Fable 5.2 is incredible \n\nI asked Fable 5.2 for a 3D journey across Earth. It wrote the mountains, ocean, creatures and camera moves in code, on top of NASA's Earth imagery. https://t.co/9ibWKVHJTe",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120218934393659392/vid/avc1/1080x1920/_v5GqWxP9-5UgSFR.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120218934393659392/img/NijrgnAC_pUUdBQf.jpg",
+      "duration_ms": 43333,
+      "why": "作者让 Fable 5.2 做一段穿越地球的 3D 旅程，并写明山脉、海洋、生物和镜头运动都用代码写，再叠在 NASA 地球影像上。这是明确的代码成片。",
+      "tags": [
+        "earth-journey",
+        "code-camera",
+        "nasa-imagery"
+      ]
+    },
+    {
+      "id": "2120218046166102440",
+      "url": "https://x.com/xinxuai/status/2120218046166102440",
+      "author": "xinxuai",
+      "author_name": "Xin",
+      "created_at_utc": "2026-11-10T18:12:28.000Z",
+      "created_at_shanghai": "2026-11-11 02:12 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "every domino is 1.5x bigger than the last\n\nclaude fable 5.2 wrote the whole thing as code. the salt flat, the sun, the physics, every clack you hear. no video model\n\ni just gave notes https://t.co/y3nlGu0dKL",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120217933502980096/vid/avc1/1920x1080/0Ch6mBO8zPgXOV9X.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120217933502980096/img/tkD5gxRTNH0O8LcS.jpg",
+      "duration_ms": 15000,
+      "why": "作者让 Fable 5.2 做多米诺骨牌（每一块是前一块的 1.5 倍），并写明盐沼、太阳、物理和碰撞声全部用代码写成，没有用视频模型，自己只给了备注。这是明确的代码成片。",
+      "tags": [
+        "domino",
+        "physics-in-code",
+        "no-video-model"
+      ]
+    },
+    {
+      "id": "2120213917167190407",
+      "url": "https://x.com/koss_ai/status/2120213917167190407",
+      "author": "koss_ai",
+      "author_name": "koss",
+      "created_at_utc": "2026-11-10T17:56:04.000Z",
+      "created_at_shanghai": "2026-11-11 01:56 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Another one-shot @threejs Three.js test with @AnthropicAI Claude Fable 5.2 (high).\n\nThis time I asked it to build a complete futuristic Mars rover experience from scratch - procedurally modeled, with no external 3D assets.\n\nThe result ended up being far more complex than I expected:\n\n~112k triangles\nsix-wheel articulated suspension\nsteerable corner wheels\nsensor mast with cameras + lidar\n5-axis robotic arm with drill\nsolar panels, radiators, antenna, RTG and internal battery compartment\nautonomous 119 m route with three stops\nterrain scanning, arm deployment and drilling at each stop\ndrill tip placement within ~1 cm of the target\nindependent wheel suspension following the terrain\ntire tracks and dust\nexploded view with 14 labeled assemblies\nX-ray, night mode and multiple camera systems\n7 cinematic camera shots\nfull mission HUD with speed, heading, pitch, roll, suspension travel, battery, signal, odometer and event log\n\nAgain: one prompt, one pass.\n\nNo follow-up prompts, no manual fixes, no cleanup.\n\nWhat impressed me most is how much engineering logic, motion behavior and visual design it resolved on its own.\n\nFable 5.2 in high mode is seriously strong for this kind of creative coding.",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120213602543992832/vid/avc1/1920x1080/kBDFHREmsUhZj7Zv.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120213602543992832/img/wtv8XqbGogi2iEIN.jpg",
+      "duration_ms": 99800,
+      "why": "作者用 Fable 5.2 high 一次出片，在 Three.js 里从零程序化做出火星车，没有外部 3D 资产，并包含完整任务镜头和 HUD。",
+      "tags": [
+        "threejs",
+        "procedural",
+        "one-shot",
+        "no-assets",
+        "mars-rover"
+      ]
+    },
+    {
+      "id": "2120212644280119750",
+      "url": "https://x.com/ZryMiller/status/2120212644280119750",
+      "author": "ZryMiller",
+      "author_name": "Zach",
+      "created_at_utc": "2026-11-10T17:51:00.000Z",
+      "created_at_shanghai": "2026-11-11 01:51 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "Fable 5.2 is the animation GOAT\n\nMade in @threejs, models made with @Blender \nTime: 11 hours\nCost: $362 https://t.co/B3iLKFtQvS",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120211495426666496/vid/avc1/1920x1080/EhxD97Y_qVyLvuJX.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120211495426666496/img/zEQ8lSpd7eRQTdmv.jpg",
+      "duration_ms": 45000,
+      "why": "作者展示用 Fable 5.2 做的动画，并写明在 Three.js 里完成、模型用 Blender 做，耗时 11 小时、花费 362 美元。",
+      "tags": [
+        "threejs",
+        "blender",
+        "animation",
+        "timed-cost"
+      ]
+    },
+    {
+      "id": "2120211050595340766",
+      "url": "https://x.com/skpnky/status/2120211050595340766",
+      "author": "skpnky",
+      "author_name": "sk builds",
+      "created_at_utc": "2026-11-10T17:44:40.000Z",
+      "created_at_shanghai": "2026-11-11 01:44 (Asia/Shanghai)",
+      "likes": 123,
+      "text": "\"fable 5.2 is the WORST model in the world\"\n\nuntil you see what it made with one prompt: https://t.co/yVRebTzNe1",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120210957750206465/vid/avc1/1920x1080/r_iM-l02IAnFACtB.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120210957750206465/img/5q-fmboaOZPy6FR4.jpg",
+      "duration_ms": 64682,
+      "why": "作者展示一句提示让 Fable 5.2 做出的成片。未写是否用代码渲染，但原帖带视频，互动很高。",
+      "tags": [
+        "one-prompt",
+        "method-less-explicit",
+        "high-engagement"
+      ]
+    },
+    {
+      "id": "2120210882382971263",
+      "url": "https://x.com/MatinSenPai/status/2120210882382971263",
+      "author": "MatinSenPai",
+      "author_name": "Matin SenPai",
+      "created_at_utc": "2026-11-10T17:44:00.000Z",
+      "created_at_shanghai": "2026-11-11 01:44 (Asia/Shanghai)",
+      "likes": 17,
+      "text": "ببینید Fable 5.2 چی ساخت فقط با یه پرامپت:) نه بلندر، نه mcp خاصی، نه Skill، هیچی. کد خالص\nزیباتر از همه‌شون بوده تا به الان، اما مصرفش هم از همه بالاتر. 11 دلار API مصرف کرد و 50-60 درصد از لیمیت 5 ساعته‌ام. این هم پرامپت همیشگی:\nmake a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120210403443580928/vid/avc1/1920x1080/95uorcbEJsUlMw8J.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120210403443580928/img/nxgN71jx0-i6H7R8.jpg",
+      "duration_ms": 15000,
+      "why": "作者写明没有用 Blender、MCP 或 Skill，只用一份提示让 Fable 5.2 纯代码做出 15 秒动态设计作品集。这是明确的代码成片。",
+      "tags": [
+        "pure-code",
+        "motion-graphics",
+        "showreel",
+        "one-prompt"
+      ]
+    },
+    {
+      "id": "2120209307019170210",
+      "url": "https://x.com/MaguireMathis/status/2120209307019170210",
+      "author": "MaguireMathis",
+      "author_name": "Maguire Mathis🌵",
+      "created_at_utc": "2026-11-10T17:37:45.000Z",
+      "created_at_shanghai": "2026-11-11 01:37 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Full marketing video created for my app Followkeeper using Fable 5.2 on Blender. Genuinely UNREAL stuff happening right now. Was even able to connect my MacBook Pro to the Mac Studio and via TB5 they were able to render separate frames to cut down on render time! https://t.co/3i2dRCIfAJ",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120209253898010624/vid/avc1/1080x1920/CF8fKT4GioW3ZxlB.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120209253898010624/img/0lAzcQMi0O035XQG.jpg",
+      "duration_ms": 31500,
+      "why": "作者用 Fable 5.2 在 Blender 里为自己的应用 Followkeeper 做完整营销视频，还把 MacBook Pro 和 Mac Studio 连在一起分帧渲染。",
+      "tags": [
+        "blender",
+        "marketing-video",
+        "multi-machine-render"
+      ]
+    },
+    {
+      "id": "2120202746121085321",
+      "url": "https://x.com/HashemGhaili/status/2120202746121085321",
+      "author": "HashemGhaili",
+      "author_name": "Hashem Al-Ghaili",
+      "created_at_utc": "2026-11-10T17:11:40.000Z",
+      "created_at_shanghai": "2026-11-11 01:11 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "I built an X-ray mirror using Claude Fable 5.2. 💀\n\nPoint a webcam at your face and see the skull, brain and muscles inside your head, tracked live as you move. Open your mouth and the jaw opens. Hold up a hand and you see its bones.\n\nOne web page, no install, and the video never https://t.co/6DIiPeZNeI",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120202498787135489/vid/avc1/1080x1920/G73ikslsCXef_u6x.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120202498787135489/img/sqeWBwx_efNE5lyf.jpg",
+      "duration_ms": 201733,
+      "why": "作者用 Claude Fable 5.2 做了一个网页版“X 光镜子”：摄像头对着脸就能看到头骨和肌肉，整页无需安装。这是用代码做的交互演示，并带成片记录。",
+      "tags": [
+        "one-webpage",
+        "interactive-demo",
+        "webcam"
+      ]
+    },
+    {
+      "id": "2120202317861650632",
+      "url": "https://x.com/MrTacticalX/status/2120202317861650632",
+      "author": "MrTacticalX",
+      "author_name": "Mr Tactical",
+      "created_at_utc": "2026-11-10T17:09:58.000Z",
+      "created_at_shanghai": "2026-11-11 01:09 (Asia/Shanghai)",
+      "likes": 7,
+      "text": "I asked Claude Fable 5.2 to solve a Rubik's Cube and then shatter it...\n\nMade in Blender:\n⏱1 hr 51 min \n💰$65.52 https://t.co/ure4VNWHom https://t.co/XbbglEWXBU",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120201463401967616/vid/avc1/1080x1350/tuAfL_HlTn_VGE_m.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120201463401967616/img/PKEaHlIl2h_J83x0.jpg",
+      "duration_ms": 15400,
+      "why": "作者让 Claude Fable 5.2 在 Blender 里解开魔方再把它打碎，并写明耗时 1 小时 51 分、花费 65.52 美元。",
+      "tags": [
+        "blender",
+        "rubiks-cube",
+        "timed-cost"
+      ]
+    },
+    {
+      "id": "2120194977221251139",
+      "url": "https://x.com/FritzReigar/status/2120194977221251139",
+      "author": "FritzReigar",
+      "author_name": "Fritz Reigar",
+      "created_at_utc": "2026-11-10T16:40:48.000Z",
+      "created_at_shanghai": "2026-11-11 00:40 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "I asked Fable 5.2 for a launch video of my open source music player.\n\nNo video editor, no generated footage. It wrote code that moves the mouse and double-clicks songs in the actual app, then renders the whole thing frame by frame.\n\nVersion 1 was four silent screenshots. I told it that was boring, a music player has to be heard.\n\nThis is the final version. Sound on.\n\nSnugtone is a free desktop player for the music you already own: hapless, every album at the same volume, a ten-band EQ, search like bits:24 duration:>3:30, and it rescans 161 GB in 0.48 s.\n\nDoes it look like it was made with code?",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120194937081774080/vid/avc1/1920x1080/mlhoakHAAo3Za6Q7.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120194937081774080/img/lK-Bjwu__-FpRgQa.jpg",
+      "duration_ms": 27783,
+      "why": "作者为开源音乐播放器向 Fable 5.2 要一条发布片：不用剪辑软件、不用生成视频，由它写代码在真实应用里移动鼠标、逐帧渲染，并补上声音。",
+      "tags": [
+        "frame-by-frame",
+        "no-video-editor",
+        "wrote-code",
+        "launch-video"
+      ]
+    },
+    {
+      "id": "2120194452115407306",
+      "url": "https://x.com/TheDigitalRep/status/2120194452115407306",
+      "author": "TheDigitalRep",
+      "author_name": "The Digital Republic",
+      "created_at_utc": "2026-11-10T16:38:43.000Z",
+      "created_at_shanghai": "2026-11-11 00:38 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Fable 5.2 animation of a formula 1 race in a single html file, everything you see form GFX to SFX is generated by code using webgl. https://t.co/aoOtLQi41M",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120194365154889728/vid/avc1/1280x720/sayhgslcMyF19-40.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120194365154889728/img/Vo3Et_w6_2XhCAp_.jpg",
+      "duration_ms": 198200,
+      "why": "作者写明这是 Fable 5.2 用单个 HTML 文件做的一级方程式动画，画面和音效都由 WebGL 代码生成。",
+      "tags": [
+        "single-html",
+        "webgl",
+        "formula-1",
+        "code-generated-sfx"
+      ]
+    },
+    {
+      "id": "2120194121138610199",
+      "url": "https://x.com/guilleflorvs/status/2120194121138610199",
+      "author": "guilleflorvs",
+      "author_name": "Guillermo Flor",
+      "created_at_utc": "2026-11-10T16:37:24.000Z",
+      "created_at_shanghai": "2026-11-11 00:37 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "This short film on the history of writing came from one prompt to Claude Fable 5.2.\n\nNo video model was involved. The film is code:\n1. Every scene is an animation written for the browser\n2. A browser with no window plays it and saves it frame by frame\n3. ffmpeg, a free tool, stitches the frames into an MP4\n\nThe text stays sharp and the colours exact, which video models still struggle with.\n\nThat's how a startup can make its launch video: one prompt, its own brand, every word editable.\n\nFull breakdown here:\nhttps://t.co/750nPn2MO0\n\nWould you make your launch video this way?",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2120194035985858560/pu/vid/avc1/1280x720/NQ6PKZavCA_xbdkP.mp4?tag=12",
+      "preview": "https://pbs.twimg.com/ext_tw_video_thumb/2120194035985858560/pu/img/L4_p7LPC3vWNkTIC.jpg",
+      "duration_ms": 96042,
+      "why": "作者用一句提示让 Fable 5.2 做文字史短片，并写明没有用视频模型：每场都是浏览器动画，无窗口浏览器逐帧保存，再用 ffmpeg 合成 MP4。",
+      "tags": [
+        "browser-animation",
+        "ffmpeg",
+        "one-prompt",
+        "no-video-model",
+        "html-code-film"
+      ]
+    },
+    {
+      "id": "2120189062418145766",
+      "url": "https://x.com/iliazolotukhin/status/2120189062418145766",
+      "author": "iliazolotukhin",
+      "author_name": "Ilia",
+      "created_at_utc": "2026-11-10T16:17:18.000Z",
+      "created_at_shanghai": "2026-11-11 00:17 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Spent my day pushing Fable 5.2 to it's limits.  \n\nAnd well, this thing and me are definitely cooking...  \n\nExplore Matrix concept, built with Three.js + Blender. Still long way to go, but already you can feel the vibe! https://t.co/DadEAfGPfW",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120174684117622784/vid/avc1/3432x1834/AnZOyDREpRGCTo_q.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120174684117622784/img/LBh_MGZ7tT2T0PWJ.jpg",
+      "duration_ms": 31970,
+      "why": "作者自称花一天把 Fable 5.2 推到极限，用 Three.js + Blender 做 Explore Matrix 概念片。",
+      "tags": [
+        "three-js",
+        "blender",
+        "concept-film"
+      ]
+    },
+    {
+      "id": "2120188353895108919",
+      "url": "https://x.com/adrianmakes/status/2120188353895108919",
+      "author": "adrianmakes",
+      "author_name": "Adrian",
+      "created_at_utc": "2026-11-10T16:14:29.000Z",
+      "created_at_shanghai": "2026-11-11 00:14 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "gave Fable 5.2 the same one prompt I gave Opus 5.5 two weeks ago. top is Opus, bottom is Fable\n\nFable made a film about chaos, tested 720,000 random rules and found an attractor with no name\n\nI named it A², after my fiancée Ashley\n\nevery frame is computed from the equations https://t.co/yhq6Z1ea7m",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120188080510345216/vid/avc1/720x900/bkkASKcKiLHIpdRj.mp4?tag=14",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120188080510345216/img/PMUWkf2bwSqKCq0x.jpg",
+      "duration_ms": 139000,
+      "why": "作者用同一提示对比 Opus 5.5 与 Fable 5.2：Fable 做了一部关于混沌的短片，试了 72 万条随机规则并找到吸引子；写明每一帧都由方程计算出来。",
+      "tags": [
+        "computed-from-equations",
+        "one-prompt",
+        "model-comparison",
+        "chaos-attractor"
+      ]
+    },
+    {
+      "id": "2120188077855613174",
+      "url": "https://x.com/prasenx/status/2120188077855613174",
+      "author": "prasenx",
+      "author_name": "Prasenjit",
+      "created_at_utc": "2026-11-10T16:13:23.000Z",
+      "created_at_shanghai": "2026-11-11 00:13 (Asia/Shanghai)",
+      "likes": 10,
+      "text": "gave fable 5.2 one prompt and no help\n\nit built a whole tiny planet from scratch, filmed the trailer itself and then i walked on it https://t.co/yPmp0zntqZ",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120187200919027712/vid/avc1/1920x1080/6x9gOegXbLLMQegl.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120187200919027712/img/-JinenvH3-EX8Wpn.jpg",
+      "duration_ms": 39266,
+      "why": "作者只用一句提示、没有再插手，让 Fable 5.2 从零搭出一颗小行星，自己拍了预告片，作者还能走进去。未写具体渲染引擎，但原帖带视频。",
+      "tags": [
+        "one-prompt",
+        "from-scratch",
+        "world-and-trailer",
+        "method-less-explicit"
+      ]
+    },
+    {
+      "id": "2120186616966975817",
+      "url": "https://x.com/esrhengwu/status/2120186616966975817",
+      "author": "esrhengwu",
+      "author_name": "基恩-Keane 🌊",
+      "created_at_utc": "2026-11-10T16:07:35.000Z",
+      "created_at_shanghai": "2026-11-11 00:07 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "全片2124帧，没有一张素材，由Fable 5.2写代码算出来。\n\n向日葵每长一颗种子，就转137.5度。\n\n差半度，整盘就散了。 \n后半段没告诉程序任何角度，只给一条规则：新种子长在最空的地方。\n\n它自己停在了137.5度。 \n\n真实向日葵的螺旋数多数是斐波那契数，但不是每一朵都是。 https://t.co/nDPejI2YZs",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120185353202229248/vid/avc1/720x1280/X6iTo5gIViQPc7mR.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120185353202229248/img/QIrhVdpoLqg0vsTC.jpg",
+      "duration_ms": 70900,
+      "why": "作者写明全片 2124 帧没有一张素材，都由 Fable 5.2 写代码算出来，讲向日葵种子按 137.5 度螺旋生长，后半段只给“长在最空处”的规则。",
+      "tags": [
+        "computed-frames",
+        "no-footage",
+        "phyllotaxis",
+        "built-in-code"
+      ]
+    },
+    {
+      "id": "2120185945135948143",
+      "url": "https://x.com/AIzunA_izumo/status/2120185945135948143",
+      "author": "AIzunA_izumo",
+      "author_name": "AIzunA 出雲から、AIをもっとやさしく。",
+      "created_at_utc": "2026-11-10T16:04:55.000Z",
+      "created_at_shanghai": "2026-11-11 00:04 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Claude Fable 5.2 に、このリールを作ってもらいました。最初の指示は1行。\n\nX の調査・台本・動画のコードまで Fable 5.2（Claude Code）が書きました。声は Gemini の読み上げ。数字は Anthropic の発表（11/9）から。\nhttps://t.co/01WOlE2JnS\n\n#Claude #Fable52 https://t.co/HmArUUqNnv",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2120185816010149888/pu/vid/avc1/720x1280/66pfWvDmpbxcXY6r.mp4?tag=12",
+      "preview": "https://pbs.twimg.com/ext_tw_video_thumb/2120185816010149888/pu/img/uTHsasdNc9iLIQC2.jpg",
+      "duration_ms": 69248,
+      "why": "作者只用一行指示，让 Fable 5.2（Claude Code）完成调查、台本和视频代码；配音来自 Gemini 朗读。明确是代码成片的短视频。",
+      "tags": [
+        "claude-code",
+        "wrote-video-code",
+        "one-line-prompt",
+        "mixed-tts"
+      ]
+    },
+    {
+      "id": "2120185914848641407",
+      "url": "https://x.com/not_sacke/status/2120185914848641407",
+      "author": "not_sacke",
+      "author_name": "S4ck3",
+      "created_at_utc": "2026-11-10T16:04:47.000Z",
+      "created_at_shanghai": "2026-11-11 00:04 (Asia/Shanghai)",
+      "likes": 5,
+      "text": "Gave Fable 5.2 another test: a forest diorama built entirely from one Blender Python script.\n\nCabin, lake, dock, deer, autumn larches. No assets, every tree made in code. https://t.co/mz4ZpZqXKG",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120185873136308224/vid/avc1/1080x1080/v9zEhpadO8gh-C3u.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120185873136308224/img/_QgG2YqnkUHzmjab.jpg",
+      "duration_ms": 10000,
+      "why": "作者用 Fable 5.2 只写一份 Blender Python 脚本搭出森林箱庭，无外部资产，树都在代码里生成。",
+      "tags": [
+        "blender-python",
+        "single-script",
+        "no-assets",
+        "built-in-code"
+      ]
+    },
+    {
+      "id": "2120185004701720968",
+      "url": "https://x.com/Jimosax/status/2120185004701720968",
+      "author": "Jimosax",
+      "author_name": "James Dimachkie",
+      "created_at_utc": "2026-11-10T16:01:10.000Z",
+      "created_at_shanghai": "2026-11-11 00:01 (Asia/Shanghai)",
+      "likes": 5,
+      "text": "Fable 5.2 wrote the code that made every frame of this video. No video mode, no timeline.\n\nMade with Video Decompiler, a free skill for Claude Code & Codex. Show it a video you love, and make it yours.\n\nOpen Source. Coming this week. https://t.co/V0W4F0V6Op",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120184874187558913/vid/avc1/1920x1080/tsKF623up_KWy-kA.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120184874187558913/img/vgV3fyGPWkuid_8S.jpg",
+      "duration_ms": 67583,
+      "why": "作者写明 Fable 5.2 写出了生成每一帧的代码，没有用视频模式或时间线；帖内同时预告开源技能 Video Decompiler，来源仍记本帖并标注带推广。",
+      "tags": [
+        "every-frame-from-code",
+        "no-video-mode",
+        "contains-promo-link"
+      ]
+    },
+    {
+      "id": "2120184485753033104",
+      "url": "https://x.com/ScaleWthAI/status/2120184485753033104",
+      "author": "ScaleWthAI",
+      "author_name": "Saman Ahmed",
+      "created_at_utc": "2026-11-10T15:59:07.000Z",
+      "created_at_shanghai": "2026-11-10 23:59 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Fable 5.2 just dropped.\n\nI raced it against Opus 5.5 on one 3D scene:\n\nI gave both the same prompt: a sunrise from orbit.\n\nNo photos. No textures. Every pixel is code.\n\nWhat Fable 5.2 built for me:\n1. Stars across the sky.\n2. Airglow on the horizon.\n3. City lights on the night https://t.co/fjDqFfd8g3",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120170113798443008/vid/avc1/1080x1920/QHprxzNCJmZRbvEp.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120170113798443008/img/3aFKGVHOGgPCGppf.jpg",
+      "duration_ms": 30500,
+      "why": "作者用同一提示让 Fable 5.2 和 Opus 5.5 做轨道日出，并写明没有照片和贴图，每个像素都由代码生成。",
+      "tags": [
+        "every-pixel-is-code",
+        "model-comparison",
+        "no-textures"
+      ]
+    },
+    {
+      "id": "2120183065397842041",
+      "url": "https://x.com/Zekunnnnn/status/2120183065397842041",
+      "author": "Zekunnnnn",
+      "author_name": "Zekun",
+      "created_at_utc": "2026-11-10T15:53:28.000Z",
+      "created_at_shanghai": "2026-11-10 23:53 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Asked Fable 5.2 for a 15s video of a snowspeeder tripping an AT-AT. It wrote everything in code\n\nIt added black bars and motion blur I didn't ask for, even footprints in the snow\n\nThe speeder modeling is a lot better than Opus's too https://t.co/gy3iF3j8A3",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120182908631584768/vid/avc1/1920x680/UNXyXhct0Lc4I1M3.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120182908631584768/img/d6rtZpRum9whN4yp.jpg",
+      "duration_ms": 15000,
+      "why": "作者让 Fable 5.2 做 15 秒雪地飞船绊倒 AT-AT 的视频，并写明全部用代码写成，还对比了 Opus 的造型。",
+      "tags": [
+        "wrote-everything-in-code",
+        "model-comparison",
+        "15s-shot"
+      ]
+    },
+    {
+      "id": "2120182666532442198",
+      "url": "https://x.com/ginka1108/status/2120182666532442198",
+      "author": "ginka1108",
+      "author_name": "銀貨先生/湊銀貨",
+      "created_at_utc": "2026-11-10T15:51:53.000Z",
+      "created_at_shanghai": "2026-11-10 23:51 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Fable5.2にRemotionで作らせたクロップワイプのサンプル。「画像も動画も作れないAI」にJavascriptを本気で触らせるとここまでやれてしまうのか。もうスクリプトか動画かなんて人間には区別できないレベルだな https://t.co/D2GfpgvOEN",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120181796591865856/vid/avc1/1920x1080/M-xT5i8thhplnc2n.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120181796591865856/img/Y61fumA08xx8HdCP.jpg",
+      "duration_ms": 8000,
+      "why": "作者让 Fable 5.2 用 Remotion 做裁剪擦除转场样例，并强调是靠 JavaScript 写成，而不是模型直接出图出视频。",
+      "tags": [
+        "remotion",
+        "javascript",
+        "transition-sample"
+      ]
+    },
+    {
+      "id": "2120181459617202356",
+      "url": "https://x.com/jiteshkprasad/status/2120181459617202356",
+      "author": "jiteshkprasad",
+      "author_name": "Jitesh K Prasad",
+      "created_at_utc": "2026-11-10T15:47:05.000Z",
+      "created_at_shanghai": "2026-11-10 23:47 (Asia/Shanghai)",
+      "likes": 3,
+      "text": "Sound effects from pure code by Fable 5.2 medium one shot. https://t.co/lE1228wkYw",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120180791271714816/vid/avc1/1080x1080/E0DbdCe67lf6Khr3.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120180791271714816/img/Ma_7mdykwauV9q67.jpg",
+      "duration_ms": 32500,
+      "why": "作者称用 Fable 5.2 medium 一次出片，纯代码做出音效，并附上视频。",
+      "tags": [
+        "sound-from-code",
+        "one-shot",
+        "medium"
+      ]
+    },
+    {
+      "id": "2120178163846164874",
+      "url": "https://x.com/nokoxyz/status/2120178163846164874",
+      "author": "nokoxyz",
+      "author_name": "noko",
+      "created_at_utc": "2026-11-10T15:33:59.000Z",
+      "created_at_shanghai": "2026-11-10 23:33 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "same prompt to Fable 5.2 and Opus 5.5: make a 35-second WALL-E movie in voxels, one html file\n\nneither model could open a browser. they wrote the file blind and handed it over\n\n> Fable 5.2: 15 min, 4.78$. played on the first load. WALL-E, EVE, the rocket, space, the starship\n> https://t.co/kvzE8Yqqwh",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120178106161913856/vid/avc1/1080x1200/vwZOxlo61f4aigk7.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120178106161913856/img/HGxK1xFo6Yt4Gmz3.jpg",
+      "duration_ms": 35000,
+      "why": "作者用同一提示让 Fable 5.2 和 Opus 5.5 各做一部 35 秒 WALL-E 体素短片，要求单个 HTML 文件；Fable 约 15 分钟、4.78 美元，第一次加载就能播放。这是典型的代码成片。",
+      "tags": [
+        "single-html-file",
+        "voxels",
+        "model-comparison",
+        "wall-e"
+      ]
+    },
+    {
+      "id": "2120175385799430642",
+      "url": "https://x.com/wjwang2003/status/2120175385799430642",
+      "author": "wjwang2003",
+      "author_name": "Weijie Wang",
+      "created_at_utc": "2026-11-10T15:22:57.000Z",
+      "created_at_shanghai": "2026-11-10 23:22 (Asia/Shanghai)",
+      "likes": 6,
+      "text": "One sentence to Fable 5.2: \"make an interactive 3D website of Apple's A2164 charger.\"\n\nIt found teardown photos (No design drawings) and rebuilt all 108 parts in code. I wrote zero lines.\n\nCrazy😢\n\n#Fable #ClaudeCode #3D https://t.co/axPE3JuZ1V",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120175022342021120/vid/avc1/1280x720/qwf9imTBqEp_p9_E.mp4?tag=14",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120175022342021120/img/aOUSyQl6-yZWKrBE.jpg",
+      "duration_ms": 81800,
+      "why": "作者一句话让 Fable 5.2 做苹果 A2164 充电器的交互 3D 网页；它找来拆解照片，用代码重建全部 108 个零件，作者自称没写一行代码。",
+      "tags": [
+        "built-in-code",
+        "interactive-3d-site",
+        "one-sentence"
+      ]
+    },
+    {
+      "id": "2120172126175162672",
+      "url": "https://x.com/megyo9/status/2120172126175162672",
+      "author": "megyo9",
+      "author_name": "Ueda",
+      "created_at_utc": "2026-11-10T15:10:00.000Z",
+      "created_at_shanghai": "2026-11-10 23:10 (Asia/Shanghai)",
+      "likes": 4,
+      "text": "Fable5.2は物理シミュレーションが得意なのかなと思って、布シミュレーションを試してる https://t.co/ceDKxipCsq",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120171768442929153/vid/avc1/1676x1240/mZUJ9NbUWp6kH5Ix.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120171768442929153/img/AX7oVzhvwL4T7dEm.jpg",
+      "duration_ms": 16427,
+      "why": "作者在测试 Fable 5.2 是否擅长物理仿真，并放出布料模拟成片。",
+      "tags": [
+        "physics-simulation",
+        "cloth-sim"
+      ]
+    },
+    {
+      "id": "2120170748576997737",
+      "url": "https://x.com/Suhas__ashok/status/2120170748576997737",
+      "author": "Suhas__ashok",
+      "author_name": "Suhas",
+      "created_at_utc": "2026-11-10T15:04:31.000Z",
+      "created_at_shanghai": "2026-11-10 23:04 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Created a monte carlo in trading explainer video using fable 5.2, just one prompt lol, just one!!! https://t.co/ndiDnvxDNj",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120170363539832832/vid/avc1/1920x1080/mZenbOPZdl3M1HxA.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120170363539832832/img/4yjZinzzXl9W_FQf.jpg",
+      "duration_ms": 118016,
+      "why": "作者自称只用一个提示，用 Fable 5.2 做了蒙特卡洛交易讲解视频。",
+      "tags": [
+        "author-claimed-explainer-video",
+        "one-prompt"
+      ]
+    },
+    {
+      "id": "2120157178690769365",
+      "url": "https://x.com/JangXiin/status/2120157178690769365",
+      "author": "JangXiin",
+      "author_name": "Xiin",
+      "created_at_utc": "2026-11-10T14:10:36.000Z",
+      "created_at_shanghai": "2026-11-10 22:10 (Asia/Shanghai)",
+      "likes": 10,
+      "text": "我让Fable5.2和Opus5.5分别只用100行代码生成雨夜的灯塔，你们觉得哪个更好\n\n我喜欢Fable5.2的这一版 https://t.co/DYtdI7YXol",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120151753043718144/vid/avc1/1920x1080/guKAwiA_uWF1-AUo.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120151753043718144/img/pJirHlK1G5aQ0WAT.jpg",
+      "duration_ms": 10323,
+      "why": "作者让 Fable 5.2 和 Opus 5.5 各自只用 100 行代码生成雨夜灯塔，并展示自己更喜欢的 Fable 一版。这是明确的代码成片对比。",
+      "tags": [
+        "100-lines-of-code",
+        "model-comparison",
+        "lighthouse-scene"
+      ]
+    },
+    {
+      "id": "2120153096798318631",
+      "url": "https://x.com/Kevinlinyang001/status/2120153096798318631",
+      "author": "Kevinlinyang001",
+      "author_name": "Maodi",
+      "created_at_utc": "2026-11-10T13:54:23.000Z",
+      "created_at_shanghai": "2026-11-10 21:54 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "看到大家都在玩Claude Fable 5.2我也来一个\n致敬豆包。自己中转站https://t.co/AtUAP9ZjXf 满血fable5.2实测\n\n我觉得审美已经无敌了，剪辑节奏和动效太强了...强的有点过于离谱了\n\n我选择用Claude Fable 5.2羞辱豆包，豆包自己一定做不来，只能让claude大人来了 https://t.co/BAGkc6Njhi",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120152703867486209/vid/avc1/1920x1080/larXUQnM9a3-7vMu.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120152703867486209/img/iMiRNa8Y2oYT8fYU.jpg",
+      "duration_ms": 54000,
+      "why": "作者自称用满血 Fable 5.2 做视频并向豆包对比；帖内带中转站推广，来源仍记本帖。",
+      "tags": [
+        "author-claimed-made-with-fable-5.2",
+        "contains-promo-link"
+      ]
+    },
+    {
+      "id": "2120042502283735212",
+      "url": "https://x.com/Kypuro_Demo/status/2120042502283735212",
+      "author": "Kypuro_Demo",
+      "author_name": "kypuro",
+      "created_at_utc": "2026-11-10T06:34:55.000Z",
+      "created_at_shanghai": "2026-11-10 14:34 (Asia/Shanghai)",
+      "likes": 8,
+      "text": "你敢信这是代码出来的视频\n\nFable 5.2，你牛大了\n\nA \\，你也牛大了\n\n视频来源外网老哥，我是不舍得用 Fable5.2 的额度做这个的🥹\n#Claude #Fable #OpenAI https://t.co/tyQZiVqUZe",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120042199043981312/vid/avc1/1920x1080/DxaAnDItpCCtMAnL.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120042199043981312/img/SNXAplLxB2BK-sa_.jpg",
+      "duration_ms": 25045,
+      "why": "转帖强调「这是代码出来的视频」，但作者写明视频来自外网，不是自己用额度做的。来源记本帖，并标注非原作者。",
+      "tags": [
+        "code-video-claim",
+        "repost-not-original-maker"
+      ]
+    },
+    {
+      "id": "2120006406032269691",
+      "url": "https://x.com/Neuraticai/status/2120006406032269691",
+      "author": "Neuraticai",
+      "author_name": "Neuratic.ai = AI + Human In The Loop",
+      "created_at_utc": "2026-11-10T04:11:29.000Z",
+      "created_at_shanghai": "2026-11-10 12:11 (Asia/Shanghai)",
+      "likes": 1,
+      "text": "Anthropic just released Claude Fable 5.2 today.\n\nWe prompted it to make a video of Visakhapatnam Beach Road, with the sea in view and the tourist spots along that stretch, from Dolphin’s Nose to Rushikonda.\n\n#Fable5.2 https://t.co/mb6yTh1521",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2120006271289933824/vid/avc1/1080x1920/_Ba2cr98Ck4wUCzV.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2120006271289933824/img/kwZWI1JAZ8TrLOsk.jpg",
+      "duration_ms": 15000,
+      "why": "作者称让刚发布的 Fable 5.2 做 Visakhapatnam Beach Road 视频；未写是否代码渲染，先收入并标注待确认。",
+      "tags": [
+        "prompted-to-make-video",
+        "render-method-unclear"
+      ]
+    },
+    {
+      "id": "2119925209881030718",
+      "url": "https://x.com/MartinSzerment/status/2119925209881030718",
+      "author": "MartinSzerment",
+      "author_name": "Martin Szerment | Practical AI",
+      "created_at_utc": "2026-11-09T22:48:50.000Z",
+      "created_at_shanghai": "2026-11-10 06:48 (Asia/Shanghai)",
+      "likes": 0,
+      "text": "Claude Fable 5.2 vs GPT Astra 6\nThey named it Fable for a reason: it looks like one. 🐝\n\nClaude Fable 5.2 dropped today. First test: one prompt, one HTML file, no 3D assets.\nA honeybee landing on a coneflower, shot like a macro lens at golden hour.\n\nFable 5.2 vs GPT-6 Astra: https://t.co/swSRvdck34",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2119924761392275456/vid/avc1/3564x1932/R8ruZAgzOZA21jJx.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2119924761392275456/img/dplHIAPWBVC9EsLn.jpg",
+      "duration_ms": 18518,
+      "why": "作者写明：一个提示、一个 HTML 文件、无 3D 资产，做蜜蜂停在松果菊上的微距镜头，并和 GPT-6 Astra 对比。这是较典型的代码成片。",
+      "tags": [
+        "one-prompt",
+        "single-html-file",
+        "no-3d-assets",
+        "model-comparison"
+      ]
+    },
+    {
+      "id": "2119906202330988961",
+      "url": "https://x.com/sprinntt/status/2119906202330988961",
+      "author": "sprinntt",
+      "author_name": "Sprint",
+      "created_at_utc": "2026-11-09T21:33:19.000Z",
+      "created_at_shanghai": "2026-11-10 05:33 (Asia/Shanghai)",
+      "likes": 2,
+      "text": "Night Tokyo 04: Ramen Stall 🍜\n\nClaude Fable 5.2 came out today, so it gets the new prompt first.\n\n- Claude Fable 5.2 (Claude Code, medium effort): $7.11 - 20 min\n\nOne shot, on its own. Press T and the rain slowly turns to snow. https://t.co/NJtUse0fTG",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2119905884365074432/vid/avc1/1922x1080/SgmAc5CFTaaJq3tq.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2119905884365074432/img/wtdJc73u7gFsAnpE.jpg",
+      "duration_ms": 18515,
+      "why": "Night Tokyo 04: Ramen Stall。作者写明用 Claude Code + Fable 5.2 medium，one shot，约 20 分钟 / $7.11，按 T 雨转雪，偏代码交互场景。",
+      "tags": [
+        "claude-code",
+        "one-shot",
+        "interactive-html-or-scene"
+      ]
+    },
+    {
+      "id": "2119905141822484595",
+      "url": "https://x.com/higgsfield_ai/status/2119905141822484595",
+      "author": "higgsfield_ai",
+      "author_name": "Higgsfield AI 🧩",
+      "created_at_utc": "2026-11-09T21:29:06.000Z",
+      "created_at_shanghai": "2026-11-10 05:29 (Asia/Shanghai)",
+      "likes": 53,
+      "text": "This was made without a video model.\n\nClaude Fable 5.2 built a rainy Tokyo alley in code:\n\n&gt; Rain, puddles and neon reflections\n&gt; A street mirror with a working reflection\n&gt; Japanese signs you can read\n\nTry Fable 5.2 now with Higgsfield MCP. https://t.co/7v2S9UDabF https://t.co/TTxReAT4VJ",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2119903112425066496/vid/avc1/1920x1080/m1x8bc6dk1l-gRsQ.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2119903112425066496/img/V7SU7giys9ywIUQT.jpg",
+      "duration_ms": 15000,
+      "why": "Higgsfield 官方帖明确写：没有视频模型，Fable 5.2 用代码搭出下雨的东京巷（雨、积水、霓虹倒影、可读日文招牌）。",
+      "tags": [
+        "built-in-code",
+        "official-tool-account"
+      ]
+    },
+    {
+      "id": "2119902325460590834",
+      "url": "https://x.com/Khazix0918/status/2119902325460590834",
+      "author": "Khazix0918",
+      "author_name": "数字生命卡兹克",
+      "created_at_utc": "2026-11-09T21:17:54.000Z",
+      "created_at_shanghai": "2026-11-10 05:17 (Asia/Shanghai)",
+      "likes": 536,
+      "text": "Claude Fable 5.2的视频能力又大幅进化了，节奏和动效太强了...强的有点过于离谱了。\nChatGPT就要四周年了，我用Claude Fable 5.2给ChatGPT四周年提前做了一个庆生视频，这个细节这个节奏，强无敌。。。\n只能说，愿Claude和GPT继续相爱相杀...\n（OpenAI你赶紧端点好的上来吧。。。） https://t.co/Ikoxo8Pjnb",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2119899444233863168/vid/avc1/1920x1080/hqqYkpi27k2cdXpg.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2119899444233863168/img/vMSmsGDfr-rKCTom.jpg",
+      "duration_ms": 58000,
+      "why": "作者自称用 Claude Fable 5.2 做了 ChatGPT 四周年庆生视频，强调节奏与动效。",
+      "tags": [
+        "author-claimed-made-with-fable-5.2"
+      ]
+    },
+    {
+      "id": "2119885430627913784",
+      "url": "https://x.com/other__reality/status/2119885430627913784",
+      "author": "other__reality",
+      "author_name": "NotinReality",
+      "created_at_utc": "2026-11-09T20:10:46.000Z",
+      "created_at_shanghai": "2026-11-10 04:10 (Asia/Shanghai)",
+      "likes": 207,
+      "text": "Claude Fable 5.2 is absolutely another step up in visual design and polish. \n\nFable 5.2 on high reasoning made this when tasked to \"Create an animated video of clawd creating and releasing Claude Fable 5.2\" using the existing animation base. https://t.co/YXMPSRKI1N",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2119884273071411200/vid/avc1/1280x720/DwN1eSgpBgK8Wpa6.mp4?tag=14",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2119884273071411200/img/pX6GYdfgg49q8YyP.jpg",
+      "duration_ms": 26000,
+      "why": "作者用 Fable 5.2 high reasoning，按提示做 Clawd 发布 Fable 5.2 的动画，并说明基于已有 animation base。",
+      "tags": [
+        "author-claimed-animated-video",
+        "uses-existing-animation-base"
+      ]
+    },
+    {
+      "id": "2119884295179538680",
+      "url": "https://x.com/charan_kilari/status/2119884295179538680",
+      "author": "charan_kilari",
+      "author_name": "Charan Kilari",
+      "created_at_utc": "2026-11-09T20:06:16.000Z",
+      "created_at_shanghai": "2026-11-10 04:06 (Asia/Shanghai)",
+      "likes": 11,
+      "text": "This was a one-shot with Claude Fable 5.2.  \nWow, this takes 3D Blender workflows to the next level.  \n\nFable 5.2 + VideoDraft+ ElevenLabs v4  \nThe workflow is crazy powerful. https://t.co/CMEcJn79ie",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2119883996436082688/vid/avc1/1080x1920/vnjdC4iD158qDzXz.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2119883996436082688/img/QOh-7XLUSTXivJdM.jpg",
+      "duration_ms": 25266,
+      "why": "作者称 one-shot，工作流为 Fable 5.2 + VideoDraft + ElevenLabs v4，偏 3D Blender，不是纯 HTML 渲染。",
+      "tags": [
+        "one-shot",
+        "mixed-pipeline-blender-videodraft-elevenlabs"
+      ]
+    },
+    {
+      "id": "2119460874381570360",
+      "url": "https://x.com/janm_uiux/status/2119460874381570360",
+      "author": "janm_uiux",
+      "author_name": "Jan Mraz",
+      "created_at_utc": "2026-11-08T16:03:44.000Z",
+      "created_at_shanghai": "2026-11-09 00:03 (Asia/Shanghai)",
+      "likes": 975,
+      "text": "Claude Fable 5.2 + Higgsfield MCP  🤯 https://t.co/lI6Qe8DrZr",
+      "has_video": true,
+      "video_url": "https://video.twimg.com/amplify_video/2119459851998834688/vid/avc1/1080x1920/-oq8f7YDj6LHdNse.mp4",
+      "preview": "https://pbs.twimg.com/amplify_video_thumb/2119459851998834688/img/jP4uGORADu8VON1k.jpg",
+      "duration_ms": 12500,
+      "why": "作者展示 Claude Fable 5.2 + Higgsfield MCP 成片；未写明是否纯代码渲染，先收入并标注待确认。",
+      "tags": [
+        "fable-higgsfield-mcp",
+        "pipeline-unclear"
+      ]
+    }
+  ]
+}
