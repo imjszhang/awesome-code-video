@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文
 
-**[访问 Awesome Code Video 官网 →](https://awesomecodevideo.com/)** · [搜索资源库](https://awesomecodevideo.com/library/) · [按使用场景浏览](https://awesomecodevideo.com/collections/)
+**官网：** [https://awesomecodevideo.com/](https://awesomecodevideo.com/) · [搜索资源库](https://awesomecodevideo.com/library/) · [按使用场景浏览](https://awesomecodevideo.com/collections/)
 
 在网站查看视觉预览，按框架和资源类型筛选，并获取源码链接与复用说明。
 
@@ -14,8 +14,16 @@
 
 仅收录公开可获取、可检查且许可明确允许复用的资源；不收录加密或账户绑定的模板源码、仅限非商业使用及授权不明确的项目。开源许可证中的版权声明不构成排除理由。
 
+[![首页主视觉与 Claude Fable 5.2 画廊](assets/readme/homepage-hero-fable.webp)][homepage-hero]
+
+[![Claude Fable 5.2 代码视频](assets/readme/fable-spotlight.webp)][fable-spotlight]
+
+[homepage-hero]: https://awesomecodevideo.com/
+[fable-spotlight]: https://awesomecodevideo.com/spotlight/fable-5-2/
+
 ## Contents
 
+- [Claude Fable 5.2](#claude-fable-52)
 - [如何选择](#如何选择)
 - [成片与场景工程](#成片与场景工程)
 - [参数化地图镜头](#参数化地图镜头)
@@ -27,6 +35,10 @@
 - [生成式视频提示词](#生成式视频提示词)
 - [相关清单](#相关清单)
 - [复用边界](#复用边界)
+
+## Claude Fable 5.2
+
+网站上有一个 Claude Fable 5.2 代码视频专区：[https://awesomecodevideo.com/spotlight/fable-5-2/](https://awesomecodevideo.com/spotlight/fable-5-2/)。这里展示的是公开原帖，从原平台播放，尚未进入下方精选索引，也不计入上述 267 个可复用单元。
 
 ## 如何选择
 
