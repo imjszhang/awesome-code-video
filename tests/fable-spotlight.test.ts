@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readdirSync, readFileSync} from 'node:fs';
+import {existsSync, readdirSync, readFileSync} from 'node:fs';
 import React,{act} from 'react';
 import {JSDOM} from 'jsdom';
 import {renderToString} from 'react-dom/server';
 import {App} from '../web/src/App';
-import {FABLE_SPOTLIGHT_HEADING,FABLE_SPOTLIGHT_HOME_LIMIT,FABLE_SPOTLIGHT_PAGE_DESCRIPTION,FABLE_SPOTLIGHT_PAGE_TITLE,FABLE_SPOTLIGHT_PATH,fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,spotlightFrame} from '../web/src/fableSpotlight';
+import {FABLE_SPOTLIGHT_HEADING,FABLE_SPOTLIGHT_HOME_LIMIT,FABLE_SPOTLIGHT_PAGE_DESCRIPTION,FABLE_SPOTLIGHT_PAGE_TITLE,FABLE_SPOTLIGHT_PATH,fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,fableSpotlightPosters,spotlightFrame,spotlightStill} from '../web/src/fableSpotlight';
 import {allPaths,kindCount,pageMeta,projects,resources,routeForPath} from '../web/src/model';
 import {pageSeoHead} from '../web/src/seo';
 
@@ -61,6 +61,17 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
   assert.equal(read('scripts/traceability.mjs').includes('fable-52-gallery'), false);
   const posters = readdirSync(new URL('../web/public/previews', import.meta.url));
   for (const item of items) assert.equal(posters.some(name => name.includes(item.id)), false, item.id);
+  const stills = new Map(fableSpotlightPosters.map(record => [record.id, record]));
+  assert.equal(stills.size, items.length);
+  for (const item of items) {
+    const still = stills.get(item.id);
+    assert.ok(still, item.id);
+    assert.equal(still.source_url, item.preview);
+    assert.equal(still.poster, `/spotlight/fable-5-2/${item.id}.webp`);
+    assert.equal(existsSync(new URL(`../web/public${still.poster}`, import.meta.url)), true, item.id);
+    assert.equal(spotlightStill(item, path => `/${path}`), still.poster);
+  }
+  assert.equal(spotlightStill({id: 'missing-post', preview: 'https://pbs.twimg.com/a.jpg'}), 'https://pbs.twimg.com/a.jpg');
 });
 
 test('homepage spotlight shows the latest 24 posts between the stats row and Featured', () => {
@@ -107,34 +118,30 @@ test('homepage spotlight shows the latest 24 posts between the stats row and Fea
   assert.match(css, /\.fable-frame\[data-frame='landscape'\] \.art-link \{ aspect-ratio: 16 \/ 9; \}/);
   assert.match(css, /\.fable-frame\[data-frame='portrait'\] \.art-link \{ aspect-ratio: 9 \/ 16; \}/);
   assert.match(css, /\.fable-frame\[data-frame='square'\] \.art-link \{ aspect-ratio: 1 \/ 1; \}/);
-  assert.match(css, /\.fable-frame \.preview-poster,\s*\.fable-frame \.preview-player \{[^}]*object-fit: cover;/);
+  assert.match(css, /\.fable-frame \.preview-poster \{[^}]*object-fit: cover;/);
   assert.doesNotMatch(css, /\.fable-frame[^{]*\{[^}]*object-fit:\s*fill/);
   assert.match(css, /\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(4, minmax\(0, 1fr\)\); \}/);
   assert.match(css, /\.fable-frame\[data-frame='portrait'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='square'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(6, minmax\(0, 1fr\)\); \}/);
   assert.match(css, /@media \(max-width: 1180px\) \{[\s\S]*\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(3, minmax\(0, 1fr\)\); \}/);
   assert.match(css, /@media \(max-width: 640px\) \{[\s\S]*?\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='portrait'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='square'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(2, minmax\(0, 1fr\)\);/);
   assert.match(css, /\.spotlight-modal-dialog\[data-frame='portrait'\] \.spotlight-modal-stage \{ aspect-ratio: 9 \/ 16;/);
-  assert.match(css, /\.spotlight-modal-stage \.preview-poster,\s*\.spotlight-modal-stage \.preview-player \{[^}]*object-fit: cover;/);
+  assert.match(css, /\.spotlight-modal-stage \.preview-poster \{[^}]*object-fit: cover;/);
   const mixed = fableSpotlightItems().slice(0, 2).map((item, index) => ({...item, video_url: index === 0 ? 'https://video.twimg.com/vid/avc1/1920x1080/a.mp4' : 'https://video.twimg.com/vid/avc1/1080x1920/a.mp4'}));
   assert.deepEqual(fableSpotlightBlocks(mixed).map(block => block.frame), ['landscape', 'portrait']);
   for (const item of latest) {
     const card = section.slice(section.indexOf(`data-spotlight-id="${item.id}"`), section.indexOf(`data-spotlight-id="${item.id}"`) + 2500);
-    assert.doesNotMatch(card, new RegExp(`href="${item.url}"`));
+    assert.match(card, new RegExp(`href="${item.url}"`));
+    assert.match(card, /target="_blank"/);
+    assert.match(card, /rel="noopener noreferrer"/);
+    assert.match(card, new RegExp(`aria-label="Original post by ${item.author_name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`));
     assert.match(card, /class="spotlight-open"/);
     assert.match(card, /<img\b[^>]*class="preview-media preview-poster"[^>]*loading="lazy"/);
-    assert.match(card, new RegExp(`src="${item.preview}"`));
-    const video = card.match(/<video\b[^>]*>/)?.[0] ?? '';
-    assert.match(video, /preload="none"/);
-    assert.match(video, /playsinline/i);
-    assert.match(video, /referrerpolicy="no-referrer"/i);
-    assert.doesNotMatch(video, /\bsrc="/i);
-    assert.match(video, new RegExp(`poster="${item.preview}"`));
-    const attrs = video.replace(/\s(?:src|poster)="[^"]*"/gi, '');
-    assert.doesNotMatch(attrs, /\b(?:autoplay|controls|muted|loop)\b/i);
-    assert.match(card, /class="preview-play"/);
+    assert.match(card, new RegExp(`src="/spotlight/fable-5-2/${item.id}\\.webp"`));
+    assert.doesNotMatch(card, /<video\b|class="preview-play"|video\.twimg\.com/);
     assert.match(card, new RegExp(`data-frame="${spotlightFrame(item)}"`));
   }
-  assert.equal([...section.matchAll(/<video\b/g)].length, 24);
+  assert.equal([...section.matchAll(/<video\b/g)].length, 0);
+  assert.doesNotMatch(section, /video\.twimg\.com|class="preview-play"/);
   assert.ok(latest.some(item => spotlightFrame(item) === 'portrait'));
   assert.ok(latest.some(item => spotlightFrame(item) === 'landscape'));
   assert.doesNotMatch(section, /\/previews\//);
@@ -195,9 +202,10 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
   for (const block of rendered) assert.ok(block.frames.every(frame => frame === block.frame));
   assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 118);
-  assert.doesNotMatch(html, /href="https:\/\/x\.com\//);
+  assert.match(html, /href="https:\/\/x\.com\//);
   assert.equal([...html.matchAll(/role="dialog"/g)].length, 0);
-  assert.equal([...html.matchAll(/<video\b/g)].length, items.length);
+  assert.equal([...html.matchAll(/<video\b/g)].length, 0);
+  assert.doesNotMatch(html, /video\.twimg\.com|class="preview-play"/);
   assert.equal([...html.matchAll(/\bautoplay\b/gi)].length, 0);
   assert.doesNotMatch(html, /\/previews\/|href="[^"]*\/resources\/|已渲染实测|we rendered this|verified render/i);
   const frames = new Set(items.map(spotlightFrame));
@@ -209,13 +217,8 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   assert.equal(resourcePages.length, resources.length);
 });
 
-test('spotlight play loads the original file muted and does not autoplay', async () => {
-  const latest = fableSpotlightHomeItems()[0];
+test('spotlight cards link to the original post and do not mount a player', async () => {
   const dom = new JSDOM('<!doctype html><html><body><div id="root"></div></body></html>', {url: 'https://awesomecodevideo.com/'});
-  const proto = dom.window.HTMLMediaElement.prototype as HTMLMediaElement & {play: () => Promise<void>; pause: () => void; load: () => void};
-  proto.play = () => Promise.resolve();
-  proto.pause = () => {};
-  proto.load = () => {};
   const previous = new Map(['window', 'document', 'navigator', 'localStorage', 'HTMLElement', 'Node', 'IS_REACT_ACT_ENVIRONMENT'].map(key => [key, Object.getOwnPropertyDescriptor(globalThis, key)]));
   const values: Record<string, unknown> = {window: dom.window, document: dom.window.document, navigator: dom.window.navigator, localStorage: dom.window.localStorage, HTMLElement: dom.window.HTMLElement, Node: dom.window.Node, IS_REACT_ACT_ENVIRONMENT: true};
   for (const [key, value] of Object.entries(values)) Object.defineProperty(globalThis, key, {value, writable: true, configurable: true});
@@ -224,29 +227,19 @@ test('spotlight play loads the original file muted and does not autoplay', async
   try {
     await act(async () => {root.render(React.createElement(App, {path: '/'}));});
     const section = dom.window.document.querySelector('.fable-spotlight')!;
-    const videos = [...section.querySelectorAll('video')];
-    assert.equal(videos.length, 24);
-    for (const video of videos) {
-      assert.equal(video.getAttribute('src'), null);
-      assert.equal(video.preload, 'none');
-      assert.equal(video.autoplay, false);
-      assert.equal(video.muted, false);
+    assert.equal(section.querySelector('video'), null);
+    assert.equal(section.querySelector('.preview-play'), null);
+    const cards = [...section.querySelectorAll('.spotlight-card')];
+    const latest = fableSpotlightHomeItems();
+    assert.equal(cards.length, latest.length);
+    for (const card of cards) {
+      const item = latest.find(entry => entry.id === card.getAttribute('data-spotlight-id'));
+      assert.ok(item);
+      const link = card.querySelector('a.art-link');
+      assert.equal(link?.getAttribute('href'), item.url);
+      assert.equal(link?.getAttribute('target'), '_blank');
+      assert.equal(link?.querySelector('img')?.getAttribute('src'), `/spotlight/fable-5-2/${item.id}.webp`);
     }
-    const button = section.querySelector('button.preview-play')!;
-    const video = section.querySelector('video')!;
-    await act(async () => {button.dispatchEvent(new dom.window.MouseEvent('click', {bubbles: true}));});
-    assert.equal(video.muted, true);
-    assert.equal(video.getAttribute('src'), latest.video_url);
-    assert.equal(video.autoplay, false);
-    assert.equal(button.getAttribute('aria-pressed'), 'true');
-    const second = section.querySelectorAll('button.preview-play')[1];
-    const secondVideo = section.querySelectorAll('video')[1];
-    const next = fableSpotlightHomeItems()[1];
-    await act(async () => {second.dispatchEvent(new dom.window.MouseEvent('click', {bubbles: true}));});
-    assert.equal(video.getAttribute('src'), null);
-    assert.equal(secondVideo.muted, true);
-    assert.equal(secondVideo.getAttribute('src'), next.video_url);
-    assert.equal(secondVideo.autoplay, false);
   } finally {
     await act(async () => {root.unmount();});
     dom.window.close();
@@ -260,10 +253,6 @@ test('spotlight play loads the original file muted and does not autoplay', async
 test('a Fable card opens a same-page viewer and does not leave for the original post', async () => {
   const item = fableSpotlightBlocks(fableSpotlightHomeItems())[0].items[0];
   const dom = new JSDOM('<!doctype html><html><body><div id="root"></div></body></html>', {url: 'https://awesomecodevideo.com/'});
-  const proto = dom.window.HTMLMediaElement.prototype as HTMLMediaElement & {play: () => Promise<void>; pause: () => void; load: () => void};
-  proto.play = () => Promise.resolve();
-  proto.pause = () => {};
-  proto.load = () => {};
   const previous = new Map(['window', 'document', 'navigator', 'localStorage', 'HTMLElement', 'Node', 'IS_REACT_ACT_ENVIRONMENT'].map(key => [key, Object.getOwnPropertyDescriptor(globalThis, key)]));
   const values: Record<string, unknown> = {window: dom.window, document: dom.window.document, navigator: dom.window.navigator, localStorage: dom.window.localStorage, HTMLElement: dom.window.HTMLElement, Node: dom.window.Node, IS_REACT_ACT_ENVIRONMENT: true};
   for (const [key, value] of Object.entries(values)) Object.defineProperty(globalThis, key, {value, writable: true, configurable: true});
@@ -278,14 +267,11 @@ test('a Fable card opens a same-page viewer and does not leave for the original 
     assert.equal(dom.window.location.href, stayed);
     const dialog = dom.window.document.querySelector('[role="dialog"]')!;
     assert.equal(dialog.getAttribute('data-frame'), spotlightFrame(item));
+    assert.equal(dialog.querySelector('video'), null);
+    assert.equal(dialog.querySelector('img')?.getAttribute('src'), `/spotlight/fable-5-2/${item.id}.webp`);
     assert.ok((dialog.textContent ?? '').includes(item.author_name));
     assert.ok((dialog.textContent ?? '').includes(item.created_at_shanghai));
     assert.ok((dialog.textContent ?? '').includes(item.text.split('\n')[0].slice(0, 40)));
-    const player = dialog.querySelector('video')!;
-    assert.equal(player.muted, true);
-    assert.equal(player.getAttribute('src'), item.video_url);
-    assert.equal(player.getAttribute('referrerpolicy'), 'no-referrer');
-    assert.equal(player.autoplay, false);
     const source = dialog.querySelector('a')!;
     assert.equal(source.getAttribute('href'), item.url);
     assert.equal(source.getAttribute('target'), '_blank');

@@ -137,8 +137,7 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 .fable-frame[data-frame='landscape'] .art-link { aspect-ratio: 16 / 9; }
 .fable-frame[data-frame='portrait'] .art-link { aspect-ratio: 9 / 16; }
 .fable-frame[data-frame='square'] .art-link { aspect-ratio: 1 / 1; }
-.fable-frame .preview-poster,
-.fable-frame .preview-player { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; object-position: center; }
+.fable-frame .preview-poster { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; object-position: center; }
 .spotlight-card .card-foot a { color: var(--text); text-decoration: underline; text-decoration-color: var(--hair-strong); text-underline-offset: 3px; }
 .spotlight-card .card-foot a:hover { text-decoration-color: var(--playhead); }
 .spotlight-open { display: flex; gap: 8px; width: 100%; margin: 0; padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: inherit; cursor: pointer; }
@@ -149,8 +148,7 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 .spotlight-modal-dialog[data-frame='landscape'] .spotlight-modal-stage { aspect-ratio: 16 / 9; }
 .spotlight-modal-dialog[data-frame='portrait'] .spotlight-modal-stage { aspect-ratio: 9 / 16; width: min(100%, 420px); margin-inline: auto; }
 .spotlight-modal-dialog[data-frame='square'] .spotlight-modal-stage { aspect-ratio: 1 / 1; width: min(100%, 640px); margin-inline: auto; }
-.spotlight-modal-stage .preview-poster,
-.spotlight-modal-stage .preview-player { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; object-position: center; }
+.spotlight-modal-stage .preview-poster { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; object-position: center; }
 .spotlight-modal-copy { padding: 16px 4px 4px; }
 .spotlight-modal-copy h2 { margin: 4px 0 8px; font-size: 28px; }
 .spotlight-modal-copy time { color: var(--dim); font: 12px/1.5 var(--mono); }
