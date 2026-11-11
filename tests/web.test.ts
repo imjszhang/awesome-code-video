@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import React from 'react';
 import {renderToString} from 'react-dom/server';
-import {App,GalleryCard} from '../web/src/App';
+import {App,GalleryCard,coverStill} from '../web/src/App';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems} from '../web/src/galleryBrowsing';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMedia} from '../web/src/galleryPlayback';
 import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,previewSpecs,kindCount,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
@@ -189,11 +189,12 @@ test('gallery cards retain complete previews and featured covers without autopla
  }
  for(const resource of resources)assert.equal(cardHtml.includes(`href="/resources/${resource.id}/"`),galleryIds.has(resource.id),resource.id);
  const library=renderToString(React.createElement(App,{path:'/library/'}));
+ // Browse cards rest on stills; playback belongs to the homepage gallery and the resource page.
  assert.equal(library.includes('<video'),false);
- assert.equal(library.includes('<img'),false);
  assert.match(library,/EDITORIAL COVER/);
- const detail=renderToString(React.createElement(App,{path:'/resources/lemo-watercolor/'}));
+ const detail=renderToString(React.createElement(App,{path:'/resources/pretext/'}));
  assert.equal(detail.includes('<video'),false);
+ assert.doesNotMatch(detail.match(/<figure class="detail-art">([\s\S]*?)<\/figure>/)![1],/<img\b/);
  assert.match(detail,/EDITORIAL COVER — NOT AN UPSTREAM RENDER/);
  const about=renderToString(React.createElement(App,{path:'/about/'}));
  assert.match(about,/A preview is not a local render test/);
@@ -281,7 +282,7 @@ test('playable gallery cards can start muted and other preview kinds stay unchan
  assert.match(renderToString(React.createElement(App,{path:'/'})),/Click to play · Starts muted/);
  const library=renderToString(React.createElement(App,{path:'/library/'}));
  assert.equal(library.includes('preview-play'),false);
- const detail=renderToString(React.createElement(App,{path:'/resources/lemo-watercolor/'}));
+ const detail=renderToString(React.createElement(App,{path:'/resources/pretext/'}));
  assert.equal(detail.includes('preview-play'),false);
  function media(at=0):PreviewMedia & {calls:string[]}{
   const calls:string[]=[];
@@ -466,6 +467,96 @@ test('homepage hero has a code-only static fallback and stays separate from reso
   const library=renderToString(React.createElement(App,{path:`${base}library/`,base}));
   assert.doesNotMatch(library,/\bhome-site\b|hero-motion|art\/code-in-motion\.webp/);
  }
+});
+
+test('browse cards show the reviewed still, labelled, and keep the editorial cover only without one',()=>{
+ const esc=(value:string)=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+ for(const base of ['/','/gallery/']){
+  const href=(path='')=>base+path;
+  const library=renderToString(React.createElement(App,{path:`${base}library/`,base}));
+  const cards=[...library.matchAll(/<article class="resource-card" data-resource-id="([^"]+)">([\s\S]*?)<\/article>/g)];
+  assert.equal(cards.length,resources.length);
+  let editorial=0;
+  for(const [,id,card] of cards){
+   const resource=resources.find(r=>r.id===id)!;
+   const preview=resolvePreview(resource);
+   const still=coverStill(resource,href);
+   const images=[...card.matchAll(/<img\b[^>]*>/g)].map(match=>match[0]);
+   assert.doesNotMatch(card,/<video\b|preview-play/,id);
+   if(!still){
+    editorial++;
+    assert.equal(preview.degraded,true,id);
+    assert.equal(images.length,0,id);
+    assert.match(card,/class="visual /,id);
+    assert.match(card,/<span class="art-caption">EDITORIAL COVER<\/span>/,id);
+    continue;
+   }
+   // A still is never the video file itself, and a bundled frame follows the site base.
+   assert.equal(images.length,1,id);
+   assert.match(images[0],new RegExp(`src="${esc(still.src)}"`),id);
+   assert.match(images[0],/alt=""/,id);
+   assert.match(images[0],/loading="lazy"/,id);
+   assert.match(images[0],/decoding="async"/,id);
+   if(preview.poster?.startsWith('/previews/'))assert.equal(still.src,base+preview.poster.slice(1),id);
+   if(preview.playable)assert.notEqual(still.src,preview.url,id);
+   assert.equal(still.caption,preview.caption,id);
+   assert.match(card,new RegExp(`<span class="art-caption">${still.caption}</span>`),id);
+   assert.doesNotMatch(card,/class="visual /,id);
+  }
+  assert.equal(editorial,resources.filter(r=>resolvePreview(r).degraded).length);
+  assert.ok(editorial>0&&editorial<20,'only resources without a reviewed preview keep an editorial cover');
+ }
+ // A playable video with no poster has no still to show: it must not fall back to the video URL.
+ const ink=resources.find(r=>r.id==='ink-press')!;
+ assert.equal(coverStill({...ink,preview:{...ink.preview!,poster:undefined}},(path='')=>'/'+path),null);
+ assert.equal(coverStill({...ink,preview:undefined},(path='')=>'/'+path),null);
+ // Editorial title cards carry the resource's own name, so they do not repeat.
+ const fallbacks=resources.filter(r=>resolvePreview(r).degraded);
+ const library=renderToString(React.createElement(App,{path:'/library/'}));
+ const titles=[...library.matchAll(/<div class="type-word" data-fit="[a-z]+">([^<]+)<\/div>/g)].map(match=>match[1]);
+ assert.ok(titles.length>1);
+ assert.equal(new Set(titles).size,titles.length);
+ for(const title of titles)assert.ok(fallbacks.some(r=>escapeHtml(r.name)===title),title);
+});
+
+test('a resource page plays its own upstream demo under the gallery rules and credits it',()=>{
+ const ink=resources.find(r=>r.id==='ink-press')!;
+ const preview=resolvePreview(ink);
+ const page=renderToString(React.createElement(App,{path:'/resources/ink-press/'})).replace(/<!--[\s\S]*?-->/g,'');
+ const art=page.match(/<figure class="detail-art">([\s\S]*?)<\/figure>/)![1];
+ const video=art.match(/<video\b[^>]*>/)![0];
+ assert.match(video,/id="preview-resource_detail-ink_press"/);
+ assert.match(video,/preload="none"/);
+ assert.match(video,/poster="\/previews\/ink-press\.webp"/);
+ assert.match(video,/tabindex="-1"/);
+ const attrs=video.replace(/\s(?:src|poster)="[^"]*"/gi,'');
+ assert.doesNotMatch(video,/\bsrc="/i);
+ assert.doesNotMatch(attrs,/\b(?:autoplay|controls|muted|loop)\b/i);
+ assert.match(art,/<button type="button" class="preview-play" aria-pressed="false" aria-controls="preview-resource_detail-ink_press" aria-label="Play upstream demo: Ink Press">/);
+ assert.match(art,/<span class="art-caption">Upstream demo<\/span>/);
+ const credit=art.match(/<figcaption class="detail-credit">([\s\S]*?)<\/figcaption>/)![1];
+ assert.ok(credit.includes(escapeHtml(preview.detail)));
+ assert.match(credit,/Playback starts muted\./);
+ assert.ok(credit.includes(escapeHtml(preview.license!)));
+ assert.ok(credit.includes(escapeHtml(preview.attribution!)));
+ assert.ok(credit.includes(`href="${preview.url}" class="preview-source"`));
+ assert.match(page,/<span class="card-spec">0:36<\/span><span class="card-spec">1280×720<\/span>/);
+ assert.doesNotMatch(page,/EDITORIAL COVER — NOT AN UPSTREAM RENDER/);
+ // The resources suggested below are stills, not more players.
+ assert.equal([...page.matchAll(/<video\b/g)].length,1);
+ // An upstream image is a link to that image, never a player.
+ const image=resources.find(r=>resolvePreview(r).mode==='thumb_link'&&!resolvePreview(r).degraded)!;
+ const imagePage=renderToString(React.createElement(App,{path:`/resources/${image.id}/`}));
+ const imageArt=imagePage.match(/<figure class="detail-art">([\s\S]*?)<\/figure>/)![1];
+ assert.doesNotMatch(imageArt,/<video\b|preview-play/);
+ assert.ok(imageArt.includes(`<a class="art-link" href="${resolvePreview(image).url}" target="_blank" rel="noopener noreferrer"`));
+ assert.doesNotMatch(imageArt,/Playback starts muted/);
+ // With no preview there is nothing to open: the editorial cover is not a link.
+ const bare=renderToString(React.createElement(App,{path:'/resources/pretext/'}));
+ const bareArt=bare.match(/<figure class="detail-art">([\s\S]*?)<\/figure>/)![1];
+ assert.match(bareArt,/<div class="art-link"><div class="visual [^"]*visual-hero/);
+ assert.doesNotMatch(bareArt,/<a\b/);
+ assert.match(bareArt,/not a screenshot or an upstream render/);
 });
 
 test('every page shares one shell: the same header, a marked current section and no theme switch',()=>{
