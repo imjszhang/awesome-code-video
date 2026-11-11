@@ -214,17 +214,9 @@ function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo}:{item
  </article>;
 }
 
-function FableSpotlightStrip({href,playback}:{href:(path?:string)=>string,playback:HomePlaybackControls}){
+function FableSpotlightHome({href,playback}:{href:(path?:string)=>string,playback:HomePlaybackControls}){
  const items=fableSpotlightHomeItems();
- const track=useRef<HTMLDivElement>(null);
  if(!items.length)return null;
- function step(direction:1|-1){
-  const node=track.current;
-  if(!node)return;
-  const first=node.firstElementChild?.getBoundingClientRect().width;
-  const calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  node.scrollBy({left:direction*(first?(first+24)*2:node.clientWidth*.8),behavior:calm?'auto':'smooth'});
- }
  return <section className="fable-spotlight" id="fable-5-2" aria-labelledby="fable-spotlight-title">
   <header className="featured-heading">
    <div>
@@ -234,14 +226,10 @@ function FableSpotlightStrip({href,playback}:{href:(path?:string)=>string,playba
    </div>
    <div className="featured-tools">
     <a href={href(FABLE_SPOTLIGHT_PATH)}>{`All ${fableSpotlightItems().length} posts `}<Arrow/></a>
-    <div className="featured-steps">
-     <button type="button" aria-label="Scroll Fable 5.2 posts back" onClick={()=>step(-1)}><span aria-hidden="true">←</span></button>
-     <button type="button" aria-label="Scroll Fable 5.2 posts forward" onClick={()=>step(1)}><span aria-hidden="true">→</span></button>
-    </div>
    </div>
   </header>
-  <div className="featured-track" role="list" ref={track}>
-   {items.map(item=><div key={item.id} className="featured-item" role="listitem"><SpotlightCard item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/></div>)}
+  <div className="fable-spotlight-grid">
+   {items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/>)}
   </div>
  </section>;
 }
@@ -374,7 +362,7 @@ function HomeMediaSections({href,saved,onSave,measurement,playback}:{href:(path?
 function HomeSpotlightAndMedia({href,saved,onSave,measurement}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement}){
  const playback=useHomePlayback();
  return <>
-  <FableSpotlightStrip href={href} playback={playback}/>
+  <FableSpotlightHome href={href} playback={playback}/>
   <HomeMediaSections href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
  </>;
 }
