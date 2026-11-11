@@ -6,7 +6,7 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-**[Explore Awesome Code Video →](https://awesomecodevideo.com/)** · [Search the resource library](https://awesomecodevideo.com/library/) · [Browse by use case](https://awesomecodevideo.com/collections/)
+**Website:** [https://awesomecodevideo.com/](https://awesomecodevideo.com/) · [Search the resource library](https://awesomecodevideo.com/library/) · [Browse by use case](https://awesomecodevideo.com/collections/)
 
 Browse visual previews, filter resources by framework and type, and open source links with practical reuse notes on the website.
 
@@ -16,8 +16,16 @@ Find **video templates, motion graphics, product demos, explainers, data stories
 
 Only public, inspectable resources with clear reuse permissions are included. Encrypted or account-bound template source, noncommercial-only restrictions, and unresolved licenses are excluded. Open-source copyright notices do not disqualify a project.
 
+[![Homepage hero and Claude Fable 5.2 gallery](assets/readme/homepage-hero-fable.webp)][homepage-hero]
+
+[![Claude Fable 5.2 code videos](assets/readme/fable-spotlight.webp)][fable-spotlight]
+
+[homepage-hero]: https://awesomecodevideo.com/
+[fable-spotlight]: https://awesomecodevideo.com/spotlight/fable-5-2/
+
 ## Contents
 
+- [Claude Fable 5.2](#claude-fable-52)
 - [Start Here](#start-here)
 - [Film and Scene Templates](#film-and-scene-templates)
 - [Map Animation Presets](#map-animation-presets)
@@ -27,6 +35,10 @@ Only public, inspectable resources with clear reuse permissions are included. En
 - [Motion Design Tools](#motion-design-tools)
 - [Production Workflows](#production-workflows)
 - [Generative Video Prompts](#generative-video-prompts)
+
+## Claude Fable 5.2
+
+A public gallery of code videos made with Claude Fable 5.2 is on the website at [https://awesomecodevideo.com/spotlight/fable-5-2/](https://awesomecodevideo.com/spotlight/fable-5-2/). These are original public posts, played from their original host. They are not yet in the curated index below, and they are not part of the 267 reusable examples, recipes, and styles.
 
 ## Start Here
 

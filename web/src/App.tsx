@@ -4,7 +4,7 @@ import {PrivacyChoices} from './PrivacyChoices';
 import {getAnalyticsConsent,subscribeAnalytics,trackEvent,type AnalyticsPlacement} from './analytics';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
-import {fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,spotlightDuration,spotlightExcerpt,spotlightFrame,FABLE_SPOTLIGHT_PATH,type FableSpotlightItem} from './fableSpotlight';
+import {fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,spotlightDuration,spotlightExcerpt,spotlightFrame,spotlightStill,FABLE_SPOTLIGHT_HEADING,FABLE_SPOTLIGHT_PATH,type FableSpotlightItem} from './fableSpotlight';
 import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,featuredGalleryItems,previewSpecs,kindCount,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 export type SiteMeasurement={trackEvent:typeof trackEvent;getAnalyticsConsent:typeof getAnalyticsConsent;subscribeAnalytics:typeof subscribeAnalytics};
@@ -188,32 +188,19 @@ function FeaturedGallery({href,saved,onSave,measurement,playback}:{href:(path?:s
  </section>;
 }
 
-function SpotlightModal({item,onClose}:{item:FableSpotlightItem,onClose:()=>void}){
+function SpotlightModal({item,href,onClose}:{item:FableSpotlightItem,href:(path?:string)=>string,onClose:()=>void}){
  const frame=spotlightFrame(item);
- const video=useRef<HTMLVideoElement>(null);
+ const still=spotlightStill(item,href);
  useEffect(()=>{
-  const node=video.current;
-  if(!node)return;
-  node.muted=true;
-  node.src=item.video_url;
-  node.controls=true;
-  const pending=node.play();
-  if(pending)void pending.catch(()=>{});
   function onKey(event:KeyboardEvent){if(event.key==='Escape')onClose();}
   window.addEventListener('keydown',onKey);
-  return()=>{
-   window.removeEventListener('keydown',onKey);
-   node.pause();
-   node.removeAttribute('src');
-   try{node.load();}catch{/* The dialog may already be gone. */}
-  };
- },[item.id,item.video_url,onClose]);
+  return()=>window.removeEventListener('keydown',onKey);
+ },[onClose]);
  return <div className="spotlight-modal" onClick={onClose}>
   <div className="spotlight-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="spotlight-modal-title" data-frame={frame} onClick={event=>event.stopPropagation()}>
    <button type="button" className="spotlight-modal-close" aria-label="Close" onClick={onClose}>Close</button>
    <div className="spotlight-modal-stage">
-    <img className="preview-media preview-poster" src={item.preview} alt=""/>
-    <video ref={video} className="preview-media preview-player is-armed" poster={item.preview} playsInline referrerPolicy="no-referrer" controls muted/>
+    <img className="preview-media preview-poster" src={still} alt=""/>
    </div>
    <div className="spotlight-modal-copy">
     <p className="card-kicker">{`@${item.author}`}</p>
@@ -226,32 +213,26 @@ function SpotlightModal({item,onClose}:{item:FableSpotlightItem,onClose:()=>void
  </div>;
 }
 
-function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo,onOpen}:{item:FableSpotlightItem,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void,onOpen:()=>void}){
- const playbackId=`spotlight:${item.id}`;
- const previewDomId=`preview-spotlight-${item.id}`;
- const armed=activeId===playbackId;
- const showPause=armed&&playing;
- const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(playbackId,node,item.video_url);},[onVideo,playbackId,item.video_url]);
+function SpotlightCard({item,href,onOpen}:{item:FableSpotlightItem,href:(path?:string)=>string,onOpen:()=>void}){
+ const still=spotlightStill(item,href);
  const clock=spotlightDuration(item.duration_ms);
  const excerpt=spotlightExcerpt(item.text);
- return <article className="spotlight-card" data-spotlight-id={item.id} data-frame={spotlightFrame(item)} onClick={onOpen}>
+ return <article className="spotlight-card" data-spotlight-id={item.id} data-frame={spotlightFrame(item)}>
   <div className="art-frame">
-   <div className="art-link">
-    <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} public post: ${item.author_name}`} onClick={event=>{event.stopPropagation();onToggle(playbackId);}}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
-    <img className="preview-media preview-poster" src={item.preview} alt="" loading="lazy" decoding="async"/>
-    <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={item.preview} playsInline referrerPolicy="no-referrer" tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={()=>onPlayback(playbackId,true)} onEnded={()=>onPlayback(playbackId,false)} onPause={()=>onPlayback(playbackId,false)}/>
-   </div>
-   <span className="art-caption">Public post</span>
+   <a className="art-link" href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`Original post by ${item.author_name}`}>
+    <img className="preview-media preview-poster" src={still} alt="" loading="lazy" decoding="async"/>
+   </a>
+   <span className="art-caption">Original post</span>
   </div>
   <div className="card-body">
    <p className="card-kicker"><span className="card-meta"><span>{`@${item.author}`}</span>{clock?<span className="card-spec">{clock}</span>:null}</span></p>
-   <h3><button type="button" className="spotlight-open" onClick={event=>{event.stopPropagation();onOpen();}}>{item.author_name}<Arrow/></button></h3>
+   <h3><button type="button" className="spotlight-open" onClick={onOpen}>{item.author_name}<Arrow/></button></h3>
    {excerpt?<p>{excerpt}</p>:null}
   </div>
  </article>;
 }
 
-function SpotlightFrames({items,playback,heading}:{items:FableSpotlightItem[],playback:HomePlaybackControls,heading:'h2'|'h3'}){
+function SpotlightFrames({items,href,heading}:{items:FableSpotlightItem[],href:(path?:string)=>string,heading:'h2'|'h3'}){
  const Title=heading;
  const [openId,setOpenId]=useState<string|null>(null);
  const close=useCallback(()=>setOpenId(null),[]);
@@ -260,40 +241,39 @@ function SpotlightFrames({items,playback,heading}:{items:FableSpotlightItem[],pl
   {fableSpotlightBlocks(items).map(block=><section key={block.frame} className="fable-frame" data-frame={block.frame} aria-labelledby={`fable-${heading}-${block.frame}`}>
    <Title id={`fable-${heading}-${block.frame}`} className="fable-frame-title">{block.label}</Title>
    <div className="fable-spotlight-grid">
-    {block.items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo} onOpen={()=>setOpenId(item.id)}/>)}
+    {block.items.map(item=><SpotlightCard key={item.id} item={item} href={href} onOpen={()=>setOpenId(item.id)}/>)}
    </div>
   </section>)}
-  {open?<SpotlightModal item={open} onClose={close}/>:null}
+  {open?<SpotlightModal item={open} href={href} onClose={close}/>:null}
  </>;
 }
 
-function FableSpotlightHome({href,playback}:{href:(path?:string)=>string,playback:HomePlaybackControls}){
+function FableSpotlightHome({href}:{href:(path?:string)=>string}){
  const items=fableSpotlightHomeItems();
  if(!items.length)return null;
  return <section className="fable-spotlight" id="fable-5-2" aria-labelledby="fable-spotlight-title">
   <header className="featured-heading">
    <div>
     <p className="eyebrow">{fableSpotlight.eyebrow}</p>
-    <h2 id="fable-spotlight-title">{fableSpotlight.title}</h2>
+    <h2 id="fable-spotlight-title">{FABLE_SPOTLIGHT_HEADING}</h2>
     <p className="fable-spotlight-copy">{fableSpotlight.description}</p>
    </div>
    <div className="featured-tools">
     <a href={href(FABLE_SPOTLIGHT_PATH)}>{`All ${fableSpotlightItems().length} posts `}<Arrow/></a>
    </div>
   </header>
-  <SpotlightFrames items={items} playback={playback} heading="h3"/>
+  <SpotlightFrames items={items} href={href} heading="h3"/>
  </section>;
 }
 
 function FableSpotlightPage({href}:{href:(path?:string)=>string}){
- const playback=useHomePlayback();
  const items=fableSpotlightItems();
  return <>
-  <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href()}>Home</a><span>/</span><span>{fableSpotlight.title}</span></nav>
-  <Intro label={fableSpotlight.eyebrow} title={fableSpotlight.title} text={fableSpotlight.description}/>
-  <section className="spotlight-index" aria-label={fableSpotlight.title}>
+  <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href()}>Home</a><span>/</span><span>{FABLE_SPOTLIGHT_HEADING}</span></nav>
+  <Intro label={fableSpotlight.eyebrow} title={FABLE_SPOTLIGHT_HEADING} text={fableSpotlight.description}/>
+  <section className="spotlight-index" aria-label={FABLE_SPOTLIGHT_HEADING}>
    <p className="spotlight-count">{`${items.length} public posts, newest first`}</p>
-   <SpotlightFrames items={items} playback={playback} heading="h2"/>
+   <SpotlightFrames items={items} href={href} heading="h2"/>
   </section>
  </>;
 }
@@ -413,7 +393,7 @@ function HomeMediaSections({href,saved,onSave,measurement,playback}:{href:(path?
 function HomeSpotlightAndMedia({href,saved,onSave,measurement}:{href:(path?:string)=>string,saved:string[],onSave:(id:string)=>void,measurement:SiteMeasurement}){
  const playback=useHomePlayback();
  return <>
-  <FableSpotlightHome href={href} playback={playback}/>
+  <FableSpotlightHome href={href}/>
   <HomeMediaSections href={href} saved={saved} onSave={onSave} measurement={measurement} playback={playback}/>
  </>;
 }

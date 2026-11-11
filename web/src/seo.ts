@@ -1,4 +1,4 @@
-import {fableSpotlight} from './fableSpotlight';
+import {FABLE_SPOTLIGHT_HEADING} from './fableSpotlight';
 import {collections,pageMeta,projects,resources,type Route} from './model';
 
 type StructuredNode = Record<string,unknown>;
@@ -32,7 +32,7 @@ export function pageStructuredData(route:Route,site:URL,base='/'):StructuredNode
  if(route.type==='spotlight'){
   return [breadcrumbs([
    {name:'Home',path:''},
-   {name:fableSpotlight.title,path:`spotlight/${route.id}/`}
+   {name:FABLE_SPOTLIGHT_HEADING,path:`spotlight/${route.id}/`}
   ])];
  }
  if(route.type==='collection'){
