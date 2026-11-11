@@ -4,7 +4,7 @@ import {PrivacyChoices} from './PrivacyChoices';
 import {getAnalyticsConsent,subscribeAnalytics,trackEvent,type AnalyticsPlacement} from './analytics';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
-import {fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,spotlightDuration,spotlightExcerpt,spotlightFrame,FABLE_SPOTLIGHT_PATH,type FableSpotlightItem} from './fableSpotlight';
+import {fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,spotlightDuration,spotlightExcerpt,spotlightFrame,FABLE_SPOTLIGHT_HEADING,FABLE_SPOTLIGHT_PATH,type FableSpotlightItem} from './fableSpotlight';
 import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,featuredGalleryItems,previewSpecs,kindCount,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 export type SiteMeasurement={trackEvent:typeof trackEvent;getAnalyticsConsent:typeof getAnalyticsConsent;subscribeAnalytics:typeof subscribeAnalytics};
@@ -274,7 +274,7 @@ function FableSpotlightHome({href,playback}:{href:(path?:string)=>string,playbac
   <header className="featured-heading">
    <div>
     <p className="eyebrow">{fableSpotlight.eyebrow}</p>
-    <h2 id="fable-spotlight-title">{fableSpotlight.title}</h2>
+    <h2 id="fable-spotlight-title">{FABLE_SPOTLIGHT_HEADING}</h2>
     <p className="fable-spotlight-copy">{fableSpotlight.description}</p>
    </div>
    <div className="featured-tools">
@@ -289,9 +289,9 @@ function FableSpotlightPage({href}:{href:(path?:string)=>string}){
  const playback=useHomePlayback();
  const items=fableSpotlightItems();
  return <>
-  <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href()}>Home</a><span>/</span><span>{fableSpotlight.title}</span></nav>
-  <Intro label={fableSpotlight.eyebrow} title={fableSpotlight.title} text={fableSpotlight.description}/>
-  <section className="spotlight-index" aria-label={fableSpotlight.title}>
+  <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={href()}>Home</a><span>/</span><span>{FABLE_SPOTLIGHT_HEADING}</span></nav>
+  <Intro label={fableSpotlight.eyebrow} title={FABLE_SPOTLIGHT_HEADING} text={fableSpotlight.description}/>
+  <section className="spotlight-index" aria-label={FABLE_SPOTLIGHT_HEADING}>
    <p className="spotlight-count">{`${items.length} public posts, newest first`}</p>
    <SpotlightFrames items={items} playback={playback} heading="h2"/>
   </section>

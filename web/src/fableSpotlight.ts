@@ -38,6 +38,15 @@ export type FableSpotlightCollection = {
 export const fableSpotlight = gallery as FableSpotlightCollection;
 export const FABLE_SPOTLIGHT_ID = 'fable-5-2';
 export const FABLE_SPOTLIGHT_PATH = `spotlight/${FABLE_SPOTLIGHT_ID}/`;
+/** Visible heading. The gallery record keeps its short title. */
+export const FABLE_SPOTLIGHT_HEADING = 'Claude Fable 5.2';
+/** Search title for the dedicated spotlight page. */
+export const FABLE_SPOTLIGHT_PAGE_TITLE = 'Claude Fable 5.2 Code Videos | Awesome Code Video';
+/**
+ * Search description for the dedicated page.
+ * These posts stay outside the curated main index.
+ */
+export const FABLE_SPOTLIGHT_PAGE_DESCRIPTION = 'Claude Fable 5.2 code videos from public posts, especially code, HTML, and Blender pipelines. These posts are not yet in the curated main index. Each card links to the original post; previews play from the original host.';
 /** Homepage grid. The full index lives at FABLE_SPOTLIGHT_PATH. */
 export const FABLE_SPOTLIGHT_HOME_LIMIT = 24;
 
