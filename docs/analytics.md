@@ -34,7 +34,7 @@ Cookies and statistics represent only visitors who consent and whose browsers pe
 | `save_resource`, `unsave_resource` | A user changed the local shortlist |
 | `search_results_view` | A user search stabilized or was submitted; only counts and non-text context |
 | `filter_resources` | A user changed a filter, sort order or reset the filters |
-| `preview_start`, `preview_complete` | An on-site HTML video actually began or reached the end; external previews are not observable |
+| `preview_start`, `preview_complete` | An on-site HTML video actually began or reached the end; fired on the homepage and resource pages; external previews are not observable |
 | `gallery_category_select`, `gallery_load_more` | A user browsed the homepage categories or revealed another batch |
 | `outbound_click` | A non-primary source, project or documentation link was activated |
 | `suggest_resource_click` | A contribution-entry link was activated; not a submitted GitHub issue |

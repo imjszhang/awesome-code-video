@@ -207,8 +207,12 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 .pixel-word span { color: var(--playhead); }
 .pixel-ground { position: absolute; left: calc(50% - 76cqh); bottom: 14cqh; color: #5d5a52; font: 12cqh/1 var(--mono); white-space: nowrap; }
 .pixel-label { position: absolute; left: calc(50% - 76cqh); bottom: 4cqh; color: var(--dim); font: 3.8cqh/1 var(--mono); letter-spacing: .3em; }
-.type-word { position: absolute; left: calc(50% - 68cqh); top: 25cqh; font: 700 23cqh/.9 var(--display); letter-spacing: -.05em; }
-.type-word span { color: transparent; -webkit-text-stroke: .5cqh var(--text); }
+/* The fallback is a title card: the resource's own name, so no two covers repeat. */
+.type-kind { position: absolute; left: calc(50% - 68cqh); top: 11cqh; color: var(--dim); font: 500 5cqh/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.type-word { position: absolute; left: calc(50% - 68cqh); bottom: 14cqh; width: 100cqh; font: 700 16cqh/.96 var(--display); letter-spacing: -.045em; overflow-wrap: anywhere; }
+.type-word[data-fit='short'] { font-size: 24cqh; }
+.type-word[data-fit='medium'] { font-size: 19cqh; }
+.type-word[data-fit='longest'] { font-size: 13cqh; }
 .type-star { position: absolute; left: calc(50% + 36cqh); top: 9cqh; color: var(--playhead); font-size: 34cqh; line-height: 1; transform: rotate(15deg); }
 .type-orbit { position: absolute; left: calc(50% + 38cqh); bottom: -48cqh; width: 92cqh; height: 92cqh; border: 1px solid var(--hair-strong); border-radius: 50%; box-shadow: 0 0 0 7cqh var(--stage), 0 0 0 calc(7cqh + 1px) rgba(241, 238, 231, .2), 0 0 0 14cqh var(--stage), 0 0 0 calc(14cqh + 1px) rgba(241, 238, 231, .14); }
 .visual-chart { background: var(--paper-band); color: var(--ink); }
@@ -286,7 +290,16 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 
 /* Resource detail: what it is on the left, the way to its source on the right. */
 .detail-layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; align-items: start; gap: 56px; padding-top: 28px; }
-.detail-art { position: relative; overflow: hidden; border: 1px solid var(--hair); border-radius: 14px; }
+.detail-art { margin: 0; }
+.detail-art .art-frame { border-radius: 14px; }
+.detail-art .art-caption { right: 12px; bottom: 12px; }
+.detail-art .preview-play { padding: 12px; }
+.detail-art .preview-play span { height: 42px; padding: 0 17px 0 14px; font-size: 15px; }
+.detail-art .preview-play.is-armed { inset: 12px auto auto 12px; padding: 0; }
+.detail-art .art-frame:has(.preview-player.is-armed) .art-caption { top: 12px; }
+/* Whose picture this is, and what it does and does not prove. */
+.detail-credit { max-width: 60em; margin-top: 12px; color: var(--dim); font: 13px/1.6 var(--display); overflow-wrap: anywhere; }
+.detail-credit .preview-source { margin-left: 4px; font-size: 13px; }
 .detail-title { padding: 32px 0 0; }
 .tag { display: inline-flex; align-items: center; gap: 10px; color: var(--soft); font: 500 12px/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 .tag::before { content: ''; width: 6px; height: 6px; background: var(--playhead); }
