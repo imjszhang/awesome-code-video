@@ -188,7 +188,45 @@ function FeaturedGallery({href,saved,onSave,measurement,playback}:{href:(path?:s
  </section>;
 }
 
-function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo}:{item:FableSpotlightItem,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void}){
+function SpotlightModal({item,onClose}:{item:FableSpotlightItem,onClose:()=>void}){
+ const frame=spotlightFrame(item);
+ const video=useRef<HTMLVideoElement>(null);
+ useEffect(()=>{
+  const node=video.current;
+  if(!node)return;
+  node.muted=true;
+  node.src=item.video_url;
+  node.controls=true;
+  const pending=node.play();
+  if(pending)void pending.catch(()=>{});
+  function onKey(event:KeyboardEvent){if(event.key==='Escape')onClose();}
+  window.addEventListener('keydown',onKey);
+  return()=>{
+   window.removeEventListener('keydown',onKey);
+   node.pause();
+   node.removeAttribute('src');
+   try{node.load();}catch{/* The dialog may already be gone. */}
+  };
+ },[item.id,item.video_url,onClose]);
+ return <div className="spotlight-modal" onClick={onClose}>
+  <div className="spotlight-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="spotlight-modal-title" data-frame={frame} onClick={event=>event.stopPropagation()}>
+   <button type="button" className="spotlight-modal-close" aria-label="Close" onClick={onClose}>Close</button>
+   <div className="spotlight-modal-stage">
+    <img className="preview-media preview-poster" src={item.preview} alt=""/>
+    <video ref={video} className="preview-media preview-player is-armed" poster={item.preview} playsInline controls muted/>
+   </div>
+   <div className="spotlight-modal-copy">
+    <p className="card-kicker">{`@${item.author}`}</p>
+    <h2 id="spotlight-modal-title">{item.author_name}</h2>
+    <p><time dateTime={item.created_at_utc}>{item.created_at_shanghai}</time></p>
+    <p className="spotlight-modal-text">{item.text}</p>
+    <a href={item.url} target="_blank" rel="noopener noreferrer">Original post<Arrow/></a>
+   </div>
+  </div>
+ </div>;
+}
+
+function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo,onOpen}:{item:FableSpotlightItem,activeId:string|null,playing:boolean,onToggle:(id:string)=>void,onPlayback:(id:string,playing:boolean)=>void,onVideo:(id:string,node:HTMLVideoElement|null,url?:string|null)=>void,onOpen:()=>void}){
  const playbackId=`spotlight:${item.id}`;
  const previewDomId=`preview-spotlight-${item.id}`;
  const armed=activeId===playbackId;
@@ -196,10 +234,10 @@ function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo}:{item
  const bind=useCallback((node:HTMLVideoElement|null)=>{onVideo(playbackId,node,item.video_url);},[onVideo,playbackId,item.video_url]);
  const clock=spotlightDuration(item.duration_ms);
  const excerpt=spotlightExcerpt(item.text);
- return <article className="spotlight-card" data-spotlight-id={item.id} data-frame={spotlightFrame(item)}>
+ return <article className="spotlight-card" data-spotlight-id={item.id} data-frame={spotlightFrame(item)} onClick={onOpen}>
   <div className="art-frame">
    <div className="art-link">
-    <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} public post: ${item.author_name}`} onClick={()=>onToggle(playbackId)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
+    <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} public post: ${item.author_name}`} onClick={event=>{event.stopPropagation();onToggle(playbackId);}}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
     <img className="preview-media preview-poster" src={item.preview} alt="" loading="lazy" decoding="async"/>
     <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={item.preview} playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={()=>onPlayback(playbackId,true)} onEnded={()=>onPlayback(playbackId,false)} onPause={()=>onPlayback(playbackId,false)}/>
    </div>
@@ -207,22 +245,25 @@ function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo}:{item
   </div>
   <div className="card-body">
    <p className="card-kicker"><span className="card-meta"><span>{`@${item.author}`}</span>{clock?<span className="card-spec">{clock}</span>:null}</span></p>
-   <h3><a href={item.url} target="_blank" rel="noopener noreferrer">{item.author_name}<Arrow/></a></h3>
+   <h3><button type="button" className="spotlight-open" onClick={event=>{event.stopPropagation();onOpen();}}>{item.author_name}<Arrow/></button></h3>
    {excerpt?<p>{excerpt}</p>:null}
-   <p className="card-foot"><a href={item.url} target="_blank" rel="noopener noreferrer">Original post</a></p>
   </div>
  </article>;
 }
 
 function SpotlightFrames({items,playback,heading}:{items:FableSpotlightItem[],playback:HomePlaybackControls,heading:'h2'|'h3'}){
  const Title=heading;
+ const [openId,setOpenId]=useState<string|null>(null);
+ const close=useCallback(()=>setOpenId(null),[]);
+ const open=items.find(item=>item.id===openId)??null;
  return <>
   {fableSpotlightBlocks(items).map(block=><section key={block.frame} className="fable-frame" data-frame={block.frame} aria-labelledby={`fable-${heading}-${block.frame}`}>
    <Title id={`fable-${heading}-${block.frame}`} className="fable-frame-title">{block.label}</Title>
    <div className="fable-spotlight-grid">
-    {block.items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/>)}
+    {block.items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo} onOpen={()=>setOpenId(item.id)}/>)}
    </div>
   </section>)}
+  {open?<SpotlightModal item={open} onClose={close}/>:null}
  </>;
 }
 

@@ -106,12 +106,14 @@ test('homepage spotlight shows the latest 24 posts between the stats row and Fea
   assert.match(css, /\.fable-frame\[data-frame='portrait'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='square'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(6, minmax\(0, 1fr\)\); \}/);
   assert.match(css, /@media \(max-width: 1180px\) \{[\s\S]*\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(3, minmax\(0, 1fr\)\); \}/);
   assert.match(css, /@media \(max-width: 640px\) \{[\s\S]*?\.fable-frame\[data-frame='landscape'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='portrait'\] \.fable-spotlight-grid,\s*\.fable-frame\[data-frame='square'\] \.fable-spotlight-grid \{ grid-template-columns: repeat\(2, minmax\(0, 1fr\)\);/);
+  assert.match(css, /\.spotlight-modal-dialog\[data-frame='portrait'\] \.spotlight-modal-stage \{ aspect-ratio: 9 \/ 16;/);
+  assert.match(css, /\.spotlight-modal-stage \.preview-poster,\s*\.spotlight-modal-stage \.preview-player \{[^}]*object-fit: cover;/);
   const mixed = fableSpotlightItems().slice(0, 2).map((item, index) => ({...item, video_url: index === 0 ? 'https://video.twimg.com/vid/avc1/1920x1080/a.mp4' : 'https://video.twimg.com/vid/avc1/1080x1920/a.mp4'}));
   assert.deepEqual(fableSpotlightBlocks(mixed).map(block => block.frame), ['landscape', 'portrait']);
   for (const item of latest) {
     const card = section.slice(section.indexOf(`data-spotlight-id="${item.id}"`), section.indexOf(`data-spotlight-id="${item.id}"`) + 2500);
-    assert.equal(card.includes(`href="${item.url}"`), true, item.id);
-    assert.match(card, /Original post/);
+    assert.doesNotMatch(card, new RegExp(`href="${item.url}"`));
+    assert.match(card, /class="spotlight-open"/);
     assert.match(card, /<img\b[^>]*class="preview-media preview-poster"[^>]*loading="lazy"/);
     assert.match(card, new RegExp(`src="${item.preview}"`));
     const video = card.match(/<video\b[^>]*>/)?.[0] ?? '';
@@ -175,7 +177,8 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
   for (const block of rendered) assert.ok(block.frames.every(frame => frame === block.frame));
   assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 118);
-  for (const item of items) assert.equal(html.includes(`href="${item.url}"`), true, item.id);
+  assert.doesNotMatch(html, /href="https:\/\/x\.com\//);
+  assert.equal([...html.matchAll(/role="dialog"/g)].length, 0);
   assert.equal([...html.matchAll(/<video\b/g)].length, items.length);
   assert.equal([...html.matchAll(/\bautoplay\b/gi)].length, 0);
   assert.doesNotMatch(html, /\/previews\/|href="[^"]*\/resources\/|已渲染实测|we rendered this|verified render/i);
@@ -226,6 +229,55 @@ test('spotlight play loads the original file muted and does not autoplay', async
     assert.equal(secondVideo.muted, true);
     assert.equal(secondVideo.getAttribute('src'), next.video_url);
     assert.equal(secondVideo.autoplay, false);
+  } finally {
+    await act(async () => {root.unmount();});
+    dom.window.close();
+    for (const [key, descriptor] of previous) {
+      if (descriptor) Object.defineProperty(globalThis, key, descriptor);
+      else Reflect.deleteProperty(globalThis, key);
+    }
+  }
+});
+
+test('a Fable card opens a same-page viewer and does not leave for the original post', async () => {
+  const item = fableSpotlightBlocks(fableSpotlightHomeItems())[0].items[0];
+  const dom = new JSDOM('<!doctype html><html><body><div id="root"></div></body></html>', {url: 'https://awesomecodevideo.com/'});
+  const proto = dom.window.HTMLMediaElement.prototype as HTMLMediaElement & {play: () => Promise<void>; pause: () => void; load: () => void};
+  proto.play = () => Promise.resolve();
+  proto.pause = () => {};
+  proto.load = () => {};
+  const previous = new Map(['window', 'document', 'navigator', 'localStorage', 'HTMLElement', 'Node', 'IS_REACT_ACT_ENVIRONMENT'].map(key => [key, Object.getOwnPropertyDescriptor(globalThis, key)]));
+  const values: Record<string, unknown> = {window: dom.window, document: dom.window.document, navigator: dom.window.navigator, localStorage: dom.window.localStorage, HTMLElement: dom.window.HTMLElement, Node: dom.window.Node, IS_REACT_ACT_ENVIRONMENT: true};
+  for (const [key, value] of Object.entries(values)) Object.defineProperty(globalThis, key, {value, writable: true, configurable: true});
+  const {createRoot} = await import('react-dom/client');
+  const root = createRoot(dom.window.document.getElementById('root')!);
+  try {
+    await act(async () => {root.render(React.createElement(App, {path: '/'}));});
+    const stayed = dom.window.location.href;
+    assert.equal(dom.window.document.querySelector('[role="dialog"]'), null);
+    const opener = dom.window.document.querySelector('.fable-spotlight .spotlight-open')!;
+    await act(async () => {opener.dispatchEvent(new dom.window.MouseEvent('click', {bubbles: true}));});
+    assert.equal(dom.window.location.href, stayed);
+    const dialog = dom.window.document.querySelector('[role="dialog"]')!;
+    assert.equal(dialog.getAttribute('data-frame'), spotlightFrame(item));
+    assert.ok((dialog.textContent ?? '').includes(item.author_name));
+    assert.ok((dialog.textContent ?? '').includes(item.created_at_shanghai));
+    assert.ok((dialog.textContent ?? '').includes(item.text.split('\n')[0].slice(0, 40)));
+    const player = dialog.querySelector('video')!;
+    assert.equal(player.muted, true);
+    assert.equal(player.getAttribute('src'), item.video_url);
+    assert.equal(player.autoplay, false);
+    const source = dialog.querySelector('a')!;
+    assert.equal(source.getAttribute('href'), item.url);
+    assert.equal(source.getAttribute('target'), '_blank');
+    assert.match(source.textContent ?? '', /Original post/);
+    await act(async () => {dom.window.dispatchEvent(new dom.window.KeyboardEvent('keydown', {key: 'Escape'}));});
+    assert.equal(dom.window.document.querySelector('[role="dialog"]'), null);
+    await act(async () => {opener.dispatchEvent(new dom.window.MouseEvent('click', {bubbles: true}));});
+    const backdrop = dom.window.document.querySelector('.spotlight-modal')!;
+    await act(async () => {backdrop.dispatchEvent(new dom.window.MouseEvent('click', {bubbles: true}));});
+    assert.equal(dom.window.document.querySelector('[role="dialog"]'), null);
+    assert.equal(dom.window.location.href, stayed);
   } finally {
     await act(async () => {root.unmount();});
     dom.window.close();
