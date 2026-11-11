@@ -127,9 +127,12 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 /* Cards: picture first, measured facts second, provenance on demand. */
 .card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 28px; align-items: start; }
 .spotlight-count { margin: -12px 0 32px; color: var(--dim); font: 12px/1.5 var(--mono); letter-spacing: .04em; text-transform: uppercase; }
-.spotlight-card .preview-poster { aspect-ratio: 16 / 9; }
-.spotlight-index .spotlight-card[data-frame='portrait'] .preview-poster { aspect-ratio: 9 / 16; }
-.spotlight-index .spotlight-card[data-frame='square'] .preview-poster { aspect-ratio: 1; }
+.fable-frame { margin-top: 28px; }
+.fable-frame-title { margin: 0 0 14px; color: var(--dim); font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.fable-spotlight-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px 14px; align-items: start; }
+.fable-frame[data-frame='landscape'] .preview-poster { aspect-ratio: 16 / 9; }
+.fable-frame[data-frame='portrait'] .preview-poster { aspect-ratio: 9 / 16; }
+.fable-frame[data-frame='square'] .preview-poster { aspect-ratio: 1; }
 .spotlight-card .card-foot a { color: var(--text); text-decoration: underline; text-decoration-color: var(--hair-strong); text-underline-offset: 3px; }
 .spotlight-card .card-foot a:hover { text-decoration-color: var(--playhead); }
 .resource-card { min-width: 0; scroll-margin-top: calc(var(--header) + 24px); }
@@ -408,6 +411,7 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 
 @media (max-width: 1180px) {
   :root { --gutter: 36px; --section: 96px; }
+  .fable-spotlight-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .card-grid { gap: 36px 22px; }
   .library-layout { grid-template-columns: 220px minmax(0, 1fr); gap: 36px; }
   .library-results .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -457,6 +461,7 @@ h2 { margin: 0; font-size: clamp(30px, 3.3vw, 44px); font-weight: 600; line-heig
 }
 @media (max-width: 640px) {
   :root { --gutter: 20px; --section: 76px; }
+  .fable-spotlight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 12px; }
   .card-grid,
   .library-results .card-grid { grid-template-columns: minmax(0, 1fr); gap: 34px; }
   .collection-grid { grid-template-columns: minmax(0, 1fr); }

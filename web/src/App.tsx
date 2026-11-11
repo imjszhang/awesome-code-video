@@ -4,7 +4,7 @@ import {PrivacyChoices} from './PrivacyChoices';
 import {getAnalyticsConsent,subscribeAnalytics,trackEvent,type AnalyticsPlacement} from './analytics';
 import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type GalleryPlaybackState} from './galleryPlayback';
 import {GALLERY_BATCH_SIZE,GALLERY_CATEGORY_IDS,createGalleryBrowseState,selectGalleryCategory,loadMoreGalleryItems,type GalleryCategory} from './galleryBrowsing';
-import {fableSpotlight,fableSpotlightHomeItems,fableSpotlightItems,spotlightDuration,spotlightExcerpt,spotlightFrame,FABLE_SPOTLIGHT_PATH,type FableSpotlightItem} from './fableSpotlight';
+import {fableSpotlight,fableSpotlightBlocks,fableSpotlightHomeItems,fableSpotlightItems,spotlightDuration,spotlightExcerpt,spotlightFrame,FABLE_SPOTLIGHT_PATH,type FableSpotlightItem} from './fableSpotlight';
 import {resources,projects,evidence,repo,kindNames,kindGuides,coreCount,collections,projectFor,collectionsFor,palette,galleryLinks,filterResources,routeForPath,pageMeta,homePreviewGroups,featuredGalleryItems,previewSpecs,kindCount,videoOrientation,type VideoOrientation,isYouTubePreview,resolvePreview,type Resource} from './model';
 
 export type SiteMeasurement={trackEvent:typeof trackEvent;getAnalyticsConsent:typeof getAnalyticsConsent;subscribeAnalytics:typeof subscribeAnalytics};
@@ -214,6 +214,18 @@ function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo}:{item
  </article>;
 }
 
+function SpotlightFrames({items,playback,heading}:{items:FableSpotlightItem[],playback:HomePlaybackControls,heading:'h2'|'h3'}){
+ const Title=heading;
+ return <>
+  {fableSpotlightBlocks(items).map(block=><section key={block.frame} className="fable-frame" data-frame={block.frame} aria-labelledby={`fable-${heading}-${block.frame}`}>
+   <Title id={`fable-${heading}-${block.frame}`} className="fable-frame-title">{block.label}</Title>
+   <div className="fable-spotlight-grid">
+    {block.items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/>)}
+   </div>
+  </section>)}
+ </>;
+}
+
 function FableSpotlightHome({href,playback}:{href:(path?:string)=>string,playback:HomePlaybackControls}){
  const items=fableSpotlightHomeItems();
  if(!items.length)return null;
@@ -228,9 +240,7 @@ function FableSpotlightHome({href,playback}:{href:(path?:string)=>string,playbac
     <a href={href(FABLE_SPOTLIGHT_PATH)}>{`All ${fableSpotlightItems().length} posts `}<Arrow/></a>
    </div>
   </header>
-  <div className="fable-spotlight-grid">
-   {items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/>)}
-  </div>
+  <SpotlightFrames items={items} playback={playback} heading="h3"/>
  </section>;
 }
 
@@ -242,7 +252,7 @@ function FableSpotlightPage({href}:{href:(path?:string)=>string}){
   <Intro label={fableSpotlight.eyebrow} title={fableSpotlight.title} text={fableSpotlight.description}/>
   <section className="spotlight-index" aria-label={fableSpotlight.title}>
    <p className="spotlight-count">{`${items.length} public posts, newest first`}</p>
-   <div className="card-grid">{items.map(item=><SpotlightCard key={item.id} item={item} activeId={playback.playback.activeId} playing={playback.playback.playing} onToggle={playback.toggle} onPlayback={playback.onPlayback} onVideo={playback.onVideo}/>)}</div>
+   <SpotlightFrames items={items} playback={playback} heading="h2"/>
   </section>
  </>;
 }
