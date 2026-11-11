@@ -119,6 +119,7 @@ test('homepage spotlight shows the latest 24 posts between the stats row and Fea
     const video = card.match(/<video\b[^>]*>/)?.[0] ?? '';
     assert.match(video, /preload="none"/);
     assert.match(video, /playsinline/i);
+    assert.match(video, /referrerpolicy="no-referrer"/i);
     assert.doesNotMatch(video, /\bsrc="/i);
     assert.match(video, new RegExp(`poster="${item.preview}"`));
     const attrs = video.replace(/\s(?:src|poster)="[^"]*"/gi, '');
@@ -266,6 +267,7 @@ test('a Fable card opens a same-page viewer and does not leave for the original 
     const player = dialog.querySelector('video')!;
     assert.equal(player.muted, true);
     assert.equal(player.getAttribute('src'), item.video_url);
+    assert.equal(player.getAttribute('referrerpolicy'), 'no-referrer');
     assert.equal(player.autoplay, false);
     const source = dialog.querySelector('a')!;
     assert.equal(source.getAttribute('href'), item.url);

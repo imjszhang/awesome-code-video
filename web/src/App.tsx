@@ -70,7 +70,7 @@ function PreviewFrame({resource,href,activeId,playing,onToggle,onPlayback,onVide
  const media=canPlay?<>
   <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} upstream demo: ${resource.name}`} onClick={()=>onToggle(playbackId)}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
   {poster?<img className="preview-media preview-poster" src={poster} alt="" loading="lazy" decoding="async"/>:<Visual resource={resource} hero={hero}/>}
-  <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={poster||undefined} playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={previewPlaying} onEnded={previewEnded} onEmptied={()=>{previewStarted.current=false;}} onPause={()=>onPlayback(playbackId,false)}/>
+  <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={poster||undefined} playsInline referrerPolicy="no-referrer" tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={previewPlaying} onEnded={previewEnded} onEmptied={()=>{previewStarted.current=false;}} onPause={()=>onPlayback(playbackId,false)}/>
  </>:!preview.degraded&&preview.mode==='thumb_link'&&still?<img className="preview-media preview-poster" src={still} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'&&poster?<img className="preview-media preview-poster" src={poster} alt="" loading="lazy" decoding="async"/>:!preview.degraded&&preview.mode==='embed'?<div className="preview-embed"><span>UPSTREAM PAGE</span><b>Open the source page.</b></div>:<Visual resource={resource} hero={hero}/>;
  const target=preview.url||fallbackHref;
  const frame=canPlay||!target?<div className="art-link">{media}</div>:<a className="art-link" href={target} target={preview.url?'_blank':undefined} rel={preview.url?'noopener noreferrer':undefined} aria-label={`Open ${preview.mode==='embed'?'source page':'upstream preview'}: ${resource.name}`}>{media}</a>;
@@ -213,7 +213,7 @@ function SpotlightModal({item,onClose}:{item:FableSpotlightItem,onClose:()=>void
    <button type="button" className="spotlight-modal-close" aria-label="Close" onClick={onClose}>Close</button>
    <div className="spotlight-modal-stage">
     <img className="preview-media preview-poster" src={item.preview} alt=""/>
-    <video ref={video} className="preview-media preview-player is-armed" poster={item.preview} playsInline controls muted/>
+    <video ref={video} className="preview-media preview-player is-armed" poster={item.preview} playsInline referrerPolicy="no-referrer" controls muted/>
    </div>
    <div className="spotlight-modal-copy">
     <p className="card-kicker">{`@${item.author}`}</p>
@@ -239,7 +239,7 @@ function SpotlightCard({item,activeId,playing,onToggle,onPlayback,onVideo,onOpen
    <div className="art-link">
     <button type="button" className={`preview-play${armed?' is-armed':''}`} aria-pressed={showPause} aria-controls={previewDomId} aria-label={`${showPause?'Pause':'Play'} public post: ${item.author_name}`} onClick={event=>{event.stopPropagation();onToggle(playbackId);}}><span aria-hidden="true">{showPause?'Pause':'Play'}</span></button>
     <img className="preview-media preview-poster" src={item.preview} alt="" loading="lazy" decoding="async"/>
-    <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={item.preview} playsInline tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={()=>onPlayback(playbackId,true)} onEnded={()=>onPlayback(playbackId,false)} onPause={()=>onPlayback(playbackId,false)}/>
+    <video id={previewDomId} ref={bind} className={`preview-media preview-player${armed?' is-armed':''}`} preload="none" poster={item.preview} playsInline referrerPolicy="no-referrer" tabIndex={armed?undefined:-1} controls={armed||undefined} aria-hidden={armed?undefined:true} onPlay={()=>onPlayback(playbackId,true)} onPlaying={()=>onPlayback(playbackId,true)} onEnded={()=>onPlayback(playbackId,false)} onPause={()=>onPlayback(playbackId,false)}/>
    </div>
    <span className="art-caption">Public post</span>
   </div>
