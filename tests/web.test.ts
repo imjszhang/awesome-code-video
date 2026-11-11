@@ -597,6 +597,7 @@ test('a resource page plays its own upstream demo under the gallery rules and cr
  const video=art.match(/<video\b[^>]*>/)![0];
  assert.match(video,/id="preview-resource_detail-ink_press"/);
  assert.match(video,/preload="none"/);
+ assert.match(video,/referrerpolicy="no-referrer"/i);
  assert.match(video,/poster="\/previews\/ink-press\.webp"/);
  assert.match(video,/tabindex="-1"/);
  const attrs=video.replace(/\s(?:src|poster)="[^"]*"/gi,'');
