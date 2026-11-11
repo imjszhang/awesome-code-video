@@ -27,7 +27,7 @@ An explanatory [link](https://example.com/film) can be repeated.
 - [Related List](https://example.com/list) - Broader resources.
 `;
 const chinese = `# 示例
-本版覆盖首批 2 个可复用单元。
+本版覆盖首批 2 个可复用单元：1 个成片或场景工程、0 个地图镜头、0 个镜头配方、1 个风格文件。
 ## Contents
 - [视觉风格文件](#视觉风格文件)
 ## 成片与场景工程
@@ -46,7 +46,26 @@ const chinese = `# 示例
 const audit = (changes = {}) => auditReadmes({ resources, english, chinese, ...changes });
 
 test('checks bilingual entries, ignores prose links and supporting resources in core count', () => {
-  assert.deepEqual(audit(), { errors: [], summary: { catalog: 4, core: 2, english: 4, chinese: 4 } });
+  assert.deepEqual(audit(), { errors: [], summary: { inventory: 4, isolated: 0, catalog: 4, core: 2, english: 4, chinese: 4 } });
+});
+
+test('keeps an isolated resource in the inventory and out of the public README', () => {
+  const isolated = { id: 'hidden-film', project_id: 'freelancer-templates', name: 'Hidden Film', kind: 'film', url: 'https://example.com/hidden', section: 'Film and Scene Templates', description: 'Not shown publicly.' };
+  const omitted = audit({ resources: [...resources, isolated] });
+  assert.deepEqual(omitted.errors, []);
+  assert.equal(omitted.summary.inventory, 5);
+  assert.equal(omitted.summary.isolated, 1);
+  assert.equal(omitted.summary.catalog, 4);
+  assert.equal(omitted.summary.core, 2);
+  const listed = english.replace('## Visual Style Templates', '- [Hidden Film](https://example.com/hidden) - Not shown publicly.\n## Visual Style Templates');
+  const present = audit({ resources: [...resources, isolated], english: listed });
+  assert(present.errors.some((error) => error.includes('Isolated resource is not part of the public index: hidden-film')));
+});
+
+test('checks Chinese category counts against the public index', () => {
+  const drifted = chinese.replace('1 个成片或场景工程', '9 个成片或场景工程');
+  const result = audit({ chinese: drifted });
+  assert(result.errors.some((error) => error.includes('category counts 9/0/0/1')));
 });
 
 test('reports an English listing removed from the README', () => {

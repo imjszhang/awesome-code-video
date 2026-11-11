@@ -2,6 +2,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { isIsolatedResource, publicCategoryCounts } from './lib/public-display.mjs';
 
 export const SECTION_TRANSLATIONS = Object.freeze({
   'Film and Scene Templates': '成片与场景工程',
@@ -15,8 +16,8 @@ export const SECTION_TRANSLATIONS = Object.freeze({
   'Related Lists': '相关清单',
 });
 
-const CORE_KINDS = new Set(['film', 'scene', 'preset', 'shot', 'style']);
 const normalizeText = (value) => String(value ?? '').trim().replace(/\s+/g, ' ');
+const CATEGORY_COUNTS = /(\d+)\s*个成片或场景工程、(\d+)\s*个地图镜头、(\d+)\s*个镜头配方、(\d+)\s*个风格文件/;
 
 // This deliberately reads the maintained list syntax, not every explanatory link.
 // A resource is the first link in a bullet, or the first cell of a Chinese table.
@@ -50,6 +51,8 @@ export function readEntries(markdown, language = 'en') {
 export function auditReadmes({ resources, english, chinese }) {
   const errors = [];
   if (!Array.isArray(resources)) return { errors: ['data/resources.json must contain an array.'], summary: {} };
+  const listed = resources.filter((resource) => !isIsolatedResource(resource));
+  const isolatedCount = resources.length - listed.length;
   const byUrl = new Map();
   for (const resource of resources) {
     if (!resource || typeof resource.url !== 'string') {
@@ -75,24 +78,46 @@ export function auditReadmes({ resources, english, chinese }) {
         errors.push(`${location}: Entry is not in data/resources.json: ${entry.url}`);
         continue;
       }
+      if (isIsolatedResource(resource)) {
+        errors.push(`${location}: Isolated resource is not part of the public index: ${resource.id}.`);
+        continue;
+      }
       if (entry.section !== resource.section) errors.push(`${location}: ${resource.id} belongs in "${resource.section}", not "${entry.section}".`);
       if (language === 'en') {
         if (normalizeText(entry.name) !== normalizeText(resource.name)) errors.push(`${location}: Name differs from catalog for ${resource.id}.`);
         if (normalizeText(entry.description) !== normalizeText(resource.description)) errors.push(`${location}: Description differs from catalog for ${resource.id}.`);
       }
     }
-    for (const resource of resources) {
+    for (const resource of listed) {
       if (!seen.has(resource?.url)) errors.push(`${filename}: Missing resource entry: ${resource?.id ?? '(invalid record)'}.`);
     }
     const intro = String(text).split(/^##\s+/m)[0];
     const advertised = language === 'en'
       ? intro.match(/\bcontains\s+(\d+)\s+reusable\b/i)
       : intro.match(/首批\s*(\d+)\s*个可复用单元/);
-    const coreCount = resources.filter((resource) => CORE_KINDS.has(resource?.kind)).length;
+    const categories = publicCategoryCounts(listed);
     if (!advertised) errors.push(`${filename}: Missing recognizable introductory reusable-resource count.`);
-    else if (Number(advertised[1]) !== coreCount) errors.push(`${filename}: Intro advertises ${advertised[1]} reusable resources; catalog contains ${coreCount}.`);
+    else if (Number(advertised[1]) !== categories.core) errors.push(`${filename}: Intro advertises ${advertised[1]} reusable resources; public index contains ${categories.core}.`);
+    if (language === 'zh') {
+      const breakdown = intro.match(CATEGORY_COUNTS);
+      const expected = [categories.filmAndScene, categories.maps, categories.shots, categories.styles];
+      if (!breakdown) errors.push(`${filename}: Missing public category counts for film/scene, map presets, shots, and styles.`);
+      else if (breakdown.slice(1, 5).some((value, index) => Number(value) !== expected[index])) {
+        errors.push(`${filename}: Intro category counts ${breakdown.slice(1, 5).join('/')} do not match the public index ${expected.join('/')} (film+scene, preset, shot, style).`);
+      }
+    }
   }
-  return { errors, summary: { catalog: resources.length, core: resources.filter((resource) => CORE_KINDS.has(resource?.kind)).length, english: counts.en, chinese: counts.zh } };
+  return {
+    errors,
+    summary: {
+      inventory: resources.length,
+      isolated: isolatedCount,
+      catalog: listed.length,
+      core: publicCategoryCounts(listed).core,
+      english: counts.en,
+      chinese: counts.zh,
+    },
+  };
 }
 
 export async function checkReadmes(root) {
@@ -117,7 +142,7 @@ async function main(args) {
   if (result.errors.length) {
     for (const error of result.errors) console.error(`ERROR ${error}`);
     process.exitCode = 1;
-  } else console.log(`README consistency passed: ${result.summary.catalog} entries in both languages (${result.summary.core} core resources).`);
+  } else console.log(`README consistency passed: ${result.summary.catalog} public entries in both languages (${result.summary.core} core resources). Inventory retains ${result.summary.inventory} records; ${result.summary.isolated} isolated from public display.`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
