@@ -5,7 +5,7 @@ import videoFormatEvidence from '../../data/video-format-evidence.json';
 import videoPosters from '../../data/preview-posters.json';
 import imagePosters from '../../data/image-preview-posters.json';
 import MiniSearch from 'minisearch';
-import { FABLE_SPOTLIGHT_ID, FABLE_SPOTLIGHT_PATH, fableSpotlight } from './fableSpotlight';
+import { FABLE_SPOTLIGHT_ID, FABLE_SPOTLIGHT_PAGE_DESCRIPTION, FABLE_SPOTLIGHT_PAGE_TITLE, FABLE_SPOTLIGHT_PATH } from './fableSpotlight';
 import { isCompletePreview, resolvePreview, type ResourcePreview } from './preview';
 
 /**
@@ -165,10 +165,10 @@ export function pageMeta(route:Route){
  if(route.type==='resource'){const r=resources.find(r=>r.id===route.id)!;return {title:`${r.name} — ${kindNames[r.kind]} | Awesome Code Video`,description:r.description};}
  if(route.type==='project'){const p=projects.find(p=>p.id===route.id)!;return {title:`${p.name} Resources | Awesome Code Video`,description:`Explore selected ${p.name} resources, reuse notes, and reviewed source links for making videos with code.`};}
  if(route.type==='collection'){const c=collections.find(c=>c.id===route.id)!;return {title:`${c.name} for Videos Made with Code | Awesome Code Video`,description:c.description};}
- if(route.type==='spotlight')return {title:`${fableSpotlight.title} | Awesome Code Video`,description:fableSpotlight.description};
- const names:Record<string,string>={home:'Awesome Code Video — Styles, Shots & Templates',library:'Explore the Library | Awesome Code Video',projects:'Source Projects | Awesome Code Video',collections:'Video Use Cases | Awesome Code Video',about:'How We Curate | Awesome Code Video',saved:'Your Saved Resources | Awesome Code Video',notfound:'Page Not Found | Awesome Code Video'};
+ if(route.type==='spotlight')return {title:FABLE_SPOTLIGHT_PAGE_TITLE,description:FABLE_SPOTLIGHT_PAGE_DESCRIPTION};
+ const names:Record<string,string>={home:'Awesome Code Video — Styles, Shots & Templates, Claude Fable 5.2',library:'Explore the Library | Awesome Code Video',projects:'Source Projects | Awesome Code Video',collections:'Video Use Cases | Awesome Code Video',about:'How We Curate | Awesome Code Video',saved:'Your Saved Resources | Awesome Code Video',notfound:'Page Not Found | Awesome Code Video'};
  const descriptions:Record<string,string>={
-  home:'Discover curated video templates, visual styles, shot recipes, and workflows for making videos with code. Find the source and understand what to reuse.',
+  home:'Discover curated video templates, visual styles, shot recipes, and workflows for making videos with code. Find the source and understand what to reuse. Claude Fable 5.2 code videos stay in a separate spotlight, outside the curated index.',
   library:'Search video templates, visual styles, shot recipes, and tools. Filter by resource type, source project, or use case to find your next starting point.',
   projects:'Explore the creators and projects behind the catalog, from video frameworks to reusable scenes, with reviewed links to each original source.',
   collections:'Browse curated resources for product demos, explainers, maps, data stories, captions, and playful films. Start with the kind of video you want to make.',
