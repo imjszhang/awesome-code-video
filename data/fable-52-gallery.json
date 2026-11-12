@@ -3,7 +3,7 @@
   "title": "Fable 5.2",
   "eyebrow": "Now trending",
   "description": "Public posts of code videos made with Claude Fable 5.2, especially code, HTML, and Blender pipelines. These are not yet in the curated main index. Stills stay on this site; the video plays on the original post.",
-  "updated_at_shanghai": "2026-11-11 15:57 (Asia/Shanghai)",
+  "updated_at_shanghai": "2026-11-11 21:25 (Asia/Shanghai)",
   "item_count": 118,
   "source": "Standalone Fable 5.2 collection from public X search. Append new posts to this file only. Do not write these items into data/resources.json, data/evidence.json, data/projects.json, data/collections.json, or the README index, and do not add them to catalog counts.",
   "items": [
@@ -24,7 +24,10 @@
       "tags": [
         "claude-code",
         "motion-graphics"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "1. Fable5.2を使った最高レベルのモーショングラフィックスを作るプロジェクトにして。まずいろいろ実装して\n\n2. Fable5.2の本気というテーマで作ってみて。2分以上で。",
+      "prompt_source": "https://x.com/FFBuncho/status/2120423521801380297"
     },
     {
       "id": "2120422471497314810",
@@ -42,7 +45,8 @@
       "why": "作者让 Fable 5.2 做亚历山大大帝在高加米拉冲锋的视频，并写明画面全部由代码生成。",
       "tags": [
         "pure-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120421205996171740",
@@ -60,7 +64,8 @@
       "why": "作者写明用 Fable 5.2 做出成片《Singularity》，并请人开声音观看。未写明是否代码成片。",
       "tags": [
         "method-less-explicit"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120418752663609397",
@@ -80,7 +85,10 @@
         "threejs",
         "pure-code",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "a 3D treasure island, built only in code. No models, no textures. Three.js.",
+      "prompt_source": "https://x.com/DevNotorious_/status/2120418752663609397"
     },
     {
       "id": "2120418641212747820",
@@ -98,7 +106,8 @@
       "why": "作者写明这是让 Claude Fable 5.2 做出来的成片。未写明是否代码成片。",
       "tags": [
         "method-less-explicit"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120412392198901898",
@@ -117,7 +126,8 @@
       "tags": [
         "pure-code",
         "short-film"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120411217173057620",
@@ -137,7 +147,8 @@
         "threejs",
         "html-css",
         "python"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120410044600815892",
@@ -156,7 +167,8 @@
       "tags": [
         "blender",
         "python"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120409826895499638",
@@ -175,7 +187,8 @@
       "tags": [
         "pure-code",
         "anime"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120405636299333749",
@@ -193,7 +206,8 @@
       "why": "作者称一句话让 Fable 5.2 画完 4 万年艺术史，原帖带成片。未写明是否代码成片。",
       "tags": [
         "method-less-explicit"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120402463220265471",
@@ -213,7 +227,11 @@
         "svg",
         "html",
         "interactive-web"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "让 Claude 按固定格式返回 JSON（每一步含讲解词和绘图指令）；教学结构写进提示词：先抛误解，再给证据，再画图，最后下结论。",
+      "prompt_url": "https://claude.ai/artifact/8zykG58e8m9QEVpMb1zsVW",
+      "prompt_source": "https://x.com/hx831126/status/2120402463220265471"
     },
     {
       "id": "2120396189598093357",
@@ -232,7 +250,10 @@
       "tags": [
         "method-less-explicit",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "从零重做 3D 地球（与先前 GPT-6.2 Sol 版同一主题）。",
+      "prompt_source": "https://x.com/Stargridcompass/status/2120396189598093357"
     },
     {
       "id": "2120391274872320126",
@@ -251,7 +272,8 @@
       "tags": [
         "blender",
         "short-film"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120388548411179102",
@@ -271,7 +293,8 @@
         "pure-code",
         "game",
         "all-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120383540361920635",
@@ -292,7 +315,8 @@
         "short-film",
         "no-assets",
         "no-video-model"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120383332722905400",
@@ -312,7 +336,8 @@
         "pure-code",
         "open-source",
         "all-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120382619082727604",
@@ -333,7 +358,8 @@
         "short-film",
         "computed-frames",
         "science-explainer"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120378493729222700",
@@ -353,7 +379,8 @@
         "threejs",
         "game",
         "mixed-models"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120378126740095273",
@@ -373,7 +400,11 @@
         "threejs",
         "web-animation",
         "one-prompt"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "Build a mesmerizing beautiful and stunning state of the art never seen before three.js site and scene that almost anyone would want to leave open in a browser tab just to look at because it makes them truly feel something. Go all out creatively and blow me away. You choose all the creative direction without my input. Real environment, photo-real aesthetics, and real lighting. Must hold 60fps on a phone.",
+      "prompt_url": "https://x.com/kloss_xyz/status/2120378129655230833",
+      "prompt_source": "https://x.com/kloss_xyz/status/2120378129655230833"
     },
     {
       "id": "2120375372172677631",
@@ -392,7 +423,8 @@
       "tags": [
         "threejs",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120374208043876422",
@@ -413,7 +445,8 @@
         "every-frame-from-code",
         "game",
         "sumi-ink"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120370408755196142",
@@ -432,7 +465,8 @@
       "tags": [
         "blender",
         "from-scratch"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120369588357779837",
@@ -452,7 +486,9 @@
         "pure-code",
         "interactive",
         "all-code"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/yanliudesign/status/2120369588357779837"
     },
     {
       "id": "2120368974634324124",
@@ -473,7 +509,8 @@
         "computed-frames",
         "every-frame-from-code",
         "sound-from-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120355412021231795",
@@ -492,7 +529,9 @@
       "tags": [
         "model-comparison",
         "method-less-explicit"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/_MaxBlade/status/2120355412021231795"
     },
     {
       "id": "2120353501910024621",
@@ -512,7 +551,8 @@
         "physics",
         "browser",
         "interactive"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120353383370625126",
@@ -532,7 +572,8 @@
         "pure-code",
         "no-assets",
         "sound-from-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120349707142860942",
@@ -551,7 +592,11 @@
       "tags": [
         "motion-design",
         "method-less-explicit"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "Fable 5.2, recreate this motion design.",
+      "prompt_url": "https://x.com/galshirart/status/1975920588372771249",
+      "prompt_source": "https://x.com/kloss_xyz/status/2120349707142860942"
     },
     {
       "id": "2120344835429392788",
@@ -571,7 +616,10 @@
         "python",
         "pure-code",
         "computed-frames"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "今の実力を見せつける最強の動画を見せて",
+      "prompt_source": "https://x.com/TYC_Yama/status/2120344835429392788"
     },
     {
       "id": "2120342453807157720",
@@ -589,7 +637,8 @@
       "why": "作者让 Fable 5.2 从零做一个机械键盘并在上面打字，写明在 Blender 里完成，耗时 2 小时 55 分、花费 90.78 美元。",
       "tags": [
         "blender"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120341962314150207",
@@ -608,7 +657,8 @@
       "tags": [
         "blender",
         "pure-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120335509105082554",
@@ -628,7 +678,8 @@
         "javascript",
         "pure-code",
         "html"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120331599283954137",
@@ -647,7 +698,8 @@
       "tags": [
         "browser-paint",
         "timelapse"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120322640048959503",
@@ -666,7 +718,8 @@
       "tags": [
         "threejs",
         "game"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120321086231613707",
@@ -687,7 +740,8 @@
         "multiplayer",
         "method-less-explicit",
         "high-engagement"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120321047652192563",
@@ -706,7 +760,8 @@
       "tags": [
         "threejs",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120316269043802219",
@@ -725,7 +780,8 @@
       "tags": [
         "method-less-explicit",
         "high-engagement"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120316203738829180",
@@ -744,7 +800,8 @@
       "tags": [
         "blender",
         "threejs"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120314459793355262",
@@ -764,7 +821,8 @@
         "interactive",
         "open-source",
         "method-less-explicit"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120314418517115178",
@@ -784,7 +842,9 @@
         "python",
         "pure-code",
         "vertical"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/foxnet2000/status/2120314418517115178"
     },
     {
       "id": "2120314016375427276",
@@ -803,7 +863,8 @@
       "tags": [
         "method-less-explicit",
         "high-engagement"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120312766544437738",
@@ -823,7 +884,8 @@
         "interactive-sim",
         "method-less-explicit",
         "high-engagement"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120311646933680355",
@@ -841,7 +903,8 @@
       "why": "作者先引用一条纯代码成片，再用类似提示让 Fable 5.2 在 Blender 里做了这条循环动画。这是明确的 Blender 成片。",
       "tags": [
         "blender"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120310249857126431",
@@ -859,7 +922,8 @@
       "why": "作者让 Fable 5.2 给一块主板做动画，写明在 Blender 里完成，耗时 3 小时 34 分、花费 48.34 美元。",
       "tags": [
         "blender"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120309394399494150",
@@ -878,7 +942,8 @@
       "tags": [
         "method-less-explicit",
         "high-engagement"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120308118127309173",
@@ -898,7 +963,8 @@
         "pure-code",
         "commercial",
         "official-feature"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120306434575392793",
@@ -918,7 +984,8 @@
         "threejs",
         "game",
         "no-external-assets"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120305506195849688",
@@ -939,7 +1006,8 @@
         "wgsl",
         "ocean-demo",
         "scheduled-post"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120305208563765408",
@@ -959,7 +1027,10 @@
         "pure-code",
         "music-video",
         "lyrics-sync"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "怎么好看，怎么来，风格你自己决定。",
+      "prompt_source": "https://x.com/bketck/status/2120305208563765408"
     },
     {
       "id": "2120305006385549448",
@@ -980,7 +1051,8 @@
         "all-code",
         "no-keyframes",
         "macro-composite"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120304490595357120",
@@ -999,7 +1071,8 @@
       "tags": [
         "pure-code",
         "one-shot"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120301360105292004",
@@ -1019,7 +1092,10 @@
         "one-html",
         "explainer",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "build a 25-second animated explainer in one html file",
+      "prompt_source": "https://x.com/datawebot/status/2120301360105292004"
     },
     {
       "id": "2120300591238783128",
@@ -1039,7 +1115,8 @@
         "blender",
         "showroom",
         "original-score"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120300500692418650",
@@ -1060,7 +1137,9 @@
         "game",
         "one-shot",
         "zero-assets"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/iamrahulinc/status/2120300500692418650"
     },
     {
       "id": "2120299387314422012",
@@ -1080,7 +1159,8 @@
         "threejs",
         "interactive",
         "code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120298088485056597",
@@ -1100,7 +1180,10 @@
         "blender",
         "900-frames",
         "local-render"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "a room, a laptop building insane things, Clawd, \"as if it was an anthropic ad\", render on RunPod.",
+      "prompt_source": "@rileybrown, quoted by @leohuanfang in https://x.com/leohuanfang/status/2120298088485056597"
     },
     {
       "id": "2120297954229522844",
@@ -1121,7 +1204,10 @@
         "interactive",
         "car-engine",
         "scheduled-post"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "explain how a manual car works by just building one",
+      "prompt_source": "https://x.com/Strongin_/status/2120297954229522844"
     },
     {
       "id": "2120297280997933435",
@@ -1141,7 +1227,8 @@
         "blender",
         "commercial",
         "fable-plus-blender"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120274979614851145",
@@ -1162,7 +1249,9 @@
         "no-assets",
         "no-engine",
         "built-in-code"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/jpschroeder/status/2120274979614851145"
     },
     {
       "id": "2120273183563788334",
@@ -1182,7 +1271,8 @@
         "single-html-file",
         "spirograph",
         "one-html"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120271154866765954",
@@ -1203,7 +1293,11 @@
         "from-scratch",
         "model-comparison",
         "timed-cost"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "In Blender 5.2.3, using Python only (no downloaded assets, no add-ons, procedural materials only), build a 1960s-style rangefinder film camera as a hero product shot on a small desk vignette.\n\nCamera: chrome top and bottom plates, black leatherette body with a visible grain texture, lens barrel with a knurled focus ring and an engraved distance scale with readable numbers, a working 8-blade aperture, a shutter speed dial with readable numbers, a film advance lever, rangefinder and viewfinder windows with glass, strap lugs. Real-world proportions, bevels on every hard edge. Spend your effort on details that read on screen at 1080p, not on tiny hidden parts.\n\nScene: dark walnut desk with procedural wood grain. The camera sits on a small round leather pad. Static props near the edges: a leather camera case with stitching, two 35mm film canisters, a lens cap, a small desk lamp with a warm glow. Dark far background with out-of-focus warm bokeh lights. Shallow depth of field.\n\nLighting: warm lamp key, cool rim light on the chrome, plus bright emissive softbox panels placed so the chrome has something to reflect. No environment texture.\n\nAnimation, 240 frames at 24 fps, fixed 50mm render camera, the film camera fills about 70% of the frame from frame 1:\n1-120: the camera rotates 180 degrees on its pad.\n120-180: the aperture closes from f/2 to f/16, clearly visible from the front.\n180-240: exploded view. The camera separates into at least 12 named parts (top plate, bottom plate, body, lens barrel, focus ring, aperture blades, shutter dial, advance lever, viewfinder glass and so on) that slide apart along their axes above the desk and hold. Props stay put.\n\nRender: Cycles, GPU OptiX, 1920x1080, 128 samples adaptive, OptiX denoise, PNG sequence to ./render, save the .blend.\n\nWork autonomously and do not ask questions. Render test frames 1, 120 and 240 first and fix anything that is broken. Then start the full render in the background with the blender command line, tell me the exact command and stop. Do not wait for or poll the render.",
+      "prompt_url": "https://x.com/colerepo/status/2120274995028824443",
+      "prompt_source": "https://x.com/colerepo/status/2120274995028824443"
     },
     {
       "id": "2120269858503803261",
@@ -1224,7 +1318,10 @@
         "webgl",
         "model-comparison",
         "one-shot"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "Lighthouse in a storm. One HTML file. No libraries. Raw WebGL. One try, no edits.",
+      "prompt_source": "https://x.com/TheMarloweFile/status/2120269858503803261"
     },
     {
       "id": "2120269395373048226",
@@ -1244,7 +1341,8 @@
         "single-html-file",
         "no-libraries",
         "sound-from-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120268733360779645",
@@ -1264,7 +1362,9 @@
         "blender",
         "character-rig",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/0xApexAi/status/2120268733360779645"
     },
     {
       "id": "2120266583826182317",
@@ -1283,7 +1383,8 @@
       "tags": [
         "built-in-code",
         "all-from-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120265921390621058",
@@ -1303,7 +1404,9 @@
         "blender",
         "one-prompt",
         "short-film"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/untitled_sys/status/2120265921390621058"
     },
     {
       "id": "2120264513224392712",
@@ -1323,7 +1426,8 @@
         "blender",
         "all-in-code",
         "built-in-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120264413651571170",
@@ -1343,7 +1447,10 @@
         "one-shot",
         "html",
         "universe-sim"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "visually stunning simulation of the universe",
+      "prompt_source": "https://x.com/xhenrikkvamme/status/2120264413651571170"
     },
     {
       "id": "2120262045849567640",
@@ -1363,7 +1470,8 @@
         "built-in-code",
         "javascript",
         "code-generated-video"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120239401821487149",
@@ -1382,7 +1490,8 @@
       "tags": [
         "blender",
         "animation"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120239202344595743",
@@ -1402,7 +1511,8 @@
         "every-frame-from-code",
         "multi-style",
         "no-video-model"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120238844754923874",
@@ -1422,7 +1532,8 @@
         "browser-game",
         "souls-like",
         "high-engagement"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120238479988740542",
@@ -1441,7 +1552,8 @@
       "tags": [
         "entirely-from-code",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120232518721163754",
@@ -1461,7 +1573,8 @@
         "launch-video",
         "code-and-music",
         "cuttle-render"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120230885077246433",
@@ -1480,7 +1593,8 @@
       "tags": [
         "every-frame-from-code",
         "short-film"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120228998454325655",
@@ -1500,7 +1614,10 @@
         "html-animation",
         "model-comparison",
         "pelican"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "各做一段 HTML 动画的鹈鹕测试（思考开到最高档）。",
+      "prompt_source": "https://x.com/meow2149/status/2120228998454325655"
     },
     {
       "id": "2120225154613801451",
@@ -1520,7 +1637,8 @@
         "model-comparison",
         "stickman",
         "pipeline-unclear"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120223040768451047",
@@ -1540,7 +1658,9 @@
         "threejs",
         "model-comparison",
         "tourbillon"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/0xVibeDino/status/2120223040768451047"
     },
     {
       "id": "2120220121985958190",
@@ -1560,7 +1680,8 @@
         "motion-design",
         "recreate-in-code",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120219010860019977",
@@ -1580,7 +1701,10 @@
         "one-html",
         "threejs",
         "asml-euv"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "build a 3D animation of an ASML EUV machine printing a wafer. One prompt, one HTML file, no 3D assets, every part generated in code with three.js.",
+      "prompt_source": "https://x.com/miki_code/status/2120219010860019977"
     },
     {
       "id": "2120218994682581295",
@@ -1600,7 +1724,8 @@
         "earth-journey",
         "code-camera",
         "nasa-imagery"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120218046166102440",
@@ -1620,7 +1745,8 @@
         "domino",
         "physics-in-code",
         "no-video-model"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120213917167190407",
@@ -1642,7 +1768,10 @@
         "one-shot",
         "no-assets",
         "mars-rover"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "build a complete futuristic Mars rover experience from scratch - procedurally modeled, with no external 3D assets.",
+      "prompt_source": "https://x.com/koss_ai/status/2120213917167190407"
     },
     {
       "id": "2120212644280119750",
@@ -1663,7 +1792,8 @@
         "blender",
         "animation",
         "timed-cost"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120211050595340766",
@@ -1683,7 +1813,9 @@
         "one-prompt",
         "method-less-explicit",
         "high-engagement"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/skpnky/status/2120211050595340766"
     },
     {
       "id": "2120210882382971263",
@@ -1704,7 +1836,10 @@
         "motion-graphics",
         "showreel",
         "one-prompt"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+      "prompt_source": "https://x.com/MatinSenPai/status/2120210882382971263"
     },
     {
       "id": "2120209307019170210",
@@ -1724,7 +1859,8 @@
         "blender",
         "marketing-video",
         "multi-machine-render"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120202746121085321",
@@ -1744,7 +1880,8 @@
         "one-webpage",
         "interactive-demo",
         "webcam"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120202317861650632",
@@ -1764,7 +1901,8 @@
         "blender",
         "rubiks-cube",
         "timed-cost"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120194977221251139",
@@ -1785,7 +1923,8 @@
         "no-video-editor",
         "wrote-code",
         "launch-video"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120194452115407306",
@@ -1806,7 +1945,8 @@
         "webgl",
         "formula-1",
         "code-generated-sfx"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120194121138610199",
@@ -1828,7 +1968,10 @@
         "one-prompt",
         "no-video-model",
         "html-code-film"
-      ]
+      ],
+      "prompt_status": "link-only",
+      "prompt_url": "https://www.productmarketfit.tech/p/fable-5-2-what-it-can-build-in-one-prompt?r=53m7yb",
+      "prompt_source": "https://x.com/guilleflorvs/status/2120194121138610199"
     },
     {
       "id": "2120189062418145766",
@@ -1848,7 +1991,8 @@
         "three-js",
         "blender",
         "concept-film"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120188353895108919",
@@ -1869,7 +2013,9 @@
         "one-prompt",
         "model-comparison",
         "chaos-attractor"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/adrianmakes/status/2120188353895108919"
     },
     {
       "id": "2120188077855613174",
@@ -1890,7 +2036,9 @@
         "from-scratch",
         "world-and-trailer",
         "method-less-explicit"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/prasenx/status/2120188077855613174"
     },
     {
       "id": "2120186616966975817",
@@ -1911,7 +2059,8 @@
         "no-footage",
         "phyllotaxis",
         "built-in-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120185945135948143",
@@ -1932,7 +2081,9 @@
         "wrote-video-code",
         "one-line-prompt",
         "mixed-tts"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/AIzunA_izumo/status/2120185945135948143"
     },
     {
       "id": "2120185914848641407",
@@ -1953,7 +2104,8 @@
         "single-script",
         "no-assets",
         "built-in-code"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120185004701720968",
@@ -1973,7 +2125,8 @@
         "every-frame-from-code",
         "no-video-mode",
         "contains-promo-link"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120184485753033104",
@@ -1993,7 +2146,10 @@
         "every-pixel-is-code",
         "model-comparison",
         "no-textures"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "a sunrise from orbit. No photos. No textures. Every pixel is code.",
+      "prompt_source": "https://x.com/ScaleWthAI/status/2120184485753033104"
     },
     {
       "id": "2120183065397842041",
@@ -2013,7 +2169,8 @@
         "wrote-everything-in-code",
         "model-comparison",
         "15s-shot"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120182666532442198",
@@ -2033,7 +2190,8 @@
         "remotion",
         "javascript",
         "transition-sample"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120181459617202356",
@@ -2053,7 +2211,8 @@
         "sound-from-code",
         "one-shot",
         "medium"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120178163846164874",
@@ -2074,7 +2233,10 @@
         "voxels",
         "model-comparison",
         "wall-e"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "make a 35-second WALL-E movie in voxels, one html file",
+      "prompt_source": "https://x.com/nokoxyz/status/2120178163846164874"
     },
     {
       "id": "2120175385799430642",
@@ -2094,7 +2256,10 @@
         "built-in-code",
         "interactive-3d-site",
         "one-sentence"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "make an interactive 3D website of Apple's A2164 charger.",
+      "prompt_source": "https://x.com/wjwang2003/status/2120175385799430642"
     },
     {
       "id": "2120172126175162672",
@@ -2113,7 +2278,8 @@
       "tags": [
         "physics-simulation",
         "cloth-sim"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120170748576997737",
@@ -2132,7 +2298,9 @@
       "tags": [
         "author-claimed-explainer-video",
         "one-prompt"
-      ]
+      ],
+      "prompt_status": "claimed-not-captured",
+      "prompt_source": "https://x.com/Suhas__ashok/status/2120170748576997737"
     },
     {
       "id": "2120157178690769365",
@@ -2152,7 +2320,8 @@
         "100-lines-of-code",
         "model-comparison",
         "lighthouse-scene"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120153096798318631",
@@ -2171,7 +2340,8 @@
       "tags": [
         "author-claimed-made-with-fable-5.2",
         "contains-promo-link"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120042502283735212",
@@ -2190,7 +2360,8 @@
       "tags": [
         "code-video-claim",
         "repost-not-original-maker"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2120006406032269691",
@@ -2209,7 +2380,10 @@
       "tags": [
         "prompted-to-make-video",
         "render-method-unclear"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "make a video of Visakhapatnam Beach Road, with the sea in view and the tourist spots along that stretch, from Dolphin’s Nose to Rushikonda.",
+      "prompt_source": "https://x.com/Neuraticai/status/2120006406032269691"
     },
     {
       "id": "2119925209881030718",
@@ -2230,7 +2404,10 @@
         "single-html-file",
         "no-3d-assets",
         "model-comparison"
-      ]
+      ],
+      "prompt_status": "excerpt",
+      "prompt": "A honeybee landing on a coneflower, shot like a macro lens at golden hour. One prompt, one HTML file, no 3D assets.",
+      "prompt_source": "https://x.com/MartinSzerment/status/2119925209881030718"
     },
     {
       "id": "2119906202330988961",
@@ -2250,7 +2427,8 @@
         "claude-code",
         "one-shot",
         "interactive-html-or-scene"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2119905141822484595",
@@ -2269,7 +2447,8 @@
       "tags": [
         "built-in-code",
         "official-tool-account"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2119902325460590834",
@@ -2287,7 +2466,8 @@
       "why": "作者自称用 Claude Fable 5.2 做了 ChatGPT 四周年庆生视频，强调节奏与动效。",
       "tags": [
         "author-claimed-made-with-fable-5.2"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2119885430627913784",
@@ -2306,7 +2486,10 @@
       "tags": [
         "author-claimed-animated-video",
         "uses-existing-animation-base"
-      ]
+      ],
+      "prompt_status": "full",
+      "prompt": "Create an animated video of clawd creating and releasing Claude Fable 5.2",
+      "prompt_source": "https://x.com/other__reality/status/2119885430627913784"
     },
     {
       "id": "2119884295179538680",
@@ -2325,7 +2508,8 @@
       "tags": [
         "one-shot",
         "mixed-pipeline-blender-videodraft-elevenlabs"
-      ]
+      ],
+      "prompt_status": "none"
     },
     {
       "id": "2119460874381570360",
@@ -2344,7 +2528,8 @@
       "tags": [
         "fable-higgsfield-mcp",
         "pipeline-unclear"
-      ]
+      ],
+      "prompt_status": "none"
     }
   ]
 }
