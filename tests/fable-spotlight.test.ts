@@ -33,9 +33,9 @@ function spotlightSection(html: string) {
 
 test('standalone gallery keeps every post and stays out of the catalog files', () => {
   const items = fableSpotlightItems();
-  assert.equal(fableSpotlight.item_count, 118);
-  assert.equal(items.length, 118);
-  assert.equal(new Set(items.map(item => item.id)).size, 118);
+  assert.equal(fableSpotlight.item_count, 238);
+  assert.equal(items.length, 238);
+  assert.equal(new Set(items.map(item => item.id)).size, 238);
   assert.equal(fableSpotlight.eyebrow, 'Now trending');
   assert.equal(fableSpotlight.title, 'Fable 5.2');
   assert.match(fableSpotlight.description, /public posts of code videos made with Claude Fable 5\.2/i);
@@ -197,11 +197,11 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   const cards = [...html.matchAll(/data-spotlight-id="(\d+)"/g)].map(match => match[1]);
   const blocks = fableSpotlightBlocks(items);
   assert.deepEqual(cards, blocks.flatMap(block => block.items.map(item => item.id)));
-  assert.equal(cards.length, 118);
+  assert.equal(cards.length, 238);
   const rendered = frameSections(html);
   assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
   for (const block of rendered) assert.ok(block.frames.every(frame => frame === block.frame));
-  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 118);
+  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 238);
   assert.match(html, /href="https:\/\/x\.com\//);
   assert.equal([...html.matchAll(/role="dialog"/g)].length, 0);
   assert.equal([...html.matchAll(/<video\b/g)].length, 0);
