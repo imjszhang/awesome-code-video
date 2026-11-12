@@ -681,6 +681,19 @@
     "identity_checked_at": "2026-11-02"
   },
   {
+    "id": "huashu-motion",
+    "name": "huashu-motion",
+    "url": "https://github.com/alchaincyf/huashu-motion",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1424340323,
+      "full_name": "alchaincyf/huashu-motion",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-12"
+  },
+  {
     "id": "story-to-handdrawn-video",
     "name": "story-to-handdrawn-video",
     "url": "https://github.com/gnipbao/story-to-handdrawn-video",

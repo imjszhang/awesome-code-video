@@ -15,6 +15,7 @@ const HOTLINK_IDS = [
   'anatomy-ripple-tank',
   'map-motion-night-location',
   'ai-video-factory',
+  'huashu-motion',
 ];
 
 test('every bundled MP4 has a real, traceable WebP poster', () => {
