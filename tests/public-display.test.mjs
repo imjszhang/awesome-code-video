@@ -20,9 +20,9 @@ test('the isolation rule selects the retained freelancer-templates inventory', (
   const visible = publicResources(resources);
   assert.equal(isolationRule.purpose, 'public-display-isolation');
   assert.equal(isolationRule.resource_project_id, 'freelancer-templates');
-  assert.equal(resources.length, 980);
+  assert.equal(resources.length, 982);
   assert.equal(isolated.length, 688);
-  assert.equal(visible.length, 292);
+  assert.equal(visible.length, 294);
   assert.equal(projects.some((project) => project.id === 'freelancer-templates'), true);
   const licenses = {};
   for (const resource of isolated) {
@@ -42,7 +42,7 @@ test('the isolation rule selects the retained freelancer-templates inventory', (
     counts.withPreview += 1;
     counts[resource.preview.kind] += 1;
   }
-  assert.deepEqual(counts, { withPreview: 284, video: 213, thumb_link: 65, embed: 6 });
+  assert.deepEqual(counts, { withPreview: 286, video: 215, thumb_link: 65, embed: 6 });
   assert.deepEqual(publicCategoryCounts(resources), { core: 267, filmAndScene: 142, maps: 6, shots: 73, styles: 46 });
   assert.equal(isolatedPosterBasenames(resources).length, 688);
 });
@@ -50,7 +50,7 @@ test('the isolation rule selects the retained freelancer-templates inventory', (
 test('catalog modules shipped to the site drop isolated rows and keep the repository file intact', () => {
   const resources = readJson('data/resources.json');
   const filtered = JSON.parse(filterCatalogModule('data/resources.json', JSON.stringify(resources)));
-  assert.equal(filtered.length, 292);
+  assert.equal(filtered.length, 294);
   assert.equal(filtered.some(isIsolatedResource), false);
   assert.equal(resources.filter(isIsolatedResource).length, 688);
   const posters = readJson('data/preview-posters.json');

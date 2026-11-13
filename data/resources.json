@@ -17903,6 +17903,34 @@
     }
   },
   {
+    "id": "huashu-motion",
+    "project_id": "huashu-motion",
+    "name": "huashu-motion",
+    "kind": "workflow",
+    "url": "https://github.com/alchaincyf/huashu-motion",
+    "section": "Production Workflows",
+    "description": "Agent skill for product-launch films from the same author as huashu-art-motion, listed beside it as a separate workflow: HTML, GSAP, Canvas, and Three.js scenes with local music, reused through templates, the om CLI, examples, and skills/huashu-motion/SKILL.md. Own code is MIT (Copyright (c) 2026 Huashu). Bundled GSAP 3.14.2 is under the GSAP Standard License (https://gsap.com/standard-license, effective 2025-04-30, last modified 2025-05-30), which allows commercial use at no charge except visual animation builders that compete with Webflow; the vendored GSAP-LICENSE.html still contains an older no-charge / end-user-fee summary. three.js r186 is MIT, and the fonts are SIL OFL 1.1. The 「豆子花叔」 character in runtime/clip/lib/toon.js and the storytime/demo films is not under MIT and is for demos only. om voice may download Kokoro / whisper.cpp models on first use under those models' licenses; they are not redistributed in that repository. The README and the source post say it is currently mainly tested on macOS. Needs Node 22 or newer, Chrome, Chromium, or Edge, and FFmpeg. Films longer than 4 seconds include a 1.2-second Made with huashu-motion signature unless data-om-signature is set to off. Source-reviewed on 2026-11-12 at 0272906902c33c796a81637545905ea7f2b81c5a, the commit after the v0.4.0 tag; npm latest is not this review. Not render-tested. The preview hotlinks the v0.2.0 launch MP4 only, and redistributability is unconfirmed.",
+    "evidence_ids": [
+      "S-CV-229"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-12",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Launch-film redistributability remains 待确认 (pending/unconfirmed), so preview.redistributable is false. The author's ¥1.95 / 22-second cost figure is an upstream claim and was not curator-tested. The reviewed source is commit 0272906902c33c796a81637545905ea7f2b81c5a; the v0.4.0 tag points at ba273ab50c60d02ce2daeb97aa82f14aebe7f0a7, and npm latest was not treated as the reviewed version.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/alchaincyf/huashu-motion/releases/download/v0.2.0/huashu-motion-launch.mp4",
+      "license": "Own code MIT (Copyright (c) 2026 Huashu); GSAP 3.14.2 under the GSAP Standard License (https://gsap.com/standard-license, effective 2025-04-30, last modified 2025-05-30; commercial use at no charge except Webflow-competing visual animation builders; vendored GSAP-LICENSE.html still has an older no-charge / end-user-fee summary); three.js r186 MIT; fonts SIL OFL 1.1; 「豆子花叔」 character is demo-only and not under MIT; launch MP4 redistributability 待确认",
+      "attribution": "alchaincyf / 花叔 (https://github.com/alchaincyf/huashu-motion) — release asset huashu-motion-launch.mp4 (v0.2.0); author launch film. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-229 https://github.com/alchaincyf/huashu-motion/releases/download/v0.2.0/huashu-motion-launch.mp4. Pinned to release v0.2.0 huashu-motion-launch.mp4; HEAD follow→200, Content-Length=31128161, ftyp isom, ffprobe H.264 1920x1080 duration 53.200s on 2026-11-12 Asia/Shanghai. Do not use /releases/latest: v0.4.0 has no assets and https://github.com/alchaincyf/huashu-motion/releases/latest/download/huashu-motion-launch.mp4 returned 404 on 2026-11-12. grok-bot-fan-film.mp4 and claude-duet-fan-film-en.mp4 are not official previews and are not linked. Hotlink only; not copied into this repository. Poster is the pinned hero.gif hotlink, also not copied. Redistributability is 待确认, so redistributable is false. Not a local render test. Reviewed source tip is 0272906902c33c796a81637545905ea7f2b81c5a, one commit after v0.4.0 tag ba273ab50c60d02ce2daeb97aa82f14aebe7f0a7; npm latest was not the reviewed version.",
+      "checked_at": "2026-11-12",
+      "poster": "https://raw.githubusercontent.com/alchaincyf/huashu-motion/0272906902c33c796a81637545905ea7f2b81c5a/docs/media/hero.gif"
+    }
+  },
+  {
     "id": "story-to-handdrawn-video",
     "project_id": "story-to-handdrawn-video",
     "name": "story-to-handdrawn-video",
@@ -17956,6 +17984,34 @@
       "source": "S-CV-195 https://raw.githubusercontent.com/wy51ai/edulab/master/edu-solid-geometry.gif. HEAD 200 GIF89a on 2026-11-02 Asia/Shanghai; Content-Length=11382687. Apache-2.0. Motion GIF for edu-solid-geometry lesson skill; no stable redistributable MP4 for video skills at write time. Do not use edu-chem-reaction.gif (404). kind=thumb_link (GIF rule). Hotlink only; not copied. Not a local render test.",
       "checked_at": "2026-11-02",
       "poster": "/previews/edulab.webp"
+    }
+  },
+  {
+    "id": "ai-video-factory",
+    "project_id": "ai-video-factory",
+    "name": "AI-Video-Factory",
+    "kind": "workflow",
+    "url": "https://github.com/ersinkoc/AI-Video-Factory",
+    "section": "Production Workflows",
+    "description": "Local bilingual Studio and Remotion monorepo that turns one topic into a multilingual video through Claude agents, a CLI, and a pipeline with vector, still, mixed, and animated modes. The catalog preview is one silent technical style-pack sample of about 8 seconds (isometric); paper-cutout and risograph are additional hotlinks in the evidence note, and these samples are not narrated episodes. The rest of the upstream style-pack library is not split into catalog items. Own code is MIT (Copyright (c) 2026 Ersin KOÇ). Remotion 4.0.539 is free for individuals, non-profits, and for-profits with up to 3 employees; larger companies need a Remotion company license, as the upstream README License section states. gsap@3.15.0 is under the GSAP Standard License (https://gsap.com/standard-license, effective 2025-04-30, last modified 2025-05-30), which allows commercial use at no charge except no-code visual animation builders that compete with Webflow. three.js 0.187.0, pixi.js 8.22.0, and paper.js 0.16.0 are MIT. Typography loaded through @fontsource is not automatically redistributable under the code MIT. Still, mixed, and animated modes, and paid voice, follow fal, Google, and ElevenLabs terms. Wikimedia and Commons references keep their original licenses, and Cliopatria and Seshat map borders are CC BY 4.0. The upstream README says vector mode can run without paid media APIs; that claim was not render-checked. Other modes need keys, and empty providers stay disabled. The Studio has no login and binds to the local machine. Runtime is Node 24 or newer, pnpm 11, FFmpeg, and Claude access. Source-reviewed on 2026-11-13 at commit 36da91cee49d56e26eed8f91eb9ea657cffb2d73 (package version 0.5.1, the merge after v0.5.1 tag commit 48e5ba7543a48d3fddc47340773689f716435a8b), not at /releases/latest and not on a floating default branch. Not render-tested. Redistribution of the style-sample MP4s is still pending confirmation (待确认).",
+    "evidence_ids": [
+      "S-CV-230"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-13",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Style-sample MP4 redistributability remains 待确认 (pending confirmation), so preview.redistributable is false. The primary preview is the pinned isometric.mp4; paper-cutout.mp4 and risograph.mp4 are additional hotlinks recorded on S-CV-230. These are silent technical style-pack samples, not narrated episodes. The reviewed source is commit 36da91cee49d56e26eed8f91eb9ea657cffb2d73 (package 0.5.1), the merge after v0.5.1 tag commit 48e5ba7543a48d3fddc47340773689f716435a8b. /releases/latest was not used (v0.5.1 has empty assets). The third-party X promo GIF was not used.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.mp4",
+      "license": "Own code MIT (Copyright (c) 2026 Ersin KOÇ); Remotion 4.0.539 free for individuals, non-profits, and for-profits with up to 3 employees, company license required above that; gsap@3.15.0 GSAP Standard License (https://gsap.com/standard-license, effective 2025-04-30, last modified 2025-05-30; commercial use at no charge except Webflow-competing no-code visual animation builders); three.js 0.187.0, pixi.js 8.22.0, paper.js 0.16.0 MIT; @fontsource typography not automatically redistributable under the code MIT; still/mixed/animated modes and paid voice subject to fal / Google / ElevenLabs terms; Wikimedia/Commons keep original licenses; Cliopatria/Seshat map borders CC BY 4.0; style-sample MP4 redistributability 待确认",
+      "attribution": "ersinkoc / Ersin KOÇ (https://github.com/ersinkoc/AI-Video-Factory) — pinned-tip style sample isometric.mp4 (36da91cee49d56e26eed8f91eb9ea657cffb2d73); silent about-8-second technical style-pack sample, not a narrated episode. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-230 https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.mp4. Pinned to reviewed tip 36da91cee49d56e26eed8f91eb9ea657cffb2d73 (package 0.5.1, merge after v0.5.1 tag commit 48e5ba7543a48d3fddc47340773689f716435a8b). HEAD follow→200, 424288 bytes, sha256 885c26a0d18a50bcc648cc69be0e4745a1407afa2be31e78aacd0fd12b1880d9, ftyp isom, ffprobe H.264 1920x1080 30 fps 240 frames duration 8.000s, AAC silent (mean/max -91.0 dB) on 2026-11-13. Additional hotlinks, not separate previews: paper-cutout.mp4 (799158 bytes, sha256 9edb1995c311d3e06ccffaeaf87d07f3a5072aee51dcef6bdd7c8dc502d3f498) and risograph.mp4 (2359479 bytes, sha256 3a17e34c3b87197682bf8de8fdba0943ea7c6fa7618d21162cec38d82f3a895a) at the same pin. Poster hotlinks isometric.jpg (17928 bytes) at the same pin and was not copied. Do not use /releases/latest: v0.5.1 has empty assets. Do not use the third-party X promo GIF. These are silent technical style-pack samples, not narrated episodes. The 64 style packs are not catalog items. Hotlink only; not copied into this repository. Redistributability is 待确认, so redistributable is false. Not a local render test.",
+      "checked_at": "2026-11-13",
+      "poster": "https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.jpg"
     }
   },
   {

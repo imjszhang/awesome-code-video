@@ -4609,5 +4609,59 @@
         "reason": "Excluded by public-source policy: personal/account-bound source, noncommercial/proprietary restrictions or mixed gated directory; public inspectable artifacts and clear reuse permission required."
       }
     ]
+  },
+  {
+    "id": "C-9fe7e7889258",
+    "url": "https://github.com/ersinkoc/AI-Video-Factory",
+    "name": "AI-Video-Factory",
+    "status": "accepted",
+    "reason": "Source-reviewed at 36da91cee49d56e26eed8f91eb9ea657cffb2d73 as a production workflow. Own code is MIT; Remotion, GSAP, three.js, pixi.js, paper.js, fonts, generated media, and map borders stay split. The preview hotlinks the pinned isometric style-sample MP4; paper-cutout and risograph are additional hotlinks. redistributable is false because redistribution is still pending confirmation (待确认). Not render-tested.",
+    "resource_id": "ai-video-factory",
+    "evidence_ids": [
+      "S-CV-230"
+    ],
+    "created_at": "2026-11-13T03:36:36.958Z",
+    "updated_at": "2026-11-13T03:36:37.958Z",
+    "history": [
+      {
+        "at": "2026-11-13T03:36:36.958Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-13T03:36:37.958Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 36da91cee49d56e26eed8f91eb9ea657cffb2d73 as a production workflow. Own code is MIT; Remotion, GSAP, three.js, pixi.js, paper.js, fonts, generated media, and map borders stay split. The preview hotlinks the pinned isometric style-sample MP4; paper-cutout and risograph are additional hotlinks. redistributable is false because redistribution is still pending confirmation (待确认). Not render-tested."
+      }
+    ]
+  },
+  {
+    "id": "C-42590c49cee0",
+    "url": "https://github.com/alchaincyf/huashu-motion",
+    "name": "huashu-motion",
+    "status": "accepted",
+    "reason": "Source-reviewed at 0272906902c33c796a81637545905ea7f2b81c5a as a separate workflow beside huashu-art-motion. Own code is MIT; GSAP, three.js, fonts, the demo character, and downloaded voice models stay split. Preview is the v0.2.0 launch MP4 hotlink; redistributable is false because redistributability is still unconfirmed. Not render-tested.",
+    "resource_id": "huashu-motion",
+    "evidence_ids": [
+      "S-CV-229"
+    ],
+    "created_at": "2026-11-12T03:36:40.898Z",
+    "updated_at": "2026-11-12T03:37:50.150Z",
+    "history": [
+      {
+        "at": "2026-11-12T03:36:40.898Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-12T03:37:50.150Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 0272906902c33c796a81637545905ea7f2b81c5a as a separate workflow beside huashu-art-motion. Own code is MIT; GSAP, three.js, fonts, the demo character, and downloaded voice models stay split. Preview is the v0.2.0 launch MP4 hotlink; redistributable is false because redistributability is still unconfirmed. Not render-tested."
+      }
+    ]
   }
 ]
