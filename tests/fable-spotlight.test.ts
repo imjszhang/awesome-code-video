@@ -33,9 +33,9 @@ function spotlightSection(html: string) {
 
 test('standalone gallery keeps every post and stays out of the catalog files', () => {
   const items = fableSpotlightItems();
-  assert.equal(fableSpotlight.item_count, 238);
-  assert.equal(items.length, 238);
-  assert.equal(new Set(items.map(item => item.id)).size, 238);
+  assert.equal(fableSpotlight.item_count, 936);
+  assert.equal(items.length, 936);
+  assert.equal(new Set(items.map(item => item.id)).size, 936);
   assert.equal(fableSpotlight.eyebrow, 'Now trending');
   assert.equal(fableSpotlight.title, 'Fable 5.2');
   assert.match(fableSpotlight.description, /public posts of code videos made with Claude Fable 5\.2/i);
@@ -44,10 +44,12 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
   for (let index = 1; index < items.length; index++) {
     assert.ok(Date.parse(items[index - 1].created_at_utc) >= Date.parse(items[index].created_at_utc));
   }
+  const missingPreview = items.filter(item => !item.preview).map(item => item.id);
+  assert.deepEqual(missingPreview, ['2120872572325928987']);
   for (const item of items) {
     assert.equal(new URL(item.url).hostname, 'x.com', item.id);
     assert.equal(new URL(item.video_url).hostname, 'video.twimg.com', item.id);
-    assert.equal(new URL(item.preview).hostname, 'pbs.twimg.com', item.id);
+    if (item.preview) assert.equal(new URL(item.preview).hostname, 'pbs.twimg.com', item.id);
     assert.equal(item.url.includes('/status/'), true, item.id);
   }
   const catalogFiles = ['data/resources.json', 'data/evidence.json', 'data/projects.json', 'README.md', 'README.zh-CN.md'];
@@ -62,8 +64,10 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
   const posters = readdirSync(new URL('../web/public/previews', import.meta.url));
   for (const item of items) assert.equal(posters.some(name => name.includes(item.id)), false, item.id);
   const stills = new Map(fableSpotlightPosters.map(record => [record.id, record]));
-  assert.equal(stills.size, items.length);
-  for (const item of items) {
+  const withPreview = items.filter(item => item.preview);
+  assert.equal(withPreview.length, 935);
+  assert.equal(stills.size, withPreview.length);
+  for (const item of withPreview) {
     const still = stills.get(item.id);
     assert.ok(still, item.id);
     assert.equal(still.source_url, item.preview);
@@ -71,6 +75,7 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
     assert.equal(existsSync(new URL(`../web/public${still.poster}`, import.meta.url)), true, item.id);
     assert.equal(spotlightStill(item, path => `/${path}`), still.poster);
   }
+  assert.equal(stills.has('2120872572325928987'), false);
   assert.equal(spotlightStill({id: 'missing-post', preview: 'https://pbs.twimg.com/a.jpg'}), 'https://pbs.twimg.com/a.jpg');
 });
 
@@ -197,11 +202,11 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   const cards = [...html.matchAll(/data-spotlight-id="(\d+)"/g)].map(match => match[1]);
   const blocks = fableSpotlightBlocks(items);
   assert.deepEqual(cards, blocks.flatMap(block => block.items.map(item => item.id)));
-  assert.equal(cards.length, 238);
+  assert.equal(cards.length, 936);
   const rendered = frameSections(html);
   assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
   for (const block of rendered) assert.ok(block.frames.every(frame => frame === block.frame));
-  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 238);
+  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 936);
   assert.match(html, /href="https:\/\/x\.com\//);
   assert.equal([...html.matchAll(/role="dialog"/g)].length, 0);
   assert.equal([...html.matchAll(/<video\b/g)].length, 0);
