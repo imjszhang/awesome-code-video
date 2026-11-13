@@ -74,7 +74,7 @@ export function typedCount(frame:number):number{
 }
 export const CHART_VALUES=[28,46,39,72,98];
 /** Public resource count drawn in the chart shot. Matches the filtered catalog, not the retained inventory. */
-export const CHART_TOTAL=292;
+export const CHART_TOTAL=293;
 export const ROUTE_KM=8270;
 /** Point on the quadratic flight path at t in [0,1]. */
 export const ROUTE={from:{x:176,y:398},via:{x:440,y:74},to:{x:786,y:196}};
