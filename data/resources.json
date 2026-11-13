@@ -17959,6 +17959,34 @@
     }
   },
   {
+    "id": "ai-video-factory",
+    "project_id": "ai-video-factory",
+    "name": "AI-Video-Factory",
+    "kind": "workflow",
+    "url": "https://github.com/ersinkoc/AI-Video-Factory",
+    "section": "Production Workflows",
+    "description": "Local bilingual Studio and Remotion monorepo that turns one topic into a multilingual video through Claude agents, a CLI, and a pipeline with vector, still, mixed, and animated modes. The catalog preview is one silent technical style-pack sample of about 8 seconds (isometric); paper-cutout and risograph are additional hotlinks in the evidence note, and these samples are not narrated episodes. The rest of the upstream style-pack library is not split into catalog items. Own code is MIT (Copyright (c) 2026 Ersin KOÇ). Remotion 4.0.539 is free for individuals, non-profits, and for-profits with up to 3 employees; larger companies need a Remotion company license, as the upstream README License section states. gsap@3.15.0 is under the GSAP Standard License (https://gsap.com/standard-license, effective 2025-04-30, last modified 2025-05-30), which allows commercial use at no charge except no-code visual animation builders that compete with Webflow. three.js 0.187.0, pixi.js 8.22.0, and paper.js 0.16.0 are MIT. Typography loaded through @fontsource is not automatically redistributable under the code MIT. Still, mixed, and animated modes, and paid voice, follow fal, Google, and ElevenLabs terms. Wikimedia and Commons references keep their original licenses, and Cliopatria and Seshat map borders are CC BY 4.0. The upstream README says vector mode can run without paid media APIs; that claim was not render-checked. Other modes need keys, and empty providers stay disabled. The Studio has no login and binds to the local machine. Runtime is Node 24 or newer, pnpm 11, FFmpeg, and Claude access. Source-reviewed on 2026-11-13 at commit 36da91cee49d56e26eed8f91eb9ea657cffb2d73 (package version 0.5.1, the merge after v0.5.1 tag commit 48e5ba7543a48d3fddc47340773689f716435a8b), not at /releases/latest and not on a floating default branch. Not render-tested. Redistribution of the style-sample MP4s is still pending confirmation (待确认).",
+    "evidence_ids": [
+      "S-CV-230"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-13",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Style-sample MP4 redistributability remains 待确认 (pending confirmation), so preview.redistributable is false. The primary preview is the pinned isometric.mp4; paper-cutout.mp4 and risograph.mp4 are additional hotlinks recorded on S-CV-230. These are silent technical style-pack samples, not narrated episodes. The reviewed source is commit 36da91cee49d56e26eed8f91eb9ea657cffb2d73 (package 0.5.1), the merge after v0.5.1 tag commit 48e5ba7543a48d3fddc47340773689f716435a8b. /releases/latest was not used (v0.5.1 has empty assets). The third-party X promo GIF was not used.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.mp4",
+      "license": "Own code MIT (Copyright (c) 2026 Ersin KOÇ); Remotion 4.0.539 free for individuals, non-profits, and for-profits with up to 3 employees, company license required above that; gsap@3.15.0 GSAP Standard License (https://gsap.com/standard-license, effective 2025-04-30, last modified 2025-05-30; commercial use at no charge except Webflow-competing no-code visual animation builders); three.js 0.187.0, pixi.js 8.22.0, paper.js 0.16.0 MIT; @fontsource typography not automatically redistributable under the code MIT; still/mixed/animated modes and paid voice subject to fal / Google / ElevenLabs terms; Wikimedia/Commons keep original licenses; Cliopatria/Seshat map borders CC BY 4.0; style-sample MP4 redistributability 待确认",
+      "attribution": "ersinkoc / Ersin KOÇ (https://github.com/ersinkoc/AI-Video-Factory) — pinned-tip style sample isometric.mp4 (36da91cee49d56e26eed8f91eb9ea657cffb2d73); silent about-8-second technical style-pack sample, not a narrated episode. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-230 https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.mp4. Pinned to reviewed tip 36da91cee49d56e26eed8f91eb9ea657cffb2d73 (package 0.5.1, merge after v0.5.1 tag commit 48e5ba7543a48d3fddc47340773689f716435a8b). HEAD follow→200, 424288 bytes, sha256 885c26a0d18a50bcc648cc69be0e4745a1407afa2be31e78aacd0fd12b1880d9, ftyp isom, ffprobe H.264 1920x1080 30 fps 240 frames duration 8.000s, AAC silent (mean/max -91.0 dB) on 2026-11-13. Additional hotlinks, not separate previews: paper-cutout.mp4 (799158 bytes, sha256 9edb1995c311d3e06ccffaeaf87d07f3a5072aee51dcef6bdd7c8dc502d3f498) and risograph.mp4 (2359479 bytes, sha256 3a17e34c3b87197682bf8de8fdba0943ea7c6fa7618d21162cec38d82f3a895a) at the same pin. Poster hotlinks isometric.jpg (17928 bytes) at the same pin and was not copied. Do not use /releases/latest: v0.5.1 has empty assets. Do not use the third-party X promo GIF. These are silent technical style-pack samples, not narrated episodes. The 64 style packs are not catalog items. Hotlink only; not copied into this repository. Redistributability is 待确认, so redistributable is false. Not a local render test.",
+      "checked_at": "2026-11-13",
+      "poster": "https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.jpg"
+    }
+  },
+  {
     "id": "freelancer-bounce-text-espresso",
     "project_id": "freelancer-templates",
     "name": "Bounce Text Espresso",

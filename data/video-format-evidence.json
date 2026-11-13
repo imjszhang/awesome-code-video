@@ -67,5 +67,14 @@
     "source_url": "https://raw.githubusercontent.com/motiontemplates/385712/main/assets/demo.mp4",
     "checked_at": "2026-10-29",
     "note": "ffprobe of the hotlinked preview on 2026-10-29 reported H.264 1280x720. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "ai-video-factory",
+    "preview_url": "https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://raw.githubusercontent.com/ersinkoc/AI-Video-Factory/36da91cee49d56e26eed8f91eb9ea657cffb2d73/apps/studio/public/style-previews/isometric.mp4",
+    "checked_at": "2026-11-13",
+    "note": "ffprobe of the hotlinked pinned-tip isometric style sample on 2026-11-13 reported H.264 1920x1080, 30 fps, 240 frames, duration 8.000s, size 424288. The AAC track was present and silent (mean/max -91.0 dB). Dimensions describe that encoded preview, not a local render. The file was not copied into this repository. paper-cutout.mp4 and risograph.mp4 are additional hotlinks in S-CV-230, not this primary preview."
   }
 ]

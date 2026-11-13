@@ -705,5 +705,18 @@
       "default_branch": "master"
     },
     "identity_checked_at": "2026-11-02"
+  },
+  {
+    "id": "ai-video-factory",
+    "name": "AI-Video-Factory",
+    "url": "https://github.com/ersinkoc/AI-Video-Factory",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1439022059,
+      "full_name": "ersinkoc/AI-Video-Factory",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-13"
   }
 ]

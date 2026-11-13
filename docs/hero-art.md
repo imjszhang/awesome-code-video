@@ -9,7 +9,7 @@ The loop runs at 30 frames per second for 180 frames. Shots cut hard, as in an e
 | Frames | Shot | What is drawn |
 | --- | --- | --- |
 | 0–44 | `type` | “Good code.” typed in JetBrains Mono, one character every two frames, behind a yellow caret that blinks once the line is complete. |
-| 45–89 | `chart` | A paper-coloured frame. A counter eases up to 292, the public resource count, while five bars spring in, staggered by three frames; the tallest is yellow with an ink outline. |
+| 45–89 | `chart` | A paper-coloured frame. A counter eases up to 293, the public resource count, while five bars spring in, staggered by three frames; the tallest is yellow with an ink outline. |
 | 90–134 | `route` | A dotted grid, a dashed flight path from SFO to HND, a yellow line that traces it with an ease-in-out, and a distance counter. The arrival pin springs open at the end. |
 | 135–179 | `title` | “Great video.” rises from behind its baseline; a yellow bar under it fills like playback progress until the loop restarts. |
 
