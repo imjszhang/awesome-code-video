@@ -30,10 +30,10 @@ export const REEL_LISTING:{tokens:ReelToken[],shot?:ReelShotId}[]=[
  {tokens:[{text:'export const ',tone:'keyword'},{text:'frames = '},{text:'180',tone:'number'}]},
  {tokens:[]},
  {tokens:[{text:'export default ',tone:'keyword'},{text:'sequence',tone:'call'},{text:'('}]},
- {shot:'type',tokens:[{text:'  '},{text:'type',tone:'call'},{text:'('},{text:"'Good code.'",tone:'string'},{text:'),'}]},
+ {shot:'type',tokens:[{text:'  '},{text:'type',tone:'call'},{text:'('},{text:"'AI + code.'",tone:'string'},{text:'),'}]},
  {shot:'chart',tokens:[{text:'  '},{text:'chart',tone:'call'},{text:'(['},{text:'28, 46, 39, 72, 98',tone:'number'},{text:']),'}]},
  {shot:'route',tokens:[{text:'  '},{text:'route',tone:'call'},{text:'('},{text:"'SFO'",tone:'string'},{text:', '},{text:"'HND'",tone:'string'},{text:'),'}]},
- {shot:'title',tokens:[{text:'  '},{text:'title',tone:'call'},{text:'('},{text:"'Great video.'",tone:'string'},{text:'),'}]},
+ {shot:'title',tokens:[{text:'  '},{text:'title',tone:'call'},{text:'('},{text:"'Make videos.'",tone:'string'},{text:'),'}]},
  {tokens:[{text:')'}]},
 ];
 
@@ -68,7 +68,7 @@ export const easeInOutCubic=(t:number)=>{const x=clamp01(t);return x<.5?4*x*x*x:
 export const spring=(t:number)=>{const x=clamp01(t);return x===1?1:1-Math.exp(-6.5*x)*Math.cos(7.5*x);};
 
 /** How many characters of the typed line are on screen at a shot-local frame. */
-export const TYPED_LINE='Good code.';
+export const TYPED_LINE='AI + code.';
 export function typedCount(frame:number):number{
  return Math.min(TYPED_LINE.length,Math.max(0,Math.floor((frame-5)/2)));
 }
@@ -153,7 +153,7 @@ function drawRoute(ctx:Ctx,f:number){
 function drawTitle(ctx:Ctx,f:number){
  ctx.fillStyle=INK;ctx.fillRect(0,0,REEL_WIDTH,REEL_HEIGHT);
  ctx.font=`700 118px ${DISPLAY}`;ctx.textBaseline='alphabetic';ctx.textAlign='left';
- const words='Great video',wordsWidth=ctx.measureText(words).width,dot=ctx.measureText('.').width;
+ const words='Make videos',wordsWidth=ctx.measureText(words).width,dot=ctx.measureText('.').width;
  const left=(REEL_WIDTH-wordsWidth-dot)/2,rise=(1-easeOutExpo((f-2)/16))*150;
  ctx.save();
  // The line rises from behind its own baseline, the classic mask-up reveal.
