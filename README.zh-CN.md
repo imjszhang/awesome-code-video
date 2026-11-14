@@ -1,14 +1,14 @@
 # Awesome Code Video [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> 用代码制作视频：可复用的视觉风格、镜头配方与成片工程。
+> 发现 AI＋代码能做出什么，找到制作自己视频的起点。
 
 [English](README.md) · 简体中文
 
 **官网：** [https://awesomecodevideo.com/](https://awesomecodevideo.com/) · [搜索资源库](https://awesomecodevideo.com/library/) · [按使用场景浏览](https://awesomecodevideo.com/collections/)
 
-在网站查看视觉预览，按框架和资源类型筛选，并获取源码链接与复用说明。
+Awesome Code Video 希望让更多人发现并开始用 **AI＋代码做视频**。在这里看作品、了解制作方法，找到适合自己想法的工具、工作流和可复用资源。无论你已经会写代码，还是正在借助 AI 学习，都可以从一个想讲的故事开始。
 
-面向用 HTML、React、JavaScript、TypeScript 或 Python 制作视频的人，精选适合产品宣传、知识科普、数据叙事和旅行视频的资源。每项说明画面风格、适用场景，以及实际能拿来修改的部分。
+代码视频，也称 **programmatic video** 或 **video as code**，用代码组织和渲染动态画面。AI 助手可以帮助编写和修改代码，你则把握故事、视觉方向和最终效果。在网站查看预览，再沿着原始来源和复用说明开始实践。
 
 英文版是主版本。本版覆盖首批 267 个可复用单元：142 个成片或场景工程、6 个地图镜头、73 个镜头配方、46 个风格文件。2026-10-28 核对了上游文档和目录，尚未逐项安装或试渲染；适用视频类型是本清单的整理建议。
 
@@ -23,6 +23,7 @@
 
 ## Contents
 
+- [为什么做这个项目](#为什么做这个项目)
 - [Claude Fable 5.2](#claude-fable-52)
 - [如何选择](#如何选择)
 - [成片与场景工程](#成片与场景工程)
@@ -36,11 +37,23 @@
 - [相关清单](#相关清单)
 - [复用边界](#复用边界)
 
+## 为什么做这个项目
+
+我们相信，用 AI＋代码做视频的时代正在到来。[Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5)、[Claude Fable 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) 等模型正在拓展 AI 用代码创作的可能性。创作者可以描述场景、故事和视觉风格，与 AI 助手一起完成实现，再通过预览和反馈逐步打磨视频。
+
+我们希望更多人能探索这种创作方式。一个好作品可以带来灵感，背后的工具、源码和制作说明则帮助人迈出下一步。Awesome Code Video 把这些线索连接起来：发现代码能做出什么，了解作品如何实现，并找到制作自己视频的起点。
+
 ## Claude Fable 5.2
 
-网站上有一个 Claude Fable 5.2 代码视频专区：[https://awesomecodevideo.com/spotlight/fable-5-2/](https://awesomecodevideo.com/spotlight/fable-5-2/)。这里展示的是公开原帖，从原平台播放，尚未进入下方精选索引，也不计入上述 267 个可复用单元。
+在 [Claude Fable 5.2 代码视频专区](https://awesomecodevideo.com/spotlight/fable-5-2/) 看看创作者正在做什么，并通过公开原帖了解作者的创作说明和已分享的制作过程。这些作品用于提供灵感，尚未进入下方精选索引，也不计入上述 267 个可复用单元。视频从原平台播放。
 
 ## 如何选择
+
+**找到创作方向。** 先看作品，选一个想做的视频类型：产品宣传、知识讲解、数据故事或旅行记录。
+
+**选一个起点。** 打开资源的源码和复用说明，把这些参考、自己的内容和想要的效果交给 AI 助手，请它协助改编工程、镜头或风格。
+
+**做成自己的作品。** 按项目说明完成配置和渲染，查看预览、提出修改意见，并在分享前检查故事、画面和声音。
 
 | 想做的视频 | 可以从哪里开始 | 实际复用的内容 |
 | --- | --- | --- |

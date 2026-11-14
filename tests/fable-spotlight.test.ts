@@ -89,10 +89,10 @@ test('homepage spotlight shows the latest 24 posts between the stats row and Fea
   assert.ok(heroAt >= 0 && signalAt > heroAt && spotlightAt > signalAt && featuredAt > spotlightAt && exploreAt > featuredAt);
   const section = spotlightSection(home);
   const homeMeta = pageMeta(routeForPath('/'));
-  assert.equal(homeMeta.title, 'Awesome Code Video — Styles, Shots & Templates, Claude Fable 5.2');
-  assert.equal(homeMeta.description, 'Discover curated video templates, visual styles, shot recipes, and workflows for making videos with code. Find the source and understand what to reuse. Claude Fable 5.2 code videos stay in a separate spotlight, outside the curated index.');
-  assert.match(homeMeta.title, /Claude Fable 5\.2/);
-  assert.match(homeMeta.description, /Claude Fable 5\.2/);
+  assert.equal(homeMeta.title, 'Awesome Code Video — Make Videos with AI + Code');
+  assert.equal(homeMeta.description, 'Discover what you can make with AI and code. Explore inspiring videos, learn how they were made, and find tools and reusable resources to start your own.');
+  assert.doesNotMatch(homeMeta.title, /Claude|Fable|Opus/);
+  assert.doesNotMatch(homeMeta.description, /Claude|Fable|Opus/);
   assert.doesNotMatch(homeMeta.description, /\b118\b|curated Awesome index/);
   assert.match(section, /Now trending/);
   assert.match(section, /<h2 id="fable-spotlight-title">Claude Fable 5\.2<\/h2>/);

@@ -8,7 +8,7 @@ const progressOf=(frame:number)=>(frame/(REEL_FRAMES-1)).toFixed(4);
 function MotionPoster(){
  return <svg className="hero-motion-fallback" viewBox={`0 0 ${REEL_WIDTH} ${REEL_HEIGHT}`} preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
   <rect width={REEL_WIDTH} height={REEL_HEIGHT} fill="#0e0e10"/>
-  <text x="480" y="300" textAnchor="middle" fontSize="118" fontWeight="700" fill="#f1eee7">Great video<tspan fill="#fcd228">.</tspan></text>
+  <text x="480" y="300" textAnchor="middle" fontSize="118" fontWeight="700" fill="#f1eee7">Make videos<tspan fill="#fcd228">.</tspan></text>
   <rect x="137" y="372" width="685" height="6" fill="#f1eee7" opacity=".16"/>
   <rect x="137" y="372" width="443" height="6" fill="#fcd228"/>
  </svg>;

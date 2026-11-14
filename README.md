@@ -2,15 +2,15 @@
 
 <a href="https://github.com/imjszhang/awesome-code-video"><img src="assets/code-video.svg" alt="Code brackets surrounding a video play symbol" align="right" width="128" height="128"></a>
 
-> Reusable visual styles, shot recipes, and editable templates for making videos with code.
+> Discover what AI + code can make. Find a starting point for your own video.
 
 **English** · [简体中文](README.zh-CN.md)
 
 **Website:** [https://awesomecodevideo.com/](https://awesomecodevideo.com/) · [Search the resource library](https://awesomecodevideo.com/library/) · [Browse by use case](https://awesomecodevideo.com/collections/)
 
-Browse visual previews, filter resources by framework and type, and open source links with practical reuse notes on the website.
+Awesome Code Video helps more people discover and start making videos with **AI + code**. Explore inspiring work, learn how it was made, and find tools, workflows, and reusable resources for your own ideas. You can start with a story you want to tell, whether you already write code or are learning with an AI assistant.
 
-Code video, also called **programmatic video** or **video as code**, uses HTML, Canvas, SVG, React, TypeScript, or Python to compose and render moving images. This list focuses on reusable parts: a product-launch film you can adapt, a camera move you can integrate, or a visual style you can use to direct a new film.
+Code video, also called **programmatic video** or **video as code**, uses code to compose and render moving images. An AI assistant can help write and adapt that code while you shape the story, visual direction, and final result. Browse previews on the website, then follow the original sources and practical reuse notes.
 
 Find **video templates, motion graphics, product demos, explainers, data stories, and map animations**, with specific source links and practical reuse notes. The list contains 267 reusable examples, recipes, and styles, plus a small set of supporting frameworks and workflows. Resources were reviewed through their source files and documentation; inclusion does not mean each project has been installed or render-tested.
 
@@ -25,6 +25,7 @@ Only public, inspectable resources with clear reuse permissions are included. En
 
 ## Contents
 
+- [Why This Exists](#why-this-exists)
 - [Claude Fable 5.2](#claude-fable-52)
 - [Start Here](#start-here)
 - [Film and Scene Templates](#film-and-scene-templates)
@@ -36,11 +37,23 @@ Only public, inspectable resources with clear reuse permissions are included. En
 - [Production Workflows](#production-workflows)
 - [Generative Video Prompts](#generative-video-prompts)
 
+## Why This Exists
+
+We believe an era of making videos with AI + code is taking shape. Models such as [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) and [Claude Fable 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) are expanding what AI can build with code. Creators can describe a scene, a story, or a visual style, work with an AI assistant on the implementation, and refine the video through previews and feedback.
+
+We want more people to explore this way of creating. A compelling example can spark an idea; its tools, source, and production notes can help someone take the next step. Awesome Code Video brings those connections together: see what is possible, understand how it works, and find a starting point for your own video.
+
 ## Claude Fable 5.2
 
-A public gallery of code videos made with Claude Fable 5.2 is on the website at [https://awesomecodevideo.com/spotlight/fable-5-2/](https://awesomecodevideo.com/spotlight/fable-5-2/). These are original public posts, played from their original host. They are not yet in the curated index below, and they are not part of the 267 reusable examples, recipes, and styles.
+Explore what creators are making with Claude Fable 5.2 in the [code video spotlight](https://awesomecodevideo.com/spotlight/fable-5-2/). Follow the original public posts for the creators' accounts of their work and any process details they share. These examples offer inspiration; they are not yet in the curated index below, and they are not part of the 267 reusable examples, recipes, and styles. Videos play from their original host.
 
 ## Start Here
+
+**Find a direction.** Watch examples and choose the kind of video you want to make: a launch, an explanation, a data story, or a journey.
+
+**Choose a starting point.** Open a resource's source and reuse notes. Give your AI assistant those references, your own content, and a brief describing the result you want; ask it to help adapt the project, shot, or style.
+
+**Make it yours.** Follow the project's setup and rendering instructions. Preview the result, give feedback, and review the story, visuals, and sound before sharing.
 
 | Make this                          | Start with    | What you reuse                                                   |
 | ---------------------------------- | ------------- | ---------------------------------------------------------------- |
