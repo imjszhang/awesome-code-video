@@ -269,7 +269,9 @@ test('gallery cards retain complete previews and featured covers without autopla
  const about=renderToString(React.createElement(App,{path:'/about/'}));
  assert.match(about,/A preview is not a local render test/);
  assert.match(about,/Playback starts muted/);
- assert.match(about,/Videos never autoplay/);
+ assert.match(about,/Main-catalog previews are still click-to-play/);
+ assert.match(about,/Fable Spotlight uses muted looping previews after a card enters the viewport/);
+ assert.doesNotMatch(about,/Videos never autoplay/);
 });
 test('missing preview cards stay editorial and retain source review context',()=>{
  const resource={...resources.find(r=>r.id==='ink-press')!,preview:undefined};

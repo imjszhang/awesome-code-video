@@ -7,7 +7,8 @@ import posters from '../../data/fable-52-posters.json';
  * file into data/resources.json, data/evidence.json, data/projects.json,
  * data/collections.json, or the README index, and do not add these posts
  * to catalog counts. Cards use a bundled still from
- * data/fable-52-posters.json. The video stays on the original post and is
+ * data/fable-52-posters.json. Visible cards stream a muted looping preview
+ * from the original video URL after they enter the viewport. The file is
  * not copied into this repository.
  */
 export type FableSpotlightItem = {
@@ -49,7 +50,7 @@ export const FABLE_SPOTLIGHT_PAGE_TITLE = 'Claude Fable 5.2 Code Videos | Awesom
  * Search description for the dedicated page.
  * These posts stay outside the curated main index.
  */
-export const FABLE_SPOTLIGHT_PAGE_DESCRIPTION = 'Claude Fable 5.2 code videos from public posts, especially code, HTML, and Blender pipelines. These posts are not yet in the curated main index. Stills stay on this site; the video plays on the original post.';
+export const FABLE_SPOTLIGHT_PAGE_DESCRIPTION = 'Claude Fable 5.2 code videos from public posts, especially code, HTML, and Blender pipelines. These posts are not yet in the curated main index. Stills stay on this site. Muted previews loop after a card enters the viewport; the original post stays linked.';
 
 export type FableSpotlightPoster = {
   id: string;
