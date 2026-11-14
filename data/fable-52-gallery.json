@@ -2,7 +2,7 @@
   "id": "fable-5-2",
   "title": "Fable 5.2",
   "eyebrow": "Now trending",
-  "description": "Public posts of code videos made with Claude Fable 5.2, especially code, HTML, and Blender pipelines. These are not yet in the curated main index. Stills stay on this site; the video plays on the original post.",
+  "description": "Public posts of code videos made with Claude Fable 5.2, especially code, HTML, and Blender pipelines. These are not yet in the curated main index. Stills stay on this site. Muted previews loop after a card enters the viewport; the original post stays linked.",
   "updated_at_shanghai": "2026-11-13 23:51 (Asia/Shanghai)",
   "item_count": 936,
   "source": "Standalone Fable 5.2 collection from public X search. Append new posts to this file only. Do not write these items into data/resources.json, data/evidence.json, data/projects.json, data/collections.json, or the README index, and do not add them to catalog counts.",

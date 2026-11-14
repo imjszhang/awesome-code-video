@@ -47,7 +47,7 @@ Awesome Code Video 是一个面向 **AI＋代码视频创作**的精选资源库
 
 ## Claude Fable 5.2
 
-在 [Claude Fable 5.2 代码视频专区](https://awesomecodevideo.com/spotlight/fable-5-2/) 看看创作者正在做什么，并通过公开原帖了解作者的创作说明和已分享的制作过程。这些作品用于提供灵感，尚未进入下方精选索引，也不计入上述 267 个可复用单元。视频从原平台播放。
+在 [Claude Fable 5.2 代码视频专区](https://awesomecodevideo.com/spotlight/fable-5-2/) 看看创作者正在做什么，并通过公开原帖了解作者的创作说明和已分享的制作过程。这些作品用于提供灵感，尚未进入下方精选索引，也不计入上述 267 个可复用单元。卡片进入视口后，本站以静音循环播放原平台上的预览，不把视频文件复制进仓库。
 
 ## 如何选择
 
