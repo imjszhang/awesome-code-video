@@ -11,7 +11,7 @@ The loop runs at 30 frames per second for 180 frames. Shots cut hard, as in an e
 | 0–44 | `type` | “AI + code.” typed in JetBrains Mono, one character every two frames, behind a yellow caret that blinks once the line is complete. |
 | 45–89 | `chart` | A paper-coloured frame. A counter eases up to 294, the public resource count, while five bars spring in, staggered by three frames; the tallest is yellow with an ink outline. |
 | 90–134 | `route` | A dotted grid, a dashed flight path from SFO to HND, a yellow line that traces it with an ease-in-out, and a distance counter. The arrival pin springs open at the end. |
-| 135–179 | `title` | “Make videos.” rises from behind its baseline; a yellow bar under it fills like playback progress until the loop restarts. |
+| 135–179 | `title` | “Find ideas.” rises from behind its baseline; a yellow bar under it fills like playback progress until the loop restarts. |
 
 The four shots stand in for the catalog's use cases: type and captions, data stories, maps and travel, and title cards.
 

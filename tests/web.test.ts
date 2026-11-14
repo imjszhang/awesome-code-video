@@ -748,7 +748,7 @@ test('homepage tabs expose totals and mount only the first video batch',()=>{
  const featuredOnHome=new Set(featuredGalleryItems().map(resource=>resource.id));
  for(const resource of resources)assert.equal(html.includes(`href="/resources/${resource.id}/"`),firstIds.has(resource.id)||featuredOnHome.has(resource.id),resource.id);
  assert.match(html,/id="featured"/);
- assert.match(html,/Look this cool\. Steal the recipe\./);
+ assert.match(html,/Selected work\. Original sources\./);
  assert.equal([...html.matchAll(/class="resource-card gallery-card"/g)].length,firstBatch.length+featuredGalleryItems().length);
  assert.match(html.replace(/<!--[\s\S]*?-->/g,''),new RegExp(`Showing ${firstBatch.length} of ${landscape.length} videos`));
  assert.match(html.replace(/<!--[\s\S]*?-->/g,''),/Load 12 more/);

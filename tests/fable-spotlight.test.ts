@@ -89,8 +89,8 @@ test('homepage spotlight shows the latest 24 posts between the stats row and Fea
   assert.ok(heroAt >= 0 && signalAt > heroAt && spotlightAt > signalAt && featuredAt > spotlightAt && exploreAt > featuredAt);
   const section = spotlightSection(home);
   const homeMeta = pageMeta(routeForPath('/'));
-  assert.equal(homeMeta.title, 'Awesome Code Video — Make Videos with AI + Code');
-  assert.equal(homeMeta.description, 'Discover what you can make with AI and code. Explore inspiring videos, learn how they were made, and find tools and reusable resources to start your own.');
+  assert.equal(homeMeta.title, 'Awesome Code Video — AI + Code Video Resources');
+  assert.equal(homeMeta.description, 'Discover curated videos, tools, open-source projects, shot recipes and visual styles for making videos with AI and code, with original sources and reuse notes.');
   assert.doesNotMatch(homeMeta.title, /Claude|Fable|Opus/);
   assert.doesNotMatch(homeMeta.description, /Claude|Fable|Opus/);
   assert.doesNotMatch(homeMeta.description, /\b118\b|curated Awesome index/);

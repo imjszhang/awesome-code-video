@@ -166,13 +166,13 @@ export function pageMeta(route:Route){
  if(route.type==='project'){const p=projects.find(p=>p.id===route.id)!;return {title:`${p.name} Resources | Awesome Code Video`,description:`Explore selected ${p.name} resources, reuse notes, and reviewed source links for making videos with code.`};}
  if(route.type==='collection'){const c=collections.find(c=>c.id===route.id)!;return {title:`${c.name} for Videos Made with Code | Awesome Code Video`,description:c.description};}
  if(route.type==='spotlight')return {title:FABLE_SPOTLIGHT_PAGE_TITLE,description:FABLE_SPOTLIGHT_PAGE_DESCRIPTION};
- const names:Record<string,string>={home:'Awesome Code Video — Make Videos with AI + Code',library:'Explore the Library | Awesome Code Video',projects:'Source Projects | Awesome Code Video',collections:'Video Use Cases | Awesome Code Video',about:'Why We Built This | Awesome Code Video',saved:'Your Saved Resources | Awesome Code Video',notfound:'Page Not Found | Awesome Code Video'};
+ const names:Record<string,string>={home:'Awesome Code Video — AI + Code Video Resources',library:'Explore the Library | Awesome Code Video',projects:'Source Projects | Awesome Code Video',collections:'Video Use Cases | Awesome Code Video',about:'Why We Built This | Awesome Code Video',saved:'Your Saved Resources | Awesome Code Video',notfound:'Page Not Found | Awesome Code Video'};
  const descriptions:Record<string,string>={
-  home:'Discover what you can make with AI and code. Explore inspiring videos, learn how they were made, and find tools and reusable resources to start your own.',
-  library:'Find a starting point for your own video: editable projects, visual styles, shot recipes, and tools, with source links and notes on what to change.',
+  home:'Discover curated videos, tools, open-source projects, shot recipes and visual styles for making videos with AI and code, with original sources and reuse notes.',
+  library:'Search a curated library of video projects, visual styles, shot recipes and tools. Compare resources by use case and follow their original sources and reuse notes.',
   projects:'Explore the creators and projects behind the catalog, from video frameworks to reusable scenes, with reviewed links to each original source.',
   collections:'Browse curated resources for product demos, explainers, maps, data stories, captions, and playful films. Start with the kind of video you want to make.',
-  about:'Why Awesome Code Video helps more people discover and start making videos with AI and code, and how we select works, check sources, and explain reuse.',
+  about:'Why we collect and organize resources for making videos with AI and code, and how we connect useful examples, original sources and practical reuse notes.',
   saved:'Revisit the video resources you saved in this browser. Your shortlist stays on this device and does not require an account.',
   notfound:'This page could not be found. Browse the Awesome Code Video library to discover templates, styles, shots, and original sources.'
  };

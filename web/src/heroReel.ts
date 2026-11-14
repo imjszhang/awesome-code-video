@@ -33,7 +33,7 @@ export const REEL_LISTING:{tokens:ReelToken[],shot?:ReelShotId}[]=[
  {shot:'type',tokens:[{text:'  '},{text:'type',tone:'call'},{text:'('},{text:"'AI + code.'",tone:'string'},{text:'),'}]},
  {shot:'chart',tokens:[{text:'  '},{text:'chart',tone:'call'},{text:'(['},{text:'28, 46, 39, 72, 98',tone:'number'},{text:']),'}]},
  {shot:'route',tokens:[{text:'  '},{text:'route',tone:'call'},{text:'('},{text:"'SFO'",tone:'string'},{text:', '},{text:"'HND'",tone:'string'},{text:'),'}]},
- {shot:'title',tokens:[{text:'  '},{text:'title',tone:'call'},{text:'('},{text:"'Make videos.'",tone:'string'},{text:'),'}]},
+ {shot:'title',tokens:[{text:'  '},{text:'title',tone:'call'},{text:'('},{text:"'Find ideas.'",tone:'string'},{text:'),'}]},
  {tokens:[{text:')'}]},
 ];
 
@@ -153,7 +153,7 @@ function drawRoute(ctx:Ctx,f:number){
 function drawTitle(ctx:Ctx,f:number){
  ctx.fillStyle=INK;ctx.fillRect(0,0,REEL_WIDTH,REEL_HEIGHT);
  ctx.font=`700 118px ${DISPLAY}`;ctx.textBaseline='alphabetic';ctx.textAlign='left';
- const words='Make videos',wordsWidth=ctx.measureText(words).width,dot=ctx.measureText('.').width;
+ const words='Find ideas',wordsWidth=ctx.measureText(words).width,dot=ctx.measureText('.').width;
  const left=(REEL_WIDTH-wordsWidth-dot)/2,rise=(1-easeOutExpo((f-2)/16))*150;
  ctx.save();
  // The line rises from behind its own baseline, the classic mask-up reveal.

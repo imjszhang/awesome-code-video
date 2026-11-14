@@ -2,13 +2,13 @@
 
 <a href="https://github.com/imjszhang/awesome-code-video"><img src="assets/code-video.svg" alt="Code brackets surrounding a video play symbol" align="right" width="128" height="128"></a>
 
-> Discover what AI + code can make. Find a starting point for your own video.
+> Curated resources for making videos with AI + code.
 
 **English** · [简体中文](README.zh-CN.md)
 
 **Website:** [https://awesomecodevideo.com/](https://awesomecodevideo.com/) · [Search the resource library](https://awesomecodevideo.com/library/) · [Browse by use case](https://awesomecodevideo.com/collections/)
 
-Awesome Code Video helps more people discover and start making videos with **AI + code**. Explore inspiring work, learn how it was made, and find tools, workflows, and reusable resources for your own ideas. You can start with a story you want to tell, whether you already write code or are learning with an AI assistant.
+Awesome Code Video is a curated resource collection for making videos with **AI + code**. We gather inspiring video examples, tools, open-source projects, shot recipes, visual styles, and workflows, with links to their original sources and practical reuse notes. Browse by what you want to make, find useful references, and choose resources for your own creative work.
 
 Code video, also called **programmatic video** or **video as code**, uses code to compose and render moving images. An AI assistant can help write and adapt that code while you shape the story, visual direction, and final result. Browse previews on the website, then follow the original sources and practical reuse notes.
 
@@ -41,7 +41,9 @@ Only public, inspectable resources with clear reuse permissions are included. En
 
 We believe an era of making videos with AI + code is taking shape. Models such as [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) and [Claude Fable 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) are expanding what AI can build with code. Creators can describe a scene, a story, or a visual style, work with an AI assistant on the implementation, and refine the video through previews and feedback.
 
-We want more people to explore this way of creating. A compelling example can spark an idea; its tools, source, and production notes can help someone take the next step. Awesome Code Video brings those connections together: see what is possible, understand how it works, and find a starting point for your own video.
+Good examples, useful tools, and reusable code are spread across repositories, project sites, and creators' posts. Awesome Code Video focuses on collecting and organizing these resources: making them easier to discover, linking to their original creators, and explaining what can be reused and what needs adaptation.
+
+Through this collection, we hope to help more people discover and start making videos with AI + code. Whether you already code or are learning with an AI assistant, a good resource can provide inspiration and a practical starting point.
 
 ## Claude Fable 5.2
 
@@ -49,11 +51,11 @@ Explore what creators are making with Claude Fable 5.2 in the [code video spotli
 
 ## Start Here
 
-**Find a direction.** Watch examples and choose the kind of video you want to make: a launch, an explanation, a data story, or a journey.
+**Browse by your idea.** Explore examples and use-case collections, or search the library by resource type and source project. Start with a product launch, an explanation, a data story, or a journey.
 
-**Choose a starting point.** Open a resource's source and reuse notes. Give your AI assistant those references, your own content, and a brief describing the result you want; ask it to help adapt the project, shot, or style.
+**Check the fit and source.** Read the reuse notes, follow the original link, and check the project's requirements. A showcase offers inspiration; an editable project, shot recipe, or style file provides a different kind of starting point.
 
-**Make it yours.** Follow the project's setup and rendering instructions. Preview the result, give feedback, and review the story, visuals, and sound before sharing.
+**Bring it into your workflow.** Use the selected resource in your own tools. You can ask an AI coding assistant to help adapt it, following the upstream setup and rendering instructions, then preview and refine your video.
 
 | Make this                          | Start with    | What you reuse                                                   |
 | ---------------------------------- | ------------- | ---------------------------------------------------------------- |
