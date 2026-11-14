@@ -1,7 +1,7 @@
 {
   "name": "awesome-code-video",
   "private": true,
-  "description": "Discover and start making videos with AI and code through inspiring works, tools, and reusable resources.",
+  "description": "A curated collection of videos, tools, open-source projects, shot recipes, and visual styles for making videos with AI and code.",
   "type": "module",
   "scripts": {
     "lint": "awesome-lint README.md",

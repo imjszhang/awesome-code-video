@@ -22,7 +22,7 @@ Preview runs at http://127.0.0.1:4173. The build writes `dist/`; do not commit g
 
 ## Content and features
 
-The core message is to help more people discover and start making videos with AI and code. The homepage and its search/share metadata use that lasting positioning; model names belong in background context and dedicated spotlights. The homepage introduces discovery, learning from creators, and starting a first video with an AI coding assistant. The About page explains that purpose before selection standards. Both READMEs share the same mission and beginner guidance, with model-specific context in their background sections.
+The project’s mission is to help more people discover and start making videos with AI and code. Its current offering is a curated resource collection: videos for inspiration, tools, open-source projects, shot recipes, visual styles and workflows, connected to original sources and reuse notes. The homepage, calls to action and search/share metadata emphasize finding and browsing resources. The About page and both READMEs connect that practical focus to the broader mission. Model names belong in background context and dedicated spotlights; creation takes place in the user’s own tools or AI workflow.
 
 `data/projects.json`, `data/resources.json` and `data/evidence.json` remain authoritative. Curated collections, use-case groupings and search live in `web/src/model.ts`. Routes cover the homepage, searchable library, projects, collections, resource details, saved resources, the Fable 5.2 spotlight, and selection policy. Resource details expose upstream links, reuse guidance and review evidence. Bookmarks stay in this browser’s local storage.
 
