@@ -18015,6 +18015,62 @@
     }
   },
   {
+    "id": "openfilm",
+    "project_id": "openfilm",
+    "name": "OpenFilm",
+    "kind": "framework",
+    "url": "https://github.com/openfilm/openfilm",
+    "section": "Frameworks and Renderers",
+    "description": "Open-source film framework in which a film is a folder with film.html, shots are web pages drawn with frame(t), and Studio is a local Chromium editor. It officially does not depend on Remotion or HyperFrames. Reuse the format, CLI, Studio, and desktop app. The format, CLI, Studio, and desktop app are MIT. The OpenFilm name and logo are trademarks (TRADEMARK.md) and are not covered by MIT. Library media in packages/openfilm/library/ is dedicated CC0 1.0, except Fluent Emoji stickers, which are MIT and require the notice to be kept. Studio bundles Inter (SIL OFL 1.1), React (MIT), and Lucide (ISC). Optional generated voice, music, image, and video through user-connected services (ElevenLabs, OpenAI, Google, OpenRouter, fal, and others) stay under those services' terms. The catalog preview is a short CC0 effect-library sample (confetti), not a launch film; the bloom sample is a backup hotlink in the evidence note, not this preview. Needs Node 22.2 or newer and FFmpeg; the first run downloads a headless Chromium. Source-reviewed on 2026-11-16 at 0bc08008d933af7d42ef73a53cae384e2f54e6eb. npm latest and /releases/latest are not this review. Not render-tested. The preview is a hotlink only, and redistributability is 待确认.",
+    "evidence_ids": [
+      "S-CV-231"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-16",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. The primary preview is the pinned confetti effect-library sample; bloom is a backup hotlink on S-CV-231 and is not the catalog preview. The sample is a short CC0 library clip, not a launch film. The library LICENSE.md declares CC0 1.0, but redistributability remains 待确认, so preview.redistributable is false. The poster hotlinks docs/openfilm.webp at the same pin and was not frame-reviewed. npm latest and /releases/latest were not the reviewed version. The completeness trio is not marked complete.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/confetti/preview.mp4",
+      "license": "Format, CLI, Studio, and desktop app MIT; OpenFilm name and logo are trademarks (TRADEMARK.md) and are not covered by MIT; packages/openfilm/library/ media dedicated CC0 1.0 except Fluent Emoji stickers (MIT, notice required); Studio bundles Inter SIL OFL 1.1, React MIT, Lucide ISC; optional generated voice, music, image, and video via ElevenLabs, OpenAI, Google, OpenRouter, fal, and similar user-connected services stay under those terms; effect-sample redistributability 待确认",
+      "attribution": "OpenFilm contributors (https://github.com/openfilm/openfilm) — pinned effect-library sample packages/openfilm/library/effects/confetti/preview.mp4 (0bc08008d933af7d42ef73a53cae384e2f54e6eb); short CC0 library sample, not a launch film. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-231 https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/confetti/preview.mp4. Pinned to reviewed tip 0bc08008d933af7d42ef73a53cae384e2f54e6eb (2026-11-15T03:38:27Z, Docs: add a Japanese README (#457); package version at that tip still 0.3.2). 47548 bytes, sha256 9e9a5c679a7bfaa416b459b4f7ec34c5afb9eda873fb4be677621f8507e856ef. The 2026-11-16 review recorded a container check: H.264, yuv420p, 320x180, 2.000s, 30 fps, no audio. This is a short CC0 effect-library sample, not a launch film. Backup hotlink only, not this preview: https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/bloom/preview.mp4 (13246 bytes, sha256 cec3520e3cf08bba9551aab7773273113c4c2355ae13a0f44cf4fcfaaa30050d). Poster hotlinks https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/docs/openfilm.webp (7125832 bytes) at the same pin and was not copied or frame-reviewed. Do not use /releases/latest, desktop installers, the YouTube launch film, or openfilm/examples media. The library LICENSE.md declares CC0 1.0. Hotlink only; not copied into this repository. Redistributability is 待确认, so redistributable is false. Not a local render test and not a visual playback review.",
+      "checked_at": "2026-11-16",
+      "poster": "https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/docs/openfilm.webp"
+    }
+  },
+  {
+    "id": "design-agent",
+    "project_id": "design-agent",
+    "name": "design-agent",
+    "kind": "workflow",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "section": "Production Workflows",
+    "description": "LangChain open-source design / Content Studio agent that takes a team Slack brief and returns on-brand images, slides, charts, and motion. This is a design agent, not a reusable film project package. Video is produced in HyperFrames, which is already in this catalog; this entry does not replace that HyperFrames entry and is not a duplicate of it. Own code in this repository is Apache-2.0. HyperFrames agent skills are vendored unmodified from heygen-com/hyperframes v0.8.169 at 7735338b49ed6e11c227b0710da3bd35c3366b9c (Apache-2.0; license copy at licenses/hyperframes-LICENSE.txt). The HyperFrames CLI is installed in the sandbox image and is not vendored in this repository. GSAP is installed in the sandbox image and is not vendored here; it is under the GSAP Standard no-charge license (https://gsap.com/standard-license) and must be disclosed separately. Fonts in fonts/ are SIL OFL 1.1. The catalog preview hotlinks the in-repo explainer MP4 at the reviewed commit, not a GitHub user-attachment and not a raw/main URL. Source-reviewed on 2026-11-16 at a389e53c6d16b8139c233d7c666cda1255e30cb1. That review recorded default branch main still at this commit; pushed_at 2026-11-15T01:46:39Z came from other branches and is not the reviewed version. Not render-tested. Redistribution of the explainer is 待确认.",
+    "evidence_ids": [
+      "S-CV-232"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-16",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. This is a design / Content Studio agent, not a reusable film project package, and it does not replace the cataloged HyperFrames entry. Explainer redistributability remains 待确认, so preview.redistributable is false. The primary preview is the pinned design-agent-explainer.mp4. The poster hotlinks docs/assets/readme/hero.png at the same pin and was not visually reviewed. GitHub user-attachments and raw/main were not used. The completeness trio is not marked complete.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/design-agent-explainer.mp4",
+      "license": "This repository Apache-2.0; HyperFrames agent skills vendored unmodified from heygen-com/hyperframes v0.8.169 / 7735338b49ed6e11c227b0710da3bd35c3366b9c (Apache-2.0, licenses/hyperframes-LICENSE.txt); HyperFrames CLI installed in the sandbox image and not vendored here; GSAP installed in the sandbox image and not vendored here (GSAP Standard no-charge license, https://gsap.com/standard-license); fonts in fonts/ SIL OFL 1.1; explainer redistributability 待确认",
+      "attribution": "LangChain (https://github.com/langchain-ai/design-agent) — pinned explainer docs/assets/readme/design-agent-explainer.mp4 (a389e53c6d16b8139c233d7c666cda1255e30cb1); design / Content Studio explainer, not a reusable film package. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-232 https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/design-agent-explainer.mp4. Pinned to reviewed tip a389e53c6d16b8139c233d7c666cda1255e30cb1 (2026-11-11T04:03:01Z, Build(deps): Bump pydantic-settings from 2.16.1 to 2.16.2 (#58)). On 2026-11-16 default branch main was still this commit; pushed_at 2026-11-15T01:46:39Z came from other branches. 9340967 bytes, sha256 530b09628109714e5d9f6116451209e50af69d8aa08b6917c467173b096f62e8. The 2026-11-16 review recorded a container check: H.264 + AAC, 1280x720, 30 fps, video 111.667s, audio 111.633s, 48 kHz stereo. Poster hotlinks https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/hero.png (304089 bytes) at the same pin and was not copied or visually reviewed. Do not use GitHub user-attachments or raw/main. Hotlink only; not copied into this repository. Redistributability is 待确认, so redistributable is false. Not a local render test and not a visual playback review.",
+      "checked_at": "2026-11-16",
+      "poster": "https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/hero.png"
+    }
+  },
+  {
     "id": "freelancer-bounce-text-espresso",
     "project_id": "freelancer-templates",
     "name": "Bounce Text Espresso",
