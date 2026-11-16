@@ -34,9 +34,9 @@ function spotlightSection(html: string) {
 
 test('standalone gallery keeps every post and stays out of the catalog files', () => {
   const items = fableSpotlightItems();
-  assert.equal(fableSpotlight.item_count, 936);
-  assert.equal(items.length, 936);
-  assert.equal(new Set(items.map(item => item.id)).size, 936);
+  assert.equal(fableSpotlight.item_count, 2069);
+  assert.equal(items.length, 2069);
+  assert.equal(new Set(items.map(item => item.id)).size, 2069);
   assert.equal(fableSpotlight.eyebrow, 'Now trending');
   assert.equal(fableSpotlight.title, 'Fable 5.2');
   assert.match(fableSpotlight.description, /public posts of code videos made with Claude Fable 5\.2/i);
@@ -66,7 +66,7 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
   for (const item of items) assert.equal(posters.some(name => name.includes(item.id)), false, item.id);
   const stills = new Map(fableSpotlightPosters.map(record => [record.id, record]));
   const withPreview = items.filter(item => item.preview);
-  assert.equal(withPreview.length, 935);
+  assert.equal(withPreview.length, 2068);
   assert.equal(stills.size, withPreview.length);
   for (const item of withPreview) {
     const still = stills.get(item.id);
@@ -209,11 +209,11 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   const cards = [...html.matchAll(/data-spotlight-id="(\d+)"/g)].map(match => match[1]);
   const blocks = fableSpotlightBlocks(items);
   assert.deepEqual(cards, blocks.flatMap(block => block.items.map(item => item.id)));
-  assert.equal(cards.length, 936);
+  assert.equal(cards.length, 2069);
   const rendered = frameSections(html);
   assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
   for (const block of rendered) assert.ok(block.frames.every(frame => frame === block.frame));
-  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 936);
+  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 2069);
   assert.match(html, /href="https:\/\/x\.com\//);
   assert.equal([...html.matchAll(/role="dialog"/g)].length, 0);
   assert.equal([...html.matchAll(/<video\b/g)].length, 0, 'static HTML does not mount a player for every post');
