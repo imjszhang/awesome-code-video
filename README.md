@@ -47,7 +47,7 @@ Through this collection, we hope to help more people discover and start making v
 
 ## Claude Fable 5.2
 
-Explore what creators are making with Claude Fable 5.2 in the [code video spotlight](https://awesomecodevideo.com/spotlight/fable-5-2/). Follow the original public posts for the creators' accounts of their work and any process details they share. These examples offer inspiration; they are not yet in the curated index below, and they are not part of the 267 reusable examples, recipes, and styles. Videos play from their original host.
+Explore what creators are making with Claude Fable 5.2 in the [code video spotlight](https://awesomecodevideo.com/spotlight/fable-5-2/). Follow the original public posts for the creators' accounts of their work and any process details they share. These examples offer inspiration; they are not yet in the curated index below, and they are not part of the 267 reusable examples, recipes, and styles. Muted previews loop on this site after a card enters the viewport, streamed from the original host and not copied into this repository.
 
 ## Start Here
 
