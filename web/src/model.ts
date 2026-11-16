@@ -32,6 +32,29 @@ export const resources: Resource[] = publicResourceData.map(readResource);
 export const evidence = evidenceData.filter(item => item.project_id !== isolatedProjectId);
 export const repo = 'https://github.com/imjszhang/awesome-code-video';
 export const kindNames: Record<string, string> = {film:'Film',scene:'Scene',preset:'Preset',shot:'Shot recipe',style:'Visual style',framework:'Framework',tool:'Motion design tool',workflow:'Workflow',collection:'Related list',generative_prompt:'Generative prompt'};
+/**
+ * Library navigation only. These groups are not catalog sections.
+ * Film and scene stay separate filters; the README still lists them together.
+ * Core is the primary weight. Reference and tools stay in the same index, lighter.
+ */
+export const kindGroups = [
+ {id:'core',name:'Reusable core',kinds:[
+  {id:'film',label:'Films'},
+  {id:'scene',label:'Scenes'},
+  {id:'shot',label:'Shot recipes'},
+  {id:'preset',label:'Map animation presets'},
+  {id:'style',label:'Visual styles'},
+ ]},
+ {id:'reference',name:'Reference and tools',kinds:[
+  {id:'workflow',label:'Workflows'},
+  {id:'generative_prompt',label:'Generative prompts'},
+  {id:'framework',label:'Frameworks'},
+  {id:'tool',label:'Motion tools'},
+  {id:'collection',label:'Related lists'},
+ ]},
+] as const;
+export type KindGroupId = (typeof kindGroups)[number]['id'];
+const coreKindIds = new Set<string>(kindGroups[0].kinds.map(kind => kind.id));
 export const kindGuides: Record<string, string> = {
  film:'An editable film project. Adapt its story, assets, scene code, and timing to your subject.',
  scene:'A self-contained scene or composition. Replace its content and integrate it into your film.',
@@ -113,7 +136,7 @@ export function homePreviewGroups(list: readonly Resource[] = resources) {
 export function homeGalleryItems(list: readonly Resource[] = resources): Resource[] {
  return homePreviewGroups(list).videos;
 }
-export const isCore = (r:Resource) => ['film','scene','preset','shot','style'].includes(r.kind);
+export const isCore = (r:Resource) => coreKindIds.has(r.kind);
 export const coreCount = resources.filter(isCore).length;
 export const projectFor = (r:Resource) => projects.find(p=>p.id===r.project_id)!;
 export const collectionsFor = (r:Resource) => collections.filter(c=>c.ids.includes(r.id));
@@ -137,10 +160,44 @@ export function resourceMeta(r:Resource) {
 }
 const index = new MiniSearch({fields:['name','description','project','topics'],storeFields:['id'],searchOptions:{prefix:true,fuzzy:0.15,boost:{name:3,topics:2}}});
 index.addAll(resources.map(r=>({...r,project:projectFor(r).name,topics:collectionsFor(r).map(c=>c.name).join(' ')})));
-export function filterResources({q='',kind='',project='',use='',sort='curated'}:Record<string,string>) {
+function recordedText(resource: Resource, key: 'prompt' | 'license'): string {
+ const value = (resource as {prompt?: unknown; license?: unknown})[key];
+ return typeof value === 'string' ? value.trim() : '';
+}
+/** Completeness filters read stored fields. They do not add catalog kinds or entries. */
+export const completenessFilters = [
+ {id:'video',name:'Video preview',note:'preview.kind is video: a direct video file, not an embed or image.'},
+ {id:'prompt',name:'Prompts',note:'The resource stores a nonempty prompt string.'},
+ {id:'license',name:'License',note:'A nonempty license on the resource or on preview.license.'},
+ {id:'redistributable',name:'Redistributable preview',note:'preview.redistributable is true.'},
+] as const;
+export type CompletenessFilterId = (typeof completenessFilters)[number]['id'];
+/**
+ * No resource field records a project package. Descriptions sometimes say so in prose.
+ * That text is not a filter, and this control stays inactive.
+ */
+export const projectPackageFilter = {
+ id:'package',
+ name:'Project package',
+ active:false as const,
+ reason:'No project-package field is stored. Mentioning a package in a description does not filter the index.',
+};
+/**
+ * Tag vocabulary is prepared separately and is not ready.
+ * `tags` stays empty until a controlled list is published. Do not invent values.
+ */
+export type TagFilterVocabulary = {status:'waiting' | 'ready'; tags:readonly string[]};
+export const tagFilterVocabulary: TagFilterVocabulary = {status:'waiting', tags:[]};
+export function matchesCompleteness(resource: Resource, id: CompletenessFilterId): boolean {
+ if (id === 'video') return resource.preview?.kind === 'video';
+ if (id === 'prompt') return recordedText(resource, 'prompt').length > 0;
+ if (id === 'license') return recordedText(resource, 'license').length > 0 || Boolean(resource.preview?.license?.trim());
+ return resource.preview?.redistributable === true;
+}
+export function filterResources({q='',kind='',project='',use='',sort='curated',video='',prompt='',license='',redistributable=''}:Record<string,string> = {}) {
  const matches = q.trim() ? index.search(q.trim()) : null;
  const scores = new Map(matches?.map((r,i)=>[r.id,i]));
- let out = resources.filter(r=>(!matches || scores.has(r.id)) && (!kind || r.kind===kind) && (!project || r.project_id===project) && (!use || collections.find(c=>c.id===use)?.ids.includes(r.id)));
+ let out = resources.filter(r=>(!matches || scores.has(r.id)) && (!kind || r.kind===kind) && (!project || r.project_id===project) && (!use || collections.find(c=>c.id===use)?.ids.includes(r.id)) && (video!=='1' || matchesCompleteness(r,'video')) && (prompt!=='1' || matchesCompleteness(r,'prompt')) && (license!=='1' || matchesCompleteness(r,'license')) && (redistributable!=='1' || matchesCompleteness(r,'redistributable')));
  if (sort==='name') out=[...out].sort((a,b)=>a.name.localeCompare(b.name));
  else if(matches) out=[...out].sort((a,b)=>scores.get(a.id)!-scores.get(b.id)!);
  return out;

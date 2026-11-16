@@ -149,6 +149,9 @@ test('every custom event uses sanitized context and runtime catalog allowlists',
   assert.equal(analytics.trackEvent('outbound_click',{destination_domain:'private.example.com'}),false);
   assert.equal(analytics.trackEvent('filter_resources',{filter_name:'project',filter_value:'private@example.com'}),false);
   assert.equal(analytics.trackEvent('filter_resources',{filter_name:'sort',filter_value:'name',result_count:3}),true);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'video',filter_value:'1',result_count:3}),true);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'prompt',filter_value:'1'}),true);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'video',filter_value:'private@example.com'}),false);
   assert(!JSON.stringify(state.commands).includes('private@example.com'));
 });
 
