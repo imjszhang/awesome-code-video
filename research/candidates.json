@@ -4663,5 +4663,59 @@
         "reason": "Source-reviewed at 0272906902c33c796a81637545905ea7f2b81c5a as a separate workflow beside huashu-art-motion. Own code is MIT; GSAP, three.js, fonts, the demo character, and downloaded voice models stay split. Preview is the v0.2.0 launch MP4 hotlink; redistributable is false because redistributability is still unconfirmed. Not render-tested."
       }
     ]
+  },
+  {
+    "id": "C-6577929de5b7",
+    "url": "https://github.com/openfilm/openfilm",
+    "name": "OpenFilm",
+    "status": "accepted",
+    "reason": "Source-reviewed at 0bc08008d933af7d42ef73a53cae384e2f54e6eb as a framework. A film is a folder with film.html; shots are web pages drawn with frame(t); Studio is local Chromium and does not depend on Remotion or HyperFrames. MIT covers the format, CLI, Studio, and desktop app. The OpenFilm name and logo are trademarks and are not covered by MIT. Library media declares CC0 1.0 except Fluent Emoji stickers (MIT, notice required). Studio bundles Inter (SIL OFL 1.1), React (MIT), and Lucide (ISC). Optional generated media stays under the connected services' terms. The preview hotlinks the pinned confetti sample; bloom is a backup hotlink. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete.",
+    "resource_id": "openfilm",
+    "evidence_ids": [
+      "S-CV-231"
+    ],
+    "created_at": "2026-11-16T03:54:05.134Z",
+    "updated_at": "2026-11-16T03:54:06.134Z",
+    "history": [
+      {
+        "at": "2026-11-16T03:54:05.134Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-16T03:54:06.134Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 0bc08008d933af7d42ef73a53cae384e2f54e6eb as a framework. A film is a folder with film.html; shots are web pages drawn with frame(t); Studio is local Chromium and does not depend on Remotion or HyperFrames. MIT covers the format, CLI, Studio, and desktop app. The OpenFilm name and logo are trademarks and are not covered by MIT. Library media declares CC0 1.0 except Fluent Emoji stickers (MIT, notice required). Studio bundles Inter (SIL OFL 1.1), React (MIT), and Lucide (ISC). Optional generated media stays under the connected services' terms. The preview hotlinks the pinned confetti sample; bloom is a backup hotlink. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete."
+      }
+    ]
+  },
+  {
+    "id": "C-b1926c3c0d29",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "name": "design-agent",
+    "status": "accepted",
+    "reason": "Source-reviewed at a389e53c6d16b8139c233d7c666cda1255e30cb1 as a workflow. This is a design / Content Studio agent, not a reusable film project package. Video is produced in HyperFrames, already cataloged; this entry does not replace that entry. Apache-2.0 covers this repository. HyperFrames skills are vendored unmodified from heygen-com/hyperframes v0.8.169 / 7735338b49ed6e11c227b0710da3bd35c3366b9c. GSAP is installed in the sandbox image, is not vendored here, and is under the GSAP Standard no-charge license. Fonts in fonts/ are SIL OFL 1.1. The preview hotlinks the pinned explainer MP4. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete.",
+    "resource_id": "design-agent",
+    "evidence_ids": [
+      "S-CV-232"
+    ],
+    "created_at": "2026-11-16T03:54:05.134Z",
+    "updated_at": "2026-11-16T03:54:06.134Z",
+    "history": [
+      {
+        "at": "2026-11-16T03:54:05.134Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-16T03:54:06.134Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at a389e53c6d16b8139c233d7c666cda1255e30cb1 as a workflow. This is a design / Content Studio agent, not a reusable film project package. Video is produced in HyperFrames, already cataloged; this entry does not replace that entry. Apache-2.0 covers this repository. HyperFrames skills are vendored unmodified from heygen-com/hyperframes v0.8.169 / 7735338b49ed6e11c227b0710da3bd35c3366b9c. GSAP is installed in the sandbox image, is not vendored here, and is under the GSAP Standard no-charge license. Fonts in fonts/ are SIL OFL 1.1. The preview hotlinks the pinned explainer MP4. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete."
+      }
+    ]
   }
 ]

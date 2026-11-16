@@ -16,6 +16,8 @@ const HOTLINK_IDS = [
   'map-motion-night-location',
   'ai-video-factory',
   'huashu-motion',
+  'openfilm',
+  'design-agent',
 ];
 
 test('every bundled MP4 has a real, traceable WebP poster', () => {

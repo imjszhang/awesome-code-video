@@ -731,5 +731,35 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-13"
+  },
+  {
+    "id": "openfilm",
+    "name": "OpenFilm",
+    "url": "https://github.com/openfilm/openfilm",
+    "aliases": [],
+    "urls": [
+      "https://openfilm.dev"
+    ],
+    "github": {
+      "id": 1404197626,
+      "full_name": "openfilm/openfilm",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-16"
+  },
+  {
+    "id": "design-agent",
+    "name": "design-agent",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "aliases": [
+      "Content Studio"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1423996774,
+      "full_name": "langchain-ai/design-agent",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-16"
   }
 ]
