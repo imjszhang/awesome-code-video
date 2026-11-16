@@ -279,7 +279,7 @@ a.art-caption:hover { color: var(--text); }
 .collection-banner b { color: #5d5a52; font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
 
 /* Library: filters stay beside the results while you scroll. */
-.library-layout { display: grid; grid-template-columns: 248px minmax(0, 1fr); align-items: start; gap: 48px; }
+.library-layout { display: grid; grid-template-columns: 300px minmax(0, 1fr); align-items: start; gap: 48px; }
 .filters { position: sticky; top: calc(var(--header) + 24px); }
 .filter-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--hair); }
 .filter-heading h2 { color: var(--dim); font: 500 12px/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
@@ -305,7 +305,30 @@ a.art-caption:hover { color: var(--text); }
 }
 .filters select:hover,
 .results-toolbar select:hover { border-color: rgba(241, 238, 231, .4); }
-.filter-note { margin-top: 28px; padding: 18px; border: 1px solid var(--hair); border-radius: 10px; background: var(--surface); }
+.kind-nav { margin: 0 0 22px; }
+.kind-all { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; width: 100%; margin: 0 0 18px; padding: 0 0 10px; border: 0; border-bottom: 1px solid var(--hair-strong); background: none; color: var(--soft); font: 500 14px/1.3 var(--display); text-align: left; }
+.kind-all[aria-pressed='true'] { color: var(--text); }
+.kind-all span, .kind-group button span, .filter-count { color: var(--dim); font: 12px/1 var(--mono); font-variant-numeric: tabular-nums; }
+.kind-group { margin: 0 0 8px; }
+.kind-group h3 { margin: 0 0 6px; font: 500 11px/1.3 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.kind-group ul { margin: 0; padding: 0; list-style: none; }
+.kind-group button { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; width: 100%; border: 0; border-bottom: 1px solid var(--hair); background: none; text-align: left; }
+.kind-group-core h3 { color: var(--text); }
+.kind-group-core button { min-height: 42px; padding: 9px 0; color: var(--text); font-size: 16.5px; font-weight: 600; }
+.kind-group-reference { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--hair); }
+.kind-group-reference h3 { color: var(--dim); }
+.kind-group-reference button { min-height: 32px; padding: 5px 0; color: var(--dim); font-size: 13.5px; font-weight: 500; }
+.kind-group button[aria-pressed='true'] { color: var(--text); box-shadow: inset 3px 0 0 var(--playhead); padding-left: 10px; }
+.filter-checks, .filter-tags { margin: 0 0 22px; padding: 0; border: 0; }
+.filter-checks legend, .filter-tags legend { margin-bottom: 10px; padding: 0; color: var(--dim); font: 500 11px/1.3 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.filters .filter-checks label { display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; gap: 4px 10px; align-items: start; margin: 0 0 12px; color: var(--text); font-size: 14.5px; font-weight: 500; }
+.filters .filter-checks input { width: 16px; height: 16px; margin: 2px 0 0; accent-color: var(--playhead); }
+.filters .filter-checks label small { grid-column: 2 / -1; color: var(--dim); font: 12.5px/1.45 var(--display); font-weight: 400; }
+.filters .filter-inactive { color: var(--dim); }
+.filter-tags { padding: 12px 14px 14px; border: 1px dashed var(--hair-strong); border-radius: 10px; }
+.filter-tags:disabled { opacity: .85; }
+.filter-tags p { margin: 0; color: var(--dim); font-size: 13.5px; line-height: 1.5; }
+.filter-note { margin-top: 8px; padding: 18px; border: 1px solid var(--hair); border-radius: 10px; background: var(--surface); }
 .filter-note span { color: var(--dim); font: 500 12px/1.4 var(--mono); letter-spacing: .1em; }
 .filter-note p { margin: 10px 0 12px; color: var(--soft); font-size: 14.5px; line-height: 1.55; }
 .filter-note a { color: var(--text); font-size: 14px; font-weight: 500; text-decoration: underline; text-decoration-color: var(--hair-strong); text-underline-offset: 4px; }
@@ -395,8 +418,14 @@ a.art-caption:hover { color: var(--text); }
 .about-grid > .prose-block,
 .about-grid > div > .prose-block:first-child { margin-top: 0; }
 .kind-definition { padding: 16px 0; border-bottom: 1px solid var(--hair); }
-.prose-block .kind-definition h3 { margin: 0 0 6px; color: var(--soft); font: 500 12px/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.prose-block .kind-group-copy > h3 { margin: 28px 0 0; }
+.prose-block .kind-group-copy-core > h3 { font-size: 20px; }
+.prose-block .kind-group-copy-reference > h3 { color: var(--soft); font-size: 15px; font-weight: 500; }
+.prose-block .kind-definition h4 { margin: 0 0 6px; color: var(--soft); font: 500 12px/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.prose-block .kind-group-copy-core .kind-definition h4 { color: var(--text); }
+.prose-block .kind-group-copy-reference .kind-definition { padding: 12px 0; }
 .prose-block .kind-definition p { margin: 0; font-size: 15.5px; }
+.prose-block .kind-group-copy-reference .kind-definition p { font-size: 14.5px; }
 /* The one invitation on the page is laid on paper. */
 .prose-block.yellow-panel { padding: 28px; border: 0; border-radius: 14px; background: var(--paper-band); color: var(--ink-soft); color-scheme: light; }
 .yellow-panel h2 { color: var(--ink); }
@@ -474,7 +503,8 @@ a.art-caption:hover { color: var(--text); }
   .page-intro { padding: 52px 0 36px; }
   .library-layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   .filters { position: static; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
-  .filter-heading { grid-column: 1 / -1; margin: 0; }
+  .filter-heading, .kind-nav, .filter-checks, .filter-tags { grid-column: 1 / -1; }
+  .filter-heading { margin: 0; }
   .filters label { margin: 0; font-size: 13px; }
   .filter-note { display: none; }
   .project-row { grid-template-columns: 28px minmax(0, 1fr) 16px; gap: 6px 14px; padding: 18px 4px; }
@@ -511,7 +541,7 @@ a.art-caption:hover { color: var(--text); }
 }
 @media (max-width: 520px) {
   .filters { grid-template-columns: minmax(0, 1fr); }
-  .filters label { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); align-items: center; gap: 10px; }
+  .filters > label { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); align-items: center; gap: 10px; }
   .filters select { margin: 0; }
 }
 @media (max-width: 380px) {

@@ -9,7 +9,7 @@ import resourceData from '../data/resources.json';
 import projectData from '../data/projects.json';
 import {isolationRule} from '../scripts/lib/public-display.mjs';
 import {CHART_TOTAL} from '../web/src/heroReel';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,isolatedProjectId,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,previewSpecs,kindCount,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,isolatedProjectId,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,previewSpecs,kindCount,kindNames,kindGroups,completenessFilters,matchesCompleteness,projectPackageFilter,tagFilterVocabulary,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
 
 function renderGalleryCard(resource:Resource,base='/') {
  return renderToString(React.createElement(GalleryCard,{
@@ -96,6 +96,63 @@ test('every public resource and project has exactly one stable route',()=>{
  for(const r of resources){assert(paths.includes(`resources/${r.id}/`));assert.equal(routeForPath(`/resources/${r.id}/`).type,'resource');}
  assert.equal(coreCount,resources.filter(isCore).length);
  for(const c of collections)for(const id of c.ids)assert(resources.some(r=>r.id===id),`Unknown collection resource ${id}`);
+});
+test('library filters split films from scenes and read stored completeness fields',()=>{
+ assert.equal(resources.length,294);
+ assert.equal(projects.length,35);
+ assert.equal(coreCount,267);
+ assert.equal(kindCount('film'),37);
+ assert.equal(kindCount('scene'),105);
+ assert.equal(kindCount('film','scene'),142);
+ const grouped=kindGroups.flatMap(group=>group.kinds.map(kind=>kind.id));
+ assert.deepEqual(new Set(grouped),new Set(Object.keys(kindNames)));
+ assert.equal(new Set(grouped).size,grouped.length);
+ assert.deepEqual(kindGroups.find(group=>group.id==='core')!.kinds.map(kind=>kind.id),['film','scene','shot','preset','style']);
+ assert.deepEqual(kindGroups.find(group=>group.id==='reference')!.kinds.map(kind=>kind.id),['workflow','generative_prompt','framework','tool','collection']);
+ assert.equal(filterResources({kind:'film'}).length,37);
+ assert.equal(filterResources({kind:'scene'}).length,105);
+ assert.ok(filterResources({kind:'film'}).every(resource=>resource.kind==='film'));
+ assert.ok(filterResources({kind:'scene'}).every(resource=>resource.kind==='scene'));
+ for(const item of completenessFilters){
+  const matched=filterResources({[item.id]:'1'});
+  assert.equal(matched.length,resources.filter(resource=>matchesCompleteness(resource,item.id)).length,item.id);
+  assert.ok(matched.every(resource=>matchesCompleteness(resource,item.id)),item.id);
+ }
+ const prompted=filterResources({prompt:'1'});
+ assert.equal(prompted.length,kindCount('generative_prompt'));
+ assert.ok(prompted.every(resource=>resource.kind==='generative_prompt'&&matchesCompleteness(resource,'prompt')));
+ const filmsWithVideo=filterResources({kind:'film',video:'1'});
+ assert.equal(filmsWithVideo.length,resources.filter(resource=>resource.kind==='film'&&resource.preview?.kind==='video').length);
+ assert.equal(filterResources({package:'1'}).length,resources.length,'a missing project-package field does not filter');
+ assert.equal(projectPackageFilter.active,false);
+ assert.equal(tagFilterVocabulary.status,'waiting');
+ assert.deepEqual([...tagFilterVocabulary.tags],[]);
+ const library=renderToString(React.createElement(App,{path:'/library/'}));
+ assert.ok(library.indexOf('kind-group-core')<library.indexOf('kind-group-reference'));
+ assert.match(library,/Films<span>37<\/span>/);
+ assert.match(library,/Scenes<span>105<\/span>/);
+ assert.match(library,/Map animation presets<span>6<\/span>/);
+ assert.match(library,/Shot recipes<span>73<\/span>/);
+ assert.match(library,/Visual styles<span>46<\/span>/);
+ assert.match(library,/Waiting for the controlled vocabulary\. No tags are applied\./);
+ assert.match(library,/No project-package field is stored/);
+ assert.match(library,/<fieldset class="filter-tags"[^>]*disabled/);
+ assert.match(library,/<input[^>]*disabled[^>]*aria-describedby="package-filter-note"/);
+ assert.doesNotMatch(library,/<option[^>]*>Film \(/);
+ assert.equal([...library.matchAll(/<div class="art-frame"/g)].length,resources.length);
+ const about=renderToString(React.createElement(App,{path:'/about/'}));
+ assert.ok(about.indexOf('kind-group-copy-core')<about.indexOf('kind-group-copy-reference'));
+ assert.match(about,/These groups are not new catalog sections/);
+ assert.match(about,/The README still lists films and scenes together/);
+ const home=renderToString(React.createElement(App,{path:'/'})).replace(/<!--[\s\S]*?-->/g,'');
+ const signal=home.match(/<section\b[^>]*class="collection-signal"[^>]*>([\s\S]*?)<\/section>/)![1];
+ assert.match(signal,/<b>294<\/b><span>curated resources<\/span>/);
+ assert.match(signal,/<b>142<\/b><span>films &amp; scenes<\/span>/);
+ assert.match(signal,/<b>35<\/b><span>source projects<\/span>/);
+ assert.doesNotMatch(signal,/<b>296<\/b>/);
+ assert.doesNotMatch(signal,/<b>37<\/b><span>source projects/);
+ assert.match(home,/href="\/library\/\?kind=film">37 /);
+ assert.match(home,/href="\/library\/\?kind=scene">105 /);
 });
 test('search combines query, kind, project and use case filters',()=>{
  assert(filterResources({q:'watercolor'}).some(r=>r.id==='lemo-watercolor'));
