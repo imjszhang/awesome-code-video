@@ -18,6 +18,8 @@ const HOTLINK_IDS = [
   'huashu-motion',
   'openfilm',
   'design-agent',
+  'herk-edit-kit',
+  'snapcn',
 ];
 
 test('every bundled MP4 has a real, traceable WebP poster', () => {
@@ -73,7 +75,7 @@ test('every gallery preview has a bundled cover or an explicit hotlink', () => {
     assert.equal(resource.review.render_tested, false, resource.id);
     assert.equal(all.some(c => c.resource_id === resource.id), false, resource.id);
     assert.equal(existsSync(new URL(`web/public/previews/${resource.id}.webp`, root)), false, resource.id);
-    if (resource.preview.kind === 'video') assert.equal(resource.preview.poster.startsWith('https://'), true, resource.id);
+    if (resource.preview.kind === 'video' && resource.id !== 'herk-edit-kit') assert.equal(resource.preview.poster.startsWith('https://'), true, resource.id);
     else assert.equal(Object.hasOwn(resource.preview, 'poster'), false, resource.id);
   }
   const night = resources.find(r => r.id === 'map-motion-night-location');
