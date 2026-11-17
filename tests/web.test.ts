@@ -8,8 +8,10 @@ import {abandonGalleryPlayback,resetPreview,toggleGalleryPlayback,type PreviewMe
 import resourceData from '../data/resources.json';
 import projectData from '../data/projects.json';
 import {isolationRule} from '../scripts/lib/public-display.mjs';
+import {RESOURCE_TAG_VALUES} from '../scripts/lib/catalog.mjs';
 import {CHART_TOTAL} from '../web/src/heroReel';
-import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,isolatedProjectId,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,previewSpecs,kindCount,kindNames,kindGroups,completenessFilters,matchesCompleteness,projectPackageFilter,tagFilterVocabulary,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
+import {FABLE_SPOTLIGHT_PATH,fableSpotlightHomeItems,fableSpotlightItems} from '../web/src/fableSpotlight';
+import {allPaths,resources,projects,collections,filterResources,routeForPath,pageMeta,coreCount,isCore,isolatedProjectId,featuredIds,featuredGalleryIds,featuredGalleryItems,homeGalleryItems,homePreviewItems,homePreviewGroups,videoOrientation,previewSpecs,kindCount,kindNames,kindGroups,completenessFilters,matchesCompleteness,projectPackageFilter,tagFilterAllowlist,tagFilterVocabulary,isYouTubePreview,previewCaption,previewMode,previewPlayable,previewPoster,previewUrl,resolvePreview,type Resource} from '../web/src/model';
 
 function renderGalleryCard(resource:Resource,base='/') {
  return renderToString(React.createElement(GalleryCard,{
@@ -125,8 +127,7 @@ test('library filters split films from scenes and read stored completeness field
  assert.equal(filmsWithVideo.length,resources.filter(resource=>resource.kind==='film'&&resource.preview?.kind==='video').length);
  assert.equal(filterResources({package:'1'}).length,resources.length,'a missing project-package field does not filter');
  assert.equal(projectPackageFilter.active,false);
- assert.equal(tagFilterVocabulary.status,'waiting');
- assert.deepEqual([...tagFilterVocabulary.tags],[]);
+ assert.equal(tagFilterVocabulary.status,'ready');
  const library=renderToString(React.createElement(App,{path:'/library/'}));
  assert.ok(library.indexOf('kind-group-core')<library.indexOf('kind-group-reference'));
  assert.match(library,/Films<span>37<\/span>/);
@@ -134,9 +135,13 @@ test('library filters split films from scenes and read stored completeness field
  assert.match(library,/Map animation presets<span>6<\/span>/);
  assert.match(library,/Shot recipes<span>73<\/span>/);
  assert.match(library,/Visual styles<span>46<\/span>/);
- assert.match(library,/Waiting for the controlled vocabulary\. No tags are applied\./);
+ assert.match(library,/Optional stack and genre tags\. Some resources have none\. Filtering does not change the catalog\./);
+ assert.match(library,/Stack and genre tags are optional, and some resources have none\. Filtering does not change the catalog itself\./);
+ assert.doesNotMatch(library,/Waiting for the controlled vocabulary/);
+ assert.doesNotMatch(library,/Tags stay off/);
  assert.match(library,/No project-package field is stored/);
- assert.match(library,/<fieldset class="filter-tags"[^>]*disabled/);
+ const tagField=library.slice(library.indexOf('<fieldset class="filter-tags"'),library.indexOf('</fieldset>',library.indexOf('<fieldset class="filter-tags"')));
+ assert.equal(tagField.includes('disabled'),false);
  assert.match(library,/<input[^>]*disabled[^>]*aria-describedby="package-filter-note"/);
  assert.doesNotMatch(library,/<option[^>]*>Film \(/);
  assert.equal([...library.matchAll(/<div class="art-frame"/g)].length,resources.length);
@@ -153,6 +158,75 @@ test('library filters split films from scenes and read stored completeness field
  assert.doesNotMatch(signal,/<b>37<\/b><span>source projects/);
  assert.match(home,/href="\/library\/\?kind=film">37 /);
  assert.match(home,/href="\/library\/\?kind=scene">105 /);
+});
+test('library tag filters list used public stack and genre values only',()=>{
+ assert.deepEqual([...tagFilterAllowlist.stack],[...RESOURCE_TAG_VALUES.stack]);
+ assert.deepEqual([...tagFilterAllowlist.genre],[...RESOURCE_TAG_VALUES.genre]);
+ assert.deepEqual(tagFilterVocabulary.groups.map(group=>group.id),['stack','genre']);
+ const tagged=resources.filter(resource=>resource.tags);
+ const untagged=resources.filter(resource=>!resource.tags);
+ assert.equal(tagged.length,215);
+ assert.equal(untagged.length,79);
+ assert.equal(resources.filter(resource=>resource.tags?.stack?.length).length,203);
+ assert.equal(resources.filter(resource=>resource.tags?.genre?.length).length,21);
+ assert.equal(resources.filter(resource=>resource.tags?.stack?.length&&resource.tags?.genre?.length).length,9);
+ const open=filterResources();
+ assert.equal(open.length,294);
+ assert.ok(open.some(resource=>resource.id==='map-motion-globe-to-location'&&!resource.tags));
+ assert.deepEqual(tagFilterVocabulary.groups[0].options.map(option=>[option.value,option.count]),[
+  ['remotion',146],['hyperframes',45],['motion-canvas',5],['revideo',2],['theatre-js',1],['threejs',1],['html',2],['python',2],['manim',1],
+ ]);
+ assert.deepEqual(tagFilterVocabulary.groups[1].options.map(option=>[option.value,option.count]),[
+  ['short-film',1],['game',2],['interactive',1],['explainer',17],['motion-graphics',2],
+ ]);
+ const offered=new Set(tagFilterVocabulary.groups.flatMap(group=>group.options.map(option=>option.value)));
+ for(const rejected of ['source','method','fable-5-2','blender','unreal','unity','music-video','simulation'])assert.equal(offered.has(rejected),false,rejected);
+ const stackOr=filterResources({stack:'html,threejs'});
+ const stackUnion=new Set([...filterResources({stack:'html'}),...filterResources({stack:'threejs'})].map(resource=>resource.id));
+ assert.deepEqual(stackOr.map(resource=>resource.id).sort(),[...stackUnion].sort());
+ assert.ok(stackOr.some(resource=>resource.id==='huashu-motion'));
+ assert.ok(stackOr.some(resource=>resource.id==='edulab'));
+ assert.equal(stackOr.some(resource=>resource.id==='map-motion-globe-to-location'),false);
+ const genreOr=filterResources({genre:'explainer,game'});
+ assert.ok(genreOr.some(resource=>resource.id==='claude-quest'));
+ assert.ok(genreOr.some(resource=>resource.id==='butterfly-life'));
+ assert.equal(genreOr.some(resource=>resource.id==='gvp-modern-rural-healing'),false);
+ assert.deepEqual(genreOr.map(resource=>resource.id).sort(),[...new Set([...filterResources({genre:'game'}),...filterResources({genre:'explainer'})].map(resource=>resource.id))].sort());
+ const both=filterResources({stack:'hyperframes',genre:'explainer'});
+ assert.ok(both.every(resource=>resource.tags?.stack?.includes('hyperframes')&&resource.tags?.genre?.includes('explainer')));
+ assert.ok(both.some(resource=>resource.id==='paper-cut-five-layer-motion'));
+ assert.equal(both.some(resource=>resource.id==='butterfly-life'),false);
+ assert.equal(both.some(resource=>resource.id==='gvp-character-intro-mogra'),false);
+ const htmlExplainers=filterResources({stack:'html,threejs',genre:'explainer'});
+ assert.deepEqual(htmlExplainers.map(resource=>resource.id),['edulab']);
+ assert.deepEqual(filterResources({kind:'film',genre:'game'}).map(resource=>resource.id),['claude-quest']);
+ const filmsWithVideo=filterResources({kind:'film',genre:'game',video:'1'});
+ assert.deepEqual(filmsWithVideo.map(resource=>resource.id),filterResources({kind:'film',genre:'game'}).filter(resource=>matchesCompleteness(resource,'video')).map(resource=>resource.id));
+ const remotionFilms=filterResources({kind:'film',stack:'remotion',video:'1'});
+ assert.ok(remotionFilms.some(resource=>resource.id==='ink-press'));
+ assert.ok(remotionFilms.every(resource=>resource.kind==='film'&&resource.tags?.stack?.includes('remotion')&&matchesCompleteness(resource,'video')));
+ assert.deepEqual(filterResources({stack:'fable-5-2'}).map(resource=>resource.id),resources.map(resource=>resource.id));
+ assert.deepEqual(filterResources({stack:'source,method',genre:'fable-5-2'}).map(resource=>resource.id),resources.map(resource=>resource.id));
+ assert.deepEqual(filterResources({stack:'blender,unreal,unity',genre:'music-video,simulation'}).length,294);
+ assert.deepEqual(filterResources({stack:'remotion,fable-5-2'}).map(resource=>resource.id),filterResources({stack:'remotion'}).map(resource=>resource.id));
+ assert.equal(filterResources({package:'1',stack:'remotion'}).length,filterResources({stack:'remotion'}).length);
+ const library=renderToString(React.createElement(App,{path:'/library/'}));
+ const tagField=library.slice(library.indexOf('class="filter-tags"'),library.indexOf('What are you making?'));
+ const controls=[...tagField.matchAll(/name="(stack|genre)" value="([^"]+)"[\s\S]*?<span class="filter-count">(\d+)<\/span>/g)].map(match=>[match[1],match[2],Number(match[3])]);
+ assert.deepEqual(controls,tagFilterVocabulary.groups.flatMap(group=>group.options.map(option=>[group.id,option.value,option.count])));
+ assert.doesNotMatch(tagField,/fable-5-2|value="source"|value="method"|name="source"|name="method"|disabled/);
+ assert.doesNotMatch(library,/fable-5-2/);
+ const home=renderToString(React.createElement(App,{path:'/'}));
+ const spotlightStart=home.indexOf('class="fable-spotlight"');
+ const spotlightEnd=home.indexOf('id="featured"');
+ const teaser=home.slice(spotlightStart,spotlightEnd);
+ assert.equal([...teaser.matchAll(/data-spotlight-id="/g)].length,fableSpotlightHomeItems().length);
+ assert.doesNotMatch(teaser,/filter-tags|tag-group|name="stack"|name="genre"/);
+ assert.doesNotMatch(home,/class="filter-tags"/);
+ const spotlight=renderToString(React.createElement(App,{path:`/${FABLE_SPOTLIGHT_PATH}`}));
+ assert.equal([...spotlight.matchAll(/data-spotlight-id="/g)].length,fableSpotlightItems().length);
+ assert.doesNotMatch(spotlight,/class="filter-tags"|tag-group-|name="stack"|name="genre"/);
+ assert.match(spotlight,/public posts, newest first/);
 });
 test('search combines query, kind, project and use case filters',()=>{
  assert(filterResources({q:'watercolor'}).some(r=>r.id==='lemo-watercolor'));

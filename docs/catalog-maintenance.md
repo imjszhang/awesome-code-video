@@ -87,7 +87,7 @@ Allowed keys are only `stack` and `genre`. Do not write `source`, `method`, or a
 - `stack`: `remotion`, `hyperframes`, `motion-canvas`, `revideo`, `theatre-js`, `blender`, `unreal`, `unity`, `threejs`, `html`, `python`, `manim`
 - `genre`: `short-film`, `game`, `interactive`, `explainer`, `music-video`, `motion-graphics`, `simulation`
 
-`fable-5-2` is not a catalog tag. It stays on the separate Fable spotlight and must not appear anywhere under `tags` in `data/resources.json`. A resource with no `tags` field is valid. `catalog:check` does not require every resource to be tagged. The website tag filter stays unpublished.
+`fable-5-2` is not a catalog tag. It stays on the separate Fable spotlight and must not appear anywhere under `tags` in `data/resources.json`. A resource with no `tags` field is valid. `catalog:check` does not require every resource to be tagged. The library filter lists a value only when a public resource uses it, and only for `stack` and `genre`. Several values in one group match any of them; both groups together must match. The Fable 5.2 spotlight does not use this filter. Filtering does not change catalog membership.
 
 ## Preview Media
 
