@@ -1,4 +1,4 @@
-import {allPaths,collections,evidence,galleryLinks,kindNames,pageMeta,projects,repo,resources,routeForPath} from './model';
+import {allPaths,collections,evidence,galleryLinks,isListedTagFilter,kindNames,pageMeta,projects,repo,resources,routeForPath} from './model';
 
 export type AnalyticsConsent = 'unknown' | 'granted' | 'denied';
 export type AnalyticsPlacement = 'home_gallery' | 'home_featured' | 'home_spotlight' | 'spotlight' | 'library' | 'collection' | 'project' | 'saved' | 'resource_detail' | 'header' | 'footer' | 'about' | 'hero' | 'source_panel' | 'review_sources' | 'gallery_preview';
@@ -17,7 +17,7 @@ export interface AnalyticsEvents {
   gallery_category_select:{category:Category;placement?:AnalyticsPlacement};
   gallery_load_more:{category:Category;visible_count:number;placement?:AnalyticsPlacement};
   search_results_view:{result_count:number;query_length:number;has_query?:boolean;placement?:AnalyticsPlacement};
-  filter_resources:{filter_name:'kind'|'project'|'use'|'sort'|'reset'|'video'|'prompt'|'license'|'redistributable';filter_value?:string;result_count?:number;has_query?:boolean;placement?:AnalyticsPlacement};
+  filter_resources:{filter_name:'kind'|'project'|'use'|'sort'|'reset'|'video'|'prompt'|'license'|'redistributable'|'stack'|'genre';filter_value?:string;result_count?:number;has_query?:boolean;placement?:AnalyticsPlacement};
 }
 export type AnalyticsAvailability = {available:boolean;reason:'ready'|'disabled'|'invalid_measurement_id'|'unapproved_origin'|'unavailable'};
 export const ANALYTICS_CONSENT_KEY = 'acv:analytics-consent';
@@ -107,7 +107,8 @@ function eventParameters(name:keyof AnalyticsEvents,input:unknown):Record<string
     const filter=raw.filter_name,value=raw.filter_value??'';
     if(typeof value!=='string')return null;
     const completeness = filter==='video'||filter==='prompt'||filter==='license'||filter==='redistributable';
-    const valid = filter==='kind'?(value===''||Object.hasOwn(kindNames,value)):filter==='project'?(value===''||projectIds.has(value)):filter==='use'?(value===''||collectionIds.has(value)):filter==='sort'?['curated','name'].includes(value):filter==='reset'?value==='':completeness?value===''||value==='1':false;
+    const tagGroup = filter==='stack'||filter==='genre'?filter:null;
+    const valid = filter==='kind'?(value===''||Object.hasOwn(kindNames,value)):filter==='project'?(value===''||projectIds.has(value)):filter==='use'?(value===''||collectionIds.has(value)):filter==='sort'?['curated','name'].includes(value):filter==='reset'?value==='':completeness?value===''||value==='1':tagGroup?isListedTagFilter(tagGroup,value):false;
     if(!valid||typeof filter!=='string')return null;
     output.filter_name=filter;
     output.filter_value=value;

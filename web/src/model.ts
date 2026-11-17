@@ -183,21 +183,72 @@ export const projectPackageFilter = {
  reason:'No project-package field is stored. Mentioning a package in a description does not filter the index.',
 };
 /**
- * Tag vocabulary is prepared separately and is not ready.
- * `tags` stays empty until a controlled list is published. Do not invent values.
+ * Display filter for optional catalog tags. The allowlist is the catalog:check
+ * vocabulary: stack and genre only. source, method, and fable-5-2 are rejected.
+ * Options are values that appear on public Library resources. Filtering does not
+ * change catalog membership.
  */
-export type TagFilterVocabulary = {status:'waiting' | 'ready'; tags:readonly string[]};
-export const tagFilterVocabulary: TagFilterVocabulary = {status:'waiting', tags:[]};
+export const tagFilterAllowlist = {
+ stack:['remotion','hyperframes','motion-canvas','revideo','theatre-js','blender','unreal','unity','threejs','html','python','manim'],
+ genre:['short-film','game','interactive','explainer','music-video','motion-graphics','simulation'],
+} as const;
+export type TagFilterGroup = keyof typeof tagFilterAllowlist;
+const rejectedTagValues = new Set(['source','method','fable-5-2']);
+export type TagFilterOption = {value:string; count:number};
+export type TagFilterVocabulary = {status:'ready'; groups:readonly {id:TagFilterGroup; label:string; options:readonly TagFilterOption[]}[]};
+function tagList(resource: Resource, group: TagFilterGroup): string[] {
+ const tags = (resource as {tags?: unknown}).tags;
+ if (!tags || typeof tags !== 'object' || Array.isArray(tags)) return [];
+ const values = (tags as Record<string, unknown>)[group];
+ if (!Array.isArray(values)) return [];
+ const allowed = new Set<string>(tagFilterAllowlist[group]);
+ return values.filter((value): value is string => typeof value === 'string' && !rejectedTagValues.has(value) && allowed.has(value));
+}
+const tagFilterGroups: readonly {id:TagFilterGroup; label:string}[] = [{id:'stack',label:'Stack'},{id:'genre',label:'Genre'}];
+export const tagFilterVocabulary: TagFilterVocabulary = {
+ status:'ready',
+ groups:tagFilterGroups.map(group => ({
+  id:group.id,
+  label:group.label,
+  options:tagFilterAllowlist[group.id].flatMap(value => {
+   if (rejectedTagValues.has(value)) return [];
+   const count = resources.filter(resource => tagList(resource, group.id).includes(value)).length;
+   return count > 0 ? [{value, count}] : [];
+  }),
+ })),
+};
+/** Values from `raw` that the Library actually offers, in allowlist order. Unknown tokens are dropped. */
+export function tagSelection(group: TagFilterGroup, raw: string): string[] {
+ const allowed = tagFilterVocabulary.groups.find(item => item.id === group)?.options.map(option => option.value) ?? [];
+ const requested = new Set(raw.split(',').map(part => part.trim()).filter(part => part.length > 0));
+ return allowed.filter(value => requested.has(value));
+}
+/** Canonical query value: offered tags only, allowlist order, comma-separated. */
+export function tagQueryValue(group: TagFilterGroup, raw: string): string {
+ return tagSelection(group, raw).join(',');
+}
+/** Analytics and the URL may list offered values in any order. Rejected and unused values fail. */
+export function isListedTagFilter(group: TagFilterGroup, value: string): boolean {
+ if (value === '') return true;
+ const parts = value.split(',');
+ if (parts.some(part => part.length === 0) || new Set(parts).size !== parts.length) return false;
+ const allowed = new Set(tagFilterVocabulary.groups.find(item => item.id === group)?.options.map(option => option.value));
+ return parts.every(part => allowed.has(part));
+}
+function matchesTagGroup(resource: Resource, group: TagFilterGroup, raw: string): boolean {
+ const selected = tagSelection(group, raw);
+ return selected.length === 0 || selected.some(value => tagList(resource, group).includes(value));
+}
 export function matchesCompleteness(resource: Resource, id: CompletenessFilterId): boolean {
  if (id === 'video') return resource.preview?.kind === 'video';
  if (id === 'prompt') return recordedText(resource, 'prompt').length > 0;
  if (id === 'license') return recordedText(resource, 'license').length > 0 || Boolean(resource.preview?.license?.trim());
  return resource.preview?.redistributable === true;
 }
-export function filterResources({q='',kind='',project='',use='',sort='curated',video='',prompt='',license='',redistributable=''}:Record<string,string> = {}) {
+export function filterResources({q='',kind='',project='',use='',sort='curated',video='',prompt='',license='',redistributable='',stack='',genre=''}:Record<string,string> = {}) {
  const matches = q.trim() ? index.search(q.trim()) : null;
  const scores = new Map(matches?.map((r,i)=>[r.id,i]));
- let out = resources.filter(r=>(!matches || scores.has(r.id)) && (!kind || r.kind===kind) && (!project || r.project_id===project) && (!use || collections.find(c=>c.id===use)?.ids.includes(r.id)) && (video!=='1' || matchesCompleteness(r,'video')) && (prompt!=='1' || matchesCompleteness(r,'prompt')) && (license!=='1' || matchesCompleteness(r,'license')) && (redistributable!=='1' || matchesCompleteness(r,'redistributable')));
+ let out = resources.filter(r=>(!matches || scores.has(r.id)) && (!kind || r.kind===kind) && (!project || r.project_id===project) && (!use || collections.find(c=>c.id===use)?.ids.includes(r.id)) && (video!=='1' || matchesCompleteness(r,'video')) && (prompt!=='1' || matchesCompleteness(r,'prompt')) && (license!=='1' || matchesCompleteness(r,'license')) && (redistributable!=='1' || matchesCompleteness(r,'redistributable')) && matchesTagGroup(r,'stack',stack) && matchesTagGroup(r,'genre',genre));
  if (sort==='name') out=[...out].sort((a,b)=>a.name.localeCompare(b.name));
  else if(matches) out=[...out].sort((a,b)=>scores.get(a.id)!-scores.get(b.id)!);
  return out;

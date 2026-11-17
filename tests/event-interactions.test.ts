@@ -4,6 +4,7 @@ import React,{act} from 'react';
 import {JSDOM} from 'jsdom';
 import {App,GalleryCard,type SiteMeasurement} from '../web/src/App';
 import {createAnalytics,type AnalyticsRuntime} from '../web/src/analytics';
+import {fableSpotlightItems} from '../web/src/fableSpotlight';
 import {filterResources,resources} from '../web/src/model';
 
 async function mount(path:string,render:(measurement:SiteMeasurement)=>React.ReactNode){
@@ -84,6 +85,42 @@ test('search hydrates silently, commits once, and cancels pending work on withdr
   assert.equal(h.events('search_results_view').length,2,'No pre-withdrawal search is replayed');
   assert.equal(h.events('page_view').length,1,'Search/history changes do not create page views');
  }finally{await h.close();}
+});
+
+test('library tag query keeps untagged resources out only after a real stack or genre choice',async()=>{
+ const h=await mount('/library/?stack=fable-5-2,html,threejs&genre=explainer&source=remotion&method=game',measurement=>React.createElement(App,{path:'/library/',measurement}));
+ try{
+  const doc=h.dom.window.document;
+  const count=()=>doc.querySelector('.results-toolbar b')!.textContent;
+  const expected=filterResources({stack:'threejs,html',genre:'explainer'});
+  assert.equal(count(),String(expected.length));
+  assert.equal(h.dom.window.location.search.includes('fable-5-2'),false);
+  assert.equal(h.dom.window.location.search.includes('source='),false);
+  assert.equal(h.dom.window.location.search.includes('method='),false);
+  const box=(name:string,value:string)=>doc.querySelector(`input[name="${name}"][value="${value}"]`) as HTMLInputElement;
+  assert.equal(box('stack','html').checked,true);
+  assert.equal(box('stack','threejs').checked,true);
+  assert.equal(box('stack','remotion').checked,false);
+  assert.equal(box('genre','explainer').checked,true);
+  assert.equal(doc.querySelector('input[value="fable-5-2"]'),null);
+  assert.equal(doc.querySelector('input[value="source"]'),null);
+  assert.equal(doc.querySelector('input[value="method"]'),null);
+  assert.equal(doc.querySelector('input[value="blender"]'),null);
+  assert.equal((doc.querySelector('input[aria-describedby="package-filter-note"]') as HTMLInputElement).disabled,true);
+  assert.deepEqual([...doc.querySelectorAll('[data-resource-id]')].map(node=>node.getAttribute('data-resource-id')),expected.map(resource=>resource.id));
+  await act(async()=>{box('genre','explainer').click();});
+  assert.equal(count(),String(filterResources({stack:'threejs,html'}).length));
+  assert.equal(h.dom.window.location.search.includes('genre='),false);
+  const genreEvents=h.events('filter_resources').map(event=>event[2] as {filter_name?:string,filter_value?:string});
+  assert.equal(genreEvents.some(event=>event.filter_name==='genre'&&event.filter_value===''),true);
+  assert.equal(genreEvents.some(event=>String(event.filter_value).includes('fable-5-2')),false);
+ }finally{await h.close();}
+ const spotlight=await mount('/spotlight/fable-5-2/',measurement=>React.createElement(App,{path:'/spotlight/fable-5-2/',measurement}));
+ try{
+  assert.equal(spotlight.dom.window.document.querySelector('.filter-tags'),null);
+  assert.equal(spotlight.dom.window.document.querySelector('input[name="stack"]'),null);
+  assert.equal(spotlight.dom.window.document.querySelectorAll('.spotlight-card').length,fableSpotlightItems().length);
+ }finally{await spotlight.close();}
 });
 
 test('native video counts actual playing and completion, not play attempts or resumes',async()=>{

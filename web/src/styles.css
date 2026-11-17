@@ -325,9 +325,12 @@ a.art-caption:hover { color: var(--text); }
 .filters .filter-checks input { width: 16px; height: 16px; margin: 2px 0 0; accent-color: var(--playhead); }
 .filters .filter-checks label small { grid-column: 2 / -1; color: var(--dim); font: 12.5px/1.45 var(--display); font-weight: 400; }
 .filters .filter-inactive { color: var(--dim); }
-.filter-tags { padding: 12px 14px 14px; border: 1px dashed var(--hair-strong); border-radius: 10px; }
-.filter-tags:disabled { opacity: .85; }
-.filter-tags p { margin: 0; color: var(--dim); font-size: 13.5px; line-height: 1.5; }
+.filter-tags .tag-filter-note { margin: 0 0 14px; color: var(--dim); font-size: 13.5px; line-height: 1.5; }
+.tag-group + .tag-group { margin-top: 6px; }
+.tag-group h3 { margin: 0 0 8px; color: var(--dim); font: 500 11px/1.3 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.tag-group ul { margin: 0; padding: 0; list-style: none; }
+.filters .tag-group label { display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; gap: 4px 10px; align-items: center; margin: 0 0 8px; color: var(--text); font-size: 14.5px; font-weight: 500; }
+.filters .tag-group input { width: 16px; height: 16px; margin: 0; accent-color: var(--playhead); }
 .filter-note { margin-top: 8px; padding: 18px; border: 1px solid var(--hair); border-radius: 10px; background: var(--surface); }
 .filter-note span { color: var(--dim); font: 500 12px/1.4 var(--mono); letter-spacing: .1em; }
 .filter-note p { margin: 10px 0 12px; color: var(--soft); font-size: 14.5px; line-height: 1.55; }

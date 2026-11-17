@@ -152,7 +152,15 @@ test('every custom event uses sanitized context and runtime catalog allowlists',
   assert.equal(analytics.trackEvent('filter_resources',{filter_name:'video',filter_value:'1',result_count:3}),true);
   assert.equal(analytics.trackEvent('filter_resources',{filter_name:'prompt',filter_value:'1'}),true);
   assert.equal(analytics.trackEvent('filter_resources',{filter_name:'video',filter_value:'private@example.com'}),false);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'stack',filter_value:'remotion',result_count:146}),true);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'genre',filter_value:'explainer,game'}),true);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'stack',filter_value:'fable-5-2'}),false);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'genre',filter_value:'source'}),false);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'stack',filter_value:'method'}),false);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'stack',filter_value:'remotion,fable-5-2'}),false);
+  assert.equal(analytics.trackEvent('filter_resources',{filter_name:'source',filter_value:'remotion'} as unknown as AnalyticsEvents['filter_resources']),false);
   assert(!JSON.stringify(state.commands).includes('private@example.com'));
+  assert.doesNotMatch(JSON.stringify(state.commands),/fable-5-2|filter_name":"source"|filter_name":"method"/);
 });
 
 test('persisted grants start once, withdrawal disables the tag without a new Google command',()=>{
