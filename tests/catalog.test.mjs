@@ -358,6 +358,46 @@ test('generative prompts require copyable text, model labels, and source review'
   assert.ok(validateCatalog(catalog).errors.some(error => error.includes('only valid for kind generative_prompt')));
 });
 
+test('optional resource tags accept only controlled stack and genre values', () => {
+  const catalog = fixture();
+  assert.equal(validateCatalog(catalog).ok, true);
+  catalog.resources[0].tags = { stack: ['remotion', 'html'], genre: ['explainer'] };
+  assert.equal(validateCatalog(catalog).ok, true);
+  catalog.resources[0].tags = { genre: ['game'] };
+  assert.equal(validateCatalog(catalog).ok, true);
+  catalog.resources[0].tags = { stack: ['hyperframes'] };
+  assert.equal(validateCatalog(catalog).ok, true);
+  catalog.resources.push({ ...fixture().resources[0], id: 'outro', url: 'https://github.com/Owner/Film-Lab/blob/main/examples/Outro.js' });
+  assert.equal(validateCatalog(catalog).ok, true);
+  assert.equal(Object.hasOwn(catalog.resources[1], 'tags'), false);
+
+  for (const tags of [{ source: ['remotion'] }, { method: ['manual'] }, { mood: ['calm'] }]) {
+    catalog.resources[0].tags = tags;
+    const key = Object.keys(tags)[0];
+    assert.ok(validateCatalog(catalog).errors.some(error => error.includes(`tags.${key} is not allowed`)));
+  }
+  catalog.resources[0].tags = { stack: ['fable-5-2'] };
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('fable-5-2')));
+  catalog.resources[0].tags = { note: { source: 'fable-5-2' } };
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('fable-5-2')));
+  catalog.resources[0].tags = {};
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('stack or genre')));
+  catalog.resources[0].tags = [];
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('tags must be an object')));
+  catalog.resources[0].tags = { stack: [] };
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('nonempty array')));
+  catalog.resources[0].tags = { genre: ['game', 'game'] };
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('duplicate values')));
+  catalog.resources[0].tags = { genre: ['documentary'] };
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('outside the controlled vocabulary')));
+  catalog.resources[0].tags = { stack: ['remotion', 'after-effects'] };
+  assert.ok(validateCatalog(catalog).errors.some(error => error.includes('after-effects')));
+  delete catalog.resources[0].tags;
+  catalog.resources.pop();
+  assert.equal(validateCatalog(catalog).ok, true);
+  assert.equal(Object.hasOwn(catalog.resources[0], 'tags'), false);
+});
+
 test('bundled poster paths are limited to the preview image directory', () => {
   const catalog = fixture();
   catalog.resources[0].preview = {

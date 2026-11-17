@@ -78,6 +78,17 @@ Use `unverified` for evidence that has only been discovered. Unverified evidence
 
 The first-edition references preserve the source/documentation review dated 2026-10-27. This migration did not add new render-test results or immutable upstream snapshots. The catalog stores public metadata and concise review notes, not article copies, credentials, private collections, or raw research transcripts.
 
+## Controlled tags
+
+A resource in `data/resources.json` may include an optional `tags` object. Omit the field when neither group applies. Do not write an empty object or an empty array. This field is only for the main index. Do not add it to `data/fable-52-gallery.json`, and do not copy spotlight posts into the index to give them tags.
+
+Allowed keys are only `stack` and `genre`. Do not write `source`, `method`, or any other key. Each present key is a nonempty array of unique strings from this vocabulary:
+
+- `stack`: `remotion`, `hyperframes`, `motion-canvas`, `revideo`, `theatre-js`, `blender`, `unreal`, `unity`, `threejs`, `html`, `python`, `manim`
+- `genre`: `short-film`, `game`, `interactive`, `explainer`, `music-video`, `motion-graphics`, `simulation`
+
+`fable-5-2` is not a catalog tag. It stays on the separate Fable spotlight and must not appear anywhere under `tags` in `data/resources.json`. A resource with no `tags` field is valid. `catalog:check` does not require every resource to be tagged. The website tag filter stays unpublished.
+
 ## Preview Media
 
 A resource may include an optional `preview` object when an upstream file or page can be linked without copying it into this repository. Omit `preview` when there is no reliable preview. Do not store the media itself.
@@ -114,7 +125,7 @@ npm run check
 
 This runs the following:
 
-- `catalog:check`: Required fields, project/resource/evidence relationships, duplicate identities, candidate consistency, and optional `preview` media when a resource includes it. A missing `preview` is valid. The check does not download media.
+- `catalog:check`: Required fields, project/resource/evidence relationships, duplicate identities, candidate consistency, optional `preview` media when a resource includes it, and optional `tags` (`stack` and `genre` only) when a main-index resource includes them. A missing `preview` or `tags` field is valid. The check does not download media.
 - `readme:check`: English names, descriptions, links, categories, and counts against the public index; Chinese resource coverage, categories, and counts. Isolated records stay in the inventory and are excluded from both READMEs. It does not verify translation meaning.
 - `traceability:check`: Actual `js-traceability@0.1.0` reference checks, plus the catalog's stricter review-status and project-boundary rules.
 - `test`: Regression tests for matching, candidate decisions, reference validation, and README drift.

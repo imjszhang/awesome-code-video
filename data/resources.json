@@ -16,6 +16,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -44,6 +49,14 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ],
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -74,6 +87,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -102,6 +120,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "game"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -188,6 +211,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -305,6 +333,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -333,6 +366,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -363,6 +401,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -391,6 +434,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -421,6 +469,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -449,6 +502,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -479,6 +537,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -508,6 +571,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -536,6 +604,12 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "explainer",
+        "motion-graphics"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -594,6 +668,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -710,6 +789,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -856,6 +940,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "genre": [
+        "game"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -886,6 +975,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -915,6 +1009,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees."
   },
   {
@@ -934,6 +1033,14 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "motion-canvas"
+      ],
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -963,6 +1070,15 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "manim",
+        "python"
+      ],
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -1148,6 +1264,14 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "python"
+      ],
+      "genre": [
+        "explainer"
+      ]
+    },
     "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
   },
   {
@@ -1165,6 +1289,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested video uses are curator assessments. Source inspection does not establish rendering quality."
   },
@@ -1185,6 +1314,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Video use cases are curator suggestions. No installation, visual quality test or render test performed.",
     "preview": {
@@ -1282,6 +1416,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -1342,6 +1481,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "thumb_link",
@@ -1371,6 +1515,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -1402,6 +1551,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "thumb_link",
@@ -1432,6 +1586,14 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ],
+      "genre": [
+        "explainer"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
       "kind": "video",
@@ -1461,6 +1623,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees.",
     "preview": {
@@ -1750,6 +1917,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -1779,6 +1951,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -1810,6 +1987,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -1839,6 +2021,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -1870,6 +2057,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -1899,6 +2091,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -2079,6 +2276,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -2109,6 +2311,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -2141,6 +2348,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -2171,6 +2383,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -2203,6 +2420,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -2233,6 +2455,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -2265,6 +2492,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -2296,6 +2528,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -2326,6 +2563,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -2476,6 +2718,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3068,6 +3315,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3098,6 +3350,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3130,6 +3387,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3160,6 +3422,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3192,6 +3459,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3222,6 +3494,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3254,6 +3531,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3284,6 +3566,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3316,6 +3603,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3346,6 +3638,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3378,6 +3675,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3408,6 +3710,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3440,6 +3747,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3470,6 +3782,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3502,6 +3819,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3532,6 +3854,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3564,6 +3891,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3594,6 +3926,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3626,6 +3963,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3656,6 +3998,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3688,6 +4035,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3718,6 +4070,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3750,6 +4107,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -3780,6 +4142,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3931,6 +4298,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -3960,6 +4332,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -3991,6 +4368,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -4021,6 +4403,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4050,6 +4437,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4108,6 +4500,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "revideo"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4229,6 +4626,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4258,6 +4660,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4289,6 +4696,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4318,6 +4730,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4349,6 +4766,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -4378,6 +4800,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4409,6 +4836,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -4437,6 +4869,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4467,6 +4904,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4495,6 +4937,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4526,6 +4973,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "motion-canvas"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "embed",
@@ -4555,6 +5007,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "motion-canvas"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4586,6 +5043,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "motion-canvas"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "embed",
@@ -4616,6 +5078,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "motion-canvas"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "embed",
@@ -4644,6 +5111,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "theatre-js"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4733,6 +5205,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4763,6 +5240,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4792,6 +5274,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4906,6 +5393,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4934,6 +5426,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -4964,6 +5461,11 @@
       "reviewed_at": "2026-10-27",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -4992,6 +5494,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-27",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -5022,6 +5529,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "revideo"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -5050,6 +5562,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -5080,6 +5597,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -5108,6 +5630,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -5254,6 +5781,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -5282,6 +5814,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -5312,6 +5849,14 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ],
+      "genre": [
+        "explainer"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -5340,6 +5885,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Only the HyperFrames engine is described as shipped.",
     "preview": {
@@ -5371,6 +5921,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -5400,6 +5955,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -5431,6 +5991,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -5460,6 +6025,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -5491,6 +6061,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -5520,6 +6095,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -5551,6 +6131,11 @@
       "reviewed_at": "2026-11-03",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Catalog preview is the hosted showcase MP4 hotlink; license for that binary remains 待确认.",
     "preview": {
       "kind": "video",
@@ -5580,6 +6165,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-03",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. No WeChat Reading or WeRead partnership is stated. Font files are not vendored and their terms are unknown. Catalog preview is the hosted showcase MP4 hotlink; license for that binary remains 待确认.",
     "preview": {
@@ -5620,6 +6210,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 15s is the prompt body's \"15-second\" length. The JSON has no duration field.",
     "preview": {
       "kind": "thumb_link",
@@ -5658,6 +6253,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -5695,6 +6295,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested.",
     "preview": {
@@ -5735,6 +6340,14 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ],
+      "genre": [
+        "motion-graphics"
+      ]
+    },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 15s follows the prompt timeline, which ends in an 8–15s team shot. The JSON has no duration field.",
     "preview": {
       "kind": "thumb_link",
@@ -5773,6 +6386,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 5s is the prompt body's \"5-second\" clip length. The JSON has no duration field.",
     "preview": {
@@ -5813,6 +6431,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 12s follows the prompt's last beat, labeled (10-12s). The JSON has no duration field.",
     "preview": {
       "kind": "thumb_link",
@@ -5851,6 +6474,14 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ],
+      "genre": [
+        "short-film"
+      ]
     },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. durationHint 15s follows the prompt's shot list, which runs from 00:00 to 00:15. The JSON has no duration field.",
     "preview": {
@@ -5891,6 +6522,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. aspectRatio uses the JSON aspect field 16:9. The prompt body also says 4:5. durationHint 5s is the prompt body's \"5 seconds\" atmospheric move. The JSON has no duration field. aspectRatio stays 16:9 from the JSON aspect field; the prompt body also says 4:5.",
     "preview": {
       "kind": "thumb_link",
@@ -5928,6 +6564,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-28",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. The upstream prompt field repeats one paragraph twice; the catalog keeps that text.",
     "preview": {
@@ -5969,6 +6610,11 @@
       "reviewed_at": "2026-10-28",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested models are upstream labels, not a platform endorsement. Preview media is linked, not copied. Not render-tested. prompt_policy is summary_link because the source prompt is 3877 characters. The stored prompt is the opening paragraph. negativePrompt is the labeled negative list in that file. suggestedModels lists only the JSON model field seedance-2.0; the prompt also names an image-edit step that is not added here. durationHint 15s follows the prompt's \"~15 second\" clip. The JSON has no duration field.",
     "preview": {
       "kind": "video",
@@ -5997,6 +6643,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
     },
     "editorial_note": "Video use cases are editorial assessments; source review does not imply installation or rendering success.",
     "preview": {
@@ -6114,6 +6765,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6142,6 +6798,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6172,6 +6833,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6199,6 +6865,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6228,6 +6899,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -6255,6 +6931,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6287,6 +6968,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6317,6 +7003,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6349,6 +7040,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6379,6 +7075,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6467,6 +7168,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6495,6 +7201,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6525,6 +7236,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6553,6 +7269,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6583,6 +7304,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6611,6 +7337,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6641,6 +7372,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6669,6 +7405,11 @@
       "reviewed_at": "2026-10-29",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -6696,6 +7437,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-29",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6784,6 +7530,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6812,6 +7563,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6842,6 +7598,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6870,6 +7631,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6900,6 +7666,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6928,6 +7699,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -6958,6 +7734,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -6986,6 +7767,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7016,6 +7802,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -7044,6 +7835,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7074,6 +7870,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -7102,6 +7903,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7132,6 +7938,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -7160,6 +7971,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7190,6 +8006,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -7218,6 +8039,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7248,6 +8074,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "hyperframes"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -7275,6 +8106,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7304,6 +8140,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -7331,6 +8172,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7360,6 +8206,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -7387,6 +8238,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7416,6 +8272,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -7443,6 +8304,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7531,6 +8397,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -7559,6 +8430,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7762,6 +8638,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -7789,6 +8670,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7818,6 +8704,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -7845,6 +8736,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -7875,6 +8771,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -7903,6 +8804,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8106,6 +9012,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -8133,6 +9044,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8162,6 +9078,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -8189,6 +9110,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8219,6 +9145,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -8247,6 +9178,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8450,6 +9386,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -8477,6 +9418,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8506,6 +9452,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -8533,6 +9484,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8563,6 +9519,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -8591,6 +9552,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8621,6 +9587,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -8649,6 +9620,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8794,6 +9770,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -8821,6 +9802,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -8850,6 +9836,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -8877,6 +9868,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -9138,6 +10134,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -9165,6 +10166,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -9194,6 +10200,11 @@
       "reviewed_at": "2026-10-30",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -9221,6 +10232,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-10-30",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -17890,6 +18906,11 @@
       "reviewed_at": "2026-11-02",
       "render_tested": false
     },
+    "tags": {
+      "genre": [
+        "explainer"
+      ]
+    },
     "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -17917,6 +18938,12 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-12",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "html",
+        "threejs"
+      ]
     },
     "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Launch-film redistributability remains 待确认 (pending/unconfirmed), so preview.redistributable is false. The author's ¥1.95 / 22-second cost figure is an upstream claim and was not curator-tested. The reviewed source is commit 0272906902c33c796a81637545905ea7f2b81c5a; the v0.4.0 tag points at ba273ab50c60d02ce2daeb97aa82f14aebe7f0a7, and npm latest was not treated as the reviewed version.",
     "preview": {
@@ -17946,6 +18973,11 @@
       "reviewed_at": "2026-11-02",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -17974,6 +19006,15 @@
       "reviewed_at": "2026-11-02",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "html"
+      ],
+      "genre": [
+        "explainer",
+        "interactive"
+      ]
+    },
     "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "thumb_link",
@@ -18001,6 +19042,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-13",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. Style-sample MP4 redistributability remains 待确认 (pending confirmation), so preview.redistributable is false. The primary preview is the pinned isometric.mp4; paper-cutout.mp4 and risograph.mp4 are additional hotlinks recorded on S-CV-230. These are silent technical style-pack samples, not narrated episodes. The reviewed source is commit 36da91cee49d56e26eed8f91eb9ea657cffb2d73 (package 0.5.1), the merge after v0.5.1 tag commit 48e5ba7543a48d3fddc47340773689f716435a8b. /releases/latest was not used (v0.5.1 has empty assets). The third-party X promo GIF was not used.",
     "preview": {
@@ -26401,6 +27447,11 @@
       "reviewed_at": "2026-11-06",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -26429,6 +27480,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-06",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -26459,6 +27515,11 @@
       "reviewed_at": "2026-11-06",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -26487,6 +27548,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-06",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -26517,6 +27583,11 @@
       "reviewed_at": "2026-11-06",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -26545,6 +27616,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-06",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -26575,6 +27651,11 @@
       "reviewed_at": "2026-11-06",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -26603,6 +27684,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-06",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -26633,6 +27719,11 @@
       "reviewed_at": "2026-11-06",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -26661,6 +27752,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-06",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
@@ -26691,6 +27787,11 @@
       "reviewed_at": "2026-11-06",
       "render_tested": false
     },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
+    },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {
       "kind": "video",
@@ -26719,6 +27820,11 @@
       "level": "source-reviewed",
       "reviewed_at": "2026-11-06",
       "render_tested": false
+    },
+    "tags": {
+      "stack": [
+        "remotion"
+      ]
     },
     "editorial_note": "Suggested styles and use cases are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested.",
     "preview": {

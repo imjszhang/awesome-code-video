@@ -4,6 +4,12 @@ import path from 'node:path';
 
 export const RESOURCE_KINDS = Object.freeze(['film', 'scene', 'preset', 'shot', 'style', 'framework', 'tool', 'workflow', 'collection', 'generative_prompt']);
 export const CANDIDATE_STATUSES = Object.freeze(['pending', 'researching', 'accepted', 'rejected', 'duplicate', 'deferred']);
+/** Controlled tags on data/resources.json only. No source, method, or spotlight ids. */
+export const RESOURCE_TAG_VALUES = Object.freeze({
+  stack: Object.freeze(['remotion', 'hyperframes', 'motion-canvas', 'revideo', 'theatre-js', 'blender', 'unreal', 'unity', 'threejs', 'html', 'python', 'manim']),
+  genre: Object.freeze(['short-film', 'game', 'interactive', 'explainer', 'music-video', 'motion-graphics', 'simulation']),
+});
+const FORBIDDEN_RESOURCE_TAG = 'fable-5-2';
 const SECTIONS = new Map([
   ['film-and-scene-templates', ['film', 'scene']],
   ['map-animation-presets', ['preset']],
@@ -172,6 +178,44 @@ function validatePreview(preview, label, url, errors) {
   if (!DAY(preview.checked_at)) errors.push(`${label}: preview.checked_at must be YYYY-MM-DD.`);
 }
 
+function tagTreeHas(value, needle) {
+  if (value === needle) return true;
+  if (Array.isArray(value)) return value.some(item => tagTreeHas(item, needle));
+  if (value && typeof value === 'object') return Object.entries(value).some(([key, item]) => key === needle || tagTreeHas(item, needle));
+  return false;
+}
+
+/** Optional tags on a main-index resource. Missing tags are valid; empty objects and empty arrays are not. */
+function validateResourceTags(resource, label, errors) {
+  if (!Object.hasOwn(resource, 'tags')) return;
+  const { tags } = resource;
+  if (!tags || typeof tags !== 'object' || Array.isArray(tags)) {
+    errors.push(`${label}: tags must be an object when present.`);
+    return;
+  }
+  if (tagTreeHas(tags, FORBIDDEN_RESOURCE_TAG)) errors.push(`${label}: tags must not contain ${FORBIDDEN_RESOURCE_TAG}.`);
+  const keys = Object.keys(tags);
+  if (!keys.length) {
+    errors.push(`${label}: tags must include stack or genre when present.`);
+    return;
+  }
+  for (const key of keys) {
+    if (!Object.hasOwn(RESOURCE_TAG_VALUES, key)) {
+      errors.push(`${label}: tags.${key} is not allowed.`);
+      continue;
+    }
+    const values = tags[key];
+    if (!Array.isArray(values) || !values.length || values.some(value => !TEXT(value))) {
+      errors.push(`${label}: tags.${key} must be a nonempty array of strings.`);
+      continue;
+    }
+    if (new Set(values).size !== values.length) errors.push(`${label}: tags.${key} contains duplicate values.`);
+    for (const value of values) {
+      if (!RESOURCE_TAG_VALUES[key].includes(value)) errors.push(`${label}: tags.${key} value ${value} is outside the controlled vocabulary.`);
+    }
+  }
+}
+
 export function validateCatalog(catalog) {
   const errors = [];
   const warnings = [];
@@ -275,6 +319,7 @@ export function validateCatalog(catalog) {
       }
     }
     if (Object.hasOwn(resource, 'preview')) validatePreview(resource.preview, label, url, errors);
+    validateResourceTags(resource, label, errors);
   }
   const candidateUrls = new Map();
   for (const candidate of maps.candidates.values()) {
