@@ -761,5 +761,33 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-16"
+  },
+  {
+    "id": "herk-edit-kit",
+    "name": "herk-edit-kit",
+    "url": "https://github.com/nateherkai/herk-edit-kit",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1214519814,
+      "full_name": "nateherkai/herk-edit-kit",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-17"
+  },
+  {
+    "id": "snapcn",
+    "name": "snapcn",
+    "url": "https://github.com/shadcn-labs/snapcn",
+    "aliases": [],
+    "urls": [
+      "https://snapcn.dev"
+    ],
+    "github": {
+      "id": 1310511638,
+      "full_name": "shadcn-labs/snapcn",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-17"
   }
 ]

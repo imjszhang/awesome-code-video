@@ -40,11 +40,11 @@ test('public surfaces omit the isolated freelancer-templates inventory',()=>{
  const isolated=resourceData.filter(resource=>resource.project_id===isolationRule.resource_project_id);
  assert.equal(isolationRule.resource_project_id,isolatedProjectId);
  assert.equal(isolated.length,688);
- assert.equal(resourceData.length,984);
- assert.equal(resources.length,296);
- assert.equal(resources.filter(resource=>resource.preview).length,288);
- assert.equal(resources.filter(resource=>resource.preview?.kind==='video').length,217);
- assert.equal(resources.filter(resource=>resource.preview?.kind==='thumb_link').length,65);
+ assert.equal(resourceData.length,986);
+ assert.equal(resources.length,298);
+ assert.equal(resources.filter(resource=>resource.preview).length,290);
+ assert.equal(resources.filter(resource=>resource.preview?.kind==='video').length,218);
+ assert.equal(resources.filter(resource=>resource.preview?.kind==='thumb_link').length,66);
  assert.equal(resources.filter(resource=>resource.preview?.kind==='embed').length,6);
  assert.equal(coreCount,267);
  assert.equal(projectData.some(project=>project.id===isolatedProjectId),true);
@@ -73,19 +73,19 @@ test('public surfaces omit the isolated freelancer-templates inventory',()=>{
   assert.equal(html.includes('freelancer-templates.org'),false);
   assert.equal(html.includes('linda-mhmd/freelancer-templates'),false);
  }
- assert.match(home,/<b>296<\/b><span>curated resources<\/span>/);
+ assert.match(home,/<b>298<\/b><span>curated resources<\/span>/);
  assert.match(home,/<b>142<\/b><span>films &amp; scenes<\/span>/);
  assert.match(home,/<b>79<\/b><span>shots &amp; presets<\/span>/);
  assert.match(home,/<b>46<\/b><span>visual styles<\/span>/);
- assert.match(home,/<b>37<\/b><span>source projects<\/span>/);
- assert.equal(projects.length,37);
- assert.equal(homeGalleryItems().filter(resource=>resource.preview?.kind==='video').length,217);
+ assert.match(home,/<b>39<\/b><span>source projects<\/span>/);
+ assert.equal(projects.length,39);
+ assert.equal(homeGalleryItems().filter(resource=>resource.preview?.kind==='video').length,218);
  assert.equal(CHART_TOTAL,resources.length);
- assert.doesNotMatch(home,/\b984\b/);
- assert.doesNotMatch(library,/\b984\b/);
+ assert.doesNotMatch(home,/\b984\b|\b986\b/);
+ assert.doesNotMatch(library,/\b984\b|\b986\b/);
  assert.doesNotMatch(projectIndex,/\/previews\/freelancer-/);
  assert.doesNotMatch(library,/\/previews\/freelancer-/);
- assert.match(library,/<b>296<\/b> resources/);
+ assert.match(library,/<b>298<\/b> resources/);
  assert.equal(projectIndex.includes('Freelancer Templates'),false);
  assert.equal(direct.includes(sample.name),false);
  assert.equal(project.includes('Freelancer Templates'),false);
@@ -212,7 +212,8 @@ test('gallery cards retain complete previews and featured covers without autopla
  for(const tag of videos){
   assert.match(tag,/preload="none"/);
   assert.doesNotMatch(tag,/\bsrc="/i);
-  assert.match(tag,/\bposter="(?:\/previews\/|https:\/\/)/i);
+  if (/id="preview-home_gallery-herk_edit_kit"/.test(tag)) assert.doesNotMatch(tag,/\bposter=/i);
+  else assert.match(tag,/\bposter="(?:\/previews\/|https:\/\/)/i);
   assert.match(tag,/playsinline/i);
   assert.match(tag,/tabindex="-1"/);
   const attrs=tag.replace(/\s(?:src|poster)="[^"]*"/gi,'');
@@ -320,7 +321,8 @@ test('playable gallery cards can start muted and other preview kinds stay unchan
    const video=card.match(/<video\b[^>]*>/)?.[0]??'';
    assert.match(video,/preload="none"/);
    assert.doesNotMatch(video,/\bsrc="/i);
-   assert.match(video,/\bposter="(?:\/previews\/|https:\/\/)/i);
+   if(resource.id==='herk-edit-kit') assert.doesNotMatch(video,/\bposter=/i);
+   else assert.match(video,/\bposter="(?:\/previews\/|https:\/\/)/i);
    assert.match(video,/tabindex="-1"/);
    const attrs=video.replace(/\s(?:src|poster)="[^"]*"/gi,'');
    assert.doesNotMatch(attrs,/\bautoplay\b/i);
@@ -488,7 +490,8 @@ test('GIF previews render as lazy images without video players or Play buttons',
   assert(!html.includes(`id="preview-home_gallery-${resource.id.replaceAll('-','_')}"`),resource.id);
  }
  for(const resource of gifs){
-  assert(resource.preview!.poster?.startsWith('/previews/'),resource.id);
+  if(resource.id==='snapcn') assert.equal(Object.hasOwn(resource.preview!,'poster'),false,resource.id);
+  else assert(resource.preview!.poster?.startsWith('/previews/'),resource.id);
   assert(html.includes(`href="${resource.preview!.url}"`),resource.id);
  }
  const video=resources.find(r=>r.preview?.kind==='video')!;
@@ -557,7 +560,11 @@ test('browse cards show the reviewed still, labelled, and keep the editorial cov
    assert.doesNotMatch(card,/<video\b|preview-play/,id);
    if(!still){
     editorial++;
-    assert.equal(preview.degraded,true,id);
+    if(id==='herk-edit-kit'){
+     assert.equal(preview.degraded,false,id);
+     assert.equal(preview.playable,true,id);
+     assert.equal(preview.poster,null,id);
+    }else assert.equal(preview.degraded,true,id);
     assert.equal(images.length,0,id);
     assert.match(card,/class="visual /,id);
     assert.match(card,/<span class="art-caption">EDITORIAL COVER<\/span>/,id);
@@ -575,7 +582,9 @@ test('browse cards show the reviewed still, labelled, and keep the editorial cov
    assert.match(card,new RegExp(`<span class="art-caption">${still.caption}</span>`),id);
    assert.doesNotMatch(card,/class="visual /,id);
   }
-  assert.equal(editorial,resources.filter(r=>resolvePreview(r).degraded).length);
+  const reviewedWithoutStill=resources.filter(r=>!coverStill(r,href)&&!resolvePreview(r).degraded).map(r=>r.id);
+  assert.deepEqual(reviewedWithoutStill,['herk-edit-kit']);
+  assert.equal(editorial,resources.filter(r=>resolvePreview(r).degraded).length+reviewedWithoutStill.length);
   assert.ok(editorial>0&&editorial<20,'only resources without a reviewed preview keep an editorial cover');
  }
  // A playable video with no poster has no still to show: it must not fall back to the video URL.
@@ -588,7 +597,8 @@ test('browse cards show the reviewed still, labelled, and keep the editorial cov
  const titles=[...library.matchAll(/<div class="type-word" data-fit="[a-z]+">([^<]+)<\/div>/g)].map(match=>match[1]);
  assert.ok(titles.length>1);
  assert.equal(new Set(titles).size,titles.length);
- for(const title of titles)assert.ok(fallbacks.some(r=>escapeHtml(r.name)===title),title);
+ const allowedTitles=new Set([...fallbacks.map(r=>escapeHtml(r.name)),escapeHtml('herk-edit-kit')]);
+ for(const title of titles)assert.ok(allowedTitles.has(title),title);
 });
 
 test('a resource page plays its own upstream demo under the gallery rules and credits it',()=>{
@@ -815,7 +825,8 @@ test('reviewed YouTube projects are landscape without classifying replacement UR
   assert.equal(videoOrientation(resource),'landscape',resource.id);
   assert.equal(videoOrientation({...resource,preview:{...resource.preview!,url:'https://www.youtube.com/embed/abcdefghijk'}}),'unknown');
  }
- assert.equal(homeGalleryItems().filter(r=>videoOrientation(r)==='unknown').length,0);
+ const unmeasured=homeGalleryItems().filter(r=>videoOrientation(r)==='unknown');
+ assert.deepEqual(unmeasured.map(r=>r.id),['herk-edit-kit']);
  const html=renderToString(React.createElement(App,{path:'/'}));
- assert.doesNotMatch(html,/Unconfirmed format/);
+ assert.match(html,/Unconfirmed format<!-- --> <span>1<\/span>/);
 });

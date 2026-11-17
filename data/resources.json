@@ -18071,6 +18071,60 @@
     }
   },
   {
+    "id": "herk-edit-kit",
+    "project_id": "herk-edit-kit",
+    "name": "herk-edit-kit",
+    "kind": "workflow",
+    "url": "https://github.com/nateherkai/herk-edit-kit",
+    "section": "Production Workflows",
+    "description": "Codex and Claude Code video-editing kit built on HyperFrames, formerly a HyperFrames Student Kit style workflow. This is a single workflow entry: reuse the kit's skills, two scene templates, and the local demo; do not split the 15 skills, two templates, or 406 draft cards into more catalog resources. HyperFrames is already in this catalog and is not replaced by this entry. The license is not clean MIT: the LICENSE body is MIT (Copyright 2026 Nate Herk) with an AIS brand-assets exception, GitHub SPDX is Other / NOASSERTION, HyperFrames is Apache-2.0, and GSAP is under the GreenSock Standard License. AIS branding and example content are not reusable assets. Source-reviewed on 2026-11-17 at 10511e5af86fc47756ea89803b397422e2d89284. The catalog preview hotlinks the README motion showreel; it was not copied into this repository. Not render-tested.",
+    "evidence_ids": [
+      "S-CV-233"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-17",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License details are in S-CV-233.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/user-attachments/assets/056b46e9-7379-4e71-b825-20fb9f8e9555",
+      "license": "Not clean MIT: LICENSE body is MIT (Copyright 2026 Nate Herk) with an AIS brand-assets exception; GitHub SPDX Other / NOASSERTION; HyperFrames Apache-2.0; GSAP under the GreenSock Standard License. Showreel redistributability 待确认.",
+      "attribution": "Nate Herk (https://github.com/nateherkai/herk-edit-kit). README motion showreel hotlink. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-233 https://github.com/user-attachments/assets/056b46e9-7379-4e71-b825-20fb9f8e9555. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-17"
+    }
+  },
+  {
+    "id": "snapcn",
+    "project_id": "snapcn",
+    "name": "snapcn",
+    "kind": "tool",
+    "url": "https://github.com/shadcn-labs/snapcn",
+    "section": "Motion Design Tools",
+    "description": "Remotion component library installed through the shadcn CLI, for product-demo motion in a user's own Remotion project. This is a single tool entry and is not split into films or scenes by component. The public component count remains 待确认. The repository is MIT (Copyright Sri Nath (snap-cn)). This project is distinct from Remocn/remocn and is not an alias of it; Remocn is not in this catalog. Source-reviewed on 2026-11-17 at 18b973d7592adf2099a4d5cc2d8970862a4e1172. The catalog preview hotlinks https://media.snapcn.dev/site/hero.gif; it was not copied into this repository. Not render-tested.",
+    "evidence_ids": [
+      "S-CV-234"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-17",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License and Remocn details are in S-CV-234.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://media.snapcn.dev/site/hero.gif",
+      "license": "Repository MIT (Copyright Sri Nath (snap-cn)). hero.gif redistributability 待确认.",
+      "attribution": "Sri Nath / shadcn-labs (https://github.com/shadcn-labs/snapcn; https://snapcn.dev). Site hero GIF hotlink. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-234 https://media.snapcn.dev/site/hero.gif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-17"
+    }
+  },
+  {
     "id": "freelancer-bounce-text-espresso",
     "project_id": "freelancer-templates",
     "name": "Bounce Text Espresso",
