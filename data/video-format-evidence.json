@@ -85,5 +85,23 @@
     "source_url": "https://github.com/alchaincyf/huashu-motion/releases/download/v0.2.0/huashu-motion-launch.mp4",
     "checked_at": "2026-11-12",
     "note": "ffprobe of the hotlinked v0.2.0 preview on 2026-11-12 reported H.264 1920x1080, duration 53.200s, size 31128161. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "openfilm",
+    "preview_url": "https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/confetti/preview.mp4",
+    "composition_width": 320,
+    "composition_height": 180,
+    "source_url": "https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/confetti/preview.mp4",
+    "checked_at": "2026-11-16",
+    "note": "The 2026-11-16 source review recorded a container check of the hotlinked pinned confetti sample: H.264, yuv420p, 320x180, 30 fps, duration 2.000s, size 47548, no audio. Dimensions describe that encoded preview, not a local render and not a visual playback review. The file was not copied into this repository. bloom/preview.mp4 is a backup hotlink on S-CV-231, not this primary preview."
+  },
+  {
+    "resource_id": "design-agent",
+    "preview_url": "https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/design-agent-explainer.mp4",
+    "composition_width": 1280,
+    "composition_height": 720,
+    "source_url": "https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/design-agent-explainer.mp4",
+    "checked_at": "2026-11-16",
+    "note": "The 2026-11-16 source review recorded a container check of the hotlinked pinned explainer: H.264 + AAC, 1280x720, 30 fps, video duration 111.667s, audio duration 111.633s, 48 kHz stereo, size 9340967. Dimensions describe that encoded preview, not a local render and not a visual playback review. The file was not copied into this repository."
   }
 ]
