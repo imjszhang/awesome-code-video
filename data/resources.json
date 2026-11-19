@@ -29361,5 +29361,86 @@
       "poster": "/previews/freelancer-poll-quiz-dark-results-bar.webp",
       "source": "S-CV-228 https://freelancer-templates.org/previews/hero/PollQuiz-DarkResultsBar.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=189924, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
     }
+  },
+  {
+    "id": "openmotion",
+    "project_id": "openmotion",
+    "name": "openmotion",
+    "kind": "framework",
+    "url": "https://github.com/nexu-io/openmotion",
+    "section": "Frameworks and Renderers",
+    "description": "Open-source agentic video studio from nexu-io, renamed from nexu-io/html-anything, with the old app on the legacy branch. One framework entry for a local pipeline that imports a HyperFrames project ZIP and exports a film. Distinct from catalog project open-motion (jsongo/open-motion only) and from cataloged html-video and open-design. The license is not clean Apache-2.0: root LICENSE is Apache-2.0 with an unfilled copyright placeholder; studio/LICENSE is Apache-2.0, Copyright 2026 HeyGen, Inc., on a HyperFrames 0.9.7 foundation; third-party templates, media, fonts, and GSAP/GreenSock keep their own terms. OpenDesign Plus, Pro, and Max are an account entitlement, not a precondition for using this code. The catalog preview hotlinks an official CDN GIF and was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-235"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-18",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, relationship, and preview notes are in S-CV-235.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://releases.open-design.ai/open-motion/media/sha256/f4a30a4a3b2dbc5c43df68837bebb284d204a1408394e248d7df339154914917.gif",
+      "license": "Not clean Apache-2.0. Root LICENSE is Apache-2.0 with placeholder copyright Copyright [yyyy] [name of copyright owner]. studio/LICENSE is Apache-2.0, Copyright 2026 HeyGen, Inc. (HyperFrames 0.9.7). Third-party templates, media, fonts, and GSAP/GreenSock keep their own terms. Showcase brand references are not cleared for redistribution.",
+      "attribution": "nexu-io (https://github.com/nexu-io/openmotion; https://open-design.ai/motion/). Official CDN GIF hotlink. Redistributability left false because the showcase includes third-party brand references.",
+      "redistributable": false,
+      "source": "S-CV-235 https://releases.open-design.ai/open-motion/media/sha256/f4a30a4a3b2dbc5c43df68837bebb284d204a1408394e248d7df339154914917.gif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-18"
+    }
+  },
+  {
+    "id": "cinetic",
+    "project_id": "cinetic",
+    "name": "cinetic",
+    "kind": "workflow",
+    "url": "https://github.com/Leonxlnx/cinetic",
+    "section": "Production Workflows",
+    "description": "Coding-agent workflow that writes a script and exports a short film in Remotion or GSAP, with copy checks. This is a single workflow entry. The root license is MIT; Remotion's terms and GSAP/GreenSock terms still apply. Media-branch demos are an older snapshot relative to the main 1.5 line, so the completeness trio is incomplete. The catalog preview hotlinks muted ledgerly-feature-loop.mp4 on the media branch; it was not copied into this repository. The media-branch README has a demo MIT statement; underlying music and font rights remain unverified. Not render-tested.",
+    "evidence_ids": [
+      "S-CV-236"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-18",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-236.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/Leonxlnx/cinetic/152fab492546749ca368a20353808cd8d7b2c630/ledgerly-feature-loop.mp4",
+      "license": "Root repository MIT. Remotion terms and GSAP/GreenSock terms still apply. Media-branch README states a demo MIT license; underlying music and font rights are unverified.",
+      "attribution": "Leonxlnx (https://github.com/Leonxlnx/cinetic). Muted hotlink of ledgerly-feature-loop.mp4 on the media branch. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-236 https://raw.githubusercontent.com/Leonxlnx/cinetic/152fab492546749ca368a20353808cd8d7b2c630/ledgerly-feature-loop.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-18"
+    }
+  },
+  {
+    "id": "claude-animation-skills",
+    "project_id": "claude-animation-skills",
+    "name": "claude-animation-skills",
+    "kind": "workflow",
+    "url": "https://github.com/artemnovitckii/claude-animation-skills",
+    "section": "Production Workflows",
+    "description": "One workflow entry for this Claude animation skill kit; do not split it into separate skills. /zach-3d-films is an alias of /zach-d-films, so there are 10 unique commands, not 11. The license is not clean MIT: GitHub SPDX is Other / NOASSERTION, the LICENSE body is MIT (Copyright 2026 Artem Novitckii), and kit/fonts are SIL OFL 1.1. HyperFrames and GSAP/GreenSock are fetched at install and are not MIT-licensed by this repository. Kurzgesagt, Dan Koe, Minecraft, and Zack D. Films are aesthetic references only; the README already disclaims affiliation with Zack D. Films. The catalog preview hotlinks docs/skills.jpg; it was not copied into this repository. A third-party claim of a successful run is not this catalog's render test. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-237"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-18",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, brand-name, and preview notes are in S-CV-237.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/artemnovitckii/claude-animation-skills/86f70106c9aeae1334184467da5776c533ada3bc/docs/skills.jpg",
+      "license": "Not clean MIT. GitHub SPDX is Other / NOASSERTION. LICENSE body is MIT (Copyright 2026 Artem Novitckii) and kit/fonts are SIL OFL 1.1. HyperFrames and GSAP/GreenSock are fetched at install and are not MIT-licensed by this repository. Contact-sheet redistributability left false.",
+      "attribution": "Artem Novitckii (https://github.com/artemnovitckii/claude-animation-skills; https://novitckii.com/resources/animation-skills/). Contact-sheet JPEG hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-237 https://raw.githubusercontent.com/artemnovitckii/claude-animation-skills/86f70106c9aeae1334184467da5776c533ada3bc/docs/skills.jpg. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-18"
+    }
   }
 ]

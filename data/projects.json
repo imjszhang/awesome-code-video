@@ -789,5 +789,51 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-17"
+  },
+  {
+    "id": "openmotion",
+    "name": "openmotion",
+    "url": "https://github.com/nexu-io/openmotion",
+    "aliases": [
+      "OpenMotion"
+    ],
+    "urls": [
+      "https://open-design.ai/motion/"
+    ],
+    "github": {
+      "id": 1235403234,
+      "full_name": "nexu-io/openmotion",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-18"
+  },
+  {
+    "id": "cinetic",
+    "name": "cinetic",
+    "url": "https://github.com/Leonxlnx/cinetic",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1393935935,
+      "full_name": "Leonxlnx/cinetic",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-18"
+  },
+  {
+    "id": "claude-animation-skills",
+    "name": "claude-animation-skills",
+    "url": "https://github.com/artemnovitckii/claude-animation-skills",
+    "aliases": [],
+    "urls": [
+      "https://novitckii.com/resources/animation-skills/",
+      "https://novitckii.com/resources/animation-styles/"
+    ],
+    "github": {
+      "id": 1441434221,
+      "full_name": "artemnovitckii/claude-animation-skills",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-18"
   }
 ]
