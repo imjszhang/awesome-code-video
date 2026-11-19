@@ -19061,6 +19061,116 @@
     }
   },
   {
+    "id": "openfilm",
+    "project_id": "openfilm",
+    "name": "OpenFilm",
+    "kind": "framework",
+    "url": "https://github.com/openfilm/openfilm",
+    "section": "Frameworks and Renderers",
+    "description": "Open-source film framework in which a film is a folder with film.html, shots are web pages drawn with frame(t), and Studio is a local Chromium editor. It officially does not depend on Remotion or HyperFrames. Reuse the format, CLI, Studio, and desktop app. The format, CLI, Studio, and desktop app are MIT. The OpenFilm name and logo are trademarks (TRADEMARK.md) and are not covered by MIT. Library media in packages/openfilm/library/ is dedicated CC0 1.0, except Fluent Emoji stickers, which are MIT and require the notice to be kept. Studio bundles Inter (SIL OFL 1.1), React (MIT), and Lucide (ISC). Optional generated voice, music, image, and video through user-connected services (ElevenLabs, OpenAI, Google, OpenRouter, fal, and others) stay under those services' terms. The catalog preview is a short CC0 effect-library sample (confetti), not a launch film; the bloom sample is a backup hotlink in the evidence note, not this preview. Needs Node 22.2 or newer and FFmpeg; the first run downloads a headless Chromium. Source-reviewed on 2026-11-16 at 0bc08008d933af7d42ef73a53cae384e2f54e6eb. npm latest and /releases/latest are not this review. Not render-tested. The preview is a hotlink only, and redistributability is 待确认.",
+    "evidence_ids": [
+      "S-CV-231"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-16",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. The primary preview is the pinned confetti effect-library sample; bloom is a backup hotlink on S-CV-231 and is not the catalog preview. The sample is a short CC0 library clip, not a launch film. The library LICENSE.md declares CC0 1.0, but redistributability remains 待确认, so preview.redistributable is false. The poster hotlinks docs/openfilm.webp at the same pin and was not frame-reviewed. npm latest and /releases/latest were not the reviewed version. The completeness trio is not marked complete.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/confetti/preview.mp4",
+      "license": "Format, CLI, Studio, and desktop app MIT; OpenFilm name and logo are trademarks (TRADEMARK.md) and are not covered by MIT; packages/openfilm/library/ media dedicated CC0 1.0 except Fluent Emoji stickers (MIT, notice required); Studio bundles Inter SIL OFL 1.1, React MIT, Lucide ISC; optional generated voice, music, image, and video via ElevenLabs, OpenAI, Google, OpenRouter, fal, and similar user-connected services stay under those terms; effect-sample redistributability 待确认",
+      "attribution": "OpenFilm contributors (https://github.com/openfilm/openfilm) — pinned effect-library sample packages/openfilm/library/effects/confetti/preview.mp4 (0bc08008d933af7d42ef73a53cae384e2f54e6eb); short CC0 library sample, not a launch film. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-231 https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/confetti/preview.mp4. Pinned to reviewed tip 0bc08008d933af7d42ef73a53cae384e2f54e6eb (2026-11-15T03:38:27Z, Docs: add a Japanese README (#457); package version at that tip still 0.3.2). 47548 bytes, sha256 9e9a5c679a7bfaa416b459b4f7ec34c5afb9eda873fb4be677621f8507e856ef. The 2026-11-16 review recorded a container check: H.264, yuv420p, 320x180, 2.000s, 30 fps, no audio. This is a short CC0 effect-library sample, not a launch film. Backup hotlink only, not this preview: https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/packages/openfilm/library/effects/bloom/preview.mp4 (13246 bytes, sha256 cec3520e3cf08bba9551aab7773273113c4c2355ae13a0f44cf4fcfaaa30050d). Poster hotlinks https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/docs/openfilm.webp (7125832 bytes) at the same pin and was not copied or frame-reviewed. Do not use /releases/latest, desktop installers, the YouTube launch film, or openfilm/examples media. The library LICENSE.md declares CC0 1.0. Hotlink only; not copied into this repository. Redistributability is 待确认, so redistributable is false. Not a local render test and not a visual playback review.",
+      "checked_at": "2026-11-16",
+      "poster": "https://raw.githubusercontent.com/openfilm/openfilm/0bc08008d933af7d42ef73a53cae384e2f54e6eb/docs/openfilm.webp"
+    }
+  },
+  {
+    "id": "design-agent",
+    "project_id": "design-agent",
+    "name": "design-agent",
+    "kind": "workflow",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "section": "Production Workflows",
+    "description": "LangChain open-source design / Content Studio agent that takes a team Slack brief and returns on-brand images, slides, charts, and motion. This is a design agent, not a reusable film project package. Video is produced in HyperFrames, which is already in this catalog; this entry does not replace that HyperFrames entry and is not a duplicate of it. Own code in this repository is Apache-2.0. HyperFrames agent skills are vendored unmodified from heygen-com/hyperframes v0.8.169 at 7735338b49ed6e11c227b0710da3bd35c3366b9c (Apache-2.0; license copy at licenses/hyperframes-LICENSE.txt). The HyperFrames CLI is installed in the sandbox image and is not vendored in this repository. GSAP is installed in the sandbox image and is not vendored here; it is under the GSAP Standard no-charge license (https://gsap.com/standard-license) and must be disclosed separately. Fonts in fonts/ are SIL OFL 1.1. The catalog preview hotlinks the in-repo explainer MP4 at the reviewed commit, not a GitHub user-attachment and not a raw/main URL. Source-reviewed on 2026-11-16 at a389e53c6d16b8139c233d7c666cda1255e30cb1. That review recorded default branch main still at this commit; pushed_at 2026-11-15T01:46:39Z came from other branches and is not the reviewed version. Not render-tested. Redistribution of the explainer is 待确认.",
+    "evidence_ids": [
+      "S-CV-232"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-16",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. Preview media was linked, not copied, and this entry was not render-tested. This is a design / Content Studio agent, not a reusable film project package, and it does not replace the cataloged HyperFrames entry. Explainer redistributability remains 待确认, so preview.redistributable is false. The primary preview is the pinned design-agent-explainer.mp4. The poster hotlinks docs/assets/readme/hero.png at the same pin and was not visually reviewed. GitHub user-attachments and raw/main were not used. The completeness trio is not marked complete.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/design-agent-explainer.mp4",
+      "license": "This repository Apache-2.0; HyperFrames agent skills vendored unmodified from heygen-com/hyperframes v0.8.169 / 7735338b49ed6e11c227b0710da3bd35c3366b9c (Apache-2.0, licenses/hyperframes-LICENSE.txt); HyperFrames CLI installed in the sandbox image and not vendored here; GSAP installed in the sandbox image and not vendored here (GSAP Standard no-charge license, https://gsap.com/standard-license); fonts in fonts/ SIL OFL 1.1; explainer redistributability 待确认",
+      "attribution": "LangChain (https://github.com/langchain-ai/design-agent) — pinned explainer docs/assets/readme/design-agent-explainer.mp4 (a389e53c6d16b8139c233d7c666cda1255e30cb1); design / Content Studio explainer, not a reusable film package. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-232 https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/design-agent-explainer.mp4. Pinned to reviewed tip a389e53c6d16b8139c233d7c666cda1255e30cb1 (2026-11-11T04:03:01Z, Build(deps): Bump pydantic-settings from 2.16.1 to 2.16.2 (#58)). On 2026-11-16 default branch main was still this commit; pushed_at 2026-11-15T01:46:39Z came from other branches. 9340967 bytes, sha256 530b09628109714e5d9f6116451209e50af69d8aa08b6917c467173b096f62e8. The 2026-11-16 review recorded a container check: H.264 + AAC, 1280x720, 30 fps, video 111.667s, audio 111.633s, 48 kHz stereo. Poster hotlinks https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/hero.png (304089 bytes) at the same pin and was not copied or visually reviewed. Do not use GitHub user-attachments or raw/main. Hotlink only; not copied into this repository. Redistributability is 待确认, so redistributable is false. Not a local render test and not a visual playback review.",
+      "checked_at": "2026-11-16",
+      "poster": "https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/hero.png"
+    }
+  },
+  {
+    "id": "herk-edit-kit",
+    "project_id": "herk-edit-kit",
+    "name": "herk-edit-kit",
+    "kind": "workflow",
+    "url": "https://github.com/nateherkai/herk-edit-kit",
+    "section": "Production Workflows",
+    "description": "Codex and Claude Code video-editing kit built on HyperFrames, formerly a HyperFrames Student Kit style workflow. This is a single workflow entry: reuse the kit's skills, two scene templates, and the local demo; do not split the 15 skills, two templates, or 406 draft cards into more catalog resources. HyperFrames is already in this catalog and is not replaced by this entry. The license is not clean MIT: the LICENSE body is MIT (Copyright 2026 Nate Herk) with an AIS brand-assets exception, GitHub SPDX is Other / NOASSERTION, HyperFrames is Apache-2.0, and GSAP is under the GreenSock Standard License. AIS branding and example content are not reusable assets. Source-reviewed on 2026-11-17 at 10511e5af86fc47756ea89803b397422e2d89284. The catalog preview hotlinks the README motion showreel; it was not copied into this repository. Not render-tested.",
+    "evidence_ids": [
+      "S-CV-233"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-17",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License details are in S-CV-233.",
+    "preview": {
+      "kind": "video",
+      "url": "https://github.com/user-attachments/assets/056b46e9-7379-4e71-b825-20fb9f8e9555",
+      "license": "Not clean MIT: LICENSE body is MIT (Copyright 2026 Nate Herk) with an AIS brand-assets exception; GitHub SPDX Other / NOASSERTION; HyperFrames Apache-2.0; GSAP under the GreenSock Standard License. Showreel redistributability 待确认.",
+      "attribution": "Nate Herk (https://github.com/nateherkai/herk-edit-kit). README motion showreel hotlink. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-233 https://github.com/user-attachments/assets/056b46e9-7379-4e71-b825-20fb9f8e9555. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-17"
+    }
+  },
+  {
+    "id": "snapcn",
+    "project_id": "snapcn",
+    "name": "snapcn",
+    "kind": "tool",
+    "url": "https://github.com/shadcn-labs/snapcn",
+    "section": "Motion Design Tools",
+    "description": "Remotion component library installed through the shadcn CLI, for product-demo motion in a user's own Remotion project. This is a single tool entry and is not split into films or scenes by component. The public component count remains 待确认. The repository is MIT (Copyright Sri Nath (snap-cn)). This project is distinct from Remocn/remocn and is not an alias of it; Remocn is not in this catalog. Source-reviewed on 2026-11-17 at 18b973d7592adf2099a4d5cc2d8970862a4e1172. The catalog preview hotlinks https://media.snapcn.dev/site/hero.gif; it was not copied into this repository. Not render-tested.",
+    "evidence_ids": [
+      "S-CV-234"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-17",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License and Remocn details are in S-CV-234.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://media.snapcn.dev/site/hero.gif",
+      "license": "Repository MIT (Copyright Sri Nath (snap-cn)). hero.gif redistributability 待确认.",
+      "attribution": "Sri Nath / shadcn-labs (https://github.com/shadcn-labs/snapcn; https://snapcn.dev). Site hero GIF hotlink. Redistributability left 待确认.",
+      "redistributable": false,
+      "source": "S-CV-234 https://media.snapcn.dev/site/hero.gif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-17"
+    }
+  },
+  {
     "id": "freelancer-bounce-text-espresso",
     "project_id": "freelancer-templates",
     "name": "Bounce Text Espresso",
@@ -30356,6 +30466,87 @@
       "checked_at": "2026-11-07",
       "poster": "/previews/freelancer-poll-quiz-dark-results-bar.webp",
       "source": "S-CV-228 https://freelancer-templates.org/previews/hero/PollQuiz-DarkResultsBar.mp4. HEAD on 2026-11-07: HTTP 200 video/mp4 Content-Length=189924, ftyp isom. Site terms CC-BY-NC-SA 4.0 (S-CV-074); hero must not be mirrored (S-CV-076). Not render-tested."
+    }
+  },
+  {
+    "id": "openmotion",
+    "project_id": "openmotion",
+    "name": "openmotion",
+    "kind": "framework",
+    "url": "https://github.com/nexu-io/openmotion",
+    "section": "Frameworks and Renderers",
+    "description": "Open-source agentic video studio from nexu-io, renamed from nexu-io/html-anything, with the old app on the legacy branch. One framework entry for a local pipeline that imports a HyperFrames project ZIP and exports a film. Distinct from catalog project open-motion (jsongo/open-motion only) and from cataloged html-video and open-design. The license is not clean Apache-2.0: root LICENSE is Apache-2.0 with an unfilled copyright placeholder; studio/LICENSE is Apache-2.0, Copyright 2026 HeyGen, Inc., on a HyperFrames 0.9.7 foundation; third-party templates, media, fonts, and GSAP/GreenSock keep their own terms. OpenDesign Plus, Pro, and Max are an account entitlement, not a precondition for using this code. The catalog preview hotlinks an official CDN GIF and was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-235"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-18",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, relationship, and preview notes are in S-CV-235.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://releases.open-design.ai/open-motion/media/sha256/f4a30a4a3b2dbc5c43df68837bebb284d204a1408394e248d7df339154914917.gif",
+      "license": "Not clean Apache-2.0. Root LICENSE is Apache-2.0 with placeholder copyright Copyright [yyyy] [name of copyright owner]. studio/LICENSE is Apache-2.0, Copyright 2026 HeyGen, Inc. (HyperFrames 0.9.7). Third-party templates, media, fonts, and GSAP/GreenSock keep their own terms. Showcase brand references are not cleared for redistribution.",
+      "attribution": "nexu-io (https://github.com/nexu-io/openmotion; https://open-design.ai/motion/). Official CDN GIF hotlink. Redistributability left false because the showcase includes third-party brand references.",
+      "redistributable": false,
+      "source": "S-CV-235 https://releases.open-design.ai/open-motion/media/sha256/f4a30a4a3b2dbc5c43df68837bebb284d204a1408394e248d7df339154914917.gif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-18"
+    }
+  },
+  {
+    "id": "cinetic",
+    "project_id": "cinetic",
+    "name": "cinetic",
+    "kind": "workflow",
+    "url": "https://github.com/Leonxlnx/cinetic",
+    "section": "Production Workflows",
+    "description": "Coding-agent workflow that writes a script and exports a short film in Remotion or GSAP, with copy checks. This is a single workflow entry. The root license is MIT; Remotion's terms and GSAP/GreenSock terms still apply. Media-branch demos are an older snapshot relative to the main 1.5 line, so the completeness trio is incomplete. The catalog preview hotlinks muted ledgerly-feature-loop.mp4 on the media branch; it was not copied into this repository. The media-branch README has a demo MIT statement; underlying music and font rights remain unverified. Not render-tested.",
+    "evidence_ids": [
+      "S-CV-236"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-18",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-236.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/Leonxlnx/cinetic/152fab492546749ca368a20353808cd8d7b2c630/ledgerly-feature-loop.mp4",
+      "license": "Root repository MIT. Remotion terms and GSAP/GreenSock terms still apply. Media-branch README states a demo MIT license; underlying music and font rights are unverified.",
+      "attribution": "Leonxlnx (https://github.com/Leonxlnx/cinetic). Muted hotlink of ledgerly-feature-loop.mp4 on the media branch. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-236 https://raw.githubusercontent.com/Leonxlnx/cinetic/152fab492546749ca368a20353808cd8d7b2c630/ledgerly-feature-loop.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-18"
+    }
+  },
+  {
+    "id": "claude-animation-skills",
+    "project_id": "claude-animation-skills",
+    "name": "claude-animation-skills",
+    "kind": "workflow",
+    "url": "https://github.com/artemnovitckii/claude-animation-skills",
+    "section": "Production Workflows",
+    "description": "One workflow entry for this Claude animation skill kit; do not split it into separate skills. /zach-3d-films is an alias of /zach-d-films, so there are 10 unique commands, not 11. The license is not clean MIT: GitHub SPDX is Other / NOASSERTION, the LICENSE body is MIT (Copyright 2026 Artem Novitckii), and kit/fonts are SIL OFL 1.1. HyperFrames and GSAP/GreenSock are fetched at install and are not MIT-licensed by this repository. Kurzgesagt, Dan Koe, Minecraft, and Zack D. Films are aesthetic references only; the README already disclaims affiliation with Zack D. Films. The catalog preview hotlinks docs/skills.jpg; it was not copied into this repository. A third-party claim of a successful run is not this catalog's render test. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-237"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-18",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, brand-name, and preview notes are in S-CV-237.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/artemnovitckii/claude-animation-skills/86f70106c9aeae1334184467da5776c533ada3bc/docs/skills.jpg",
+      "license": "Not clean MIT. GitHub SPDX is Other / NOASSERTION. LICENSE body is MIT (Copyright 2026 Artem Novitckii) and kit/fonts are SIL OFL 1.1. HyperFrames and GSAP/GreenSock are fetched at install and are not MIT-licensed by this repository. Contact-sheet redistributability left false.",
+      "attribution": "Artem Novitckii (https://github.com/artemnovitckii/claude-animation-skills; https://novitckii.com/resources/animation-skills/). Contact-sheet JPEG hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-237 https://raw.githubusercontent.com/artemnovitckii/claude-animation-skills/86f70106c9aeae1334184467da5776c533ada3bc/docs/skills.jpg. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-18"
     }
   }
 ]

@@ -4663,5 +4663,194 @@
         "reason": "Source-reviewed at 0272906902c33c796a81637545905ea7f2b81c5a as a separate workflow beside huashu-art-motion. Own code is MIT; GSAP, three.js, fonts, the demo character, and downloaded voice models stay split. Preview is the v0.2.0 launch MP4 hotlink; redistributable is false because redistributability is still unconfirmed. Not render-tested."
       }
     ]
+  },
+  {
+    "id": "C-6577929de5b7",
+    "url": "https://github.com/openfilm/openfilm",
+    "name": "OpenFilm",
+    "status": "accepted",
+    "reason": "Source-reviewed at 0bc08008d933af7d42ef73a53cae384e2f54e6eb as a framework. A film is a folder with film.html; shots are web pages drawn with frame(t); Studio is local Chromium and does not depend on Remotion or HyperFrames. MIT covers the format, CLI, Studio, and desktop app. The OpenFilm name and logo are trademarks and are not covered by MIT. Library media declares CC0 1.0 except Fluent Emoji stickers (MIT, notice required). Studio bundles Inter (SIL OFL 1.1), React (MIT), and Lucide (ISC). Optional generated media stays under the connected services' terms. The preview hotlinks the pinned confetti sample; bloom is a backup hotlink. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete.",
+    "resource_id": "openfilm",
+    "evidence_ids": [
+      "S-CV-231"
+    ],
+    "created_at": "2026-11-16T03:54:05.134Z",
+    "updated_at": "2026-11-16T03:54:06.134Z",
+    "history": [
+      {
+        "at": "2026-11-16T03:54:05.134Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-16T03:54:06.134Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 0bc08008d933af7d42ef73a53cae384e2f54e6eb as a framework. A film is a folder with film.html; shots are web pages drawn with frame(t); Studio is local Chromium and does not depend on Remotion or HyperFrames. MIT covers the format, CLI, Studio, and desktop app. The OpenFilm name and logo are trademarks and are not covered by MIT. Library media declares CC0 1.0 except Fluent Emoji stickers (MIT, notice required). Studio bundles Inter (SIL OFL 1.1), React (MIT), and Lucide (ISC). Optional generated media stays under the connected services' terms. The preview hotlinks the pinned confetti sample; bloom is a backup hotlink. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete."
+      }
+    ]
+  },
+  {
+    "id": "C-b1926c3c0d29",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "name": "design-agent",
+    "status": "accepted",
+    "reason": "Source-reviewed at a389e53c6d16b8139c233d7c666cda1255e30cb1 as a workflow. This is a design / Content Studio agent, not a reusable film project package. Video is produced in HyperFrames, already cataloged; this entry does not replace that entry. Apache-2.0 covers this repository. HyperFrames skills are vendored unmodified from heygen-com/hyperframes v0.8.169 / 7735338b49ed6e11c227b0710da3bd35c3366b9c. GSAP is installed in the sandbox image, is not vendored here, and is under the GSAP Standard no-charge license. Fonts in fonts/ are SIL OFL 1.1. The preview hotlinks the pinned explainer MP4. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete.",
+    "resource_id": "design-agent",
+    "evidence_ids": [
+      "S-CV-232"
+    ],
+    "created_at": "2026-11-16T03:54:05.134Z",
+    "updated_at": "2026-11-16T03:54:06.134Z",
+    "history": [
+      {
+        "at": "2026-11-16T03:54:05.134Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-16T03:54:06.134Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at a389e53c6d16b8139c233d7c666cda1255e30cb1 as a workflow. This is a design / Content Studio agent, not a reusable film project package. Video is produced in HyperFrames, already cataloged; this entry does not replace that entry. Apache-2.0 covers this repository. HyperFrames skills are vendored unmodified from heygen-com/hyperframes v0.8.169 / 7735338b49ed6e11c227b0710da3bd35c3366b9c. GSAP is installed in the sandbox image, is not vendored here, and is under the GSAP Standard no-charge license. Fonts in fonts/ are SIL OFL 1.1. The preview hotlinks the pinned explainer MP4. redistributable is false because redistribution is still 待确认. Not render-tested. The completeness trio is not marked complete."
+      }
+    ]
+  },
+  {
+    "id": "C-957ebb284f5a",
+    "url": "https://github.com/nateherkai/herk-edit-kit",
+    "name": "herk-edit-kit",
+    "status": "accepted",
+    "reason": "Source-reviewed at 10511e5af86fc47756ea89803b397422e2d89284 as one workflow. Codex / Claude Code kit on HyperFrames; it does not replace the cataloged HyperFrames entry. LICENSE body is MIT with an AIS brand-assets exception, GitHub SPDX is Other / NOASSERTION, HyperFrames is Apache-2.0, and GSAP is under the GreenSock Standard License. The 406 draft cards are not separate resources. Preview is the motion-showreel user-attachment hotlink. The 2026-11-17 review received HTTP 403 after the redirect, so there is no sha256 and no container check. redistributable is false. Not render-tested. The completeness trio is not marked complete.",
+    "resource_id": "herk-edit-kit",
+    "evidence_ids": [
+      "S-CV-233"
+    ],
+    "created_at": "2026-11-17T03:07:40.000Z",
+    "updated_at": "2026-11-17T03:07:41.000Z",
+    "history": [
+      {
+        "at": "2026-11-17T03:07:40.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-17T03:07:41.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 10511e5af86fc47756ea89803b397422e2d89284 as one workflow. Codex / Claude Code kit on HyperFrames; it does not replace the cataloged HyperFrames entry. LICENSE body is MIT with an AIS brand-assets exception, GitHub SPDX is Other / NOASSERTION, HyperFrames is Apache-2.0, and GSAP is under the GreenSock Standard License. The 406 draft cards are not separate resources. Preview is the motion-showreel user-attachment hotlink. The 2026-11-17 review received HTTP 403 after the redirect, so there is no sha256 and no container check. redistributable is false. Not render-tested. The completeness trio is not marked complete."
+      }
+    ]
+  },
+  {
+    "id": "C-778e0e9a90ad",
+    "url": "https://github.com/shadcn-labs/snapcn",
+    "name": "snapcn",
+    "status": "accepted",
+    "reason": "Source-reviewed at 18b973d7592adf2099a4d5cc2d8970862a4e1172 as one tool. MIT component library for Remotion, installed through the shadcn CLI. The public component count remains 待确认; 21 and 62 are not reviewed catalog counts. Distinct from Remocn/remocn, which is not cataloged and is not an alias. Preview hotlinks hero.gif. redistributable is false. Not render-tested. The official site and in-browser editor were not visually reviewed.",
+    "resource_id": "snapcn",
+    "evidence_ids": [
+      "S-CV-234"
+    ],
+    "created_at": "2026-11-17T03:07:40.000Z",
+    "updated_at": "2026-11-17T03:07:41.000Z",
+    "history": [
+      {
+        "at": "2026-11-17T03:07:40.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-17T03:07:41.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 18b973d7592adf2099a4d5cc2d8970862a4e1172 as one tool. MIT component library for Remotion, installed through the shadcn CLI. The public component count remains 待确认; 21 and 62 are not reviewed catalog counts. Distinct from Remocn/remocn, which is not cataloged and is not an alias. Preview hotlinks hero.gif. redistributable is false. Not render-tested. The official site and in-browser editor were not visually reviewed."
+      }
+    ]
+  },
+  {
+    "id": "C-6c3e60464da1",
+    "url": "https://github.com/nexu-io/openmotion",
+    "name": "openmotion",
+    "status": "accepted",
+    "reason": "Source-reviewed at 664be5086141b09fe08b2638e43a8728c3a615b7 as one framework. Distinct from catalog project open-motion (jsongo/open-motion only) and from cataloged sister repositories html-video and open-design. License is not clean Apache-2.0: root LICENSE has a placeholder copyright line, studio/LICENSE is Copyright 2026 HeyGen, Inc. on HyperFrames 0.9.7, and third-party templates, media, fonts, and GSAP/GreenSock keep their own terms. OpenDesign Plus/Pro/Max is an account entitlement, not a precondition for this code. Preview hotlinks the official CDN GIF. redistributable is false. Not render-tested. The completeness trio is incomplete.",
+    "resource_id": "openmotion",
+    "evidence_ids": [
+      "S-CV-235"
+    ],
+    "created_at": "2026-11-18T03:47:46.116Z",
+    "updated_at": "2026-11-18T03:47:52.871Z",
+    "history": [
+      {
+        "at": "2026-11-18T03:47:46.116Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-18T03:47:52.871Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 664be5086141b09fe08b2638e43a8728c3a615b7 as one framework. Distinct from catalog project open-motion (jsongo/open-motion only) and from cataloged sister repositories html-video and open-design. License is not clean Apache-2.0: root LICENSE has a placeholder copyright line, studio/LICENSE is Copyright 2026 HeyGen, Inc. on HyperFrames 0.9.7, and third-party templates, media, fonts, and GSAP/GreenSock keep their own terms. OpenDesign Plus/Pro/Max is an account entitlement, not a precondition for this code. Preview hotlinks the official CDN GIF. redistributable is false. Not render-tested. The completeness trio is incomplete."
+      }
+    ]
+  },
+  {
+    "id": "C-a31709846a6a",
+    "url": "https://github.com/leonxlnx/cinetic",
+    "name": "cinetic",
+    "status": "accepted",
+    "reason": "Re-review of the 2026-11-10 pin f4bbfc844877891fe92279d47b7874fb44d485ae as one workflow. Root license is MIT. Remotion terms and GSAP/GreenSock terms still apply. Media-branch demos are an older snapshot relative to the main 1.5 line. Preview hotlinks muted ledgerly-feature-loop.mp4. Music and font rights are unverified, so redistributable is false. Not render-tested. The completeness trio is incomplete.",
+    "resource_id": "cinetic",
+    "evidence_ids": [
+      "S-CV-236"
+    ],
+    "created_at": "2026-11-18T03:47:46.686Z",
+    "updated_at": "2026-11-18T03:47:53.414Z",
+    "history": [
+      {
+        "at": "2026-11-18T03:47:46.686Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-18T03:47:53.414Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Re-review of the 2026-11-10 pin f4bbfc844877891fe92279d47b7874fb44d485ae as one workflow. Root license is MIT. Remotion terms and GSAP/GreenSock terms still apply. Media-branch demos are an older snapshot relative to the main 1.5 line. Preview hotlinks muted ledgerly-feature-loop.mp4. Music and font rights are unverified, so redistributable is false. Not render-tested. The completeness trio is incomplete."
+      }
+    ]
+  },
+  {
+    "id": "C-aa78fecdf885",
+    "url": "https://github.com/artemnovitckii/claude-animation-skills",
+    "name": "claude-animation-skills",
+    "status": "accepted",
+    "reason": "Source-reviewed at 86f70106c9aeae1334184467da5776c533ada3bc as one workflow. Do not split it into separate skills. /zach-3d-films aliases /zach-d-films, so there are 10 unique commands, not 11. License is not clean MIT: GitHub SPDX is Other / NOASSERTION, the LICENSE body is MIT (Copyright 2026 Artem Novitckii), and kit/fonts are SIL OFL 1.1. HyperFrames and GSAP/GreenSock are fetched at install and are not MIT-licensed by this repository. Style names are aesthetic references; the README disclaims affiliation with Zack D. Films. No official MP4 was verified. Preview hotlinks docs/skills.jpg. redistributable is false. Not render-tested. SKILL.md does not complete the trio.",
+    "resource_id": "claude-animation-skills",
+    "evidence_ids": [
+      "S-CV-237"
+    ],
+    "created_at": "2026-11-18T03:47:47.250Z",
+    "updated_at": "2026-11-18T03:47:53.947Z",
+    "history": [
+      {
+        "at": "2026-11-18T03:47:47.250Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-18T03:47:53.947Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 86f70106c9aeae1334184467da5776c533ada3bc as one workflow. Do not split it into separate skills. /zach-3d-films aliases /zach-d-films, so there are 10 unique commands, not 11. License is not clean MIT: GitHub SPDX is Other / NOASSERTION, the LICENSE body is MIT (Copyright 2026 Artem Novitckii), and kit/fonts are SIL OFL 1.1. HyperFrames and GSAP/GreenSock are fetched at install and are not MIT-licensed by this repository. Style names are aesthetic references; the README disclaims affiliation with Zack D. Films. No official MP4 was verified. Preview hotlinks docs/skills.jpg. redistributable is false. Not render-tested. SKILL.md does not complete the trio."
+      }
+    ]
   }
 ]

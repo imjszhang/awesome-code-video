@@ -731,5 +731,109 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-13"
+  },
+  {
+    "id": "openfilm",
+    "name": "OpenFilm",
+    "url": "https://github.com/openfilm/openfilm",
+    "aliases": [],
+    "urls": [
+      "https://openfilm.dev"
+    ],
+    "github": {
+      "id": 1404197626,
+      "full_name": "openfilm/openfilm",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-16"
+  },
+  {
+    "id": "design-agent",
+    "name": "design-agent",
+    "url": "https://github.com/langchain-ai/design-agent",
+    "aliases": [
+      "Content Studio"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1423996774,
+      "full_name": "langchain-ai/design-agent",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-16"
+  },
+  {
+    "id": "herk-edit-kit",
+    "name": "herk-edit-kit",
+    "url": "https://github.com/nateherkai/herk-edit-kit",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1214519814,
+      "full_name": "nateherkai/herk-edit-kit",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-17"
+  },
+  {
+    "id": "snapcn",
+    "name": "snapcn",
+    "url": "https://github.com/shadcn-labs/snapcn",
+    "aliases": [],
+    "urls": [
+      "https://snapcn.dev"
+    ],
+    "github": {
+      "id": 1310511638,
+      "full_name": "shadcn-labs/snapcn",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-17"
+  },
+  {
+    "id": "openmotion",
+    "name": "openmotion",
+    "url": "https://github.com/nexu-io/openmotion",
+    "aliases": [
+      "OpenMotion"
+    ],
+    "urls": [
+      "https://open-design.ai/motion/"
+    ],
+    "github": {
+      "id": 1235403234,
+      "full_name": "nexu-io/openmotion",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-18"
+  },
+  {
+    "id": "cinetic",
+    "name": "cinetic",
+    "url": "https://github.com/Leonxlnx/cinetic",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1393935935,
+      "full_name": "Leonxlnx/cinetic",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-18"
+  },
+  {
+    "id": "claude-animation-skills",
+    "name": "claude-animation-skills",
+    "url": "https://github.com/artemnovitckii/claude-animation-skills",
+    "aliases": [],
+    "urls": [
+      "https://novitckii.com/resources/animation-skills/",
+      "https://novitckii.com/resources/animation-styles/"
+    ],
+    "github": {
+      "id": 1441434221,
+      "full_name": "artemnovitckii/claude-animation-skills",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-18"
   }
 ]
