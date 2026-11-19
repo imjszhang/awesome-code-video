@@ -835,5 +835,51 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-18"
+  },
+  {
+    "id": "motlab",
+    "name": "motlab",
+    "url": "https://github.com/staryone/motlab",
+    "aliases": [
+      "Motlab"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1460079213,
+      "full_name": "staryone/motlab",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-19"
+  },
+  {
+    "id": "claude-animation-base",
+    "name": "claude-animation-base",
+    "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+    "aliases": [
+      "Claude Animation Base",
+      "ClaudeAnimationBase"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1384159311,
+      "full_name": "JohnHeibel/ClaudeAnimationBase",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-19"
+  },
+  {
+    "id": "motionswift",
+    "name": "motionswift",
+    "url": "https://github.com/rxtech-lab/MotionSwift",
+    "aliases": [
+      "MotionSwift"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1454698744,
+      "full_name": "rxtech-lab/MotionSwift",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-19"
   }
 ]
