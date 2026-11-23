@@ -881,5 +881,35 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-19"
+  },
+  {
+    "id": "mg-styles-15",
+    "name": "mg-styles-15",
+    "url": "https://github.com/Vincentwei1021/mg-styles-15",
+    "aliases": [],
+    "urls": [
+      "https://vincentwei1021.github.io/mg-styles-15/"
+    ],
+    "github": {
+      "id": 1401461555,
+      "full_name": "Vincentwei1021/mg-styles-15",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-23"
+  },
+  {
+    "id": "anidoodle",
+    "name": "anidoodle",
+    "url": "https://github.com/alexgreensh/anidoodle",
+    "aliases": [],
+    "urls": [
+      "https://alexgreenshpun.com"
+    ],
+    "github": {
+      "id": 1381356320,
+      "full_name": "alexgreensh/anidoodle",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-23"
   }
 ]

@@ -29523,5 +29523,59 @@
       "source": "S-CV-240 https://raw.githubusercontent.com/rxtech-lab/MotionSwift/d5cd21c80f3b8ec435ae350f6f8a80b495ebbb38/docs/images/rendering/motionswift.mp4. Hotlink only; not copied into this repository. Not a local render test.",
       "checked_at": "2026-11-19"
     }
+  },
+  {
+    "id": "mg-styles-15",
+    "project_id": "mg-styles-15",
+    "name": "mg-styles-15",
+    "kind": "collection",
+    "url": "https://github.com/Vincentwei1021/mg-styles-15",
+    "section": "Related Lists",
+    "description": "Fifteen motion-design films, one style each, from Vincentwei1021, with the prompt and source for every film. Pictures are drawn in code (SVG, Canvas, WebGL, and Three.js; the 3D film also uses Blender), and soundtracks are synthesized in the repository. This is one collection entry for the 15-style pack; do not split it into fifteen style or film entries, and do not merge it into the cataloged Remotion shot templates from the same author at video-shotcraft. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Vincentwei1021; instrument samples (VCSL), the HDRI, the paper texture, photos, and Natural Earth map data in the HUD film are CC0 or public domain; highlight.min.js is BSD-3-Clause; glyph outlines from OFL fonts stay under the SIL Open Font License; font files are not in the repository and keep their own terms. The catalog preview hotlinks the official in-repo flat-vector MP4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-241"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-23",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-241.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/46fd009ff0988be7ab1d9a64dfe14e501c6c2521/videos/01-flat-vector.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Vincentwei1021. Instrument samples (VCSL), the HDRI, the paper texture, photos, and Natural Earth map data in the HUD film are CC0 or public domain. site/vendor/highlight.min.js is BSD-3-Clause. Glyph outlines in demos/04-3d-render/assets/mesh/ and demos/08-morph/glyphs.json stay under the SIL Open Font License. Font files are not in the repository and keep their own terms.",
+      "attribution": "Vincentwei1021 (https://github.com/Vincentwei1021/mg-styles-15). Official in-repo flat-vector MP4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-241 https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/46fd009ff0988be7ab1d9a64dfe14e501c6c2521/videos/01-flat-vector.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-23"
+    }
+  },
+  {
+    "id": "anidoodle",
+    "project_id": "anidoodle",
+    "name": "anidoodle",
+    "kind": "workflow",
+    "url": "https://github.com/alexgreensh/anidoodle",
+    "section": "Production Workflows",
+    "description": "One workflow entry for anidoodle from alexgreensh, a kit that writes illustrations, loops, and films as code, with a bundled engine and skill; do not split the 32 styles or the engine into separate entries. Marks and scores are written as functions, and four backends share one art core (Playwright, an HTML player, Remotion, and HyperFrames); this catalog does not treat that as a verified compatibility result. The license is Apache-2.0, Copyright 2026 Alex Greenshpun, and is not a complete grant by itself: an optional sound pack is installed from outside the repository (VCSL recordings are CC0; OpenAIR room impulses are CC BY 4.0 and need attribution); a van Gogh reference image in the repository is public domain and is not covered by the Apache license. An author claim that every render is identical is not a verified catalog result. The catalog preview hotlinks the official in-repo Mechanical Lepidoptera MP4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-242"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-23",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-242.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/alexgreensh/anidoodle/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/assets/mechanical-lepidoptera.mp4",
+      "license": "Apache-2.0, Copyright 2026 Alex Greenshpun, is not a complete grant by itself. An optional sound pack is not in the repository and is installed by skills/anidoodle/engine/tools/soundfetch.mjs (VCSL recordings are CC0 1.0; OpenAIR / University of York Audio Lab room impulses are CC BY 4.0 and redistribution must carry attribution). skills/anidoodle/engine/assets/refs/vangogh-almond-blossom.jpg is a public-domain reproduction of van Gogh's Almond Blossom (1890) and is not covered by the Apache grant.",
+      "attribution": "Alex Greenshpun (https://github.com/alexgreensh/anidoodle; https://alexgreenshpun.com). Official in-repo Mechanical Lepidoptera MP4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-242 https://raw.githubusercontent.com/alexgreensh/anidoodle/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/assets/mechanical-lepidoptera.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-23"
+    }
   }
 ]

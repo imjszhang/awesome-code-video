@@ -430,6 +430,7 @@ Awesome Code Video 是一个面向 **AI＋代码视频创作**的精选资源库
 - [cinetic](https://github.com/Leonxlnx/cinetic) - 编程助手写脚本，再在 Remotion 或 GSAP 里导出短片，并带文案检查。本条只收这一条工作流。根许可是 MIT。Remotion 条款和 GSAP/GreenSock 条款仍然适用。media 分支上的演示相对主线 1.5 是更旧的快照，因此完整性三件套不齐。目录预览以静音方式热链 media 分支上的 ledgerly-feature-loop.mp4，未拷进本仓。media 分支 README 有演示 MIT 声明；底层音乐和字体权利仍未核验。未做渲染实测。
 - [claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills) - 本条只收这一条 Claude 动画技能工作流，不要按技能拆成多条。/zach-3d-films 是 /zach-d-films 的别名，独立命令是 10 个，不是 11 个。许可不是干净的 MIT：GitHub SPDX 为 Other / NOASSERTION，LICENSE 正文是 MIT（Copyright 2026 Artem Novitckii），kit/fonts 为 SIL OFL 1.1。HyperFrames 与 GSAP/GreenSock 在安装时拉取，并不由本仓以 MIT 再授权。Kurzgesagt、Dan Koe、Minecraft 和 Zack D. Films 只是风格指向；README 已声明与 Zack D. Films 无隶属。目录预览热链 docs/skills.jpg，未拷进本仓。第三方声称跑通示例，不算本目录的渲染实测。未做渲染实测。完整性三件套不齐。
 - [claude-animation-base](https://github.com/JohnHeibel/ClaudeAnimationBase) - 本条只收这一条工作流：用编程助手做 p5.js 与 p5.brush 手绘卡通的起步包，不要按场景或技能拆成多条。它是作者从成片仓 PDoomVideo 抽出的更通用底座，必须与该成片仓分开，也必须与已收录的工作流 claude-animation-skills 分开。许可不是干净的 MIT：根 LICENSE 是 MIT，版权为 Copyright 2026 John Heibel；p5.js 为 LGPL-2.1；p5.brush 为 MIT。套件角色是 Clawd；本目录尚未确认隶属或形象使用许可。目录预览热链 docs/emotions.webp，未拷进本仓。仓内没有已提交的官方 MP4。ANIMATION_GUIDE.md 不能补齐完整性三件套。未做渲染实测。完整性三件套不齐。
+- [anidoodle](https://github.com/alexgreensh/anidoodle) - 本条只收 anidoodle 这一条工作流：alexgreensh 把插画、循环和成片写成代码的套件，引擎和 skill 一并收录，不要把 32 种风格或引擎拆成多条。笔触和配乐都写成函数，四个后端共用一个 art core（Playwright、HTML 播放器、Remotion 和 HyperFrames）；本目录不把该兼容主张写成已核实。许可是 Apache-2.0，版权为 Copyright 2026 Alex Greenshpun，但不是完整授权本身：可选音源包从仓外安装（VCSL 采样为 CC0；OpenAIR 房间脉冲为 CC BY 4.0，再分发须带归属）；仓内一幅梵高参考图为公有领域，不受 Apache 许可覆盖。作者声称每次渲染都一致，不是本目录已核实的结果。目录预览热链仓内官方 Mechanical Lepidoptera MP4，未拷进本仓。未做渲染实测。完整性三件套不齐。
 
 ## 生成式视频提示词
 
@@ -450,6 +451,7 @@ Awesome Code Video 是一个面向 **AI＋代码视频创作**的精选资源库
 
 - [Awesome Video as Code](https://github.com/voidforall/awesome-video-as-code) - 更广泛的编程助手视频工具、制作流程、案例与研究资源。
 - [Awesome Video Skills](https://github.com/AaronAust1n/awesome-video-skills) - 更广泛的视频制作工具、框架、技能与自动化流程。
+- [mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) - Vincentwei1021 的 15 支动态设计成片，一种风格一支，并附每支的提示词和源码。画面用代码绘制（SVG、Canvas、WebGL 和 Three.js；3D 那一支还用 Blender），声轨也在仓内合成。本条只收这一条 collection，包住这 15 风格成片包，不要拆成 15 条风格或成片，也不要并进同作者已收录的 Remotion 镜头模板 video-shotcraft。许可不是干净的 MIT：根 LICENSE 是 MIT，版权为 Copyright 2026 Vincentwei1021；乐器采样（VCSL）、HDRI、纸纹、照片，以及 HUD 成片里的 Natural Earth 地图数据为 CC0 或公有领域；highlight.min.js 为 BSD-3-Clause；来自 OFL 字体的字形轮廓仍受 SIL Open Font License 约束；字体文件不在仓内，条款各自保留。目录预览热链仓内官方 flat-vector MP4，未拷进本仓。未做渲染实测。完整性三件套不齐。
 
 
 ## 复用边界
