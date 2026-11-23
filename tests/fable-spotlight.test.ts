@@ -34,9 +34,9 @@ function spotlightSection(html: string) {
 
 test('standalone gallery keeps every post and stays out of the catalog files', () => {
   const items = fableSpotlightItems();
-  assert.equal(fableSpotlight.item_count, 2069);
-  assert.equal(items.length, 2069);
-  assert.equal(new Set(items.map(item => item.id)).size, 2069);
+  assert.equal(fableSpotlight.item_count, 3207);
+  assert.equal(items.length, 3207);
+  assert.equal(new Set(items.map(item => item.id)).size, 3207);
   assert.equal(fableSpotlight.eyebrow, 'Now trending');
   assert.equal(fableSpotlight.title, 'Fable 5.2');
   assert.match(fableSpotlight.description, /public posts of code videos made with Claude Fable 5\.2/i);
@@ -66,9 +66,13 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
   for (const item of items) assert.equal(posters.some(name => name.includes(item.id)), false, item.id);
   const stills = new Map(fableSpotlightPosters.map(record => [record.id, record]));
   const withPreview = items.filter(item => item.preview);
-  assert.equal(withPreview.length, 2068);
-  assert.equal(stills.size, withPreview.length);
-  for (const item of withPreview) {
+  assert.equal(withPreview.length, 3206);
+  // These four preview URLs return HTTP 404, so they stay in the gallery without a local still.
+  const previewDownloadFailed = ['2122301405394276846', '2122337092130992542', '2122397021583855657', '2122700074958594335'];
+  const withPoster = withPreview.filter(item => !previewDownloadFailed.includes(item.id));
+  assert.equal(withPoster.length, 3202);
+  assert.equal(stills.size, withPoster.length);
+  for (const item of withPoster) {
     const still = stills.get(item.id);
     assert.ok(still, item.id);
     assert.equal(still.source_url, item.preview);
@@ -77,6 +81,14 @@ test('standalone gallery keeps every post and stays out of the catalog files', (
     assert.equal(spotlightStill(item, path => `/${path}`), still.poster);
   }
   assert.equal(stills.has('2120872572325928987'), false);
+  for (const id of previewDownloadFailed) {
+    const item = items.find(entry => entry.id === id);
+    assert.ok(item, id);
+    assert.equal(Boolean(item.preview), true, id);
+    assert.equal(stills.has(id), false, id);
+    assert.equal(existsSync(new URL(`../web/public/spotlight/fable-5-2/${id}.webp`, import.meta.url)), false, id);
+    assert.equal(spotlightStill(item), item.preview);
+  }
   assert.equal(spotlightStill({id: 'missing-post', preview: 'https://pbs.twimg.com/a.jpg'}), 'https://pbs.twimg.com/a.jpg');
 });
 
@@ -209,11 +221,11 @@ test('spotlight index lists all posts, keeps catalog routes unchanged, and is a 
   const cards = [...html.matchAll(/data-spotlight-id="(\d+)"/g)].map(match => match[1]);
   const blocks = fableSpotlightBlocks(items);
   assert.deepEqual(cards, blocks.flatMap(block => block.items.map(item => item.id)));
-  assert.equal(cards.length, 2069);
+  assert.equal(cards.length, 3207);
   const rendered = frameSections(html);
   assert.deepEqual(rendered.map(block => block.frame), blocks.map(block => block.frame));
   for (const block of rendered) assert.ok(block.frames.every(frame => frame === block.frame));
-  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 2069);
+  assert.equal(rendered.reduce((sum, block) => sum + block.ids.length, 0), 3207);
   assert.match(html, /href="https:\/\/x\.com\//);
   assert.equal([...html.matchAll(/role="dialog"/g)].length, 0);
   assert.equal([...html.matchAll(/<video\b/g)].length, 0, 'static HTML does not mount a player for every post');
