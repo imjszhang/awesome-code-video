@@ -29442,5 +29442,86 @@
       "source": "S-CV-237 https://raw.githubusercontent.com/artemnovitckii/claude-animation-skills/86f70106c9aeae1334184467da5776c533ada3bc/docs/skills.jpg. Hotlink only; not copied into this repository. Not a local render test.",
       "checked_at": "2026-11-18"
     }
+  },
+  {
+    "id": "motlab",
+    "project_id": "motlab",
+    "name": "motlab",
+    "kind": "framework",
+    "url": "https://github.com/staryone/motlab",
+    "section": "Frameworks and Renderers",
+    "description": "Open-source video-as-code engine from staryone. Each scene is a canvas page with one renderAt(t) function, exported to MP4 in headless Chrome with WebCodecs, and played in a review viewer. This is a single framework entry for the engine, the viewer, and the bundled motlab and motlab-assets skills; do not split those skills into separate entries. It is not a Remotion or HyperFrames plugin. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Stanyslaus Hary (motlab); Mediabunny, pulled at install, is MPL-2.0; optional scene libraries keep their own terms, including p5.js (LGPL-2.1) and GSAP/GreenSock. An author claim that it is faster than Remotion and HyperFrames is one scene on one Windows laptop, not a verified catalog result. The catalog preview hotlinks the official in-repo demo.avif; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-238"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-19",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, benchmark, and preview notes are in S-CV-238.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/staryone/motlab/9a44f752fc25e4016dd1a7632fdcb332111638c2/assets/demo.avif",
+      "license": "Not clean MIT. Root LICENSE is MIT, Copyright 2026 Stanyslaus Hary (motlab). Mediabunny, pulled at install, is MPL-2.0. Optional scene libraries keep their own terms, including p5.js (LGPL-2.1) and GSAP/GreenSock. Demo redistributability left false.",
+      "attribution": "staryone (https://github.com/staryone/motlab). Official in-repo demo.avif hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-238 https://raw.githubusercontent.com/staryone/motlab/9a44f752fc25e4016dd1a7632fdcb332111638c2/assets/demo.avif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-19"
+    }
+  },
+  {
+    "id": "claude-animation-base",
+    "project_id": "claude-animation-base",
+    "name": "claude-animation-base",
+    "kind": "workflow",
+    "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+    "section": "Production Workflows",
+    "description": "One workflow entry for this p5.js and p5.brush starter kit for hand-painted cartoon animation with a coding agent; do not split it into separate scenes or skills. It is a more general base extracted from the author's finished film repository PDoomVideo, and it must stay a separate catalog entry from that film and from the cataloged workflow claude-animation-skills. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 John Heibel; p5.js is LGPL-2.1; p5.brush is MIT. Clawd is the character in the kit; this catalog has not confirmed affiliation or permission to use the character. The catalog preview hotlinks docs/emotions.webp; it was not copied into this repository. The repository has no official committed MP4. ANIMATION_GUIDE.md does not complete the completeness trio. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-239"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-19",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, character, and relationship notes are in S-CV-239.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/JohnHeibel/ClaudeAnimationBase/0ac8bf2b31942376cb6b8c4074715595d512acd2/docs/emotions.webp",
+      "license": "Not clean MIT. Root LICENSE is MIT, Copyright 2026 John Heibel. p5.js is LGPL-2.1. p5.brush is MIT. Character-use permission is unconfirmed. Emotions-sheet redistributability left false.",
+      "attribution": "John Heibel (https://github.com/JohnHeibel/ClaudeAnimationBase). docs/emotions.webp hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-239 https://raw.githubusercontent.com/JohnHeibel/ClaudeAnimationBase/0ac8bf2b31942376cb6b8c4074715595d512acd2/docs/emotions.webp. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-19"
+    }
+  },
+  {
+    "id": "motionswift",
+    "project_id": "motionswift",
+    "name": "motionswift",
+    "kind": "framework",
+    "url": "https://github.com/rxtech-lab/MotionSwift",
+    "section": "Frameworks and Renderers",
+    "description": "Native Remotion-compatible renderer and editor from rxtech-lab, built with Swift, Skia, and Metal for macOS 14 and iOS 17. This is a single framework entry; do not split the bundled agent skill into a separate entry. It is not the cataloged Remotion project, and it is not a Remotion template pack. The authors say full Remotion compatibility is not there yet; this catalog records a documented subset, not a verified claim of 100% compatibility. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 MotionSwift contributors; third-party dependencies and bundled tools keep their own terms, including Yoga, Sparkle, Skia, tsgo, esbuild, and ffmpeg; Remotion's terms still apply and are not relicensed by this repository. The catalog preview hotlinks the official in-repo motionswift.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-240"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-19",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, compatibility, and preview notes are in S-CV-240.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/rxtech-lab/MotionSwift/d5cd21c80f3b8ec435ae350f6f8a80b495ebbb38/docs/images/rendering/motionswift.mp4",
+      "license": "Not clean MIT. Root LICENSE is MIT, Copyright 2026 MotionSwift contributors. Yoga, Sparkle, Skia, tsgo, esbuild, and ffmpeg keep their own terms. Remotion's terms still apply and are not relicensed by this repository. Preview redistributability left false.",
+      "attribution": "rxtech-lab (https://github.com/rxtech-lab/MotionSwift). Muted hotlink of the official in-repo motionswift.mp4. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-240 https://raw.githubusercontent.com/rxtech-lab/MotionSwift/d5cd21c80f3b8ec435ae350f6f8a80b495ebbb38/docs/images/rendering/motionswift.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-19"
+    }
   }
 ]
