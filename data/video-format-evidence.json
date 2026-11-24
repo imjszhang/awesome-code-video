@@ -103,5 +103,23 @@
     "source_url": "https://raw.githubusercontent.com/langchain-ai/design-agent/a389e53c6d16b8139c233d7c666cda1255e30cb1/docs/assets/readme/design-agent-explainer.mp4",
     "checked_at": "2026-11-16",
     "note": "The 2026-11-16 source review recorded a container check of the hotlinked pinned explainer: H.264 + AAC, 1280x720, 30 fps, video duration 111.667s, audio duration 111.633s, 48 kHz stereo, size 9340967. Dimensions describe that encoded preview, not a local render and not a visual playback review. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "mg-styles-15",
+    "preview_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/46fd009ff0988be7ab1d9a64dfe14e501c6c2521/videos/01-flat-vector.mp4",
+    "composition_width": 1920,
+    "composition_height": 1080,
+    "source_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/46fd009ff0988be7ab1d9a64dfe14e501c6c2521/videos/01-flat-vector.mp4",
+    "checked_at": "2026-11-23",
+    "note": "ffprobe of the hotlinked pinned flat-vector MP4 on 2026-11-23 reported H.264 yuv420p 1920x1080, 30 fps, 300 frames, duration 10.000s, AAC 48 kHz stereo, format size 4185753. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository."
+  },
+  {
+    "resource_id": "anidoodle",
+    "preview_url": "https://raw.githubusercontent.com/alexgreensh/anidoodle/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/assets/mechanical-lepidoptera.mp4",
+    "composition_width": 1080,
+    "composition_height": 1080,
+    "source_url": "https://raw.githubusercontent.com/alexgreensh/anidoodle/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/assets/mechanical-lepidoptera.mp4",
+    "checked_at": "2026-11-23",
+    "note": "ffprobe of the hotlinked pinned Mechanical Lepidoptera MP4 on 2026-11-23 reported H.264 yuv420p 1080x1080, 30 fps, 1410 frames, video duration 47.000s, AAC 48 kHz stereo duration 47.018s, format size 9021797. Dimensions describe that encoded preview, not a local render. The file was not copied into this repository. banner.gif is a backup hotlink on S-CV-242, not this primary preview."
   }
 ]

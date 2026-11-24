@@ -4933,5 +4933,59 @@
         "reason": "Source-reviewed at d5cd21c80f3b8ec435ae350f6f8a80b495ebbb38 (release 1.2.0) as one framework. Do not split the bundled agent skill. Not the cataloged Remotion project and not a Remotion template pack. The documented compatibility is a subset; a claim of already 100% Remotion compatible is not verified. License is not clean MIT: root LICENSE is MIT, Copyright 2026 MotionSwift contributors; Yoga, Sparkle, Skia, tsgo, esbuild, and ffmpeg keep their own terms; Remotion's terms still apply. Preview hotlinks muted motionswift.mp4. Orientation was not measured. redistributable is false. Not render-tested. The completeness trio is incomplete."
       }
     ]
+  },
+  {
+    "id": "C-9403ddcdbb1e",
+    "url": "https://github.com/Vincentwei1021/mg-styles-15",
+    "name": "mg-styles-15",
+    "status": "accepted",
+    "reason": "Source-reviewed at 46fd009ff0988be7ab1d9a64dfe14e501c6c2521 as one collection in Related Lists. Distinct repository, demo site, and product from cataloged video-shotcraft by the same author. License is not clean MIT: root LICENSE is MIT, Copyright (c) 2026 Vincentwei1021; VCSL, HDRI, paper texture, photos, and Natural Earth map data are CC0 or public domain; highlight.min.js is BSD-3-Clause; OFL glyph outlines stay under the SIL Open Font License; font files are not in the repository. Preview hotlinks the official in-repo flat-vector MP4. redistributable is false. Not render-tested. The completeness trio is incomplete.",
+    "resource_id": "mg-styles-15",
+    "evidence_ids": [
+      "S-CV-241"
+    ],
+    "created_at": "2026-11-23T06:40:00.000Z",
+    "updated_at": "2026-11-23T06:40:01.000Z",
+    "history": [
+      {
+        "at": "2026-11-23T06:40:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-23T06:40:01.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 46fd009ff0988be7ab1d9a64dfe14e501c6c2521 as one collection in Related Lists. Distinct repository, demo site, and product from cataloged video-shotcraft by the same author. License is not clean MIT: root LICENSE is MIT, Copyright (c) 2026 Vincentwei1021; VCSL, HDRI, paper texture, photos, and Natural Earth map data are CC0 or public domain; highlight.min.js is BSD-3-Clause; OFL glyph outlines stay under the SIL Open Font License; font files are not in the repository. Preview hotlinks the official in-repo flat-vector MP4. redistributable is false. Not render-tested. The completeness trio is incomplete."
+      }
+    ]
+  },
+  {
+    "id": "C-b373f673a822",
+    "url": "https://github.com/alexgreensh/anidoodle",
+    "name": "anidoodle",
+    "status": "accepted",
+    "reason": "Source-reviewed at 4ae27d2c281fcfd01bce87ab13dc5ad4df81a795 as one workflow. Engine and skill stay together; do not split the 32 styles or the engine. License is Apache-2.0, Copyright 2026 Alex Greenshpun, and is not a complete grant: the optional sound pack is installed from outside the repository (VCSL CC0; OpenAIR CC BY 4.0), and a public-domain van Gogh reference image is not covered by Apache. An author claim that every render is identical is not a verified catalog result. Preview hotlinks the official in-repo Mechanical Lepidoptera MP4. redistributable is false. Not render-tested. skills/anidoodle/SKILL.md does not complete the trio.",
+    "resource_id": "anidoodle",
+    "evidence_ids": [
+      "S-CV-242"
+    ],
+    "created_at": "2026-11-23T06:40:00.500Z",
+    "updated_at": "2026-11-23T06:40:01.500Z",
+    "history": [
+      {
+        "at": "2026-11-23T06:40:00.500Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-23T06:40:01.500Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 4ae27d2c281fcfd01bce87ab13dc5ad4df81a795 as one workflow. Engine and skill stay together; do not split the 32 styles or the engine. License is Apache-2.0, Copyright 2026 Alex Greenshpun, and is not a complete grant: the optional sound pack is installed from outside the repository (VCSL CC0; OpenAIR CC BY 4.0), and a public-domain van Gogh reference image is not covered by Apache. An author claim that every render is identical is not a verified catalog result. Preview hotlinks the official in-repo Mechanical Lepidoptera MP4. redistributable is false. Not render-tested. skills/anidoodle/SKILL.md does not complete the trio."
+      }
+    ]
   }
 ]
