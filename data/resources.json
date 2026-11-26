@@ -29685,5 +29685,86 @@
       "source": "S-CV-246 https://raw.githubusercontent.com/soundza/soundkit/3fcbafa6af0c4baa652e811a3348a4b9e585d079/assets/soundkit-demo.mp4. Hotlink only; not copied into this repository. Not a local render test.",
       "checked_at": "2026-11-25"
     }
+  },
+  {
+    "id": "brag",
+    "project_id": "brag",
+    "name": "brag",
+    "kind": "workflow",
+    "url": "https://github.com/latent-spaces/brag",
+    "section": "Production Workflows",
+    "description": "One workflow entry for brag, a Claude skill that turns a just-finished project into a short release video with motion, music, and share copy. The classic path hands a brief to the HyperFrames CLI; a slimmer path can run without HyperFrames. Do not merge this into the cataloged HyperFrames entry, or into other video workflow skills. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Shunit Haviv Hakimi; music from ende.app is CC BY 4.0 and needs attribution for commercial use; Kenney sound effects keep their own terms; HyperFrames terms still apply on the classic path and are not relicensed by this repository. The catalog preview hotlinks the official site brag-about-brag.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-247"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-26",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-247.",
+    "preview": {
+      "kind": "video",
+      "url": "https://latent-spaces.github.io/brag/assets/brag-about-brag.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Shunit Haviv Hakimi. Music from ende.app (Happy Beats / Business Moves) is CC BY 4.0 and commercial use needs attribution. Kenney sound effects keep their own terms. HyperFrames terms still apply on the classic path and are not relicensed by this repository. Preview redistributability left false.",
+      "attribution": "Shunit Haviv Hakimi / latent-spaces (https://github.com/latent-spaces/brag; https://latent-spaces.github.io/brag/; https://letsbrag.app/). Official site brag-about-brag.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-247 https://latent-spaces.github.io/brag/assets/brag-about-brag.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-26"
+    }
+  },
+  {
+    "id": "tutorials-kit",
+    "project_id": "tutorials-kit",
+    "name": "Tutorials Kit",
+    "kind": "workflow",
+    "url": "https://github.com/Side-Products/tutorials-kit",
+    "section": "Production Workflows",
+    "description": "One workflow entry for Tutorials Kit, which records browser steps with Playwright and renders a narrated tutorial video with Remotion, plus screenshots and docs. Do not merge this into autocast or into other Remotion workflow entries. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Side-Products and Tutorials Kit contributors; Remotion's company terms still apply and are not relicensed by this repository; Playwright, FFmpeg, and optional voice services keep their own terms. The catalog preview hotlinks the official in-repo tutorials-kit-demo.gif, which is silent; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-248"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-26",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-248.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/Side-Products/tutorials-kit/49a25ce01a1489eca44d18c388a2448634fd3a12/docs/assets/tutorials-kit-demo.gif",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Side-Products and Tutorials Kit contributors. Remotion company terms still apply and commercial use may need a separate purchase; they are not relicensed by this repository. Playwright, Sharp, FFmpeg, and optional OpenAI-compatible and ElevenLabs voice services keep their own terms. Faceless examples do not grant third-party brand, music, or voice rights. GIF redistributability left false.",
+      "attribution": "Side-Products (https://github.com/Side-Products/tutorials-kit). Official in-repo tutorials-kit-demo.gif hotlink. The GIF is silent. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-248 https://raw.githubusercontent.com/Side-Products/tutorials-kit/49a25ce01a1489eca44d18c388a2448634fd3a12/docs/assets/tutorials-kit-demo.gif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-26"
+    }
+  },
+  {
+    "id": "autocast",
+    "project_id": "autocast",
+    "name": "Autocast",
+    "kind": "workflow",
+    "url": "https://github.com/nikhil-r0/autocast",
+    "section": "Production Workflows",
+    "description": "One workflow entry for Autocast, which verifies a real browser flow and then renders a product demo video with Playwright, Remotion, and optional Gemini or voice services. Do not merge this into tutorials-kit or into other Remotion workflow entries. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Autocast AI contributors; Remotion's company terms still apply and are not relicensed by this repository; Playwright, Kane, Gemini, and optional voice services keep their own terms. Author claims about a verification or proof chain are not verified catalog results. The catalog preview hotlinks the official in-repo sample-demo.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-249"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-26",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-249.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nikhil-r0/autocast/e3a89b28cdaa59b93bcc0ff847478d398956f571/examples/output/sample-demo.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Autocast AI contributors. Remotion company terms still apply and are not relicensed by this repository. Playwright, Kane CLI / LambdaTest hosted-report terms, Google Gemini, and ElevenLabs keep their own terms. Preview redistributability left false.",
+      "attribution": "nikhil-r0 (https://github.com/nikhil-r0/autocast). Official in-repo sample-demo.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-249 https://raw.githubusercontent.com/nikhil-r0/autocast/e3a89b28cdaa59b93bcc0ff847478d398956f571/examples/output/sample-demo.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-26"
+    }
   }
 ]

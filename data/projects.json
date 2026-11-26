@@ -977,5 +977,50 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "brag",
+    "name": "brag",
+    "url": "https://github.com/latent-spaces/brag",
+    "aliases": [
+      "shunithaviv",
+      "Shunit Haviv Hakimi"
+    ],
+    "urls": [
+      "https://latent-spaces.github.io/brag/",
+      "https://letsbrag.app/"
+    ],
+    "github": {
+      "id": 1271560627,
+      "full_name": "latent-spaces/brag",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-26"
+  },
+  {
+    "id": "tutorials-kit",
+    "name": "Tutorials Kit",
+    "url": "https://github.com/Side-Products/tutorials-kit",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1350451936,
+      "full_name": "Side-Products/tutorials-kit",
+      "default_branch": "master"
+    },
+    "identity_checked_at": "2026-11-26"
+  },
+  {
+    "id": "autocast",
+    "name": "Autocast",
+    "url": "https://github.com/nikhil-r0/autocast",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1459008953,
+      "full_name": "nikhil-r0/autocast",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-26"
   }
 ]
