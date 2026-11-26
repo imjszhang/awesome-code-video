@@ -911,5 +911,71 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-23"
+  },
+  {
+    "id": "claude-code-video-toolkit",
+    "name": "claude-code-video-toolkit",
+    "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+    "aliases": [
+      "Claude Code Video Toolkit"
+    ],
+    "urls": [
+      "https://digitalsamba.github.io/claude-code-video-toolkit/"
+    ],
+    "github": {
+      "id": 1113327297,
+      "full_name": "digitalsamba/claude-code-video-toolkit",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "remocn",
+    "name": "remocn",
+    "url": "https://github.com/Remocn/remocn",
+    "aliases": [
+      "Remocn"
+    ],
+    "urls": [
+      "https://remocn.dev"
+    ],
+    "github": {
+      "id": 1204316823,
+      "full_name": "Remocn/remocn",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "uberscene",
+    "name": "uberscene",
+    "url": "https://github.com/prefix-tree/uberscene",
+    "aliases": [],
+    "urls": [
+      "https://uberscene.prefixtree.xyz/"
+    ],
+    "github": {
+      "id": 1433333000,
+      "full_name": "prefix-tree/uberscene",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "soundkit",
+    "name": "soundkit",
+    "url": "https://github.com/soundza/soundkit",
+    "aliases": [
+      "SoundKit"
+    ],
+    "urls": [
+      "https://soundza.com/soundkit"
+    ],
+    "github": {
+      "id": 1411080026,
+      "full_name": "soundza/soundkit",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
   }
 ]

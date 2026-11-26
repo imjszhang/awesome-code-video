@@ -4987,5 +4987,113 @@
         "reason": "Source-reviewed at 4ae27d2c281fcfd01bce87ab13dc5ad4df81a795 as one workflow. Engine and skill stay together; do not split the 32 styles or the engine. License is Apache-2.0, Copyright 2026 Alex Greenshpun, and is not a complete grant: the optional sound pack is installed from outside the repository (VCSL CC0; OpenAIR CC BY 4.0), and a public-domain van Gogh reference image is not covered by Apache. An author claim that every render is identical is not a verified catalog result. Preview hotlinks the official in-repo Mechanical Lepidoptera MP4. redistributable is false. Not render-tested. skills/anidoodle/SKILL.md does not complete the trio."
       }
     ]
+  },
+  {
+    "id": "C-3c1a3c3516a4",
+    "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+    "name": "Claude Code Video Toolkit",
+    "status": "accepted",
+    "reason": "Source-reviewed at 0dbebf625f19d5b078a4f4aae71cc038ef6a4a70 as one workflow. Do not split the skills. Do not merge into remotion-agent-skills, cinetic, herk-edit-kit, claude-animation-skills, or claude-animation-base. License is not clean MIT: root LICENSE is MIT, Copyright 2024 Digital Samba; Remotion company terms, ElevenLabs and other cloud, model, and account services, and optional Blender keep their own terms. An author-measured cost is not a verified catalog result. Preview hotlinks site/media/made-with.mp4. redistributable is false. Not render-tested. The completeness trio is incomplete.",
+    "resource_id": "claude-code-video-toolkit",
+    "evidence_ids": [
+      "S-CV-243"
+    ],
+    "created_at": "2026-11-26T02:55:00.000Z",
+    "updated_at": "2026-11-26T02:55:01.000Z",
+    "history": [
+      {
+        "at": "2026-11-26T02:55:00.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-26T02:55:01.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 0dbebf625f19d5b078a4f4aae71cc038ef6a4a70 as one workflow. Do not split the skills. Do not merge into remotion-agent-skills, cinetic, herk-edit-kit, claude-animation-skills, or claude-animation-base. License is not clean MIT: root LICENSE is MIT, Copyright 2024 Digital Samba; Remotion company terms, ElevenLabs and other cloud, model, and account services, and optional Blender keep their own terms. An author-measured cost is not a verified catalog result. Preview hotlinks site/media/made-with.mp4. redistributable is false. Not render-tested. The completeness trio is incomplete."
+      }
+    ]
+  },
+  {
+    "id": "C-f234fe5fd332",
+    "url": "https://github.com/Remocn/remocn",
+    "name": "Remocn",
+    "status": "accepted",
+    "reason": "Source-reviewed at b8ba8c384c2cd6e93eb83df1fbbdb23f640873c1 as one tool, replacing the 2026-11-10 pin cef7bd214f159b827bb928014509194774826167. Do not merge into snapcn or remotion-agent-skills. Do not split the component registry. License is not clean MIT: root LICENSE is MIT, Copyright 2026 Remocn; Remotion company terms and bundled Fontsource fonts keep their own terms. Preview hotlinks tidepool-remocn.mp4. redistributable is false. Not render-tested. The completeness trio is incomplete.",
+    "resource_id": "remocn",
+    "evidence_ids": [
+      "S-CV-244"
+    ],
+    "created_at": "2026-11-26T02:55:02.000Z",
+    "updated_at": "2026-11-26T02:55:03.000Z",
+    "history": [
+      {
+        "at": "2026-11-26T02:55:02.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-26T02:55:03.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at b8ba8c384c2cd6e93eb83df1fbbdb23f640873c1 as one tool, replacing the 2026-11-10 pin cef7bd214f159b827bb928014509194774826167. Do not merge into snapcn or remotion-agent-skills. Do not split the component registry. License is not clean MIT: root LICENSE is MIT, Copyright 2026 Remocn; Remotion company terms and bundled Fontsource fonts keep their own terms. Preview hotlinks tidepool-remocn.mp4. redistributable is false. Not render-tested. The completeness trio is incomplete."
+      }
+    ]
+  },
+  {
+    "id": "C-8304a18a0345",
+    "url": "https://github.com/prefix-tree/uberscene",
+    "name": "uberscene",
+    "status": "accepted",
+    "reason": "Source-reviewed at 2717df7669ba557a0078386d003fd48aacd90daf as one framework. Do not merge into remotion, hyperframes, html-video, motlab, or openmotion. License is not clean MIT: root LICENSE is MIT, Copyright 2026 Bohdan Snisar; native codecs come from craft-libs (MIT OR Apache-2.0); loudness code is adapted from HyperFrames (Copyright 2026 HeyGen, Inc., Apache-2.0). GSAP runtime load remains 待确认. Preview hotlinks product.webm. redistributable is false. Not render-tested. The completeness trio is incomplete.",
+    "resource_id": "uberscene",
+    "evidence_ids": [
+      "S-CV-245"
+    ],
+    "created_at": "2026-11-26T02:55:04.000Z",
+    "updated_at": "2026-11-26T02:55:05.000Z",
+    "history": [
+      {
+        "at": "2026-11-26T02:55:04.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-26T02:55:05.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 2717df7669ba557a0078386d003fd48aacd90daf as one framework. Do not merge into remotion, hyperframes, html-video, motlab, or openmotion. License is not clean MIT: root LICENSE is MIT, Copyright 2026 Bohdan Snisar; native codecs come from craft-libs (MIT OR Apache-2.0); loudness code is adapted from HyperFrames (Copyright 2026 HeyGen, Inc., Apache-2.0). GSAP runtime load remains 待确认. Preview hotlinks product.webm. redistributable is false. Not render-tested. The completeness trio is incomplete."
+      }
+    ]
+  },
+  {
+    "id": "C-621a71f9e10a",
+    "url": "https://github.com/soundza/soundkit",
+    "name": "SoundKit",
+    "status": "accepted",
+    "reason": "Source-reviewed at 3fcbafa6af0c4baa652e811a3348a4b9e585d079 as one tool. Do not split the 250 sounds. Do not merge into snapcn or remocn. License is not clean MIT and is not all CC0: code is MIT, Copyright 2026 Soundza; the 250 in-repo sounds are CC0 1.0; wider Soundza library downloads use the Soundza License; Remotion company terms still apply. An author frame-accuracy claim is not a verified catalog result. Preview hotlinks soundkit-demo.mp4. redistributable is false. Not render-tested. The completeness trio is incomplete.",
+    "resource_id": "soundkit",
+    "evidence_ids": [
+      "S-CV-246"
+    ],
+    "created_at": "2026-11-26T02:55:06.000Z",
+    "updated_at": "2026-11-26T02:55:07.000Z",
+    "history": [
+      {
+        "at": "2026-11-26T02:55:06.000Z",
+        "from": null,
+        "to": "pending",
+        "reason": "Added for review."
+      },
+      {
+        "at": "2026-11-26T02:55:07.000Z",
+        "from": "pending",
+        "to": "accepted",
+        "reason": "Source-reviewed at 3fcbafa6af0c4baa652e811a3348a4b9e585d079 as one tool. Do not split the 250 sounds. Do not merge into snapcn or remocn. License is not clean MIT and is not all CC0: code is MIT, Copyright 2026 Soundza; the 250 in-repo sounds are CC0 1.0; wider Soundza library downloads use the Soundza License; Remotion company terms still apply. An author frame-accuracy claim is not a verified catalog result. Preview hotlinks soundkit-demo.mp4. redistributable is false. Not render-tested. The completeness trio is incomplete."
+      }
+    ]
   }
 ]
