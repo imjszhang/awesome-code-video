@@ -28,13 +28,17 @@ const HOTLINK_IDS = [
   'motionswift',
   'mg-styles-15',
   'anidoodle',
+  'claude-code-video-toolkit',
+  'remocn',
+  'uberscene',
+  'soundkit',
   'brag',
   'tutorials-kit',
   'autocast',
 ];
 
 /** Playable hotlinks with no still. Do not frame-extract a poster for these. */
-const HOTLINK_VIDEO_WITHOUT_POSTER = new Set(['herk-edit-kit', 'cinetic', 'motionswift', 'mg-styles-15', 'anidoodle', 'brag', 'autocast']);
+const HOTLINK_VIDEO_WITHOUT_POSTER = new Set(['herk-edit-kit', 'cinetic', 'motionswift', 'mg-styles-15', 'anidoodle', 'claude-code-video-toolkit', 'remocn', 'uberscene', 'soundkit', 'brag', 'autocast']);
 
 test('every bundled MP4 has a real, traceable WebP poster', () => {
   const videos = resources.filter(r => r.preview?.kind === 'video' && new URL(r.preview.url).pathname.endsWith('.mp4'));

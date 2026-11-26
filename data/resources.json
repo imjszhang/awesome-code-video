@@ -18104,7 +18104,7 @@
     "kind": "tool",
     "url": "https://github.com/shadcn-labs/snapcn",
     "section": "Motion Design Tools",
-    "description": "Remotion component library installed through the shadcn CLI, for product-demo motion in a user's own Remotion project. This is a single tool entry and is not split into films or scenes by component. The public component count remains 待确认. The repository is MIT (Copyright Sri Nath (snap-cn)). This project is distinct from Remocn/remocn and is not an alias of it; Remocn is not in this catalog. Source-reviewed on 2026-11-17 at 18b973d7592adf2099a4d5cc2d8970862a4e1172. The catalog preview hotlinks https://media.snapcn.dev/site/hero.gif; it was not copied into this repository. Not render-tested.",
+    "description": "Remotion component library installed through the shadcn CLI, for product-demo motion in a user's own Remotion project. This is a single tool entry and is not split into films or scenes by component. The public component count remains 待确认. The repository is MIT (Copyright Sri Nath (snap-cn)). This project is distinct from Remocn/remocn and is not an alias of it. Source-reviewed on 2026-11-17 at 18b973d7592adf2099a4d5cc2d8970862a4e1172. The catalog preview hotlinks https://media.snapcn.dev/site/hero.gif; it was not copied into this repository. Not render-tested.",
     "evidence_ids": [
       "S-CV-234"
     ],
@@ -29576,6 +29576,114 @@
       "redistributable": false,
       "source": "S-CV-242 https://raw.githubusercontent.com/alexgreensh/anidoodle/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/assets/mechanical-lepidoptera.mp4. Hotlink only; not copied into this repository. Not a local render test.",
       "checked_at": "2026-11-23"
+    }
+  },
+  {
+    "id": "claude-code-video-toolkit",
+    "project_id": "claude-code-video-toolkit",
+    "name": "Claude Code Video Toolkit",
+    "kind": "workflow",
+    "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+    "section": "Production Workflows",
+    "description": "One workflow entry for Digital Samba's Claude Code video toolkit: it writes the script, voice, pictures, and a Remotion or MoviePy render from a prompt or a template. This single entry covers the templates, skills, and Python tools together; do not split the skills into separate entries, and do not merge it into the cataloged Remotion or Claude animation workflows. The license is not clean MIT: the root LICENSE is MIT, Copyright 2024 Digital Samba; Remotion's company terms still apply and are not relicensed by this repository; ElevenLabs and other cloud, model, and account services keep their own terms; optional Blender keeps its terms. An author-measured cost for a 90-second film is not a verified catalog result. The catalog preview hotlinks the official in-repo made-with.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-243"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-243.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/0dbebf625f19d5b078a4f4aae71cc038ef6a4a70/site/media/made-with.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2024 Digital Samba. Remotion company terms still apply if used to compose or export and are not relicensed by this repository. ElevenLabs and other cloud, model, and account services keep their own terms. Optional Blender keeps its terms. Preview redistributability left false.",
+      "attribution": "Digital Samba (https://github.com/digitalsamba/claude-code-video-toolkit; https://digitalsamba.github.io/claude-code-video-toolkit/). Official in-repo made-with.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-243 https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/0dbebf625f19d5b078a4f4aae71cc038ef6a4a70/site/media/made-with.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
+    }
+  },
+  {
+    "id": "remocn",
+    "project_id": "remocn",
+    "name": "Remocn",
+    "kind": "tool",
+    "url": "https://github.com/Remocn/remocn",
+    "section": "Motion Design Tools",
+    "description": "One tool entry for Remocn, a Remotion component registry with a Claude Code plugin, agent skill, and MCP server that plans a storyboard and installs components into a Remotion project. Do not split the component registry into many film entries, and do not merge this into the cataloged snapcn tool. Remotion is a prerequisite. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Remocn; Remotion's company terms still apply and are not relicensed by this repository; bundled Fontsource fonts keep their own terms. The catalog preview hotlinks the official in-repo tidepool-remocn.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-244"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-244.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/Remocn/remocn/b8ba8c384c2cd6e93eb83df1fbbdb23f640873c1/public/videos/plugin-test/tidepool-remocn.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Remocn. Remotion company terms still apply and are not relicensed by this repository. Bundled Fontsource fonts keep their own terms. Preview redistributability left false.",
+      "attribution": "Remocn (https://github.com/Remocn/remocn; https://remocn.dev). Official in-repo tidepool-remocn.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-244 https://raw.githubusercontent.com/Remocn/remocn/b8ba8c384c2cd6e93eb83df1fbbdb23f640873c1/public/videos/plugin-test/tidepool-remocn.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
+    }
+  },
+  {
+    "id": "uberscene",
+    "project_id": "uberscene",
+    "name": "uberscene",
+    "kind": "framework",
+    "url": "https://github.com/prefix-tree/uberscene",
+    "section": "Frameworks and Renderers",
+    "description": "One framework entry for uberscene from prefix-tree: a TSX file is the video, played and edited in the browser, and exported through headless Chrome by default. This catalog does not treat a no-FFmpeg path or experimental native codecs as a verified default. Do not merge it into Remotion, HyperFrames, html-video, motlab, or openmotion. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Bohdan Snisar; native codecs come from craft-libs (MIT OR Apache-2.0); loudness code is adapted from HyperFrames (Copyright 2026 HeyGen, Inc., Apache-2.0). Whether GSAP is a runtime dependency is not confirmed in this review. The catalog preview hotlinks the official in-repo product.webm; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-245"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-245.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/prefix-tree/uberscene/2717df7669ba557a0078386d003fd48aacd90daf/docs/public/playground/product.webm",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Bohdan Snisar. Native codecs come from craft-libs (MIT OR Apache-2.0). Loudness code is adapted from HyperFrames, Copyright 2026 HeyGen, Inc., Apache-2.0. This is not a HyperFrames distribution. Whether GSAP is a runtime dependency is not confirmed. Preview redistributability left false.",
+      "attribution": "Bohdan Snisar / prefix-tree (https://github.com/prefix-tree/uberscene; https://uberscene.prefixtree.xyz/). Official in-repo product.webm hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-245 https://raw.githubusercontent.com/prefix-tree/uberscene/2717df7669ba557a0078386d003fd48aacd90daf/docs/public/playground/product.webm. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
+    }
+  },
+  {
+    "id": "soundkit",
+    "project_id": "soundkit",
+    "name": "SoundKit",
+    "kind": "tool",
+    "url": "https://github.com/soundza/soundkit",
+    "section": "Motion Design Tools",
+    "description": "One tool entry for Soundza's SoundKit, a Remotion sound registry installed with the shadcn CLI, plus a skill for frame-accurate placement. Do not split the 250 sounds into separate entries, and do not merge this into snapcn or remocn. The license is not clean MIT and is not all CC0: the code is MIT, Copyright 2026 Soundza; the 250 in-repo sounds (225 effects and 25 music beds) are CC0 1.0; sounds the skill downloads from the wider Soundza library use the Soundza License, not CC0; Remotion's company terms still apply. An author claim that hits land within one frame is not a verified catalog result. The catalog preview hotlinks the official in-repo soundkit-demo.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-246"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-246.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/soundza/soundkit/3fcbafa6af0c4baa652e811a3348a4b9e585d079/assets/soundkit-demo.mp4",
+      "license": "Not clean MIT and not all CC0. Root LICENSE is standard MIT, Copyright (c) 2026 Soundza, covering code only. The 250 in-repo sounds (225 effects and 25 music beds) are CC0 1.0, including Soundza's edits. Sounds the skill downloads from the wider Soundza library use the Soundza License (https://soundza.com/license), which is not CC0. Remotion company terms still apply. The demo MP4 is not separately declared redistributable in LICENSE-AUDIO. Preview redistributability left false.",
+      "attribution": "Soundza (https://github.com/soundza/soundkit; https://soundza.com/soundkit). Official in-repo soundkit-demo.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-246 https://raw.githubusercontent.com/soundza/soundkit/3fcbafa6af0c4baa652e811a3348a4b9e585d079/assets/soundkit-demo.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
     }
   },
   {
