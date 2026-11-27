@@ -835,5 +835,192 @@
       "default_branch": "main"
     },
     "identity_checked_at": "2026-11-18"
+  },
+  {
+    "id": "motlab",
+    "name": "motlab",
+    "url": "https://github.com/staryone/motlab",
+    "aliases": [
+      "Motlab"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1460079213,
+      "full_name": "staryone/motlab",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-19"
+  },
+  {
+    "id": "claude-animation-base",
+    "name": "claude-animation-base",
+    "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+    "aliases": [
+      "Claude Animation Base",
+      "ClaudeAnimationBase"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1384159311,
+      "full_name": "JohnHeibel/ClaudeAnimationBase",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-19"
+  },
+  {
+    "id": "motionswift",
+    "name": "motionswift",
+    "url": "https://github.com/rxtech-lab/MotionSwift",
+    "aliases": [
+      "MotionSwift"
+    ],
+    "urls": [],
+    "github": {
+      "id": 1454698744,
+      "full_name": "rxtech-lab/MotionSwift",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-19"
+  },
+  {
+    "id": "mg-styles-15",
+    "name": "mg-styles-15",
+    "url": "https://github.com/Vincentwei1021/mg-styles-15",
+    "aliases": [],
+    "urls": [
+      "https://vincentwei1021.github.io/mg-styles-15/"
+    ],
+    "github": {
+      "id": 1401461555,
+      "full_name": "Vincentwei1021/mg-styles-15",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-23"
+  },
+  {
+    "id": "anidoodle",
+    "name": "anidoodle",
+    "url": "https://github.com/alexgreensh/anidoodle",
+    "aliases": [],
+    "urls": [
+      "https://alexgreenshpun.com"
+    ],
+    "github": {
+      "id": 1381356320,
+      "full_name": "alexgreensh/anidoodle",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-23"
+  },
+  {
+    "id": "claude-code-video-toolkit",
+    "name": "claude-code-video-toolkit",
+    "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+    "aliases": [
+      "Claude Code Video Toolkit"
+    ],
+    "urls": [
+      "https://digitalsamba.github.io/claude-code-video-toolkit/"
+    ],
+    "github": {
+      "id": 1113327297,
+      "full_name": "digitalsamba/claude-code-video-toolkit",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "remocn",
+    "name": "remocn",
+    "url": "https://github.com/Remocn/remocn",
+    "aliases": [
+      "Remocn"
+    ],
+    "urls": [
+      "https://remocn.dev"
+    ],
+    "github": {
+      "id": 1204316823,
+      "full_name": "Remocn/remocn",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "uberscene",
+    "name": "uberscene",
+    "url": "https://github.com/prefix-tree/uberscene",
+    "aliases": [],
+    "urls": [
+      "https://uberscene.prefixtree.xyz/"
+    ],
+    "github": {
+      "id": 1433333000,
+      "full_name": "prefix-tree/uberscene",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "soundkit",
+    "name": "soundkit",
+    "url": "https://github.com/soundza/soundkit",
+    "aliases": [
+      "SoundKit"
+    ],
+    "urls": [
+      "https://soundza.com/soundkit"
+    ],
+    "github": {
+      "id": 1411080026,
+      "full_name": "soundza/soundkit",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-25"
+  },
+  {
+    "id": "brag",
+    "name": "brag",
+    "url": "https://github.com/latent-spaces/brag",
+    "aliases": [
+      "shunithaviv",
+      "Shunit Haviv Hakimi"
+    ],
+    "urls": [
+      "https://latent-spaces.github.io/brag/",
+      "https://letsbrag.app/"
+    ],
+    "github": {
+      "id": 1271560627,
+      "full_name": "latent-spaces/brag",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-26"
+  },
+  {
+    "id": "tutorials-kit",
+    "name": "Tutorials Kit",
+    "url": "https://github.com/Side-Products/tutorials-kit",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1350451936,
+      "full_name": "Side-Products/tutorials-kit",
+      "default_branch": "master"
+    },
+    "identity_checked_at": "2026-11-26"
+  },
+  {
+    "id": "autocast",
+    "name": "Autocast",
+    "url": "https://github.com/nikhil-r0/autocast",
+    "aliases": [],
+    "urls": [],
+    "github": {
+      "id": 1459008953,
+      "full_name": "nikhil-r0/autocast",
+      "default_branch": "main"
+    },
+    "identity_checked_at": "2026-11-26"
   }
 ]

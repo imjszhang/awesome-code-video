@@ -19150,7 +19150,7 @@
     "kind": "tool",
     "url": "https://github.com/shadcn-labs/snapcn",
     "section": "Motion Design Tools",
-    "description": "Remotion component library installed through the shadcn CLI, for product-demo motion in a user's own Remotion project. This is a single tool entry and is not split into films or scenes by component. The public component count remains 待确认. The repository is MIT (Copyright Sri Nath (snap-cn)). This project is distinct from Remocn/remocn and is not an alias of it; Remocn is not in this catalog. Source-reviewed on 2026-11-17 at 18b973d7592adf2099a4d5cc2d8970862a4e1172. The catalog preview hotlinks https://media.snapcn.dev/site/hero.gif; it was not copied into this repository. Not render-tested.",
+    "description": "Remotion component library installed through the shadcn CLI, for product-demo motion in a user's own Remotion project. This is a single tool entry and is not split into films or scenes by component. The public component count remains 待确认. The repository is MIT (Copyright Sri Nath (snap-cn)). This project is distinct from Remocn/remocn and is not an alias of it. Source-reviewed on 2026-11-17 at 18b973d7592adf2099a4d5cc2d8970862a4e1172. The catalog preview hotlinks https://media.snapcn.dev/site/hero.gif; it was not copied into this repository. Not render-tested.",
     "evidence_ids": [
       "S-CV-234"
     ],
@@ -30547,6 +30547,330 @@
       "redistributable": false,
       "source": "S-CV-237 https://raw.githubusercontent.com/artemnovitckii/claude-animation-skills/86f70106c9aeae1334184467da5776c533ada3bc/docs/skills.jpg. Hotlink only; not copied into this repository. Not a local render test.",
       "checked_at": "2026-11-18"
+    }
+  },
+  {
+    "id": "motlab",
+    "project_id": "motlab",
+    "name": "motlab",
+    "kind": "framework",
+    "url": "https://github.com/staryone/motlab",
+    "section": "Frameworks and Renderers",
+    "description": "Open-source video-as-code engine from staryone. Each scene is a canvas page with one renderAt(t) function, exported to MP4 in headless Chrome with WebCodecs, and played in a review viewer. This is a single framework entry for the engine, the viewer, and the bundled motlab and motlab-assets skills; do not split those skills into separate entries. It is not a Remotion or HyperFrames plugin. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Stanyslaus Hary (motlab); Mediabunny, pulled at install, is MPL-2.0; optional scene libraries keep their own terms, including p5.js (LGPL-2.1) and GSAP/GreenSock. An author claim that it is faster than Remotion and HyperFrames is one scene on one Windows laptop, not a verified catalog result. The catalog preview hotlinks the official in-repo demo.avif; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-238"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-19",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, benchmark, and preview notes are in S-CV-238.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/staryone/motlab/9a44f752fc25e4016dd1a7632fdcb332111638c2/assets/demo.avif",
+      "license": "Not clean MIT. Root LICENSE is MIT, Copyright 2026 Stanyslaus Hary (motlab). Mediabunny, pulled at install, is MPL-2.0. Optional scene libraries keep their own terms, including p5.js (LGPL-2.1) and GSAP/GreenSock. Demo redistributability left false.",
+      "attribution": "staryone (https://github.com/staryone/motlab). Official in-repo demo.avif hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-238 https://raw.githubusercontent.com/staryone/motlab/9a44f752fc25e4016dd1a7632fdcb332111638c2/assets/demo.avif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-19"
+    }
+  },
+  {
+    "id": "claude-animation-base",
+    "project_id": "claude-animation-base",
+    "name": "claude-animation-base",
+    "kind": "workflow",
+    "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+    "section": "Production Workflows",
+    "description": "One workflow entry for this p5.js and p5.brush starter kit for hand-painted cartoon animation with a coding agent; do not split it into separate scenes or skills. It is a more general base extracted from the author's finished film repository PDoomVideo, and it must stay a separate catalog entry from that film and from the cataloged workflow claude-animation-skills. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 John Heibel; p5.js is LGPL-2.1; p5.brush is MIT. Clawd is the character in the kit; this catalog has not confirmed affiliation or permission to use the character. The catalog preview hotlinks docs/emotions.webp; it was not copied into this repository. The repository has no official committed MP4. ANIMATION_GUIDE.md does not complete the completeness trio. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-239"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-19",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, character, and relationship notes are in S-CV-239.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/JohnHeibel/ClaudeAnimationBase/0ac8bf2b31942376cb6b8c4074715595d512acd2/docs/emotions.webp",
+      "license": "Not clean MIT. Root LICENSE is MIT, Copyright 2026 John Heibel. p5.js is LGPL-2.1. p5.brush is MIT. Character-use permission is unconfirmed. Emotions-sheet redistributability left false.",
+      "attribution": "John Heibel (https://github.com/JohnHeibel/ClaudeAnimationBase). docs/emotions.webp hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-239 https://raw.githubusercontent.com/JohnHeibel/ClaudeAnimationBase/0ac8bf2b31942376cb6b8c4074715595d512acd2/docs/emotions.webp. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-19"
+    }
+  },
+  {
+    "id": "motionswift",
+    "project_id": "motionswift",
+    "name": "motionswift",
+    "kind": "framework",
+    "url": "https://github.com/rxtech-lab/MotionSwift",
+    "section": "Frameworks and Renderers",
+    "description": "Native Remotion-compatible renderer and editor from rxtech-lab, built with Swift, Skia, and Metal for macOS 14 and iOS 17. This is a single framework entry; do not split the bundled agent skill into a separate entry. It is not the cataloged Remotion project, and it is not a Remotion template pack. The authors say full Remotion compatibility is not there yet; this catalog records a documented subset, not a verified claim of 100% compatibility. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 MotionSwift contributors; third-party dependencies and bundled tools keep their own terms, including Yoga, Sparkle, Skia, tsgo, esbuild, and ffmpeg; Remotion's terms still apply and are not relicensed by this repository. The catalog preview hotlinks the official in-repo motionswift.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-240"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-19",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split, compatibility, and preview notes are in S-CV-240.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/rxtech-lab/MotionSwift/d5cd21c80f3b8ec435ae350f6f8a80b495ebbb38/docs/images/rendering/motionswift.mp4",
+      "license": "Not clean MIT. Root LICENSE is MIT, Copyright 2026 MotionSwift contributors. Yoga, Sparkle, Skia, tsgo, esbuild, and ffmpeg keep their own terms. Remotion's terms still apply and are not relicensed by this repository. Preview redistributability left false.",
+      "attribution": "rxtech-lab (https://github.com/rxtech-lab/MotionSwift). Muted hotlink of the official in-repo motionswift.mp4. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-240 https://raw.githubusercontent.com/rxtech-lab/MotionSwift/d5cd21c80f3b8ec435ae350f6f8a80b495ebbb38/docs/images/rendering/motionswift.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-19"
+    }
+  },
+  {
+    "id": "mg-styles-15",
+    "project_id": "mg-styles-15",
+    "name": "mg-styles-15",
+    "kind": "collection",
+    "url": "https://github.com/Vincentwei1021/mg-styles-15",
+    "section": "Related Lists",
+    "description": "Fifteen motion-design films, one style each, from Vincentwei1021, with the prompt and source for every film. Pictures are drawn in code (SVG, Canvas, WebGL, and Three.js; the 3D film also uses Blender), and soundtracks are synthesized in the repository. This is one collection entry for the 15-style pack; do not split it into fifteen style or film entries, and do not merge it into the cataloged Remotion shot templates from the same author at video-shotcraft. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Vincentwei1021; instrument samples (VCSL), the HDRI, the paper texture, photos, and Natural Earth map data in the HUD film are CC0 or public domain; highlight.min.js is BSD-3-Clause; glyph outlines from OFL fonts stay under the SIL Open Font License; font files are not in the repository and keep their own terms. The catalog preview hotlinks the official in-repo flat-vector MP4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-241"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-23",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-241.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/46fd009ff0988be7ab1d9a64dfe14e501c6c2521/videos/01-flat-vector.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Vincentwei1021. Instrument samples (VCSL), the HDRI, the paper texture, photos, and Natural Earth map data in the HUD film are CC0 or public domain. site/vendor/highlight.min.js is BSD-3-Clause. Glyph outlines in demos/04-3d-render/assets/mesh/ and demos/08-morph/glyphs.json stay under the SIL Open Font License. Font files are not in the repository and keep their own terms.",
+      "attribution": "Vincentwei1021 (https://github.com/Vincentwei1021/mg-styles-15). Official in-repo flat-vector MP4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-241 https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/46fd009ff0988be7ab1d9a64dfe14e501c6c2521/videos/01-flat-vector.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-23"
+    }
+  },
+  {
+    "id": "anidoodle",
+    "project_id": "anidoodle",
+    "name": "anidoodle",
+    "kind": "workflow",
+    "url": "https://github.com/alexgreensh/anidoodle",
+    "section": "Production Workflows",
+    "description": "One workflow entry for anidoodle from alexgreensh, a kit that writes illustrations, loops, and films as code, with a bundled engine and skill; do not split the 32 styles or the engine into separate entries. Marks and scores are written as functions, and four backends share one art core (Playwright, an HTML player, Remotion, and HyperFrames); this catalog does not treat that as a verified compatibility result. The license is Apache-2.0, Copyright 2026 Alex Greenshpun, and is not a complete grant by itself: an optional sound pack is installed from outside the repository (VCSL recordings are CC0; OpenAIR room impulses are CC BY 4.0 and need attribution); a van Gogh reference image in the repository is public domain and is not covered by the Apache license. An author claim that every render is identical is not a verified catalog result. The catalog preview hotlinks the official in-repo Mechanical Lepidoptera MP4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-242"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-23",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-242.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/alexgreensh/anidoodle/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/assets/mechanical-lepidoptera.mp4",
+      "license": "Apache-2.0, Copyright 2026 Alex Greenshpun, is not a complete grant by itself. An optional sound pack is not in the repository and is installed by skills/anidoodle/engine/tools/soundfetch.mjs (VCSL recordings are CC0 1.0; OpenAIR / University of York Audio Lab room impulses are CC BY 4.0 and redistribution must carry attribution). skills/anidoodle/engine/assets/refs/vangogh-almond-blossom.jpg is a public-domain reproduction of van Gogh's Almond Blossom (1890) and is not covered by the Apache grant.",
+      "attribution": "Alex Greenshpun (https://github.com/alexgreensh/anidoodle; https://alexgreenshpun.com). Official in-repo Mechanical Lepidoptera MP4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-242 https://raw.githubusercontent.com/alexgreensh/anidoodle/4ae27d2c281fcfd01bce87ab13dc5ad4df81a795/assets/mechanical-lepidoptera.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-23"
+    }
+  },
+  {
+    "id": "claude-code-video-toolkit",
+    "project_id": "claude-code-video-toolkit",
+    "name": "Claude Code Video Toolkit",
+    "kind": "workflow",
+    "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+    "section": "Production Workflows",
+    "description": "One workflow entry for Digital Samba's Claude Code video toolkit: it writes the script, voice, pictures, and a Remotion or MoviePy render from a prompt or a template. This single entry covers the templates, skills, and Python tools together; do not split the skills into separate entries, and do not merge it into the cataloged Remotion or Claude animation workflows. The license is not clean MIT: the root LICENSE is MIT, Copyright 2024 Digital Samba; Remotion's company terms still apply and are not relicensed by this repository; ElevenLabs and other cloud, model, and account services keep their own terms; optional Blender keeps its terms. An author-measured cost for a 90-second film is not a verified catalog result. The catalog preview hotlinks the official in-repo made-with.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-243"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-243.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/0dbebf625f19d5b078a4f4aae71cc038ef6a4a70/site/media/made-with.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2024 Digital Samba. Remotion company terms still apply if used to compose or export and are not relicensed by this repository. ElevenLabs and other cloud, model, and account services keep their own terms. Optional Blender keeps its terms. Preview redistributability left false.",
+      "attribution": "Digital Samba (https://github.com/digitalsamba/claude-code-video-toolkit; https://digitalsamba.github.io/claude-code-video-toolkit/). Official in-repo made-with.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-243 https://raw.githubusercontent.com/digitalsamba/claude-code-video-toolkit/0dbebf625f19d5b078a4f4aae71cc038ef6a4a70/site/media/made-with.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
+    }
+  },
+  {
+    "id": "remocn",
+    "project_id": "remocn",
+    "name": "Remocn",
+    "kind": "tool",
+    "url": "https://github.com/Remocn/remocn",
+    "section": "Motion Design Tools",
+    "description": "One tool entry for Remocn, a Remotion component registry with a Claude Code plugin, agent skill, and MCP server that plans a storyboard and installs components into a Remotion project. Do not split the component registry into many film entries, and do not merge this into the cataloged snapcn tool. Remotion is a prerequisite. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Remocn; Remotion's company terms still apply and are not relicensed by this repository; bundled Fontsource fonts keep their own terms. The catalog preview hotlinks the official in-repo tidepool-remocn.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-244"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-244.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/Remocn/remocn/b8ba8c384c2cd6e93eb83df1fbbdb23f640873c1/public/videos/plugin-test/tidepool-remocn.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Remocn. Remotion company terms still apply and are not relicensed by this repository. Bundled Fontsource fonts keep their own terms. Preview redistributability left false.",
+      "attribution": "Remocn (https://github.com/Remocn/remocn; https://remocn.dev). Official in-repo tidepool-remocn.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-244 https://raw.githubusercontent.com/Remocn/remocn/b8ba8c384c2cd6e93eb83df1fbbdb23f640873c1/public/videos/plugin-test/tidepool-remocn.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
+    }
+  },
+  {
+    "id": "uberscene",
+    "project_id": "uberscene",
+    "name": "uberscene",
+    "kind": "framework",
+    "url": "https://github.com/prefix-tree/uberscene",
+    "section": "Frameworks and Renderers",
+    "description": "One framework entry for uberscene from prefix-tree: a TSX file is the video, played and edited in the browser, and exported through headless Chrome by default. This catalog does not treat a no-FFmpeg path or experimental native codecs as a verified default. Do not merge it into Remotion, HyperFrames, html-video, motlab, or openmotion. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Bohdan Snisar; native codecs come from craft-libs (MIT OR Apache-2.0); loudness code is adapted from HyperFrames (Copyright 2026 HeyGen, Inc., Apache-2.0). Whether GSAP is a runtime dependency is not confirmed in this review. The catalog preview hotlinks the official in-repo product.webm; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-245"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-245.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/prefix-tree/uberscene/2717df7669ba557a0078386d003fd48aacd90daf/docs/public/playground/product.webm",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Bohdan Snisar. Native codecs come from craft-libs (MIT OR Apache-2.0). Loudness code is adapted from HyperFrames, Copyright 2026 HeyGen, Inc., Apache-2.0. This is not a HyperFrames distribution. Whether GSAP is a runtime dependency is not confirmed. Preview redistributability left false.",
+      "attribution": "Bohdan Snisar / prefix-tree (https://github.com/prefix-tree/uberscene; https://uberscene.prefixtree.xyz/). Official in-repo product.webm hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-245 https://raw.githubusercontent.com/prefix-tree/uberscene/2717df7669ba557a0078386d003fd48aacd90daf/docs/public/playground/product.webm. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
+    }
+  },
+  {
+    "id": "soundkit",
+    "project_id": "soundkit",
+    "name": "SoundKit",
+    "kind": "tool",
+    "url": "https://github.com/soundza/soundkit",
+    "section": "Motion Design Tools",
+    "description": "One tool entry for Soundza's SoundKit, a Remotion sound registry installed with the shadcn CLI, plus a skill for frame-accurate placement. Do not split the 250 sounds into separate entries, and do not merge this into snapcn or remocn. The license is not clean MIT and is not all CC0: the code is MIT, Copyright 2026 Soundza; the 250 in-repo sounds (225 effects and 25 music beds) are CC0 1.0; sounds the skill downloads from the wider Soundza library use the Soundza License, not CC0; Remotion's company terms still apply. An author claim that hits land within one frame is not a verified catalog result. The catalog preview hotlinks the official in-repo soundkit-demo.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-246"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-25",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-246.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/soundza/soundkit/3fcbafa6af0c4baa652e811a3348a4b9e585d079/assets/soundkit-demo.mp4",
+      "license": "Not clean MIT and not all CC0. Root LICENSE is standard MIT, Copyright (c) 2026 Soundza, covering code only. The 250 in-repo sounds (225 effects and 25 music beds) are CC0 1.0, including Soundza's edits. Sounds the skill downloads from the wider Soundza library use the Soundza License (https://soundza.com/license), which is not CC0. Remotion company terms still apply. The demo MP4 is not separately declared redistributable in LICENSE-AUDIO. Preview redistributability left false.",
+      "attribution": "Soundza (https://github.com/soundza/soundkit; https://soundza.com/soundkit). Official in-repo soundkit-demo.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-246 https://raw.githubusercontent.com/soundza/soundkit/3fcbafa6af0c4baa652e811a3348a4b9e585d079/assets/soundkit-demo.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-25"
+    }
+  },
+  {
+    "id": "brag",
+    "project_id": "brag",
+    "name": "brag",
+    "kind": "workflow",
+    "url": "https://github.com/latent-spaces/brag",
+    "section": "Production Workflows",
+    "description": "One workflow entry for brag, a Claude skill that turns a just-finished project into a short release video with motion, music, and share copy. The classic path hands a brief to the HyperFrames CLI; a slimmer path can run without HyperFrames. Do not merge this into the cataloged HyperFrames entry, or into other video workflow skills. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Shunit Haviv Hakimi; music from ende.app is CC BY 4.0 and needs attribution for commercial use; Kenney sound effects keep their own terms; HyperFrames terms still apply on the classic path and are not relicensed by this repository. The catalog preview hotlinks the official site brag-about-brag.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-247"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-26",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-247.",
+    "preview": {
+      "kind": "video",
+      "url": "https://latent-spaces.github.io/brag/assets/brag-about-brag.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Shunit Haviv Hakimi. Music from ende.app (Happy Beats / Business Moves) is CC BY 4.0 and commercial use needs attribution. Kenney sound effects keep their own terms. HyperFrames terms still apply on the classic path and are not relicensed by this repository. Preview redistributability left false.",
+      "attribution": "Shunit Haviv Hakimi / latent-spaces (https://github.com/latent-spaces/brag; https://latent-spaces.github.io/brag/; https://letsbrag.app/). Official site brag-about-brag.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-247 https://latent-spaces.github.io/brag/assets/brag-about-brag.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-26"
+    }
+  },
+  {
+    "id": "tutorials-kit",
+    "project_id": "tutorials-kit",
+    "name": "Tutorials Kit",
+    "kind": "workflow",
+    "url": "https://github.com/Side-Products/tutorials-kit",
+    "section": "Production Workflows",
+    "description": "One workflow entry for Tutorials Kit, which records browser steps with Playwright and renders a narrated tutorial video with Remotion, plus screenshots and docs. Do not merge this into autocast or into other Remotion workflow entries. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Side-Products and Tutorials Kit contributors; Remotion's company terms still apply and are not relicensed by this repository; Playwright, FFmpeg, and optional voice services keep their own terms. The catalog preview hotlinks the official in-repo tutorials-kit-demo.gif, which is silent; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-248"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-26",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-248.",
+    "preview": {
+      "kind": "thumb_link",
+      "url": "https://raw.githubusercontent.com/Side-Products/tutorials-kit/49a25ce01a1489eca44d18c388a2448634fd3a12/docs/assets/tutorials-kit-demo.gif",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Side-Products and Tutorials Kit contributors. Remotion company terms still apply and commercial use may need a separate purchase; they are not relicensed by this repository. Playwright, Sharp, FFmpeg, and optional OpenAI-compatible and ElevenLabs voice services keep their own terms. Faceless examples do not grant third-party brand, music, or voice rights. GIF redistributability left false.",
+      "attribution": "Side-Products (https://github.com/Side-Products/tutorials-kit). Official in-repo tutorials-kit-demo.gif hotlink. The GIF is silent. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-248 https://raw.githubusercontent.com/Side-Products/tutorials-kit/49a25ce01a1489eca44d18c388a2448634fd3a12/docs/assets/tutorials-kit-demo.gif. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-26"
+    }
+  },
+  {
+    "id": "autocast",
+    "project_id": "autocast",
+    "name": "Autocast",
+    "kind": "workflow",
+    "url": "https://github.com/nikhil-r0/autocast",
+    "section": "Production Workflows",
+    "description": "One workflow entry for Autocast, which verifies a real browser flow and then renders a product demo video with Playwright, Remotion, and optional Gemini or voice services. Do not merge this into tutorials-kit or into other Remotion workflow entries. The license is not clean MIT: the root LICENSE is MIT, Copyright 2026 Autocast AI contributors; Remotion's company terms still apply and are not relicensed by this repository; Playwright, Kane, Gemini, and optional voice services keep their own terms. Author claims about a verification or proof chain are not verified catalog results. The catalog preview hotlinks the official in-repo sample-demo.mp4; it was not copied into this repository. Not render-tested. The completeness trio is incomplete.",
+    "evidence_ids": [
+      "S-CV-249"
+    ],
+    "review": {
+      "level": "source-reviewed",
+      "reviewed_at": "2026-11-26",
+      "render_tested": false
+    },
+    "editorial_note": "Suggested video uses are curator assessments, not upstream guarantees. The preview was hotlinked, not copied, and this entry was not render-tested. License-split and preview notes are in S-CV-249.",
+    "preview": {
+      "kind": "video",
+      "url": "https://raw.githubusercontent.com/nikhil-r0/autocast/e3a89b28cdaa59b93bcc0ff847478d398956f571/examples/output/sample-demo.mp4",
+      "license": "Not clean MIT. Root LICENSE is standard MIT, Copyright (c) 2026 Autocast AI contributors. Remotion company terms still apply and are not relicensed by this repository. Playwright, Kane CLI / LambdaTest hosted-report terms, Google Gemini, and ElevenLabs keep their own terms. Preview redistributability left false.",
+      "attribution": "nikhil-r0 (https://github.com/nikhil-r0/autocast). Official in-repo sample-demo.mp4 hotlink. Redistributability left false.",
+      "redistributable": false,
+      "source": "S-CV-249 https://raw.githubusercontent.com/nikhil-r0/autocast/e3a89b28cdaa59b93bcc0ff847478d398956f571/examples/output/sample-demo.mp4. Hotlink only; not copied into this repository. Not a local render test.",
+      "checked_at": "2026-11-26"
     }
   }
 ]
